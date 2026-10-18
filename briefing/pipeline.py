@@ -95,6 +95,8 @@ def build_day(d: date) -> dict:
         categories.append({"key": cat["key"], "name": cat["name"],
                            "collected": len(cat_items), "issues": issues})
         print(f"{cat['name']}: 기사 {len(cat_items)}건 → 이슈 {len(issues)}개, 요약 {len(summaries)}개")
+        for n, it in enumerate(issues, 1):  # 실행 로그로 품질 확인용 (자체 요약만, 기사 설명문 아님)
+            print(f"  {n:>2}. [중요도 {it['importance']}] {it['title']} — {(it['summary'] or '(요약 없음)')[:150]}")
 
     result = {
         "date": d.isoformat(),
