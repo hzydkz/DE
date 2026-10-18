@@ -11,7 +11,7 @@
 - 단계별로 작업하고, 단계가 끝나면 멈춰서 확인을 요청한다.
 
 ## 구조
-- `briefing/collect.py` 수집 → `.cache/raw.json` 버퍼(Actions 캐시에 보관, 하루 4회 누적)
+- `briefing/collect.py` 수집 → `.cache/raw.json` 버퍼(Actions 캐시에 보관, 2시간마다 누적)
 - `briefing/cluster.py` 중복 제거·클러스터링·순위 (LLM 없음, 임계값은 파일 상단 상수)
 - `briefing/summarize.py` LLM 요약 (제공자: `BRIEFING_LLM_PROVIDER` = github | gemini | none)
 - `briefing/pipeline.py` 전날 창 → `data/YYYY-MM-DD.json`

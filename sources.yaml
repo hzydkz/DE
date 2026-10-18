@@ -1,6 +1,7 @@
 # 수집 소스 목록.
 # 아래 URL은 기억 기반 후보다. `python -m briefing verify` (또는 verify 워크플로)로
 # 실제 동작 여부를 확인하고, 죽은 소스는 enabled: false 로 끄거나 지운다.
+# 한겨레는 자체 RSS 주소(/rss/...)가 0건을 돌려줘서 Google 뉴스 site: 검색 RSS 로 대신한다.
 #
 # type:
 #   rss     - 일반 RSS/Atom
@@ -28,7 +29,7 @@ categories:
 sources:
   # ---- 종합 (통신사 + 성향이 다른 일간지 + 포털 토픽) ----
   - {id: yna-all, name: 연합뉴스, category: general, type: rss, url: "https://www.yna.co.kr/rss/news.xml"}
-  - {id: hani-all, name: 한겨레, category: general, type: rss, url: "https://www.hani.co.kr/rss/"}
+  - {id: hani-all, name: 한겨레, category: general, type: gnews, url: "https://news.google.com/rss/search?q=site:hani.co.kr+when:1d&hl=ko&gl=KR&ceid=KR:ko"}
   - {id: khan-all, name: 경향신문, category: general, type: rss, url: "https://www.khan.co.kr/rss/rssdata/total_news.xml"}
   - {id: chosun-all, name: 조선일보, category: general, type: rss, url: "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml"}
   - {id: donga-all, name: 동아일보, category: general, type: rss, url: "https://rss.donga.com/total.xml"}
@@ -36,7 +37,7 @@ sources:
 
   # ---- 정치 (진보·보수·통신사 균형) ----
   - {id: yna-politics, name: 연합뉴스, category: politics, type: rss, url: "https://www.yna.co.kr/rss/politics.xml"}
-  - {id: hani-politics, name: 한겨레, category: politics, type: rss, url: "https://www.hani.co.kr/rss/politics/"}
+  - {id: hani-politics, name: 한겨레, category: politics, type: gnews, url: "https://news.google.com/rss/search?q=site:hani.co.kr/arti/politics+when:1d&hl=ko&gl=KR&ceid=KR:ko"}
   - {id: khan-politics, name: 경향신문, category: politics, type: rss, url: "https://www.khan.co.kr/rss/rssdata/politic_news.xml"}
   - {id: chosun-politics, name: 조선일보, category: politics, type: rss, url: "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml"}
   - {id: donga-politics, name: 동아일보, category: politics, type: rss, url: "https://rss.donga.com/politics.xml"}
@@ -45,7 +46,7 @@ sources:
   - {id: yna-economy, name: 연합뉴스, category: economy, type: rss, url: "https://www.yna.co.kr/rss/economy.xml"}
   - {id: hankyung-economy, name: 한국경제, category: economy, type: rss, url: "https://www.hankyung.com/feed/economy"}
   - {id: mk-economy, name: 매일경제, category: economy, type: rss, url: "https://www.mk.co.kr/rss/30100041/"}
-  - {id: hani-economy, name: 한겨레, category: economy, type: rss, url: "https://www.hani.co.kr/rss/economy/"}
+  - {id: hani-economy, name: 한겨레, category: economy, type: gnews, url: "https://news.google.com/rss/search?q=site:hani.co.kr/arti/economy+when:1d&hl=ko&gl=KR&ceid=KR:ko"}
   - {id: chosun-economy, name: 조선일보, category: economy, type: rss, url: "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml"}
   - {id: gnews-kr-business, name: Google 뉴스, category: economy, type: gnews, url: "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko"}
 

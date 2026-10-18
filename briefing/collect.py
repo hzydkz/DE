@@ -197,7 +197,11 @@ FETCHERS = {"rss": fetch_rss, "gnews": fetch_gnews, "trends": fetch_trends,
 
 
 def fetch_source(src: dict) -> list[Item]:
-    return FETCHERS[src["type"]](src)
+    items = FETCHERS[src["type"]](src)
+    if not items and src["type"] in ("rss", "gnews", "trends"):
+        # 피드 주소가 바뀌면 HTML 이 와서 '0건 성공'처럼 보이므로 실패로 친다
+        raise ValueError("항목 0건 (피드 주소 확인 필요)")
+    return items
 
 
 def collect() -> dict:

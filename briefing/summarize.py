@@ -117,8 +117,13 @@ class Summarizer:
             timeout=120,
         )
         r.raise_for_status()
-        content = r.json()["choices"][0]["message"]["content"]
-        return json.loads(_strip_fence(content))
+        try:
+            content = r.json()["choices"][0]["message"]["content"]
+            return json.loads(_strip_fence(content or ""))
+        except (ValueError, KeyError, IndexError, TypeError) as e:
+            # 원인 파악용: 응답 앞부분만 남긴다 (입력 기사 내용은 남기지 않음)
+            ctype = r.headers.get("content-type", "")
+            raise ValueError(f"{type(e).__name__}; HTTP {r.status_code} {ctype}; body={r.text[:300]!r}") from e
 
 
 def _strip_fence(s: str) -> str:
