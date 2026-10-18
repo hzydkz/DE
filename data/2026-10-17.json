@@ -1,26 +1,20 @@
 {
  "date": "2026-10-17",
- "generated_at": "2026-10-18T10:17:38.672530+00:00",
- "model": "none",
- "llm_calls": 0,
+ "generated_at": "2026-10-18T10:37:28.571415+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 7,
  "llm_errors": [],
- "failed_sources": [
-  {
-   "id": "etnews",
-   "name": "전자신문",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='rss.etnews.com', port=443): Max retries exceeded with url: /Section901.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='rss.etnews.com', port=443) at 0x7f0587e93980>, 'Connection to rss.etnews.com timed out. (connect timeout=20)'))"
-  }
- ],
+ "failed_sources": [],
  "categories": [
   {
    "key": "general",
    "name": "종합",
-   "collected": 22,
+   "collected": 24,
    "issues": [
     {
-     "title": "인천 항동7가 수산물 창고서 불‥인명피해 없어",
-     "summary": null,
-     "ai": false,
+     "title": "인천 항동7가 수산물 창고서 화재 발생",
+     "summary": "인천 항동7가에 위치한 한 수산물 창고에서 불이 났다. 이번 화재로 인한 인명피해는 발생하지 않은 것으로 확인됐다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -32,9 +26,9 @@
      ]
     },
     {
-     "title": "임은정은 중수청장의 자격을 말했을 뿐이다 [아침햇발]",
-     "summary": null,
-     "ai": false,
+     "title": "임은정 검사의 중수청장 자격 발언 논란",
+     "summary": "임은정 검사가 중대범죄수사청장의 자격에 대해 언급한 내용이 다뤄졌다. 관련 보도에서는 그가 중수청장의 자격을 말했을 뿐이라는 점이 전해졌다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -46,9 +40,9 @@
      ]
     },
     {
-     "title": "전북도 가뭄 지속…하천도, 저수지도 바닥 드러내",
-     "summary": null,
-     "ai": false,
+     "title": "전북 지역 가뭄 지속으로 하천·저수지 바닥 드러내",
+     "summary": "전라북도 지역에서 가뭄 현상이 계속 이어지고 있다. 가뭄이 지속되면서 관내 하천과 저수지가 바닥을 드러내고 있는 상황이다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -60,9 +54,9 @@
      ]
     },
     {
-     "title": "당첨금 18억8000만원씩, 로또 1등 16명…‘16, 22, 23, 24, 27, 28’",
-     "summary": null,
-     "ai": false,
+     "title": "로또 1등 16명 당첨돼 각 18억8000만원 수령",
+     "summary": "로또 추첨 결과 1등 당첨 번호는 '16, 22, 23, 24, 27, 28'로 결정됐다. 이번 회차 1등 당첨자는 총 16명으로 집계됐다. 당첨자들은 각각 18억8000만 원씩의 당첨금을 받게 된다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -74,9 +68,9 @@
      ]
     },
     {
-     "title": "강원 양양 동산항 앞바다에서 60대 다이버 실종…내일 수색 재개",
-     "summary": null,
-     "ai": false,
+     "title": "강원 양양 동산항 앞바다서 60대 다이버 실종",
+     "summary": "강원도 양양군 동산항 앞바다에서 60대 다이버 1명이 실종됐다. 실종자 수색 작업은 다음 날 다시 재개될 예정이다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -88,9 +82,9 @@
      ]
     },
     {
-     "title": "’이천 심야 차량습격’ 미제 사건 외국인 용의자 1명 검거",
-     "summary": null,
-     "ai": false,
+     "title": "경찰, '이천 심야 차량습격' 외국인 용의자 1명 검거",
+     "summary": "미제 사건으로 남아 있던 '이천 심야 차량습격' 사건의 외국인 용의자 1명이 검거됐다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -102,9 +96,9 @@
      ]
     },
     {
-     "title": "'너무 징그러워요'…파로호서 발견된 괴물 덩어리에 '경악'",
-     "summary": null,
-     "ai": false,
+     "title": "파로호서 정체불명의 괴물 덩어리 발견돼",
+     "summary": "파로호에서 괴물 덩어리로 불리는 정체불명의 물체가 발견됐다. 해당 물체의 기괴한 모습에 사람들의 반응이 전해졌다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -123,9 +117,9 @@
    "collected": 76,
    "issues": [
     {
-     "title": "정부, 日다카이치 야스쿠니 공물 봉납에 \"실망과 유감\"",
-     "summary": null,
-     "ai": false,
+     "title": "정부, 日 다카이치 총리 야스쿠니 공물 봉납에 유감 표명",
+     "summary": "정부는 17일 다카이치 사나에 일본 총리의 야스쿠니 신사 공물 봉납에 대해 깊은 실망과 유감을 표명했다. 외교부는 대변인 명의 논평을 통해 일본의 과거 침략전쟁을 미화하고 전쟁범죄자를 합사한 야스쿠니 신사에 지도급 인사들이 공물을 봉납하거나 참배를 되풀이한 점을 지적했다. 아울러 일본 측에 진정한 반성을 촉구했다.",
+     "ai": true,
      "article_count": 5,
      "source_count": 4,
      "links": [
@@ -157,9 +151,9 @@
      ]
     },
     {
-     "title": "[속보]李, 부천 순직 소방관 조문…“님의 희생을 영원히 기억”",
-     "summary": null,
-     "ai": false,
+     "title": "이재명 대통령, 부천 화재 순직 소방관 빈소 조문",
+     "summary": "이재명 대통령은 17일 경기도 순천향대학교 부천병원 장례식장에 마련된 고(故) 김진석 소방위의 빈소를 찾아 조문했다. 이 대통령은 영정 앞에 옥조근정훈장을 올리고 유가족을 위로하며 고인의 희생을 영원히 기억하겠다고 밝혔다. 김 소방위는 부천 공장 화재 진압 중 순직했다.",
+     "ai": true,
      "article_count": 4,
      "source_count": 4,
      "links": [
@@ -186,9 +180,9 @@
      ]
     },
     {
-     "title": "與, 추미애 ‘재정 빨대’ 발언 또 사과… 秋는 “순직 소방관 애도”",
-     "summary": null,
-     "ai": false,
+     "title": "추미애 경기지사, '소방 재정 빨대' 발언 공식 사과",
+     "summary": "추미애 경기도지사가 17일 '소방 재정 빨대' 발언 논란에 대해 공식 사과했다. 추 지사는 지난 13일 경기도 국정감사장에서 해당 발언을 한 지 나흘 만에 고(故) 김진석 소방위 빈소 앞에서 사과의 뜻을 밝혔다. 추 지사는 자신의 의도와 다르게 전달됐으며 소방관을 폄훼할 의도는 전혀 없었다고 해명했다.",
+     "ai": true,
      "article_count": 3,
      "source_count": 2,
      "links": [
@@ -210,9 +204,9 @@
      ]
     },
     {
-     "title": "여야, 부천 화재 소방관 순직 애도…'소방 처우 개선'도 약속",
-     "summary": null,
-     "ai": false,
+     "title": "정치권, 부천 공장 화재 순직 소방관 애도 및 처우 개선 약속",
+     "summary": "여야는 17일 경기도 부천 공장 화재 진압 중 순직한 고(故) 김진석 소방위에 대해 애도를 표했다. 조국혁신당을 비롯한 각 당은 숭고한 희생과 헌신에 경의를 표하며 소방공무원의 안전과 처우 개선 노력을 약속했다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -229,9 +223,9 @@
      ]
     },
     {
-     "title": "“순직 소방관 딸이 일곱살”... 李대통령 말 잇지 못했다",
-     "summary": null,
-     "ai": false,
+     "title": "이재명 대통령, 순직 소방관 빈소 방문해 유가족 위로",
+     "summary": "이재명 대통령은 17일 부천 공장 화재 진압 중 순직한 고 김진석 소방위의 빈소를 방문해 옥조근정훈장을 추서했다. 이 대통령은 순천향대 부천병원 장례식장을 찾아 조문하던 중 고인의 딸이 7살이라는 답변을 듣고 말을 잇지 못하는 모습을 보였다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -248,9 +242,9 @@
      ]
     },
     {
-     "title": "국힘 “사과를 바라시니까?…추미애 발언에 귀를 의심”",
-     "summary": null,
-     "ai": false,
+     "title": "국민의힘, 추미애 경기지사의 소방관 빈소 사과 발언 비판",
+     "summary": "국민의힘은 추미애 경기도지사가 순직 소방관 빈소에서 '사과를 바라시니까 사과드린다'고 언급한 것을 두고 비판했다. 국민의힘 박성훈 수석대변인은 17일 논평을 내고 추 지사가 끝까지 오만했다며 빈소에서 변명을 늘어놓았다고 지적했다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -267,9 +261,9 @@
      ]
     },
     {
-     "title": "‘서해 공무원 피격사건’ 전현희·노영민·이인영 불기소···고발 이후 4년만",
-     "summary": null,
-     "ai": false,
+     "title": "검찰, '서해 공무원 피격' 전현희·노영민 등 불기소 처분",
+     "summary": "검찰이 '서해 공무원 피격 사건'과 관련해 고(故) 이대준 씨 유족으로부터 고발당한 인사들을 불기소 처분했다. 서울중앙지검 공공수사1부는 노영민 전 대통령 비서실장과 전현희 전 국민권익위원장, 이인영, 김홍희 등에 대해 혐의가 없다고 판단해 불기소 처분을 내렸다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -290,12 +284,12 @@
   {
    "key": "economy",
    "name": "경제",
-   "collected": 51,
+   "collected": 52,
    "issues": [
     {
-     "title": "국내 기름값 22주 연속 하락…휘발유·경유 1천800원대 지속",
-     "summary": null,
-     "ai": false,
+     "title": "국내 주유소 기름값 22주 연속 하락세",
+     "summary": "전국 주유소 기름값이 지난주보다 소폭 내리며 22주 연속 하락세를 이어갔다. 휘발유와 경유 가격은 1천800원대를 지속하고 있다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -312,9 +306,9 @@
      ]
     },
     {
-     "title": "\"빈 방을 여행자와 삶 나누는 공간으로\"…두 '해녀'의 도전",
-     "summary": null,
-     "ai": false,
+     "title": "두 해녀의 빈 방 공유 공간 도전",
+     "summary": "두 명의 해녀가 빈 방을 여행자와 삶을 나누는 공간으로 활용하는 도전에 나섰다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -326,9 +320,9 @@
      ]
     },
     {
-     "title": "“보험 어디서 들까?” 물어보니…AI가 꼽은 ‘1등 금융사’는 어디",
-     "summary": null,
-     "ai": false,
+     "title": "생성형 AI 추천 금융사와 실제 시장의 차이",
+     "summary": "생성형 AI에게 금융상품을 문의했을 때 추천되는 금융사 결과가 실제 시장 비중과 차이를 보였다. 이는 금융사의 자체 콘텐츠와 상품 설명 등의 영향을 받는 것으로 나타났다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -340,9 +334,9 @@
      ]
     },
     {
-     "title": "'한국에 쇼핑하러 오길 잘했네'…외국인 관광객들 '감탄' [류은혁의 유통기한]",
-     "summary": null,
-     "ai": false,
+     "title": "외국인 관광객의 한국 쇼핑 경험 호평",
+     "summary": "한국을 찾은 외국인 관광객들이 쇼핑 경험에 대해 긍정적인 반응을 보였다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -354,9 +348,9 @@
      ]
     },
     {
-     "title": "“지키자 내 돈”…코스피 불안에 예금·IMA로 ‘역 머니무브’",
-     "summary": null,
-     "ai": false,
+     "title": "코스피 불안에 예금과 IMA로 자금 이동",
+     "summary": "코스피 시장의 불안이 이어지면서 자금을 지키려는 움직임이 나타났다. 이에 따라 예금과 IMA 등으로 자금이 향하는 역 머니무브 현상이 확인되었다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -368,9 +362,9 @@
      ]
     },
     {
-     "title": "한은 총재 \"화폐의 단일성 중요…한은금융망 국제화 추진\"",
-     "summary": null,
-     "ai": false,
+     "title": "한국은행 국경 간 결제 위한 금융망 국제화 추진",
+     "summary": "신현송 한국은행 총재가 국경 간 지급결제 시스템 개선을 위한 한은금융망의 국제화 구상을 소개했다. 이와 함께 화폐의 단일성이 중요하다는 점을 강조했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -382,9 +376,9 @@
      ]
     },
     {
-     "title": "“실손보험료 낮춰 볼까”…할인형 특약과 세대 전환 다음 달 도입 앞둬",
-     "summary": null,
-     "ai": false,
+     "title": "실손보험료 부담 완화 할인형 특약 다음 달 도입",
+     "summary": "다음 달 1~2세대 초기 실손보험 가입자의 보험료 부담을 낮추기 위한 선택형 할인 특약과 세대 전환이 도입된다. 비급여 보장을 제외해 보험료를 낮추거나 5세대로 전환 시 일정 기간 할인을 받을 수 있다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -403,9 +397,9 @@
    "collected": 63,
    "issues": [
     {
-     "title": "US Rep Announces Congressional Legislation to Protect Video Game Ownership",
-     "summary": null,
-     "ai": false,
+     "title": "미 하원의원 비디오 게임 소유권 보호 법안 발의",
+     "summary": "미국 하원의원이 비디오 게임 구매자에게 단순 '라이선스'가 아닌 '소유권'을 보장하는 의회 법안을 발표했다. 이번 법안은 비디오 게임 소유권을 보호하기 위해 발의되었다. 다만 기술적 및 입법적으로 여전히 상당한 난관이 남아 있는 것으로 전해졌다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -422,9 +416,9 @@
      ]
     },
     {
-     "title": "Claude reveals ECDSA curve origins",
-     "summary": null,
-     "ai": false,
+     "title": "클로드의 ECDSA 곡선 출처 규명 관련 게시글 화제",
+     "summary": "AI 모델 클로드(Claude)가 ECDSA 곡선의 출처를 규명했다는 소식이 해커뉴스에 공유되었다. 해당 게시물은 해커뉴스에서 1037점과 댓글 383개를 기록했다. 상세 내용은 전해지지 않았다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -436,9 +430,9 @@
      ]
     },
     {
-     "title": "DeepSeek-v4.1-Flash-1017",
-     "summary": null,
-     "ai": false,
+     "title": "DeepSeek-v4.1-Flash-1017 관련 게시글 주목",
+     "summary": "DeepSeek-v4.1-Flash-1017에 관한 소식이 해커뉴스에 게시되었다. 해당 글은 해커뉴스에서 865점과 댓글 656개를 기록했다. 구체적인 세부 사항은 공유되지 않았다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -450,9 +444,9 @@
      ]
     },
     {
-     "title": "Solar surpasses nuclear power globally for first time",
-     "summary": null,
-     "ai": false,
+     "title": "전 세계 태양광 발전량 사상 처음으로 원자력 추월",
+     "summary": "전 세계 태양광 발전량이 처음으로 원자력 발전을 넘어섰다는 소식이 전해졌다. 이와 관련된 내용이 해커뉴스에 공유되었다. 해당 글은 618점과 댓글 383개를 기록했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -464,9 +458,9 @@
      ]
     },
     {
-     "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-     "summary": null,
-     "ai": false,
+     "title": "미국 노동 시간 90% AI 벤치마크 미적용 업무에 사용",
+     "summary": "미국 내 노동 시간의 90%가 AI 벤치마크에서 제대로 다루어지지 않는 업무에 쓰이고 있다는 내용이 게시되었다. 해당 소식은 해커뉴스에서 점수 610점을 받았다. 관련 댓글은 552개가 달렸다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -478,9 +472,9 @@
      ]
     },
     {
-     "title": "You could have invented transformers from memory",
-     "summary": null,
-     "ai": false,
+     "title": "트랜스포머 모델 발명 관련 기술 글 공유",
+     "summary": "기억을 바탕으로 트랜스포머(transformers)를 발명할 수 있었을 것이라는 취지의 글이 해커뉴스에 게시되었다. 해당 게시물은 567점과 127개의 댓글을 기록했다. 추가적인 상세 정보는 언급되지 않았다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -492,9 +486,9 @@
      ]
     },
     {
-     "title": "Bleached corals thrive within days when touching healthy neighbour",
-     "summary": null,
-     "ai": false,
+     "title": "백화된 산호 건강한 산호 접촉 시 수일 내 회복",
+     "summary": "백화된 산호가 건강한 이웃 산호와 접촉했을 때 며칠 만에 잘 자라난다는 연구 내용이 전해졌다. 관련 소식은 해커뉴스에 공유되었다. 해당 게시글은 465점과 댓글 99개를 기록했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -510,19 +504,24 @@
   {
    "key": "world",
    "name": "해외",
-   "collected": 104,
+   "collected": 110,
    "issues": [
     {
-     "title": "젤렌스키 \"G20 정상회의 기간에 美·러와 3자 회담 희망\"",
-     "summary": null,
-     "ai": false,
-     "article_count": 2,
-     "source_count": 2,
+     "title": "젤렌스키, G20 계기 미·러 3자 회담 희망 표명",
+     "summary": "볼로디미르 젤렌스키 우크라이나 대통령이 미국에서 열리는 주요 20개국(G20) 정상회의 기간에 미국, 러시아와의 3자 회담을 희망한다는 입장을 밝혔다. 젤렌스키 대통령은 해당 기간 중 3자 회담 가능성을 언급했다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
      "links": [
       {
        "title": "젤렌스키 \"G20 정상회의 기간에 美·러와 3자 회담 희망\"",
        "url": "https://www.yna.co.kr/view/AKR20261017047700079",
        "source": "연합뉴스"
+      },
+      {
+       "title": "젤렌스키 \"G20 정상회의 기간에 미·러와 3자 회담 희망\"",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzdzhGZmxzQWh6TmY0amtiQUVOQ0RGRHVObHpRaDctWlpwYmFZTnlaOWNDdDRBWGJ1N2pqUnlDY2ZUTFdQTE1yS1h1WkZfYzExUEJCcmZHVVV5NFp3S09jVm55RnhMRjZQN2RKOEFzWXNXdHFo0gF0QVVfeXFMTnBXdzdQRTB1MjlUWmplWUVYQ3JoNkhmZk83NzlyY0xDV3F1QlZZZ1lZYTJkbEdNMmtkRVMzRFZwcXBOSEV6M0tPMTUxd3BKYnowTDZRelZrSVBCODJsVVd6RUdyYVpyUnJOX0JVNXRYMGFCcDg?oc=5",
+       "source": "MBC 뉴스"
       },
       {
        "title": "젤렌스키 \"G20 정상회의 기간, 美·러와 3자 회담 가능성\"",
@@ -532,11 +531,11 @@
      ]
     },
     {
-     "title": "'악마의 바람'에 美캘리포니아 산불 확산…주민 1만6천명 대피령",
-     "summary": null,
-     "ai": false,
-     "article_count": 2,
-     "source_count": 2,
+     "title": "미 캘리포니아 산불 확산으로 주민 1만6천 명 대피령",
+     "summary": "미국 캘리포니아주 오렌지카운티에서 16일 강풍을 타고 산불이 빠르게 확산했다. 이번 산불로 주택 여러 채가 피해를 입었으며 진화에 난항을 겪고 있다. 이에 따라 당국은 현지 주민 1만6천 명에게 대피령을 발령했다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
      "links": [
       {
        "title": "'악마의 바람'에 美캘리포니아 산불 확산…주민 1만6천명 대피령",
@@ -547,13 +546,18 @@
        "title": "美 캘리포니아 산불, 강풍에 진화 난항… 주민 1만6000명 대피령 발령 - 조선비즈",
        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ0tkN3p5dDlnQ19iUGxEQ1o4ODNqemZOeFQtajVoMVZyV1hFYy1mZ2RjR2xsQU5kUlRsWEg5TVFWSGZTaFVfQVVDUWstMkt1czBJeG55dldlWnRtS181VHFmN2tSakF4UXZiMXdLaE1xbzhTemhpZ0NNRFhQblZUMEo2MnJmQnNyLTd0ZHM0d2F6blhGa0dzR2UxZFlhZ9IBsgFBVV95cUxNMWZONkgzdlBtVVlBb2FTTVJoVk5BRXRDRVJBVUltcFp6ZHdxZ1dHNjh1UEdzSzZhc0JfWngzaWhBclk2dk5BZ0hjMDB0YTBnOS1xb0M4VkViaTI3SWo2VFd3MHVETXlTYlpyQlVFQmEyLTU4T0dtZjkzOHAxd2FGRWhyaDhyWEYwaFBONG9qMEJRM18tcHFuakFHRmRKNTVhQlByUU9MdDVIV0poZ2lfYU5R?oc=5",
        "source": "Chosunbiz"
+      },
+      {
+       "title": "“주민 1만6천명 대피령 떨어졌다”…‘악마의 바람’ 산불에 캘리포니아 ‘발칵’",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMTzA5YVU2STlHUE0tejZic3ZvMW1mUWdpdkxmUERyU2xIXzRkc0N0Q0hQYjlUVVhIek4tUklNVHNGbFNZNk1HUnBXdnMtYWZNY1E?oc=5",
+       "source": "매일경제"
       }
      ]
     },
     {
-     "title": "EU, 우크라 회원국 합류 공동 TF 출범…\"가입 절차에 속도\"",
-     "summary": null,
-     "ai": false,
+     "title": "EU, 우크라이나 가입 속도 내기 위한 공동 TF 출범",
+     "summary": "우크라이나의 유럽연합(EU) 가입 절차를 신속히 추진하기 위한 공동 태스크포스(TF)가 출범했다. 해당 기구는 우크라이나의 회원국 합류 절차에 속도를 내기 위해 마련되었다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -570,9 +574,9 @@
      ]
     },
     {
-     "title": "美오리건 초교 총격범은 16세 졸업생…학부모가 쏜 총탄에 사망",
-     "summary": null,
-     "ai": false,
+     "title": "미 오리건주 초등학교서 16세 졸업생 총격 후 사망",
+     "summary": "미국 오리건주 실버레일 초등학교에서 총기 난사 사건이 발생했다. 범인은 해당 학교를 졸업한 16세 청소년인 것으로 확인됐다. 범인은 학부모가 쏜 총탄에 맞아 사망했다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -589,9 +593,9 @@
      ]
     },
     {
-     "title": "국제이주기구 \"남아시아 기후변화로 2050년까지 4천만명 이주\"",
-     "summary": null,
-     "ai": false,
+     "title": "국제이주기구, 2050년까지 남아시아 4천만 명 기후 이주 전망",
+     "summary": "국제이주기구(IOM)는 기후변화 영향으로 남아시아 지역에서 강제 이주가 발생할 것이라고 경고했다. 기구에 따르면 오는 2050년까지 4천만 명이 강제로 이주해야 하는 상황에 직면할 것으로 전망됐다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -608,9 +612,9 @@
      ]
     },
     {
-     "title": "사우디 해상서 유조선, 미확인 발사체에 피격…\"승무원 대피\"",
-     "summary": null,
-     "ai": false,
+     "title": "사우디 해상서 유조선 미확인 발사체 피격…승무원 대피",
+     "summary": "영국 해사무역기구(UKMTO)에 따르면 사우디아라비아 주베일 북동쪽 해상에서 유조선 한 척이 미확인 발사체에 피격됐다. 피격 후 승무원들은 대피했으며 인명피해는 발생하지 않은 것으로 알려졌다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -627,9 +631,9 @@
      ]
     },
     {
-     "title": "'최악 산불' 인니서 진화작업 중 소방관 등 4명 사망·2명 화상",
-     "summary": null,
-     "ai": false,
+     "title": "인도네시아 산불 진화 중 소방관 등 4명 숨지고 2명 다쳐",
+     "summary": "11년 만에 최악의 산불이 발생한 인도네시아에서 진화 작업 도중 인명 피해가 발생했다. 현장에서 불을 끄던 소방관과 공무원 등 4명이 숨졌다. 또한 2명이 화상 등 부상을 입었다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 2,
      "links": [
@@ -653,9 +657,9 @@
    "collected": 6,
    "issues": [
     {
-     "title": "Firefighters Block Choo Mi-ae, Demand Apology at Funeral Visit",
-     "summary": null,
-     "ai": false,
+     "title": "소방관들이 추미애 조문 막고 사과 요구",
+     "summary": "레딧 r/korea에 소방관들이 추미애의 장례식장 조문을 막아서고 사과를 요구했다는 게시물이 올라왔다. 해당 게시물은 /u/Saltedline 사용자가 등록했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -667,9 +671,9 @@
      ]
     },
     {
-     "title": "'Pray for wealth': Seoul Buddhist temple becomes Gen Z hot spot",
-     "summary": null,
-     "ai": false,
+     "title": "부자 기원 서울 사찰 Z세대 명소로 부상",
+     "summary": "레딧 r/korea에 재물을 기원하는 서울의 한 사찰이 Z세대의 인기 명소로 부상했다는 내용의 글이 게시되었다. 해당 글은 /u/Saltedline 사용자가 올렸다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -681,9 +685,9 @@
      ]
     },
     {
-     "title": "[OC] Jeju 4·3 History at the Former Alcohol Factory Detention Site, South Korea",
-     "summary": null,
-     "ai": false,
+     "title": "옛 주정공장수용소 4·3역사관 방문기",
+     "summary": "한 이용자가 제주항 인근에 위치한 주정공장수용소 4·3역사관에 방문한 경험을 레딧 r/korea에 공유했다. 작성자는 일하면서 해당 장소를 여러 차례 지나치다가 이번에 방문했다고 밝혔다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -695,9 +699,9 @@
      ]
     },
     {
-     "title": "Koreans, please share some music",
-     "summary": null,
-     "ai": false,
+     "title": "한국 노래 추천 요청 게시물 올라와",
+     "summary": "한 이용자가 자신의 한국 음악 재생목록을 갱신하기 위해 한국 노래를 추천해 달라는 글을 레딧 r/korea에 게시했다. 작성자는 최근 백예린의 노래를 즐겨 듣는다고 언급했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -709,9 +713,9 @@
      ]
     },
     {
-     "title": "Crying firefighters grieving over death of colleague refuse to speak with Gyeonggi-do governor Choo Mi Ae, after putting out fire in a Bucheon factory. 3 days previously, Governor Choo had said fire s",
-     "summary": null,
-     "ai": false,
+     "title": "동료 잃은 소방관들 추미애 대화 거부",
+     "summary": "부천 공장 화재를 진압한 후 동료의 죽음으로 슬픔에 잠긴 소방관들이 추미애 경기도지사와의 대화를 거부했다는 글이 레딧 r/korea에 게재되었다. 게시물에 따르면 추 지사는 3일 전 소방 관련 발언을 한 것으로 전해졌다. 해당 게시물은 /u/EchoingUnion 사용자가 작성했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -723,9 +727,9 @@
      ]
     },
     {
-     "title": "Chinese Student Jailed for Drone Filming of Base, U.S. Carrier",
-     "summary": null,
-     "ai": false,
+     "title": "군 기지와 미 항공모함 드론 촬영 중국인 학생 수감",
+     "summary": "군 기지와 미국 항공모함을 드론으로 촬영한 중국인 학생이 수감되었다는 내용의 게시물이 레딧 r/korea에 올라왔다. 해당 게시물은 /u/BigCandidate5471 사용자가 등록했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -744,9 +748,9 @@
    "collected": 46,
    "issues": [
     {
-     "title": "Ahn Eun Jin And Lee Joo Ahn Go On Their First Real Date In “A Love Other Than Yours”",
-     "summary": null,
-     "ai": false,
+     "title": "드라마 '너와 다른 사랑' 속 인물들의 데이트가 공개됐다",
+     "summary": "KBS 2TV 드라마 '너와 다른 사랑'(A Love Other Than Yours)에서 안은진(Ahn Eun Jin)과 이주안(Lee Joo Ahn)이 첫 데이트를 시작한다. 또한 서강준(Seo Kang Jun)과 안은진이 각자 다른 상대와 데이트를 하던 중 마주치는 장면이 예고됐다.",
+     "ai": true,
      "article_count": 2,
      "source_count": 1,
      "links": [
@@ -763,9 +767,9 @@
      ]
     },
     {
-     "title": "Liam Gallagher Is Still Marding With Fontaines D.C.",
-     "summary": null,
-     "ai": false,
+     "title": "리암 갤러거가 폰테인스 D.C.와 불편한 관계를 이어갔다",
+     "summary": "스테레오검(Stereogum)은 리암 갤러거(Liam Gallagher)가 폰테인스 D.C.(Fontaines D.C.)와 여전히 갈등을 겪고 있다고 전했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -777,9 +781,9 @@
      ]
     },
     {
-     "title": "'88 올림픽 지휘' 송순기 前한국저작권단체연합회 이사장 별세",
-     "summary": null,
-     "ai": false,
+     "title": "송순기 전 한국저작권단체연합회 이사장이 별세했다",
+     "summary": "1970∼80년대 8인조 관현악 록그룹 '트리퍼스'(Trippers)의 트럼펫 연주자이자 '송순기 악단'을 이끌었던 송순기 전 한국저작권단체연합회 이사장이 별세했다. 고인은 '88 올림픽'에서 지휘를 맡은 바 있다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -791,9 +795,9 @@
      ]
     },
     {
-     "title": "Architects’ Sam Carter speaks out on impact “anxiety and constant focus” on his voice after online criticism",
-     "summary": null,
-     "ai": false,
+     "title": "아키텍츠 샘 카터가 악플로 인한 고통을 밝혔다",
+     "summary": "밴드 아키텍츠(Architects)의 샘 카터(Sam Carter)는 온라인 비판 이후 자신의 목소리에 대한 불안과 지속적인 집중이 미친 영향에 대해 털어놓았다. 그는 노력할수록 여름 동안 댓글이 더 가혹해졌으며, 신체적·감정적으로 지치게 되었다고 말했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -805,9 +809,9 @@
      ]
     },
     {
-     "title": "KBS 사장 후보 김영삼·엄경철·이태현 압축…20일 최종 면접",
-     "summary": null,
-     "ai": false,
+     "title": "KBS 차기 사장 후보가 3명으로 압축됐다",
+     "summary": "KBS 차기 사장 후보자가 김영삼, 엄경철, 이태현 3명으로 압축됐다. 이들에 대한 최종 면접은 오는 20일 진행된다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -819,9 +823,9 @@
      ]
     },
     {
-     "title": "Watch Metallica share pro-shot footage of ‘…And Justice For All’ and ‘The Call Of Ktulu’ at Las Vegas Sphere residency",
-     "summary": null,
-     "ai": false,
+     "title": "메탈리카가 라스베이거스 공연 실황 영상을 공개했다",
+     "summary": "메탈리카(Metallica)가 라스베이거스 스피어 레지던시 공연에서 촬영된 '…And Justice For All'과 'The Call Of Ktulu'의 전문 촬영(pro-shot) 영상을 공유했다. 해당 'Life Burns Faster' 레지던시 공연은 이달 초 시작됐다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
@@ -833,9 +837,9 @@
      ]
     },
     {
-     "title": "Liam Gallagher says Fontaines D.C. “are not good enough” to open for Oasis on their ‘Live ’27’ tour",
-     "summary": null,
-     "ai": false,
+     "title": "리암 갤러거가 폰테인스 D.C.의 실력을 지적했다",
+     "summary": "리암 갤러거(Liam Gallagher)는 폰테인스 D.C.(Fontaines D.C.)가 오아시스(Oasis)의 'Live '27' 투어 오프닝을 맡기에는 부족하다고 말했다. 아일랜드 밴드인 폰테인스 D.C.는 10월 16일 새 앨범 'Dopamine Chamber'를 발매했다.",
+     "ai": true,
      "article_count": 1,
      "source_count": 1,
      "links": [
