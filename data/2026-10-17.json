@@ -1,0 +1,852 @@
+{
+ "date": "2026-10-17",
+ "generated_at": "2026-10-18T10:17:38.672530+00:00",
+ "model": "none",
+ "llm_calls": 0,
+ "llm_errors": [],
+ "failed_sources": [
+  {
+   "id": "etnews",
+   "name": "전자신문",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='rss.etnews.com', port=443): Max retries exceeded with url: /Section901.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='rss.etnews.com', port=443) at 0x7f0587e93980>, 'Connection to rss.etnews.com timed out. (connect timeout=20)'))"
+  }
+ ],
+ "categories": [
+  {
+   "key": "general",
+   "name": "종합",
+   "collected": 22,
+   "issues": [
+    {
+     "title": "인천 항동7가 수산물 창고서 불‥인명피해 없어",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "인천 항동7가 수산물 창고서 불‥인명피해 없어",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EbzllbkNWaHVLR3BiNHNneXBQUGkxNTVOQWNDakpXdHR0b201TzNMQ0hPQkNabDQ4QkQxRnNIX01LU2ZrLUgySEhyUkVRTkRBUHNvNXh0UGxlR2FnNUpuNEgtY2ZsNG5oMElMUE8ySUpkbEZqdEdZ0gF3QVVfeXFMUHdSWkZSbEVBQzgyYzNkUjVKXy1lSXVPMHdoZ1Vyajh5ckN3RnVibjNDVktjTU9DY0ViaVFfWW15VXZUNHNfNXB5bFRxS3lyTk9CUTFNRmJnQXhvMmlXdkNCWXc0SU9TOEJhQmc5dnRJSU5xLVg4M1k?oc=5",
+       "source": "MBC 뉴스"
+      }
+     ]
+    },
+    {
+     "title": "임은정은 중수청장의 자격을 말했을 뿐이다 [아침햇발]",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "임은정은 중수청장의 자격을 말했을 뿐이다 [아침햇발]",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpa2o5a0dlY2dQMlU2dlhBSWQ2TUdITGpic0RUSUxqeEVXWWZYY2N6blhPQXc3UGVUTUVPRFRzangtZldMT3oyeXgySWJuUXhWM3hCUTZ3NXdZVWpRZS01SGFacjh0dw?oc=5",
+       "source": "한겨레"
+      }
+     ]
+    },
+    {
+     "title": "전북도 가뭄 지속…하천도, 저수지도 바닥 드러내",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "전북도 가뭄 지속…하천도, 저수지도 바닥 드러내",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Zb2QwQ1R0SHFVMXdFbFlkOHlVeUt2eFRfcVVqelZfOEdwVGZqbGJ3Q3BZc09ReExUa2UyNGJ1WjBDSktuNTRDQVp1OG1CNk5DeEFYbU9TSExuNVVQY1kweGc5N2x2dw?oc=5",
+       "source": "KBS 뉴스"
+      }
+     ]
+    },
+    {
+     "title": "당첨금 18억8000만원씩, 로또 1등 16명…‘16, 22, 23, 24, 27, 28’",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "당첨금 18억8000만원씩, 로또 1등 16명…‘16, 22, 23, 24, 27, 28’",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aRzRMM0pCVXV3MTlQR0JleUo0R2hXZlFfTEJNQ3kwT2xIS1lySkhRNy1YNTRLSWtjUVBtTGM0eXhQa3Exa0FTeXFYejFycEc0cU53ZA?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "강원 양양 동산항 앞바다에서 60대 다이버 실종…내일 수색 재개",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "강원 양양 동산항 앞바다에서 60대 다이버 실종…내일 수색 재개",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXMGE5bFBHWGpPVlQ0Sy11WENUVzR3bHV2bzNSUWRKOHFlRFpPUm9ualJ6U0FPRjFkX3NGbjg2al9WTnp6a3dYa2lua0VLQUJtcjVvbnN4aFNmQXlEWDc4NTY3WjQzRDREZ0FpYjdIazdJamZlaXFJ0gF3QVVfeXFMTnVXUmZrRFJ3bDVjTFYxRmFUMldFT3A1VEhZdlljY0ZzZUdZNjNZQ25GSjAwYlYzeUtYeWpwM21IT2dkYU1DaGJSTFFUNWc3Ykc2LVFMZmstRHpLVnFBNDRNaTAzSHRESV9VOW5iMjNyVUdTWUk4ODg?oc=5",
+       "source": "MBC 뉴스"
+      }
+     ]
+    },
+    {
+     "title": "’이천 심야 차량습격’ 미제 사건 외국인 용의자 1명 검거",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "’이천 심야 차량습격’ 미제 사건 외국인 용의자 1명 검거",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lbENPUVIyTHhIX3hIeGpLMGVJdjFzU3p0dEI1M1hESnRfcWlJQ1JmUFc3VzFwSFcyTlY2VUc5WTRyRFBsaFdmUjR4ZWpnQ0FJZHFBLVBIdjRmMkZvbkFiRVRHamJKa3M?oc=5",
+       "source": "연합뉴스TV"
+      }
+     ]
+    },
+    {
+     "title": "'너무 징그러워요'…파로호서 발견된 괴물 덩어리에 '경악'",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "'너무 징그러워요'…파로호서 발견된 괴물 덩어리에 '경악'",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SbFpRZlU5R2JaSWw0VFMyaU1uU1NiSExZZG9mQmRQT1FYUzlaQmJKNHM1NmNJakVkTlYteXJqUHZVY2RqS3h2MmhvS2JJLUMzU1NXMW8wRnFOUQ?oc=5",
+       "source": "한국경제"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "politics",
+   "name": "정치",
+   "collected": 76,
+   "issues": [
+    {
+     "title": "정부, 日다카이치 야스쿠니 공물 봉납에 \"실망과 유감\"",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "정부, 日다카이치 야스쿠니 공물 봉납에 \"실망과 유감\"",
+       "url": "https://www.yna.co.kr/view/AKR20261017030000504",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "다카이치, 야스쿠니 신사 공물 봉납에… 정부 “깊은 실망과 유감”",
+       "url": "https://www.khan.co.kr/article/202610171424001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
+       "source": "경향신문"
+      },
+      {
+       "title": "정부, 日다카이치 야스쿠니 공물 봉납에 “깊은 실망과 유감”",
+       "url": "https://www.chosun.com/politics/diplomacy-defense/2026/10/17/ZFWVDVMY6FGRBK3LSBUB6HDEWM/",
+       "source": "조선일보"
+      },
+      {
+       "title": "정부, 다카이치 日총리 야스쿠니 공물 봉납에 “유감…진정한 반성 촉구”",
+       "url": "https://www.donga.com/news/Politics/article/all/20261017/134858876/1",
+       "source": "동아일보"
+      },
+      {
+       "title": "정부, 다카이치 총리 공물 봉납에 “깊은 실망과 유감”",
+       "url": "https://www.donga.com/news/Inter/article/all/20261017/134858893/2",
+       "source": "동아일보"
+      }
+     ]
+    },
+    {
+     "title": "[속보]李, 부천 순직 소방관 조문…“님의 희생을 영원히 기억”",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "[속보]李, 부천 순직 소방관 조문…“님의 희생을 영원히 기억”",
+       "url": "https://www.donga.com/news/Politics/article/all/20261017/134859140/1",
+       "source": "동아일보"
+      },
+      {
+       "title": "이 대통령, 부천 화재 순직 소방관 빈소 조문···“희생 영원히 기억할 것”",
+       "url": "https://www.khan.co.kr/article/202610171937001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
+       "source": "경향신문"
+      },
+      {
+       "title": "李대통령 \"희생 영원히 기억할 것\"…부천 화재 순직 소방관 조문(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20261017045451001",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "이 대통령, 순직 소방관 빈소 찾아 무릎 꿇고 분향…“희생 영원히 기억”",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5obmhEbUNmSktQSm0xdWI4Ykk3VnREaUxnQlBrc2stQnF6ZzJYbk1zZlJOZloxbV9OTE1qc0NTbkRybWFya3ZIbG1oQUgxMHl4dU53T0o4V1FJdUxMUGVLbVRmUm14NHJVcXlr?oc=5",
+       "source": "한겨레"
+      }
+     ]
+    },
+    {
+     "title": "與, 추미애 ‘재정 빨대’ 발언 또 사과… 秋는 “순직 소방관 애도”",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "與, 추미애 ‘재정 빨대’ 발언 또 사과… 秋는 “순직 소방관 애도”",
+       "url": "https://www.chosun.com/politics/assembly/2026/10/17/QL7PLI4LXRDZRBBH3EDH3IKEPE/",
+       "source": "조선일보"
+      },
+      {
+       "title": "[속보]추미애 ‘소방 재정 빨대’ 발언 사과···“제 의도와 다르게 전달, 깊은 유감”",
+       "url": "https://www.khan.co.kr/article/202610171511001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
+       "source": "경향신문"
+      },
+      {
+       "title": "추미애 ‘소방 재정 빨대’ 발언, 나흘만에 사과···“소방관 폄훼 의도 전혀 없어”",
+       "url": "https://www.khan.co.kr/article/202610171644001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
+       "source": "경향신문"
+      }
+     ]
+    },
+    {
+     "title": "여야, 부천 화재 소방관 순직 애도…'소방 처우 개선'도 약속",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "여야, 부천 화재 소방관 순직 애도…'소방 처우 개선'도 약속",
+       "url": "https://www.yna.co.kr/view/AKR20261017024800001",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "조국혁신당, 부천 화재 소방공무원 순직 애도…“처우 개선 노력”",
+       "url": "https://www.donga.com/news/Politics/article/all/20261017/134859209/1",
+       "source": "동아일보"
+      }
+     ]
+    },
+    {
+     "title": "“순직 소방관 딸이 일곱살”... 李대통령 말 잇지 못했다",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "“순직 소방관 딸이 일곱살”... 李대통령 말 잇지 못했다",
+       "url": "https://www.chosun.com/politics/blue_house/2026/10/17/XO7PDNCYNJHRXG6D4GW3HGSAFE/",
+       "source": "조선일보"
+      },
+      {
+       "title": "“소방관 딸이 7살” 대답에…말 잇지 못한 李대통령",
+       "url": "https://www.donga.com/news/Politics/article/all/20261017/134859132/2",
+       "source": "동아일보"
+      }
+     ]
+    },
+    {
+     "title": "국힘 “사과를 바라시니까?…추미애 발언에 귀를 의심”",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "국힘 “사과를 바라시니까?…추미애 발언에 귀를 의심”",
+       "url": "https://www.donga.com/news/Politics/article/all/20261017/134859006/2",
+       "source": "동아일보"
+      },
+      {
+       "title": "추미애 “사과 바라시니까 사과”... 국힘 “빈소에서조차 자기 변명”",
+       "url": "https://www.chosun.com/politics/assembly/2026/10/17/4P5L2A5DCZHJJEMKOPEI24UOXY/",
+       "source": "조선일보"
+      }
+     ]
+    },
+    {
+     "title": "‘서해 공무원 피격사건’ 전현희·노영민·이인영 불기소···고발 이후 4년만",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "‘서해 공무원 피격사건’ 전현희·노영민·이인영 불기소···고발 이후 4년만",
+       "url": "https://www.khan.co.kr/article/202610171558001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
+       "source": "경향신문"
+      },
+      {
+       "title": "‘서해 공무원 피격 사건’ 전현희·노영민·이인영·김홍희 불기소",
+       "url": "https://www.donga.com/news/Society/article/all/20261017/134858993/1",
+       "source": "동아일보"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "economy",
+   "name": "경제",
+   "collected": 51,
+   "issues": [
+    {
+     "title": "국내 기름값 22주 연속 하락…휘발유·경유 1천800원대 지속",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "국내 기름값 22주 연속 하락…휘발유·경유 1천800원대 지속",
+       "url": "https://www.yna.co.kr/view/AKR20261016155700003",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "국내 기름값 22주 연속 하락‥휘발유·경유 1천8백 원대",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96QXo5R3dEV0wtNXRpaUxRM19rMmlOa3pPZjFMY3d2dEh2ZGNMZnBaTlNjNU9RSjdXMVE3eFJzVnFHS1lfaktrTUU0cHJDdXBSZ3B1ZU45bjFxdHA4NUxwR3JuSEQydC1xbU9xaWZ5YnhDamhv0gF0QVVfeXFMUEJjd1J2MXdzQmV1c2JtYWF3VHRDOWMzU21TbTZhSDh2ODM5STRvVWd0VDJBaGlRNEp6bVllbDlpa3lTQ2JXUWNVc3FUUXhXTl81R1BrNmU3bFlaYkIzdUp3TGM1RFJNSWFSaEdWNkNEZ2FZd0I?oc=5",
+       "source": "MBC 뉴스"
+      }
+     ]
+    },
+    {
+     "title": "\"빈 방을 여행자와 삶 나누는 공간으로\"…두 '해녀'의 도전",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "\"빈 방을 여행자와 삶 나누는 공간으로\"…두 '해녀'의 도전",
+       "url": "https://www.hankyung.com/article/202610166604g",
+       "source": "한국경제"
+      }
+     ]
+    },
+    {
+     "title": "“보험 어디서 들까?” 물어보니…AI가 꼽은 ‘1등 금융사’는 어디",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "“보험 어디서 들까?” 물어보니…AI가 꼽은 ‘1등 금융사’는 어디",
+       "url": "https://www.mk.co.kr/news/economy/12178581",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "'한국에 쇼핑하러 오길 잘했네'…외국인 관광객들 '감탄' [류은혁의 유통기한]",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "'한국에 쇼핑하러 오길 잘했네'…외국인 관광객들 '감탄' [류은혁의 유통기한]",
+       "url": "https://www.hankyung.com/article/202610167273i",
+       "source": "한국경제"
+      }
+     ]
+    },
+    {
+     "title": "“지키자 내 돈”…코스피 불안에 예금·IMA로 ‘역 머니무브’",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "“지키자 내 돈”…코스피 불안에 예금·IMA로 ‘역 머니무브’",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LTDNtTklkS0dGSTVMZVFpLXF4NGM4UUROaUdIVTFERFhZaTY0U1RYYVVfOG5XWWhSYzBxRDRUS0haYW9JYUdZR09VUGFCZFhZVjdLVFVRTnpWZw?oc=5",
+       "source": "농민신문"
+      }
+     ]
+    },
+    {
+     "title": "한은 총재 \"화폐의 단일성 중요…한은금융망 국제화 추진\"",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "한은 총재 \"화폐의 단일성 중요…한은금융망 국제화 추진\"",
+       "url": "https://www.yna.co.kr/view/AKR20261017043100002",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "“실손보험료 낮춰 볼까”…할인형 특약과 세대 전환 다음 달 도입 앞둬",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "“실손보험료 낮춰 볼까”…할인형 특약과 세대 전환 다음 달 도입 앞둬",
+       "url": "https://www.mk.co.kr/news/economy/12178564",
+       "source": "매일경제"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "it",
+   "name": "IT",
+   "collected": 63,
+   "issues": [
+    {
+     "title": "US Rep Announces Congressional Legislation to Protect Video Game Ownership",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "US Rep Announces Congressional Legislation to Protect Video Game Ownership",
+       "url": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
+       "source": "Hacker News"
+      },
+      {
+       "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
+       "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
+       "source": "Ars Technica"
+      }
+     ]
+    },
+    {
+     "title": "Claude reveals ECDSA curve origins",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Claude reveals ECDSA curve origins",
+       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+       "source": "Hacker News"
+      }
+     ]
+    },
+    {
+     "title": "DeepSeek-v4.1-Flash-1017",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "DeepSeek-v4.1-Flash-1017",
+       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+       "source": "Hacker News"
+      }
+     ]
+    },
+    {
+     "title": "Solar surpasses nuclear power globally for first time",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Solar surpasses nuclear power globally for first time",
+       "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+       "source": "Hacker News"
+      }
+     ]
+    },
+    {
+     "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+       "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+       "source": "Hacker News"
+      }
+     ]
+    },
+    {
+     "title": "You could have invented transformers from memory",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "You could have invented transformers from memory",
+       "url": "https://alexwang.ai/posts/associative-memory/",
+       "source": "Hacker News"
+      }
+     ]
+    },
+    {
+     "title": "Bleached corals thrive within days when touching healthy neighbour",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Bleached corals thrive within days when touching healthy neighbour",
+       "url": "https://www.nature.com/articles/d41586-026-03266-x",
+       "source": "Hacker News"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "world",
+   "name": "해외",
+   "collected": 104,
+   "issues": [
+    {
+     "title": "젤렌스키 \"G20 정상회의 기간에 美·러와 3자 회담 희망\"",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "젤렌스키 \"G20 정상회의 기간에 美·러와 3자 회담 희망\"",
+       "url": "https://www.yna.co.kr/view/AKR20261017047700079",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "젤렌스키 \"G20 정상회의 기간, 美·러와 3자 회담 가능성\"",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5EOUpuRDVsNFdEdGIwSFNiVWM5RUVpcnJaYV9oSlV0N1dQdnBLNFB2amc0alMxN1FfcTM1cW9uM0J1bDNFZkw5LU5aNk41TGdKb242cVg2MEdRU2hhSkVwYVV2akZJOGs?oc=5",
+       "source": "연합뉴스TV"
+      }
+     ]
+    },
+    {
+     "title": "'악마의 바람'에 美캘리포니아 산불 확산…주민 1만6천명 대피령",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "'악마의 바람'에 美캘리포니아 산불 확산…주민 1만6천명 대피령",
+       "url": "https://www.yna.co.kr/view/AKR20261017047200009",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "美 캘리포니아 산불, 강풍에 진화 난항… 주민 1만6000명 대피령 발령 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ0tkN3p5dDlnQ19iUGxEQ1o4ODNqemZOeFQtajVoMVZyV1hFYy1mZ2RjR2xsQU5kUlRsWEg5TVFWSGZTaFVfQVVDUWstMkt1czBJeG55dldlWnRtS181VHFmN2tSakF4UXZiMXdLaE1xbzhTemhpZ0NNRFhQblZUMEo2MnJmQnNyLTd0ZHM0d2F6blhGa0dzR2UxZFlhZ9IBsgFBVV95cUxNMWZONkgzdlBtVVlBb2FTTVJoVk5BRXRDRVJBVUltcFp6ZHdxZ1dHNjh1UEdzSzZhc0JfWngzaWhBclk2dk5BZ0hjMDB0YTBnOS1xb0M4VkViaTI3SWo2VFd3MHVETXlTYlpyQlVFQmEyLTU4T0dtZjkzOHAxd2FGRWhyaDhyWEYwaFBONG9qMEJRM18tcHFuakFHRmRKNTVhQlByUU9MdDVIV0poZ2lfYU5R?oc=5",
+       "source": "Chosunbiz"
+      }
+     ]
+    },
+    {
+     "title": "EU, 우크라 회원국 합류 공동 TF 출범…\"가입 절차에 속도\"",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "EU, 우크라 회원국 합류 공동 TF 출범…\"가입 절차에 속도\"",
+       "url": "https://www.yna.co.kr/view/AKR20261017044600098",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "EU, 우크라 회원국 합류 공동 TF 출범...\"가입 절차에 속도\"",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NT0lTRXl3bkRIN2R3WUNVajRzVGhXa3BiT0pVRVBFNTNSTUZsRDVwYXZFNWREVFJ3c0xGR013TExIQ2tyZW8xZ2dhdXh5eExyRjVmRVFHZ1ZCTmlJT1BVZ2tSR1N5YXc?oc=5",
+       "source": "연합뉴스TV"
+      }
+     ]
+    },
+    {
+     "title": "美오리건 초교 총격범은 16세 졸업생…학부모가 쏜 총탄에 사망",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "美오리건 초교 총격범은 16세 졸업생…학부모가 쏜 총탄에 사망",
+       "url": "https://www.yna.co.kr/view/AKR20261017021600091",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "美오리건 초교 총격범에 몸 날린 여성교사… 16세 졸업생이 범인이었다",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02a1ZPN3lxWU04MnYwLXJuZjhqcVFZUXluZEtzc0FvWDM3YlA4VGctU3ZUbkRzakhsa1ZLRndpZkx2ZFc4Ri1haUVpWFB1eEFXRlQ3LWozZlhOb2dJVEFwYVZ0NzlCdVBHRkN5bnRn0gFzQVVfeXFMTmhDa2NiQWdrX0VLclVlbG9TTGY1c0g1Z1dJLXdYQUk1eGppLU13YVBjSmViSWZERGVpVWo5Z3hibkg2YzcwRW1Dek5Gci10MEVFN1lWYkFnNGF1WldrRlhtQWJDOVdlMW5WQ3YyVWRhS1pOdw?oc=5",
+       "source": "한국일보"
+      }
+     ]
+    },
+    {
+     "title": "국제이주기구 \"남아시아 기후변화로 2050년까지 4천만명 이주\"",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "국제이주기구 \"남아시아 기후변화로 2050년까지 4천만명 이주\"",
+       "url": "https://www.yna.co.kr/view/AKR20261017037600104",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "“2050년까지 4천만명 강제 이주”…남아시아를 향한 기후재난 경고",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5VE5XblpiTHE2X1BKd1ZuYXdRRks3aUhqN2JmenNnbHlfem9aV2ZVZ2ZDV2lCVnB0NjNnS2NnMXVHNHpHQ043dWJaZzRrRXFuTnBacTYzd3BNV21STk9JdTU5TQ?oc=5",
+       "source": "한겨레"
+      }
+     ]
+    },
+    {
+     "title": "사우디 해상서 유조선, 미확인 발사체에 피격…\"승무원 대피\"",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "사우디 해상서 유조선, 미확인 발사체에 피격…\"승무원 대피\"",
+       "url": "https://www.yna.co.kr/view/AKR20261017034900079",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "유조선, 사우디 해상서 피격‥인명피해 없어",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zRGtqT0ZPUjN0WW5zc2RldlRaSWdKMjlZU3A2SXNBSHp2cDFyTUFvaUhnaW5oTnRvRk95bjBvT0NNVXFXbXE4eUR3MGE3U0hSLWI0Uy1XZE9Db19rb01WSHdCTlU0cDdtcktVV3dSSnFpRkE40gF0QVVfeXFMTXdNZnRoY2xESXVxdDgyVlhnbG1acjYzVGZVam1NNTRlcWJFVFdqc09OVlU2RmZIZzRXdzZ2SEVIM1JkdDBocmdnTnk0ZGZmNGVrQ3pTbFlSZHR1RzE1Y3hlQjNvc2RteXUtQ2VKSWZlWnZ1dW8?oc=5",
+       "source": "MBC 뉴스"
+      }
+     ]
+    },
+    {
+     "title": "'최악 산불' 인니서 진화작업 중 소방관 등 4명 사망·2명 화상",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "'최악 산불' 인니서 진화작업 중 소방관 등 4명 사망·2명 화상",
+       "url": "https://www.yna.co.kr/view/AKR20261017023700104",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "'최악 산불' 인도네시아서 소방관 등 4명 사망·2명 부상",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRb1U4bWV3OXRERTV1X044cm1VMEF4a0xOZDdocDdrd09FcmQ4OTFMV1FpY3lQTzlHd3VJbldYNlNtRlZaVm91aG5zbnYzWjd2VW4zeGtCOUVZOEhoYUxrQ3dVOUx6b1c3QzZMci1ENFZtZ1Ix0gF0QVVfeXFMTUJnRUhZcFJLYXAzY2JEWTJCcXhtbzZBODVSQnNrUzJmNEVTMHhUdG1SeWh3Z3pocElNci1ONEFQRTdjUnE5REZkNC05QTlFTEVITEM3QVFTR3A2eGdMbGJ0SUdjNzNxaEFmOWI3VHVIcUZiNHA?oc=5",
+       "source": "MBC 뉴스"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "community",
+   "name": "커뮤니티",
+   "collected": 6,
+   "issues": [
+    {
+     "title": "Firefighters Block Choo Mi-ae, Demand Apology at Funeral Visit",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Firefighters Block Choo Mi-ae, Demand Apology at Funeral Visit",
+       "url": "https://www.reddit.com/r/korea/comments/1x8a4ia/firefighters_block_choo_miae_demand_apology_at/",
+       "source": "Reddit r/korea"
+      }
+     ]
+    },
+    {
+     "title": "'Pray for wealth': Seoul Buddhist temple becomes Gen Z hot spot",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "'Pray for wealth': Seoul Buddhist temple becomes Gen Z hot spot",
+       "url": "https://www.reddit.com/r/korea/comments/1x8a2nc/pray_for_wealth_seoul_buddhist_temple_becomes_gen/",
+       "source": "Reddit r/korea"
+      }
+     ]
+    },
+    {
+     "title": "[OC] Jeju 4·3 History at the Former Alcohol Factory Detention Site, South Korea",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "[OC] Jeju 4·3 History at the Former Alcohol Factory Detention Site, South Korea",
+       "url": "https://www.reddit.com/r/korea/comments/1x89a68/oc_jeju_43_history_at_the_former_alcohol_factory/",
+       "source": "Reddit r/korea"
+      }
+     ]
+    },
+    {
+     "title": "Koreans, please share some music",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Koreans, please share some music",
+       "url": "https://www.reddit.com/r/korea/comments/1x890gh/koreans_please_share_some_music/",
+       "source": "Reddit r/korea"
+      }
+     ]
+    },
+    {
+     "title": "Crying firefighters grieving over death of colleague refuse to speak with Gyeonggi-do governor Choo Mi Ae, after putting out fire in a Bucheon factory. 3 days previously, Governor Choo had said fire s",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Crying firefighters grieving over death of colleague refuse to speak with Gyeonggi-do governor Choo Mi Ae, after putting out fire in a Bucheon factory. 3 days previously, Governor Choo had said fire s",
+       "url": "https://www.reddit.com/r/korea/comments/1x887dp/crying_firefighters_grieving_over_death_of/",
+       "source": "Reddit r/korea"
+      }
+     ]
+    },
+    {
+     "title": "Chinese Student Jailed for Drone Filming of Base, U.S. Carrier",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Chinese Student Jailed for Drone Filming of Base, U.S. Carrier",
+       "url": "https://www.reddit.com/r/korea/comments/1x87ms9/chinese_student_jailed_for_drone_filming_of_base/",
+       "source": "Reddit r/korea"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 46,
+   "issues": [
+    {
+     "title": "Ahn Eun Jin And Lee Joo Ahn Go On Their First Real Date In “A Love Other Than Yours”",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Ahn Eun Jin And Lee Joo Ahn Go On Their First Real Date In “A Love Other Than Yours”",
+       "url": "https://www.soompi.com/article/1879143wpp/ahn-eun-jin-and-lee-joo-ahn-go-on-their-first-real-date-in-a-love-other-than-yours",
+       "source": "Soompi"
+      },
+      {
+       "title": "Seo Kang Jun And Ahn Eun Jin Run Into Each Other On Dates With Other People In “A Love Other Than Yours”",
+       "url": "https://www.soompi.com/article/1879155wpp/seo-kang-jun-and-ahn-eun-jin-run-into-each-other-on-dates-with-other-people-in-a-love-other-than-yours",
+       "source": "Soompi"
+      }
+     ]
+    },
+    {
+     "title": "Liam Gallagher Is Still Marding With Fontaines D.C.",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Liam Gallagher Is Still Marding With Fontaines D.C.",
+       "url": "https://stereogum.com/2514869/liam-gallagher-is-still-marding-with-fontaines-d-c/news/",
+       "source": "Stereogum"
+      }
+     ]
+    },
+    {
+     "title": "'88 올림픽 지휘' 송순기 前한국저작권단체연합회 이사장 별세",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "'88 올림픽 지휘' 송순기 前한국저작권단체연합회 이사장 별세",
+       "url": "https://www.yna.co.kr/view/AKR20261017046400005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "Architects’ Sam Carter speaks out on impact “anxiety and constant focus” on his voice after online criticism",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Architects’ Sam Carter speaks out on impact “anxiety and constant focus” on his voice after online criticism",
+       "url": "https://www.nme.com/news/music/architects-sam-carter-speaks-out-on-impact-anxiety-and-constant-focus-on-his-voice-after-online-criticism-3973426?utm_source=rss&utm_medium=rss&utm_campaign=architects-sam-carter-speaks-out-on-impact-anxiety-and-constant-focus-on-his-voice-after-online-criticism",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "KBS 사장 후보 김영삼·엄경철·이태현 압축…20일 최종 면접",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "KBS 사장 후보 김영삼·엄경철·이태현 압축…20일 최종 면접",
+       "url": "https://www.yna.co.kr/view/AKR20261017045700005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "Watch Metallica share pro-shot footage of ‘…And Justice For All’ and ‘The Call Of Ktulu’ at Las Vegas Sphere residency",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Watch Metallica share pro-shot footage of ‘…And Justice For All’ and ‘The Call Of Ktulu’ at Las Vegas Sphere residency",
+       "url": "https://www.nme.com/news/music/watch-metallica-share-pro-shot-footage-of-and-justice-for-all-and-the-call-of-ktulu-at-las-vegas-sphere-residency-3973419?utm_source=rss&utm_medium=rss&utm_campaign=watch-metallica-share-pro-shot-footage-of-and-justice-for-all-and-the-call-of-ktulu-at-las-vegas-sphere-residency",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "Liam Gallagher says Fontaines D.C. “are not good enough” to open for Oasis on their ‘Live ’27’ tour",
+     "summary": null,
+     "ai": false,
+     "article_count": 1,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Liam Gallagher says Fontaines D.C. “are not good enough” to open for Oasis on their ‘Live ’27’ tour",
+       "url": "https://www.nme.com/news/music/liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour-3973414?utm_source=rss&utm_medium=rss&utm_campaign=liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour",
+       "source": "NME"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
