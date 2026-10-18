@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}{{ d.date }} 브리핑{% endblock %}
+{% block main %}
+<section class="meta">
+  <h1>{{ d.date }}</h1>
+  <p class="sub">전날 0~24시(KST) · 갱신 {{ d.generated_at | kst }}{% if d.model != "none" %} · 요약 {{ d.model }}{% endif %}</p>
+  <p class="daynav">
+    {% if nav.prev %}<a href="{{ root }}{{ nav.prev }}/">← {{ nav.prev }}</a>{% endif %}
+    {% if nav.next %}<a href="{{ root }}{{ nav.next }}/">{{ nav.next }} →</a>{% endif %}
+  </p>
+  {% if d.failed_sources %}
+  <details class="warn">
+    <summary>수집 실패 소스 {{ d.failed_sources | length }}개</summary>
+    <ul>{% for s in d.failed_sources %}<li>{{ s.name }} <code>{{ s.id }}</code></li>{% endfor %}</ul>
+  </details>
+  {% endif %}
+  {% if d.llm_errors %}
+  <p class="warn-inline">일부 분야는 AI 요약에 실패해 제목과 링크만 표시합니다.</p>
+  {% endif %}
+</section>
+
+<nav class="tabs" role="tablist">
+  {% for c in d.categories %}
+  <a href="#{{ c.key }}" role="tab" data-tab="{{ c.key }}">{{ c.name }}<span class="n">{{ c.issues | length }}</span></a>
+  {% endfor %}
+</nav>
+
+{% for c in d.categories %}
+<section class="cat" id="{{ c.key }}" data-panel="{{ c.key }}">
+  <h2>{{ c.name }}</h2>
+  {% if not c.issues %}
+  <p class="empty">수집된 기사가 없습니다.</p>
+  {% endif %}
+  {% for it in c.issues %}
+  <article class="card">
+    <h3>{{ it.title }}</h3>
+    {% if it.summary %}
+    <p class="summary">{{ it.summary }}</p>
+    {% endif %}
+    <p class="badges">
+      {% if it.ai %}<span class="badge ai">AI 요약</span>{% endif %}
+      <span class="badge">기사 {{ it.article_count }} · 매체 {{ it.source_count }}</span>
+    </p>
+    <ul class="srcs">
+      {% for l in it.links %}
+      <li><a href="{{ l.url }}" rel="noopener noreferrer" target="_blank"><span class="outlet">{{ l.source }}</span>{{ l.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </article>
+  {% endfor %}
+</section>
+{% endfor %}
+{% endblock %}
+{% block script %}<script src="{{ root }}app.js"></script>{% endblock %}

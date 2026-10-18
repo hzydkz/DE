@@ -1,0 +1,81 @@
+# 수집 소스 목록.
+# 아래 URL은 기억 기반 후보다. `python -m briefing verify` (또는 verify 워크플로)로
+# 실제 동작 여부를 확인하고, 죽은 소스는 enabled: false 로 끄거나 지운다.
+#
+# type:
+#   rss     - 일반 RSS/Atom
+#   gnews   - Google 뉴스 RSS (제목 끝의 " - 매체명"을 떼고 <source>를 매체명으로 씀)
+#   trends  - Google 트렌드 일간 인기 검색어 RSS
+#   hn      - Hacker News (Algolia 검색 API, 전날 points 상위)
+#   youtube - YouTube Data API 인기 동영상 (YOUTUBE_API_KEY 시크릿이 있을 때만)
+
+categories:
+  - key: general
+    name: 종합
+  - key: politics
+    name: 정치
+  - key: economy
+    name: 경제
+  - key: it
+    name: IT
+  - key: world
+    name: 해외
+  - key: community
+    name: 커뮤니티
+  - key: music
+    name: 음악
+
+sources:
+  # ---- 종합 (통신사 + 성향이 다른 일간지 + 포털 토픽) ----
+  - {id: yna-all, name: 연합뉴스, category: general, type: rss, url: "https://www.yna.co.kr/rss/news.xml"}
+  - {id: hani-all, name: 한겨레, category: general, type: rss, url: "https://www.hani.co.kr/rss/"}
+  - {id: khan-all, name: 경향신문, category: general, type: rss, url: "https://www.khan.co.kr/rss/rssdata/total_news.xml"}
+  - {id: chosun-all, name: 조선일보, category: general, type: rss, url: "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml"}
+  - {id: donga-all, name: 동아일보, category: general, type: rss, url: "https://rss.donga.com/total.xml"}
+  - {id: gnews-kr-nation, name: Google 뉴스, category: general, type: gnews, url: "https://news.google.com/rss/headlines/section/topic/NATION?hl=ko&gl=KR&ceid=KR:ko"}
+
+  # ---- 정치 (진보·보수·통신사 균형) ----
+  - {id: yna-politics, name: 연합뉴스, category: politics, type: rss, url: "https://www.yna.co.kr/rss/politics.xml"}
+  - {id: hani-politics, name: 한겨레, category: politics, type: rss, url: "https://www.hani.co.kr/rss/politics/"}
+  - {id: khan-politics, name: 경향신문, category: politics, type: rss, url: "https://www.khan.co.kr/rss/rssdata/politic_news.xml"}
+  - {id: chosun-politics, name: 조선일보, category: politics, type: rss, url: "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml"}
+  - {id: donga-politics, name: 동아일보, category: politics, type: rss, url: "https://rss.donga.com/politics.xml"}
+
+  # ---- 경제 ----
+  - {id: yna-economy, name: 연합뉴스, category: economy, type: rss, url: "https://www.yna.co.kr/rss/economy.xml"}
+  - {id: hankyung-economy, name: 한국경제, category: economy, type: rss, url: "https://www.hankyung.com/feed/economy"}
+  - {id: mk-economy, name: 매일경제, category: economy, type: rss, url: "https://www.mk.co.kr/rss/30100041/"}
+  - {id: hani-economy, name: 한겨레, category: economy, type: rss, url: "https://www.hani.co.kr/rss/economy/"}
+  - {id: chosun-economy, name: 조선일보, category: economy, type: rss, url: "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml"}
+  - {id: gnews-kr-business, name: Google 뉴스, category: economy, type: gnews, url: "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko"}
+
+  # ---- IT ----
+  - {id: etnews, name: 전자신문, category: it, type: rss, url: "https://rss.etnews.com/Section901.xml"}
+  - {id: zdnet-kr, name: ZDNet Korea, category: it, type: rss, url: "https://feeds.feedburner.com/zdkorea"}
+  - {id: hankyung-it, name: 한국경제, category: it, type: rss, url: "https://www.hankyung.com/feed/it"}
+  - {id: gnews-kr-tech, name: Google 뉴스, category: it, type: gnews, url: "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko"}
+  - {id: theverge, name: The Verge, category: it, type: rss, url: "https://www.theverge.com/rss/index.xml"}
+  - {id: arstechnica, name: Ars Technica, category: it, type: rss, url: "https://feeds.arstechnica.com/arstechnica/index"}
+  - {id: hn, name: Hacker News, category: it, type: hn, min_points: 150}
+
+  # ---- 해외 ----
+  - {id: bbc-world, name: BBC, category: world, type: rss, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+  - {id: guardian-world, name: The Guardian, category: world, type: rss, url: "https://www.theguardian.com/world/rss"}
+  - {id: npr-world, name: NPR, category: world, type: rss, url: "https://feeds.npr.org/1004/rss.xml"}
+  - {id: aljazeera, name: Al Jazeera, category: world, type: rss, url: "https://www.aljazeera.com/xml/rss/all.xml"}
+  - {id: yna-world, name: 연합뉴스, category: world, type: rss, url: "https://www.yna.co.kr/rss/international.xml"}
+  - {id: gnews-kr-world, name: Google 뉴스, category: world, type: gnews, url: "https://news.google.com/rss/headlines/section/topic/WORLD?hl=ko&gl=KR&ceid=KR:ko"}
+
+  # ---- 커뮤니티·SNS (직접 크롤링 없이 간접 지표) ----
+  - {id: gtrends-kr, name: Google 트렌드, category: community, type: trends, url: "https://trends.google.com/trending/rss?geo=KR"}
+  - {id: reddit-korea, name: "Reddit r/korea", category: community, type: rss, url: "https://www.reddit.com/r/korea/top/.rss?t=day"}
+  - {id: youtube-kr, name: YouTube 인기, category: community, type: youtube, region: KR}
+
+  # ---- 음악 (국내 + 해외) ----
+  - {id: yna-ent, name: 연합뉴스 연예, category: music, type: rss, url: "https://www.yna.co.kr/rss/entertainment.xml"}
+  - {id: gnews-kr-music, name: Google 뉴스, category: music, type: gnews, url: "https://news.google.com/rss/search?q=%EC%9D%8C%EC%95%85+OR+%EC%95%A8%EB%B2%94+OR+%EC%BB%B4%EB%B0%B1+when:1d&hl=ko&gl=KR&ceid=KR:ko"}
+  - {id: soompi, name: Soompi, category: music, type: rss, url: "https://www.soompi.com/feed"}
+  - {id: pitchfork, name: Pitchfork, category: music, type: rss, url: "https://pitchfork.com/feed/feed-news/rss"}
+  - {id: nme-music, name: NME, category: music, type: rss, url: "https://www.nme.com/news/music/feed"}
+  - {id: stereogum, name: Stereogum, category: music, type: rss, url: "https://www.stereogum.com/feed/"}
+  - {id: youtube-kr-music, name: YouTube 인기(음악), category: music, type: youtube, region: KR, video_category: "10"}

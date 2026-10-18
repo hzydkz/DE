@@ -1,0 +1,47 @@
+name: verify
+
+# 코드·소스 변경 시: 테스트, 소스 점검, 한 번 수집해서 브리핑을 만들어 보고 결과를 아티팩트로 남긴다.
+# 데이터 커밋·배포는 하지 않는다.
+on:
+  push:
+    branches: ["claude/**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      models: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt pytest
+      - run: python -m pytest -q
+
+      - name: sources
+        continue-on-error: true
+        run: python -m briefing verify
+
+      - name: trial run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          python -m briefing collect
+          python -m briefing clusters
+          python -m briefing day
+          python -m briefing site
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: trial
+          path: |
+            data/
+            site/
