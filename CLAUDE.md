@@ -14,7 +14,7 @@
 ## 구조
 - `briefing/collect.py` 수집 → `.cache/raw.json` 버퍼(Actions 캐시에 보관, 2시간마다 누적)
 - `briefing/cluster.py` 중복 제거·클러스터링·코드 순위 (LLM 없음, 임계값은 파일 상단 상수)
-- `briefing/pipeline.py` `rank_issues`: LLM 선별(음악인 이슈·중요도·같은 사건 병합) → 중요도순
+- `briefing/pipeline.py` `rank_issues`: LLM 선별(음악인 이슈만, 같은 사건 병합, 중요한 순서)
 - `briefing/summarize.py` LLM 요약 (제공자: `BRIEFING_LLM_PROVIDER` = gemini | custom | none, 키 없으면 호출 안 함)
 - `briefing/pipeline.py` 전날 창 → `data/YYYY-MM-DD.json` (요약은 맨 위 이슈부터)
 - `briefing/build.py` + `templates/` + `static/` → `site/`

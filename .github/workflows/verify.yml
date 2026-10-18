@@ -33,7 +33,8 @@ jobs:
 
       - name: trial run
         env:
-          BRIEFING_LLM_PROVIDER: ${{ vars.BRIEFING_LLM_PROVIDER || 'gemini' }}
+          # 무료 LLM 한도를 아끼려고 push/PR 시험 실행은 요약 없이, 수동 실행(workflow_dispatch)만 실제 호출
+          BRIEFING_LLM_PROVIDER: ${{ github.event_name == 'workflow_dispatch' && (vars.BRIEFING_LLM_PROVIDER || 'gemini') || 'none' }}
           BRIEFING_LLM_MODEL: ${{ vars.BRIEFING_LLM_MODEL }}
           BRIEFING_LLM_URL: ${{ vars.BRIEFING_LLM_URL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

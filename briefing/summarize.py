@@ -8,7 +8,8 @@ BRIEFING_LLM_PROVIDER:
 BRIEFING_LLM_MODEL: 모델 이름 (제공자 기본값을 덮어씀)
 
 호출은 두 종류다.
-  1) 선별(triage) 1회: 상위 후보 제목만 보고 음악인 이슈인지, 중요도(1~5), 같은 사건끼리 묶음을 판단
+  1) 선별(triage) 1회: 상위 후보 제목만 보고 음악인 이슈만 골라 같은 사건끼리 합치고 중요한 순서로 나열
+     (1~5 점수를 매기게 했더니 대부분 3점으로 몰려서 상대 순위 방식으로 바꿨다)
   2) 요약: 중요도순 정렬 후 맨 위부터 SUMMARY_BATCH 개씩. 한도에 걸리면 아래쪽만 요약 없이 남는다
 키가 없으면 호출하지 않고 제목+링크만 쓴다. 무료 한도는 자주 바뀌므로 호출 사이 간격과 하루 상한을 둔다.
 (GitHub Models 는 2026-07-30 종료되어 제거했다.)
@@ -47,21 +48,19 @@ SUMMARY_BATCH = 4  # 한 번에 요약할 이슈 수. 작을수록 위쪽 이슈
 HEADLINES_PER_CLUSTER = 8
 DESCRIPTION_CHARS = 250
 
-TRIAGE_PROMPT = """너는 음악 뉴스 편집장이다. 어제 수집된 기사 묶음 후보 목록을 보고 각 후보를 판정한다.
-- music: 가수·아이돌·래퍼·밴드·프로듀서·작곡가·DJ 등 음악인, 또는 그들의 음악 활동(발매, 공연·투어, 차트,
-  수상, 계약·소속사, 논란, 사건사고, 별세 등)에 관한 이슈면 true. 배우·드라마·영화·예능, 방송사 경영,
-  음악과 무관한 사회·경제 뉴스면 false. 음악인이 주인공이면 예능 출연이어도 true.
-- importance: 1~5 정수.
-  5 = 업계 전체가 주목할 사건 (대형 아티스트의 사망·은퇴·해체·법적 문제, 역대 기록, 대형 투어·컴백 발표)
-  4 = 유명 아티스트의 주요 발매·수상·차트 성과·논란
-  3 = 일반적인 발매·공연·활동 소식
-  2 = 소소한 근황
-  1 = 홍보성 기사, 가십
-  보도량(기사·매체 수)도 참고하되 그것만으로 정하지 마라.
-- same_as: 다른 후보와 같은 사건·같은 인물의 같은 이슈면 그 후보 id(번호가 더 작은 쪽), 아니면 null.
-  언어가 달라도(한국어 기사와 영어 기사) 같은 사건이면 묶는다.
-반드시 아래 JSON 형식으로만, 모든 후보에 대해 답하라:
-{"items": [{"id": "c0", "music": true, "importance": 3, "same_as": null}]}"""
+TRIAGE_PROMPT = """너는 음악 뉴스 편집장이다. 어제 수집된 기사 묶음 후보 목록을 보고 오늘 브리핑에 올릴 이슈를 고른다.
+1) 제외: 음악인 이슈가 아닌 것은 뺀다.
+   - 남길 것: 가수·아이돌·래퍼·밴드·프로듀서·작곡가·DJ 등 음악인, 또는 그들의 활동(발매, 공연·투어, 차트,
+     수상, 계약·소속사, 논란, 사건사고, 별세 등). 음악인이 주인공이면 예능 출연이어도 남긴다.
+   - 뺄 것: 배우·드라마·영화·예능 일반, 방송사 경영, 음악과 무관한 뉴스, 그리고 특정 사건이 아닌 기사
+     (주간 추천곡 리스트, 앨범 리뷰, 칼럼, 순위 정리, 홍보성 기사).
+2) 병합: 같은 사건·같은 인물의 같은 이슈인 후보끼리 묶는다. 언어가 달라도(한국어·영어) 같은 사건이면 묶는다.
+3) 정렬: 남긴 이슈를 중요한 것부터 순서대로 나열한다. 기준은 파급력이다.
+   대형 아티스트의 사망·은퇴·해체·법적 문제·대형 논란 > 역대 기록·주요 수상·대형 투어·컴백 발표
+   > 유명 아티스트의 신곡·앨범 발매 > 일반 공연·활동 소식 > 소소한 근황.
+   보도량(기사·매체 수)도 참고하되 그것만으로 정하지 마라. 국내와 해외를 구분하지 말고 한 줄로 세운다.
+반드시 아래 JSON 형식으로만 답하라. order 에는 각 이슈의 대표 후보 id 만, merge 에는 대표에 합칠 후보 id 를 쓴다:
+{"order": ["c3", "c0", "c7"], "merge": {"c5": "c0", "c9": "c3"}}"""
 
 SUMMARY_PROMPT = """너는 음악 뉴스 브리핑 편집자다. 각 이슈마다 여러 매체의 헤드라인과 짧은 설명이 주어진다.
 규칙:
@@ -100,8 +99,8 @@ class Summarizer:
     def label(self) -> str:
         return f"{self.provider}:{self.model}" if self.enabled else "none"
 
-    def triage(self, clusters: list[Cluster]) -> dict[str, dict]:
-        """{"c0": {"music", "importance", "same_as"}}. 실패하면 {} (호출 측이 코드 순위를 그대로 쓴다)."""
+    def triage(self, clusters: list[Cluster]) -> dict | None:
+        """{"order": [대표 id, 중요한 순], "merge": {합칠 id: 대표 id}}. 실패하면 None (코드 순위를 그대로 쓴다)."""
         if not self.enabled or not clusters:
             return {}
         ids = {f"c{i}" for i in range(len(clusters))}
@@ -110,7 +109,7 @@ class Summarizer:
             heads = " / ".join(it.title[:90] for it in c.items[:3])
             lines.append(f"[c{i}] 보도 {len(c.items)}건·매체 {len(c.sources)}곳 | {heads}")
         user = "\n".join(lines)[:MAX_INPUT_CHARS * 2]
-        return self._ask(TRIAGE_PROMPT, user, lambda p: _validate_triage(p, ids), "선별") or {}
+        return self._ask(TRIAGE_PROMPT, user, lambda p: _validate_triage(p, ids), "선별")
 
     def summarize(self, clusters: list[Cluster]) -> dict[str, dict]:
         """{cluster_id: {"title", "summary"}}. 순서대로(맨 위부터) 부르고, 실패한 묶음은 결과에 없다."""
@@ -206,22 +205,17 @@ def _validate(parsed: dict, ids: set[str]) -> dict[str, dict]:
     return out
 
 
-def _validate_triage(parsed: dict, ids: set[str]) -> dict[str, dict]:
-    out = {}
-    for row in parsed.get("items", []) if isinstance(parsed, dict) else []:
-        if not isinstance(row, dict) or row.get("id") not in ids:
-            continue
-        try:
-            importance = max(1, min(5, int(row.get("importance", 3))))
-        except (TypeError, ValueError):
-            importance = 3
-        same_as = row.get("same_as")
-        out[row["id"]] = {
-            "music": row.get("music") is not False,  # 애매하면 남긴다
-            "importance": importance,
-            "same_as": same_as if same_as in ids and same_as != row["id"] else None,
-        }
-    return out
+def _validate_triage(parsed: dict, ids: set[str]) -> dict | None:
+    if not isinstance(parsed, dict) or not isinstance(parsed.get("order"), list):
+        return None
+    order, seen = [], set()
+    for cid in parsed["order"]:
+        if cid in ids and cid not in seen:
+            order.append(cid)
+            seen.add(cid)
+    raw_merge = parsed.get("merge") if isinstance(parsed.get("merge"), dict) else {}
+    merge = {k: v for k, v in raw_merge.items() if k in ids and v in seen and k != v and k not in seen}
+    return {"order": order, "merge": merge} if order else None
 
 
 def _is_korean(s) -> bool:

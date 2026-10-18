@@ -43,7 +43,6 @@
     <p class="summary">{{ it.summary }}</p>
     {% endif %}
     <p class="badges">
-      {% if it.importance %}<span class="badge imp imp{{ it.importance }}">중요도 {{ it.importance }}/5</span>{% endif %}
       {% if it.ai %}<span class="badge ai">AI 요약</span>{% endif %}
       <span class="badge">기사 {{ it.article_count }} · 매체 {{ it.source_count }}</span>
     </p>

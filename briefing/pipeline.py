@@ -1,5 +1,5 @@
-"""버퍼 → 전날 창 필터 → 묶기·코드 순위 → LLM 선별(음악인 이슈·중요도·같은 사건 병합)
-→ 중요도순 정렬 → 위에서부터 요약 → data/YYYY-MM-DD.json."""
+"""버퍼 → 전날 창 필터 → 묶기·코드 순위 → LLM 선별(음악인 이슈만, 같은 사건 병합,
+중요한 순서) → 위에서부터 요약 → data/YYYY-MM-DD.json."""
 
 from __future__ import annotations
 
@@ -30,40 +30,18 @@ def failed_sources(cfg: dict, status: dict, start: datetime) -> list[dict]:
 TRIAGE_CANDIDATES = 40  # 선별에 보여 줄 코드 순위 상위 후보 수
 
 
-def rank_issues(clusters: list[Cluster], summarizer: Summarizer) -> list[tuple[Cluster, int | None]]:
-    """(클러스터, 중요도) 를 중요도 → 코드 점수 순으로. 선별이 실패하면 코드 점수 순 그대로."""
+def rank_issues(clusters: list[Cluster], summarizer: Summarizer) -> list[Cluster]:
+    """LLM 선별 순서대로(음악인 이슈만, 같은 사건 병합). 선별이 실패하면 코드 점수 순 그대로."""
     candidates = clusters[:TRIAGE_CANDIDATES]
     tri = summarizer.triage(candidates)
     if not tri:
-        return [(c, None) for c in candidates]
-
-    # same_as 를 따라가 대표(번호가 가장 작은) 후보로 합친다
-    def root(i: int) -> int:
-        seen = set()
-        while i not in seen:
-            seen.add(i)
-            nxt = (tri.get(f"c{i}") or {}).get("same_as")
-            if nxt is None or int(nxt[1:]) >= i:
-                break
-            i = int(nxt[1:])
-        return i
-
-    merged: dict[int, Cluster] = {}
-    for i, c in enumerate(candidates):
-        r = root(i)
-        if r in merged:
-            merged[r].items.extend(c.items)
-            merged[r].score += c.score
-        else:
-            merged[r] = Cluster(items=list(c.items), score=c.score)
-    ranked = []
-    for r, c in merged.items():
-        info = tri.get(f"c{r}")
-        if info and not info["music"]:
-            continue
-        ranked.append((c, info["importance"] if info else 2))
-    ranked.sort(key=lambda x: (x[1], x[0].score), reverse=True)
-    return ranked
+        return candidates
+    by_id = {f"c{i}": c for i, c in enumerate(candidates)}
+    ranked = {cid: Cluster(items=list(by_id[cid].items), score=by_id[cid].score) for cid in tri["order"]}
+    for src, dst in tri["merge"].items():
+        ranked[dst].items.extend(by_id[src].items)
+        ranked[dst].score += by_id[src].score
+    return [ranked[cid] for cid in tri["order"]]
 
 
 def build_day(d: date) -> dict:
@@ -77,12 +55,11 @@ def build_day(d: date) -> dict:
     for cat in cfg["categories"]:
         cat_items = [it for it in items if it.category == cat["key"]]
         ranked = rank_issues(cluster_items(cat_items), summarizer)[:TOP_ISSUES]
-        summaries = summarizer.summarize([c for c, _ in ranked])
+        summaries = summarizer.summarize(ranked)
         issues = []
-        for i, (c, importance) in enumerate(ranked):
+        for i, c in enumerate(ranked):
             s = summaries.get(f"c{i}")
             issues.append({
-                "importance": importance,
                 "title": (s and s["title"]) or c.items[0].title,
                 "summary": s["summary"] if s else None,
                 "ai": bool(s),
@@ -96,7 +73,7 @@ def build_day(d: date) -> dict:
                            "collected": len(cat_items), "issues": issues})
         print(f"{cat['name']}: 기사 {len(cat_items)}건 → 이슈 {len(issues)}개, 요약 {len(summaries)}개")
         for n, it in enumerate(issues, 1):  # 실행 로그로 품질 확인용 (자체 요약만, 기사 설명문 아님)
-            print(f"  {n:>2}. [중요도 {it['importance']}] {it['title']} — {(it['summary'] or '(요약 없음)')[:150]}")
+            print(f"  {n:>2}. ({it['article_count']}건) {it['title']} — {(it['summary'] or '(요약 없음)')[:150]}")
 
     result = {
         "date": d.isoformat(),
