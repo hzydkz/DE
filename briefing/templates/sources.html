@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}소스 목록{% endblock %}
+{% block main %}
+<section class="meta">
+  <h1>소스 목록</h1>
+  <p class="sub">RSS와 공식 무료 API만 씁니다. 기사 본문은 가져오지 않고, 제목·설명문을 요약 입력으로만 씁니다.</p>
+</section>
+{% for cat in cfg.categories %}
+<section class="cat-static">
+  <h2>{{ cat.name }}</h2>
+  <ul class="srclist">
+  {% for s in cfg.sources if s.category == cat.key %}
+    <li>{{ s.name }} <span class="kind">{{ s.type }}</span>{% if s.url %} <a href="{{ s.url }}" rel="noopener noreferrer">피드</a>{% endif %}</li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

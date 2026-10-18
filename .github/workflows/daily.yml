@@ -1,0 +1,119 @@
+name: daily-briefing
+
+# 시각은 UTC. KST = UTC+9.
+#  - 20:17 UTC = KST 05:17  → 마지막 수집 + 전날 브리핑 생성 + 배포 (정각 혼잡 회피, 6시 전 완료 목표)
+#  - 그 외 2시간마다(KST 홀수 시 17분) → 수집만
+#    (연합뉴스 전체 피드는 120건이 약 4시간 분량이라 2시간 간격이 필요)
+on:
+  schedule:
+    - cron: "17 20 * * *"
+    - cron: "17 0-18/2,22 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "collect = 수집만, build = 수집 + 브리핑 생성 + 배포"
+        type: choice
+        options: [build, collect]
+        default: build
+      date:
+        description: "브리핑 날짜 YYYY-MM-DD (비우면 KST 어제)"
+        required: false
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write   # data/*.json 커밋
+      actions: write    # 60일 비활성 자동 정지 방지용 워크플로 재활성화
+    outputs:
+      build: ${{ steps.mode.outputs.build }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            [ "${{ inputs.mode }}" = "build" ] && echo "build=true" >> "$GITHUB_OUTPUT" || echo "build=false" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "17 20 * * *" ]; then
+            echo "build=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "build=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "started_at_utc=$(date -u +%FT%TZ)"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # 수집 버퍼(기사 설명문 포함)는 공개 레포가 아니라 Actions 캐시에만 둔다
+      - uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: raw-${{ github.run_id }}
+          restore-keys: raw-
+
+      - name: collect
+        run: python -m briefing collect
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .cache
+          key: raw-${{ github.run_id }}
+
+      - name: build briefing
+        if: steps.mode.outputs.build == 'true'
+        env:
+          # 무료 LLM 키가 없으면 요약 없이 제목+링크로 생성된다
+          BRIEFING_LLM_PROVIDER: ${{ vars.BRIEFING_LLM_PROVIDER || 'gemini' }}
+          BRIEFING_LLM_MODEL: ${{ vars.BRIEFING_LLM_MODEL }}
+          BRIEFING_LLM_URL: ${{ vars.BRIEFING_LLM_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BRIEFING_LLM_API_KEY: ${{ secrets.BRIEFING_LLM_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          python -m briefing day ${{ inputs.date }}
+          python -m briefing site
+
+      - name: commit data
+        if: steps.mode.outputs.build == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "briefing: ${{ inputs.date || 'daily' }} update"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.mode.outputs.build == 'true'
+        with:
+          path: site
+
+      - name: keep schedule alive
+        if: steps.mode.outputs.build == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/daily.yml/enable"
+
+  deploy:
+    needs: run
+    if: needs.run.outputs.build == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

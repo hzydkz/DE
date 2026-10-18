@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>{% block title %}데일리 이슈 브리핑{% endblock %}</title>
+<link rel="stylesheet" href="{{ root }}style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="{{ root }}">데일리 이슈 브리핑</a>
+  <nav class="links"><a href="{{ root }}archive/">아카이브</a><a href="{{ root }}sources/">소스</a></nav>
+</header>
+<main>
+{% block main %}{% endblock %}
+</main>
+<footer class="foot">
+  요약은 RSS 제목·설명문만으로 AI가 만든 것이라 틀릴 수 있습니다. 판단은 원문으로 하세요.
+</footer>
+{% block script %}{% endblock %}
+</body>
+</html>

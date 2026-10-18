@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}아카이브{% endblock %}
+{% block main %}
+<section class="meta"><h1>아카이브</h1></section>
+{% if days %}
+<ul class="archive">{% for day in days %}<li><a href="{{ root }}{{ day }}/">{{ day }}</a></li>{% endfor %}</ul>
+{% else %}
+<p class="empty">아직 브리핑이 없습니다.</p>
+{% endif %}
+{% endblock %}
