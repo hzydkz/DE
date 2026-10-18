@@ -43,7 +43,8 @@ PROVIDERS = {
 DAILY_CALL_LIMIT = int(os.environ.get("BRIEFING_LLM_CALL_LIMIT", "15"))
 MAX_INPUT_CHARS = int(os.environ.get("BRIEFING_LLM_MAX_INPUT_CHARS", "9000"))
 # 무료 티어 분당 요청 한도(대개 10 RPM 안팎)를 넘지 않게 호출 사이 최소 간격(초)
-MIN_CALL_INTERVAL = float(os.environ.get("BRIEFING_LLM_MIN_INTERVAL", "7"))
+MIN_CALL_INTERVAL = float(os.environ.get("BRIEFING_LLM_MIN_INTERVAL", "15"))
+RATE_LIMIT_WAIT = 65  # 429 를 받으면 분당 한도가 풀리길 기다렸다가 한 번만 더 시도한다
 SUMMARY_BATCH = 4  # 한 번에 요약할 이슈 수. 작을수록 위쪽 이슈가 먼저 확실히 요약된다
 HEADLINES_PER_CLUSTER = 8
 DESCRIPTION_CHARS = 250
@@ -59,8 +60,10 @@ TRIAGE_PROMPT = """너는 음악 뉴스 편집장이다. 어제 수집된 기사
    대형 아티스트의 사망·은퇴·해체·법적 문제·대형 논란 > 역대 기록·주요 수상·대형 투어·컴백 발표
    > 유명 아티스트의 신곡·앨범 발매 > 일반 공연·활동 소식 > 소소한 근황.
    보도량(기사·매체 수)도 참고하되 그것만으로 정하지 마라. 국내와 해외를 구분하지 말고 한 줄로 세운다.
+4) 제목: order 의 각 이슈에 한국어 핵심 제목(40자 이내)을 붙인다. 헤드라인을 베끼거나 영어로 두지 말고
+   "누가 무엇을 했다" 식으로 새로 쓴다. 인명·곡명은 한국어 표기(필요하면 원어 병기). 입력에 없는 사실은 쓰지 않는다.
 반드시 아래 JSON 형식으로만 답하라. order 에는 각 이슈의 대표 후보 id 만, merge 에는 대표에 합칠 후보 id 를 쓴다:
-{"order": ["c3", "c0", "c7"], "merge": {"c5": "c0", "c9": "c3"}}"""
+{"order": ["c3", "c0"], "merge": {"c5": "c0"}, "titles": {"c3": "...", "c0": "..."}}"""
 
 SUMMARY_PROMPT = """너는 음악 뉴스 브리핑 편집자다. 각 이슈마다 여러 매체의 헤드라인과 짧은 설명이 주어진다.
 규칙:
@@ -100,7 +103,9 @@ class Summarizer:
         return f"{self.provider}:{self.model}" if self.enabled else "none"
 
     def triage(self, clusters: list[Cluster]) -> dict | None:
-        """{"order": [대표 id, 중요한 순], "merge": {합칠 id: 대표 id}}. 실패하면 None (코드 순위를 그대로 쓴다)."""
+        """{"order": [대표 id, 중요한 순], "merge": {합칠 id: 대표 id}, "titles": {대표 id: 한국어 제목}}.
+
+        실패하면 None (코드 순위를 그대로 쓴다). titles 는 요약이 실패한 이슈의 제목으로 쓴다."""
         if not self.enabled or not clusters:
             return {}
         ids = {f"c{i}" for i in range(len(clusters))}
@@ -126,7 +131,8 @@ class Summarizer:
         return result
 
     def _ask(self, system: str, user: str, validate, label: str):
-        for attempt in range(2):  # JSON 파싱·검증 실패 시 1회 재시도
+        rate_limited = False
+        for attempt in range(2):  # 실패 시 1회 재시도
             if self.exhausted:
                 return None
             if self.calls >= DAILY_CALL_LIMIT:
@@ -143,8 +149,12 @@ class Summarizer:
                 print(msg, file=sys.stderr)
                 self.errors.append(msg)
                 if isinstance(e, requests.HTTPError) and e.response is not None and e.response.status_code == 429:
-                    self.exhausted = True  # 한도 초과는 재시도해도 소용없다
-                    return None
+                    if rate_limited or attempt == 1:
+                        self.exhausted = True  # 기다려도 또 429 면 하루 한도로 보고 그만 부른다
+                        return None
+                    rate_limited = True
+                    time.sleep(RATE_LIMIT_WAIT)
+                    continue
                 time.sleep(3)
         return None
 
@@ -215,7 +225,9 @@ def _validate_triage(parsed: dict, ids: set[str]) -> dict | None:
             seen.add(cid)
     raw_merge = parsed.get("merge") if isinstance(parsed.get("merge"), dict) else {}
     merge = {k: v for k, v in raw_merge.items() if k in ids and v in seen and k != v and k not in seen}
-    return {"order": order, "merge": merge} if order else None
+    raw_titles = parsed.get("titles") if isinstance(parsed.get("titles"), dict) else {}
+    titles = {k: v.strip()[:80] for k, v in raw_titles.items() if k in seen and _is_korean(v)}
+    return {"order": order, "merge": merge, "titles": titles} if order else None
 
 
 def _is_korean(s) -> bool:

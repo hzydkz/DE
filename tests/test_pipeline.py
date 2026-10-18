@@ -94,7 +94,8 @@ def test_triage_merges_filters_and_orders(tmp_path, monkeypatch):
                 ids[line.split("|", 1)[1]] = line[1:line.index("]")]
             find = lambda word: next(cid for title, cid in ids.items() if word in title)  # noqa: E731
             # 드라마 기사는 order 에서 빼고, 영어 NewJeans 기사는 뉴진스 이슈로 합치고, 오아시스를 맨 위로
-            return {"order": [find("오아시스"), find("뉴진스")], "merge": {find("NewJeans"): find("뉴진스")}}
+            return {"order": [find("오아시스"), find("뉴진스")], "merge": {find("NewJeans"): find("뉴진스")},
+                    "titles": {find("오아시스"): "오아시스, 투어 오프닝 밴드 공개"}}
         return {"issues": [{"id": cid, "title": f"요약 제목 {cid}", "summary": "요약했다."}
                            for cid in _ids(user)]}
 
@@ -107,6 +108,20 @@ def test_triage_merges_filters_and_orders(tmp_path, monkeypatch):
     assert len(calls) == 2  # 선별 1회 + 요약 1회
 
 
+def test_triage_title_used_when_summary_fails(tmp_path, monkeypatch):
+    _setup(tmp_path, monkeypatch)
+
+    def handler(system, user):
+        if "편집장" in system:
+            cid = next(line[1:line.index("]")] for line in user.splitlines() if "Oasis" in line or "오아시스" in line)
+            return {"order": [cid], "merge": {}, "titles": {cid: "오아시스, 투어 오프닝 밴드 공개"}}
+        return {"issues": []}
+
+    _llm(monkeypatch, handler)
+    issue = _music(pipeline.build_day(date(2026, 10, 17)))["issues"][0]
+    assert issue["title"] == "오아시스, 투어 오프닝 밴드 공개" and issue["ai"] is False
+
+
 def test_summaries_go_top_down_and_stop_on_rate_limit(tmp_path, monkeypatch):
     _setup(tmp_path, monkeypatch)
     monkeypatch.setattr("briefing.summarize.SUMMARY_BATCH", 1)
@@ -117,7 +132,7 @@ def test_summaries_go_top_down_and_stop_on_rate_limit(tmp_path, monkeypatch):
             return {"order": []}  # 선별 결과 없음 → 코드 순위 그대로
         ids = _ids(user)
         summary_calls.append(ids)
-        if len(summary_calls) == 2:
+        if len(summary_calls) >= 2:
             resp = requests.Response()
             resp.status_code = 429
             raise requests.HTTPError(response=resp)
@@ -126,7 +141,8 @@ def test_summaries_go_top_down_and_stop_on_rate_limit(tmp_path, monkeypatch):
     _llm(monkeypatch, handler)
     result = pipeline.build_day(date(2026, 10, 17))
     issues = _music(result)["issues"]
-    assert summary_calls == [["c0"], ["c1"]]  # 위에서부터, 429 이후로는 부르지 않음
+    # 위에서부터, 429 면 한 번 기다렸다 재시도하고 또 429 면 더 부르지 않음
+    assert summary_calls == [["c0"], ["c1"], ["c1"]]
     assert issues[0]["ai"] is True
     assert all(not i["ai"] and i["links"] for i in issues[1:])
     assert result["llm_errors"]
@@ -164,7 +180,7 @@ def test_validate_triage_ignores_bad_refs():
     ids = {"c0", "c1", "c2"}
     out = _validate_triage({"order": ["c1", "c9", "c1", "c0"],
                             "merge": {"c2": "c1", "c0": "c1", "c7": "c0", "c2x": "c1"}}, ids)
-    assert out == {"order": ["c1", "c0"], "merge": {"c2": "c1"}}
+    assert out == {"order": ["c1", "c0"], "merge": {"c2": "c1"}, "titles": {}}
     assert _validate_triage({"order": []}, ids) is None
     assert _validate_triage({"items": []}, ids) is None
 
