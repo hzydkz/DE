@@ -28,6 +28,16 @@ jobs:
         continue-on-error: true
         run: python -m briefing verify
 
+      - name: llm smoke (temporary)
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sS -i -X POST https://models.github.ai/inference/chat/completions \
+            -H "Authorization: Bearer $GITHUB_TOKEN" -H "Content-Type: application/json" -H "Accept: application/json" \
+            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"Say hi"}],"max_tokens":20}' \
+            | grep -viE "^(set-cookie|x-request-id|authorization)" | head -40
+
       - name: trial run
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

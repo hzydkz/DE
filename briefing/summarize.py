@@ -105,7 +105,8 @@ class Summarizer:
         self.calls += 1
         r = requests.post(
             self.conf["url"],
-            headers={"Authorization": f"Bearer {self.key}", "Content-Type": "application/json"},
+            headers={"Authorization": f"Bearer {self.key}", "Content-Type": "application/json",
+                     "Accept": "application/json"},
             json={
                 "model": self.model,
                 "messages": [{"role": "system", "content": SYSTEM_PROMPT},
@@ -115,7 +116,10 @@ class Summarizer:
                 "response_format": {"type": "json_object"},
             },
             timeout=120,
+            allow_redirects=False,  # 리다이렉트를 따라가면 POST 가 GET 으로 바뀌어 엉뚱한 응답을 받는다
         )
+        if r.is_redirect:
+            raise ValueError(f"HTTP {r.status_code} 리다이렉트 → {r.headers.get('location')}")
         r.raise_for_status()
         try:
             content = r.json()["choices"][0]["message"]["content"]
