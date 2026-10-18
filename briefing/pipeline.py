@@ -1,4 +1,5 @@
-"""버퍼 → 전날 창 필터 → 분야별 묶기·순위 → 요약 → data/YYYY-MM-DD.json."""
+"""버퍼 → 전날 창 필터 → 묶기·코드 순위 → LLM 선별(음악인 이슈·중요도·같은 사건 병합)
+→ 중요도순 정렬 → 위에서부터 요약 → data/YYYY-MM-DD.json."""
 
 from __future__ import annotations
 
@@ -6,7 +7,8 @@ from datetime import date, datetime, timezone
 
 from .cluster import cluster_items, pick_links
 from .collect import BUFFER_FILE, items_in_window
-from .common import DATA_DIR, MAX_LINKS, TOP_ISSUES, day_window, load_config, read_json, write_json
+from .common import (DATA_DIR, MAX_LINKS, TOP_ISSUES, Cluster, day_window, load_config, read_json,
+                     write_json)
 from .summarize import Summarizer
 
 
@@ -25,6 +27,45 @@ def failed_sources(cfg: dict, status: dict, start: datetime) -> list[dict]:
     return out
 
 
+TRIAGE_CANDIDATES = 40  # 선별에 보여 줄 코드 순위 상위 후보 수
+
+
+def rank_issues(clusters: list[Cluster], summarizer: Summarizer) -> list[tuple[Cluster, int | None]]:
+    """(클러스터, 중요도) 를 중요도 → 코드 점수 순으로. 선별이 실패하면 코드 점수 순 그대로."""
+    candidates = clusters[:TRIAGE_CANDIDATES]
+    tri = summarizer.triage(candidates)
+    if not tri:
+        return [(c, None) for c in candidates]
+
+    # same_as 를 따라가 대표(번호가 가장 작은) 후보로 합친다
+    def root(i: int) -> int:
+        seen = set()
+        while i not in seen:
+            seen.add(i)
+            nxt = (tri.get(f"c{i}") or {}).get("same_as")
+            if nxt is None or int(nxt[1:]) >= i:
+                break
+            i = int(nxt[1:])
+        return i
+
+    merged: dict[int, Cluster] = {}
+    for i, c in enumerate(candidates):
+        r = root(i)
+        if r in merged:
+            merged[r].items.extend(c.items)
+            merged[r].score += c.score
+        else:
+            merged[r] = Cluster(items=list(c.items), score=c.score)
+    ranked = []
+    for r, c in merged.items():
+        info = tri.get(f"c{r}")
+        if info and not info["music"]:
+            continue
+        ranked.append((c, info["importance"] if info else 2))
+    ranked.sort(key=lambda x: (x[1], x[0].score), reverse=True)
+    return ranked
+
+
 def build_day(d: date) -> dict:
     cfg = load_config()
     buf = read_json(BUFFER_FILE, {"items": {}, "status": {}})
@@ -35,12 +76,13 @@ def build_day(d: date) -> dict:
     categories = []
     for cat in cfg["categories"]:
         cat_items = [it for it in items if it.category == cat["key"]]
-        clusters = cluster_items(cat_items)[:TOP_ISSUES]
-        summaries = summarizer.summarize(cat["name"], clusters)
+        ranked = rank_issues(cluster_items(cat_items), summarizer)[:TOP_ISSUES]
+        summaries = summarizer.summarize([c for c, _ in ranked])
         issues = []
-        for i, c in enumerate(clusters):
+        for i, (c, importance) in enumerate(ranked):
             s = summaries.get(f"c{i}")
             issues.append({
+                "importance": importance,
                 "title": (s and s["title"]) or c.items[0].title,
                 "summary": s["summary"] if s else None,
                 "ai": bool(s),

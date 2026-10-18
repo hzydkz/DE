@@ -15,6 +15,7 @@ import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from urllib.parse import parse_qsl, quote_plus, urlencode, urlsplit, urlunsplit
 
 import feedparser
@@ -192,8 +193,50 @@ def fetch_youtube(src: dict) -> list[Item]:
     return items
 
 
+def fetch_naver(src: dict) -> list[Item]:
+    """네이버 검색 API(뉴스). 하루 25,000회 무료. 공식 API라 기사 요약문(description)을 받을 수 있다."""
+    cid, secret = os.environ.get("NAVER_CLIENT_ID"), os.environ.get("NAVER_CLIENT_SECRET")
+    if not (cid and secret):
+        raise Skipped("NAVER_CLIENT_ID/SECRET 없음")
+    headers = {"X-Naver-Client-Id": cid, "X-Naver-Client-Secret": secret}
+    items = []
+    for q in src["queries"]:
+        r = requests.get("https://openapi.naver.com/v1/search/news.json", headers=headers, timeout=TIMEOUT,
+                         params={"query": q, "display": 100, "sort": "date"})
+        r.raise_for_status()
+        for h in r.json().get("items", []):
+            url = h.get("originallink") or h.get("link")
+            if not url:
+                continue
+            host = urlsplit(url).netloc.lower().removeprefix("www.")
+            items.append(Item(
+                title=clean_text(h.get("title"), 200),
+                url=url,
+                source=host,
+                source_id=src["id"],
+                category=src["category"],
+                published=parsedate_to_datetime(h["pubDate"]).astimezone(timezone.utc).isoformat(),
+                description=clean_text(h.get("description")),
+            ))
+    return items
+
+
 FETCHERS = {"rss": fetch_rss, "gnews": fetch_gnews, "trends": fetch_trends,
-            "hn": fetch_hn, "youtube": fetch_youtube}
+            "hn": fetch_hn, "youtube": fetch_youtube, "naver": fetch_naver}
+
+
+# 연예 전반·검색 결과에 섞이는 드라마·예능·방송사 기사를 거르는 1차 필터 (2차는 LLM 선별)
+MUSIC_RE = re.compile(
+    r"가수|아이돌|걸그룹|보이그룹|래퍼|힙합|밴드|인디|싱어송라이터|프로듀서|작곡|작사|앨범|싱글|신곡|컴백"
+    r"|음원|음반|차트|빌보드|멜론|콘서트|공연|투어|페스티벌|팬미팅|팬콘|뮤직|음악|노래|뮤비|뮤직비디오"
+    r"|OST|가요|트로트|케이팝|K-?팝|K-?pop|보컬|음악방송|엠카|뮤뱅|인기가요|음중|그래미|MAMA|골든디스크"
+    r"|\b(?:music|album|single|song|singer|rapper|band|tour|concert|festival|grammy|billboard|EP|MV)\b",
+    re.I,
+)
+
+
+def is_music(it: Item) -> bool:
+    return bool(MUSIC_RE.search(f"{it.title} {it.description}"))
 
 
 def fetch_source(src: dict) -> list[Item]:
@@ -201,6 +244,8 @@ def fetch_source(src: dict) -> list[Item]:
     if not items and src["type"] in ("rss", "gnews", "trends"):
         # 피드 주소가 바뀌면 HTML 이 와서 '0건 성공'처럼 보이므로 실패로 친다
         raise ValueError("항목 0건 (피드 주소 확인 필요)")
+    if src.get("filter") == "music":
+        items = [it for it in items if is_music(it)]
     return items
 
 
@@ -235,8 +280,18 @@ def collect() -> dict:
             buf["items"][key] = d
         print(f"[ok]   {src['id']}: {len(items)}건")
 
+    # 오래된 항목, sources.yaml 에서 빠진 소스의 항목, 필터에 안 맞는 항목(필터 도입 전 수집분)을 버린다
     cutoff = (now - BUFFER_KEEP).isoformat()
-    buf["items"] = {k: v for k, v in buf["items"].items() if v["published"] >= cutoff}
+    by_id = {s["id"]: s for s in cfg["sources"]}
+
+    def keep(v: dict) -> bool:
+        src = by_id.get(v["source_id"])
+        if not src or v["published"] < cutoff or v["category"] != src["category"]:
+            return False
+        return src.get("filter") != "music" or is_music(Item(**v))
+
+    buf["items"] = {k: v for k, v in buf["items"].items() if keep(v)}
+    buf["status"] = {k: v for k, v in buf["status"].items() if k in by_id}
     write_json(BUFFER_FILE, buf)
     print(f"버퍼: {len(buf['items'])}건")
     return buf
