@@ -21,21 +21,24 @@
   {% endif %}
 </section>
 
+{% set multi = d.categories | length > 1 %}
+{% if multi %}
 <nav class="tabs" role="tablist">
   {% for c in d.categories %}
   <a href="#{{ c.key }}" role="tab" data-tab="{{ c.key }}">{{ c.name }}<span class="n">{{ c.issues | length }}</span></a>
   {% endfor %}
 </nav>
+{% endif %}
 
 {% for c in d.categories %}
 <section class="cat" id="{{ c.key }}" data-panel="{{ c.key }}">
-  <h2>{{ c.name }}</h2>
+  {% if multi %}<h2>{{ c.name }}</h2>{% endif %}
   {% if not c.issues %}
   <p class="empty">수집된 기사가 없습니다.</p>
   {% endif %}
   {% for it in c.issues %}
   <article class="card">
-    <h3>{{ it.title }}</h3>
+    <h3><span class="rank">{{ loop.index }}</span>{{ it.title }}</h3>
     {% if it.summary %}
     <p class="summary">{{ it.summary }}</p>
     {% endif %}

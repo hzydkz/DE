@@ -19,7 +19,7 @@ SOURCES_FILE = ROOT / "sources.yaml"
 KST = timezone(timedelta(hours=9))
 
 # 분야당 남길 이슈 수, 이슈당 링크 수
-TOP_ISSUES = int(os.environ.get("BRIEFING_TOP_ISSUES", "7"))
+TOP_ISSUES = int(os.environ.get("BRIEFING_TOP_ISSUES", "15"))
 MAX_LINKS = 5
 
 

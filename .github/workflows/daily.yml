@@ -61,6 +61,10 @@ jobs:
           restore-keys: raw-
 
       - name: collect
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python -m briefing collect
 
       - uses: actions/cache/save@v4
@@ -78,7 +82,6 @@ jobs:
           BRIEFING_LLM_URL: ${{ vars.BRIEFING_LLM_URL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BRIEFING_LLM_API_KEY: ${{ secrets.BRIEFING_LLM_API_KEY }}
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           python -m briefing day ${{ inputs.date }}
           python -m briefing site
