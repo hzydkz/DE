@@ -49,8 +49,10 @@ SYSTEM_PROMPT = """너는 뉴스 브리핑 편집자다. 각 이슈마다 여러
 - 입력에 없는 사실을 추가하지 마라. 추측·배경지식 보충 금지.
 - 수치, 인명, 기관명은 입력에 적힌 그대로 쓴다.
 - 의견·평가·감정 표현 없이 사실만 쓴다.
-- 영어 등 외국어 입력도 한국어로 쓴다.
-- title: 사건을 가리키는 중립적인 한국어 제목 한 줄(40자 이내).
+- 영어 등 외국어 입력이어도 title 과 summary 는 반드시 한국어로 쓴다(고유명사는 원어 병기 가능).
+- title: 여러 헤드라인을 종합해 사건의 핵심을 담은 한국어 제목 한 줄(40자 이내).
+  입력 헤드라인 하나를 그대로 베끼지 말고, "누가 무엇을 했다" 식으로 새로 쓴다.
+  [속보]·[단독] 같은 말머리, 따옴표 인용 위주의 낚시성 표현은 쓰지 않는다.
 - summary: 3~5문장. 입력이 빈약하면 확인되는 내용만 짧게 써도 된다.
 반드시 아래 JSON 형식으로만 답하라:
 {"issues": [{"id": "<입력 id 그대로>", "title": "...", "summary": "..."}]}"""
@@ -156,9 +158,15 @@ def _validate(parsed: dict, ids: set[str]) -> dict[str, dict]:
         if not isinstance(row, dict):
             continue
         cid, title, summary = row.get("id"), row.get("title"), row.get("summary")
-        if cid in ids and isinstance(summary, str) and summary.strip():
-            out[cid] = {"title": (title or "").strip()[:80], "summary": summary.strip()}
+        if cid in ids and _is_korean(summary):
+            # 한국어가 아닌 제목은 버리고 대표 헤드라인으로 대체한다
+            title = title.strip()[:80] if _is_korean(title) else ""
+            out[cid] = {"title": title, "summary": summary.strip()}
     return out
+
+
+def _is_korean(s) -> bool:
+    return isinstance(s, str) and any("가" <= ch <= "힣" for ch in s)
 
 
 def cluster_block(cid: str, c: Cluster) -> str:
