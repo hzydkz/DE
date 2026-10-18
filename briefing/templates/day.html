@@ -14,7 +14,9 @@
     <ul>{% for s in d.failed_sources %}<li>{{ s.name }} <code>{{ s.id }}</code></li>{% endfor %}</ul>
   </details>
   {% endif %}
-  {% if d.llm_errors %}
+  {% if d.model == "none" %}
+  <p class="warn-inline">AI 요약이 꺼져 있어(API 키 미설정) 기사 제목과 링크만 표시합니다.</p>
+  {% elif d.llm_errors %}
   <p class="warn-inline">일부 분야는 AI 요약에 실패해 제목과 링크만 표시합니다.</p>
   {% endif %}
 </section>

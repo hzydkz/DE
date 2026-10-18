@@ -97,9 +97,13 @@ def test_no_key_means_no_calls(monkeypatch):
 
 
 def test_validate_rejects_unknown_ids_and_empty():
-    out = _validate({"issues": [{"id": "c9", "summary": "x"}, {"id": "c0", "summary": " "},
-                                {"id": "c1", "title": "t", "summary": "ok"}]}, {"c0", "c1"})
-    assert out == {"c1": {"title": "t", "summary": "ok"}}
+    out = _validate({"issues": [{"id": "c9", "summary": "요약"}, {"id": "c0", "summary": " "},
+                                {"id": "c1", "title": "한은 금리 동결", "summary": "동결했다."},
+                                {"id": "c2", "title": "Fed holds rates", "summary": "연준이 동결했다."},
+                                {"id": "c3", "title": "제목", "summary": "Fed held rates."}]},
+                    {"c0", "c1", "c2", "c3"})
+    assert out == {"c1": {"title": "한은 금리 동결", "summary": "동결했다."},
+                   "c2": {"title": "", "summary": "연준이 동결했다."}}
 
 
 def test_normalize_url():
