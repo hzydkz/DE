@@ -14,7 +14,6 @@ jobs:
     timeout-minutes: 20
     permissions:
       contents: read
-      models: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,19 +27,13 @@ jobs:
         continue-on-error: true
         run: python -m briefing verify
 
-      - name: llm smoke (temporary)
-        continue-on-error: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl -sS -i -X POST https://models.github.ai/inference/chat/completions \
-            -H "Authorization: Bearer $GITHUB_TOKEN" -H "Content-Type: application/json" -H "Accept: application/json" \
-            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"Say hi"}],"max_tokens":20}' \
-            | grep -viE "^(set-cookie|x-request-id|authorization)" | head -40
-
       - name: trial run
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRIEFING_LLM_PROVIDER: ${{ vars.BRIEFING_LLM_PROVIDER || 'gemini' }}
+          BRIEFING_LLM_MODEL: ${{ vars.BRIEFING_LLM_MODEL }}
+          BRIEFING_LLM_URL: ${{ vars.BRIEFING_LLM_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BRIEFING_LLM_API_KEY: ${{ secrets.BRIEFING_LLM_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           python -m briefing collect

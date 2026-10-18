@@ -50,8 +50,8 @@ def test_day_and_site_without_llm(tmp_path, monkeypatch):
 
 
 def test_llm_summary_used_and_fallback_on_failure(tmp_path, monkeypatch):
-    monkeypatch.setenv("BRIEFING_LLM_PROVIDER", "github")
-    monkeypatch.setenv("GITHUB_TOKEN", "x")
+    monkeypatch.setenv("BRIEFING_LLM_PROVIDER", "gemini")
+    monkeypatch.setenv("GEMINI_API_KEY", "x")
     _setup(tmp_path, monkeypatch)
     calls = []
 
@@ -70,8 +70,8 @@ def test_llm_summary_used_and_fallback_on_failure(tmp_path, monkeypatch):
 
 
 def test_llm_failure_retries_once_then_falls_back(tmp_path, monkeypatch):
-    monkeypatch.setenv("BRIEFING_LLM_PROVIDER", "github")
-    monkeypatch.setenv("GITHUB_TOKEN", "x")
+    monkeypatch.setenv("BRIEFING_LLM_PROVIDER", "gemini")
+    monkeypatch.setenv("GEMINI_API_KEY", "x")
     _setup(tmp_path, monkeypatch)
     calls = []
 
@@ -87,6 +87,13 @@ def test_llm_failure_retries_once_then_falls_back(tmp_path, monkeypatch):
     assert issue["ai"] is False and issue["summary"] is None
     assert issue["title"] and issue["links"]
     assert result["llm_errors"]
+
+
+def test_no_key_means_no_calls(monkeypatch):
+    monkeypatch.setenv("BRIEFING_LLM_PROVIDER", "gemini")
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    s = Summarizer()
+    assert not s.enabled and s.label == "none"
 
 
 def test_validate_rejects_unknown_ids_and_empty():

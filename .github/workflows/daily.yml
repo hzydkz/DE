@@ -29,7 +29,6 @@ jobs:
     timeout-minutes: 30
     permissions:
       contents: write   # data/*.json 커밋
-      models: read      # GitHub Models (무료 AI 요약)
       actions: write    # 60일 비활성 자동 정지 방지용 워크플로 재활성화
     outputs:
       build: ${{ steps.mode.outputs.build }}
@@ -73,10 +72,12 @@ jobs:
       - name: build briefing
         if: steps.mode.outputs.build == 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRIEFING_LLM_PROVIDER: ${{ vars.BRIEFING_LLM_PROVIDER || 'github' }}
+          # 무료 LLM 키가 없으면 요약 없이 제목+링크로 생성된다
+          BRIEFING_LLM_PROVIDER: ${{ vars.BRIEFING_LLM_PROVIDER || 'gemini' }}
           BRIEFING_LLM_MODEL: ${{ vars.BRIEFING_LLM_MODEL }}
+          BRIEFING_LLM_URL: ${{ vars.BRIEFING_LLM_URL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BRIEFING_LLM_API_KEY: ${{ secrets.BRIEFING_LLM_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           python -m briefing day ${{ inputs.date }}

@@ -1,7 +1,7 @@
 # 데일리 이슈 브리핑
 
 매일 KST 05:17에 전날(KST 0~24시) 이슈를 분야별로 묶어 AI 요약 + 원문 링크로 보여주는 정적 사이트.
-운영비 0원(GitHub Actions + GitHub Pages + GitHub Models 무료 한도).
+운영비 0원(GitHub Actions + GitHub Pages + Gemini API 무료 티어). GitHub Models 는 2026-07-30 종료됨.
 
 ## 규칙
 - 기사 본문을 가져오거나 저장하지 않는다. RSS 제목·설명문만 요약 입력으로 쓰고, 설명문은 레포·사이트에 남기지 않는다(`data/*.json` 에는 제목·링크·매체명·자체 요약만).
@@ -13,7 +13,7 @@
 ## 구조
 - `briefing/collect.py` 수집 → `.cache/raw.json` 버퍼(Actions 캐시에 보관, 2시간마다 누적)
 - `briefing/cluster.py` 중복 제거·클러스터링·순위 (LLM 없음, 임계값은 파일 상단 상수)
-- `briefing/summarize.py` LLM 요약 (제공자: `BRIEFING_LLM_PROVIDER` = github | gemini | none)
+- `briefing/summarize.py` LLM 요약 (제공자: `BRIEFING_LLM_PROVIDER` = gemini | custom | none, 키 없으면 호출 안 함)
 - `briefing/pipeline.py` 전날 창 → `data/YYYY-MM-DD.json`
 - `briefing/build.py` + `templates/` + `static/` → `site/`
 - `.github/workflows/daily.yml` 스케줄 실행·커밋·Pages 배포, `verify.yml` 테스트·시험 실행

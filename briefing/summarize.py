@@ -1,14 +1,15 @@
 """AI 요약. 제공자는 환경변수로 교체하고, 실패하면 None 을 돌려 제목+링크만 쓰게 한다.
 
 BRIEFING_LLM_PROVIDER:
-  github (기본) - GitHub Models. Actions 의 GITHUB_TOKEN(permissions: models: read)으로 무료 호출
-  gemini        - Google Gemini API 무료 티어. GEMINI_API_KEY 필요
+  gemini (기본) - Google Gemini API 무료 티어(OpenAI 호환 엔드포인트). GEMINI_API_KEY 필요
+  custom        - 다른 OpenAI 호환 무료 API (Groq, OpenRouter 등).
+                  BRIEFING_LLM_URL, BRIEFING_LLM_API_KEY, BRIEFING_LLM_MODEL 필요
   none          - 요약 안 함
 BRIEFING_LLM_MODEL: 모델 이름 (제공자 기본값을 덮어씀)
 
-GitHub Models 무료 한도(문서 기준, 바뀔 수 있음): 저티어 모델 하루 150회,
-요청당 입력 8,000 / 출력 4,000 토큰. 그래서 분야당 한 번 묶어 부르고,
-입력이 크면 클러스터를 나눠 여러 번 부른다.
+키가 없으면 호출하지 않고 제목+링크만 쓴다. 무료 한도는 제공자마다 다르고 자주 바뀌므로
+분야당 한 번 묶어 부르고(입력이 크면 나눠서), 호출 사이에 간격을 두고, 하루 상한을 둔다.
+(GitHub Models 는 2026-07-30 종료되어 제거했다.)
 """
 
 from __future__ import annotations
@@ -23,21 +24,24 @@ import requests
 from .common import Cluster
 
 PROVIDERS = {
-    "github": {
-        "url": "https://models.github.ai/inference/chat/completions",
-        "key_env": "GITHUB_TOKEN",
-        "model": "openai/gpt-4o-mini",
-    },
     "gemini": {
         "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
         "key_env": "GEMINI_API_KEY",
-        "model": "gemini-2.5-flash",
+        # 최신 Flash 를 가리키는 별칭. 특정 버전이 필요하면 BRIEFING_LLM_MODEL 로 고정
+        "model": "gemini-flash-latest",
+    },
+    "custom": {
+        "url": os.environ.get("BRIEFING_LLM_URL", ""),
+        "key_env": "BRIEFING_LLM_API_KEY",
+        "model": "",
     },
 }
 
 DAILY_CALL_LIMIT = int(os.environ.get("BRIEFING_LLM_CALL_LIMIT", "30"))
-# 8,000 토큰 입력 한도 대비 여유. 한국어는 대략 1자 ≈ 1토큰 이하라 보수적으로 잡는다.
+# 요청당 입력 크기. 작은 무료 한도(요청당 8k 토큰 수준)에도 들어가도록 보수적으로 잡는다.
 MAX_INPUT_CHARS = 5500
+# 무료 티어 분당 요청 한도(대개 10 RPM 안팎)를 넘지 않게 호출 사이 최소 간격(초)
+MIN_CALL_INTERVAL = float(os.environ.get("BRIEFING_LLM_MIN_INTERVAL", "7"))
 HEADLINES_PER_CLUSTER = 5
 
 SYSTEM_PROMPT = """너는 뉴스 브리핑 편집자다. 각 이슈마다 여러 매체의 헤드라인과 짧은 설명이 주어진다.
@@ -54,8 +58,9 @@ SYSTEM_PROMPT = """너는 뉴스 브리핑 편집자다. 각 이슈마다 여러
 
 class Summarizer:
     def __init__(self):
-        self.provider = os.environ.get("BRIEFING_LLM_PROVIDER", "github").lower()
+        self.provider = os.environ.get("BRIEFING_LLM_PROVIDER", "gemini").lower()
         self.calls = 0
+        self._last_call = 0.0
         self.errors: list[str] = []
         conf = PROVIDERS.get(self.provider)
         self.key = os.environ.get(conf["key_env"]) if conf else None
@@ -64,7 +69,7 @@ class Summarizer:
 
     @property
     def enabled(self) -> bool:
-        return bool(self.conf and self.key)
+        return bool(self.conf and self.key and self.conf["url"] and self.model)
 
     @property
     def label(self) -> str:
@@ -102,7 +107,11 @@ class Summarizer:
         return {}
 
     def _call(self, user: str) -> dict:
+        wait = self._last_call + MIN_CALL_INTERVAL - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
         self.calls += 1
+        self._last_call = time.monotonic()
         r = requests.post(
             self.conf["url"],
             headers={"Authorization": f"Bearer {self.key}", "Content-Type": "application/json",
@@ -112,7 +121,7 @@ class Summarizer:
                 "messages": [{"role": "system", "content": SYSTEM_PROMPT},
                              {"role": "user", "content": user}],
                 "temperature": 0.2,
-                "max_tokens": 3500,
+                "max_tokens": 8000,  # 사고(thinking) 토큰을 쓰는 모델도 본문이 잘리지 않게
                 "response_format": {"type": "json_object"},
             },
             timeout=120,
@@ -122,7 +131,10 @@ class Summarizer:
             raise ValueError(f"HTTP {r.status_code} 리다이렉트 → {r.headers.get('location')}")
         r.raise_for_status()
         try:
-            content = r.json()["choices"][0]["message"]["content"]
+            choice = r.json()["choices"][0]
+            if choice.get("finish_reason") == "length":
+                raise ValueError("출력 토큰 한도에서 잘림")
+            content = choice["message"]["content"]
             return json.loads(_strip_fence(content or ""))
         except (ValueError, KeyError, IndexError, TypeError) as e:
             # 원인 파악용: 응답 앞부분만 남긴다 (입력 기사 내용은 남기지 않음)
