@@ -30,18 +30,21 @@ def failed_sources(cfg: dict, status: dict, start: datetime) -> list[dict]:
 TRIAGE_CANDIDATES = 40  # 선별에 보여 줄 코드 순위 상위 후보 수
 
 
-def rank_issues(clusters: list[Cluster], summarizer: Summarizer) -> list[Cluster]:
-    """LLM 선별 순서대로(음악인 이슈만, 같은 사건 병합). 선별이 실패하면 코드 점수 순 그대로."""
+def rank_issues(clusters: list[Cluster], summarizer: Summarizer) -> list[tuple[Cluster, str | None]]:
+    """(클러스터, 선별 단계의 한국어 제목)을 LLM 선별 순서대로(음악인 이슈만, 같은 사건 병합).
+
+    선별이 실패하면 코드 점수 순 그대로.
+    """
     candidates = clusters[:TRIAGE_CANDIDATES]
     tri = summarizer.triage(candidates)
     if not tri:
-        return candidates
+        return [(c, None) for c in candidates]
     by_id = {f"c{i}": c for i, c in enumerate(candidates)}
     ranked = {cid: Cluster(items=list(by_id[cid].items), score=by_id[cid].score) for cid in tri["order"]}
     for src, dst in tri["merge"].items():
         ranked[dst].items.extend(by_id[src].items)
         ranked[dst].score += by_id[src].score
-    return [ranked[cid] for cid in tri["order"]]
+    return [(ranked[cid], tri["titles"].get(cid)) for cid in tri["order"]]
 
 
 def build_day(d: date) -> dict:
@@ -55,12 +58,13 @@ def build_day(d: date) -> dict:
     for cat in cfg["categories"]:
         cat_items = [it for it in items if it.category == cat["key"]]
         ranked = rank_issues(cluster_items(cat_items), summarizer)[:TOP_ISSUES]
-        summaries = summarizer.summarize(ranked)
+        summaries = summarizer.summarize([c for c, _ in ranked])
         issues = []
-        for i, c in enumerate(ranked):
+        for i, (c, triage_title) in enumerate(ranked):
             s = summaries.get(f"c{i}")
             issues.append({
-                "title": (s and s["title"]) or c.items[0].title,
+                # 요약 제목 → 선별 단계 한국어 제목 → 대표 헤드라인 순으로
+                "title": (s and s["title"]) or triage_title or c.items[0].title,
                 "summary": s["summary"] if s else None,
                 "ai": bool(s),
                 "article_count": len(c.items),
