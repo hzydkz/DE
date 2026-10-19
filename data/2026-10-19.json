@@ -1,0 +1,464 @@
+{
+ "date": "2026-10-19",
+ "generated_at": "2026-10-19T23:46:01.911147+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 5,
+ "llm_errors": [],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1043,
+   "issues": [
+    {
+     "title": "이수만 신인 걸그룹 멤버 중국서 빚투 논란",
+     "summary": "이수만의 신인 걸그룹 멤버가 중국에서 이른바 '빚투' 논란에 휩싸였다. 해당 멤버의 부모가 직원 월급 약 7억 원을 주지 않은 상태에서 딸이 아이돌로 데뷔했다는 내용이다. 이에 대해 중국 현지 여론이 들끓었으며 중국 관영매체도 분노를 표출한 것으로 전해졌다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "“7억 월급 떼먹고 딸은 아이돌로?”…‘이수만 걸그룹’ 멤버에 중국 발칵",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8ydG5hOGVELTFKZW1RbzQ5NFQxTUh6Yk9VYUFvS3cwS3Q5dVd1OGJCWjM4SXJNT1RjblBWUXZjOUZrM2J0M2w2Skw4UUViX3FnMFRRTFpB?oc=5",
+       "source": "중앙일보"
+      },
+      {
+       "title": "“7억 월급 떼먹고 딸은 아이돌로?”…‘이수만 걸그룹’ 멤버에 중국 발칵",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Ba1ZpTjlNLVhNZ0JfRkR0U0xFaFBkTU5qVEtySGxQTVRRcVh4YjZMcjFZMmhBcWpjSlhjU1o0cV92ZVBLeC00ZHhySnJpSW1FWFhWU3ZBNGxJdjhkbTgtRjNB?oc=5",
+       "source": "미주중앙일보"
+      },
+      {
+       "title": "중국 관영매체도 분노…이수만 신인 걸그룹 멤버에 '발칵' [지금이뉴스]",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQZEtLVVpPWktCNVpZbXoxRExoRGg5LWNyYUgtRU1PanhJNG1vZWx2dzNvSVhTZlowaVpScDM5N1pxTVIzeTVJVUtnTHBmemdkcVV0S3hrZm5JeUZhaUpv?oc=5",
+       "source": "YTN"
+      },
+      {
+       "title": "직원 월급 떼먹고 딸 가수 데뷔…‘이수만 걸그룹’ 빚투 논란",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrSy1NTlJxa0h4ODJ4azZGSHZkRHZtTHpsSnl4YUxFT1VOcDdkNlZ3RHJFY01sTXgxYnlzb1hOcW9UdFN4SU1aTkJsQmtmYXpUUTh4QQ?oc=5",
+       "source": "JTBC"
+      }
+     ]
+    },
+    {
+     "title": "세븐틴, 아시아 투어 9,740만 달러 기록",
+     "summary": "그룹 세븐틴(SEVENTEEN)이 미국 음악 전문 매체 폴스타(Pollstar)의 아시아 투어 차트 정상에 올랐다. 세븐틴은 이번 아시아 투어를 통해 9,700만 달러가 넘는 9,740만 달러의 매출(gross)을 기록했다. 이로써 세븐틴은 해당 차트에서 1위를 차지했다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Seventeen tops Pollstar Asia tour chart with $97M in revenue - CHOSUNBIZ",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbnlRZnRyU2xienVYNUNJUEVHTnJqLVAwcU1GN2hTV0hsRVR1a1ljZHd2U3JJYkRIWFladWYxRGNObFlFbzEzWVJjRjhQcXBtLTJaNS01bHNLbS16d1VRMGh5azY4enlGd2Vvek9wLTIwU2tzclp0RnR3V1VSUDRScDFYeWtTOEdX0gGcAUFVX3lxTE9fN0ctNWNRY2hzRjF5ZV80LVJuSkZuMUVwS2Y0ZkRrb3dveTlzZnNpbENlYXpKZVVCWDFJa2Y3SlBYOVhvNTBCMkt6dUZfa0tsUll2VjhwdDFtVW5sRHhqS1RvMWhPdVhNTUNaTGthbmFyN21YUlYyamxOVXA4UTJUbXpmeXhtUElZdWhhZWtwUWFsN1Y5ZUJPN0tzSQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "Seventeen Asia Tour — Revenue Exceeds $97M to Top US Pollstar Chart",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsZWlNd21EVVhZOGFmeWRsZ2dlbFVZY3VnanplMk1zeTFHZFVGbkpFZi1TRzY2cFFMd3FNNWl0R1RFWTBYU1lfNzBvRG0teXNHZko0X0RrYmFwUQ?oc=5",
+       "source": "The Korea Daily"
+      },
+      {
+       "title": "SEVENTEEN Tops Pollstar's Asia Tour Chart With $97.4M Revenue",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQY3V2bEVENlpWTWRHdE9ZVGgySU5RUDI5UWV6Y2hVY0JQS3NhdXhLUWFJVm5seWJtQWNFTDlWYjB6dzBEc01Rc25pbWc3UjlHT2dsaElwTWpJdldwb0VYWWZKaWZ4QVJZZWk0RkxJbXdPVTh6VjBLaUYxSjktM3oyc04xUVo1OEdkdG80dGp3?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "Seventeen tops Pollstar’s Asia touring chart with $97.4 million gross",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNekhVTFlFUHd1aWlwX1I2a3hEdGxXdWdQRGlwcnJwZlA2TEZqZGlqTXpwSUpVTjZXUmxoV2xMUVp3c05FQ0cwV3B2M1RLd1lhUUVGZWYxaHltOEhGcEtvakw3LUlfSHNyd1IzSlVyUFpEazNRODRNb3FVWjdHTjJHOTR2T2h1TmNnaGtCWVJLQXQwckZwS21LaG9VUnlSYm9ueFZz?oc=5",
+       "source": "Korea JoongAng Daily"
+      }
+     ]
+    },
+    {
+     "title": "테일러 스위프트, 아카데미 박물관 갈라서 첫 라이브",
+     "summary": "테일러 스위프트(Taylor Swift)가 2026 아카데미 뮤지엄 갈라(2026 Academy Museum Gala)에서 'The Fate of Ophelia'를 처음으로 라이브 공연했다. 로스앤젤레스(L.A.)에서 열린 이번 행사에서 그는 끈 없는 푸른색 가운(strapless blue gown)을 입고 무대에 올랐다. 그는 총 4곡의 세트리스트를 선보였으며, 신곡 외에도 '토이 스토리 5(Toy Story 5)' 오리지널 곡 'I Knew It, I Knew You'를 불렀다. 아울러 대표 히트곡인 'Love Story'와 'Blank Space' 무대도 함께 펼쳤다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Taylor Swift Performs ‘The Fate of Ophelia’ Live for First Time at 2026 Academy Museum Gala",
+       "url": "https://www.billboard.com/music/music-news/taylor-swift-fate-of-ophelia-live-debut-academy-museum-gala-1236362416/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Watch Taylor Swift Debut “The Fate of Ophelia” Live at the Academy Museum Gala",
+       "url": "https://pitchfork.com/story/watch-taylor-swift-debut-the-fate-of-ophelia-live-at-the-academy-museum-gala/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Taylor Swift Performs ‘The Fate of Ophelia’ Live for First Time at Academy Museum Gala",
+       "url": "https://www.rollingstone.com/music/music-news/taylor-swift-performs-the-fate-of-ophelia-live-academy-gala-1235644441/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Taylor Swift Stuns in Strapless Blue Gown at 2026 Academy Museum Gala",
+       "url": "https://www.billboard.com/music/music-news/taylor-swift-red-carpet-2026-academy-museum-gala-1236362432/",
+       "source": "Billboard"
+      }
+     ]
+    },
+    {
+     "title": "아이브, 19일 신곡 '룩스 캔 킬' 선공개",
+     "summary": "그룹 아이브가 19일 오후 6시 신곡 '룩스 캔 킬'(Looks Can Kill)을 발매하며 선공개했다. 소속사 스타쉽엔터테인먼트에 따르면 이 곡은 오는 26일 발매 예정인 새 미니앨범의 선공개 곡이다. 아이브는 이번 신곡을 통해 새로운 '걸 히어로' 콘셉트로의 변신을 예고했다.",
+     "ai": true,
+     "article_count": 19,
+     "source_count": 18,
+     "links": [
+      {
+       "title": "[잇슈 컬처] 아이브, 오늘 신곡 발표…‘걸 히어로’ 변신",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14LVNndnhSb3Raa1M1Yk1QYWFvYnBjQlFLMWZVWXl0X2xua1NvMk01aERwd244X0Z4cWtMcmVfTGNqQ3RwcUJDbncyRElIWThyU1dHMDlPT1lIV3c?oc=5",
+       "source": "KBS 뉴스"
+      },
+      {
+       "title": "아이브, '걸 히어로' 출격..오늘(19일) 신곡 '룩스 캔 킬' 선공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FRjlPTEstUUdBblBmd0hTVm1yZHVtQWp0aEdvTjV0S000cl9EZVQyX0x1aGtZa1ZLUjc1cGFGeVRxd1Bud1cwdGdwVUo1ZWtrQVJvYQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "아이브, '걸 히어로' 출격..오늘(19일) 신곡 '룩스 캔 킬' 선공개 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSDZhdlJEeTlYM2lwQ1pGTjAzZ0xEZ3NiM054V2xjcUZwcVJ6WFhybWhtajRmS2pVSVpZbDI0bVdTRHRWd2NqX2h1bWdUaG1ZRXRkQ2Y3a2wyd3FMcFBreGpZVzgwYkFwWWY2Z2Y4SmZiR05jQWJCREVGdW55SWhPNklualNHdHVTX1lUTHRJb2ZOcmZBeGxxU3ctRjdqdGFsdUFSWHlCc9IBpwFBVV95cUxPSDZhdlJEeTlYM2lwQ1pGTjAzZ0xEZ3NiM054V2xjcUZwcVJ6WFhybWhtajRmS2pVSVpZbDI0bVdTRHRWd2NqX2h1bWdUaG1ZRXRkQ2Y3a2wyd3FMcFBreGpZVzgwYkFwWWY2Z2Y4SmZiR05jQWJCREVGdW55SWhPNklualNHdHVTX1lUTHRJb2ZOcmZBeGxxU3ctRjdqdGFsdUFSWHlCcw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "'컴백 D-DAY' 아이브, 신곡 '룩스 캔 킬' 선공개…새로운 '걸 히어로' 출격",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wdzhiWDZWYml4am1ucC10NEF2bFBRS2VKblZUYjUtYUlVbV9KSDdkODA4b1pYZEhMdmVPZUpzcjJ1RmtOazJYUVVlVGd3bzJJNU1ubHJsdnNaY2RBUUFEakFzcUFVQQ?oc=5",
+       "source": "뉴스컬처"
+      },
+      {
+       "title": "아이브, 오늘 신곡 '룩스 캔 킬'…26일 미니앨범 선공개곡",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PdERfYkMtcldQbVpNVGkyY1J3bVNRbDMtRFNlSG9ZSVJlZjV2bDliczdPanpVNW5qTEhOQ19jU25lN2lHaWJqTEpaeXQ5Wk5PbmV0TUdselc3VFHSAWBBVV95cUxQOXZCeXQ2YU1vSk4zSDVacmxrY0ZjMmhKS0I1QzlkdlZJYjNnOUx6SW9nMFc3YnAzSXF1Q01kYkpXR05DZ2libkJzbGF6Y2Y3YWZJNUJnbjZTVG1RbUQ1REw?oc=5",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "라이즈, 26일 새 싱글 '인섬니아'로 컴백",
+     "summary": "그룹 라이즈가 오는 26일 새 싱글 '인섬니아(Insomnia)'를 공개하며 컴백한다. 이번 신곡은 라이즈가 처음으로 도전하는 보컬 중심의 어쿠스틱 팝 장르 곡이다. 퍼포먼스 대신 어쿠스틱 감성을 채워 가을밤을 물들일 예정이다. 라이즈는 해당 싱글을 통해 음악적 변신을 선보인다.",
+     "ai": true,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "라이즈, 싱글 ‘Insomnia’로 컴백…보컬 중심 어쿠스틱 팝 도전",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIcUJNVTZQdzNTNnVoVDlTSkhvbVAzcklnNWdqaENuT0JfUnhPVHpZS0VnYXU1WjhaODJLOF9PV1J5eWctMDRWTmNfeEJhbGh3djFLVEFCaEdlWm9KWDNLN0pYTzVuUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "라이즈, 싱글 ‘인섬니아’ 보컬 중심 어쿠스틱 팝 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xbTdSNzc4RkJQOVZVZXhIdHR1RGI1T3V4ZE1kWklfN0V5SnBsR2JSVFE4SGNncnBDbHB5RF9WZEFnSnNYaWlVVll6cnhpdy1McjdDSENNekI?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "라이즈, 첫 어쿠스틱 팝 도전…신곡 ‘인섬니아’ 26일 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51TlljUVRCYXg1TXJ6VkVUQTJYZGlIZ0c4N0J1VHRMNGZEWGg4NlJxSXA4VUt1aDNKVERMWEhMUTE1ZDF4VV91MW1Oa012dHF6U0VQQXowVng5UUZOeU5HUEtaR2t6cTFoQlZ1ZzlR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "라이즈, 26일 새 싱글 컴백…\"인섬니아, 첫 어쿠스틱 팝\"",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1jX05hWEtsYndnYTZJT3JZOGlDQjBtdHdpaUFYdktyRnlCVkRuSTlSNVV3U19BbExmNkxaMTEyeDVBSnZYX0M1WTR3?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "라이즈, 26일 ‘인섬니아’ 컴백…어쿠스틱 팝 변신",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HWnpmUzZvX3lrVzFkWGFzZ0IwQnNVSnk0LVFHRFd5YWFsTVFCVU1vUEt6WnVDMV9LR09zTXFvamlZR3gxZ0N4dW5FUC1uRnNzYVVFNEhQdl9NNmhRUW5INjFn?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "아일릿 이로하, 컴백 앞두고 발목 부상",
+     "summary": "그룹 아일릿의 멤버 이로하가 컴백을 앞두고 발목 부상을 입었다. 이로하는 부상으로 인해 향후 무대에 유동적으로 참여할 예정이다. 아일릿은 앞서 모카의 활동 중단이 장기화된 상태에서 이로하의 부상까지 겹치게 됐다. 그룹은 컴백을 목전에 두고 멤버들의 건강 문제로 차질을 빚게 됐다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "아일릿 컴백 앞두고 비상, 이로하 발목 부상 [전문]",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fZDBuT2lrVnZfeDlDNVJ0UlplRTJaRGdOTUJLcWFrSnR5c2ZkTTFVSDA0YklKWGNrd0Z2SmR4aURZSkIxdmhPeG9WYXVXV3lFZ3ppU0tzd0RXSE8xZkFnS2wzSnE3eUNR?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "모카 활중 장기화에 이로하 부상까지…아일릿 컴백 앞두고 ‘초비상’",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42Y3puUDBveGVacklmRlZhRkxGOHdIRk8tbTQyUkhTTlByTWxTQmpiR0RwX0s0c2VMd09KZTMyVVg0N3ZyQ0VIVGljWGdNSnVoNUtSYXBRdFI?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "아일릿 이로하, 컴백 앞두고 발목 부상 “무대 유동적 참여”",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qMW9Ca0ZCTmdBX1otRDVNamp3eGdZbV9EdDBYVFRUX0VDRGEya1pEaGluQmZBYVk2YWdmNzdEaDJnV3JjR1JzUUF0S05FVUJCdDF5ckQzcjZwNzVRN2FVeWhZcWk?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "아일릿 이로하, 컴백 앞두고 발목 부상 \"무대 유동적 참여\"",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zaWgwYlhRYUZ4SGtvUjlHWDlFUVRWLXNKcTl0WGhCWExwV2s4d00yc0ZOQm82a3cwdmhUS0NZWk0xTmFBMklLOURCX1gzRTBiendRbw?oc=5",
+       "source": "JTBC"
+      }
+     ]
+    },
+    {
+     "title": "크러쉬, 아이유 피처링 신곡 '삐그덕' 포스터 공개",
+     "summary": "가수 크러쉬가 신곡 '삐그덕'의 콘셉트 포스터와 포토를 공개했다. 이번 신곡 '삐그덕'에는 가수 아이유가 피처링으로 참여했다. 공개된 포스터와 포토에서는 크러쉬와 아이유의 색다른 케미스트리가 담겼다. 크러쉬의 신곡 '삐그덕'은 오는 21일 공개될 예정이다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "크러쉬, 신곡 ‘삐그덕’ 콘셉트 포스터 & 포토 공개…아이유와 색다른 케미스트리 시선 집중",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13OEpNYzRhLUtkYmZnTF96Z0pzcUNOdm9LcE1wMDdmZHlrZHZiZWl5Mk5JRTA3dHFrMllUZ3FacGxPWEtnMUVncEZrT2F6d2JwMUdzRGk5Q1ZpMlI4S3hUVHMxQlU1Wl82NXBHWkJHNA?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "크러쉬, 신곡 ‘삐그덕’ 콘셉트 포스터 & 포토 공개…아이유와 색다른 케미스트리 시선 집중",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51YkpBYU0wdXJFa0FibEpXQVlHNE10ckQyblRNMGNyWkwtWXgwVWpTQTFlVzVyRXVLbnZEZGdZRHNFNFlKaGh5NVRUOE9JZzg3YlBmY0ZQYjVPa0FlNUg0bkhKaERaUzFSOFE?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "크러쉬, 신곡 ‘삐그덕’ 콘셉트 포스터+포토 공개..아이유와 색다른 케미",
+       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9xYThFZlgteXNldVRYcFhGaGdoMmxrN29OQkhNTUxFZ2M2MzVITVUxVG5HMzY3cmx5aXRKMWZkVURTVmtuT3pyZg?oc=5",
+       "source": "브레이크뉴스"
+      },
+      {
+       "title": "크러쉬, 아이유와 색다른 케미 포착…신곡 '삐그덕' 콘셉트 포스터 공개 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVHgtZjhuOHNoWkRIU083OGp0TXRaOEt2QXpxYWpuU1BVbGhmZktoTGpFV3RBTTVGVDdHUjlMQzFhWThIY2RsbHA3TmhpbzJFQjdXRF94UGVjbGVsdzhZSFg0WnpoblhDNFdYT3ktSUtYRk16VERNaE9MVlktT0JjejRSZ2xmSnROLTEtVzNlZDVYbkNnX0tCSkRMQVVBSG5BZVlPQVZrd9IBpwFBVV95cUxNVHgtZjhuOHNoWkRIU083OGp0TXRaOEt2QXpxYWpuU1BVbGhmZktoTGpFV3RBTTVGVDdHUjlMQzFhWThIY2RsbHA3TmhpbzJFQjdXRF94UGVjbGVsdzhZSFg0WnpoblhDNFdYT3ktSUtYRk16VERNaE9MVlktT0JjejRSZ2xmSnROLTEtVzNlZDVYbkNnX0tCSkRMQVVBSG5BZVlPQVZrdw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "크러쉬, 신곡 ‘삐그덕’ 콘셉트 포스터 공개…아이유 피처링 참여",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zVnotVjl2ZWtDenpCOGJRSmZNODY5c2dRNTVtaEZzQWw4VE43UW5Od0d0dWNQRTVFSThDWDZzRFZaN2dnTjJNeTQ2SnE4VXViYzdnMTN2Y1FWbUE?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "라이엇 게임즈, K/DA 6년 만의 신곡 공개",
+     "summary": "라이엇 게임즈가 가상 걸그룹 K/DA의 신곡 'FIRESTARTER(파이어스타터)'를 공개했다. 이번 신곡 발표와 함께 뮤직비디오도 함께 공개됐다. K/DA의 신곡 출시는 약 6년 만에 이루어진 컴백이다. 이번 컴백은 '롤드컵' 시즌에 맞춰 진행됐다.",
+     "ai": true,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "라이엇 게임즈, K/DA 6년 만의 신곡 ‘FIRESTARTER’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzVjdQN0JrcG5QamJDTktfMlo5aFlpcllUTndKRl9aa0Iyd3I2QkhDaWo0WkVucVhScVJFdzlycENJYWJGckFfb2VISHhIUno3TnM3RkNLUGhnb2xMVWRJcDRFTjI3YUd6SVg0Uk1R?oc=5",
+       "source": "이지경제"
+      },
+      {
+       "title": "라이엇 게임즈 K/DA, 6년 만에 신곡 공개",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ucFdCaVZ6Q0xkX1JzMGNpQ19WdjFQU19tc3RrSkhPQU5kdWF0V3ZFUVRKWURMdTgzTnhLNFl2VzEwbE5TeWdCTV91YkRFUGwxLVV5ZkJEMGkxUld2RFhxQ0ROSE80THVEZFdJQw?oc=5",
+       "source": "경향게임스"
+      },
+      {
+       "title": "라이엇게임즈, '롤드컵' 시즌 맞춰 K/DA 신곡 공개…6년 만에 컴백",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zbUJiWndkU0ZpRXdjcFJhVUZCa1ZoQVIxT2ZaejdJQTgxcGFrVkttdHFINjBfNXZDc0xaLVpmUDBjUTlFVmlnaUxQdHliRHFuX205eG1reTFJR1V6d1RtMkZrcE1KelBCUnpPc3BRMllPdVVYWVliVHZ0Zw?oc=5",
+       "source": "데일리게임"
+      },
+      {
+       "title": "라이엇게임즈, K/DA 신곡 'FIRESTARTER' 발표",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IMnd5UVd6b29obHVLWXc3UThZVmNVNzVLcG4zaXRCZVV0MGcyaURXdjVQQ3VnYnlwZWFvNFZJRmZ1S2c3Ylg2UHVQLXpMY2pudlU3UTlR?oc=5",
+       "source": "지디넷코리아"
+      },
+      {
+       "title": "라이엇게임즈, K/DA 신곡 ‘FIRESTARTER’ 뮤직비디오 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2LTQwTENmZXI4NjlLRnpjR1NNSDl1TE04MFZWdklzYzZIa1dDMWVmSTFpOW5KZXBnWHBFR196cVlTSjlRMkxXQ3FvN0pDalk3QzJxU3VUek5tcG9WZGEtaQ?oc=5",
+       "source": "NSP통신"
+      }
+     ]
+    },
+    {
+     "title": "해리 스타일스 투어 다큐멘터리 제작",
+     "summary": "존 윌슨(John Wilson) 감독이 해리 스타일스(Harry Styles)의 투어 다큐멘터리 연출을 맡는다. 이번 다큐멘터리는 해리 스타일스의 'Together, Together' 투어와 매디슨 스퀘어 가든(Madison Square Garden) 레지던시 공연을 담아낼 예정이다. 해당 작품은 극장 개봉도 검토 중인 것으로 전해졌다. 존 윌슨은 '하우 투 위드 존 윌슨(How to With John Wilson)'의 제작자로 알려져 있다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "John Wilson Is Making a Harry Styles Tour Documentary",
+       "url": "https://pitchfork.com/story/john-wilson-is-making-a-harry-styles-tour-documentary/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "John Wilson Is Making a Harry Styles Tour Documentary",
+       "url": "https://consequence.net/2026/10/harry-styles-tour-documentary-john-wilson/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Harry Styles Enlists John Wilson for Documentary About Madison Square Garden Residency",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTTVnZ2FYZUZzbjAyWkhpRHFoMHJUak5yaU1Hem1IWUVFSUhLY01nZ0YtRGFjQ3A5b1FEY0lma21jN3hxeTV4MVRMLTFoR1JRNFhGa2hkeVdfOUVwX1RWMjh0WmQ3cTJiUzE0VTNudXV0c0Y4aDE4TzlEZm83RWg0enFyRkgyTnNodFNPeVZCT3BuY2MyZnVCOW9RdDFLcTBXZHp4c3h3?oc=5",
+       "source": "Rolling Stone Australia"
+      },
+      {
+       "title": "Harry Styles ‘Together, Together’ tour documentary coming to cinemas",
+       "url": "https://www.nme.com/news/film/harry-styles-together-together-tour-documentary-cinema-release-3973503?utm_source=rss&utm_medium=rss&utm_campaign=harry-styles-together-together-tour-documentary-cinema-release",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 양홍원 결혼 소감 발언 논란",
+     "summary": "래퍼 양홍원이 모델 원현주와 8년 열애 끝에 결혼하며 남긴 소감이 화제가 되고 있다. 양홍원은 \"여전히 천호동 모텔로 들어가는 기분\"이라는 소감을 밝혔다. 해당 발언을 두고 팬들과 대중 사이에서 당황스럽다는 반응과 함께 여러 뒷말이 이어지며 논란이 일고 있다. 양홍원의 이번 결혼 소감은 파격적인 표현으로 주목을 받고 있다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "래퍼 양홍원 “여전히 천호동 OOO모텔로 들어가는 기분” 결혼 소감 화제",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1WUhmMkdVOGU1QkNfWko2V3pIbEVHTl8tVUVxaE95N0NlU01PRzBmZjJoMVl6OTZZWGNpRHNBUHZSTlZRTTlHMGswUExJSzFVQnRrZnRsMA?oc=5",
+       "source": "헤럴드경제"
+      },
+      {
+       "title": "\"천호동 모텔 가는 기분\"…래퍼 양홍원의 파격 결혼 소감, 왜 말 나왔나",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LbnVMdUZ1WmFMOUdaX0NCZFMwSDNDaEJWZ2gyTFMzWGpLMHl4YVBnQXBLTHY0WGVTX3dRN0tUMHA0UjE0MEJqNUxhNVNQSHZwal9xRy00OEJGeUhkY3hWZUdB?oc=5",
+       "source": "애니멀플래닛"
+      },
+      {
+       "title": "모텔 들어가는 기분?… 8년 열애 끝 결혼인데 래퍼 양홍원, 모델 원현주 '시끌'",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ocjBRa3V2YzB2NER1QmJQbE5GcWFtcmhoeFJaclZpdExhdUdiWGMzNGxDSGNCdzk5UWw4RC1hSThCSlhMeVE2TlNRN2ItX29GOWJneERudWtJdFJlMExrbXk5bDAydjVZa1VWWnJB?oc=5",
+       "source": "국제뉴스"
+      },
+      {
+       "title": "결혼 소감이 \"여전히 모텔 가는 기분\"…래퍼 양홍원 발언 뒷말",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WWGxtQVFLemN0bnN3N24yYV9jeUZ4bzlNTWx1Qkhvb1hDcHhIOHJGZ1hSYmpxUEhRNkViVkkxZmhKVmYyQjlrS0pTYkZRVWJMZ0NwazhVOUF2MHVaa0pXRklmcVNKT1k?oc=5",
+       "source": "연합뉴스TV"
+      },
+      {
+       "title": "인'스타'그램 세상|결혼 소감이 \"여전히 모텔 가는 기분\"…래퍼 양홍원 발언 뒷말",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52ZE5XVnRsUmtaOUFFRTBJRUZpaHJ4M1FBamNpdFNhbG1CMEYxUTVtbnMzamg0eDdTMmY0NzZWV2NrTWVvdG9pVmJLeDlwM1ZXcmpkQnViWUMyTkUxUzdITmNadDBPYWRENEdJS3d2NzF5WFhqVnpjdzctVHg?oc=5",
+       "source": "ZUM 뉴스"
+      }
+     ]
+    },
+    {
+     "title": "가수 거미 28일 신곡 발매",
+     "summary": "가수 거미가 오는 28일 신곡 '퍼펙트 월드(Perfect World)'를 발매한다. 이번 신곡은 6개월 만의 컴백작으로, 가을을 물들일 따뜻한 감성을 예고하고 있다. 거미는 신곡 공개와 함께 전국 투어를 앞두고 활동에 나설 계획이다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "거미, 28일 신곡 'Perfect World' 발매…전국 투어 앞두고 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QUkxiejE0NnVKRldSTmVpalk0Rl9aNjdmajBvWkhFOWRobTFSMGJUWm1QdnItNi05dFFtUk1aOWlLTnJMRkFiRTJkM2dXUGlmY01yT1ZJOVRsOXU3cTFBNDJTMlVBZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "거미, 28일 신곡 발매…6개월 만 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PYXhDTUkyR0phU2psNFJsdzlHcjVCSzFHWGF6TW1STkh4T05XalQ1YlVMVklodS1Od05vYUFMd0YxSFVNd3BaX3ktNVc3SzFjYVNuTnJLS2p1NjBQd3p5VVUwUDc?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "거미, 28일 신곡 ‘Perfect World’ 발매 확정! 가을 물들일 감성",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zb21jZWdtQmFoM0RpcHAyN2lubElDNGVxd2xESE9OWU9oVVJXRjJTTno2V0VtWnRIR2NrVE5fMUx3dnROTWNYczduMzR5X1dCUUlJRF9WeDRvSWl3RElNdUdGVQ?oc=5",
+       "source": "RNX뉴스"
+      },
+      {
+       "title": "거미, 전국투어 앞두고 신곡 발표…28일 ‘Perfect World’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tN0V5cVN2eHhjVkJ4SjJ0Vkd1N1NoVHJYUjlYbGxrSVQzRVJtc0lMQ2NWclpXMmJ0QWM3VDRZT1FGcVM0aF9zNzZxQTE5dVk4TEJYLUdwbTA4dw?oc=5",
+       "source": "브릿지경제"
+      },
+      {
+       "title": "거미, 28일 신곡 ‘퍼펙트 월드’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NQmtqWmdrNUZNWl94eXROOUtmbXZCcUMzSUhSYmg3R0xCTFBQWDRXMzRJUGtNN1FhV1JRMWoySER5dktDNmJiLWNtU2dmZzVWcV9JMw?oc=5",
+       "source": "JTBC"
+      }
+     ]
+    },
+    {
+     "title": "그룹 하이키 11월 13일 신곡 컴백",
+     "summary": "그룹 하이키가 오는 11월 13일 신곡 '언빌리버블(Unbelievable)'을 발매하며 컴백한다. 이번 신곡 발매는 이전 활동 이후 8개월 만에 이루어지는 컴백이다. 하이키는 이번 신곡을 통해 확 달라진 변신을 예고하며 공식 활동에 나설 예정이다.",
+     "ai": true,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "하이키, 11월 13일 컴백…8개월 만에 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tWlBDUlFpZnVvQllRZ1AyX2QwYlFLMU5uR2RYdDJrN3FVZWRXcG04YTVEZWw2R3hReDNkaHBRZHBlamhfWkUxQ054c1k5ekk3TnN1Wk5jTVR5dTZwcEYya3lpT3Y?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "하이키, 11월 13일 신곡 ‘Unbelievable’로 8개월 만에 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xLW9yVmxsaUZnVFRRSTltOEJtYno5YUVVU0lLTl9LaHFTSjlzNXZ6YmMwWGlOSDFCVmRqSXBuWDk1aFF0cmc0ZnV6ZEc0bVBlQnN6YU0xZF9UV2E4cGJCQWE2eVgxY1pSM3EwZU9SVzhldw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "하이키, 확 달라진다 'Unbelievable'..11월 13일 전격 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1oTzk0VVk0S2NSTHRXYjBSREJjTEZaOVdxcXBwU29wQ05PVVNNYzkwSDFQZFA1TFY3NEs5NWZNbGlzbEdLYU55STd2NGRlMVd5NUJLMw?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "하이키, 확 달라진다 'Unbelievable'..11월 13일 전격 컴백 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRDcwUWd2MlhpVXRZS1dwOEJOcnhWQnhBZkhaaWQ1dVNYR3ZBdXh2cHA1M0J5SEhkUk9LdWdqZkJoMnRlZGF6ZWNOSjZYUG0tZFFqRmdGQU9MZ2xDRVFxOVk4Nlowc1RMWVpGa2lMX1FnTC1VRzRGYjVDMi01TUFkQll5QjBveDgtOHpjRGk4eEgxWjZadnQ0RzFVTnBvamRQb1ZMU3F2ONIBpwFBVV95cUxQRDcwUWd2MlhpVXRZS1dwOEJOcnhWQnhBZkhaaWQ1dVNYR3ZBdXh2cHA1M0J5SEhkUk9LdWdqZkJoMnRlZGF6ZWNOSjZYUG0tZFFqRmdGQU9MZ2xDRVFxOVk4Nlowc1RMWVpGa2lMX1FnTC1VRzRGYjVDMi01TUFkQll5QjBveDgtOHpjRGk4eEgxWjZadnQ0RzFVTnBvamRQb1ZMU3F2OA?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "하이키, 11월 13일 신곡 '언빌리버블' 발매⋯8개월 만 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzMU1RR3VlNmZ0bWZGUnI4emlmbVJHYlFsNU1nMmpoUXAzNU90NzdFYWpoUkRFWk1lWUxXZXJSNjBCdEpaUHdBelB6RjY1M2c?oc=5",
+       "source": "조이뉴스24"
+      }
+     ]
+    },
+    {
+     "title": "세븐틴 정한X조슈아, 유닛 데뷔 EP '드림스케이프' 발표",
+     "summary": "그룹 세븐틴의 새 유닛 정한X조슈아(JxJ)가 데뷔 EP를 발표한다. 이번 유닛 데뷔 EP의 명칭은 '드림스케이프(Dreamscape)'이다. 수록곡 중에는 '12 o’clock'이라는 곡이 포함되어 있다. 정한과 조슈아는 JxJ 데뷔 앨범과 관련해 매체 인터뷰를 진행했다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Seventeen's new unit Jeonghan X Joshua to drop debut EP",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWeUk3NllMY3BHdWs1d1VyU2x3aUE4cDAzZ091bU1za0RnSnlyaWVKRjA1azlxNjcwRnp3cTVmWDhPdVdhTFpmZFBVcmdVZlJ0RGZhTVRSaWlKZw?oc=5",
+       "source": "Yonhap News Agency"
+      },
+      {
+       "title": "Seventeen's Jeonghan and Joshua on JxJ Debut 'Dreamscape'",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYXo4LUhNRmZ2WTNjdTN2X2gteHU3MlJnalk4Y243RllKdXZIeUVFNXZWYnZKN1V3LXF2R00xZEdqTmR1eUswM2VNZ2tTWFpRU1d6emJhNGhXdXVXZklJVTFHU3pVNVVDNHp4ZHFkT2JXTnFlblVnYjM4MkhqMXVLLXI3MDh0ektBM0s1ZFJEVG1MZ19tampqemJ3?oc=5",
+       "source": "Variety"
+      },
+      {
+       "title": "Song Review: Seventeen JxJ (Jeonghan x Joshua) – 12 o’clock",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRTlOTHJ5T3VwWnM3UE5pQnhaV0tzQlU5YlhiRlZLaHNWMzlnZko1VDR5cDFpeEZxdEpxTFQwRGowMXdFQ1Bnd0FSYmpnSmdYMDRHNldCVXByT0MyVFZGSUFNMGZsdFJjQjVyNjFjTXk5UzdnVmJzUks3NURvMmhfN1VRalF1V2drQWlJaTNvUkptMzg?oc=5",
+       "source": "https://thebiaslist.com/"
+      }
+     ]
+    },
+    {
+     "title": "인디밴드 구구, '2026 인디스땅스' 최종 우승 차지",
+     "summary": "경기콘텐츠진흥원이 주최한 인디뮤지션 발굴 무대 '2026 인디스땅스'에서 인디밴드 '구구'가 최종 우승을 차지했다. 이번 대회에는 772개 팀(일부 매체 72개 팀 보도)이 참가해 경쟁을 펼쳤으며, 이 중 5팀이 결선에 올랐다. 결선 결과 우승팀으로 보컬 팀인 '구구'가 정상에 선정되었다.",
+     "ai": true,
+     "article_count": 19,
+     "source_count": 19,
+     "links": [
+      {
+       "title": "‘2026 인디스땅스’, 772개 팀 중 5팀 결선 … 올해 우승 팀 ‘구구’ 확정",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PMW9idC1DRFNDbTFqM2poRUFhZWpxcm5vS0FTMmhIYjZnSHRvdTllWDRsWno1YzZTb1gtYzEzRmRBZ0o5MUFQZl8xdVA4VnVIY3BMdTEyc1p0cUo3RU04bVRMV0RyLWZJRXc?oc=5",
+       "source": "부천포커스"
+      },
+      {
+       "title": "경콘진, ‘772팀 경쟁’ 인디스땅스 올해 최종 우승은 ‘구구’",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5iLWpUUmVIRXlDYTRYVlp1bzUyNk5BYnQ0a2RvUUVlbGR3UGFiSXVWWWRBZVE3WXByQno5aFkxUW16SlFHNHZ4NEdlblpWaDhmS193c0lTNlFfNGRxZGZSdUJTcFBsWlh5cHdXMTAzclc0RVNmanE2V2xWTDQ?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "‘2026 인디스땅스’ 최종 결선 상위 5팀 확정…우승팀 보컬 ‘구구’ 선정",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sMjZIS2UzYUV3cTJud2xjdlROZ3RaZ01aU18wdTBWTG9EYUFvUHZTenYxS0pKcEVnemhKYUxXTFFlaEsybHBONklHaS00dzNiaFJMRld5a1hyeHlaLXlkaF9rcw?oc=5",
+       "source": "쿠키뉴스"
+      },
+      {
+       "title": "인디밴드 ‘구구’, 772팀 경쟁 뚫고 우승…경기콘텐츠진흥원 ‘인디스땅스’ 정상",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sU3YxZFZNTzNHbjZ6TFVxY3JyclZzNmp6S1ZWSGJBd0JPUWs5VEpUYnVxaW1yLUVYMm1pMXdPYlROWUxySF9SYkhzS2RweFAwVUR5ZDJPcXdHdVRlS2c?oc=5",
+       "source": "피앤피뉴스"
+      },
+      {
+       "title": "인디뮤지션 발굴 무대 ‘인디스땅스’…구구, 2026 최종 우승",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBPQlRVdGtPVlJkeDZsZU9rOWdvbGJMcXF0SDhIbmVjc2k4WTlRLUV5SHJGNE5WdV9KazIzQ1NtUmxHcTJ6dXlnOFhzYkZUcTdacHhRTkZXaEJOaXZSYlhjSGxteVhvLVVIYmx4ZGk3TdIBckFVX3lxTE1Pb1dwT2k1RC1nTFUyVDBrQlpjU25nOE5DQzIxQ0tsQl91ZHNieEpCbk04ZEh1S0pCbC1MOW1FbFZjMTl6VGktcTNJUjFJektUZUdDM2VxdU9RMXNSdzFHYWQycG84SU9IdmhfeUlwWWZwUQ?oc=5",
+       "source": "뉴스아이이에스"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
