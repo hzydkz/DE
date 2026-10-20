@@ -1,0 +1,540 @@
+{
+ "date": "2026-10-20",
+ "generated_at": "2026-10-20T23:15:38.102969+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 8,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1094,
+   "issues": [
+    {
+     "title": "‘쇼미더머니’ 출연 40대 래퍼 마약 혐의 기소",
+     "summary": "힙합 오디션 프로그램 '쇼미더머니'에 출연했던 40대 유명 래퍼가 마약류 투약 혐의로 재판에 넘겨졌다. 해당 래퍼는 대마 흡입 등 마약류를 투약한 혐의를 받고 있다. 검찰 등 사법 당국은 그를 마약류 관련 혐의로 기소했다. 이에 따라 피고인은 법정에 출석해 재판을 받게 될 예정이다.",
+     "ai": true,
+     "article_count": 27,
+     "source_count": 26,
+     "links": [
+      {
+       "title": "[단독] 40대 ‘유명 래퍼’, 마약류 투약 혐의로 재판행",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXUkdsWE16S25TdXZBY3dKX3dZV3RjYWpBaXVUOVN2MEhUakhMZmFXY1pzOTN1TGdaTnpsTVh2aHJ5UnVOZjhxSUNfLWYzZUYxRjQ2MFdiQkdMZlE?oc=5",
+       "source": "KBS 뉴스"
+      },
+      {
+       "title": "힙합 프로그램 출연 래퍼, 마약 투약 혐의로 재판행",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTZHdTMzZrdGE3WlhrNGh4WFZieEZVbXY2S3JvUVZLQXpiMWVBNmdoNlpscEdDVWdlT3F6b2lURWhIZVVFXzdjdHJ3RGFheENBbTRqcDYydl9RbVRSbGRFVNIBeEFVX3lxTE1tbGRxeVREcl9ranJxRXc5bllEMUxaS1lFbVRveDBPNE1qangxaEpaeWotS0JiV3U1VktPYmNObG43OHB4QzZpb2g2QXNjODZwd21HRFV0aGVUT21TSm5wVU9xT1hGbTY1R0Z3ME9MaTYwS0w5SkRtbg?oc=5",
+       "source": "뉴시스"
+      },
+      {
+       "title": "‘쇼미더머니’ 출연 40대 유명 래퍼, 마약류 투약 혐의 재판행",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtYkZGeWFnVnAxaVNiUGJNaWJXQnJidG9pTV82R1EtWXhJS1ZEeDB1TndqeHBmUTFNWkF6YWRWSDRyTnAtUjhZVFBucDBqcEtNY0JNdXdn?oc=5",
+       "source": "중앙일보"
+      },
+      {
+       "title": "‘쇼미더머니’ 출연 40대 유명 래퍼, 대마 투약 혐의로 재판행",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FaVA5TGF6RDZfMDdYaUQxbjd0WVM1WnozRG9jNHBzaVZzS3dNZTk1Y0pDODZVM2xmTkZlcldyVDlkVUlITExTVmhuY0ltQmV4aVF2Vg?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "'쇼미더머니' 출연 유명 래퍼, 마약류 투약 혐의로 기소",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IMXZ2bHJWUHFEc2ZraENCVXRhN05WdWczZDhSRmp2aXQxZGgzUnhxS2dEYW04dTliRFA3aW13dzdvc2RkeVIzMzhuLU1UZVlzczVuT3RZbTZQUQ?oc=5",
+       "source": "한국경제"
+      }
+     ]
+    },
+    {
+     "title": "가수 이소정, 고향 원주시 홍보대사 위촉",
+     "summary": "원주 출신 가수 이소정이 원주시 홍보대사로 공식 위촉됐다. 이소정은 원주시의 매력을 널리 알리는 활동을 펼치게 된다. 첫 공식 일정으로 오는 25일 열리는 원주만두축제 축하공연 무대에 오른다. 이와 함께 원주시는 국민행복민원실에 4회 연속 선정되었다는 소식도 전했다.",
+     "ai": true,
+     "article_count": 22,
+     "source_count": 22,
+     "links": [
+      {
+       "title": "가수 이소정 ‘원주시 홍보대사’ 활동",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzanFkNDI0T0pnR1U0XzhuVmxUcGpQOVdUcmFZN3JTUkM1eXdYcktDcHNaVXAxWUF2eDlQS0FELTJqcGpJeWlqdmdTV2tSb2RsWTlOMDlIMXRkY2preHRBaU82UQ?oc=5",
+       "source": "쿠키뉴스"
+      },
+      {
+       "title": "원주시, 가수 이소정 홍보대사 위촉…“고향 매력 알린다”",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CQzljMHVwdjdDUzBQdk9yLTE1WEpQUVA5STZNbUdlMkl4b0hlZkxDRWJ0cU45Vlg1Qjh2LUhSLTQtYktTeE82dHdMSkw2YUFIeFIxSmhIMEdYU0dOYWx2aA?oc=5",
+       "source": "아시아경제"
+      },
+      {
+       "title": "원주시, 가수 이소정 홍보대사 위촉",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5QVnl4VHQ4MlV2OTlnWTJrWVppQ2tiV0FSRXdHaWR1WXo1NEVOdFo2ZGlUVlRKQmpYNFo4WmxhQ3NaWUctQ2VTZGtMcU1Ha0dNVzJpMlAtZjRienV2YVRISWdQb3dNOWh4LWlFR0laY1lhUQ?oc=5",
+       "source": "http://www.reporternside.com/"
+      },
+      {
+       "title": "가수 이소정, 원주시 홍보대사 됐다…25일 만두축제서 첫 무대",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zMEhaWFlmbGZSQXdBWm5HWHpGeGZmclFTOUhwYnVYTjREcGtBMUoxZGNZajZnc2Z2ei1hT216TnpXcUhOMFJJYm1FUEU4WGhtSXlqNmp1NGVWUDlqOHF6ZnYwbnQ?oc=5",
+       "source": "서울경제TV"
+      },
+      {
+       "title": "가수 이소정, 원주시 홍보대사로…25일 만두축제서 첫 활동",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1RZmtFazg5eGVMSXlsYTN2ek1reW41V2w3Sm9EZTUyZGxtQUlFWnlCWG5jSm1tVWhnb0hvOXZlSTRaa3Q4X2I1d01MdktYRE9CekNQaWNCQmMtQUdfd0dNTFRGUkFXUHZHNFJaMnNnWEpBdTlt0gF0QVVfeXFMTVFma0VrODl4ZUxJeWxhM3Z6TWt5bjVXbDdKb0RlNTJkbG1BSUVaeUJYbmNKbW1VaGdvSG85dmVJNFprdDhfYjV3TUx2S1hET0J6Q1BpY0JCYy1BR193R01MVEZSQVdQdkc0Uloyc2dYSkF1OW0?oc=5",
+       "source": "이뉴스투데이"
+      }
+     ]
+    },
+    {
+     "title": "이재, 음악 프로듀서 샘 킴과 서울서 결혼",
+     "summary": "'케이팝 데몬 헌터스(KPop Demon Hunters)'에 출연한 가수 겸 스타 이재(EJAE)가 오랜 약혼자이자 음악 프로듀서인 샘 킴(Samuel Kim)과 결혼했다. 두 사람의 결혼식은 서울에서 진행됐다. 이재의 배우자인 샘 킴은 음악 프로듀서로 활동하고 있다. 여러 외신 매체들은 두 사람이 부부의 연을 맺었다는 소식을 전했다.",
+     "ai": true,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "‘KPop Demon Hunters’ Star EJAE Marries Longtime Fiancé Sam Kim",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZGV4Z2ptVW9TY19NS1FmMTRxcnN0VWxZcXQwVnZRMjQ1QjdBTExERmV1Z0tZNWhuYTBOMWN6dF9EWlpfOUdKZzlkSFdLenVuMHpNQ25kTU1OTlprMjZUTXpnQW1jakRlUGtmenRPUnZZRGl2NEhwOEFJdmhjY3htU2hlMnhVbWQzLUVKejRnMzBrdw?oc=5",
+       "source": "People.com"
+      },
+      {
+       "title": "KPop Demon Hunters star Ejae weds fiance Sam Kim in Seoul",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQVNLbWY5V0JybVZtUThTMlUzOUZWQXVTME5XbGI5NWFRSlczbWVIc0k5a3BFUVczZ2E5ZmE3d2pRREtRVXNwcnVnR1Z3V0RCOERoaWw5ZGE2QnpIcFR2Yzc4MHh3NUlZdjFMVFJJbkpmXy1uQkszN3UwOHI1eEJxVE1fV09TR3JNLW5NTmlHQ0R6MDc4X1E?oc=5",
+       "source": "The Straits Times"
+      },
+      {
+       "title": "‘KPop Demon Hunters’ singer EJAE weds music producer Samuel Kim in Seoul",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZUJXLURfWE5pWjczZHVXTXIyOWgxVlVyLWpSZ0pUYXhhMjlZQWtaNVJIcGlncnltYXRFY25jZ05EWWZ1WlV3X2lUbC1EQ1MxOERqX2tialg4OFd5ajA4YUJmeGpMTFR2dG5TcnBsR0prQW9HWUIydXNpM0U5T1Q1UW40QU9walItd2pwT3h2Y0M5VmVaSFF1SUswUFhwQUt3?oc=5",
+       "source": "Manila Bulletin"
+      },
+      {
+       "title": "K‑Pop Demon Hunters star EJAE has married Sam Kim",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFZMUlJFUktKSVFlclp6Mk8yelNLUFpBdmVOemZXWGJ5d3Brd3huLW5aLWZ3ZlJwdHhfblk5QnNEdnBKRU9uelVPV1NlVmFGRTdIcjM2alg0TXpnckt1X0JsWGlxbzE2bENZUWhRX3NNZ0dHTjUtU0RkdUo1WkpoWEJhUG1ub2xTZlBxZHUxSW0?oc=5",
+       "source": "Metro Mode"
+      },
+      {
+       "title": "KPop Demon Hunters star Ejae weds Samuel Kim",
+       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSG1TZWRFWjdLTnREOTdwTW9zbHNxeHUxNGZpdzAtODZiSm9EYUZqQTRUcTJFQk5uRlVqSjNmaWtxNVo4UzdtdnQ3Vy05eTdHalFsOTN5aFMwYW5QdGJIMGtxZ3N0LS1YQ09rYUFVakdCdTByTGVhOWNXTXpqTkI2b09ONllrYU5xM0VpNERGRzRqc1J5c0pLeGJhdFN6RFU?oc=5",
+       "source": "Yahoo"
+      }
+     ]
+    },
+    {
+     "title": "우즈, 로큰롤 신곡 ‘Come into my world!’ 발매",
+     "summary": "가수 우즈(WOODZ)가 20일 디지털 싱글 신곡 'Come into my world!'를 발매했다. 이번 신곡은 80년대 로큰롤 에너지를 담아낸 강렬한 록 음악이다. 우즈는 컴백 당일 저녁 해당 신곡을 공개하며 활동에 나섰다. 이번 발매를 통해 특유의 통쾌한 록 스피릿과 로큰롤 에너지를 대중에게 선보인다.",
+     "ai": true,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "우즈, 신곡 ‘Come into my world!’ 발매…80's 로큰롤 에너지 담아",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2QTNWVVVLcFJpVEMwUnhGd1VUSmhpTklVUndZOEJuTjItbGl4WHhyVEw3ZGhOMVlWWU9hMGp2WE9SQkg4WTJlWVJhcGNhU1RIdFFDcHRIU0MtZzhLRWJfVFE3NGtHdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "우즈, 오늘 신곡 발매…로큰롤로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6d1IyOElVejM1TEc4akpDbmZYU2huWUpQamlmT0RFY19WUWVTSGNYT3gtQ29hWVFZSmZ2ZFd1RzAwc1lFTTZ2YkQyVlhtRDhuZUNhNTFQanpfdW80RnlHYlNSSm0?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "우즈, 오늘(20일) 신곡 ‘Come into my world!’ 발매…강렬한 로큰롤로 돌아온다",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43cTdiQXhsbTJyU280WlJPaEhXUzZ2RVNwT3IwVEM5eG5UQUwzSWFMTWptbmg5X3RYaU1IdG9lQ0x6WkJYMXl4NVFzOG83dzRkSWxHMWFmd0tNMERCclpadE0zSDBiTDk3VVc2dm9n?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      },
+      {
+       "title": "우즈, 20일 디지털 싱글 ‘Come into my world!’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52R0ZScjVtWlhDd2dMcEdWbjJzazU2dEpEZHFNaDBRWkNxZUcyaS1UcjRiMnFaSUU2MzVpaExyb0RVYTJsbEdTcFJUOWxEM2M5YWpUS25mSVFmS3pMeTJwZXN5bzVpQV8yNk5N?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "우즈, 로큰롤 에너지로 컴백⋯오늘 ‘컴 인투 마이 월드!’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aei12NFlETWo4MGQ2d1BnLUh3cl9DcHhKaVBGRTRCYUpJR1VwYnp2VjhFNHFTMGZHNURNczNVSEwxUXRNRWw4alQ0cm54eEtwN01pM1hSRVZDbXR5R2NBRXZ1MXRieWJiNmhfY2d2ZkhuVG1j?oc=5",
+       "source": "이투데이"
+      }
+     ]
+    },
+    {
+     "title": "크러쉬, 아이유와 함께한 신곡 '삐그덕' 뮤직비디오 티저 공개",
+     "summary": "가수 크러쉬가 아이유와 협업한 신곡 '삐그덕'의 뮤직비디오 티저를 공개했다. 이번 신곡은 크러쉬와 아이유의 첫 듀엣곡이다. 공개된 티저와 스틸컷 속 두 사람은 다정하고 로맨틱한 분위기를 연출했다. 보도들은 두 사람이 신곡 '삐그덕'을 통해 색다른 케미스트리를 선보일 것으로 예고했다고 전했다.",
+     "ai": true,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "크러쉬,아이유와 로맨틱 무드 가득한 ‘삐그덕’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOWEZPbHNkRVhYQXJIU1dLZXF6cXl3N3Qxd2xIYjNPYklFNUFYTTRZbzNnMmVKQ1NaV19KSGRyODhwdktVcG9LMkFnYlVmbzB6TFJ2RkdWMWgzT19jUWpITkJxckRYX0g5SEE?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "크러쉬,아이유와 로맨틱 무드 가득한 ‘삐그덕’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qbUhKY2pNbkRRdWlVcVlKeGZqX1RhOFNONndZekFnbU4wY1BEZzBTYV9wc3N1WlJjd3YzZXRCYlE4dFNNQ05USXExLUJZa3Y3UGdoMl9icmxseDRkWHBTMVdSMWhwcVU0Y1FsczZR?oc=5",
+       "source": "서프라이즈뉴스"
+      },
+      {
+       "title": "크러쉬, 아이유와 함께한 신곡 '삐그덕' 뮤직비디오 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CYkFEOV9UY2FaWHBSTkllU2hsSEpuN1RnT3dVUXJrVG0zREdLMDNKMFZTQUxyNTYwMFQ0SkM0ZDZNOG9xVTdpTU1DWjc5VnVmdkhxZGpzbERBc2dJbWxfTjRGNmFoRTlpNXlXbFZ5RjFQZEQt?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "티저와 스틸컷|크러쉬, 아이유와 함께한 신곡 '삐그덕' 뮤직비디오 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xbkw3Q09hV1Jfa1E5SURMMlJ3TGNjQS14TTBBcHdfeFNXMXhzbmxjMG02WXVFeTRnTmRIRldmLVpNc3g4UUJyejRrMHpmLTM2WXZMTEtDX1I?oc=5",
+       "source": "ZUM 뉴스"
+      },
+      {
+       "title": "크러쉬, 아이유와 첫 듀엣 신곡 ‘삐그덕’ 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ORk1QUnFBVDlHelFLMmJDS2RMSmpYVUx4eUJEVEF6b0hxeWIxNlBQVUN1RkZxcWdhNGtpUU13bnZ2Q0pEckpUNmUzeDV2S0R6YUZRT3V3aDJWTTVxNWI4ZGg0dlBmNWVpaHhzdThpZ1dMUQ?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "'K-Pop: Demon Hunters' 이제이, 프로듀서 새뮤얼 김과 서울서 결혼",
+     "summary": "'K-Pop: Demon Hunters' 및 'Golden'의 싱어송라이터 이제이(EJAE)가 프로듀서 겸 작곡가 새뮤얼 김(Sam Kim)과 한국 서울에서 결혼식을 올렸다. 상대는 그녀의 오랜 남자친구로 알려졌다. 결혼식은 이제이의 할아버지 신영균의 서울 옛 자택에서 치러졌다. 이제이는 결혼식 이후 웨딩 사진을 공개했다.",
+     "ai": true,
+     "article_count": 10,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "'K-Pop: Demon Hunters' Singer EJAE Ties the Knot with Samuel Kim in Surprise Korea Wedding at Grandfather Shin Young-kyun's Former Home",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BRHBjaHhWYzhSYXBFQUJiZHpJMFhlNlhaV1Z6Sy1lZ0lmbUJTX1ItaHd5TllpTjBiVS0yVUkyRVN0MTE5aVN4LU5uZWRlOXIzakVMUWRib0h0Q2hMbjEzWVdZQUxXZWRTM2I2eWlR?oc=5",
+       "source": "news.sbs.co.kr"
+      },
+      {
+       "title": "'KPop Demon Hunters' singer-songwriter EJAE ties knot with producer Sam Kim",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX0k5dTlLZWdGRXRJREpXUmVfMl9LcldjSkVMNWoyRTRQeTRjN0F5QTAxU1BRRkRlQV9fY21yaERLemtrNW45b1NyeldRQl9qVFJ6SmhEZnNwUk5uczY4ZHdwM0NaejEtY29mdzgzTTU4SFU5QV82NjVkM0RHLVBuZ2t5NGZKR3VpcE5JMU5saUtGMERING1DdEZuZEJvcWJYOWtDdGNyY1JsX2JmTUhjUHFCRy1hR3ZrQmVvOGdaemltOW9GdVd5cUFoc9IB0AFBVV95cUxPSUpUWGhURldTWXpNbi1xTHp2S3kwR0xSbVhmOTYzQU1hd1ljTkQzQlNlUlZjSUNNeHQ2RHpqd0NXajI0bUQyM3dJczZKd1BkTFRVV0NGODdicktqMmIyZXlNREpGZGh4TWJrM0JJMnAwbzNfakpKWC1mb1hqS0xIYmpMdDQ4akx4Z3o3ZUhfMVVvX01hWGI1LUNWQzQ5OTgyS1JaZ2NYRmVmdTRfUk9qaC1mTElXYzhOejg3b0dkYzkyMktDWnUxNURNR0hweGY0?oc=5",
+       "source": "The Korea Times"
+      },
+      {
+       "title": "'KPop Demon Hunters' EJAE ties the knot in Seoul",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX0o2NTVfWWpRczdrUTIxcFdyYXFXV0U2RkxwMU96enREWlZjOE03QldxbUp5U0NDTkZoQjBXQ2NaeHN3T29NazlOOGpaRWhMc1JLUHlXb0NrZ09IZ2VJSl8tTjctSjBPNzI4bEVqYndUQkRENEk3dS1FUEE3ZE9IbUdTNmsxbmtVQ0RiLW9meXpLVXl5bm1xM0xrc0ZHWEtwSnhRVldPaw?oc=5",
+       "source": "Korea JoongAng Daily"
+      },
+      {
+       "title": "KPop Demon Hunters singer Ejae marries longtime boyfriend Sam Kim in South Korea",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLWQzOEJEQUIxOG82cUs2NElGejNNc2luMHhQQ25zSzJ6R3N5b1BiQ0FMYXFBdUpvWjZYZC01RWZzcUhFSVpKWUZ5cFB5UF9vWUJhYjkyQk5LcXpmb1BuYlJCTlMwNTZJWVI3THRXZ1h4dWZJZE14d1VBRWxKSVYzTGhWMmdPVFNWVVBIbkVjZkI4OHZQcHhoMDJR?oc=5",
+       "source": "CNA"
+      },
+      {
+       "title": "'KPop Demon Hunters' Singer EJAE Marries Producer Samuel Kim at Her Grandfather’s Former Seoul Home",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWWZWeFFFVWREMlNkQklMZERodlBIUmF6UTJjS2FBanNwR0U5b3VrVnR5cW9jSFlWeEJUY0hlc2xqc21uV1E0dUlla0V1MDJBNUsyNDJCNkpFLThzTFpoSkd3MGg2MUNYNGM5eGg1Y3FPVEFsOEFaX1lsTGJKUkxvUFY3SXlJVDV5YUoyOWZhQi1vSXRpYzZtY1pZWHVYNU1KWi1WNlN0bkQtcjB2QlhJS2ZHYkhVcHpiSFA1aTFyRDI0V2R3SFBNUE9tU3c0WmhN?oc=5",
+       "source": "Resonate Voices"
+      }
+     ]
+    },
+    {
+     "title": "리센느, 미니 4집 'PULSE' 콘셉트 포토 공개하며 11월 3일 컴백 예고",
+     "summary": "걸그룹 리센느가 미니 4집 'PULSE'의 콘셉트 포토를 최초로 공개하며 컴백 일정을 알렸다. 리센느의 컴백일은 11월 3일이다. 공개된 콘셉트 포토에서 멤버들은 수호천사이자 여리지만 강인한 수호자로 변신해 몽환적이고 오묘한 비주얼을 선보였다.",
+     "ai": true,
+     "article_count": 10,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "리센느, 11월 3일 컴백…콘셉트 포토 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5odGQ5NHAtLWFTVnVSNEdIR1VDY2dTcGV6dnRKdy1YTVoyZ1FUajRYb3hvTDBlMnJnUlhRd2hodWFiWGJPZFNfM2JiUXo0akU2T3psV015UnpfNnp0bU03ckRhb1M?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "'11월 3일 컴백' 리센느, 수호천사 변신…몽환적 비주얼",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15bVhEVW83REJCdXZBLVpzSUEzM24zVGhxNloxNDFyaUFJZk9QWVUta1NmSGtHOXJHYTZ2Tld4eVY1SElzdkRRbDUtdWp1NWs?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "리센느, 11월 3일 컴백 미니 4집 'PULSE' 콘셉트 포토 공개",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfRmtIZ3EzVGxka2xkTllja2YxZGp6T05MSTB6U2tVeHRCbkhYaUFoeVl5UlpnWkdKOENVaU1HQV9lT1NhLXUtMHlnOVEtWEFlWU9WTllpZzMzS3FMdnZRVkhiOU9JRUdGM0JZUUlaZEkyME9Z?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "‘컴백’ 리센느, 수호천사로 변신…콘셉트 포토 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aYUstNjJ6Y0lFcFdrVlFYYUdZWmhkYy1xa3d6YkU4djhLemhyWEdkUS1IXzFUX1JoWlVRNmFGcHZDSjZtLXhCa2cxS3RaM2JZMXdNRTdkZjQ0aWlxajhpeDRR?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "'11월 3일 컴백' 리센느, 여리지만 강인한 수호자..콘셉트 포토 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iaE1pNzNtb1ByTlY2MS1JZnVfSWtnb25Vdk9qbkNwZzFiVGhZU0VrSDZqVzkwYmVTUlZrVUhNTHhmLUR0TWF2WDZuNU1jWllUVmRlaA?oc=5",
+       "source": "OSEN"
+      }
+     ]
+    },
+    {
+     "title": "슈퍼주니어 규현, 11월 11일 새 미니앨범 'CONTINUE'로 컴백",
+     "summary": "그룹 슈퍼주니어 멤버 규현이 오는 11월 11일 새 EP(미니앨범) 'CONTINUE(컨티뉴)'를 발매하고 가요계에 컴백한다. 이번 신보는 규현이 1년 만에 선보이는 새 앨범이다. 규현은 이번 앨범을 통해 겨울 감성을 선보일 예정이다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "규현, 11월 11일 컴백 확정…새 EP 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oWVNoZTVGSUxiemEyVlNId3U5NmhDalRvbHM0dGhyMlRMZlJuT09BUXh5aGFPNTNfbnBfSnBlY25wckhKc0ZoOWVGd05mY0ZIMFRfQUpUTExxWk4tbXlDTk5EeHM?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "규현, 11월 11일 새 EP ‘CONTINUE’로 1년 만에 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vVEpJYmo4ZFNFRzBDakJIaXJiSWoyMkpLZWJYWjFkcGVYdXRMTXZjd04tMGd2am9NYTlMZnJMRWZQMnlUQTQ1YUg5c0tjYjdHY2RSZHpOdmNWc3RIZU94RndzRUk1eDNYSHNSNk1vOFk1Zw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "규현, 11월 11일 가요계 컴백…겨울 감성 'CONTINUE'(공식)",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvd0xsenBVLXlhanZRa0w5MEFsWXFuYmZiV05vR3p3R3VRdGdnc0twdFRkYVFCcWVTd1Z4Vm9ra1BwbXl6U1lKcWxRakcxTXc?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "규현, 11월 11일 새 EP '컨티뉴' 발매…1년 만에 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BWm40cEFZVUZGTGw4dHgyelhEVW83RGg2SmtULWV6MXRzS1FrVUpmLVhVQWQyN01tYk02VUdlN2NhM085VHFlbFRDM3NSVy1mSDBPdThSVGlhOXRJ?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "[가요소식] 규현, 내달 11일 미니앨범 '컨티뉴'",
+       "url": "https://www.yna.co.kr/view/AKR20261020057600005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "세계 게임 산업을 선도할 대표작 제작부터 인디게임·청년 인재 육성까지, 2027년 게임 예산안 지원 방향 논의",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "세계 게임 산업을 선도할 대표작 제작부터 인디게임·청년 인재 육성까지, 2027년 게임 예산안 지원 방향 논의",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41S3ZQdVQtaENjaHV2YnhRckpQMHhCTUNVbTZ2N25SRW1vQkhkUy0ySnVzWU05S0VlZ0ZyM0hHb1BCeEdydU1fOTZEamo5TmJhSGtkeUdrZnVTQmFCVnRsSXh3?oc=5",
+       "source": "서울Pn"
+      },
+      {
+       "title": "세계 게임 산업을 선도할 대표작 제작부터 인디게임·청년 인재 육성까지, 2027년 게임 예산안 지원 방향 논의",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6ZDRqcndxMHFRR3FldTVXVkpnNGl5STg3RVZxQThZUWgzM25xSmpuVC1pN3VNQU9oMXg3NEUyNlZaRVo4a1ZseENWNVlVbGxmVERPY0VNRDl2a2Y3X01PLUdHamRpVXJMaHc?oc=5",
+       "source": "도민연합뉴스"
+      },
+      {
+       "title": "문화체육관광부, 세계 게임 산업을 선도할 대표작 제작부터 인디게임·청년 인재 육성까지, 2027년 게임 예산안 지원 방향 논의",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBBZmR6UzJzZlBHS3hRMndlWG5xMlVHR3E5ZDNKWFNud1ZnTUlzclJHTDBFeGNKM2dXNGl4WE5DaGE3NXhRMFZ1Qk90elU?oc=5",
+       "source": "시사일보"
+      },
+      {
+       "title": "문화체육관광부, 세계 게임 산업을 선도할 대표작 제작부터 인디게임·청년 인재 육성까지, 2027년 게임 예산안 지원 방향 논의",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Cel9waXk4TFRwX1VNdkp3blBBYS1BMTN2OTdqUWVQWm1taTlnSGNsLTFtZFk1SF9xWF9NQTlZMGV1RmF2OHlMZjkwUjliV0dxa01IUzdtZmJ1XzdBLW5v?oc=5",
+       "source": "한국사회적경제신문"
+      },
+      {
+       "title": "문화체육관광부, 세계 게임 산업을 선도할 대표작 제작부터 인디게임·청년 인재 육성까지, 2027년 게임 예산안 지원 방향 논의",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43UEdpNnJfaVBDTjBhQUFmTi1NcVh6NF84QzQ1MXp6QlRqSjE2eXY0SHI0M3FtekRmdW9ZX3RrU203VGxDSW1zbnBROFNuSGc0QXp0RmhCdmtRcmsyS09Qb3VB?oc=5",
+       "source": "경기남부뉴스"
+      }
+     ]
+    },
+    {
+     "title": "아일릿 ‘마그네틱’, 스포티파이 9억 스트리밍…K-팝 데뷔곡 최단",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "아일릿 ‘마그네틱’, 스포티파이 9억 스트리밍…K-팝 데뷔곡 최단",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxaGRjeTZueXY5UXEtTW9HWWN5TndWb0pNckZmVEtHMUtERWRlY1pyRDN0VGlQajlONlYwS1lQcUtuNm9razdkRllpOWlCdUhuNUt2SGZyaXlGcTVXRHB0ODd3?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "아일릿, 'Magnetic' 스포티파이 9억 스트리밍 돌파…K팝 데뷔곡 '최단 신기록'",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdXhFTXU5aUx0TWE0bngzYVh2eWtobEdORlNoYTBEbE1FdmpRQ2lVTk1BdElUWTdOTk5CN0dleVlhd0hiTTVORnRZT0RXX3VQVm1CQVB5QkdFZlVGQUlhZnBXY0VkLUxnT1pQLXRBTXBqcWFXdER5OEZOTnk4Vm83NVEzMV9fUHh5Vmc?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "아일릿 ‘마그네틱’, K팝 데뷔곡 최단기간 9억 스트리밍⋯컴백 열기 ↑",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qV2VLLUQ5dnh0cFdoWjZXWGU0bmtBOVRwaDV1R09vVE44cThLTnVMd3hrc0ZFNldSNDB3a0Z0Yy1GNVdPX20yMm42dzFIUXhQRmJGU2tnUjF0UExpb3d0N3Jxa2RPVGoyTkpHQzJ3?oc=5",
+       "source": "이투데이"
+      },
+      {
+       "title": "[가요소식] 아일릿 '마그네틱', K팝 그룹 데뷔곡 최단 9억 스트리밍",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oRXgyN3BpcjlVZFhFcmN2NlgtYkllVnJJcE8xM3ItLTVucExENnBFS3c3YkxmYkZSeU00RGVUdkJPWTFxbXdaNTE2YzFrTFlrNU1sOFhmT05zYlBWeWxDUtIBYEFVX3lxTE9oRXgyN3BpcjlVZFhFcmN2NlgtYkllVnJJcE8xM3ItLTVucExENnBFS3c3YkxmYkZSeU00RGVUdkJPWTFxbXdaNTE2YzFrTFlrNU1sOFhmT05zYlBWeWxDUg?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "[가요소식] 아일릿 '마그네틱', K팝 그룹 데뷔곡 최단 9억 스트리밍",
+       "url": "https://www.yna.co.kr/view/AKR20261020078100005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "Tour bus carrying indie pop band catches on fire on 5 Freeway in Burbank",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "Tour bus carrying indie pop band catches on fire on 5 Freeway in Burbank",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9teEZ0eW5LUGhGaVZNSWdrOUhFMzZCRHlkQ1hTeWplcGpYcThLbzlVeC1UR1dnU1dhb1hmRWI2UzVRcnc5V0UydUpkLXVGVHcwZXVVWWQ3cHZQNlNLeVZFN2tIbVlaQdIBa0FVX3lxTE5IOW1nRXlIeEJYNTktRFVnWVk1bnhHQTF4OUdEVjJxVExneFlpVUZiVGJTTXlpUEp1S0xFMUpHM2NjelZrcl9wbTFHY0NMU1ViR1paUzE5MHB6ZUZscnBiVW5mVEgzZVU4QWZR?oc=5",
+       "source": "KTLA"
+      },
+      {
+       "title": "MUNA’s Gets So Hot Tour Bus Catches Fire In Burbank",
+       "url": "https://stereogum.com/2515077/munas-gets-so-hot-tour-bus-catches-fire-in-burbank/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "MUNA’s Tour Bus Catches Fire on California Freeway",
+       "url": "https://consequence.net/2026/10/munas-tour-bus-catches-fire-on-california-freeway/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Muna Safe After Tour Bus Fire",
+       "url": "https://pitchfork.com/story/muna-safe-after-tour-bus-fire/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Indie rock band’s tour bus catches fire on California freeway after Stanford concert",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVlCcUdhdDdLQ1BjRjBfXzFGbWw5NXF5V1QwMFN6dDlXanlaTHpRenMza3RfMThjTk1KbVBiQUtTYW1DWno2YXRidVB0ZU5WanJIR01vWUVKV2NBTzQ0MFpBTFNFOFJrUl9VZWZTTzZscmRtWEhQYndpYWVRQ0thVDNsQ1lBV3Z3Zi04VjViVk9wb3BuOVVvaHVrTmxLUVhU?oc=5",
+       "source": "San Francisco Chronicle"
+      }
+     ]
+    },
+    {
+     "title": "객석의 고백, 무대 위 노래로…임영웅 ‘부디 행복해질 것’의 진심",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "객석의 고백, 무대 위 노래로…임영웅 ‘부디 행복해질 것’의 진심",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kd0EzSDNkZ0tRZXVZWnNDTUExRlM2S0FGV3Y3dWYwY2xlclMtYU53UDFkMmQyMGRfNW5uTzhBcEY3bkxFbXlhWjZwZE9qaUJSRlN4OGVNcXN6NE5CeTQ1WDlsWVY2NWg2Y0ZLNEVR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "임영웅, 신곡 '부디 행복해질 것' 뮤직비디오 공개…팬들의 진심 담았다",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LY0dYbGlFdHlnWU0tNngxdHUtSmhTZjFaNE13TlVuYmlmTkdfTWpObkN6Tl82T0ZSR2VxU29mSHhnS0gwc2w3aHpubGZLeFphWExZSWNHUnJUYnkzcGFELURMSDc2bVhvVGNHUkczRlg5S2c3?oc=5",
+       "source": "세계뉴스통신"
+      },
+      {
+       "title": "임영웅, '부디 행복해질 것' 뮤직비디오 공개",
+       "url": "https://www.yna.co.kr/view/AKR20261020051000005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "임영웅, 신곡 '부디 행복해질 것' 뮤직비디오 공개",
+       "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNRVRoMk5DRFBObkZ3VVNQZ1A0WF9KV3VvX09HS0t5Z3VBMTdMUk5vLV90U21NVWRhSldXbFdTSFBoblpZMEhvQmtKM2pvbXRIbjBCUGUzNzNKQjBSMkdMYzNBUFU5YmhzU2VIa1pNWElkRF9lWkdnYVBRV3hib1o4OVN6M0NIOFF2ejhmYkN0RDNiYi0zNFlJVHRwTGVSR3R4QkI0NXBQYW9uYXNndmNrcGJYVEtaN0tMdDRlamI1U2U5ZDNXa1lHa0NOc2piMUpIdTVSTjUydFBsWkw2VzdsZHVlQll1LWJIdmItS3hDSGQyZ1d6OWdyV0lxV0wwdXhTUlBJdmVSYUtaYzM4WE15bzAxODVXX1M2X3JFV0IyTmpRN3pJOUZobzBETTlpSHVsa3hjbnVBRmNtMXFtejVpZndkbUU?oc=5",
+       "source": "중앙신문"
+      },
+      {
+       "title": "임영웅, 영웅시대를 향한 진심 담은 부디 행복해질 것 뮤비 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5yZDJLQl9SemNQYVYyLXAxQjQ1RW1UQ2IxOWZ5Q0JIbjFOcEJNd3daQlFMV0RPYWtqYTlLZXY4UXJjNUx4N2RKdHJMSGw1RWZnT3F0T1NmUHPSAVhBVV95cUxOcmQyS0JfUnpjUGFWMi1wMUI0NUVtVENiMTlmeUNCSG4xTnBCTXd3WkJRTFdET2FramE5S2V2OFFyYzVMeDdkSnRyTEhsNUVmZ09xdE9TZlBz?oc=5",
+       "source": "아주경제"
+      }
+     ]
+    },
+    {
+     "title": "버추얼 보이그룹 비더후드, 첫 미니앨범으로 정식 데뷔",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "버추얼 보이그룹 비더후드, 첫 미니앨범으로 정식 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pQkEtV3hTZFZXQ2dpWC1qT3FoaUdob28xNUY3UDJzZlYyODZSTjZIWGV0Zm50U0ZRamh1NXl1WUo3eVVKamM3cXg2ZXZvVVZob0FfTnUxQmRjdEZvRi1wdUVZUDZCR3Qwamt6Z2tfSzBWZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "비더후드, 오늘 첫 미니앨범 ‘CHOP!’ 발매…버추얼 아이돌 시장 공략",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1LVkt3YWlnSzNNTHpxOHVpYUxCN2RpTGUzNXlib0dIZTI1R0lUUTI3YVNPdW9EbWJqZ2NCcm42LUhfWTJkYl9wQnlCMkdLeFVKckc0Ty02T3FvR0RWUWVWTE40WFNsWThDOFdj?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "'차세대 버추얼 보이그룹' 비더후드, 오늘(20일) 데뷔…힙합 가요계 출사표",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfeGJFYWtndEdMZFl4RnVlUG4tSWRfWTUzR3pUQ0xub2tYUFRvek5yVHRPa2JSOHk5NUZtU2pEelptNmZoSXBmVTFwS1J6UnExYUpRbw?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "'차세대 버추얼 보이그룹' 비더후드, 오늘(20일) 데뷔…힙합 가요계 출사표 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd3NmSVNmQ2NqTWpCbTYxREtKbGdyZDFXM2xMZmtCRXdPeTJrTHQyOUs3RUdjNGZ3VmpiZmhoU29nSVo1Y0JrRUd0SWdaUmhVSmlJV01naXh6amcybXRTb1lVZ2NrUDJ3X3VhbHpIZzBkdnZ4dVpJUWowelBvNW4weTNUSmR2Mm9VZm1GaXJVMHJXTFFESkJuY0IycFh6WnZCNjNaMklHd9IBpwFBVV95cUxPd3NmSVNmQ2NqTWpCbTYxREtKbGdyZDFXM2xMZmtCRXdPeTJrTHQyOUs3RUdjNGZ3VmpiZmhoU29nSVo1Y0JrRUd0SWdaUmhVSmlJV01naXh6amcybXRTb1lVZ2NrUDJ3X3VhbHpIZzBkdnZ4dVpJUWowelBvNW4weTNUSmR2Mm9VZm1GaXJVMHJXTFFESkJuY0IycFh6WnZCNjNaMklHdw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "외계인 다섯 명이 K팝에 도전한다…버추얼 보이그룹 ‘비더후드’의 특별한 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WNU5ReTRoNkhjRGtmLUlaM0FoVHJ5WGdtWEoyTFA4eFY4di1lakhFaW85T1EydUszWG5JcW1yM0RWd3dldFBDSkVRa2Z2ckkwZndPdFpDSnBsQzBQeE93UEczbTRZUQ?oc=5",
+       "source": "자투리경제"
+      }
+     ]
+    },
+    {
+     "title": "베이비몬스터 루카·파리타·아사, 불길·빗속 MV 스틸로 컴백 예고",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "베이비몬스터 루카·파리타·아사, 불길·빗속 MV 스틸로 컴백 예고",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fS0N6WTZmcHVLMjBqakJtZmNUaTJfOGVsN3BOMWxQNXRwYjczLUdaVDdLR0QtNjA3STd2em51VWJEejVMeEhvOGRzeEMwM0pnSHhNZzdWY211TlRESnByYTRzbEVGR3BPVm92alI1bzZqdw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "베이비몬스터, ‘DESERVE’ MV 스틸 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44RkVWX2NWQko0Wk01U0puSEpsNWtMSGdscU9Mc1VBMThpMDM4OUd2VWxVLThUQkEwaXpiY25zQTE5Y0R0aDJudm1MdS1qN2o4eGVUZDJuSXFRTmNyT0VEZUFrVzM?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "베이비몬스터, 신곡 'DESERVE' MV 스틸컷 공개..다크 감성 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEN3ZFNVUHRkM3Boa3VLYUw5LUlJTFB4Y2lMc1RKam5SSjJsT1MwcFVjMWl1cE1ZUGRXODE3SS1mdi1STkx3U0dBczVNTHJkeTNvN0pydDVRWkR1QkVWc3FjOXk2V3E5OHJmM1E4M1VpdV9ad0hmanVvRndsQlJkLXVhZzExa3JtVFBzNEIza2hTMmpmQlBsbmFoMnRGamM1cERWZnlFWdIBpwFBVV95cUxQOEN3ZFNVUHRkM3Boa3VLYUw5LUlJTFB4Y2lMc1RKam5SSjJsT1MwcFVjMWl1cE1ZUGRXODE3SS1mdi1STkx3U0dBczVNTHJkeTNvN0pydDVRWkR1QkVWc3FjOXk2V3E5OHJmM1E4M1VpdV9ad0hmanVvRndsQlJkLXVhZzExa3JtVFBzNEIza2hTMmpmQlBsbmFoMnRGamM1cERWZnlFWQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "베이비몬스터, 신곡 'DESERVE' MV 스틸컷 공개..다크 감성",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VLWZGNlVtTG84TTZWd0wxX1ExTkJaRTh3aG0xVnQ2R05WNWplamR0aV9BMXFMWDRYejZGenNXWUJvLTdJbENYMEJlMEJzNUdfNnRFVw?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "티저와 스틸컷|베이비몬스터, 신곡 'DESERVE' MV 스틸컷 공개..다크 감성",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRVVMVnhNZ0ZwR2QydFJrUlVjeEQyb2RUSzZlQjlpZUM5dVhLYlN2a0lpSjgwU3ZpZjBsTUowNnQwZzh5UDJVSThtVl82THNzc2Q5b2ppT0x5TjlCN292V3NXSTZOcTJJelRiWXlBNnNqR3ZfcnkwbWpKRkhKenpETklkSQ?oc=5",
+       "source": "ZUM 뉴스"
+      }
+     ]
+    },
+    {
+     "title": "이지 오진성, 신곡 ‘느린 꿈’ 발매…아버지들에 위로",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "이지 오진성, 신곡 ‘느린 꿈’ 발매…아버지들에 위로",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QVllVUUhMS2dXWmVQNjZ4X2N6THdOUXJmS0EtQ0tIamYycFJzRm5PMlp2SG9ONmN5YXQwY09HeUZ3UEdJS1lGNDlhMGRHMmJSY2tHUDZUYldWaHJubTN6aFo0ZHc?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "izi 오진성, 세상 아버지들을 위한 신곡 ‘느린꿈’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJbzFaM0p5Tkp6QmJXVkVKd3A5ZURsNE5HYnUySXctbzNXY2xLQ3FnbHdTbmdpbFh4VTBVMXd5YUZfLVZEZDQyQTFoTWR5Y1QyRGFWTTNGakZsRHBGdG42dzZNS2VzZnFNZl94ZlFQd1hRZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "'응급실' izi(오진성), 세상 모든 아버지들을 위한 신곡 '느린꿈' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fNlg2UldoeWYxTFU3OFRhWlNub091OGc5MVFmRmNqNEUyWTJPQ2dpZmNWWkpnd2JFZEYydkIzdGRSSDNYTTR3WGdTWUVnbmJoUHdyZFc3MXFrMV91RjYwS2o5SnJXdw?oc=5",
+       "source": "news.sbs.co.kr"
+      },
+      {
+       "title": "izi 오진성, 신곡 '느린 꿈' 발매…모든 아버지를 위한 곡",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hSW5IWFdKbmtPbk93Mjh0aWFJSzhCXzVNaGRWTml1bW1ZcXh4ZFB2TjhyeFZubjdSRElrZGZlVWV3Qjd6MjlBZFpkYzlYZTZudHdtVkQ1YWpIb0l50gFXQVVfeXFMTTBGOXNNUndWV3AzTTZxdnY5R0hBWThuSTVNdUxuWnhSZWRaN2FXRjlCalA4S2djSHczMmJYUllfQzJMV3ZhUTB4UjNLN2t0TUxCQXJjZXJr?oc=5",
+       "source": "더팩트"
+      },
+      {
+       "title": "'응급실' 오진성, 신곡 '느린꿈' 20일 발표…세상 모든 아버지를 위한 응원가",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uUUVqRDQ2V2RzM09fczlsSHFtZ2VEYjBBMjhIU0tuZzFaazJFWDNiWXFYUjdudU1ybmtQUjNuY2pmWWcwY3JTdEE2UjMwUXl5Q0pYWjNFSmNZVmk5TTdBWWpoNmJRU1l5WDd5T3VpZEE?oc=5",
+       "source": "SPOTV NEWS"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
