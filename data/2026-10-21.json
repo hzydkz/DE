@@ -1,0 +1,512 @@
+{
+ "date": "2026-10-21",
+ "generated_at": "2026-10-21T23:29:50.690731+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 7,
+ "llm_errors": [
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1100,
+   "issues": [
+    {
+     "title": "트와이스 지효가 21년 만에 JYP를 떠나 독자 기획사를 설립했다",
+     "summary": "그룹 트와이스(TWICE)의 리더 지효가 21년 동안 몸담았던 JYP엔터테인먼트를 떠나 독자 기획사를 설립했다. 지효가 새롭게 설립한 소속사의 이름은 에미트하우스(EMITHAUS)다. 지효는 오랜 기간 함께했던 소속사와의 동행을 마무리하기로 결정했다고 밝혔다. 이번 독자 행보를 통해 지효는 독자 기획사에서 새로운 활동을 이어갈 예정이다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "TWICE's Jihyo leaves JYP Entertainment, launches own agency",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVzV3eXd0bmphMVdNVGJONGRPc25MQU42X2JwMExBdmFTWDNWN1RZcklheEN2WXJTV2FOSWFOY3hHMExTZ042TjFrUVdRb042S3lCZEp1a18wVEp3Mm8xbXFPMXA5RXhuZmpub19jRFBub01GSVpLLVdwbzBOWC1EQ1VtcVNLSlRhMUxuQUVBc0NmM2tMRUtzeHc3TzBZc0xQeFB3Sl9TdXNDaEFXVEtrc0ZUMTQteFFNN0FHWUpmSXJYZkE?oc=5",
+       "source": "ABS-CBN"
+      },
+      {
+       "title": "TWICE's Jihyo leaves JYP after 21 years to launch own agency",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcHBVNDQyNkRramRlX2JlaFNPNXQ4R0ZGRThiTXZKVXlMa0U2YUZlaU5NSzdIRnZMSmNwRlNad19jeGFSX0RlSGptQnpLS29vMW5nRmVtZVc1T05mdDIzelV4cllDTTVJS2NmMk50UEVZSGxyVnFJUVc2dVhXdlpETEdJU3dWS2I5N0Y5M2dzQzZVb2Znb0MzNzRXSExCcVRHQndMRjhFU2JkUTBFazVlQUp5bVV1N0RTRGFvZEdR0gG-AUFVX3lxTFBwcFU0NDI2RGtqZGVfYmVoU081dDhHRkZFOGJNdkpVeUxrRTZhRmVpTk1LN0hGdkxKY3BGU1p3X2N4YVJfRGVIam1CektLb28xbmdGZW1lVzVPTmZ0MjN6VXhyWUNNNUlLY2YyTnRQRVlIbHJWcUlRVzZ1WFd2WkRMR0lTd1ZLYjk3RjkzZ3NDNlVvZmdvQzM3NFdITEJxVEdCd0xGOEVTYmRRMEVrNWVBSnltVXU3RFNEYW9kR1E?oc=5",
+       "source": "The Korea Times"
+      },
+      {
+       "title": "TWICE Leader Jihyo Leaves JYP Entertainment After 21 Years",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcndMcXdWdVprNWotcXo0UW00Xzh6QXlTM25LN0VWR0pYWTVoUUdhbVFHWW91Tll6TG5vOXplc1AySlI5aTNSN2lGQWFPZ3pzek5wRXRxc2tJZXd4d0VFMjdpd0N2OU5mR0FVYUtzUWxfdGxBeF9BVmQ0bmt3d1o5VTVSdzJMS0Z6Z3E5YVl1LTdnUmdVTDR3U2JBUQ?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Twice’s Jihyo parts ways with JYP Entertainment after 21 years, launches own agency",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTzd6YXpZcUdNUnN4MXdYeXFjWnRFazBJZ0Nxd1JiMldxWjAwbUp4bS05RkREZFlHRjdsSEFTamFtdnZZTzk2N085bEFuMl9xdTRyeXFOekhqLWtULXVYYS1RLVJtcjVVb1pkVjJBdzF2OTlpaGNkZU02Yk85aTBqalZQclFLMnlJaDYzb1lqcVYya2NNMDFadkZuVm4tdkFmZU5NX3dJcUozLVlBeDY5R1JqbkcweTl4UFZTbGtXQnVPMXU5TmRJbVg4UHVxaXhGbGN6OTR3?oc=5",
+       "source": "Korea JoongAng Daily"
+      },
+      {
+       "title": "K-pop star and TWICE member Jihyo announced her decision to leave her longtime agency, JYP Entertainment, after 21 years.",
+       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdDgtZlRsb2pmZGhTbkNURURsUlFuWk9fX1pLZWZyN2VDZlhrSVhyLU9BUWdQUjY3d1NrbkZKSWxWR0N0U3Z1ZGV1ck5jVm1veWgyUmh2MkdLY2cxS29yWG1pR0FUYWxlY0ppd0dDdE1WWnVma0w0bXhkZU1PZGdoenVMWmR2NXJVbFM5M0xncVk5eEQzZHhaQUdvV0U1N2RoSlhjaHBSZUlRd0FTY1g4UUQ1azBIbHVreWRqTUJISWhSblo4WHZPS1MyY1lESW94MGMzUHFVZw?oc=5",
+       "source": "Facebook"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 빌스택스가 대마 투약 혐의로 또다시 재판에 넘겨졌다",
+     "summary": "래퍼 빌스택스(바스코)가 마약류 투약 혐의로 재판에 넘겨졌다. 40대인 빌스택스는 대마 젤리를 구입하고 대마를 흡입한 혐의를 받고 있다. 그는 8년 만에 또다시 마약 관련 혐의로 재판을 받게 되었으며, 이번이 세 번째 기소다. 과거 '쇼미더머니'에 출연했던 그의 대마 합법화 주장과 경찰과의 설전 이력도 다시 조명되고 있다.",
+     "ai": true,
+     "article_count": 21,
+     "source_count": 21,
+     "links": [
+      {
+       "title": "'대마 젤리 구입' 40대 래퍼, 빌스택스였다..마약류 투약 혐의 기소",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1maVp5SUhmYmFfNXhlekJueWZSNXRxSzRkQ1p4NE05ZTFXdFVXeGFNbC14UFpxQW1ZVlRlLVZUQ09YanlvS3dNS1d0d2ZRXzZ4RnRxMFRlZkFQMlNNYTAyS1lodEFwNEZPYU5fTWhtMUhSejh1?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "[TOP이슈] '쇼미더머니' 출연 40대 래퍼, '대마초 합법화 주장' 바스코=빌스택스였다…벌써 세 번째 마약 기소",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE92dnZkcldkN0d4anVxSU12cm82WnZ4b3d0alBZYTFwRlRoNmpZcmpSYm5pUUVBbDlKVnZveF9icWM3SV8tRnhFbTVyd0dwZ01CUzNjLUNQTHZ1LWhQUkxfVERVeEhONV9wQ2lWOExmS2dndw?oc=5",
+       "source": "TopStarNews"
+      },
+      {
+       "title": "'마약 투약 혐의' 40대 래퍼, 빌스택스였다…\"대마 합법화\" 주장 재조명",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53TTVsZlR3bmJLRFdlREVSZXpLSGc2WkItd3pNeTBGOG8tcDc3RzFBbFlRQmZ0V3ZZVlQ4QkhDTURSaHBJWGllYkt0cmczcThOdzVVblFpQmdaTVdBdUpsN0RqcDVFQWFBdmdNb0lja1k?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "`마약 투약 혐의` 유명 래퍼, 빌스택스였다…\"대마초는 마약 아니라고\" 경찰과 설전 재조명",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12RUJfUGZ0ZDJqTURGd1NXOEpSX1gtckd6REJpUTVPZElyLWF4Q0FON0QxZXE4Yk9sSUVvTWl6bVEwR1RMblBhU1luWGxiVkxObW5nTDBqeHZlNXFZSDZ2dG5PdEVaZw?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "'대마 투약 혐의' 40대 래퍼, 빌스택스였다…8년 만에 또 재판행",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFc0RKNF90a2ZlNWFHTXFHejMtcWNzZndwYkpwZ1BJMnpjb2lsZldQN0lQRG9uNmNPVzFtQ244WGctMVRuTkJQS1pZcmFVaEtOZlBmag?oc=5",
+       "source": "엑스포츠뉴스"
+      }
+     ]
+    },
+    {
+     "title": "군 복무 중인 강다니엘이 신곡 '블루'를 발매했다",
+     "summary": "군 복무 중인 가수 강다니엘이 21일 오후 6시 새 싱글 '블루'(Blue)를 깜짝 발매했다. 이번 신곡은 강다니엘이 입대하기 전에 직접 작사 및 작곡에 참여해 작업한 미공개 곡이다. 군 복무에 따른 이른바 '군백기'에 신곡이 공개되었다. 이번 음원은 강다니엘이 군 복무 전 남겨둔 선물 같은 곡으로 소개됐다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "'군백기' 강다니엘, 오늘(21일) 신곡 'Blue' 깜짝 발매.",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9fUTZoZkhuWDZpSkp2STVDN2VtVi10aHlWUDN5Wk5WMmlJTjAyY3dYWHZfNGVmME9NZGRkTC1od1RtUmhxTFc1aW0wT0lLN25UM0pkQzZzZWFxMU44enphc0RzSTNIdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "강다니엘, 오늘(21일) 신곡 ‘Blue’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RTndkYkthT2dMR0xzNldzaDRvRjJzcXhJcGpIMkx4RklZbjJuUmJpSnN1MnNSS3NCYUFvWGNBb29ua3hydHBYVjFIeElOTTl3SlNNdm1qbWhmd21jQ1FGYlFoeG0?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "‘군복무 中’ 강다니엘, 21일 미공개 신곡 ‘Blue’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBYQXBjT2sydFNMMVQ0YVFrcFpXZmQ3SzFkdGVCS084cENxYmt5b3lSY2lnNVFZSFllWHFpTnJNWm5ZUFRvdjdqWU9HdXJuTE81?oc=5",
+       "source": "문화일보"
+      },
+      {
+       "title": "강다니엘, 군 복무 중 깜짝 신곡…입대 전 작업한 '블루' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TYll1WFgwRlVKSnZLMDBaaEhEOWJhQVhKY3gwdnlMdExJX0NKZVg1VkdVU001SWhmRElRS2xpcHU0dXA2RV81R0xQbW41VlJHeU5yTjQ0VQ?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "‘군 복무’ 강다니엘, 21일 신곡 발매…입대 전 작업",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDWnVYYmtjNU84TUx5akJiTm9TS1duMUtLRXhtQmJzdWNSM1RnNk5BRGgyU08xU2YwMUZocVRRcjZ5YmNzdVRoUTI0NEtHTmZRMnFZ?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "가수 크러쉬가 아이유와 협업한 신곡 '삐그덕'을 발표했다",
+     "summary": "가수 크러쉬가 21일 오후 6시 신곡 '삐그덕'을 발매하며 컴백했다. '삐그덕'은 아이유와 협업하여 완성한 곡이다. 크러쉬는 이 곡에 대해 아이유가 아니었다면 세상에 나오지 못했을 노래라고 소개했다. 아울러 여러 음악적 시도와 고민 끝에 곡이 탄생했다며 일상에 오래 머무는 곡이 되기를 바란다고 전했다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "‘컴백’ 크러쉬 “아이유 아니었다면 못 나왔을 곡”",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VaFdVSWt0WGNIUG1PRlV2M1hOWEQ4UTY0cHRyRkVqaXhqT0JUcHpxbnRKNmNYYko2ckh5SXYyUWJvZUNaUDVQMHBiUzFaZ0Z1ajg2V2FWVWwwdy01b01BekFTekk?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "크러쉬, 신곡 '삐그덕' 발표…\"아이유 아니면 못 나왔을 노래\"",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCQk1TMWd3MlkxeWxZOFlkd0J6Mi1lV0tMUDJQa2F3am9Vc0FiMkdiazlUOXZPZmJqeWsxWHFkd05TUVF3MFJfSFhMS3dzMFNXTDAxVWJMZDJHR183SXhJa9IBYEFVX3lxTFBCQk1TMWd3MlkxeWxZOFlkd0J6Mi1lV0tMUDJQa2F3am9Vc0FiMkdiazlUOXZPZmJqeWsxWHFkd05TUVF3MFJfSFhMS3dzMFNXTDAxVWJMZDJHR183SXhJaw?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "크러쉬, 신곡 '삐그덕' 발표…\"아이유 아니면 못 나왔을 노래\"",
+       "url": "https://www.yna.co.kr/view/AKR20261021087100005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "크러쉬 “아이유 아니었다면 신곡 ‘삐그덕’ 세상에 못 나왔을 것” [일문일답]",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZdzFvcnV2N29QYk5xUkZFQUZSOVlrank2RlFYQ3BYZ1dVS0F6YUkzdUJDQmp5bGxzaVRKWkdvUmJmTkVzcGZfQVVONDdYcjhpdmJjQm05U1ZSOUE?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "‘삐그덕’ 으로 컴백 크러쉬 “여러 음악적 시도와 고민 끝에 탄생한 곡, 일상에 오래 머무는 곡이 되길”",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iMmoyOUtOZVdpYVhKWnZTdy1Hc3JtallKeGJXb1hfQnRaUmZydDNqcjc0Nm5hTmx5VmhNWlo4LU1nQmNNUld6OEZzVGctSU40VVcwM3lrT3Fndlp3S0lRZThXaGw0MExMQXc?oc=5",
+       "source": "전북제일신문"
+      }
+     ]
+    },
+    {
+     "title": "에이티즈, 신곡 '드립' 티저 공개 및 23일 선공개 발매",
+     "summary": "그룹 에이티즈가 신곡 '드립(Drip)'의 뮤직비디오 티저를 공개하며 컴백 예열에 나섰다. 공개된 티저 영상에는 대규모 인원의 강렬한 군무가 담겼다. 이번 곡은 이전 활동곡 '배드'의 열기를 잇는 선공개곡이다. 신곡 '드립'의 음원과 뮤직비디오는 오는 23일에 공개될 예정이다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "에이티즈, 신곡 ‘드립’ 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFeS1jQ3BMWXJQdFhVcGtTdDlSbjNxdVJuOWl1enZGakpJOEtTNUlDbFBobDk4WGYxOFF4aTJQZmxKNDJET0E2RDRDdDhjUFpqdkZXSWVfakZJSlAxelFVejZpNm0?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "에이티즈, ‘Drip’ MV 티저 공개…강렬한 군무로 컴백 예고 : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNek50RlVvSE1zLWY0QThxQ1pxNFNQVlVEMmY3U1hZUWQ1TXJfcVI5MC1EYTEtdGY2endBU0pvX19WdF9vd00yeVA3dw?oc=5",
+       "source": "재경일보"
+      },
+      {
+       "title": "에이티즈, 신곡 ‘드립’ 베일 벗는다‥강렬한 군무로 예열",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JM3AyX1lmdWxCSlJtYjJ1MEFjR3kzMHcxVEUyNnJjU3BUTnN5NXJteGxnQUhMbGx4SlpaNTh1dXBFQnFGOTgxUTBEdnhpOHpsaUx2UQ?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "에이티즈, 선공개곡 ‘Drip’으로 컴백 예열…대규모 군무 담은 MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FajN2NTJDUTFGQ2ZVYmlQY2p4UE1ZUGx6Wm9lX2pseUN3NGhOcDNSbEk1cHc4NC0xWWljd214UDlkbkZPcGdVRlpteUlNUXFsWDduSXc1bFNsQm9mV1JYUGQ0Ml92Z2I4eFJMQWZR?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      },
+      {
+       "title": "에이티즈, 선공개곡 ‘드립’ 뮤직비디오 티저 공개…강렬한 컴백 예고",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NTHZDdUlpR05ZZFpQSGRLT2tXSDVBTXA5bGIwTGNQSV9WNmxCMlRUOENqRDFrQnN1M2hUTElUOGN5TG43QXhkeEt0a2N5MWlqb2l2ZXFCZHRwdjhsYlltRWt3?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "피원하모니, 11월 6일 미니 10집 컴백 앞두고 美 방송 출연",
+     "summary": "그룹 피원하모니가 오는 11월 6일 미니 10집 '블로우 업(BLOW UP)'으로 컴백한다. 컴백에 앞서 앨범 트레일러 영상을 공개하며 본격적인 일정에 돌입했다. 피원하모니는 미국 페스티벌 헤드라이너 출격에 이어 미국 FOX11 방송 '굿데이 LA(Good Day LA)'에 출연했다. 방송에서 멤버들은 컴백을 앞두고 \"더 큰 도약을 꿈꾼다\"는 소감을 전했다.",
+     "ai": true,
+     "article_count": 14,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "피원하모니, 미니 10집 ‘BLOW UP’ 트레일러로 11월 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fV1AyMDZQVGNlUkhFNWRzVmpZaTBXWGp2NGREZmhxSnh6dWRzZFdGNE5MclpYQnR2dld2LTdYd05pcWc3SHZFOXJ0dnM0TDZ3YndkbjhDcnVKNGdpZzVkb1RVU1FMbWJqWHQ2ejNzTml0dw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "피원하모니, 11월 6일 미니 10집 ‘블로우 업’으로 컴백…트레일러 공개",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0za2ZDNU05V3pEdjhnLXJQejR1Zzl4eEhJYURCSGRqZWZSNnNmMGdjSU5uc2JSczhwUjdIalFjTWtLQlUyVVhLVDFZX3lObndHWmdJdUM1ZjVxUGs?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "‘ 11월 6일 컴백’ 피원하모니, 美 FOX11 ‘ Good Day LA ’ 출연",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96am11V09LY3dDdU84S1dFRU52cXNFVUJFRmNPWnRzeV9qTHdXNWZLRnhOVEx5RGd6SzYxM3VKSUtJM3JMeWhpbmdvVjBva3ZiNi1aSE9YMFcwWG8wVGl4TVVibHdtUTR0LTNhSUdoaw?oc=5",
+       "source": "서프라이즈뉴스"
+      },
+      {
+       "title": "‘ 11월 6일 컴백’ 피원하모니, 美 FOX11 ‘ Good Day LA ’ 출연",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82QUp4dGJjVEhfNXRIb1JVc2pNODVBX2NldkZYaXoxWU53UkFTRHZhVTU1YWwwVWwyTlYzZk40QTJEWXN3UHk5Y0VGcFVYR19MS091bmk4bE1OUWp0M2hLMHU5cWNjV3JjOXc?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "피원하모니, 美 ‘굿데이 LA’ 출격… 컴백 예열",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kRl9sV3plNVdJVFMzMnRvek1MWC1pSGxXTjFKdV9uUUVjc2dwMmgtS21oMlVEMkJlX1RqQktLcHJvT01CNGpUNG9mdVlRb2U2Qk9LSDhvU2V1NGRTeEc3Q2ZiMGs?oc=5",
+       "source": "BNT뉴스"
+      }
+     ]
+    },
+    {
+     "title": "투어스, 자유롭고 키치한 감성 담은 컴백 콘셉트 포토 공개",
+     "summary": "그룹 투어스가 컴백을 앞두고 새로운 콘셉트 포토를 공개했다. 공개된 콘셉트 포토 속 투어스는 자유롭고 키치한 감성을 선보였다. 투어스는 이번 콘셉트를 바탕으로 컴백 열기를 높이며 활동 카운트다운에 돌입했다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "자유롭고 키치한 감성…투어스, 컴백 카운트다운",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoOVVYNTlXaFdZVHhUUGFoOE9mTGNTMHp4WWlCclJ3dnlMYWllSmRMd3NQaUVMaVFLcHUxZUZrS1V1WTgwczJ1amhhdlhraE5PLVlHNg?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "투어스, 자유롭고 키치하다...컴백 열기 높이는 콘셉트 포토",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpUE1YY0Q0cUhyZnJ5eVVsQ3AwWEVrbDEtQWtCeXlsM01mRjRTcnFlbGg3TTVkYnNaLTJYbWJIOHBfLW4zM2paVk9ZMlJ3eld1U3l2T2RxdFF4b2s?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "'컴백' 투어스, 자유롭고 키치한 감성 입었다 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnlvZHB1eERJQjR0TWd2OE1DN05KYnRTOEQ3MjJsUlUwd1hld1BVd3JHZGo3NnZOWUpGZ1V2R281UUFsMEVvX0ljNXlyWFZtVmJXeUdRejVGaTdFZVFEcF9leXVPUHZOQ1gxMkJHVmJtNXNsV09jbzhld01reDBCaDh5QkxDcHM1Z1AzcWZzdElxWEZhQlA0VnlPMnlocGhrem1YV19HWdIBpwFBVV95cUxQSnlvZHB1eERJQjR0TWd2OE1DN05KYnRTOEQ3MjJsUlUwd1hld1BVd3JHZGo3NnZOWUpGZ1V2R281UUFsMEVvX0ljNXlyWFZtVmJXeUdRejVGaTdFZVFEcF9leXVPUHZOQ1gxMkJHVmJtNXNsV09jbzhld01reDBCaDh5QkxDcHM1Z1AzcWZzdElxWEZhQlA0VnlPMnlocGhrem1YV19HWQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "'컴백' 투어스, 자유롭고 키치한 감성 입었다",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Ybk80VjVDdHpEaGdTTEstVDBsQkc0djhyVUFSZFdzdkdBRnFRUGhEZmlReU4yM2c4VXc0d1p6b1k3RUltU1FYdDRKSVNHWnFrR2hqdw?oc=5",
+       "source": "OSEN"
+      }
+     ]
+    },
+    {
+     "title": "A2O LITE, 음반 발매 없이 음악방송 1위 기록",
+     "summary": "이른바 '이수만 걸그룹'으로 불리는 A2O LITE가 음반 발매 없이 음악방송 1위를 기록했다. 멤버 오아가 센터로 나선 9인조 걸그룹 A2O LITE는 가요계에 정식 데뷔했다. 이들은 라디오 방송 등에서 1위 성적에 대해 \"반응을 전혀 예상하지 못했다\"고 소감을 밝혔다. 해당 반응에 대해 써니도 뿌듯함을 표했다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "'이수만 걸그룹' A2O LITE, 음반 없이 음방 1위",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJdlNtS1AwbXJ5VXI4MHFHU1RxN25mNnViSk5UWjR6dmhFWmYzWGFoSV9kU055TE9Hc1FfQ2xhZ0ZIMkZ2N2FLdWVhd2gzZlprMnFrNUotX2JVeHE2S01KaQ?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "[포토S] A2O LITE, '이수만 걸그룹'",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ObU9ncWdvcXVPMW51Tk9hN0VXS0E5MGVzUHFPX1VfbWdocVdZXy05aHFQRXNFZ2Uzdm9rNlVHeWx1dXo1bEhmQ0hRSXJhUTQwdnBJMG9qQU9BQXdUb09mSjZmNW9zQWRPSHg1SUtLaks?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "A20 LITE 오아, '이수만 걸그룹'의 센터",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUS1pvTGRJRGtwX3hSaUtZY1U3ZFAtTEFScjZzSE0wTkUyeGpoNmZaWHZTNWIyZ0JySi0tREVZSzlRUnoxVnRqZmgwbklBblNReXNBdGpHbzlEdk1h?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "대박난 이수만 걸그룹 A2O LITE “반응 전혀 예상 못 해” 써니도 뿌듯(정오)",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oSEpnOTU3MUhJeHBISmxKT0JXWFJBT0h2VHVNS3pkMTNoQnd4SjNYRFFYamZnc25BS21CVlJHNjR2MmtIcnJVWEkwNGUyOFRVZ1BCc2ZtTlRBb0FRQUlPclJLS2FiLS0xWGMw?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "[ET포토] A2O LITE, '이수만표 걸그룹'",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5xcTlyS0ljZ1Flb3JMZkl3UlU5MW9LSXBYSlZYY1hURmlNRjR0V0VHb3J3TEk3ckY0VWV6Wk1MYjBYeFRrY0dHaWtKeC1kQQ?oc=5",
+       "source": "전자신문"
+      }
+     ]
+    },
+    {
+     "title": "넷플릭스, 예술고 K팝 걸그룹 오디션 '위 고 하이' 제작",
+     "summary": null,
+     "ai": false,
+     "article_count": 37,
+     "source_count": 31,
+     "links": [
+      {
+       "title": "넷플릭스, 예고생 걸그룹 오디션 '위 고 하이' 제작…SM C&C 협력",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKSjh0UzV4SWhGeVZSVnVTZDJocDlMdTkyd2xYM3dqTkZaNXFPSldsbzdybVlwYnBpMmxDUjZWY2lvaHcwV3B6NThRbGIweGZjcFVWQU1TbjMySkZtdnFNRkpvSHdpUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "넷플릭스, 케이팝 걸그룹 만든다…오디션 ‘위 고 하이’, 참가자 모집",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBab2RRVElCaURYZHllOUtDRFJIQzZqekQxMmkyZmlMcVhWUTRQdVdSQzNmdjA5NDhweG96aDYwaDI0Z0tUY2ZOR0phV2lYbEN1UXdsUzl6VV9HUWVGZjk3MWVUNTlBWExVSmwxWnRR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "넷플릭스, 이번엔 K팝 걸그룹 오디션…예술고 학생 ‘위 고 하이’ 모집",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OTXpiSDZVQ1htcmVSV194VXlGdHpxUDRJS1FHRFZobmZBT2gyLVpaNVMxX0YzekJ1ZEN1eFhDZlpXcks4THZoZ0oyZDlFYy1CUzZLUGU0RzE?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "넷플릭스, K팝 걸그룹 오디션 ‘위 고 하이’ 제작…SM C&C 손잡는다 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XLTNOUExQMm5weVh4SEVRUWt3dFZsQ3R1aTM0RnJnRkduZ0l2cklQNFpqc0ZLMHNRdy1WbHJYNXNSUE1RTWNkQ2E0ZTBsSFZRRUFZTm8ycDZHMjQ?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "[공식] 넷플릭스, 걸그룹 오디션 만든다…참가대상은 예술고등학교 학생",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LVW8zZGZsY1ltei1GVDhNWUpGajk3ZkwwalExbE5TckNNSU52X3JuRUNCVnU3cWhIcGp5V0thRks1VGN3amFRY1JuenlqVWdWejlxaUZZdG5PTDZtc0lvWHVRR0xaQQ?oc=5",
+       "source": "마이데일리"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 제이지, 2027 슈퍼볼 하프타임 쇼 무대에 직접 서나",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Rapper Jay-Z chooses himself as Super Bowl LXI half-time show performer",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONFBIbUw4WDNEamRNdVR4X0ZZakh4bkt3Wlc5VUZBVklPZEE4QlNkSjRKVmRkY29KelVXVEJqN090Y01MajEyNXRoMlh0c1VSLXRDZVY0MTVZZUgwTGpRU3VYMm5YR1QtaXlXQndzc2pVYUJDWDhaVVZDM19iLWQ5cjNERmR0LWRrTDdhem0tdTFRVGRSUnZzSnpXWFlpMDRYa0t4MDU2NWRxdDBhRzBr?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "Jay-Z reportedly picks himself for Super Bowl halftime show",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUExsOXRWYTlLRzNKQ2lGMjBGckpPRFBRSi1oWEVnN1hUQ1JMYjNsSU9ITUl0WjhzQlg1S1FjYkVLTUZHaTNmX2htQ2JwYWRSZTZKT0Q4M0RvVklPRkNmZThlT3FUME9FVVpPWjFKSnVIcmoyOWp2Y01VWVd1cXRvVkZEWjQxZ2FMLWRTeF9JSWRvMmltWWV6eDZoblg5UGY5dy1iQ0syZGtGNUtzQXfSAbMBQVVfeXFMTWMyUzR4emVnRjd5Mm9VQWhPTy1XekFiYnRZdnh2ZXpwUmF3MU5VNkYzQzc5SVhUVXQ1SXJUWlFpaWc1a29TSVdHa0trZ3NjTzJUR21ka0I2dk1fdldOVUNKNW9TSnhLaksxRi1FZmpmekFURnE4cVVBUWtUcHhwY01XaGk3QmotX1BlSXMtUVpLZjVmbFc0TjFjQ1kzZjBkam9ubGJHSmNmcmVZb3JZNUFHWEk?oc=5",
+       "source": "NewsNation"
+      },
+      {
+       "title": "American billionaire rapper Jay-Z reportedly picks himself for 2027 Super Bowl halftime show",
+       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZHV1dDR6SVBrdjE2bXVoT0lNaTh0RjJfRTQyU3k4bENOSkJLSWl1SExDdVctMzFjeEZWV2pwRXozdTFIeHQ0NmdUbHZuRmNKVndUeDZkM3liOExwdXNDRDR5eHZ1SXR2WDJ6Tl9UMy0wMnZTSTBudFRaZVdFOUpiMlBvT0xtbjNkTEx1TzI5WE5SRGpacmg1ZTlfd2JyaGY0Sm5tMUY0LVFKMHYybG9UbEJIcWV2UDhJZVl3djN1UTY0dkkwTTNhVFc3MkdtWTg2MkE?oc=5",
+       "source": "Billionaires.Africa"
+      }
+     ]
+    },
+    {
+     "title": "'하이브 라틴 팝' 산토스 브라보스, 11월 20일 신보 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "산토스 브라보스, 11월 20일 신보…데뷔 1주년 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE51R0dEMFBGMEV6SC1LSDh6Q1JGRHUzRnVtQ0F2aVBQeVZ4LS0xQ3Nzajdpa3RZSUhvVDBlc2ZEaGFxeHdSNWJ0MS1PZC1XdkIzRWxXemFXWVMxT29DV2puWmRHN0J3dUJodVFEdUpDanNTZw?oc=5",
+       "source": "TopStarNews"
+      },
+      {
+       "title": "산토스 브라보스, 11월 20일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03ZUdjTlBwTUNLR1hZdUliQlFXN3dPTFFwSTExcEdXaTdLOWtzeUgzNDRpVkhBX0N2d1BpR1FXUDRHZ3o5eFlfTFlPbll3MlMwYk5FSWtMVnEyQ1prRWpKdGVWeG8?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "'하이브 라틴 팝 그룹' 산토스 브라보스, 11월 20일 컴백..상승세 잇는다",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RdDEzbzZSUDAySjN1SUN2Xzc4YnlGMUdsV3NHRmU5Nk5mOFhkYWY0SHhsOUFoLUJkTHlJU21JUlFMYU80eldENkVWZTdMNEE3N19jLQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "산토스 브라보스, 11월 컴백…\"데뷔 1주년, 새 앨범 발매\"",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5IRk1VSWFOQ2VTREdVek8zck1wSF96VnAtOUR5d25hMk5mN3NaUmlKUXUtZy1SUHRfNU1teURoNkdQSjFZeVVJUktB?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "'하이브 라틴 팝 그룹' 산토스 브라보스, 11월 20일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzRGlySUVIYnBiUTNyMFFGWXprLUszT1hVXzZsdFBWMFNTampWYzdTT3ZURGFwSHpXTmpKZzlONTFOblVCYTVrQzlWOHBiZ2ljak80bkRlU3BYZFpv?oc=5",
+       "source": "뉴스핌"
+      }
+     ]
+    },
+    {
+     "title": "지드래곤 설립 저스피스재단, 힙합 축제에 군인·경찰 300명 초청",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "지드래곤 설립 저스피스재단, 강원 힙합 축제에 군인·경찰 등 300명 초청",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10X2NDRS1WeVBwYUJUeXNPR2dFY2xqOTc1R0R5R2tnVU00ZlNfTTFkTFN5bHcwaVE4Z3FrUXZ4YVRwNS1OaGNuTDUyenhya1ViUDIzTUVOWW5DUGFqMUNOcUxfVWNvb0FYUkRLcTk1N0l5QQ?oc=5",
+       "source": "TopStarNews"
+      },
+      {
+       "title": "지드래곤 설립 재단, 군인·경찰관 300명에 힙합 공연 선물",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpN0tuWVVpUzBlQ1puQko1WHVXN1E2ek9ZTm0xWGRxMExnQ3VkbUpEVWtZMDlmVFNNVG5CYmZwTk9UTnlOcnFTMVhIQXBPTkRYQ2lEeHI4S1pHWnVLWG1BdTdleDFMYk5zTmMzOTZ3?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "[게시판] GD 설립 저스피스재단, 강원 행사에 군인·경찰관 초청",
+       "url": "https://www.yna.co.kr/view/AKR20261021057700005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "지드래곤 설립 저스피스재단, 강릉 경포 힙합축제에 강원 군인·경찰 초청",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tVUhDYWRRWEpKa0JCVEFaYW5lUXlqYjBJZFlJMzc5OEJjTUpRRFpfam9QeUppOXoxS2pZQ0xSZjdRc2dKZE5pRW5OU0ZzOXg5Nkt2dFk3Yy1jSm55MFVuM2NDT1FYRDQ?oc=5",
+       "source": "강원도민일보"
+      },
+      {
+       "title": "지드래곤 설립 저스피스재단, 군인·경찰에 힙합 공연 선물",
+       "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQMWhUVXJMX0RqNkdBaUlyYnM3emUteFBJZEVCeE5rdTVEdzI5VklmYkduNGdGVkNuX2U0M1ZNOEMyT0MtbTQyd2Eya0stWE5KdGpuMHBJNmk2R20tMFRYaXFLUWhGOXdSQ21nYkpxaFNHNm5JeE1ZZDhLaHlSSzQydGNBbnY5OHQtOUR1RXBxVVlMQ1hnNmx4TjEwUlVDZEhmTTZnTTdLMUhKQ2JjczJyUW5oZXJ3MUV4ZEJqbktEZ19FSnNMaXd3anhWZXhlcDlMWjd1bm0xcWFZam1RMktxVk9udGxwZENydVFpcGVrSVg2aElrRjhTcDlVQnNlblhLcUhNSkV6UkNHZUZKakxMNENBem9UeUZTakRVM201Undhdw?oc=5",
+       "source": "데일리안"
+      }
+     ]
+    },
+    {
+     "title": "더그 둘가리안의 암 진단으로 밴드 투어 일정 대부분 취소",
+     "summary": "밴드 데이 아 거팅 어 보디 오브 워터(They Are Gutting a Body of Water)의 기타리스트 더그 둘가리안(Doug Dulgarian)이 암 진단을 받았다. 이에 따라 밴드는 예정되어 있던 다가오는 투어 일정을 취소했다. 다만 뉴욕과 필라델피아에서 열리는 12월 3개 공연 일정은 현재 유지하기로 결정했다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "They Are Gutting A Body Of Water’s Doug Dulgarian Reveals Cancer Diagnosis, Cancels Tour",
+       "url": "https://stereogum.com/2515126/they-are-gutting-a-body-of-waters-doug-dulgarian-reveals-cancer-diagnosis-cancels-tour/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "They Are Gutting a Body of Water’s Doug Dulgarian Diagnosed With Cancer",
+       "url": "https://pitchfork.com/story/they-are-gutting-a-body-of-waters-doug-dulgarian-diagnosed-with-cancer/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "They Are Gutting a Body of Water’s Doug Dulgarian Reveals Cancer Diagnosis",
+       "url": "https://consequence.net/2026/10/they-are-gutting-a-body-of-water-doug-dulgarian-cancer/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Shoegaze Guitarist Reveals Cancer Diagnosis, Band Cancels Upcoming Tour Dates",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdk5QZFRYbzdOV0huU0h2SjRqQjM2blIzOUtfN2V4UUowVVFsZ3VYSVpTMWs1SFVRdG1EcmcySExBRm8wOS1mRkwyX2cwb2J1ak0tbzlGVHRidW9YWTVtY1Q2b0RQa2otelVnVVBERFZacnpMajVSRS1WMDdZVGJZcllUWGlIVVNIbWZtMVVhNy01SV9QVzB3UkJlSXdaaVRxQVdjdkJ1Y1Fkbk8tUFE?oc=5",
+       "source": "VICE"
+      }
+     ]
+    },
+    {
+     "title": "뮤지션 소여 힐, 치명적 버스 충돌 사고로 남은 미국 투어 연기",
+     "summary": "노스웨스트 아칸소(NWA)를 기반으로 활동하는 뮤지션 소여 힐(Sawyer Hill)이 남은 미국 콘서트 일정을 연기했다. 이번 연기는 치명적인 투어 버스 충돌 사고 이후 결정되었다. 이에 따라 페이엣빌(Fayetteville) 공연을 비롯한 투어 일정들이 취소 및 연기되었다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "NWA-based musician Sawyer Hill cancels Fayetteville show, other tour dates after bus crash",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdXlhZDdvNVhtS2xVZHRiY0pMWFNoVGt0TmFKaVdqYlNTRHJFTFV1cFM4a1p0LWF5MEVOM2k2ak1KU2ZiNWd6OFBXV2l4SWdOQ2RiUzdSTU9oeXBkZXFFVzdoTHVIT20xdHBLSksyQWN0TGFmUGFUaldwZGYtVklIcDZCU2pBX0lWSS1aVnFGem5aT1Y0SHFvN0lEUElkbWwwUjI5RC1XQ3RmNXplZS1XYlpEb2lONnJZbVRhUzRhZmdnTW4yb0VV0gHMAUFVX3lxTE5LcnVhMllTeEE0aEp3c2ZESmxDR3NPcG9wR1dDOEdNZ0ZhMlJBNmc1bzNDWFUxcnF3RTI1ZkpyUzNiYkRDdHZMUEVId3FEbE13UGRyZ1AwdTM2WmNCbkFfM2RFdEYyZ2E2TjRlYVh1Yjg1T2pIR3ZwemJVVWxicFV6bjBoaERwNDFWOFd5WlF6b3JvalYtY2Q3dWhzbUcxcVlvSWphUnhRVm5qbDY1ZGhmNnRka0ltSTl4RjRmVXdhZTFpYzF4dDZIMnRvaw?oc=5",
+       "source": "KNWA FOX24"
+      },
+      {
+       "title": "Northwest Arkansas-based musician cancels Fayetteville date after bus crash",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT2tLMWhhUUt1a3ZSWEFUWVJmSTJ4VEVBS3g0dDVfSWNZUkttUDRaV1BsYk91ZHhaZkpKQkhscGYxYUQxWmJWUnZKeXVsVzlKVXhyVFEwTGdKeERLUV9vZHRLRDlWSzNRN192dWkwNWJtMVFDRTVKZFBfUUxQcFNYX05fN3RQc0VXeXQ2WWk4bW8tSVhxMzJLT19oQVZnOFhVMzA2bkc4QV9EZTA?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Sawyer Hill postpones remaining US concerts after fatal tour bus crash",
+       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYVVGT1dIX1B4aWxkbGxvMlA5YlBjaEVWX3h4aFQ0OXJ3MjVldXBrYjRUSi1xeXAyTV95LVRQS212bmZaOFlxMUJ1LWNsR05ydmxXdjUtXzZGTjREbDRHSEVreDVSS3Z6UWlVTmM0OVRUS2NrcTlKZzUtVmdCczlMWG1LTmFscGVIVlhYTndYeURiMnNVTHdEMzE4aFF1ZEk1UWlPOGtvNkxkMEFMMm5zamdOMTYyRE9HQkF5OVpsYVZNcHdKMnRlSzAyUnBDeldGcmpMSG5xblVvQQ?oc=5",
+       "source": "WCNC"
+      },
+      {
+       "title": "Sawyer Hill postpones remaining US concerts after fatal tour bus crash",
+       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYkFFV3ZFUVd5UkI2UzZncklOcERLWTB5Tm4walpjZXZrVUhHQmJwaHl4dExfR25sTHpJNkhiNVI4V0VFNkRVVDBkcWE1UXgzenlta25LTnVYU29pOXY2QS16QkhHOEd6MjJfZUJERkJpSV9GMnRRQ2s3Z2h0U1BFdW1QZ1k4RkxiZkpYV0RQSGlzVVZUaDVSSEFnc1FUZkJ3MjdzT2dvakt2SUV0UE4xOWxKN3pwMmstQ2U2NENwYl9RR2NGMVoydzRiSXNZRUhHYnhQN2UwSTk0QQ?oc=5",
+       "source": "cbs8.com"
+      }
+     ]
+    },
+    {
+     "title": "가수 이제이, 음악 프로듀서 샘 킴과 서울에서 결혼",
+     "summary": "‘케이팝 데몬 헌터스(KPop Demon Hunters)’의 보컬리스트이자 싱어송라이터인 이제이(EJAE)가 음악 프로듀서 샘 킴(Sam Kim, Samuel Kim)과 서울에서 결혼했다. 이제이는 해당 작품에서 루미(Rumi) 역의 목소리를 맡은 바 있다. 두 사람은 오랜 연인 관계를 이어오다 이번에 화려한 결혼식을 올렸다.",
+     "ai": true,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "'KPop Demon Hunters' Vocalist EJAE Marries Longtime Partner Sam Kim",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVUdyeXNfS1VMNDhDZEVzY1FjYWhBaVNnN2ROcENVc3NBMjNzRjdVdFF5RDZrNkNkaWNBNEZuODNNd214THZSazlmb1pNWWsxQk1iYlQwd2UzTThnU1lXQzZmLVUtX1JBMFJmYm5jVHo3c1c3Q3BvSTItTGFEV25KYVc2NHJDMDJBY0gtS2lCLU9XLWVaLTNQNg?oc=5",
+       "source": "Complex"
+      },
+      {
+       "title": "KPop Demon Hunters singer Ejae now married to longtime partner Sam Kim",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQXByOVI2d3BwX0lpX01hVEFFdkxsMXNKdlM3WDJwZncxdHd3d1Q0akJDWXA1dmVEVDlDT1JkMlFKWFJIY3VSZGt3dEQyLVR0cF96ejkwelVpZUFKV094SHNZZGtVWHB5c1Zna09fT0t2MnVWa0ktODJmRGx1SEREc0dlVHJaM0oxRWlhLVlhOHNwT1RXWDV5R09lNWFFakVRQVVWS2F0OWRRdzFpMWNkNlZR?oc=5",
+       "source": "PEP.ph"
+      },
+      {
+       "title": "‘KPop Demon Hunters’ star Ejae marries music producer Samuel Kim",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS19TUVJHdkVrTUZwbHpJTWhVTEtqRXBRWTFLWGNhQnNWNE82WFdwcDlSUU5QMzNyZHZrd3IxMUtBNzdJaGx3ekZuRGNnZUt1dllZbFpxREw5TGxFRnhpbkpTUkxmSVJxYjNPNXJhRDBZQUE0dVUwNjktM1BFLWh3SkZmbzB5eGtoYUFhRTgxa2JxdmMyTlhhZk9YQTcxXzJkcjc3REZsSdIBrAFBVV95cUxNV3hmOFR5QWpwWW5JMVR0YjlWWjl4UU5FRHp4RjZaa0dEdUc5V0pYS0lvaWxKbUxqdC1JczFIdEIyZTQ3TGlfM0NacGNjaG5IVWhnZFBxYklTSzRqLTJ3MkV4Vl92NWJOWnZBRG02bHZkQTNsa2E2dC1oc2ZBVEgwdUtxODR1Rm9PSTNCZXR5TFdQR2ZoRUgwNFhuaUtFc2ZicnhVZ2tRNXUxZld3?oc=5",
+       "source": "Inquirer.net"
+      },
+      {
+       "title": "‘K-pop Demon Hunters’ star EJAE weds Samuel Kim in a stunning wedding (PICS)",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPajd3WXFkVS1jdHN0bExBWk9JcXk3YWJpZHNFOTJvQjFzSEpDLXZGNVFxMHdYNXVSekhJREI3UWg2WGx4S3N5Yzl0Vi13N2dOWHFLX3NXRFBSb0NtQm1mNVplMjUxcmh6LXQyRHJ3MllhcVdkaTY2ejR5Uzc2QmMtdFdZMzgzTXhVNEwzWDBzYkpqS0JHeUd2NVllSUdCMXBJVDFUQXZYNHZzVXA2RENJMzJ0YnFuS1dhX2M5YnljYURFa2g4b1p3?oc=5",
+       "source": "The Citizen"
+      },
+      {
+       "title": "Singer-songwriter Ejae, voice of Rumi in ‘KPop Demon Hunters,’ marries producer Sam Kim",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWUZpQVlEeWdBXzlLcU0yOWczc3BKcl9BVDZBSmg0empxc2J6ZWxfZGh6bDN1elBNeUh0V3NuVC04Um1nTVhLTkg0Qmwyd21lNTVHRzNaRjNubTZaZTRMUEhTLS1qam1KR3lQRkk4dnNDTUdLdFBmOHFpNXduakM5aFREdmVVYUk?oc=5",
+       "source": "Yahoo"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
