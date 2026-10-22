@@ -1,0 +1,499 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-22T23:31:58.019823+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 9,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1078,
+   "issues": [
+    {
+     "title": "컨트리 명예의 전당 헌액 가수 존 앤더슨, 향년 71세로 별세",
+     "summary": "컨트리 음악 가수 존 앤더슨(John Anderson)이 향년 71세로 세상을 떠났다. 고인은 컨트리 음악 명예의 전당(Country Music Hall of Fame)에 헌액된 인물이다. 대표곡으로는 '세미놀 윈드(Seminole Wind)' 등이 꼽힌다. 유족 측은 깊은 슬픔에 빠져 있다는 입장을 전하며 고인을 애도했다.",
+     "ai": true,
+     "article_count": 38,
+     "source_count": 36,
+     "links": [
+      {
+       "title": "Country singer John Anderson dies at 71",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb25lLTIzejhDZmdyb0NKclZYZWpVc2FyQllMYVFfanRWSVdyWlkwWTNoRTF3RlRpeC1hMk9wNFRwWVlNRWg4ajh1TzZGaHhzR1Z3NzJRMlZFLTlCQ2lTVjJYYTNVM2lkd2tUM1U3NFRDdG44bTlFaU9mZk4tdEJuUVNaNVl6RWFYV01pckF5RVBQTzE5VWgxRWpJSk9ab2xT?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Country Singer John Anderson dies at 71",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBIMmwxbEdzWElGdGhrWGZ4UWxFTVIyeHNyYWlPeVg5b2xuLU4xTWxNMlUyZC1ySlYxWXJ2TmZpMUJCQjVHSXJwV0x5QV9JTy10QUlhZE96cDBuSGNpNWZHTW16SDA5MDhtOVpUaFI4MzNVVGl0NWhnSg?oc=5",
+       "source": "KALB | News Channel 5"
+      },
+      {
+       "title": "John Anderson, Country Music Hall of Famer With Unmistakable Voice, Dead at 71",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPM2FjTDVyUEVKcE41b1Y0Tm10NXhUWlRWWXZUdlZINFN1b0t1Ti11bkpwMzJyazZiTkhGbHhuRmkyZHJGM2pUQmdxY3NuNXA0bjVtb1JJYWlycW5fZnhUMUJtcHl0V09ockg4aTFrU2REWURNN3VUeFJnMENJVGpLcW5hcHJ0bzdhNnRkaQ?oc=5",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Country Music Hall of Famer John Anderson Dead at 71",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzTXJJZVJPYkVUWEtsaFpCb3VnRXlfcXc5SmJzT0w4dGMtZTdXcFQyUlNNbTZLZFNfMXRlamlnRjFxRzVEeTZFTWJZdDdqYjBZaWUxTUY4M0psZGRwTHlUNHMzWnhDS0dMdHhNSGdR?oc=5",
+       "source": "Taste of Country"
+      },
+      {
+       "title": "Country Music Hall of Famer John Anderson dies at 71",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSnpGanJRcWxqSk41c2c1b0cxOFJEb2M0WlBpZ2NaVF9HdFpCREVMOTk0eTRieXllbmVpMldFUUQ4SGo0NzBFX3VkY2k2WVl5ZFM3RlctZFQ4Smo2MFFieEFieXdFZGlrMERqc0ZUY3BoM1NyZTZNTEsySnVCMnpHV2xsTzhCdw?oc=5",
+       "source": "WSMV"
+      }
+     ]
+    },
+    {
+     "title": "살인 혐의로 유죄 판결받은 플로리다 래퍼, 판사에게 사형 선고 요청",
+     "summary": "살인 혐의로 유죄 판결을 받은 플로리다 출신 래퍼가 판사에게 직접 사형을 선고해 달라고 요청했다. 해당 래퍼는 법원에서 살인 혐의에 대해 유죄 평결을 받은 상태다. 이후 그는 재판 과정에서 자신에게 사형 선고를 내려줄 것을 담당 판사에게 요구했다.",
+     "ai": true,
+     "article_count": 75,
+     "source_count": 75,
+     "links": [
+      {
+       "title": "Florida rapper convicted of murder asks judge for death sentence",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbmZ0anVCcG5oVlBaNVVZV1ktX2g0cTdMNEZFZGJ0ZXBXc0E0amlHZWYzMERFYU03MEtBZ1JaN1ZrdThwTmFQZEpGa1VLQWFmVkV3NW56TUxsS0hJb2JEcFhSdUlCeThIOElmQ1h2UERJWEphSno2d05XdGhCa3BpeGdZMmFHX0Z5ajhXd1hVWDE0NV85UDFPMEpyTFg?oc=5",
+       "source": "KSLA"
+      },
+      {
+       "title": "Florida rapper convicted of murder asks judge for death sentence",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcF9IVEFocDhHZDBTdG9hbFlGNXp5ODlTUGxvOUtjeThDd1ZlR2ZLYjg4aUthYkxSMTVIdkpyZ3BkQ2ZiQndmRGpHSkdsT3FtSmZEdkNPUnMycEJnVkpWczJQMDJVdXhTcTNEcEZHNmZFUEc4U3F0TWtJN1lUTGhrNEdBU2xKdmhhdGtDUU9NWGV4MVVITUl6RWFFNF8?oc=5",
+       "source": "WJHG"
+      },
+      {
+       "title": "Florida rapper convicted of murder asks judge for death sentence",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMVNXOGhoeFM3Wk9YY1h5eEptVUZfV2JMSmcyb0N4UEF2ZHpJalZ1TXJGN0hqMi1TWUZXdmdvN1E0WXd5cDNpRXg3ME10aXNWdHpKN0ZWbVZLYjRUMDNOTl8yTzJoZUpGZ1lmeFNEdTRzcnFvNHVCQ3Y1bWo2elVRWlMxTFhrSUREajdmYjRwbWtPZW5SVTlBalZ0SDNOX0lWckU2YU5B?oc=5",
+       "source": "FOX Carolina News"
+      },
+      {
+       "title": "Florida rapper convicted of murder asks judge for death sentence",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS3pDR1BpQ3dHa3BWSkVzOFUyQzNTU3VYRHV0cnZxMEVFeVRtand2NjJKZVlBQjBjYU10TFpoUzB6LTNxVWt5TjZ6bDdtWjB5Mlc3S2t3X2RHaFkzUEZzdUNyTDN0LXp4dER3LXR3akk2Z2NuTURiYUE0VWlNSlhMMThLdzd0X1RDME9kOUZFb00yNUN2VVlOR3ppZG8?oc=5",
+       "source": "WAFB"
+      },
+      {
+       "title": "Florida rapper convicted of murder asks judge for death sentence",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa3Z0ME5lQU5ZcHRRQV9uaVpPR2ROV3l1QmZxSVlfOWJRVGF3dHRmdEg2T2RFSzRGYXlUX2J4UWVYNTRWMkRwU3lORk1sSmdEWFgxOHF3T2hVeWdPeXc2aFNGRXNMR1QwMkdHQkVUZ3FmOWxEVnlrVHQ0V1FMRFJIZmpBSEJaZ1Z4OWQ0bmdmeUp1Z0lqSWFEYW5vd3k0WUVGUHNNaV93?oc=5",
+       "source": "Action News 5"
+      }
+     ]
+    },
+    {
+     "title": "음저협, 유튜브 쇼츠 음원 어뷰징 의혹에 저작권료 240억원 지급 보류",
+     "summary": "한국음악저작권협회가 유튜브 쇼츠 음원 어뷰징 의혹에 대응해 저작권료 240억 원의 지급을 보류했다. 음저협에 따르면 단 4명의 권리자가 가져간 저작권료가 300억 원을 넘는 것으로 파악됐다. 음저협은 수백억 원대의 부당 이득 가능성을 제기하며 관련 사안에 대한 추가 검증을 요구했다. 유튜브 내 음원 부정 취득 및 어뷰징 논란이 확산되면서 저작권료 일부에 대한 지급 보류 조치가 취해졌다.",
+     "ai": true,
+     "article_count": 13,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "유튜브 음원 어뷰징 의혹 확산…권리자 4명 저작권료 300억 원 넘어",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1randCclhvNThqY050NG01aDNWbDlrb0FDaDVPZlgxVG4yR1cwc3NPYmlUb3huT1pDMXA5cnhHc0J5SG40QzlMb2JkOUg2UVJQV3JqTnRDZkNpd2hZaGk2OWJNQnNlSUZTYTNZ?oc=5",
+       "source": "서울뉴스통신"
+      },
+      {
+       "title": "유튜브 음원 어뷰징 의혹…음저협 \"단 4명 저작권료가 300억원\"",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82VF9QUlVITzd5NXE5Y3I4cDc0VUZuekpiaU1CQkJQa3dWQXpCQXZoeFZQNU9lOUR5Wnk4LVNtQTFBTER3M2NpVUMzSGcySG9CRUFrdGw0REZKZjDSAWBBVV95cUxOWGZDd0RsZ1RzOUFkWUlFcUxhOUxWY0dMVENPOHB3aEVOZmF0MFlFbXlzSElIenY0dHllMGoxWjBrU0ZkMXdObzZTdXo2b0lnMllxQUdwV2hpRS1hUWs5bFk?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "유튜브 쇼츠 음원 어뷰징 의혹…음저협, 저작권료 240억원 지급 보류",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWUFlwX0prcExBN0E3OFltQ096VlE2cnpfbWZGb25YQWwwdmc3VXd2bC1FNWVqYk9nMEEzQVFTanFjd0hlQnR5YnZBZUJISVFzbjVHYS13MHLSAVhBVV95cUxQVlBZcF9Ka3BMQTdBNzhZbUNPelZRNnJ6X21mRm9uWEFsMHZnN1V3dmwtRTVlamJPZzBBM0FRU2pxY3dIZUJ0eWJ2QWVCSElRc241R2EtdzBy?oc=5",
+       "source": "아주경제"
+      },
+      {
+       "title": "유튜브 쇼츠 음원 어뷰징 의혹···음저협 “4명 저작권료가 300억원”",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zU2RqX2NRTFR0TjhiNGZUUnFlNVA3VzAwRHpYandJQXFmNXpRcEhScXlkVmFzX1BENDlWS0NEX1o0Sy1PbVU2U3U2Uk9BWXJOUXBfTjIxYW5uZ9IBX0FVX3lxTFA5STNCVFZMc0pEeWdzbEFFcmxyTU5rR2dlRy1fNzEtSXpwc2c4T0NaTHE0SERya01kWVVUc3UyWEhOdHdELVVZZzhWRGxLb1J6TGVKdEhRdVRHN1ZDSVJv?oc=5",
+       "source": "경향신문"
+      },
+      {
+       "title": "유튜브 음원 어뷰징 의혹…음저협, 수백억 부당 이득 가능성에 지급 보류",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0teG02ZmFXa0hQWXlnUFlqOWczNmo2Q1hESkhhZU9FbWFRRkdOWWpwWGJ3ZXVBQ3psZDlEX3ZUNjA3UHpVRzlsY282WFNDSzhPZWNzbmxUSHpjVzVFN196dXBIVTNRR28?oc=5",
+       "source": "연합뉴스TV"
+      }
+     ]
+    },
+    {
+     "title": "디 오프스프링 기타리스트 누들스, 심각한 건강 문제로 공연 활동 중단",
+     "summary": "밴드 디 오프스프링(The Offspring)의 기타리스트 누들스(Noodles)가 건강 문제로 라이브 공연 활동을 중단한다. 누들스는 갑작스럽고 꽤 심각한 건강 문제가 발생해 공연에서 물러나게 되었다고 밝혔다. 그는 자신이 없는 동안에도 밴드가 계속해서 공연을 이어갈 것이라고 전했다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "The Offspring’s Noodles Steps Away from Live Shows Due to “Fairly Serious Health Issue”",
+       "url": "https://consequence.net/2026/10/the-offspring-noodles-serious-health-issue/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Beloved rock musician stepping away due to ‘sudden and fairly serious health issue’",
+       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTlFQUFVCYV9YN05Pbk9UV0ZoS2NVX192V21uWFhIVTk1UVBveHF4eGRxT1ZtUGMyTjIyaTlBWTIxNmpuZGd4Rl9ta0Z0Tmk2NWZTQTVRUEhlelYwaFl1eDFvYmxPOHFWM01QUUVpYmhpNWtVQV9aUmlPb3kwMDZJMEV6d2F0c1pyQlk2RmxHSkhXaUF1NmQtTjFxRndVdG9UZEZweEhETkprNVFCMWRXSUpYOVhLcy0zeHN0dnVRTEFRVEFtMXJoOGRSczdfd9IB4gFBVV95cUxQRnZ3ZmRfR1B3cGh2NXZwN2VscE9yYkplOXBZeWZrLWtneVN5STlFZmEwRWNKYkN2Y3M0ZWdQS0V0c3NwdFJGSndXV1hFM29pMGYxVEk0Z056Nk1KUFVvM1ZscXNWTjctY0F4dkVkTWI1RDgxWVlzUUUzRW5HaTRpYVp4SzlhOEU2SEd5bzFhRnE1UmRpZmNJTFRBbzItN05hem5WX2xfb0I0UmVhMVNhaHdKSzUzX19FZV9qYlJHMW5pd3hOeTVIUkc1ODJ2bVNQcUhZUlVoRkZjMHo4M003Uzln?oc=5",
+       "source": "PennLive.com"
+      },
+      {
+       "title": "The Offspring’s guitarist stepping away from shows due to ‘serious health issue’",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQclJTbEw2M1BqM1lrZFVaTGxyRFRXRVhOb283SWpvZy1IQWNyQnNybGZBQURGYlFEQURvMXhpSTNXMHZSZEZuNEtZcDJIZUh1Y3NXU1ZwNDVJZ1hGM3lNYmZsbFNneFI5eUZ0cEQzZGdFZlhqSnphRlBGblVRMHkxMUdDQ05haHhMSmhHdE9XNFJDN0w0cW11dUFnTEEwdHBncjM3X3ZkTlDSAa4BQVVfeXFMUEVDNEkybjctOVJvX2gweUhZUDd1anV2NzR2VmdEQlRPbmI5T3E4WXhXSExSalMtV0YzY25leG9tWk5SbS1YQnlYRjlCeXlqb2pGX2pNM3AtSXhqbzRDd3JhRXlQQUd2OTdyTDFicmMtaDBFVXpJUHFrZ1M5RUZFUTJQa0tjdWtQUVlKU3BYbkZzU1FEMzVhMDBWNThDSmh1V1VBVTllUlhLWXdFVzJR?oc=5",
+       "source": "KTLA"
+      },
+      {
+       "title": "The Offspring's Guitarist Steps Away Due To 'Serious Health Issue,' Band Says",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWplN0JibHN2VmloWV9WWnNzc1RrMnR5SEF6b2IyZUoza0xuczAxODU5ZUJoSF9tTVRpenlXNXJYRmJSRmlENmIxNjI5VmlpRlZtS3R5SVItSi15UTNQM213VURiaW5kZldZckEyNWZjREVjaUV0UzY0bVlCakNmRVF4OHpNLUl0dW10VFQtZ3BGNmVDa1FiRlFWNFlrRmJlZTZWamxDeXk5REc0VFHSAcgBQVVfeXFMUERoSE84eXIxSmN4QzJrMGh5aEJNVWFxWkdnQmI4dE5QOFItd2k3bWdvcnZFZE9VTlFweFVhQlR4dnlfNnpOaVhtNGhCZGp3ZFZVa3k0RmRadjBVNEtUNVFCdjE4aGl3X08tdEJKckxRMXZRdEhvWUFBelF6Zm1JY3o0c21GY2w2dUw4b3NKN0JNUlNOQUhCMExpbmJTZ2ZuckpSdXk5Ml9rSmlzRWlGbGRnV0h2VzN2TE9nSUUyYW45dDVLLXVyWlA?oc=5",
+       "source": "Patch"
+      }
+     ]
+    },
+    {
+     "title": "빅히트 뮤직, 컴백 앞둔 투바투 관련 악성 루머에 법적 대응",
+     "summary": "빅히트 뮤직이 컴백을 앞둔 그룹 투모로우바이투게더(투바투)를 향한 악성 루머와 게시물에 강경 대응하겠다고 밝혔다. 소속사 측은 컴백을 앞두고 멤버 수빈에 대한 허위사실 유포 등 음해성 악성 루머와 게시물이 심각한 수준에 이르렀다고 전했다. 이에 따라 어떠한 선처나 합의 없이 법적 조치를 취할 방침이다. 투모로우바이투게더는 현재 컴백을 앞두고 있다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "빅히트 뮤직, 투바투 컴백 앞두고 악성 루머 강경 대응...“선처·합의無, 법적 조치” [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzNWVZUFlwQ3hJd3cxTmUyam5VMEk4LTctNUZ5c1JyVjF1S2RLU0l6RF9ybFFEb0xtNTFYeE52SERDSDBnNVN5OVNjNVJCdEVCRXR4LTh0bXMxYmc?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "투바투 수빈, 컴백 앞두고 허위사실 유포 피해 \"어떠한 선처나 합의 없이 법적 조치\" - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNU44aUFKVXZRMTFCOW5sUTN1Zkp3TlJzRGlQSjNOU3ByQkdoM1FfY2tQbmU0SnJfY2UybTNPQ05DUUY3SV9QWTZWWHpfcDVBZDFsb01LZkR6NGVCb3hsYWJkSndFekRPTHM4ZGE4b3dROUdvN2dFMDNzUGh6dDY2cGFEaXJmMGRyaWs4RGZFNUIzTk4xUmNDM1liR3lhVC1URXpGUnRoQdIBpwFBVV95cUxQNU44aUFKVXZRMTFCOW5sUTN1Zkp3TlJzRGlQSjNOU3ByQkdoM1FfY2tQbmU0SnJfY2UybTNPQ05DUUY3SV9QWTZWWHpfcDVBZDFsb01LZkR6NGVCb3hsYWJkSndFekRPTHM4ZGE4b3dROUdvN2dFMDNzUGh6dDY2cGFEaXJmMGRyaWs4RGZFNUIzTk4xUmNDM1liR3lhVC1URXpGUnRoQQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "\"컴백 앞두고 음해성 루머 심각\"…빅히트 뮤직, 투바투 악성 게시물 법적 대응",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpRm1HWFh3WllNWEVMTHE5SnhxM0VFUEk4UHFxd2swVkgzb1FMN0RhT29pbzdxbzlJNFdtSVZySTVnQm42WDhwTjlYRVB1RlV5bGJ0NFk5UkFjQlhVczZ5OUtVVkZ1dw?oc=5",
+       "source": "news.sbs.co.kr"
+      },
+      {
+       "title": "컴백 코앞…투바투, 악성 루머에 칼 빼들었다 “강경 대응”",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QT1VVNjZBNEEyQlJScmpqQjRPWlNKU1hmckVmc2x4YmVqVGRtUW5yX2pjczdfUW9yYVpraWY1akEyZ1hCVmJ2TEdhTXdJckFpckJNMzhiV3Y?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "투바투, 컴백 앞두고 악성 루머 강경 대응…\"선처·합의 없어\"",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE02UzdCd1FSZVpPbzZkaU9fbWtudjc3anpEMFFlM0w2SmlkU2xqTFJKeENvT3B1bUg0SGFGbXNnaEdZc3o1WXZqNWpCa0FwcHpiYnE4Z0Nqa9IBV0FVX3lxTE02UzdCd1FSZVpPbzZkaU9fbWtudjc3anpEMFFlM0w2SmlkU2xqTFJKeENvT3B1bUg0SGFGbXNnaEdZc3o1WXZqNWpCa0FwcHpiYnE4Z0Nqaw?oc=5",
+       "source": "더팩트"
+      }
+     ]
+    },
+    {
+     "title": "BTS 정국, 아시아 솔로 최초 유튜브 1억 뷰 오디오 영상 8개 달성",
+     "summary": "방탄소년단(BTS) 정국이 유튜브에서 1억 뷰를 넘긴 오디오 영상을 8개 달성했다. 이는 아시아 솔로 가수 최초의 기록이다. 정국은 유튜브 오디오 영상 억대 조회수 부문에서 신기록을 세우며 성과를 냈다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "방탄소년단 정국, 유튜브 1억뷰 오디오 8곡…아시아 솔로 가수 최초",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yMTFHX2l3UXhsMF9zQmN5azRqbktNTXBVaHAxRnFSbzlZeFBYLUNXWlB5bVh4Nk92Ym1pX0NiMlhJdEpmT0dfSXozRmVsdmdsRXdHZ0tULU1tbTNWY2MxOUpsdTJYaGN6Ym94dUoxVk8xdw?oc=5",
+       "source": "TopStarNews"
+      },
+      {
+       "title": "방탄소년단 정국, 유튜브 오디오 영상 억대 조회수 8개 달성..亞 솔로 가수 최초",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XdDVfVUxTd0o2cDhRU2FTQ3B6VjkyMDdSQ1RUM3d0REd5SnRNM2ltSWtnTVc3eldKWGFDMmVFNllGcUNuNWRPa3BBZVZfTllaZDM0UW9SOENVS1VCdUpjUG51MXczbkFXSEljSzdwUGtGSXBI?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "BTS 정국, 또 아시아 솔로 가수 최초‥유튜브 억대 조회수 오디오 영상만 8개",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTQksxQ1QzX2RUV2ZEWjlka1pxV083REY0Q3VmZ1I4aGYzUDBLeUowNFpZWHdrdGlLMV82ZlN1YmhqQlpUNmY0T2pKSm52OE1IVHo4Y1IxYmFLSzhPQkJXdFJPTFZiNVJzMWR4ck9aOGpkeERSSEZXVDc3VQ?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "NCT DREAM, 정규 6집 스케줄 포스터 공개하며 11월 9일 컴백 예고",
+     "summary": "그룹 NCT DREAM(NCT 드림)이 정규 6집 컴백을 앞두고 스케줄 포스터를 공개했다. 이들은 데뷔 10주년을 맞아 정규 6집 앨범을 선보인다. NCT DREAM은 'Boogie Woogie'로 오는 11월 9일 컴백할 예정이다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "NCT DREAM, 데뷔 10주년 정규 6집 예고…스케줄 포스터로 컴백 시동",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GLUlFZ0lMU2I0Rm9KNWVycWRuS3BXODVZNWlmYzl1Uk4yMHdBUUJaUjVxUVBGeWliQ1lsMFdJdnB5WkNiM3hQbXhaVEgwdktwaVM5UHg5ei16S3dNTmpubHZ5dEpPSVlURkstckJJSUh6QQ?oc=5",
+       "source": "TopStarNews"
+      },
+      {
+       "title": "NCT DREAM, 10주년 정규 6집 예열…‘Boogie Woogie’ 11월 9일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BRHYzOU5sMHpwLWN1VXlZZnlhYXF3QkxpTHJUbGkwWkNQU18tdGRRcUpwXzJQaGthaDNHal8tWlp3QzNzaU1oZEFjSllWOXZ4VVVJZzFHOWNqaEtNa3E2LV9WYWxLUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "NCT DREAM, 정규 6집 컴백 예열..스케줄 포스터 공개 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDNRVTl6VnpNTGN3X1JxM21DZGU0c2VhWEp3WXNMamV3T2lxRlJvZ2NNT3FHSGpEbnpHTHJGYUtMVkxPXzNRdDhZSlprQ2kwaTJVb3NTSWtnRVRPbzJBQkhrMU1FaHlZei13Nl9LTzJMWS1PSEZjLUNjM3UtNDRlcHJsYy1vSmtVN0Z1Zl85cEY1cDDSAacBQVVfeXFMTm5tV2lEY2Y4R0E2SFdSbzY0YVNEUmpsWmVrWUR6cUtxZmxKaVFFTnZWcDVZTWU5Rl9vZkRFLXlnR24xVmhLQ0E5VkZEWGpyR19EVExFc2tBN1JhWEZnTXFQOUZuVTVMNnFaS0J5RmNtd2QyNDdVakxlWnZWdTY2WnFSMEtka3NuSXV4Zmw0cWxtUk8wVUUxNHRhQy14eVZ1MHB1VkZQZkE?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "‘11월 9일 컴백’ NCT 드림, 정규 6집 스케줄 포스터 공개..기대감 ‘UP’",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBCUlh3LU9XNDE2Zml1WHh5bm5OcE5vQkhjcC02OE1FMTh4ZDM2RGxsUzJrSmQ2QTVMY28wc1U3NTVqZw?oc=5",
+       "source": "브레이크뉴스"
+      }
+     ]
+    },
+    {
+     "title": "이수만 제작 보이그룹 A2O SOUL, 11월 9일 첫 앨범 발매",
+     "summary": "이수만 키 프로듀서가 선보이는 보이그룹 A2O SOUL(에이투오 소울)이 오는 11월 9일 정식 데뷔 앨범을 발매한다. A2O SOUL은 15인조 보이그룹으로, 첫 앨범 명은 'SUPERSTAR'(슈퍼스타)이다. 이번 앨범은 더블 타이틀곡으로 구성된다. 그룹은 11월 9일 앨범을 발표하고 본격적인 활동을 시작할 예정이다.",
+     "ai": true,
+     "article_count": 25,
+     "source_count": 24,
+     "links": [
+      {
+       "title": "'이수만 보이그룹' A2O 소울, 11월 9일 정식 데뷔 앨범 발매…더블 타이틀곡",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42RTR1V1Vyb010N3A5akpjN1hqZEFlX1JKcXFNNjBzVFJXSklYNVlBVGlJTEVmc21NS185VkJWSGFOcjhNREU2V1RzZkN5S0V1WkJkNDBLSER6Y09lSHdyc01waWhYQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "[공식]'이수만 보이그룹' A2O SOUL 11월 9일 '슈퍼스타' 활동 본격화",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xbUlEMzg1WEVjaFhRemhyXzJheEhjOHdwVEljTDBLckRRMmtQUHZtTFdycko0NHJYUG5WbzltTE5mdGJ6cjhvUEQ3dFlVNlVZdnJLemdtNUxsbVlteWZGSzNNNjhtNmxZc1dzSDZvUUVBVDkz?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "'이수만 보이그룹' A2O SOUL, 11월 9일 'SUPERSTAR' 발표(공식)",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5emdxc0lHVm55RkZPYUtCdXRnUk54elZUalk2NExEU0JhVEltdW4yN0Vidjd6QTJSY05iN25YVXo1OEVQWDJMZW9kY19pWTQ?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "이수만 키 프로듀서가 선보인 A2O SOUL, 11월 9일 첫 앨범 ‘SUPERSTAR’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xRHBxRGZKdUlORk9pdWFjUFlvOVA1b3VBb0N2cnNUdGx0T0FyYWx0ZWhsQWM0dlZRb0pTZ05MMk44bmV5UmRleGFrNTBPZ1BwdUUxSEVjOW5ia3BsVWV5SE1USzJQNk9WSVVJei1IbkNodFc2?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "‘이수만 보이그룹’ A2O 소울, 11월9일 데뷔 앨범 발매…글로벌 상승세 잇는다",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40ODB3U0FDNm5kcnh0QnRqcVFGVlg0Y3hfcTg3ODNxdmltcFZSSF9TY3k4TWpCbWF3VDB1UklMWGJoVTU1VVY2bHBYaXFuYXRwQWZBVnlqYVF2ei1NTkJnTTRn?oc=5",
+       "source": "스포츠월드"
+      }
+     ]
+    },
+    {
+     "title": "처치스가 새 앨범 발매와 2027년 투어 일정을 발표했다",
+     "summary": "신스팝 트리오 처치스(CHVRCHES)가 새 앨범 '올 더 킹스 멘(All The King’s Men)' 발매와 2027년 투어 계획을 공식 발표했다. 약 6년 만에 나오는 이번 신보는 1월 22일에 발매될 예정이다. 처치스는 글래스고에서 강도 높은 3주간의 작업을 여러 차례 진행하며 앨범을 녹음했고, 영국과 스코틀랜드 문화를 작품에 담아냈다. 이들은 다가오는 봄 북미와 영국, 아일랜드를 아우르는 2027년 투어를 진행하며 신곡 무대를 선보일 계획이다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "CHVRCHES Announce New Album All the King’s Men and 2027 North American Tour",
+       "url": "https://consequence.net/2026/10/chvrches-all-the-kings-men-2027-tour/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Chvrches announce first album in nearly six years ‘All The King’s Men’ along with 2027 UK, Ireland and North America tour",
+       "url": "https://www.nme.com/news/music/chvrches-announce-album-all-the-kings-men-2027-uk-ireland-north-america-tour-3973779?utm_source=rss&utm_medium=rss&utm_campaign=chvrches-announce-album-all-the-kings-men-2027-uk-ireland-north-america-tour",
+       "source": "NME"
+      },
+      {
+       "title": "Chvrches Announce New Album All The King’s Men",
+       "url": "https://stereogum.com/2515234/chvrches-announce-new-album-all-the-kings-men/music/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Chvrches Announce First Album in Six Years and 2027 Tour",
+       "url": "https://pitchfork.com/story/chvrches-announce-first-album-in-six-years-and-2027-tour/",
+       "source": "Pitchfork"
+      }
+     ]
+    },
+    {
+     "title": "베이비몬스터가 팝 발라드 신곡 디저브로 컴백한다",
+     "summary": "그룹 베이비몬스터가 신곡 '디저브(DESERVE)'를 통해 컴백한다. 컴백 하루 전 공개된 이번 신곡은 발표 다음 날 정식 발매된다. 베이비몬스터는 기존의 힙합 콘셉트 대신 가창력을 전면에 내세운 팝 발라드 장르를 선택했다. 멤버들은 한층 깊어진 감성을 선보이며 음악적 스펙트럼을 넓힐 예정이다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "베이비몬스터, ‘DESERVE’ 컴백…가창력 앞세운 팝 발라드",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwN1NhelpPekZRNXBHck1LTkRiaTJvUXJuNEZ0RFkwa09oUVcwT3M4dTBHTDdRVVEwZHo2Y0g1Skdia2NhRE01ZmJKb3pxeE5wRHJUWEFVMGZWaHZ2VS1MVjE4RnJOdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "베이비몬스터, 내일 신곡 ‘DESERVE’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01VkRNWU1WU1VDLVhIWGhaMW9fdWNiSkRIVmFIakVKV1NYNlFORmNVODNmTERNdkxqX29ZZTItYUxFcUNSUXNFeXhBYkZmd1JmQXlmTkdFMFljR1c4cExDZUlWN0Q?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "베이비몬스터, 팝 발라드 컴백 승부수…다채로운 스펙트럼 예고",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QcF9JMmRrMmt1aXExanl3MkpwNS1mMk4ta3lMZDRWQ1o3Nm9YaWNLSnVQeDRSeWwta2J4YVhXc0c1RjAxc1FZLW5QUE9VNmRwMW1Xb0ZUQm55N0U?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "베이비몬스터, 힙합 벗고 감성 입었다…신곡 ‘디저브’ 출격",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04YjF5R0pVdGdFQ3FMOU8ybWl3TXpvZVVYd1ZIa2pOWFNuQjNhZ1IwekFBQUtrak9DdzgxNnZWQURPUHBoOVhZckpPVVFaczVMX3c4eEg3X04?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "컴백 D-1, 베이비몬스터의 깊어진 감성 'DESERVE' 온다",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtSUd6MUk3TmJJQUlNLUFqcDRBZ3NfaFZWeUs5LW9sME1YV0IxZmg5UTZNVUNYN3ViMUkyUURJaXFfNG9vemdvel8yam15RW5wYjFDY3paOFp1cGRwSU43d0NfUmFPcVIzVmE5OVp0b0d1YXJK?oc=5",
+       "source": "스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "FNC엔터테인먼트가 YG플러스와 음원 유통 계약을 체결했다",
+     "summary": "FNC엔터테인먼트가 YG플러스와 음원 및 음반 유통 계약을 체결했다. FNC엔터테인먼트는 이번 계약을 통해 YG플러스의 글로벌 공급망을 적극 활용할 방침이다. 이를 바탕으로 FNC엔터테인먼트는 글로벌 시장 내 경쟁력 강화를 도모한다. YG플러스는 FNC엔터테인먼트의 라이브러리를 자사 유통망에 합류시켜 음원 유통 영향력을 확대하게 됐다.",
+     "ai": true,
+     "article_count": 16,
+     "source_count": 16,
+     "links": [
+      {
+       "title": "에프엔씨엔터, YG플러스와 음원·음반 유통 계약 체결",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmeG5UeHZTc0UxNlVObkNBd3dOcS1XWWRma3pzS1RrWDlBUk9CcWVKUDNHYzBPLXg3WHRlS2NNSlJmMGF0UmtsVkNuYmNNTGpTMTk1OG1QQ0VXX0tDLXhyYTFSMW45N3FQdlE?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "FNC엔터테인먼트, YG플러스와 음원·음반 유통 계약",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LbTZVWFdvZnJmZEhIdzZ6VmttWW5jVE05MUhHNEtCS1RDc2ZUUkF1WkF4NUpvUjNhaFhncFd5M0xsamRsdW9qSXFZNGg2UDFwRlV2Q0NDbjFLY1R3dXV1cVdsOVpiUQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "FNC엔터, YG플러스와 음원·음반 유통 손잡았다",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JYlN3eGcwWE5QQlliOXRBV3E2RU5nVk9uOE5RaTNKaHppbzFyY0Rpd1lYb0luT0FraHB4dDFxU0xibmkwTmpJZEYyeEdvMjY4enROcVpNWVhjVHo4TEhiek4wNlBpQl9Samt1TjRGd0NYUQ?oc=5",
+       "source": "TopStarNews"
+      },
+      {
+       "title": "에프엔씨엔터, YG플러스와 음원·음반 유통 계약 체결",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rUzhZUEhxald1b1BMLVF2UHpVOXRSVWxPeVhJZE93dWZWdS04cHZJQ1M2b0VWRHRDTmR0M0VxY0ZwU0xfM2lIZUd3VGFoVlJzM2NlRS16WnpwZ3B4V3ZWclVrODItV21NMXc5LQ?oc=5",
+       "source": "뉴스버즈"
+      },
+      {
+       "title": "[공식]FNC·YG플러스 손잡았다.. 음원·음반 유통 계약 체결",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fcU04czQ2VHlEMWpmeFBzb19YNlZNd1BaSVZ6V1RMaEt3R2hvYVFCN05Gb2NGX21xU01pOEREX0poaHhJYjlSenRVamRybk5pYmRaVVdhc1IzU0VBNjNwUU1CbGVCQThhZWtJWFhOS3pPM1R5?oc=5",
+       "source": "스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "가수 김정은이 결혼 20년 만에 협의이혼하고 컴백을 알렸다",
+     "summary": "그룹 마로니에 출신 가수 김정은이 협의이혼 소식을 전했다. 김정은은 성격 차이로 인해 20년(일부 보도 22년) 동안 이어온 결혼 생활을 마무리했다. 이혼 과정에서 자녀인 아들의 양육권은 김정은이 갖기로 합의했다. 파경 소식을 밝힌 김정은은 오는 11월 컴백을 앞두고 있다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "'칵테일 사랑' 김정은, 20년 만 협의이혼 “양육권 갖고 11월 컴백” [공식] - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdkN1TF82NGZDNS1QZE9IV3d1VXlNcjBDcGpsc01yT01zaGdaenlwa1ZKWUFwV0pMNC1VaHJIbVpKZ2FKSVhSWDZSYk5ZazRjcjNKNWJkbm1WaTVsVkVYcFZZYXpWU2NsTVdSbzY0VEJIYUtBLVE5c1dkV1gzZDc3MjFBMk5TdkF4WGdWVnpXUmpSTXROSUQtSlE5TGhoMGNaNHU4NHpVc9IBpwFBVV95cUxPdkN1TF82NGZDNS1QZE9IV3d1VXlNcjBDcGpsc01yT01zaGdaenlwa1ZKWUFwV0pMNC1VaHJIbVpKZ2FKSVhSWDZSYk5ZazRjcjNKNWJkbm1WaTVsVkVYcFZZYXpWU2NsTVdSbzY0VEJIYUtBLVE5c1dkV1gzZDc3MjFBMk5TdkF4WGdWVnpXUmpSTXROSUQtSlE5TGhoMGNaNHU4NHpVcw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "‘칵테일 사랑’ 김정은, 20년 만에 이혼... 11월 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZlFEVVFrNUZlNzA3N1N3OTZNWC11em9RbkltbjBUVEZtWExyRDdSMXcwVGoxdDRHcXA2aGNnRnRVVkE2X0lCY3V1dXpLT1pOekd4QmdkZnZQbm0yaGpZR2ZhcjBwdkpsUUVDOVBtOWRXOXVOVXlaVHlYNS1remM0WmlqbVROMWlUeWc?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "마로니에 가수 김정은, 20년 만에 협의이혼… 양육권 확보",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBEeWhDUFhiTGRKNUdpaHc1S0I5VzUxdVNEUkxsUE5JT19GQW5UMFgySUxXNHBieGxoTjZxNXRBRnJ1M3pVbG1QdlN1M1MxRjB0QjlSb2I1UkhLeHBUeFlaUjBfbFI?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "마로니에 출신 김정은, 결혼 20여년 만 파경…\"협의이혼\"",
+       "url": "https://www.yna.co.kr/view/AKR20261022162500005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "가수 김정은, 결혼 20년 만에 파경 ＂성격 차이＂",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80VVVKSXlFRHdPZVFZd3pOMVM1ekppMHVKY3hwcVJFaTk0S1U3ZU8zZUJ6YlU3TFBCNW5iT1pLVjdxcTdIYnVweDdiTXB1S1VYODNJRERpTHZFTm5Ia0c1ZDM1WDRZSFg3Z3NGbkthcjg4QW8?oc=5",
+       "source": "한국경제TV"
+      }
+     ]
+    },
+    {
+     "title": "록 밴드 스폰지, 투어 중 악기 도난당해 현상금 내걸어",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "Popular 1990s Rock Band Says Guitars Were Stolen After Maryland Show",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcWlvTWVKRFdzV09VRTZDSERsVVZGbzNFRDkwWWUyRVFkYzYydWpvMzl1eklNRXRiM0FHMzFPYmlfU1R5dktjSE1PaGdVMjFsbDctc1VoQ1RYZ2NYeDd6bjRuQnNwbkJBOEMwYzI3bHR5cEdLOHdhR2xiRDV3TDJzVERYcHdxYVBzZ2hNR2ZuM1pkVWdoWkN3Y2NEejJOTUE4MXVN?oc=5",
+       "source": "The MoCo Show -"
+      },
+      {
+       "title": "'90s rock band Sponge offers reward after guitars were stolen on tour",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52UVhQbHhNSE41QmM3U1NOMmFWNDJSbU1YOFNYeWpfLWNRQlluQjUyaTRKSk5NTTcyRXRWMDIwV3FWRHdXQkFIbVJiNkJ2WUxvVmhoMXJsaXI4emE1LTRGamIxOXdDQ09vZ2hvX2hPUENPd3c?oc=5",
+       "source": "Fort Worth Star-Telegram"
+      },
+      {
+       "title": "’90s rock band Sponge offers reward after guitars were stolen on tour",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10WXlHeHR4MS1kRTMyeG9XUmxZcjNWckx3bU9VRnBKYWpFYWI5ZGR6VW9RcmZXWjVjUnNjOFNzbUxhbThyZzY4Wi1rWTFGREJiV2NNQW5JS0hNSVotTXRYak9NdTczS2g1S0RwMXJuRTRfTmFSYmpscVB1aw?oc=5",
+       "source": "AOL.com"
+      },
+      {
+       "title": "’90s rock band Sponge offers reward after guitars were stolen on tour",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHVScHFYNjcwdFJkUXBrN09EdWZLbTRpSUFPb0dEOEtTYkItVkVUZHlLbkVlbHFyX2doZWpoQm1UMmlMeEJ0bTA1Q0JEYURCWnQ2Z0NqV3d2ekNIdlFySl8yUWIyT183XzBMTmtSVU5UVmhWY2NSWjZVczJ6V0tpeVJMbmtkeXJsVVpFZVNPVTVNQzdKRmkzZw?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Guitars stolen from 90s Detroit Rock band Sponge while on tour",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVHpSTlg4V2JqWnpJbHlCRHEzQUc4RnhWSEhtSVFDNFgySmYxMktxallLTERscnIzd2NrM2plUllSQm9CWVVUeDJzMVFsV2drLWZsSGk5bVh0ZTI4b1VhVjFHdG41MjhJSEZmRGp0STNzZTk2aEFvQTFhTFdTTldreWQyblYxMFBYT2plMlMzTlpYYXQ2cGhDU1prM0R0QWFXd2Jn?oc=5",
+       "source": "CBS News"
+      }
+     ]
+    },
+    {
+     "title": "에스파, 11월 데뷔 6주년 기념 단독 팬미팅 개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "[가요소식] 에스파, 내달 데뷔 6주년 기념 팬미팅",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4ta0JjN1VpaHlBb2k0Yy1YNV9IaEFxYzRmUFNlWWk4NGFJR0E4N1ppOXZRV0toeVJfLU5wbFZqZUYwLUtnVGhmaUpCb0pjMTRzYjZYdmd6Rzd0ZG_SAWBBVV95cUxNZFl6Qmd2eUNTY1FWS0lhdkV2aEpZMEJlUHM4djBWN2tyanF1VUVuWGlSVnhQNXdjYzVUTnZiaGpqczBiQWU5QzRhWnBZck1Eem13ejJxZWJVc2lxRlZLOXo?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "[가요소식] 에스파, 내달 데뷔 6주년 기념 팬미팅",
+       "url": "https://www.yna.co.kr/view/AKR20261022076700005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "'데뷔 6주년' 에스파, 팬미팅 '마이 보고싶다 아이가’ 11월 개최",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yYks0YWNtbXgwMjhkMVFkbG1ITTlYWmMwTlh6YUhpREhxOGtPVkxmeUxTa0dodDB0T2JBWmF1M2VEUTBsYkdzWFJ5MmpHQ1gwbU1VZEk5YVNhNy1raHRsVlM2RWtGcXBOdkxhZWNUNVo?oc=5",
+       "source": "SPOTV NEWS"
+      }
+     ]
+    },
+    {
+     "title": "밴드 토킹 헤즈, 첫 공식 도서 출간 위해 멤버 전원 뭉쳤다",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Talking Heads Reunite for Coffee-Table Book",
+       "url": "https://www.rollingstone.com/music/music-news/talking-heads-new-feeling-book-1235646227/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Talking Heads Announce New Book",
+       "url": "https://pitchfork.com/story/talking-heads-announce-new-book/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Talking Heads Announce First Authorized Book New Feeling",
+       "url": "https://consequence.net/2026/10/talking-heads-reunite-new-feeling-book/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Talking Heads announce first ever authorised book ‘New Feeling’ featuring unseen archive material",
+       "url": "https://www.nme.com/news/music/talking-heads-announce-first-ever-authorised-book-new-feeling-unseen-archive-material-3973842?utm_source=rss&utm_medium=rss&utm_campaign=talking-heads-announce-first-ever-authorised-book-new-feeling-unseen-archive-material",
+       "source": "NME"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
