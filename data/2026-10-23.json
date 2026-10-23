@@ -1,0 +1,493 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-23T23:23:41.905659+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 8,
+ "llm_errors": [
+  "요약 c0~c3 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1001,
+   "issues": [
+    {
+     "title": "'컨트리 명예의 전당' 헌액 가수 존 앤더슨, 향년 71세로 별세",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "John Anderson, Country Music Hall of Fame singer, dies at 71",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvai1kT1lWQmdOOVFqQ3RzVVZGT25vNFJaeHZyLVJDY2hVTnR6NGh0anEtZ0FtdDBqdFN0UC16SkNtdTZTSzRvMmVVbGJpVEpMVlNiaVJxdWo2ZEtac240R1BPUW5QRXMxMzJ5aTln?oc=5",
+       "source": "JC Post"
+      },
+      {
+       "title": "John Anderson, twangy country singer known for ‘Seminole Wind,' dies at 71",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVklxR2s2LWhnQ1ktdDhqOHRqMU9RZWpyQ3BXRHNyZUE5ZktBd25oZTduMDg4SktRZmcwb2FEQ2xhdUVjQ0U4VXpjNnFtS1BrU0FRdnhvRVh2a0hOSEViXzVFb2FreGlMUGxMZXVBMkNSTzV4czROYTg2U2FVNHdVZUxFcFVpdW9fRERKVXk5SmJ2b1ZSb3Z5UUdlemFsYzRfODdGZmZEZ9IBrwFBVV95cUxNQnQydUZ4RlZmQ2hYRkhtQ3Utcld0ZHlZVmlES3lfMVh2YUctU011b0dEdnBvRFlnQUFKeGI1S2djT1B2ZXlyYzV6SDNOenpZZDRBUEFRQ09VU2loMmUwY1NBUXdVTS00Q2x0TkUwZmNDUS11d0YtbDE3eFdzbWRLaHJ4dEUwaWMzdVRvRXdlVWFjNEt4dWlUdnRSaXdGUkZLVFVCcVNyRWRzd1hoODlV?oc=5",
+       "source": "NBC 5 Dallas-Fort Worth"
+      },
+      {
+       "title": "John Anderson, Country Music Star, Dead at 71",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQUxIdmYxNFJqVnNqZzdFUTNYSnlYM2pDZ3EyYTBNMHpCb0FIelZYcXpZcWhKREEyMDFKLWhwbGh2aWtfZElVLWkzZFJfeDhCMC04Q2x5ZnYwNzZrVHg2anl5UmVDM0hrR2JVRC1wOEItMXEzZWRDTlJBa3d6WkpxZFNB?oc=5",
+       "source": "E! News"
+      },
+      {
+       "title": "Country music star John Anderson dies at 71",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN2JZN2UwcWFWYkw4bG1wSWw4LXdHZEpQZTJkTExCU1F3bVRKMEhWb3JKMUkxNjRiMGZyWTBRQk1lZkFTam5jLVJCOEVLOGhUai1VZVByYm5zSmxYbmV5eWMwYnhVcWcwRmF5dnNVVF95WkhFSUdqSVJFRThOampLaW9IRmtpYTZDdkE3dU9scVpqbTA?oc=5",
+       "source": "MySA"
+      },
+      {
+       "title": "Apopka native and Country Music Hall of Famer John Anderson passes away",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTjZsdENJc3QwMzBNZkRCcHBuaE9zX1lJZzE5aTRjdjdqbENHYUZJMDB0Zk5sMkY4S2RMM1FaRDhWejFRYmtUS0FfVWxhWHBxMy1CbHViQTd4ajJ3S0I4RmVZZXJGYmZFcFI5a0F1eXo4SU41ajZuZ0lQcVJRUFBUQVA3WjZLTmZjU0dkZWRrUUxYVTNEaWxya25ERWlsUE45OG5qNEE1QjRVRGhJaGJYOWZHbEs2MkpuLU5YdG9WdUVBeFFLSTNNUk1SS1lWalIwbWw4MlpB0gHWAUFVX3lxTE5ONmx0Q0lzdDAzME1mREJwcG5oT3NfWUlnMTlpNGN2N2psQ0dhRkkwMHRmTmwyRjhLZEwzUVpEOFZ6MVFia1RLQV9VbGFYcHEzLUJsdWJBN3hqMndLQjhGZVllckZiZkVwUjlrQXV5ejhJTjVqNm5nSVBxUlFQUFRBUDdaNktOZmNTR2RlZGtRTFhVM0RpbHJrbkRFaWxQTjk4bmo0QTVCNFVEaEloYlg5ZkdsSzYySm4tTlh0b1Z1RUF4UUtJM01STVJLWVZqUjBtbDgyWkE?oc=5",
+       "source": "WFTV"
+      }
+     ]
+    },
+    {
+     "title": "영국 싱어송라이터 레이, 정규 2집으로 2026 머큐리 프라이즈 수상",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "Raye Wins 2026 Mercury Prize",
+       "url": "https://stereogum.com/2515373/raye-wins-2026-mercury-prize/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Raye wins 2026 Mercury prize for This Music May Contain Hope",
+       "url": "https://www.theguardian.com/music/2026/oct/22/raye-wins-2026-mercury-prize-for-this-music-may-contain-hope",
+       "source": "The Guardian"
+      },
+      {
+       "title": "UK singer-songwriter Raye wins Mercury Prize for second album",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZFJzakV0NWFSb0xDcmJXQTdNcTNrcXcxcUpjaHpaejY1VFJ0SlF1YXhpVVlpWmN3RmpwZVNvZ2NBRkt3Z2kyeWU1MWVzZ0ZiSWFiVTZrQmt3ZUpfSUpia0NkNzhSclFqWjVrS3cyZE95SHF2cXFJX3FraUJJT09HX3FvTHVWc3RZSUlUSnFWb0l6ckRfQVhoblFqeF9EV1prYThYTXMtM1NkN25W?oc=5",
+       "source": "France 24"
+      },
+      {
+       "title": "UK singer-songwriter Raye wins Mercury Prize for second album",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVzFPbExHTC1mbXJoS2JyMTExcUtaRmZQaW1MbHpZX095a0ppSXBUSl90S0JOWE92djNXVUZNU1JTa2lhbHNjTkR2bnFSQzZHd1hfMGlaZUhpal9KUGMwb3F4b3FPeElPcmtvZW1NMFNydDFDQUhPRmY5WXNYaE03RF9RMWlZMzNGaE1PaGZNLXhEWHFhanBsQ3J1OHpMTFVYZDlIZnF6eHI4RkNOT21hdw?oc=5",
+       "source": "RFI"
+      },
+      {
+       "title": "Raye wins the Mercury Prize 2026: “Hope is just something that we all need. Music is medicine”",
+       "url": "https://www.nme.com/news/music/mercury-prize-2026-winner-announced-raye-speech-performance-watch-3973848?utm_source=rss&utm_medium=rss&utm_campaign=mercury-prize-2026-winner-announced-raye-speech-performance-watch",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "에미넴 미발표곡 유출·판매한 전 직원, 법정서 유죄 인정",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "Eminem’s Former Employee Pleads Guilty to Stealing and Leaking Over 2 Dozen of the Rapper’s Unreleased Songs",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT2R6bVFmYnlNRFJxcGUyOU5WczV6dUpOdFpjTjNPOXFoQWVPYnlxZ3p2anNfRTFQazd1bDlManMwdzZUdnhYSHBOWFZpR25aZ0hhRlV4c0xwbXJkT05ldU5Cam53Mk1CYzVscFh3VGdNZ3JVazlQYXZXby1yQUZqZ0VBMjBEZlJKVG1nN0sySjNyRUFzWTZERXJkRWs2MnJMMElr?oc=5",
+       "source": "People.com"
+      },
+      {
+       "title": "Ex-Eminem employee pleads guilty to selling rapper's unreleased music for about $50,000",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOHRDMjBEVDZZSG9NSkZmYm9TYXZsYjhTeWZXYVNmZE9vVjlGZk15OXM2bXQ0M2piWnZHX2NrdlNkMDNHZlpWajZ4Z0tOT3lzaE1iSU9ldEhqSWg0RGNydTdqQllhdHF5MHQtY0Q5cUx3ZTlGczhPN1hKNjIzNGxPYUo4SFZhUV9SZWdUVl9jcUFOY2NTZGtDZTdsdjVRSUN2?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "Eminem’s Former Employee Pleads Guilty to Leaking Rapper’s Unreleased Music",
+       "url": "https://www.rollingstone.com/music/music-news/eminem-former-employee-guilty-leaking-unreleased-music-1235646780/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Former Eminem Staffer Pleads Guilty To Leaking Rapper's Music",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWjZXcDVZdDM5ejhLZVRpYkpXRTMyMnR3QVhuOVRHdXA5X2YyZ1R1RENyYkIydUh3QldqUGk5QUtFT0NZUV9QR0MzMFBMdjFKUmdiOThYWHBLbTlDajRuMUsyNjFNM0Z0cDRHeVdqRGJjX3R5bWZ3R1NkLXRDdk94OE41cFNKR1BoZDNmRElBUkpLaU5QQUFkZ0FOcnZ5TFNwaHZGZm5MSlBJRk9Pc2xvRWxWLVF6QQ?oc=5",
+       "source": "The Hollywood Reporter"
+      },
+      {
+       "title": "Eminem’s Former Employee Pleads Guilty to Illegally Leaking the Rapper’s Music",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY3l4Um9mWkxlSXpjVmxleC1OWDNhbnF0dGNNQVZ1V0g0bjJqYlVuVm1XeV8xOWpjMi15Xy0yNlRsZ3N4Yk5tNTZvcC1UVEpQcHVxNFBBaW1tUWNhWG5TNDFfbVh5UTg5blRES1ZueVVtanFSUEQ4bUIzZnlSSFFtTm5RTVJFR2oweXNlLU92eWZfYlBpMnRTRUhBdU91YmstalcxSlFDOWFZbHltMnc?oc=5",
+       "source": "VICE"
+      }
+     ]
+    },
+    {
+     "title": "BTS 등 대형 K팝 기획사, 그래미 신설 '아시안 팝' 부문 출품 고사",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Grammys Asian Pop Category, Explained: Why BTS Opted Out",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBQYTZIQVM5eC1vQVgzS1FCZ2plT3lkdjZ0UjlIQ3YxVnB3TVRDLTUweEZidENQUVZBdkNVdXZaeXJ3c3dWRVZNRWVCUjU5eDN3elFYc2VJLTFqU2VUaTkwLTVDd05ZOFBGaWY3YUpqM3RENUtj?oc=5",
+       "source": "How Music Charts"
+      },
+      {
+       "title": "Major K-pop agencies skip Grammys’ new Asian pop category",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9nVGRsQTVZT2Zqem1DUzNxcHc2WTdEWHNCcXVHTjJ6aFQyYkFxQmlXbDduWWc1LWpzTmgydlZYNEJVelpFejZkZWhHclhZM25KOW5LbjI0dw?oc=5",
+       "source": "The Korea Herald"
+      },
+      {
+       "title": "Major K-pop labels skip Grammys' Asian pop category",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNzhudXJyX09qSHZPX3ljUVlBd2w1NS1Nd2JMaTVVYTZ5bVg0aGtxNTM1VGh6V0lnQXJySlpEX2lyQlhHYkNCVmFwVlUtSHVnaXF0WVZ3cFo0LUZlQjcxWVB5cnlxZ1dzRGFqQVRoWEJvanZmSFJCTFBVdGp1c0NmT2JuaW8zVkRlQmdZOTROWVMwM2k0QTl4WHdHem9XRnBIRkEzNWZ6TQ?oc=5",
+       "source": "Kursiv Media Узбекистан"
+      }
+     ]
+    },
+    {
+     "title": "블랙핑크 리사, 첫 솔로 EP '프레스 플레이' 발매",
+     "summary": "그룹 블랙핑크(BLACKPINK)의 리사(LISA)가 첫 솔로 EP '프레스 플레이(Press Play)'를 발매했다. 10월 23일 앨범 발매와 함께 수록곡 '타란티노(Tarantino)'의 뮤직비디오도 동시에 공개됐다. 이번 '타란티노' 뮤직비디오는 액션이 가득하고 영화 같은 연출을 선보였다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "BLACKPINK’s LISA drops cinematic 'PRESS PLAY' EP alongside action-packed ‘Tarantino’ music video",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcFNTQ3A3TUtFSVV6VXJvX1BtZjBzRWp2ODZLam9pam9BUjJPTkdFNlFEeDZ0ZXRlYXh3RUtPaXVUQnFvNE82eW1DT2hiRmRrUFZRM3EybGpiZm9JWHNibjJqY2lvcE5vV3FjZzVkNUM1WllRal8tVkRJR3dVVERDc2ZSNlFYVmdCYU54ODEyclhscXNmVndHaVpKNXNKcGZXNzJEcjVoVl9pam4zZ0lieUI4eUJoNmxMQ1dMRg?oc=5",
+       "source": "www.bandwagon.asia"
+      },
+      {
+       "title": "BLACKPINK's Lisa drops 1st solo EP 'Press Play'",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zZGdtVjhmMmJNT09jWEtabUI0ZXZwZ2hEM19kVlAxeU42Y1pnVHIydWJKUFhHemtqRGdscXo2aVBBdUJfYTdvSXdkV01WRzRfdGRON0YzLWlVdw?oc=5",
+       "source": "Yonhap News Agency"
+      },
+      {
+       "title": "BLACKPINK's Lisa drops 1st solo EP 'Press Play'",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSTJwVDlpSXVzUWFWRV9tZW9QQl9WM3F4UnVWNnpiY2FjOXVZUG16U0NTdjJoTHVBamNfOGxLZ1Fybk5vUmNjSFRHVG11alM0Vjc0dFhZazJHNHMwTlprOHVGaVAxX1lwUFZXbEhLUFZMMGNKdWpJQnhYRWZSdF81QTk2cUNtblg1RkVtNzZOY003cWRmZVdoN3lzS3dhcXJEOTVhb1d1WmlkUdIBqgFBVV95cUxPSTJwVDlpSXVzUWFWRV9tZW9QQl9WM3F4UnVWNnpiY2FjOXVZUG16U0NTdjJoTHVBamNfOGxLZ1Fybk5vUmNjSFRHVG11alM0Vjc0dFhZazJHNHMwTlprOHVGaVAxX1lwUFZXbEhLUFZMMGNKdWpJQnhYRWZSdF81QTk2cUNtblg1RkVtNzZOY003cWRmZVdoN3lzS3dhcXJEOTVhb1d1WmlkUQ?oc=5",
+       "source": "The Korea Times"
+      },
+      {
+       "title": "LISA Drops Cinematic New Music Video “Tarantino” – Watch",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaXVvUzVBdkRCSS0zZG5XSlVVd3dEcHQ1bjA3Ulo4dTE1cGp4N1YzbzZJcm0tQm0xUEs2MmFmS3dBZzEtWTJNWnJKdkxoNlFnLXV3UEdBbksxeWIwQnM3S0F0OU5uZTFfdzByNklXYlhVaFM3VU50aDZlekVTdm5xVGRpMm00MzNpbjRIc3J0b08?oc=5",
+       "source": "Billboard Philippines"
+      },
+      {
+       "title": "SHE’S STILL THE LA DIVA 👑🔥 Lisa of BLACKPINK stuns in an action-packed music video for her new track “Tarantino,” released today, Oct. 23, alongside her first extended play, “Press Play.” Courtesy: LL",
+       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdVJYWS1PcXl4NFQ2YXRKN2Iwa29uUmJLUU1EcUlVTl9obU9TNjU0WE1sbWs3MUl2NVBBMkMwWFNtU3pQZXBGS1Y2M0Y5cVo5emlZZk9QeDdxZDV4dDdfd3FRT0hJRW5xMm9pV1JjeU15TVJqUE5LUDlRS0NzdDdYbGNVVUhyTUNQMEdRZ280dzhSaENHZzlzdzEzakFCNzhWOEZJay1hZ2RpQmJHaVFveTZId1lNdGxnOGZYYnBQaXJwMGdnNGZsY05ISnRsVUFRalNj?oc=5",
+       "source": "Facebook"
+      }
+     ]
+    },
+    {
+     "title": "베이비몬스터, 팝 발라드 신곡 '디저브' 공개",
+     "summary": "그룹 베이비몬스터가 신곡 '디저브(DESERVE)'를 공개하며 컴백했다. 이번 신곡은 10월 23일 오후 1시에 정식 발매됐다. 장르는 팝 발라드로, 가을에 어울리는 곡이자 멤버들의 목소리로 승부수를 띄웠다.",
+     "ai": true,
+     "article_count": 21,
+     "source_count": 19,
+     "links": [
+      {
+       "title": "베이비몬스터, 신곡 ‘DESERVE’ 공개…팝 발라드로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxbjNLWWJ2RTRRdmJ5ZnI1MjJubUFaZkFRYWNMSWZhNjNIbWRYelV0QWVKMEtIdzU2RWRfOVJLMUlBemozSjNLbGZqOWhlZ2x0aFhEemVyM0ZtU21HMmdNZTEwX19SZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "베이비몬스터, 신곡 ‘DESERVE’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YaXg4Q0VsRHNsVmdGNTlPdTFZQ3lWMjQ2QVJmcm03T1RyLTlTYnBuZDktb01FODNOSFN6LS14NmFWSnhpVFF1ZnliN0JSWTRwRGhsMVNGVmExdUFSVDFiLTZxZG8?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "베이비몬스터, 오늘(23일) 신곡 'DESERVE' 발매..목소리로 승부수",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5RDJfdDRYYTVZVDZUR2dZRml6eFJ5Z0tUejc0Mm5oclAyc3Y4S3JITUE5M205Ti1QNTUwbDdENUZ1Ukg5cU81R1RGRnhoUlU4UlN4RQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "베이비몬스터, 오늘(23일) 신곡 'DESERVE' 발매..목소리로 승부수 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTk9WVXFLeEx1MU5IcUtsQzRfcDJzekFVSDJMZEJNVXVGSWJyeUZTOWZkQ1prakxGSlV4UmwwTkhYa3ZrRXRXbE8tNEVQVURYcF9UTnNqMmFhYkhRQTY0ZVhjdnAtaERsMmpMLXN6UEhBYUtwQVNLV1BONGR4YmJBbFdIeXg0UkJDdzF1NHB3dERYU1dMR2hNbi1neG5sT1FuQVVZYmV0QdIBpwFBVV95cUxNTk9WVXFLeEx1MU5IcUtsQzRfcDJzekFVSDJMZEJNVXVGSWJyeUZTOWZkQ1prakxGSlV4UmwwTkhYa3ZrRXRXbE8tNEVQVURYcF9UTnNqMmFhYkhRQTY0ZVhjdnAtaERsMmpMLXN6UEhBYUtwQVNLV1BONGR4YmJBbFdIeXg0UkJDdzF1NHB3dERYU1dMR2hNbi1neG5sT1FuQVVZYmV0QQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "베이비몬스터, 오늘(23일) 오후 1시 신곡 ‘DESERVE’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1saENKSXdtR21kNHBsb2IxTzhXMVRQbmk5UTBNYkxOZTlSQVFrZzY1bDFGaFNBY1dWaDRnNTk1NE52Tm94SzlFUDFuOWt5dDlwTE5oQnR2UDVDcllhY210QkZSRklGeVlnRnVQYXh3?oc=5",
+       "source": "스포츠동아"
+      }
+     ]
+    },
+    {
+     "title": "에이티즈, 선공개 신곡 '드립' 발표하며 컴백 예열",
+     "summary": "그룹 에이티즈가 신곡 '드립(Drip)'의 음원과 뮤직비디오를 공개하며 컴백 활동에 시동을 걸었다. 이번 곡은 컴백을 앞두고 발표된 선공개 싱글이다. 컴백 예열 과정에서 멤버 산의 분위기를 담은 흑백 컷 등이 함께 소개됐으며, 앞서 '배드'의 역주행 흐름을 탄 상태에서 신곡이 공개됐다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "‘배드’ 역주행 탄 에이티즈, '드립'으로 컴백 예열",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiYzc4a25WYWNRVjY0SmR4U0VnWWlhRm14dUhhVFFRRU1KNDBaanFWVWFlekVISFBldUtGMHdVeVBJVGtibDJ0WkpSN25CSEZPTXh5c3Z4QTZocUlXcmxCdFZfWERWU3U1NlE?oc=5",
+       "source": "www.newsq.co.kr"
+      },
+      {
+       "title": "에이티즈, 신곡 '드립' 음원·뮤비 공개…컴백 활동 시동",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUHA1VFk2ZTRya3ZYalVjTGM5SXNMMjMySFBtWHl5eERHcjZaaUxZWWFuMkxoRnFhb0M4ZkVWcEVDaFFrSFREZFIxQ1RwV0piUG9TQThhOXRpVm5HZ2RpNk5wMl9rNnZ6YndtOFh4bUYxQ05Zb0dJMm5OdkZzNExQag?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "에이티즈 컴백 시동…선공개곡 ‘드립’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tVXdQdl9wWnFmU1lENGlJVmJNN0JJZ2dOcTBXaVdNV05rSmtOdDdsR0toU0tFRGk3WjVhMDJTdlh2b29XMktncGl3TkstdEJ4bTFhVQ?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "에이티즈 산, ‘Drip’ 무드 담은 흑백 컷…선공개 싱글 컴백 예열",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ESGdfZzhURmhLOHhROFJJLUZQeGFqUm1ZRXFkWFhTX29wRGZtdkd6MEF6anFLWm52cHVCSGRYNEhsZF9HMTVJN3A3RHNLZ21aRnFYekh5RWNRZVNHcjVLNGdBVUd4WHBPQ2pzY214VzNCZw?oc=5",
+       "source": "TopStarNews"
+      }
+     ]
+    },
+    {
+     "title": "A2O LITE, 데뷔 10일 만에 '네온'으로 음방 3관왕",
+     "summary": "신인 걸그룹 A2O LITE(A2O 라이트)가 데뷔곡 'NEON(네온)'으로 데뷔 10일 만에 음악방송 3관왕을 달성했다. A2O LITE는 '더쇼', '쇼챔피언'에 이어 '엠카운트다운'까지 1위를 차지하며 거침없는 상승세를 보였고, 팬들에게 보답하겠다는 소감을 전했다. 그룹을 제작한 이수만은 1위를 자축하며 고깃집 손님 전원의 밥값을 계산하는 이른바 '골든벨'을 울렸다. 또한 해당 식당 손님들에게 팔찌 선물까지 전달한 것으로 알려졌다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "'이수만 걸그룹' A2O LITE, 데뷔 10일 만에 음악방송 3관왕…'NEON' 돌풍",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13UEhZcHZxWnZjRENGS2g2V2UybVRqeDI5dE5tQ25MNTZnV1hHSWp6M1NDenp1bkE0dmJEc09pY2RjUVo0REY0Y0J1QU56eUp6ekNaLVhmU1p4RmtiVzVadGJ1Z2Fidw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "'이수만 걸그룹' A2O 라이트, 음악방송 3관왕..거침없는 상승세",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FRnZLTWFZUFp4MDhKd0pTeWJ4ZXJtek9DZ0pvaGVENkRMcEZUZi12d3dsS1I4c1EybVRjSmR4WjZNb1UxZlllMFZhUnVGN2F4bkZJbmZpOFdLa3RFTHpCbDU3UnU1cmNTb3NQcmlwVjRaa3p5?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "'이수만 걸그룹' A2O LITE, 'NEON' 음악방송 3관왕 달성",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rVUFucHBYNnZvT0JJRXVBX29MeFpFMDBhMUtzbk9BeUZfQVhqb05VaWFlcjFKYVFfX1VETjlBZUV5SWJfbUFUVXRvUkJNalk?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "'더쇼'·'쇼챔' 이어 '엠카'까지…'이수만 걸그룹' A2O LITE, 데뷔곡 'NEON'으로 음악방송 3관왕 쾌거",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5eVpQbmsxVGFESDZMNzM5Z19pUEJzbjRBVXFicFgtMk5JNVFiRXdOTnhjbTJ4dXpDOGk5YldHenliQjYzaXl5VmtqQmxoR1d3eEtoNGJPRlZsNHlxUVlwdDZlWWMzcEVfdHZaNw?oc=5",
+       "source": "뉴스버즈"
+      },
+      {
+       "title": "‘이수만 걸그룹’ A2O LITE, 데뷔하자마자 음악방송 3관왕…“보답하겠다”",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HRnRsV09xeHJRMzB3SGs4OHB5aHBwQi14TnJCM1pnbDBKOG5ib2xkNmY5LTR0MXZOMW5YeEJLdS1rWU1PdGlMSU90UmtzVUtLV1BCbU1LYjBvMjh2czhNWWpYcEpIX3VzUDUwcWNn?oc=5",
+       "source": "스포츠동아"
+      }
+     ]
+    },
+    {
+     "title": "아일릿, 스포티파이 사전 저장 50만 돌파하며 1위 기록",
+     "summary": "그룹 아일릿(ILLIT)의 미니 5집 'BREAK EVEN'이 스포티파이 사전 저장 50만을 돌파했다. 이번 기록으로 아일릿은 스포티파이 사전 저장 1위를 차지했다. 또한 K-팝 걸그룹 중 최상위권에 해당하는 성과를 거두었다. 아일릿은 컴백 전부터 높은 인기를 모으고 있다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "아일릿 'BREAK EVEN' 스포티파이 사전 저장 50만 돌파..K팝 걸그룹 최상위권",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS1gxN2ZOa2RDUXY3U1FEODJLbk1FdzktRXNjMjlSeUp6eGZtT1RuRjV4TnBtNE5UOU53THRrRTh4bWFjSEhkSUNoS2JXbWpEamloR2oxNnhFOF9KazM4aS1CVW83NjIxMzNVY2N1YlIzQ0ZBREFwbzFySFd2SlhTbnZXYW9vOER5clE?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "아일릿, 컴백 전부터 인기몰이…\"스포티파이 사전 저장 1위\"",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ILV9ZdXVqQlRmY1VQbzMwRDgxYXJWWUV3dUh2Wk1UYnJJcDQyeEFHaTRsdUNYNkE0S2Z0UW12MUlTYjcyTjlfMGZR?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "아일릿 미니 5집, '사전 저장' 1위…K-팝 걸그룹 최상위권 성과",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjbC1qTGcwT3U1T0FHTldhV1dEa1ZqbE00dE5GSFA0UWZ2VlFsWlV5S1B3dVg1QzN5N3pnTWkzODJydDZLRDdXZzBwQ25PeUU1Ym5iS3E3bWhuRnNnZm9xWA?oc=5",
+       "source": "iMBC 연예"
+      }
+     ]
+    },
+    {
+     "title": "라이언 고슬링 밴드 데드 맨스 본즈, 17년 만에 신곡 예고",
+     "summary": "라이언 고슬링(Ryan Gosling)의 밴드 데드 맨스 본즈(Dead Man’s Bones)가 신곡과 함께 컴백을 알렸다. 포크 록 듀오인 이들은 17년 만에 신곡을 선보인다. 이들은 핼러윈 시기에 맞춰 돌아올 준비를 마친 것으로 전해졌다. 에바 멘데스(Eva Mendes) 역시 이들의 컴백을 예고하고 나섰다.",
+     "ai": true,
+     "article_count": 16,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "Ryan Gosling’s Band Dead Man’s Bones Tease New Music After 17 Years",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEQm5vWW9qNUdsR21BbEc0TWdHV2dpX0Eyb2dNSU9jZ2F3bkVPYWFodWpkanl0cDlQMlZkS1k3NUE4eFJWVzF2b3phUEF4VFZLMjBFQTJBSW1xazRwMjFyVEdLX0lrWXljLTg3RDF4a3hMN2lkQ0MzTFFXTQ?oc=5",
+       "source": "Consequence of Sound"
+      },
+      {
+       "title": "Ryan Gosling’s Band Dead Man’s Bones Tease New Music After 17 Years",
+       "url": "https://consequence.net/2026/10/ryan-gosling-dead-mans-bones-new-music/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Ryan Gosling’s Band Dead Man’s Bones Tease New Music After 17 Years",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zMkRRR0x6SmZSZE00WGl4QkNOcjIzRHpacDcyQ3R3RUt2NDV5a1BETTdvYTlPTE9tb01PVDVDOEozcFkxeTAzVk1xcS1aR0VvbXpPU19wWGFITFhLODNmcGNyT09KM0E?oc=5",
+       "source": "IMDb"
+      },
+      {
+       "title": "Ryan Gosling’s Band Dead Man’s Bones Announces Comeback With New Music",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wazJWWWwyVWdQQ19KM3FEa2lxbUlIbTN0bzcxNzd3dlpOZmJ5WEtzclhFVDdOWkdDWG1ZV2RfMUR1MzRVYU5rRkhtLU04VjRQQ0gxNDhEQzd3T09nbGk5UEZpcjdLRGRLZ2pWNkVOaUJUV0FIc1E?oc=5",
+       "source": "Yahoo News Canada"
+      },
+      {
+       "title": "Ryan Gosling’s Band Dead Man’s Bones Announces Comeback With New Music",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUDZ2LVdrdmRLWjJvOUhTRVoxX2plbGlYVVFXUThiNzJza3ZrMllaV1BSZTdaTHNjamNDOFBZdjhqRmNzZ3lYeml3R0M4VWRHcFFQTnVWQjFwZ2FhRmF4Rm14U3lDaFVnZkQ1NXlRYTRpX1Q1Qm1ib0trT0h5N0haREZOMmp6dzA5bzY3M3ctRmFNR0pWMXUwcjg3NUxsWXhSWDhvajFnYUZJS19TYjZRYVE2U3JyUQ?oc=5",
+       "source": "The Hollywood Reporter"
+      }
+     ]
+    },
+    {
+     "title": "찰리 XCX, 마틴 스코세이지 신작 영화 캐스팅",
+     "summary": "가수 찰리 XCX(Charli XCX)가 마틴 스코세이지(Martin Scorsese) 감독의 신작 영화 '왓 해픈스 앳 나이트(What Happens at Night)'에 캐스팅되어 카메오로 출연한다. 이번 작품은 피터 캐머런(Peter Cameron)의 소설을 원작으로 한 고딕 호러 영화다. 영화에는 레오나르도 디카프리오(Leonardo DiCaprio)와 제니퍼 로렌스(Jennifer Lawrence)가 함께 출연한다. 찰리 XCX는 마틴 스코세이지 감독이 'Music, Fashion, Film' 앨범 커버에 등장한 이후 그와 다시 재회하게 되었다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Charli XCX Cast In Martin Scorsese’s What Happens At Night Alongside Leonardo DiCaprio & Jennifer Lawrence",
+       "url": "https://stereogum.com/2515371/charli-xcx-cast-in-martin-scorseses-what-happens-at-night-alongside-leonardo-dicaprio-jennifer-lawrence/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Charli XCX to Cameo in Martin Scorsese’s New Horror Film With Leonardo DiCaprio, Jennifer Lawrence",
+       "url": "https://www.rollingstone.com/music/music-news/charli-xcx-martin-scorsese-horror-film-1235646987/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Charli XCX cast in Martin Scorsese’s next film with Leonardo DiCaprio and Jennifer Lawrence",
+       "url": "https://www.nme.com/news/film/charli-xcx-martin-scorsese-film-leonardo-dicaprio-jennifer-lawrence-3973976?utm_source=rss&utm_medium=rss&utm_campaign=charli-xcx-martin-scorsese-film-leonardo-dicaprio-jennifer-lawrence",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "더 스트록스와 피비 브리저스, SNL 무대 오른다",
+     "summary": "더 스트록스(The Strokes)와 피비 브리저스(Phoebe Bridgers)가 '새터데이 나이트 라이브(SNL)'의 새 에피소드 음악 게스트로 출연한다. 피비 브리저스는 존 멀레이니(John Mulaney)가 호스트를 맡는 11월 14일 에피소드에 출연할 예정이다. 더 스트록스는 드루스키(Druski)가 호스트로 나서는 회차에 참여하며, 그레이시 에이브럼스(Gracie Abrams) 또한 핼러윈 쇼 라인업에 포함되었다. 드루스키와 존 멀레이니는 다음 달인 11월에 각각 호스트를 맡는다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "SNL Sets New Episodes with The Strokes and Phoebe Bridgers",
+       "url": "https://consequence.net/2026/10/snl-new-episodes-the-strokes-and-phoebe-bridgers/",
+       "source": "Consequence"
+      },
+      {
+       "title": "SNL Taps Druski & The Strokes, John Mulaney & Phoebe Bridgers For Next Month",
+       "url": "https://stereogum.com/2515352/snl-taps-druski-the-strokes-john-mulaney-phoebe-bridgers-for-next-month/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "The Strokes and Phoebe Bridgers to Play SNL",
+       "url": "https://pitchfork.com/story/the-strokes-and-phoebe-bridgers-to-play-snl/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "The Strokes and Phoebe Bridgers among musical guests for new episodes of ‘SNL’",
+       "url": "https://www.nme.com/news/music/the-strokes-phoebe-bridgers-musical-guests-snl-3974064?utm_source=rss&utm_medium=rss&utm_campaign=the-strokes-phoebe-bridgers-musical-guests-snl",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "이소라, 26일 드라마 '100일의 거짓말' OST '널' 발매",
+     "summary": "가수 이소라가 드라마 OST 신곡 '널'을 발표한다. 해당 곡은 tvN 토일 드라마 '100일의 거짓말'의 OST로 쓰인다. 음원은 26일 낮 12시에 발매될 예정이다. 이번 신곡은 이소라의 호소력 짙은 발라드 곡으로 소개됐다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "이소라, 26일 '100일의 거짓말' OST ‘널’ 음원 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5lQV9mRWQ0dXFmMlZ3Wm9rS1V1NFBra1dtUFh6d3JDNXdic3ZpWVU2OURSQnRiZS1MVnFBaVpBZmJVQldsZWM3UVRuRlpaZE5pZzF6TzJWRUQ1bTY5WWE2V001UmxKdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "[가요소식] 이소라, tvN '100일의 거짓말' OST '널' 발표",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vakR5QXZCdGhKclY1Tks4V3ZZN21JNHlvTFcxb0s1b0NnbmFmZ1czWnh3MzFpdUc2Q1pSR1dlZE5qVVBlM2dkNG1JVHkyTXRBd2ZkZnZHMUM0SzZ3dVZtWdIBYEFVX3lxTE5vakR5QXZCdGhKclY1Tks4V3ZZN21JNHlvTFcxb0s1b0NnbmFmZ1czWnh3MzFpdUc2Q1pSR1dlZE5qVVBlM2dkNG1JVHkyTXRBd2ZkZnZHMUM0SzZ3dVZtWQ?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "[가요소식] 이소라, tvN '100일의 거짓말' OST '널' 발표",
+       "url": "https://www.yna.co.kr/view/AKR20261023064300005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "이소라, 신곡 ‘널’ 26일 공개…‘100일의 거짓말’ OST",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wU0ZoWkEwbWNqV0xURXB5RVF0U2QyOWFtUjYwa0xUWUNnaTR4ZEs1ZDE0TWc3QkpONkloc2k1UkRvTUtCbWlzVE4tOHV3TVVQ?oc=5",
+       "source": "문화일보"
+      }
+     ]
+    },
+    {
+     "title": "손승연, 신곡 '오늘의 나는' 23일 발매",
+     "summary": "가수 손승연이 23일 신곡 '오늘의 나는'을 발매했다. 이번 신곡을 통해 손승연은 섬세한 보컬과 서정성을 더해 인디 아티스트로 컴백했다. 해당 곡은 감성적인 힐링송으로 소개됐다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "손승연, 오늘(23일) 신곡 ‘오늘의 나는’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mT0tVLWtZdDdRdmxtNUZBZVJacl9MejVhYjc3S0h1Z2diaTB1bEdUa3gtLTBGSVRuT0dRM0xPSmRUd0M0T3Vlb2JEXzIxdkQ4MTdTenRnREVucUJSdXhmQ1ZJS3M?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "손승연, 인디 아티스트로 돌아온 ‘오늘의 나는’ 발표",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rdG9FNkNOLWhpRnRQTlJEUDBXMTFUZXl4bmNFNUdMQklQdlpOQzBJNDRVdnh2TUl5N1VRd2tZTVp1M2kyaElxWm5GT2xzaWs1Nm1vVVVMYjJpandWXzRFbUl2Z3ZUOUlPU0VQeGlsdzBfQQ?oc=5",
+       "source": "TopStarNews"
+      },
+      {
+       "title": "손승연, 오늘(23일) ‘오늘의 나는’ 발매…섬세 보컬로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04ODkyZWJ3WDFyejBzbjRCVkVDcjdweW5SVXJIRHpsQkdJSWZTUUtHb1VXRjBpYW40Njk5SlE0LUYyblJMbTVaWW0zTTdlTEhBX2lpTkwzWlM?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "손승연, 감성 힐링송으로 돌아온다…신곡 '오늘의 나는' 23일 발표",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yV3NWT1M4LVJvelFlY0VYRHNEb29RZ21NSXlhSHB1U0NhaWF0eC1vc19WT3Y1aUFKS1Z2NWNvZWUtUGdQdWdpeE9BQV9HUjFLMW5KdmlHYUg5QkFwZlZ3VW5iWVZTdUdIX3JidTVFa3k?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "손승연, 23일 ‘오늘의 나는’ 발매…서정성 더한 컴백",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wdzFSNzdHekFub3d0aWNCRTNBTU9ENlpkemtEYjFWRnFRd05ROG96Y1F2M09XcFFzQXBKOS1OZGM1LWpNdVZYSzROaGJiSTJVRFBlRUMyUFhRVUYtSU1EemNZbFllMUlGMUl3?oc=5",
+       "source": "한국사회복지저널"
+      }
+     ]
+    },
+    {
+     "title": "엘캐피탄, 첫 정규 선공개 싱글 'Don't Say Love' 발매",
+     "summary": "프로듀서 겸 아티스트 엘캐피탄(EL CAPITXN)이 첫 정규앨범 선공개 싱글 'Don’t Say Love'를 발매했다. 해당 곡은 그의 첫 정규앨범 'WHO KILLED EL?'에 수록되는 선공개 곡이다. 엘캐피탄은 방탄소년단(BTS)과 아이유의 히트곡을 작업한 프로듀서로 알려져 있다. 그는 이번 작업을 통해 목소리를 잃은 아픔을 음악으로 승화했다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "‘BTS 프로듀서’ 엘캐피탄, 첫 정규 선공개 ‘Don’t Say Love’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PWnJIV1FzbEUyY1Zkc1M4WEh3TDU4NEtoUHQySVpBVUpfS0FyNGRxd0tLVTc0LVRHLVJONEdRX19Ramo3bHhOekMzRElJc2p0d2h5dnVGaw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "엘캐피탄, 첫 정규앨범 선공개 싱글 'Don’t Say Love' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55YUd0MWhqOUc4OURYWndWUUJjM0N3Tk5HS2FiZFM4d1NxWjdXTnRSSGhvYXQ5ZDVuZlNobmhpbXkwQTFrb1RHQXFoME85OFZGWVo1OVpKNEE4NUlZ?oc=5",
+       "source": "아시아뉴스통신"
+      },
+      {
+       "title": "BTS·아이유 히트곡 프로듀서 엘캐피탄, 첫 정규앨범 선공개곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRVRaaWcwWWd2VjNhUmw2Z1A0aWp3U21BQUs0TFctUkhCWFZvRlZWUVdrZkRJQWl4MW5GWEc1c2x5ZEpMZmxOZ0loa2FtR2VtZ2NleU5xamw0cjZuT0ZrVUN5OThvaG84RmNPZFA0blVpT3pJVXJWUlJiOFVCdUlTNg?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "'BTS 프로듀서' 엘 캐피탄, 목소리 잃은 아픔 음악으로 승화",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VM2lIQmgtbnhsREdKWHN2SDRZUExHNWR5MUJJNVZjSXJuUlVlcUdBTmJfcS1yNUEyYzlFUWl1U2t3aHpnT1V4bUxmZTRkcnhZVnB6dVV4QjFCNUxpa0dzWEtBbE5qdw?oc=5",
+       "source": "뉴스컬처"
+      },
+      {
+       "title": "프로듀서 겸 아티스트 엘캐피탄(EL CAPITXN), 첫 정규 ‘WHO KILLED EL?’ 선공개 싱글 ‘Do...",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oMW5vREJQWWdLRE9PZk84d3hRN0VzcVU5TW56QWRabGhuVVh3ZGNsRFhOd2R3UXo4TjR2YUF4ZGl5OHNadE9MakJhSjg4NnFIbnJHbUpvWGNYU1dWU1HSAWNBVV95cUxQTHhnNlZkMXRYMEhFNkJST2tiODZ3eXVtaHRFTHVZeHZmUmo1aGY1T2dzRTNydExWclJNdnJGWXUwamFnQmxJa2ZFTVNRX3VvOXR6Y0tNRUF6S2tlSkpNOEZZVHM?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
