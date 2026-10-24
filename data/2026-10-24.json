@@ -1,0 +1,477 @@
+{
+ "date": "2026-10-24",
+ "generated_at": "2026-10-24T22:36:34.122878+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 7,
+ "llm_errors": [
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 800,
+   "issues": [
+    {
+     "title": "아일랜드 음악가 도날 러니가 향년 79세로 별세했다",
+     "summary": "아일랜드의 유명 음악가 도날 러니(Dónal Lunny)가 향년 79세로 세상을 떠났다. 그는 아일랜드 포크 및 전통 음악계에 지울 수 없는 발자취를 남긴 혁신적인 음악가로 평가받아 왔다. 주요 외신들은 고인을 아일랜드 음악계의 거인으로 칭하며 부고를 보도했다. 그의 사망 소식이 알려진 후 여러 매체를 통해 고인을 향한 추모가 이어지고 있다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Tributes paid to musician Dónal Lunny after his death aged 79",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUzJfUzZ2RmhaWkU2TVo2Um1mOG9zRkFva3JzUnlscFlIM0JTR182NTJJS2h1TkhqVXJscUYzdWVDR0hoamhtZXZfWUY1ZVFVTWhiMldsYWZVeldaM2lZME1jeVhER21RcFFfc1RrX3JjRGNHbE4wQlNrM3NXQmtQeGpWejZlWDRKTmp3ekFaS0ViRmNWaktyZE5RR1pIb0poTUFTX20zLXpIRDkxWWZSNEVDamU?oc=5",
+       "source": "The Irish Times"
+      },
+      {
+       "title": "Celebrated Irish musician Dónal Lunny dies aged 79",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vRmJIWjc3SVIzeDkxY28wTEczY2tET3RBVEthbnZDX1htNkVGVHN4NExpaG8zaUZCbV81b19HUnpYd000QjFaUy1vY2h1WXRXeElMaXIwaVVrLUxuZThLSFlxNFpqOHVSbWFVUk95Y0ZqaUo0Z1NyODlFRG0?oc=5",
+       "source": "Yahoo News Canada"
+      },
+      {
+       "title": "Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWVg0c2RKc29DQXhnZ0FaNHFsdHdndlJVOE9mUjFyTG9ZOGhEVW5hTWIwRkJ6WXZILTV5S2F4dlRzaUpTTXpNdE1OMm5wX2dXV2V1Zk1VMVpNY3lvMEJreVYyTTQxREtFcXdyQjkyQ2c0UzhsSl81MF9qdVM4WmFUOXp1ODRTTkJyT2txMjZONlVibXdzakE?oc=5",
+       "source": "The Guardian"
+      },
+      {
+       "title": "Celebrated Irish musician Dónal Lunny dies aged 79",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkkyVWJLUDZmbHIxd2NBZzN1SUg4N0w5MENJSENrZ01Ucm8tVlVwekU1dDA0TkxFcVJlekp1VXBjTlJNRUFtMm96dE03MWNYWEVtSWl0SWlHWUpuQWZIdTNCc0JwNzVqUGZ2ejJwaFgzRENEQVhialVOVkxMU1NueDVGOHZuWWxSS1VXZjBTVDVhWnBzdlMyaTJVSWp3X1RoN2NF?oc=5",
+       "source": "The Independent"
+      },
+      {
+       "title": "Dónal Lunny obituary: Innovative musician who leaves indelible mark on Irish folk and traditional music",
+       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOXhwcFZZV2oyVDRxSU5MUUFjOFRPY1pqYnFvOThRSmYwS2dMWEU1d3J2Qzh3SkQ3UUFGNWhuT1RqZGo2QkFiei1MUlN5NFhfbzNTZ0lEWlNlRlMzV21zSDVlRGo5V1Rlb3otdFF0MXlrcnVhOXJJTW56TlF2bEtKTFJ2dFc2blZjNi1VSDBCa1ZpWDdqYXRkMGY2NWdvMFFST0NFZHhhdTZkUGJ1bFpQTHhxYktrRWZ5OUhRQ1NBTTN3eW1ETnpoQTRFZEljM2FuaVM2b3JTT2RIbTRuSEkwa3lpWVlPLTg?oc=5",
+       "source": "The Irish Times"
+      }
+     ]
+    },
+    {
+     "title": "방탄소년단의 'SWIM'이 스포티파이 10억 스트리밍을 돌파했다",
+     "summary": "방탄소년단(BTS)의 곡 'SWIM'이 음원 플랫폼 스포티파이에서 스트리밍 10억 회를 돌파했다. 해당 곡은 2026년에 발매된 전 세계 음원 중 최초로 10억 스트리밍 고지에 도달하는 이정표를 세웠다. 동시에 올해 발표된 트랙 가운데 전 세계에서 가장 먼저 해당 수치를 달성한 곡으로 기록되었다. 다수의 국내외 매체는 'SWIM'이 2026년 발표작 중 최초로 대기록을 경신했다고 보도했다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "BTS song 'SWIM' becomes first track released this year to hit 1 billion Spotify streams",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93MEZMbnBfblZ6aU1LZFVYTEs5M0RFMzdhX2hDa2pDdGpacjJBZVlmbFdKTmphNXdXZk1xSktGNzdxNngwYVFsWlpMdk5yMXlWN0IxZGdVQld0NEk1SjJiYXJxVlhQZTBVVkNic1hZRU9mNGRLM2JuWUZR?oc=5",
+       "source": "미디어파인"
+      },
+      {
+       "title": "BTS' 'Swim' surpasses 1 billion Spotify streams, first 2026 release to hit milestone",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pcm5hcW9hMV9zbGJnQThxRGJlOW9YV3R4M043WVNzS3RlYlVTOXF0Z29yMjVmSG95UGxoaFIzd1lhWkRYYjFtY01IdngxVmdVemg3ZE5NT0owR3V6OXJRWlR3dHphMnhLZ2s4MXUzcmpidw?oc=5",
+       "source": "The Korea Herald"
+      },
+      {
+       "title": "BTS’s \"SWIM\" becomes first 2026 song to surpass 1 billion Spotify streams",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbXZTTzF4Q0ltWnYybXVZRHdjNm5hZ05qNzBsVjVycHotSjlfVm9lalQ2NkprUVRzUVJrR3RIdmIydll1bFRIQnZDVkJ4RXR0dFFCNjdRbzMxMDZ4VzlNN21wV1o0cjB3cXQwUnU2WjB5Qm1OOEluVHlEVnBTXzdzNlF5a2Q0NlFwQzRXYVdzNEJWaGd2UXdyTUs4RjMzeWk5NDJfcWJ6R29mZ2NLa29z?oc=5",
+       "source": "allkpop"
+      },
+      {
+       "title": "BTS’s “SWIM” Sets Record as First Song Worldwide This Year to Reach 1 Billion Streams on Spotify",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oWHFTMGdHMFE4RC05S3RUNjJUT0FQeXdWb2NIOWVlYzJEaVdMMXBIV0FUbC1RNGktUFBPZEQ3V2JtZFZxczJ4MG9iYjdOcG8yVmc4NzctY1VLelk?oc=5",
+       "source": "씨네플레이"
+      },
+      {
+       "title": "BTS’s “SWIM” Becomes the First Song Released in 2026 to Surpass 1 Billion Spotify Streams",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaDRNZVV2emNNeVlLcjg5cnRLN0FNMTYxd21KWEc3TUx3QlNzQkIyWHFURXJhbzJvU0ZSQWxPV2lxcG9WamVBR0tTNWNtUHpRakpQcmJxVzJpR1RudHplZ2stTW4xQ2xwTWJxS3d0QmN1bWNTRlJCOGFkbWQxcDc5dUtTQW50VGtlNzhaWUlIbEJCUE4zSEVsMnh0SC1qeFEwOGF5VE1STzd5cDJJakE?oc=5",
+       "source": "OtakuKart"
+      }
+     ]
+    },
+    {
+     "title": "블랙핑크 리사가 솔로 EP 'Press Play'를 발매했다",
+     "summary": "그룹 블랙핑크(BLACKPINK)의 리사(Lisa)가 새 솔로 EP 'Press Play'를 발매했다. 이번 EP는 총 6개의 트랙으로 구성되었으며, 타이틀 격인 리드 싱글은 'Tarantino'다. 앨범 발매와 함께 전곡 트랙리스트 및 'Tarantino'의 뮤직비디오 관련 소식이 함께 전해졌다. 여러 외신은 리사의 이번 솔로 신보 발표와 수록곡 및 뮤직비디오 공개 소식을 다루었다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "BLACKPINK Lisa 'Press Play' EP: Tracklist, Tarantino MV : K-WAVE",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaFQzWm1aZzcxcktNRTM5dWFHTWNvU2RiM1hSclBlLS1lYTJnNU84d1JHSzliaHhTV1J6a3lOUjhjcFJPV0NmdkI4eGtzTEhfekV1b0tPTjdnUlV1cEpTdFJzZ0MzRERfNkhMWlktNmFrX0NweUd2V0Z6djNURnFFU1kxMlBpT25rLTZaa2RkbktNeVMyV3lYN2RWVmZ2YWFQSkhYQm1lR2hvQ1FwVC1v?oc=5",
+       "source": "en.koreaportal.com"
+      },
+      {
+       "title": "BLACKPINK Lisa Drops 'Press Play' EP: Tracklist & Tarantino MV : K-WAVE",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM2UyaW1mRmpRZlVHMXRpZkh5cTA5amdLNllvZVNUZU9xYUJYQVg1Z2J2VXVZNDAyVURIRVBTTWpISzA1elAycU1RSEtfb2lLdHJxR3JRSDc4eGd6elJUQXFhLXFZQVB6N1E1M0hYUE5Wemh5TFhwQVRYblR6QVQxb1Q0N0Rad09heUs0V2V3YUxpUlFMMTNvNEdMZkNqXzlmRzUzamE2d0RHUQ?oc=5",
+       "source": "Korea Portal (English Edition)"
+      },
+      {
+       "title": "Blackpink's Lisa releases new EP 'Press Play'",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1SUWd4eUVGdmxhRTJMeXF4VVRkN3BoNFRkQ3N0NnJSNmVtMzFiQS1iM1d5dmZ1Z01pN3pOOGM5WEtCM3VsSjNHRmVubmx4a1ZwdmVTbkJOTQ?oc=5",
+       "source": "The Korea Herald"
+      },
+      {
+       "title": "Blackpink’s Lisa releases six-track solo EP ‘Press Play’, led by lead single ‘Tarantino’ (VIDEO)",
+       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZWdvUUZlalpTVlZHd3lpNFY2V3FsR01WTFBQdUFFenpScUo5YzY4NmFSX1QtcjZkLUlLRXlBaEVaRUJtbTcwcEJqTFBpTnJvWmVrdGFBZTJaakhyM3Q2Q2ZDOFRrMVNlbHFtaUZPRk1JekQwVkZwN196Yno3QTQ2SnMya3JiNjkyemc1bkJZQllkUl96UDYyZEIwSkEyOWtVU19yWE84a2xqUVU5ek9SanJwWWhpbFE3LVdJczZkYmYzNWwwUkhRTHhIYlBjOHVxSHNfZTctTk9OVjhpcHZBWkl0Y9IB4wFBVV95cUxQZWdvUUZlalpTVlZHd3lpNFY2V3FsR01WTFBQdUFFenpScUo5YzY4NmFSX1QtcjZkLUlLRXlBaEVaRUJtbTcwcEJqTFBpTnJvWmVrdGFBZTJaakhyM3Q2Q2ZDOFRrMVNlbHFtaUZPRk1JekQwVkZwN196Yno3QTQ2SnMya3JiNjkyemc1bkJZQllkUl96UDYyZEIwSkEyOWtVU19yWE84a2xqUVU5ek9SanJwWWhpbFE3LVdJczZkYmYzNWwwUkhRTHhIYlBjOHVxSHNfZTctTk9OVjhpcHZBWkl0Yw?oc=5",
+       "source": "Malay Mail"
+      }
+     ]
+    },
+    {
+     "title": "블랙핑크 지수가 새 싱글 'ADDICTED' 발표 소식을 알렸다",
+     "summary": "그룹 블랙핑크(BLACKPINK)의 지수(Jisoo)가 신규 싱글 'ADDICTED'의 발매를 공식 발표했다. 발표와 함께 신곡의 분위기를 엿볼 수 있는 티저 콘텐츠가 함께 공개되었다. 매체들은 신곡 'ADDICTED'의 발매 일자와 세부 사항 등이 포함된 티저 소식을 전했다. 솜피 등 여러 매체는 지수의 신곡 티저 공개 및 발매 일정 안내 사실을 집중적으로 보도했다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Watch: BLACKPINK’s Jisoo Drops Teasers For New Single “ADDICTED”",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM204QjV1MWhQejU1d2hVcWxQZkVhVHhMMEJiVEhpY2VnejBYNjg0dU9iWDNoR3NwTDh6NHJ1UFZHVEphX3hWaG9rd3FlZF9NY2ZEMjFreUxtT0xxSXpCTWI2LW0xVHdpYUQ3TExVMG9UdDg5eVdxdmRzTHNVU1NGNnRIMEE2Yzgwd19rcEdfMVNVdVR2bXk3X09ET21zeVl6cTNGcw?oc=5",
+       "source": "Soompi"
+      },
+      {
+       "title": "Jisoo announces new single 'Addicted', releasing on THIS date",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZUNaUXZiOVFBRC1EQ0U5SGQtZW42MzRiQ3d6YU1lb2huN18wUDRzT1Z1WHBTM1VGM2NiVUcySFRTZ1I5TGE3TVVrZUFTWVdvMUdmZDI0Y2F4ZnFlNzYzbGxCSmZkM0hGa1R6ZVpDbE5pMUFwYl9lVDU1cmNabUJhSWZ3bkdHWWlxV3Z0elFmMVlZNzlOS0NOVHl2TjlyelJib0FMNjdWTUgyT2s5OGpwZ3NLZ2RYaW9wRWhF?oc=5",
+       "source": "Business Upturn"
+      },
+      {
+       "title": "JISOO Announces “ADDICTED”: Release Date, Teaser and Details",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lOTRlY2tZNjN0TTRuUzVULU5XV2Z5Q0dhUTAybkplWDg2SnhXdVpjTTdtQ3ZUVnpUdFpiMFhiWVl4cVJ0MXZRNng0cUlXQzEtRkNSSzNNZ3BqYW41UWV0a0NaN1YwY3BFd1E?oc=5",
+       "source": "InMusic Blog"
+      }
+     ]
+    },
+    {
+     "title": "투모로우바이투게더, 신곡 '엔젤 바이트'로 11월 16일 컴백",
+     "summary": "그룹 투모로우바이투게더가 신곡을 발표하고 컴백한다. 이들은 오는 11월 16일 신곡 '엔젤 바이트(Angel Bite)'를 선보일 예정이다. 이번 신곡은 현실 속 청춘의 사랑을 노래하는 러브송이다. 여러 매체는 해당 곡을 통해 그룹이 전할 새로운 메시지에 주목하고 있다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "투모로우바이투게더, ‘Angel Bite’로 컴백…현실 속 사랑 노래",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tNW4zbC1tcS03RjVabUZjTWZMeWE5V2dCQVZNanRYc216V0lIM2t0VzNsc1ZmODZBTHhIbnVNY1U4QUhNY2ZGOFpTNGpPSlZPakpyTWZLS0RlQ0xRV01RcGN3N0IzZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "투모로우바이투게더, 11월 16일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVaGNiaGhWUFhDa1VvTjdGYWU4UGdMYi1qNHcwcmRvRTJPSU9DZXJuOWd4RnhMTHVic1hxU3hVWWUtODlVdnNTM1dNX1Awb1Y2dVRmYjR2dG1BNGltTWs1M1ZzM0M?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "투모로우바이투게더, 신곡 ‘Angel Bite’로 청춘의 사랑 노래…11월 16일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wNUZSLW1waGNlMjRxVnZEQlBLYUN0enNQXzhTaHRhcUlGRDhmSDFGQ1RBTGkyRWZyYllLcDhQODZ2bDg1eHFMTWJJQlgxdzY1RU9qWThRWENiVnN1M09XN295ZXJ3VGFQUVdXWUJn?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      },
+      {
+       "title": "투모로우바이투게더, 러브송 '엔젤 바이트'로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91RGdiLThJaVFLY3NabHREejI1WEY1NmFYUmViRkRTbGFTUWVGSzlkbDRhMmVzTXNHTmVEVWdVY2FUaUVPeGczREdXX3Vod19uQlRqWUw3QmNucVZPSXZ4TkROUdIBY0FVX3lxTE91RGdiLThJaVFLY3NabHREejI1WEY1NmFYUmViRkRTbGFTUWVGSzlkbDRhMmVzTXNHTmVEVWdVY2FUaUVPeGczREdXX3Vod19uQlRqWUw3QmNucVZPSXZ4TkROUQ?oc=5",
+       "source": "파이낸셜뉴스"
+      },
+      {
+       "title": "투모로우바이투게더, 러브송 '엔젤 바이트'로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiN25nLThaOWF5LXplVlFXZU93WHNPdGJVcEZpa2hSTm9XdmExLU1jdFY0OFhMZmVkLWNHMU1DXzdyZDE3MUJQWG9HUXZlTHpSWW9NaGtwckxFSmZzRDFxOA?oc=5",
+       "source": "뉴시스"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 양홍원, 결혼 5일 만에 불륜설 불거지자 애정 행위 없었다고 해명",
+     "summary": "래퍼 양홍원이 결혼한 지 5일 만에 불륜설에 휩싸였다. 이에 대해 양홍원은 모텔에 간 것은 사실이나 애정 행위는 없었다고 해명했다. 이번 논란은 결혼식을 올린 지 불과 5일 만에 불거져 여러 매체에 보도되었다. 관련 사실관계에 대한 다양한 보도가 이어지고 있다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "결혼 5일만에 불륜설 휩싸인 래퍼 양홍원…“모텔 갔지만 애정 행위 없었다” 해명",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CeWpWSy1OX0VQSG54b1RjQ0pnVW4zYXNDX1RPTnc5YnpsOVN4NE1HMlNoZzBweGQ1TnNzbjBrdmpoV0RXWVhPb0xfU1kzT0NJTi1zSQ?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "\"모텔 갔지만 행위 없어\" 결혼식 5일 만에 불륜설 휩싸인 래퍼",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhSWt2SHptZEt4OW5EeUEzaVBaUDhOVEI1dzZwbUVfNEYxeVhEUlg0cGNqMXB2Ym5kQTdIRlU3VE80SThpUHlHdEJ5SFZNaXliTFE?oc=5",
+       "source": "노컷뉴스"
+      },
+      {
+       "title": "“모텔 갔지만 애정행위 없었다”… 결혼 5일 만에 터진 래퍼 양홍원 불륜설",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNGxNUW5neTRadUhQbVVlUXhFUHZlT2J6MWktcC0xUVpwaWVpOTd4dkdxa2lGUGdZUnM4WnpZam9qbGJReE5KRktiWjJBUC1INWtxOVkyblpQRWdrdTNhVEpaNVpCQ2t2N2FZZWFQQ2tEekF2WlA2VGJ4Wks4Q184ay1aSnVtRTZ1bFpRd1FvQW4?oc=5",
+       "source": "뉴스와"
+      }
+     ]
+    },
+    {
+     "title": "여자친구 살해 혐의로 유죄 판결받은 미국 래퍼, 판사에게 사형 선고 요청",
+     "summary": "미국 플로리다주의 한 래퍼가 살인 혐의로 유죄 판결을 받은 뒤 판사에게 사형 선고를 내려달라고 요청했다. 해당 래퍼는 임신 중인 여자친구와 태아를 살해한 혐의로 기소되어 유죄를 선고받았다. 이후 그는 재판부 판사에게 직접 사형을 선고해 줄 것을 요구한 것으로 전해졌다. 현지 매체들은 피고인이 스스로 사형을 요구한 사실을 집중 보도했다.",
+     "ai": true,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "Florida rapper convicted of murder asks judge for death sentence",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdFZ5c21qNjVaX19wU1poWU1KOUIyZ0lsSzR1T0JfdXpmZG51NU5KY05jMVF2alhXNkNkMjcwZHRTaEs0ZDRTTkhRVXp5c3BoM2hGMHZhNlgwYVQyMnI0S2lKaXVmOHVZQzB1RVRKVEtEbjhzUUZ4Zkp4YTRiemg3QnR0ZzNlbFpqYldGRUJ3MlNWdXlrT3ZXZDFwX3NJNWhvSXJJTnVQd3ZMendzRjBiM2lwSWx4WWV1YmxlR3VNX3FaTFh5c2J3TE1BbmxNRFU?oc=5",
+       "source": "Sarasota Herald-Tribune"
+      },
+      {
+       "title": "Florida rapper convicted of murder asks judge for death sentence",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQREtZT3piT19HZ0dHR2JfektwUDNMQ1JJLVY2eGpNUGJxQVlWY0EydnRId2c2ZVloUnRheHQyblNhcnBvTUNYNzdVdjUwNW0wNkRtb1VMWDlqVWxuVk1xUW0zZ2lqTUVGUnMzb19qcjFpSXpMZjlxeDMwaW03TWY0MTJtLW9PRk5hT25tYV9NaWhQdHpvWEFoZVAyVkhQcWEwNmFMQmtOWnJRRHFObjd6cDJocnh5dGt4MjRmeEdWZ01LeXRSQ0hzSGpB?oc=5",
+       "source": "Marco Eagle"
+      },
+      {
+       "title": "Florida rapper convicted of murder asks judge for death sentence",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWlY0OHZ6VF8zMUpMbnlJbzJvTW5sTnExVmhHVGNwYkF5NU1oU0k3dmJ1NzJZQlFxTkFvMTl5UVVkWW0xWVBsd1hySWNoYl9vem1rNW1sSTVQUVJHelcySFdaS2gzdHY3eEFYMTF2bVlfZURUbUczRkN2RGgwRURnbFZFWXpLX0lUaDdMcWVoYVlOTzlaVXFBcHVXMUVIU1FYOW9MQlZ1OXhfTWFYQjE4S0pQTFdrU0pDdENURjNCZWh4eWgzMkl2RmZnWnQxTTA?oc=5",
+       "source": "The Palm Beach Post"
+      },
+      {
+       "title": "Florida rapper convicted of killing girlfriend, unborn baby asks for death penalty: report",
+       "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxONVV3N29QM0d4cE9ib1BNaHl3N3pCaGRCcVBMWF9Rb0w5dkFDVDAzS2E4U2JYUXRKUkhWMlIyRWptQmxnaFl3MXhYR0FXOXNiU0U1UGl1M2hLRXd0RkIyV1ROVmFwbWpGeWFfX0ZNMEVkenUzWG5ZNXQ2OE56S0JNRHZvVnRPNXlUUmVGWjd5ZFJkN2hfOEtqaWJUSndYMHRTWVJMY0Y0WVdUTzBBRFo5YzNmWXZTV05ybHV4UGloY1V6VWJKZmt6Sk1fajdfdkFUVjhWNjVRcGxaQkt4cmdGSy1IcEhKR3lBcmRCU0Y3WWNFdU01ZG5WalRFanVhcWNyX21NdTFmWk8xNDZEWG10a0RlSExhZkpNQWVIa0JpM25XMFA3TGJnVVpwRVFmNGUxYUFoZ1d5MGYxZTdicldsandwME9OTEFWVFZjaUJEMVd3bG1ETlJIY1RpaUNIblot?oc=5",
+       "source": "KVII"
+      },
+      {
+       "title": "Florida rapper convicted of killing girlfriend, unborn baby asks for death penalty: report",
+       "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPeFVlTndHN01PRGxNeDc2bTNNUkdDZGlWbEk3TGVsTGtkN0drbWxnMVpKakE1MjZlT1YycVpORzdEaVk1YTV2TlhtQkFhaXBVUk9xNWxiLTJFczZadlVZTzk1Nk9jTk5PSzRuMzlGNTlsUm80TFlIaVNaclU5OXBHYy12UVFWNjZ6bUZUNk1mV2NCaVlMRlJib0JwZDJJWmllMF9EUko2UXpTTG83d19jZy1Ua1pCRjY3dkJxQTFLVlR0Mm55V2NGaEhTRUJNN2ppSGFRbEE3dm1vUEdHM2ZxMzN6OXpZNjFjcVZTdFN4QmxaeE5ZU3RzdDBkTm1Bek41ai1ZSFhFVnlVaFlXZWx0d1poallnY3d4UGUzWDFoSjVuU19uT1NrS0JZR18xYkZBYkNBRzBWR3FZVkJ0TkJ5NnVMN0t4X2lkTWdBZ1JObFI5d0F5bVE?oc=5",
+       "source": "KATV"
+      }
+     ]
+    },
+    {
+     "title": "투어스, 11월 2일 신곡 '내 이름을 불러줘'로 컴백",
+     "summary": "그룹 투어스(TWS)가 오는 11월 2일 가요계에 컴백한다. 이번 신보의 타이틀곡 제목은 '내 이름을 불러줘'로 확정되었다. 이 곡에는 팬들을 향한 진심이 담겼으며, 멤버 신유와 도훈, 영재가 직접 작사에 참여했다. 투어스는 11월 2일 발매를 앞두고 컴백 활동 준비를 이어가고 있다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "투어스(TWS), 신곡 ‘내 이름을 불러줘’에 팬 향한 진심 담았다…신유·도훈·영재 작사 참여",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJQVJwbkdCamhITjh3MTI4Q1l4bVN4cy1SV0lucXJhdEMxQ0d4dThObnF4RXhlYUpvUTRZd3lxbG9mWEIzQ1hwdHhCOGRtb2FMZTlERVBpc1oyNHA1eG1BM0N2SXpyYWlPeTlSNlR3?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      },
+      {
+       "title": "투어스, 신곡 ‘내 이름을 불러줘’로 11월 2일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qNjl0S19LdUxSQzk2SzNrTm1aSnVoLWpraDRvTmJvVzdsV1lSZWdxMHpvTkhiZ1dMaVhMdE9pd3RfM0hTbUwwWUZ2Y2ZnTm1ETFM0cGJ3dktFYVVrS0Q2MGNoRXZlQXNOT1R6QzVn?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "‘11월 컴백’ TWS, 새 타이틀곡은 ‘내 이름을 불러줘’",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56akc4Z1lTSkxtdFdPcmsycUItVENWdkIwTUN2UmZUZk92cVZMYXp1SC1sU2tCREFSZTZnU21TVUNsRllDNW1Edkh6ZVQ1RDk2TlktbQ?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "투어스, 11월 2일 컴백한다…타이틀곡 '내 이름을 불러줘'",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5OOUpBZENKVnIwZnk4b202ekpPeXZmbFg0SGd1YmdoZjlES25GMnA5dENLTjcwTGJVOVZkUjJxSUFzOE9zQl9WMF9B?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "11월 2일 컴백 TWS 신보 타이틀곡 ‘내 이름을 불러줘’",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtMGVBVjVMdWNpVm93ZzdjM0NfTTJXTW9RT1BDbzI4WGhzbjVSMkRQb05UT19HQU44OS02cHhoclFSU2c2Snp4cnc3V2NzWXpwLVFTUlJabVpuSGc0M0JwS3JGX3pkelhr?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "아일릿, 신곡 '체포하겠어' 뮤직비디오 티저 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "아일릿, 신곡 ‘체포하겠어’ 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoOFZBTGRENGJ0WmNpQThzeU9HTHRyWUJnYmFYNmsteExzLVU4cUgxYVZfT3U5UkNOU20zZjVuOG0xZllTX21YaTNRSlNQWDBiazZfb1RsTkI0X0JuOE9XeXB3VDM?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "아일릿, 블랙 요원 변신..신곡 ‘체포하겠어’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLOHF5cXBISlNqd1hmVlRiamNpbGNVdUpnbFJMaU0xRTVNOGpnbW1nRG1mVk5hUEpiQmVkNVFMcVRSTDdrcFhRWHFIay1VNll5RE9XMQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "아일릿, 블랙 요원 변신..신곡 ‘체포하겠어’ MV 티저 공개 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHI4TkRMNkh5cVpuX0RsUEhNRWZ2SzdEbjBIUlNMLU9HSU93ZE9aenRNeWVNdWJMbnJQNG9CdTFIejRzNVhaSXJFNENITkQ2SWpxVFpQM2d6ZC1saHBxMGpRM2U3VGN1M1dDYTA5MmlOdGtiSlc4ZkhLLU9XQ2hVQ1BLNHpwdjlzcFZJaExQSXFZcjJjbm5uUEc4Y2pZQ3o4YXVmS2lKWdIBpwFBVV95cUxObHI4TkRMNkh5cVpuX0RsUEhNRWZ2SzdEbjBIUlNMLU9HSU93ZE9aenRNeWVNdWJMbnJQNG9CdTFIejRzNVhaSXJFNENITkQ2SWpxVFpQM2d6ZC1saHBxMGpRM2U3VGN1M1dDYTA5MmlOdGtiSlc4ZkhLLU9XQ2hVQ1BLNHpwdjlzcFZJaExQSXFZcjJjbm5uUEc4Y2pZQ3o4YXVmS2lKWQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "‘26일 컴백’ 아일릿, 신곡 ‘체포하겠어’ MV 티저 공개..블랙 요원 변신",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1EWlpNQ2tvcDdISlRzQm1xN09obTZuNTljWktlNU1Ub0RmVGlmcUxEek5EcGZEdk1BbUo3c1BJZlhkdw?oc=5",
+       "source": "브레이크뉴스"
+      },
+      {
+       "title": "아일릿 신곡 ‘체포하겠어’ MV 티저 공개, 어장관리남 쫓는 블랙요원 본편 궁금증 증폭",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6Qk03NTU2a010TWF5UENDdDVzeUFGenFYRnV6QTlKQ0ZhbnJCVjRkUGp3SUEwd3ZRRThwSmxzcGhmcE43RjA4aXRScjYxQmJhcEJZZTgybkxpTklfOE8yUXd4REIxN0VuY3JGTTVJSnpnVmJvSkpqWU1vWQ?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "규현, 12월 서울 공연 시작으로 아시아 투어 돌입",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "규현, 12월 서울서 아시아 투어 포문..신곡 무대 예고",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vSWFqUHlBSlBHclJrVEQtXzBFWGJuTWdCUGg2WDJYYjVxX3V1ZWYzLVFrN2dBOFVhNFZiQzA3Y0oxV2NEVE53TnM1Ylh6dzVxLXQ0Sg?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "규현, 12월 서울서 아시아 투어 포문..신곡 무대 예고",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3TlVVY2tzM2dsV3Q1bklETm1tWFlqUi1KeTBRVGM4OGdGQ0IxSzF3WHpObEgwQVNzT0NwWk1yZDlKR2VmcWJGRkNfVGRHZW5lRDhpUTU2am15MnF6YnZSTGdB?oc=5",
+       "source": "미주중앙일보"
+      },
+      {
+       "title": "규현, 12월 서울서 아시아 투어 포문..신곡 무대 예고 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT3JoYldkZFhXc0tZbFUxWGkxcmowUTRsTTkweTh4blRSMjV2aEdwZWExSkpRV093bTlyMGdqQ3V0OWVIM3kzZnlvOHVxcDBYOVpPc2tWZkd6WElua0p4dHZ2TGRKUkw2ZnRiQU5pV1FSMTNOZmZoMlVwdUFOVmxUTjdIOHg5elBtZV9SRVVoVTJoZzjSAacBQVVfeXFMTTJuU0xua29uaUFqMVU3ZkdPRW91dUpfc0JmTmYxN3E5eXNzNXdJODNJUjMyOWI1akpCRVp4dll2ZnB5OXVRYWhrelRzcWJvREU0c3FtbEVsNjIyb0NIYXJEVHQzNmphT212d1FzNHZvdXhVdzUzWGF4X2tKNTJHcC1xd0x4czhyRmFpQ20wZG5LU09XUXV6THRoSkpINURCVG1OODM4OXc?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "규현, 12월 아시아 투어 ‘CONTINUE’ 시작…서울서 3일간 팬들과 만난다",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90dnlXNmwxODBiMWlvVHJJdjhwc0hwZ3kzNS1sMHdISUhERU1MOW9iN1ljMVdITXdodVVjSGM2TGNvbWctMTFrWjlRS1B4OF9jZ3NGSjZnRVBTZVJaMjZYM1BZX25abkNCRThzOVpB?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      }
+     ]
+    },
+    {
+     "title": "라이언 고슬링 밴드 데드 맨스 본즈, 17년 만에 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Ryan Gosling's band Dead Man's Bones is back after 17 years",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZlRUbmtvQVJoVm5GZ0hqRDNZZzJlMmxrSzRzb3VSOXd4RHZzLVA3RTdDTG5sZHdQWGNDUEpLbFVCR1lRUll2VWY3RjJES2RsYVhxQnAtekY0TjhRRU9VMldrOTc5Wno3bnEzOERZR0tMS2F1OW9Bbm10V01IZ2l1QzhuYTY2Y2pKNXBLcjdpUVM4Sm5kTy1yVnBiYw?oc=5",
+       "source": "The Line of Best Fit"
+      },
+      {
+       "title": "Ryan Gosling teases new music with band Dead Man's Bones",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MaW1pR2tZNEJPOENBZVl5YlZjNEstelpXanFDb1R0UTZHX0NMTkRrVWhzcEE4M1Y5Qk03bHc3MEt2ZHBmTnpXc0JtSXlpV3NwM0taTllNbGRjaW51SFdycm50WjVlX1VVNWVlQ0x0MFgwYnB3dHBjQnBOMVQ?oc=5",
+       "source": "CBC"
+      },
+      {
+       "title": "Ryan Gosling’s rock duo making a comeback after 17 years",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVXRkbXFCNHpLYm90Yld4R0xheHlOeWRLNUctSWZXQlV4eTZWbFd5eG1fNENCdTFhN3NnR1FySUN5OUZ5N2REaDJMdkhQNjhoWlgySHYwUTZfaU5pMEg5S3B0blA5NXZYYzcyMHplVTFYdU9iMUhJekFRUkotaXo4bVp6U0VBUHdZNXlMZHJXN1rSAZYBQVVfeXFMUF8ycm9IQVdjb2RNdUg2cHRSUmlNY2hYYXg5N1V6MEY4M1hyWFIycUNWeGlWbXF1OWl4cmk1elUxdlJBa29hZXZMTWgyOVJHNjlVMDNtMWgyUE5BUGxjZFhYd2lVTjJQWTZNMVI0c3pjSTY4Z3lYWFRVUzJITjBvN3BsN1laaFpHUnlfRWFqeXFBamV5TXNn?oc=5",
+       "source": "KTLA"
+      },
+      {
+       "title": "Ryan Gosling’s band Dead Man’s Bones teases first new music since 2009",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc2tpbzluVnNqZ3NUMkwyOURybm80dzM5ZGFpOUIyUHJvLWt1SUxCdkxXMFFKN0NkTkVWYnFkYm0xNE1DckdIMlpxcmtjOTBmeE9pRkhUbDV4U0ZhTEMtWE5mSjliZHZHdmNVQTBqUkRIbkdWbzRwdGZlZ2lZZkE4a3R0YkxHeFhwajVVcw?oc=5",
+       "source": "New York Daily News"
+      }
+     ]
+    },
+    {
+     "title": "美 팝스타 슬레이터, 성대 이상으로 유럽 투어 취소",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Slayyyter Cancels Remaining UK and European Tour Dates",
+       "url": "https://pitchfork.com/story/slayyyter-cancels-remaining-uk-and-european-tour-dates/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Slayyyter Cancels Remaining European and U.K. Tour Dates Due to Laryngitis and Vocal Cord Tears",
+       "url": "https://www.rollingstone.com/music/music-news/slayyyter-cancels-european-u-k-tour-laryngitis-vocal-tears-1235647296/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Slayyyter cancels UK and European tour dates due to illness",
+       "url": "https://www.nme.com/news/music/slayyyter-cancels-uk-and-european-tour-dates-due-to-illness-3974102?utm_source=rss&utm_medium=rss&utm_campaign=slayyyter-cancels-uk-and-european-tour-dates-due-to-illness",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "제로베이스원 EMP가 다이나믹 듀오와 협업한 신곡을 발표한다",
+     "summary": "제로베이스원 EMP가 다이나믹 듀오와 협업한 신곡을 발표하며 컴백한다. 이번 신곡의 제목은 '런(RUN)'으로 내달 4일에 발매될 예정이다. 제로베이스원 EMP는 신곡 'RUN'의 타이틀 포스터를 공개했다. 이들은 다이나믹 듀오와 함께 신곡 '런'으로 질주를 예고했다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "제로베이스원 EMP, 다이나믹 듀오와 신곡 발표",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDZVJUTWtSMFRGdGdEeGNIYnBTc3J0ejBVWHM0SDl0a0dyUkdqOVNtSFhoUE5xV3RtUzhfZlNvYjU1RzFfcUh5TEthQS1wdmowV0p6Vw?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "제로베이스원 EMP, 다이나믹 듀오와 협업…신곡 '런'으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4wRG02azdWV3NfSnlTQW1RNHhOdzdXM21wOFdkVVNWMjlqLXIzSkVTcUdJdERrdTBNaEZFV29DVjNDT3VZUl9Kc2kxR0hhN19OczdCTjU3VQ?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "제로베이스원 EMP, 다이나믹 듀오와 협업…내달 4일 신곡 '런'",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZHdFdDZidlpHa3pNMVVaVl9yRTdRMDR6ZGhyU0toWEVPQ214UFR4azZIQVBvdzRWZTRCTmdMczh5YmRTMmtiaVJOUlRtUUhGOHZtMXZ3ZTNrV2ZOWlBscG5FdVJOMkFLcW1aQ29URVNGN1g3dWRaVjhpWGwwaVltWQ?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "제로베이스원 EMP, 다이나믹 듀오와 뭉쳤다…신곡 '런'으로 질주 예고",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wazkyYi1fcGtrbXQ0MTU4cENpZS1XTXNqYkZ2Qm0zT0RBZU9HLTdWaFFvX3A4NENKc1Fvd0lUdzJwaHNwS3c2ZzVnaHBVQlhVTFFTLQ?oc=5",
+       "source": "www.xportsnews.com"
+      },
+      {
+       "title": "제로베이스원 EMP, 신곡 'RUN' 타이틀 포스터 공개…다이나믹 듀오와 협업",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFS3FUV2QwdGpMYWFDdTkybzZwWTJKeUdTRUh4YXlYTGU4RldSYmEwNkZhR1NMZm9uanJBMGRIa1dBbDRiMUp5SDUwLVRsQ2x5ZUY2d19NS2hXaUVqYy1ZemJEdVJkQQ?oc=5",
+       "source": "뉴스컬처"
+      }
+     ]
+    },
+    {
+     "title": "피원하모니가 미니 10집 '블로우 업' 마지막 재킷을 공개했다",
+     "summary": "보이그룹 피원하모니가 미니 10집 '블로우 업(BLOW UP)'의 마지막 재킷을 공개했다. 이번에 공개된 신보의 마지막 재킷은 초현실적인 분위기를 담아냈다. 피원하모니의 새 미니 앨범 'BLOW UP'은 열 번째 미니 앨범이다. 피원하모니는 오는 11월 6일 공식 컴백할 예정이다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "‘ 11월 6일 컴백’ 피원하모니, 미니 10집 ‘ BLOW UP ’ 마지막 재킷 공개 피원하모니, 초현실적 분위기의 신보 마지막 재킷",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpcjBRbDl4cEV5TDNoV2JGcWVNbU1LaGhHaFhOY3hJbndDcE03ZnM5U3RGX0lPOFZlWkNPYzc5LWVDbVVLV0R2WGdiZS15N0w1R01xYlNoTGJUUkdlQU5UelgtOFhKVXA4YVdUUHVwVQ?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "‘ 11월 6일 컴백’ 피원하모니, 미니 10집 ‘ BLOW UP ’ 마지막 재킷 공개 피원하모니, 초현실적 분위기의 신보 마지막 재킷",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8yNEdqcTF2aGlTRWt1WFpYQ3ctWFdnYmY4b3RWSkdmbWNDQWJqaHFkTGxmNG9vN3hXVElmMUJEWVVNVDFrT1J2S2dybnVpN0RUTUZ6VHhoTWpFd2pId3VrOFZtd21EMzJBMVk5RW05dw?oc=5",
+       "source": "서프라이즈뉴스"
+      },
+      {
+       "title": "‘ 11월 6일 컴백’ 피원하모니, 미니 10집 ‘ BLOW UP ’ 마지막 재킷 공개",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vd2VuTjJNUF9hbWRYSkxTMkpWNG9tYS0yaGg0SUI4Ml90ZEY5M1c2aEU2TFRVdjJKVzFETXZxZGdaMEFVbG1BV2FZOHhPRXZGZnZGWkJvYzBzc2NqXzhjcmpTS0kzMUtWUWNlb2ozSdIBc0FVX3lxTE9xcVUySW1acnpDVHZJa3A5SHZEdmhZTGh6MUJnNXFLVkZKVlNHUlVyYXlobnhlZUo0cUpIOFZVQnptZ055cGRGVFctbFhCVWd4QXJkSnNIZFNFUmE4ekZUUTBsY2Q1SGpRR1NkXzZ5NVdoNGM?oc=5",
+       "source": "현장뉴스"
+      },
+      {
+       "title": "'11월 6일 컴백' 피원하모니, '블로우 업' 마지막 재킷 공개",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONS05WHB1NlhNMnpsTkg3azNCcElSamdfa29VWWJ0Mi01MU1memxLblU5aUxROEZFdGtmZlJ4SHFtZkh2ZThUdmQyZnRqV2FqZVVJUThXdWVwWGhxRHVRR2c4NURIZmZndExUelpCNVA3S08tNURtMEluTWFIODhIXw?oc=5",
+       "source": "이데일리"
+      }
+     ]
+    },
+    {
+     "title": "채플 론이 LA 공연에서 핑크팬서리스 등과 듀엣 무대를 펼쳤다",
+     "summary": "가수 채플 론(Chappell Roan)이 로스앤젤레스에서 열린 공연 '슈퍼 그래픽 스펙태큘러(Super Graphic Spectacular)' 둘째 날 무대를 마쳤다. 채플 론은 이틀간 진행된 자선 공연의 마지막 밤에 핑크팬서리스(PinkPantheress), 롤라 영(Lola Young), 캐롤라인 폴라첵(Caroline Polachek)과 깜짝 듀엣 무대를 선보였다. 채플 론은 캐롤라인 폴라첵과 함께 '룩 앳 미 나우(Look at Me Now)'를 불렀다. 앞서 이틀간의 공연 일정 첫날에는 크리스티나 아길레라(Christina Aguilera)와 함께한 특별 듀엣 무대로 시작되었다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Chappell Roan Duets With Caroline Polachek, PinkPantheress, and Lola Young",
+       "url": "https://pitchfork.com/story/chappell-roan-duets-with-caroline-polachek-pinkpantheress-and-lola-young/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Chappell Roan Brought Out PinkPantheress, Caroline Polachek, & Lola Young At Super Graphic Spectacular Night 2",
+       "url": "https://stereogum.com/2515445/chappell-roan-brought-out-pinkpantheress-caroline-polachek-lola-young-at-super-graphic-spectacular-night-2/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Chappell Roan Concludes Benefit Shows With Surprise Duets Featuring PinkPantheress, Lola Young",
+       "url": "https://www.rollingstone.com/music/music-news/chappell-roan-performance-pinkpantheress-lola-young-1235647178/",
+       "source": "Rolling Stone"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
