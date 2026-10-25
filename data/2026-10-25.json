@@ -1,0 +1,442 @@
+{
+ "date": "2026-10-25",
+ "generated_at": "2026-10-25T22:43:16.911914+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 7,
+ "llm_errors": [
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 683,
+   "issues": [
+    {
+     "title": "엘비스 프레슬리 권리자, 앤트로픽에 4100만 달러 규모 소송 제기",
+     "summary": "엘비스 프레슬리(Elvis Presley)의 권리자들이 인공지능 기업 앤트로픽(Anthropic)을 상대로 저작권 침해 소송을 제기했다. 원고 측은 앤트로픽이 AI 모델 클로드(Claude) 학습에 허가 없이 274곡을 사용했다고 주장했다. 이번 소송에서 청구된 손해배상액은 4,100만 달러(약 4천만 달러 이상) 규모다. 원고 측 변호사는 이 상징적인 곡들을 깊이 보호하고 있다고 밝혔다.",
+     "ai": true,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "Elvis Presley Rightsholders Sue Anthropic for Training on 274 Songs Without Permission",
+       "url": "https://www.rollingstone.com/music/music-news/elvis-presley-rightsholders-anthropic-lawsuit-infringement-1235647682/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Elvis Presley rightsholders sue AI company Anthropic over alleged copyright infringement of 274 songs",
+       "url": "https://www.nme.com/news/music/elvis-presley-rightsholders-sue-anthropic-copyright-infringement-274-songs-3974178?utm_source=rss&utm_medium=rss&utm_campaign=elvis-presley-rightsholders-sue-anthropic-copyright-infringement-274-songs",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "밴드 색슨 전 드러머 나이절 더럼, 향년 61세로 사망",
+     "summary": "밴드 색슨(Saxon)의 전 드러머 나이절 더럼(Nigel Durham)이 61세의 나이로 사망했다. 밴드 색슨 측은 고인의 가족에게 사랑과 애도의 뜻을 전했다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Former Saxon drummer Nigel Durham dies at 61, band sends ‘love and thoughts’ to his family | Hindustan Times",
+       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdkR2VGpYZ1RWNFB2dGJqODE2Sk5qX1RpVzNURUxiUk85N3RyQVZHUHkxeGlRQ2JzN1E1ZThoZ3hCOG9FX3NDa3VlUzllT1A5dGdlOFZ6UlV4Z05RREEzdHBBUndUZDN2SUxyU1FlaUZ6blJxeEx3NjJ4SEkzTndnS1dOc2NxNWNlY1hKY1FMR1JibjRWY3RNT0p2anpuS1hDRWJWV1JYemJxb1dOVnJjZG1FTXFpYXZ1TUlGalBhRW8wTXplY3MzQVNBQVloYm9ESVZHS1VZdVE2NHNkdE40VmZqZ2NEc3dSeDlPd1l5Y9IB9AFBVV95cUxNczU5UmtRSk5vRVZwbDBoYUNzaDBXZHdqUzZDZVR5eV9QOS12c3VkNU1ETDJrNlYwZmZoM3pMZDJVYjZRbS1SdjIyWG96eVdfZjJ1R1JyU2JwUjRDRE1hbTY1alVGQWNBZl93Ym05Yzh3UzRVV0xQTms1QnJuQ0h6Q25GZFBPR1c0SkN5Y1FoNUVxUVJkd2NWc05VZm8ycVROVXZpTy1JMkhhd2ZKcml2MHFfVENlY05aYV8tYjlnTWZXWVE4TVhmX0V3LXZsQ3dvbWROTUFVMzFNYm9vM1Q4dUJGb3d2di1CWjBYSkpadzA1NlJs?oc=5",
+       "source": "Hindustan Times"
+      },
+      {
+       "title": "Former Saxon drummer Nigel Durham dies at 61",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91MjBWWXFidFJxdFpBQU52QkRpa1ZwX1pYOEJoS3laaEp6ZVhQYUFkZ2ZwdTFxbmFqenk4dnZnY3U4bElIOHVCMTFPOXY2V2RGVm5Oa0FYcjhSY0RIOEYzSWdqYkpkbl9mT2c?oc=5",
+       "source": "FOX 29 Philadelphia"
+      },
+      {
+       "title": "Former Saxon drummer Nigel Durham dies at 61",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJaFN5RVlqWFoxb2NYZHRMaE80cGxudjBzV3hPSnJfdU93MkF1N2lqaDNOd1lyekVNMlRHT0dNdWxlVVBScUxSWG1yTFVGVlR2QV9fMTNuMjFzTXNuQ0w4U2JuWDcxN3pYUnV1T3BXMEo?oc=5",
+       "source": "LiveNOW from FOX"
+      },
+      {
+       "title": "Former Saxon drummer Nigel Durham dies at 61",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55R0NQNUVTTlcwQmpLLU5NeEt4TTBFbjZ6REc2aDdRRnNmclNjNjZFemxQMlJYWmI0MG1DMnJxN2xkX1J5YVJKcTU1c2YtQWhsdThMT1NhQWtGMzQ1YXVlamJKc3VyWE84aWgxZHdPRnFjUQ?oc=5",
+       "source": "FOX 5 Atlanta"
+      }
+     ]
+    },
+    {
+     "title": "댈러스 카우보이스 치어리더, 밴드 마이 케미컬 로맨스 고소",
+     "summary": "댈러스 카우보이스 치어리더(Dallas Cowboys Cheerleaders) 측이 록 밴드 마이 케미컬 로맨스(My Chemical Romance)를 상대로 소송 등 법적 조치에 나섰다. 이번 조치는 밴드가 할리우드 보울(Hollywood Bowl) 무대 연출 총격전에서 치어리더단과 유사한 의상을 착용한 댄서들을 등장시킨 데 따른 것이다. 치어리더단 측 회사는 상징적인 유니폼 모방을 이유로 접근 금지 명령을 구하고 있다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "Dallas Cowboys Cheerleaders take legal action against My Chemical Romance over onstage costumes",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNendiQ2JtamFQX01rYTlxbDRvUkNpVGNYREFoWC1tMWJ5MU9vX3VpVjJXMzBNclUwV0lRN1JQRGVkMXpEb0V3V05HN0tic3dNLUgxN0RpbEdWTE91b19FSzNicFdsSkVSTmVJTVhBaERXbWdFNlZWTnhUUUNvMVdNTTVxVWpBemFsMlZzQWVOSkNrY3ZKcTNLdDE3WHowTEpyUUh6Ukd1UGV0ZTZ2bjZn?oc=5",
+       "source": "NBC News"
+      },
+      {
+       "title": "Dallas Cowboys Cheerleaders Take Legal Action Against My Chemical Romance Over Staged Shootout",
+       "url": "https://stereogum.com/2515526/dallas-cowboys-cheerleaders-take-legal-action-against-my-chemical-romance-over-staged-shootout/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Dallas Cowboys Cheerleaders Take Legal Action Against Band My Chemical Romance",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaTlMTXJ4UndYcThnbG4tVzBUYUlrT0JkOE05OFJWSDVGMEdzTzVCVllxbmc4NE0tRzI2eUJtdHZQYlgzRjhlZzNGdjlMNGlkUEw1SlY5aUFOY3hObWROaldHcEpzNTJuU2kxaVhqQnJxekk4SS1ERzUzb0RpU3ZRT3hEWTBvSDV2cnUzMnV6RTlfc2xaNS1aTExCREd5ZDV2MU5ITGFfdkQ?oc=5",
+       "source": "TODAY.com"
+      },
+      {
+       "title": "Dallas Cowboys Cheerleaders sue My Chemical Romance over look-alike uniforms",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONEVPSWJ5NUVJclF4SWlXcUx0bmRZY2hzRXBZdVQ2cUJVUERBcU5lMGgtV0czMUFuaUJTMjJ3Y3RPZDdqbEJKQzdNeS1KZkl6V2RIaXNZQ2g2eF9rcmhyQ0otY0xrTmdrQVQwTndjUmFYbHVqaXIzUzV4dURhcU1mNV9SMHZ4VUxlWUNkQjI0SHNLOW5FR0dWYi1qaDI1WG1sWDdZZ2hEeFhSRF92NnpPRzdjcG00TTV0UktYR1VzY28tc25UQjFTaldYckhPaGtaN2s3OU9n?oc=5",
+       "source": "cbs8.com"
+      },
+      {
+       "title": "Dallas Cowboys Cheerleaders seek legal action against My Chemical Romance over mimicking iconic costumes",
+       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdXZPall1LS1aei1fX2F0VmlLemNYYVdpQXF4UjE0YlpDR2hOckR1dGh5c3BqYkhwTXMtZ1M1eTNHeTl4M3F0N2RaeVRiazJ5eWdabjBuV1FtY3Byclc0bFg4YnRTdjljY3o4VE1QZWIxcGZ3RVBDYWFkbkJDWUZnWTY3clRxZ25aMmlaX0NSTTVCWjBiZWo4YTRvNG5tNllmeGV0dlBIZDlMYmwxdXV4cTV1VlJzT2lDUk1iQ1UwRm5FTXAyQkV1elVpMkNzZ9IB1gFBVV95cUxOVlU0elN2TUNJWTNBQ1l5amhuMktjRnJLRGZCZmlPQU9DOFFBNkRKTWdCSTZtaHR1Mnk2R2tzU0QyUy10WWV1QTYxdEhxNk5TZXZ6TENIUmttTnE0QlFlZ0VwUEFiUGFBTURFQmdQS3VEMDV0Q3pFczlBLXR3YldpWU9wU2RvMjlvNjZfREk0UENhUFpKcWZpc0ozSF9HaE5DenhPWmtSckFDSm9ZRDIzZVVuLUNUcW9waTZCQmpJbXFIOHZ0TTZ5dTg2UHF5TkR4VXZyX2Zn?oc=5",
+       "source": "NBC 5 Dallas-Fort Worth"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 양홍원, 결혼 5일 만의 불륜설 속 무대서 아내 언급",
+     "summary": "래퍼 양홍원이 결혼 5일 만에 불륜 의혹에 휩싸였다. 양홍원은 24일 무대에서 \"컴백 투 미 현주\", \"돌아와 현주\"라고 외쳤다. 한편 과거 그의 아내가 남겼던 \"래퍼랑 사귀지마\"라는 발언이 성지글로 떠올랐다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "\"래퍼랑 사귀지마\" 결혼 5일만 불륜설 양홍원, 아내 발언 '성지글' 됐다",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVWdDazVJeVUtWlhLMG02UEdVcUtURk10MW1DRVFWTk82a01HQlEyVHdFcnVna01BYnoxZVJmZUVkOUhVWFpBOG5OT3JWVHBiS2JTWjBpYjBsLXlPZUxYekxyXzNLd3hMc00tSFotajFYbG0yZmZDNXJEX09KWnRpZHYzcGQ?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "양홍원, 결혼 5일만 불륜설에도 \"컴백 투 미 ♥현주\" 외쳤다..아내 반응은[Oh!쎈 이슈]",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hWU5DUjV6M0pIRGtySHFTQnRrM0FoVENnSjlILWZZU3djQ0R4dllldUV2OVBVX1dua05xYnNGR05PZXdvOU5hSFZtWDhlb0lNdDhzdU5UQ2RWLTZHamhyaVZn?oc=5",
+       "source": "미주중앙일보"
+      },
+      {
+       "title": "양홍원, 결혼 5일만 불륜설에도 \"컴백 투 미 ♥︎현주\" 외쳤다..아내 반응은[Oh!쎈 이슈]",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tcWlSWUctaHNtZ0c1LVoxNVRVSlg0ZW8ycVI3S2psa0Z4X1hoT1NlQWNIdlB0SGg1UlAxVC1jWnVDVlAwQVZwWUNTRlhWU09BQVlnSg?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "결혼 5일 만에 불륜 의혹 휩싸인 래퍼 양홍원, 무대서 “돌아와 현주” 외쳤다",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBydENnMGZLRnZtRU9FUy1pcXlNTlVDSEliSklfRFRNOXRlQk9BQTV0R1h6YXBvZW54c3hJWi1jQ01pbklKR0JMYmM1ZEdXa1lXdmV0RFVmZWo0UUNCS0E?oc=5",
+       "source": "Kagit"
+      },
+      {
+       "title": "결혼 5일 만에 불륜 의혹 터졌는데… 래퍼 양홍원이 어제(24일) 무대서 외친 말",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yMmhTSGx2NDFqN05ObVItTlJJbWtyQm5wcTRzYllpeVhCdFlBVW9LXy03ZjFSRHJpaTVneGduNWxKellQS1JMMVFOT1dsZ2ZSbnFTRFZn?oc=5",
+       "source": "위키트리"
+      }
+     ]
+    },
+    {
+     "title": "알파드라이브원 건우, 소속사 웨이크원 상대 전속계약 소송 제기",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "Alpha Drive One’s Geonwoo sues WakeOne over contract status after post-controversy hiatus",
+       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb1FiVDNGUk1fb0lhZnUyeDZ2VEl6S0RpUG1FanFXS3BCT2Y1aURGZndPVVZiU1BCRWRzd3hxT1dCNHBxc0c4VElOOXJic19ZZ01rOHJlUWM0dlV6dU1yY0I4VzBDWEJyT21UQUplM05xdDNxVzRGT0JzUlFUR2hIZ01RLWhVaDlzSHZlcXVFdU9WRDZheEVhV3BKQ1UtRlZybXNGcFgwUU1JTGpVZ1lCT3dHdlZJbTB0NEFueGtySUxyLXV0UHpnOXhETElDaERnTzF3amd3NXhfNF9EYmc?oc=5",
+       "source": "Korea JoongAng Daily"
+      },
+      {
+       "title": "ALPHA DRIVE ONE's Geonwoo sues WAKEONE over his contract",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY241ZFdablM0MnFZOV8xRVZWVlZadDVYMGNsSF81VGdjYTVRbTZDYk5WOUFvb1hkM2IyQXhYdXVOMUhjZ0duckRhWld0OHV0cTdEX05DMjBmUjN4SzBxcklYVUxqRDJqb2ZmbVpEa01nYTRKLXYzQTlzYzFTa3BHVg?oc=5",
+       "source": "Kursiv Media Узбекистан"
+      }
+     ]
+    },
+    {
+     "title": "라이즈, 신곡 '인섬니아' 발매 앞두고 소감 전해",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "신곡 D-1 라이즈 \"'인섬니아', 오래 기억에 남는 노래 되길\"",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13c0taaHB5dzY0bW14aTh4d25ucmZjTFU3aUpBLVBlcXRSVjRrdFVFQ0hmYnE5amhFT3FEZTUzbEhUcElLNTh1LXEtbzJaZU0?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "라이즈, 내일 신곡 '인섬니아'…\"기억에 남는 노래 되길\"",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OMmwtTWNkTG5UY1ZYSkwyc0ZnRzVyZ0FfdWJXR1hlVkUtZlVaM1AzWUVFaU0wMzFKUjVGdExiYmI4dHB6SVpwa3h3S3NkWnpjcl9QSDZLakJLTHNKNVhwMdIBYEFVX3lxTE5OMmwtTWNkTG5UY1ZYSkwyc0ZnRzVyZ0FfdWJXR1hlVkUtZlVaM1AzWUVFaU0wMzFKUjVGdExiYmI4dHB6SVpwa3h3S3NkWnpjcl9QSDZLakJLTHNKNVhwMQ?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "라이즈, 내일 신곡 '인섬니아'…\"기억에 남는 노래 되길\"",
+       "url": "https://www.yna.co.kr/view/AKR20261025016400005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "라이즈, 신곡 '인섬니아' 컴백",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12VzVyOUxZVExwR2t1aFB1T01ialBRUXdpcVkzLVZEbGR0Vmk5RkNXY2hveHNwSHRqd1FYU2R6VldjYmwwVTFBSlBNeXVuQ0EyWXpVRVpiX2VXbUt6clhlODJzYmY3WTVLM0tz?oc=5",
+       "source": "대구신문"
+      },
+      {
+       "title": "라이즈의 이유 있는 변신, 신곡 인섬니아 보컬 승부수",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8ta1JKenQ1ZlhycDlOVXBqdDU0aloxS25zSk9aZWJxaUI0ZTBtRVo1dVJyTk5yeFNjc3E5dmxjOW1yaEtrUlpXUUVacTJobjF2WEdzZk1vLTZTVUVZY2o2bjdscDRveG5a?oc=5",
+       "source": "https://www.2news.co.kr/"
+      }
+     ]
+    },
+    {
+     "title": "크러쉬·아이유 협업곡 '삐그덕' MV, 유튜브 일간 차트 1위",
+     "summary": null,
+     "ai": false,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "'아이유 피처링' 크러쉬 '삐그덕' MV...유튜브 일간 인기 뮤직비디오 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QSjlQUzREZmFBTGt3Xy0zTUF1Z3BxOHhyWi1fVVgwSElRSWZEQk94UVRHSnY1YmRxT2lWTzN0djVRUGFIOWZkVF91bTd0dUp3M0Y0ckVzaG0wd3dXbjlJX3J2NWE1UQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "아이유 손잡은 크러쉬 '삐그덕' MV, 유튜브 일간 인기 뮤비 차트 1위",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhMnhwRjNBT3Fhc1pIN19qQnhEd1ozUHVTNV9jRzNfaWVvUUtNUTVkOWJNYy1MWUhTWml5S3JKM2RWZVlUS2p5Y0hEVHplMGpHcXdaWVJkTFJreU1aTm9KQ1BaMjVvWFhEOUFZVEpGV1BMTzdB?oc=5",
+       "source": "스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "베이비몬스터, 신곡 '디저브' 음방 첫 무대서 라이브 실력 입증",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "베이비몬스터, 완벽 가창력으로 컴백 첫 음방 찢었다..'DESERVE' - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlYzLVg3Y2lKMDdQeW1XSldQc0xadnZpOWt4d3ZySUVkSWRVUXY5d1FyRFFTWDJNaUIzaTU3dkdYODdKdTIxaXlsSDhFZ1JlZXBuUF9RemRXVnRIb051bXVZdk5fVDFaOHphQTFRMzczYmpEXzV3d3V5RW02aXE2Wjd3N2RnVVFVWjcyMTQzZlpBSFBUNWhIUjFRZjZrTVRVLVJvVnE2NNIBpwFBVV95cUxQYlYzLVg3Y2lKMDdQeW1XSldQc0xadnZpOWt4d3ZySUVkSWRVUXY5d1FyRFFTWDJNaUIzaTU3dkdYODdKdTIxaXlsSDhFZ1JlZXBuUF9RemRXVnRIb051bXVZdk5fVDFaOHphQTFRMzczYmpEXzV3d3V5RW02aXE2Wjd3N2RnVVFVWjcyMTQzZlpBSFBUNWhIUjFRZjZrTVRVLVJvVnE2NA?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "베이비몬스터, 완벽 가창력으로 컴백 첫 음방 찢었다..'DESERVE'",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJV25JVE9iNzIyX3plelNfNUxUWjZHVVNGWDJocHhGUnpDNERKbnpTMmRUMENEQnJkMW95QlpTcFQ4WHhCSDJ5ZlgxNHJjRHd4d29Rdg?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "베이비몬스터, 신곡 ‘디저브’ 첫 무대… 완벽 라이브로 가창력 입증",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CWE9vWnNxYy1yc2ZBclRsWWw0dTRlVER2dHBSMHI4dEx0OHhuc0xmbU0yc3VUYl9YV2JyVWh0a1ZoV3ZSdEZBcnRJSk1KTVRJQ19TdXdhQUloZXZzYm5EX2N3?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "베이비몬스터, 신곡 라이브 공연으로 칭찬받아",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVRIWUxCMjV3NEM1MkxXdzZKR0xzUXFDTnBsTXV4c0xqU2s4NzRBU0hSRUdqREVuQUFNeGdBSHh2aG5yQU9wa0xha1pqaE81cDJFVzdiTnlreTVXUHBOOFFmYnVlbzRsMjlqTF9CVUg1R2J5SVFRbGlzU2tmNFpEaENtaG5zVVRmUmdkNExwQVkxb1dhVEpIUmdtcUpxOWFGM203UQ?oc=5",
+       "source": "Laodong.vn"
+      }
+     ]
+    },
+    {
+     "title": "김장훈, '서해의 독도' 격렬비열도서 사상 첫 콘서트 개최",
+     "summary": "가수 김장훈이 '서해의 독도'로 불리는 충남 태안 격렬비열도에서 사상 첫 대중음악 콘서트를 개최한다. 이번 특별 공연은 26일 정오에 열린다. 해당 공연 현장은 '충남TV' 등을 통해 생중계될 예정이다. 격렬비열도에서 콘서트 무대가 열리는 것은 이번이 역사상 처음이다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "김장훈, ‘서해의 독도’서 역사 쓴다…격렬비열도 첫 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE93NkZqd21OT1NSZ29ndnhBYWFNYnBDUnY1M2JtTk1ydkFjME4zdWJOY3lNWlhQclFjeURib0VVWHNfSExVZDNvZEk1Z3NNZ2tjcGdHQ2s0RTdJYUs3WHE4VzBUTkdzVHkySC1BeUFlUDRpZ9IBckFVX3lxTE93NkZqd21OT1NSZ29ndnhBYWFNYnBDUnY1M2JtTk1ydkFjME4zdWJOY3lNWlhQclFjeURib0VVWHNfSExVZDNvZEk1Z3NNZ2tjcGdHQ2s0RTdJYUs3WHE4VzBUTkdzVHkySC1BeUFlUDRpZw?oc=5",
+       "source": "뉴스아이이에스"
+      },
+      {
+       "title": "'서해의 독도' 격렬비열도서 첫 콘서트…김장훈 26일 특별공연",
+       "url": "https://www.yna.co.kr/view/AKR20261025027800063",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "가수 김장훈, 26일 격렬비열도서 첫 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BeFhnT2UyMHV2LV9SWE9RTG9xMzItQnZBb2FLX1NVc0dkcy1XVHNyOS1uNUEyR3Q4VVVJRG5EX09JemdDencyd1JfWkIzbmVKSDUwdFhCTzZaS2NSeFVFbUc0TzVRRWpC?oc=5",
+       "source": "문화투데이"
+      },
+      {
+       "title": "‘서해의 독도’ 격렬비열도서 사상 첫 콘서트 개최 … 가수 김장훈 특별 무대",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WeTlROHY5TGJ5aHA5TERsNEQ1ZlFmWU5RTDhjLWZnU1ZZNnBxZFpseTJFRnIySmlPVnlfMEJBSGJIMklHSGZmMkhJUEM5V29QY01FR1pwOGpZR1A0ZXEtWnZUWFhIR19IM0RUSzNwb2g?oc=5",
+       "source": "충청일보"
+      },
+      {
+       "title": "‘서해의 독도’ 격렬비열도서 사상 첫 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIblFTejQ3VXFCN0FMVHJ6VjcyRTdyT3lnRU4wSmR4WVlrQkFIZXJQUUVMUWhVNXhYVTZPY3VFd0V1VW53SGpzMDlNbWVodDh2b2F4TEpELW0yUDRwSEliZ0dlU18zbmpF?oc=5",
+       "source": "뉴스밴드"
+      }
+     ]
+    },
+    {
+     "title": "한로로, 내년 1월 인스파이어 아레나서 단독 콘서트 개최",
+     "summary": "싱어송라이터 한로로가 내년 1월 다섯 번째 단독 콘서트를 개최한다. 이번 콘서트의 타이틀은 '물음표'다. 공연은 내년 1월 2일부터 3일까지 인천 영종도에 위치한 인스파이어 아레나에서 열린다.",
+     "ai": true,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "한로로, 내년 1월 인스파이어 아레나서 단독 콘서트",
+       "url": "https://www.yna.co.kr/view/AKR20261025017100005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "대세 싱어송라이터 한로로, 인스파이어 아레나 입성",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NM0NwektMTFJ4OWw0TUk3RjN1Qjk5RkJjLWZjU0NIMFNwUlhTU2JZY29kNll2bWk1OGxDWU41MTRCendwVV9RcklHbUwxLUl0MHZFVENtdmUtMUNkMkNsaQ?oc=5",
+       "source": "마이데일리"
+      }
+     ]
+    },
+    {
+     "title": "턴스타일, 가자·수단·레바논 구호 기금 마련 무료 공연 개최",
+     "summary": "볼티모어 출신 하드코어 밴드 턴스타일(Turnstile)이 가자, 수단, 레바논을 위한 자선 무료 공연을 열었다. 이번 공연은 미국 워싱턴 기념비(Washington Monument)에서 관객들이 가득 찬 가운데 진행되었다. 밴드는 이번 공연을 통해 국제구호단체인 휴먼 컨선 인터내셔널(Human Concern International)의 3개 지역 구호 활동 기금으로 22만 달러 이상의 기금을 모금했다. 이번 무대는 턴스타일에게 뜻깊은 순간이자 귀향 무대로 평가받았다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Turnstile plays free show to raise funds for Gaza, Sudan, Lebanon",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVDNjcGZXRjJOd0w2WWR5WTRhLVdWVTFzcFdXcE4yRFVkN1VYYldERXdzZWp0Rm1ILUZDQkJGS3haSGF0T3U2R1BqNmFlRjJ0R1BTLVVwYm1OQnlmZVNPU0ZZbGM1QjlxU2hEdUlwVGhYNmVnTU5veV8zNTNZV3NNYUliNFUxVTNRZ2g5ejA2UWVVR0RuQWFqeXFYbnRBS2ZnQ05QUXNJeE5ULUJHRzdnYTdPUQ?oc=5",
+       "source": "azcentral.com and The Arizona Republic"
+      },
+      {
+       "title": "Turnstile plays free show to raise funds for Gaza, Sudan, Lebanon",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONGRDemtVMHUtc3ZrZTF6T3pWSDhxS29sZlhNcVpna041WGx4VVNGNmVoUDhDd3ZiQm1sVVZnQ2ZMTGh3NUNDQnpwcUJ2UmUwZGF4NkUwVjVtbElUbUlydnB6T1NfaWRHRHZRZVhEcnhDak5vMDVwTFVFVmNwaWhFcWE2STBMUWhhREFIU3NWWU9VYVUtdDJFNlFBNXdnMmVCRnk0ZlhYMGxWUm40UHhz?oc=5",
+       "source": "Detroit Free Press"
+      },
+      {
+       "title": "Turnstile plays free show to raise funds for Gaza, Sudan, Lebanon",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMW5vSFFEYnMyTjVBWEJiTWpUZmduR0doVXVRNEJ6LTlRakYtWmFVb2lqbmRPVzBFbUoxa3VDQkwxeDRaMC10R1RKNEpxX0JSY25lLTI0cmJPdE5ab2djLTFZRkFad2daQjQ5YnpqeDJlSldBVWNnQUtfM01waDNVdjc3ZEhtM0paYWhZUFRVVEhtbjJnLWJpcERWd2swRDNtSTNnYzd5bjBuTnpmMy1nUUVxWQ?oc=5",
+       "source": "USA Today"
+      },
+      {
+       "title": "For Turnstile, Washington Monument show was a moment, and a homecoming",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc2ExM3dXRVdFU1lRLUdjaHJNa05MaTJ4NVd6NGVlYmhsX3BBWDVfSk1fMHNwUFBBTUQzUWpPblUxZ2hvNUhYZGFmX1VaUnBFWkVxeGJnemd6dDU0SnloVXlBT3QtZ2lTT0c3Uk1VRVVlVlFBRkNlOFhSUzlhUlMzSU43Ty1mbWVHV3h6TG82eHBCeHNNZ29iVlRZX0Z6RGpfWktrSmpuME82aWxG?oc=5",
+       "source": "The Washington Post"
+      },
+      {
+       "title": "Turnstile Pack Out Washington Monument for Palestine, Sudan, and Lebanon Benefit Show",
+       "url": "https://pitchfork.com/story/turnstile-pack-out-washington-monument-for-palestine-sudan-and-lebanon-benefit-show/",
+       "source": "Pitchfork"
+      }
+     ]
+    },
+    {
+     "title": "KT, 10주년 맞은 가을 음악축제 '보야지 페스티벌' 성료",
+     "summary": "KT가 고객 문화축제인 가을 음악축제 '보야지 페스티벌(VOYAGE FESTIVAL)'을 성료했다. 올해 10주년을 맞은 이번 페스티벌은 분당에서 새 단장을 거쳐 개최되었다. 이번 무대에는 그룹 god와 가수 크러쉬 등이 총출동해 공연을 펼쳤다. KT는 음악을 통해 브랜드 접점을 넓히고 고객과의 소통을 이어갔다.",
+     "ai": true,
+     "article_count": 19,
+     "source_count": 19,
+     "links": [
+      {
+       "title": "KT, 음악으로 고객 소통…'보야지 페스티벌' 성료",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3MjU0b0dxbG5NYkJycEpHVXZhSy1odVhncXlxRngtQkhkWmhHNkpLbjNFM1pmdS10NHp6MVQxc29JU0J6R1BUWjdObTlVWnE3Nm5yTzd1UllsUHliaG1MWQ?oc=5",
+       "source": "메트로신문"
+      },
+      {
+       "title": "고객과 함께한 가을 음악축제 KT ‘보야지 페스티벌’ 성료",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oWV9GekFuMlcyTG5oNHpyNkhNTVE4aXpTdl96THBxNHVlbk5ETktRWGhfckNuWUZ1ckpjdWRhS0FETmZKNVo1U3N2Y3JOWE9MQU94YXNFb2JoZkxYXzFCQjZjaWFYT1RuX0hpYw?oc=5",
+       "source": "데이터넷"
+      },
+      {
+       "title": "KT, 고객 문화축제 ‘보야지 페스티벌’ 개최 … 음악으로 브랜드 접점 넓힌다",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrbk5SWHhzOHFURWNfVS1YU2hVMF9jazU0Ym05Yjl3RGRrUzBBdDNaUjJ1V2MyX2dTSlo4UEp6c3JVNTVZVDZTTnJaZURSSEVaZ01Nb1c0SWJFOEVKNUV4VW41T04ya2xoeDg1cQ?oc=5",
+       "source": "워크투데이"
+      },
+      {
+       "title": "KT, 10주년 맞은 ‘VOYAGE FESTIVAL’ 성료 고객과 함께한 가을 음악축제",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qQTJZM0dHWnZHT0tFbFVkcUpxRnRJMUl6blMwUTdOamhUQXdMeWlFYjR1dDlHV0ZYRHBhdXJqVl9VbXZDRWt1emRBOFFGRmE1aWtadUdlR0RqamxtdzV4SzFYVVJmUQ?oc=5",
+       "source": "자유방송"
+      },
+      {
+       "title": "\"10년째 고객과 가을 축제\"…KT, 보야지 페스티벌 성료",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03aEoyWmdPQjBjeHFNaVE2YU9NV3ctMzBGVGlJVm5iczFJQzhxMkNZd1NuaWR1UXVlell4SmVXX2ZNOFV3UEt6TWtVa0ZfejZYSjI4c0VkU0hlRGx5ai1PUQ?oc=5",
+       "source": "뉴스1"
+      }
+     ]
+    },
+    {
+     "title": "키키, 일본 첫 팬콘서트 전석 매진 속 도쿄서 개최",
+     "summary": "키키가 일본 도쿄에서 첫 해외 팬콘서트인 '키키 페스티벌 재팬 에디션'을 개최한다. 이번 공연은 전석 매진을 기록했다. 키키는 앞서 열린 서울 공연의 열기를 이어 무대에 출격한다. 공연과 관련해 세 가지 관전 포인트도 함께 제시됐다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "키키, 오늘 일본 첫 팬콘서트 연다…전석 매진",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGazVYd1lWRHBSWjRIWUVNeHNoTHRDb1pQV1k3UjB4TTZULVNpMXRzVllkNzIxSl9tME1ScGpjbkJkNjlHLUliak9MWTMtSkg3RUs1UVZrOGZPUlU3SzZTRmtGcDQtTmt6VUVOTm52VkFVdw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "키키, 도쿄 첫 해외 팬콘서트 전석 매진",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50akxRekdPa1NkSG80aW9aRTdiR3psRUtfU0ZQQ0FHU3BWWlBuMGlIWjVmWTk1U2ZuOFFsRUJrUDYyNDZLbUp4MllVLWhBdmdhRUQ3TW9YT2VhY3hHTkRzdU56TUNZTFFLUmM4?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "키키, 日 팬콘서트 ‘키키 페스티벌 재팬 에디션’ 전석 매진 속 출격",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pOTdvYWc3NzF0VjRrS0JjOUJCdk5KdEstWDFiY0t5SlB0bUh0YW90cXExOVlxMzNOZ0Q1Y2Z2TmxRNWhXWDVKaUdUSG9FMGEtQ203UEd4c1U?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "키키, 일본 첫 해외 팬콘서트 개최…전석 매진 기록 (‘키키 페스티벌 재팬 에디션’)",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83alplaXc0Qjlac254Nnc2Yk5ROFRudjZKOGNLc2ZWd2JiMl9yQVdMU0FSNm9QMlF6UG9lRmpSdTNLSmNNLW9OZG5rOXNmMWZJUnk3RVo1dWUxN1R6cUQzNlU1aw?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "키키, 도쿄 첫 해외 팬콘서트 전석 매진…서울 공연 잇는다",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uN3RfejBHa04wdUxXZlBHS0NQNHlxV3c1ektZLTh0eVh6OENIcjBZN1hOTVRqRW9pcGFiQldrZDVQV3hGeGNiVk9JWm1VRHoxZU8zaGx2T1ZLRll2eUVLb0xsMFQyVVl3ZW8yU0wxX0ZOQQ?oc=5",
+       "source": "스페셜타임스"
+      }
+     ]
+    },
+    {
+     "title": "아일릿 원희, 컴백 앞두고 일일 기상캐스터로 출격",
+     "summary": "그룹 아일릿의 원희가 일일 기상캐스터로 나선다. 컴백을 맞이한 원희는 날씨 정보를 전하는 일일 기상캐스터로 출격해 활동을 펼칠 예정이다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "'컴백' 아일릿 원희, 일일 기상캐스터 된다",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zSDJ2SkJtVkNYdFJUM2dfOFdDeTNIZzEwQmg5V1hEQ0xNMDZkazFoSU5QelhiakF5SEd1b2lGdjhfR1pjcVZxRGIwNmtCRXBzMDRPbER3V0hZSTFDdnpaSDJB?oc=5",
+       "source": "미주중앙일보"
+      },
+      {
+       "title": "'컴백' 아일릿 원희, 일일 기상캐스터 된다",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KV0pFeXhjUXRKYjBQQXFsNnF6MnZIbF9zcXJYRllXa21Ka05INnRzWTZsUG81elVYRHB3cFU1blU5Ui1YMWw1ejBzX2F1aEM1YVJEOQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "[공식]'컴백' 아일릿 원희, 날씨 요정 된다..일일 기상캐스터 출격",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE44ampFVzV3X1VSUlByeGVycjZ1Y3Fncmc4TG4walZvNkdwM01LVmtyZU1iSGlDTjZsb1hvLXk4dUtSY3Z4RDhGZVpfYVhBMDFOZGRDaDBhNlNwOF9QWGQyb0pub1haVExQZWp2YnVIUkZVUkI4?oc=5",
+       "source": "스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "이수만, 걸그룹 음악방송 1위 기념해 고깃집 통째로 계산",
+     "summary": "이수만이 신인 걸그룹의 1위 달성을 기념해 고깃집에서 골든벨을 울렸다. 해당 걸그룹은 음악방송 3관왕에 올랐다. 이에 이수만은 고깃집을 통째로 계산했다.",
+     "ai": true,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "걸그룹 음악방송 3관왕에…고깃집 '골든벨' 울린 이수만",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52ZEFaRU9GWmN0QkhhMTVqdUttV1JkRWpsRGJKdHdfRDQ5S1lmaFFxRHdxdXZZLVR3eDV4dTRZaUNrQzZyWU5MdlJObi1vYUo0czBMM3V4Z2ctbGVacUE?oc=5",
+       "source": "동행미디어 시대"
+      },
+      {
+       "title": "이수만, 신인 걸그룹 1위에 '골든벨'…고깃집 통째로 계산",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40NVBHUGowQnk1LWxzV0FCNlNDZm14SXRjVGV2TFoyN0pPdkRNcFNPd3YwQkctRWs1MkxXNVN2R1V1ZVJWazBrR0NPOGIyRjdMODZNQzdTTlIxdw?oc=5",
+       "source": "파이낸셜뉴스"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
