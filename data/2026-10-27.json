@@ -1,0 +1,544 @@
+{
+ "date": "2026-10-27",
+ "generated_at": "2026-10-27T23:52:28.572611+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1095,
+   "issues": [
+    {
+     "title": "Donnie Iris, Pittsburgh music legend, dies",
+     "summary": null,
+     "ai": false,
+     "article_count": 16,
+     "source_count": 15,
+     "links": [
+      {
+       "title": "Donnie Iris, Pittsburgh music legend, dies",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsQ25YNEtqcUVUTWI0d3JocVM4R3Q4Sy1rMVFtbG9EbGF6emRyOERxUEFYWjA4ZnRJU3FudlRQTE9LVWJjdFhta3BWYmc3dXFhY3Rxem1ackRFVm5JMXFEaHVoNWpEaXcx?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "Donnie Iris, ‘Ah! Leah!’ singer and Pittsburgh legend, dies",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbWVzeG1qemVwUU9YdGhzd0x3OWktRjdad0N1QVgzbGk5OVZnd2dRUjRZT1NnQUhGMkM3eWJBLXh4bmhFbmxEWnBpZVJqZG11Vk9hY2o3R2VvZVo0Zm9Dc0x1WmVQQkZlTVAtVk0taE9KRS1BSWU5YjN4a2syRWV6Rk5zd290STQ0WjQ4Mk92VkhyVG83?oc=5",
+       "source": "TribLIVE.com"
+      },
+      {
+       "title": "Donnie Iris, 'Ah! Leah!' Singer and Pittsburgh Icon, Dies",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVk9wRkdmd0l1VnNSZFpud2l6elNNS0pnRXJ0NDZEUm93RTJqckZ1M1k4R3RzdEE1Mk9JeDR0c1pFUmprSVVySWRHcUd5OXhvcU50WkFxSWRJYjliN3oyWHk5VWVfRU43Y3FDdVd1UkQtU1VRdjJjajJmb01oS01GaXRUTXNBZzVSdlZDbThBNUwzdmE4RTdsOVFsZw?oc=5",
+       "source": "Audacy"
+      },
+      {
+       "title": "Donnie Iris, Pittsburgh's rock legend who scored hits with 'Ah! Leah!' and 'The Rapper,' dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRWNOOTVRZ2lkVTFLa3l4aWtHeFppWVQyRFhCYXZEQTd0akl4dE9ITzdlaGpNUnVxaVFKaUctc25nSjNQRDJFTEpfczk4S3RTa1JFQXFBSEgtNEJ5WTdjLWctVUFhWVEyN3VndFp5T29abnllOEZ2RFRnMDhZd2tBQ0pmd0hGVUpjLWxWVnVVRl82U0ZPM3NZN0JzRi1qU05zQUFjZ1ZNVQ?oc=5",
+       "source": "Pittsburgh Post-Gazette"
+      },
+      {
+       "title": "‘Ah! Leah!’ Singer Donnie Iris Dead at 83",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82SUxNWUFOZFhhaXp3dTZsSXZwWnZGcnlVYWFzMXlBNFR1VmVnLUFwTFlGTnZaNm9YWi1LS3dwb0tmYThZX2ZtcTYwLVNnVmYwSkh5N0t1X0xMTmVwSWc?oc=5",
+       "source": "Ultimate Classic Rock"
+      }
+     ]
+    },
+    {
+     "title": "Watch the HUNTR/X Dance Rehearsal for ‘How It’s Done’ | KPop Demon Hunters",
+     "summary": null,
+     "ai": false,
+     "article_count": 15,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "Watch the HUNTR/X Dance Rehearsal for ‘How It’s Done’ | KPop Demon Hunters",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa3dKNVBiMXVuTHNETU9KX1pWNVR1cC1CMnBQeTduMk9rWVczS1pOYl9VNmxtRDRxa0hNbm9MbnFTbVBqOFg1XzBYUkZWNTlkMmxYcFlIRVdwVzJ4Y2NrYjFVaUtQZ0ZLZFRjX2YxckNNMmdTekd6R3gzc1o1NGlzTjFDNWkydHlQQnNyWA?oc=5",
+       "source": "Netflix"
+      },
+      {
+       "title": "HUNTR/X Dance Rehearsal | “How It’s Done” | KPop Demon Hunters | Netflix",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PTHZkLXRhbW5nR2FDeFZEVGJzbGllcnJzekRhdThNS2xiYXRrMkphbXBfM0ZkUWFYS3dJQVVOZDRHcldJOUxkRHYyZzJNOHNSWXdJOWxLWmt0WmNt?oc=5",
+       "source": "YouTube"
+      },
+      {
+       "title": "Kpop Demon Hunters Releases Official Choreography for 'How It's Done'",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQWtlY1UyRmdRV0JMcG9qcWg5c3MtOEhURTd1eUNYck12T2FjelJzTGoyQmZDM1BmbmpFSk5Edzd5NkZyZHc5T0syRHc3M1FXZTQ5YlpnaWhZVjByeHlrV0UzR0RqbXFodnVOSkdFWEZPUEZuSE5tcDdqNWU5NTdwdTAxcXFPQmRubFljTGhzT2lPYkI2Z25OaUZzSGFCblBXZGJyWTg2Wjd6QXdTQmlqcjlIb01ENjZvanRR?oc=5",
+       "source": "BroadwayWorld"
+      },
+      {
+       "title": "Huntr/x of 'KPop Demon Hunters' shares 'How It's Done' dance video",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSi02RzlUcU42V1Z4Z2tUOHZvVlczQ0doRVlTZVpzMVozazdPbl8tU2QwWm91UzlseHBLTkpUQ2RWcTVVbG5qSG5INzlscHhEQmlNcldwbW1pQlVkMm1fZmpHY0hIRDQtNlBoU2I1TkMxLXJiVjc2TTRrM3prOHJaNTd3UGM4UXdCaG03SjFDeVl1VlVhaldFaGZfUk1HYkNkeDc0NNIBqgFBVV95cUxNdS1yNWxTRlZ3a0p6dkp0UG9UeXlMUXh5ZFA5dVpEeFhQS0VkU0RhOGkzSHlTZ3kwRktUdTJhdFpWYklXZWZROU1lR0s0ek43UjlEQTBjRnNqSHRiTXRScUluSEpoOVowOWZxRXl5dG5Dc2l0Q2piUU9ZMU9mdjV4NDdjYlBYODdvX3hZZzd2R3pwdDZSLVpTWUpRNDA3Q0FiOTdBMlg0Q1d3Zw?oc=5",
+       "source": "upi"
+      },
+      {
+       "title": "Watch: Huntr/x of 'KPop Demon Hunters' shares 'How It's Done' dance video",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFZVTy1vdnNNM1NScEJHQjdtRERzNGNTLVdvb1BockRnYmRjU2lDOHJQMGRXVWh3QXRhU0hCb2plLVhCM25zYTNVUXJMREZjYS10VzNYQWdOTnV4ZUpicXpHbmVtYURJYXE2emRaVm0tbTlUbmQyZHFiZXp5bzY3WHc5cVZTQUl4ZnFIUlJ3NlVQYzBv?oc=5",
+       "source": "Yahoo"
+      }
+     ]
+    },
+    {
+     "title": "Jay-Z to Headline Super Bowl LXI Halftime Show: ‘A Dream Come True’",
+     "summary": null,
+     "ai": false,
+     "article_count": 14,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "Jay-Z to Headline Super Bowl LXI Halftime Show: ‘A Dream Come True’",
+       "url": "https://www.rollingstone.com/music/music-news/jay-z-headline-2027-super-bowl-halftime-show-1235648064/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Jay-Z to Perform at Apple Music 2027 Super Bowl Halftime Show",
+       "url": "https://www.reddit.com/r/hiphopheads/comments/1xgfxny/jayz_to_perform_at_apple_music_2027_super_bowl/",
+       "source": "Reddit r/hiphopheads"
+      },
+      {
+       "title": "Jay-Z Confirmed for Super Bowl 2027 Halftime Show",
+       "url": "https://pitchfork.com/story/jay-z-confirmed-for-super-bowl-2027-halftime-show/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "JAY-Z Officially Announced As 2027 Super Bowl Halftime Show Headline Act",
+       "url": "https://consequence.net/2026/10/jay-z-super-bowl-halftime-show-headliner/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Rapper Jay-Z to headline Super Bowl 2027 halftime show — Rolling Stone",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQazJHWGxyanNtbEJSRDFfenc3M2gzQk1PMlpKZFEtMUEzYkl0VGozM0N1T1F0dEwyaVdxQ0xWU3l6TGhBT3ZWNFREMjlVblY0cWUwaHdHcmMyNm0xZXY0dXFGVVRDNEVBcEpoNG9hUHVGcGwtV3lOX0tQZW1Xa3F5V05qN0VyMlJ4eXU3d3lLUm5qbHhZd25ocVBDXzdtUQ?oc=5",
+       "source": "UA.NEWS"
+      }
+     ]
+    },
+    {
+     "title": "지수, 30일 신곡 ‘어딕티드’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "지수, 30일 신곡 ‘어딕티드’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPRW1MMXZFTTRPMlV6WXBpS2NPbWVaenlxaUttT0dkNUhPYVJXUW9QaEhNRjhXYThzYjJZYVJadzRBWjFJcldoTG9kT3ZJd3UwOHQwd2hCal9PQURfamFDM3MtQ24?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "[문화 이슈] 지수, 30일 정규앨범 두 번째 선공개곡 ‘어딕티드’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Ga2NJekROalgzM3dtUTJkdkRrLUxpTVl4T013TFJFc21uZGo1Q2ZIbDFZamVxcmdJdlkwSFhMU093RmJQdHhtMVNMRHNDbTNHV1NiWVU5T1ZJYU5BY3lKVkdLd25DX0gxSDYtdUFzVG1nMm84b09nYVpRbU8?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "지수, 이번엔 ‘어딕티드’…‘클릭’ 잇는 정규 1집 신곡 30일 공개",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40RUd0bWdZR2lpTjhkSlJCSlRRWjAtVnh1cHhQdmk3V1pQOGdBZUM3ZlEyWHJhUVpVaGdSUnM5MDFmLVRhYk1qVS1ITkQ4VG9PTXdGVnVsd2ZTNzZOeU9Ga0ZkNjl4bEpxNkHSAW5BVV95cUxOS3o2UzdfTjFnczE0UnhaZW9MQXJxY1ZZNWhjbjhCS1U4TzBWY0lBaklkTS1ZOUJJZmVPNk83S1o3ZEhmb3hUeVN6LWMtQ0JmZ1RMWlU4Ri16MlBzNE0wOC00RG1ybjZvX3Y2ZFdDQQ?oc=5",
+       "source": "지피코리아"
+      },
+      {
+       "title": "블랙핑크 지수, 30일 두번째 신곡 ‘어딕티드’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1Nnh2WlNLM2dMeDJBUzJJUmJNdFBpSW5MMHo0SzNwNER3cnI2cjNGTW1IcHYwQklqV3oyN09BczBNY3JoR0pVMXEzb212YTc4Yk9Kcg?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "블랙핑크 지수, 30일 정규앨범 두번째 선공개곡 '어딕티드' 발표",
+       "url": "https://www.yna.co.kr/view/AKR20261027025300005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "크래프톤 '배틀그라운드', 걸그룹 아이브와 협업",
+     "summary": null,
+     "ai": false,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "크래프톤 '배틀그라운드', 걸그룹 아이브와 협업",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCd0gyMnlmZlU1VmhZN2RFTThzRzUtX1NwUjFKU3JzM3FlNTh6b2FKSVdYZjZkWkVyLXdreGR3WmZDZnRCS3ZWME9wbUh5Z3p0X1pDOXFQOGFBYmtObXBwTdIBYEFVX3lxTFBCd0gyMnlmZlU1VmhZN2RFTThzRzUtX1NwUjFKU3JzM3FlNTh6b2FKSVdYZjZkWkVyLXdreGR3WmZDZnRCS3ZWME9wbUh5Z3p0X1pDOXFQOGFBYmtObXBwTQ?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "크래프톤 배틀그라운드, 걸그룹 '아이브'와 협업",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vTVlMLUFxb0VxQzVpOEFzUGFleUxITXpabDRQSzJEU09BQmlRcnpGSkMyU25CLVRYbHltNVJsdUtTSzhKTThtM3F1TUZGU3FWd2dJWnRsR2NSSW1yYWhCQ2FuZHNxeE1wMEpYOG93?oc=5",
+       "source": "이투데이"
+      },
+      {
+       "title": "배틀그라운드, 대세 걸그룹 ‘아이브’와 대형 컬래버레이션 전개",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1LZndLU0tXMk53cGNwWUNTanlUUWI0N2FBTi1xeFYwZkVNdnVlbmdqS0RYOTl4MWY0X2hQTVFGRlBicDhGTXhJTUFzc1ZMcnRWOUhYRmJYTEVJMXEzR1g4dmNpY0RvTEZaZGpF0gFuQVVfeXFMTkJJcDI2am1qUFhhdGRaNVhhcG5tR25nUE1MazdwVUZmckdHVzRRN2JXOHE5SGRZZXA1Nlg5Yy1iVHJwbS1PME5URDFaT2c4dk9pUDJaUlUydlNfMy1LYWdfd3Y0WlRqUk5feGVkbkE?oc=5",
+       "source": "뉴스드림"
+      },
+      {
+       "title": "크래프톤, 배틀그라운드 인기 아이돌 '아이브'와 컬래버",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LdW9Ba0V1amY5ZTAzb1hnSXhqYjVJVElvQjlOR1l3LXVfNXJiOTdlQkpjdFlVQk5HSWY2OWFxNko1ajdwNGxsb1d2RTQzZDRzWm5pNURnb3BlQk53cG0xMm5ZMFhTcVNHWHlQSl80dnM?oc=5",
+       "source": "시장경제신문"
+      },
+      {
+       "title": "크래프톤 '배틀그라운드', 11월4일 걸그룹 '아이브'와 컬래버 업데이트",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYajI4d09aaVo4azh4RXJtTE5DZGRRdDdqdk5SRGNQOW9RSnJuN3RPUjcwMzYzeHBnZHNEdVNOSUZkR3UyaFZSMS13ZS13b2I2TVBiRktDNk94azM5RmpOOV9pMWVRZlNYZFZRMnE0czh4QWc?oc=5",
+       "source": "비즈니스포스트"
+      }
+     ]
+    },
+    {
+     "title": "베이비돈크라이, 싸이·크러쉬 참여한 ‘Replay’로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "베이비돈크라이, 싸이·크러쉬 참여한 ‘Replay’로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YdThMQXN6aW9oTERsZEphUzd0QlZ0dzB5Tlk0Sm1qNjJ3T3pxbXg5d2J6bFhBWGlBZ2RYM1ZnVmVXNl8zdlpJNTVCaWJFNGJpa3RoWl93QWhkYTkzcnEtTUVTMG9yZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "[NB이슈]싸이·크러쉬까지 나섰는데…베이비돈크라이, 신곡 'Replay' 성패에 쏠린 시선",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5QU5aUkRZSlVNREdGNzRGQUZ6VGw1ay1vUnBPdGkxWUQwS0ZKZFJubXpjdjJGYlVHRWV2aWdSamQzYmozd2V6aTk3WnR3UWRfOTlrUzVJQk05T2dDWjJ1SGlyTkRFZ0xETktwNQ?oc=5",
+       "source": "뉴스버즈"
+      },
+      {
+       "title": "싸이·크러쉬, '11월 4일 컴백' 베이비돈크라이 위해 뭉쳤다",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQd0JnMlRERG9VQWdHTWFkdHN5ZmxwSlF4d054M0VaTEhxb0g3VVFXZWtwNDVQdTVYR1o5TDNsZ1BXdVh5TWpVYklwQW5yRVlJX1lrMDZXcVNGdXNreGNVSUVCdEU2dFJtbjBRMlhrQmlkYXJYbmJsMERuZFlYU241M1FPY1ZaUnF6Y0E?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "싸이·크러쉬, '11월 4일 컴백' 베이비돈크라이 위해 뭉쳤다 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUW9yNURZblB0dF94OU5SdDZrLUE1RDlXQVZmLUI4ckhvMTRBVUw3WHIzb1pzSU1zYXI1c3FaMTY5N0RmSzJkcEJzaXJkVjR5QlBDMnJCRHNBOC1RUDB4dk9ZM2NoaFBKTEx2V0xIS2ZSNFQzLVk4cTBMQ0xlVTVCUHMtejNxOERhWWVKc3VFNEFPazTSAacBQVVfeXFMTU52NlhHQzQ3YjNaeFNvZmVScDlHdjZ5SnJrejFrY3NwSjk3azhrNVcyY3FiaEhITkVRbThpTUh1NFV6UG0zUFFlc1RVblZvdEJvS09obFZWZlpHRk5iZFdKczBMTzhhYXRRWXJNeWtMZGIwMndaZERjZFFqNmJGcG1HVlZvSGQ5TjBVYzgwLXZsLUhvMHJNTkw2ZF9OQk1lci16b21PbFU?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "베이비돈크라이, 싸이·크러쉬 합작품으로컴백…11월 4일 신곡 발표",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9nUnQwY0NaZVFuMUVqaVVkTUthQURiUWFLR1lqTnlFRzByS3BYaF83ZUFlWXVRQkh5Q3dXMWwwUVNqaUQ4NVdXZ1JDRXZUT0k0UlBId1NyRHBNbWt2S1k1OFZQbUk0NzRYSldkcS14TnZiVjZPVnFoSGwtcEhJQdIBZkFVX3lxTFBLbDVJaDBMQUlyMGluMEwybV9fOUZfYzFVNGdUcXpBcTFoX2c3QnQyWDZHcE1HTHFCd3hVTTdNMEYxbkNwbkJOZ3Q1WnRLRXUydEVESVVnd3U1SEZrS2ZzTnpyczI0UQ?oc=5",
+       "source": "동아일보"
+      }
+     ]
+    },
+    {
+     "title": "Rapper Macklemore begins Free Palestine tour after Ed Sheeran fallout",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "Rapper Macklemore begins Free Palestine tour after Ed Sheeran fallout",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yeHdFSnlmWUlNelZZTks1UlNzZjZzRkZqNUtRaTBfMFctQkdOM3V0YmhnMkp3VTNuTy1TWnQyOFozVjNadmdUeENuajdHX1ljaGRJS1QwaVgwVWM?oc=5",
+       "source": "BBC"
+      },
+      {
+       "title": "US rapper Macklemore launches Free Palestine Tour after Ed Sheeran rift",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOakhEWkphMEVQV2Z5aXN4bi0wS29HMWxkWWtkMFR4V0JDcjFSY2VFWHBFb1BRLV9Pel95aXZZa0pNNTFuaEtfdDlWaXJsMWlXUXc1RWxyc1NoSTJQemg4eXY1Q0Z3ejN4anFYR2hTdjlUZW1jYmFYZXBJYkJ4OFQzNVpmOUsxMnAtUkYwWWp1VURjd2RsXzBrcUJncm1Za1ROdmVfMmVGdmNpWEVTaHQ0TXNnTmhLcFZ5VVhRZmZkWl9qeVBsVlJwTk1OWWdVOE3SAc8BQVVfeXFMTmpIRFpKYTBFUFdmeWlzeG4tMEtvRzFsZFlrZDBUeFdCQ3IxUmNlRVhwRW9QUS1fT3pfeWl2WWtKTTUxbmhLX3Q5VmlybDFpV1F3NUVscnNTaEkyUHpoOHl2NUNGd3ozeGpxWEdoU3Y5VGVtY2JhWGVwSWJCeDhUMzVaZjlLMTJwLVJGMFlqdVVEY3dkbF8wa3FCZ3JtWWtUTnZlXzJlRnZjaVhFU2h0NE1zZ05oS3BWeVVYUWZmZFpfanlQbFZScE5NTllnVThN?oc=5",
+       "source": "South China Morning Post"
+      },
+      {
+       "title": "US rapper Macklemore launches 'Free Palestine Tour' after Ed Sheeran fallout",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNUZSSnpCY0tTV3dEQ1hTek5WS19qOHJMZXRYbnlfdE9NMTNEcE1sLTZmdTQyc2RTOEhLWmRHU2lmZWxyNmthTURPLXUxeGNfb29KMkxsWFFPZXpQRnZtV29hQmRWcGtVYlJVSXZ3a0tMUi12R0Y4bmF6NDVNOVFNcnc3NjY?oc=5",
+       "source": "The New Arab"
+      },
+      {
+       "title": "Macklemore Launches ‘Free Palestine’ Tour With Hozier and Kneecap in Dublin",
+       "url": "https://www.rollingstone.com/music/music-news/macklemore-free-palestine-tour-dublin-performers-1235648074/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "US rapper Macklemore opens 'Free Palestine' tour in Dublin",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFM2ZseGRDZVJWM3JFZHNJSmJ2bTZrMl9sbzJOVDRlRUZ0SnZnWERVYXlMZXZlNmRNVS1ZbnB5bTRwM2o3d1NjVGpkNGVtUENXbU9HOFJDVlZ2VGRqQ1FuSTZHRUZwbzlQM3c?oc=5",
+       "source": "The Jerusalem Post"
+      }
+     ]
+    },
+    {
+     "title": "Ryan Gosling Band Dead Man's Bones Releases New Song & Music Video",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "Ryan Gosling Band Dead Man's Bones Releases New Song & Music Video",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdVdVUU40Nkx5RmdOck0wQWtyTGhCYWdldk9iOXVVVFZZcndvWkZuNDhMa3ZiMUdpeUpudVo1bThrYWhIckYtUUdnNW5zRC0wNkxZR3ptNjFtUzdiY2xobWliaDdvdmNpVkFVeF9iYjZlbjdsVnE0SFVRRF96R3g3WlkwNm54b05weF9iSVQ0T0Z1cHRw?oc=5",
+       "source": "Deadline"
+      },
+      {
+       "title": "Dead Man’s Bones Unveil First New Song in 17 Years",
+       "url": "https://pitchfork.com/story/dead-mans-bones-unveil-first-new-song-in-17-years/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Dead Man’s Bones Share “Lost In The Night,” First New Music In 17 Years",
+       "url": "https://stereogum.com/2515664/dead-mans-bones-share-lost-in-the-night-first-new-music-in-17-years/music/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Ryan Gosling’s Band Dead Man’s Bones Get ‘Lost in the Night’ on First Song in 17 Years",
+       "url": "https://www.rollingstone.com/music/music-news/ryan-gosling-dead-mans-bones-new-song-lost-in-the-night-1235648447/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Ryan Gosling’s Band Dead Man’s Bones Release First New Song in 17 Years: Stream",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVV9Bc3VqdWg4bU0xY1lCcm1SZFh3NGFLNDhGWVlfMXZadTNXZDEta0NrUzZmaExoZ3RnNEFnWUoyYW0xYWNuT1BvZHQ1SmNTZFZYczAwVGdOMTJNbWZfbE4wQlhRbU1GSWprSDB5SjBXdmpPTHVnT253eDJjSWU2RER5ZmFTdENtdWNjLURsNnFQSWY5a1puZFRZZw?oc=5",
+       "source": "Consequence of Sound"
+      }
+     ]
+    },
+    {
+     "title": "인디스땅스 발굴 밴드 ‘캔트비블루’, 대만서 앙코르 단독 콘서트",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "인디스땅스 발굴 밴드 ‘캔트비블루’, 대만서 앙코르 단독 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RSTJGMjhPSTU5c2FTOGQzT0h6N25pdXJvMkw2X01wNFFERlJiVFQweFZtdFR2YmRxMVFCdjgzcFA1WGpUazBGWHFLMU5hblpmMm9lMVF4SVZQS245Q1lSMm1UMA?oc=5",
+       "source": "쿠키뉴스"
+      },
+      {
+       "title": "경콘진, 인디스땅스 발굴 밴드 ‘캔트비블루’, 대만서 앙코르 단독 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lR05uekFhRVZhcDR1UW8wZHNDd0ZtcG1Sck1UTFA2Q1BhZ0ZXUGNNQmtBbVVMUzdnWkQwc0tUSHE0LWlXQV9Mb2pLLWRQalpkTC14ZDRKWl95ak01VEZiTWpnZ2xVU2Z4OWc?oc=5",
+       "source": "부천포커스"
+      },
+      {
+       "title": "경콘진, 인디스땅스 발굴 밴드 ‘캔트비블루’, 대만서 2,000석 앙코르 단독 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEcUdITUV2R0V0TU1KY1ZxQVdGRkhkWUZfVUJTazZzcTRkbThOYVc4OVF0d2d0NV9najdDa0JJS083NGM3R3dQQjlqbnREVUZkQk02NjJNT3Z0TXFjMzVHclZmR0lGQXlIN3ZmNnk0dw?oc=5",
+       "source": "뉴스파노라마"
+      },
+      {
+       "title": "경콘진 발굴 밴드 '캔트비블루', 대만서 앙코르 단독 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnNmo4TENuQWNSenA3dlVyekhpb0FlTm4xTEZaVV9qS2Eyb2w4NW9KUUJkV3N1NVd1QmhKUVVyZ0NVOXV2VjktS2JieWxtaUdJczgtMTVDcDcyOTVTc21zVlotNVExOVdyTE1BcWlVd25mMml1a2hTRdIBeEFVX3lxTFBnNmo4TENuQWNSenA3dlVyekhpb0FlTm4xTEZaVV9qS2Eyb2w4NW9KUUJkV3N1NVd1QmhKUVVyZ0NVOXV2VjktS2JieWxtaUdJczgtMTVDcDcyOTVTc21zVlotNVExOVdyTE1BcWlVd25mMml1a2hTRQ?oc=5",
+       "source": "뉴시스"
+      },
+      {
+       "title": "경콘진 발굴 밴드 ‘캔트비블루’…대만 2천석 앙코르 단독공연",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40R2tIdUxVbUFDckdyZUw0YWlaZi1mcGlsSHlpVDlDb0RqOEgyZlBHMnhXRTRjd3JTSzlzckN5RkcwbjhUQXlxWkFMV1NCTmRCOHdhU1VZRUxSZHMwU09LQUlqTVRTTndqdjZmOUpnRlc1Z9IBckFVX3lxTE40R2tIdUxVbUFDckdyZUw0YWlaZi1mcGlsSHlpVDlDb0RqOEgyZlBHMnhXRTRjd3JTSzlzckN5RkcwbjhUQXlxWkFMV1NCTmRCOHdhU1VZRUxSZHMwU09LQUlqTVRTTndqdjZmOUpnRlc1Zw?oc=5",
+       "source": "뉴스아이이에스"
+      }
+     ]
+    },
+    {
+     "title": "[MD포토] 앤더블, `컴백 포즈`",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "[MD포토] 앤더블, `컴백 포즈`",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtX0xpY2phMzRXQU1RMnloZUQzeEVVa3JJSE1ZTWFnM2s2TTBZdWU2MDdrdVh6bGZpLU1FNmNHMFRzSkwyRGxtdVlFVnVPX0JoNXdvU2k3dmJGRzIwM3Vka2RmQlBZQQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "앤더블, 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5yM1RlaUxKckNtczRiemFfZUgya3NrVGl0Y01feHlxVm1rZTVsRENhem1GeFV2SU0xN3N4eTMwem9MUVBLNXZkZjZRUQ?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "첫 컴백 무대 선보이는 앤더블",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3a0NXcHhDTWszd2VJYTJjdGkwcjMtVF9kMXFBSjJJRHZqYVZ2MjNJejM0ekpaT1V4a21yZmJIM1BGZFJOLS1xX2VBaHJyMkNkZWduT2NuVGxGX1J2b1FGYkthUnhWYjJqeWRrZXNHdHNualFRbVFRedIBeEFVX3lxTFA3a0NXcHhDTWszd2VJYTJjdGkwcjMtVF9kMXFBSjJJRHZqYVZ2MjNJejM0ekpaT1V4a21yZmJIM1BGZFJOLS1xX2VBaHJyMkNkZWduT2NuVGxGX1J2b1FGYkthUnhWYjJqeWRrZXNHdHNualFRbVFReQ?oc=5",
+       "source": "뉴시스"
+      },
+      {
+       "title": "[O포토]앤더블, 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JTy03MV95STJZRVQ4TTJ1a19rcnVqM1lJd2x2ZDR1YkF5Y19jMElPVTRkNzVfZWdYU0NobUJFQlVzbkJvX043dHBTQkR5WUxJRUR1Wmo0N0dkN0d0dm96UDJXTHprSWsxQmc?oc=5",
+       "source": "https://www.ohnews.co.kr/"
+      },
+      {
+       "title": "[C포토] 앤더블(AND2BLE), 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VM1FsVmlucURsaklnWWNCUm9UWFp0aFVOWXk0dkV6Ujktd2RNclRzd3podEh2LTJIMmtMS1NKazZILVg1SlUyN291QzB6cW1VYnhMYTJSVHZyMFRSeXFRTU9rc09qc2ta?oc=5",
+       "source": "CBC뉴스"
+      }
+     ]
+    },
+    {
+     "title": "옥천군, 고향사랑기부제 '컴백옥천! 앵콜 이벤트' 추진",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "옥천군, 고향사랑기부제 '컴백옥천! 앵콜 이벤트' 추진",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52WXR2YTdXemtnNXpiNzFhemlqdkFNdTNNNVlCa1RjT29SWmJsZ3BnMGRiS1hWZHlJckVudGZmN3hfUVg2UGVLa08zNC1xQVpWM2xQN1BId1luVG1YQzYwcWNXOA?oc=5",
+       "source": "경기뉴스원"
+      },
+      {
+       "title": "옥천군, 고향사랑기부제 '컴백 옥천, 앵콜 이벤트' 진행",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBRkFoQmZNWjFxQjdqbTQwZTAxNlNKRUdEZ0JDS0hNR1JqR0hNTjB6MDM4M2twTzY4V0VjYkh3Uk9qODZjbHVNTk9pVGlock5KY05aQTZaWGstTjU2bk5V?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "옥천군, 고향사랑기부제 ‘컴백옥천! 앵콜 이벤트’ 진행",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yNW1wTTBab01lNUtEbWFkOTgwMTBIY3lxZENRaGtWYll2MlIwcnJOVFd2THhFMktxVnl5dkY1eTZjUFVFdXlJZEZwNy1UTDNnTC14UkdBZDItSHBXcUQxTjgyQ0FpTTFCVG4w?oc=5",
+       "source": "동양일보"
+      },
+      {
+       "title": "옥천군, 고향사랑기부제 '컴백옥천! 앵콜 이벤트' 추진",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LZWwxUnowR0hSUURnRDBQU3pUOE50QUM3ZXdsTk5fX2NKemJOcFR4SVlhVXd6OXJySFROeG1BQVNHQmtZMVZvNUNvR3Z3MlRxaHFpVXhRWDZRemp0WXd4c1dJWFdLREVNOTNrUXhFM0xmQQ?oc=5",
+       "source": "웹이코노미"
+      },
+      {
+       "title": "옥천군, 고향사랑기부제 '컴백옥천！ 앵콜 이벤트' 추진",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTUHlrWjNDTGpXUFVvM2NDeF9yeFNMTlFoSlhmMUo1RDBza1VfTEhsZ0xVNzZNNVNNOXFQWU5iU1AxcUVveTgzQVM1NnFtOHJXTGY5NkJuYjJmeGc?oc=5",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "임영웅, 아이돌차트 평점랭킹 291주 연속 1위",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "임영웅, 아이돌차트 평점랭킹 291주 연속 1위",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RY3diT3JLeWMtUlF5ZlpDMDJXOHN2X1ZEbHhVbU5fNWo3SGFIY0xwc3NVVFFpRFJIZ2N4cVVRMmdERXBYeWVSMldIT21DSGxMczBuMUE0ZnZQbFJDc2xCNW5JZGdCUDZyd3lRU3Z2OUlRUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "임영웅, 아이돌차트 291주 연속 1위…영웅시대, 데뷔 10주년 맞아 동물보호 기부",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlbENMdUZjZXl1dkVSM0tucWFiOGVoWUY0ajN5TGlMTnAzcFhMNTl0eEtKZXk1cjA0aUpYQzhfbnQ3ZHYxX3c1X1k2NU80WGVUSjlVU25Vb1lqLVJvN2dxa0pZN3owMVljeF9sQmF4UXIzUnc0?oc=5",
+       "source": "세계뉴스통신"
+      },
+      {
+       "title": "'독보적 No.1' 임영웅, 아이돌차트 평점랭킹 291주 연속 1위",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45VWs5c2xBRU9YVzQ1WG10ZEpuQUZFSXdFR1YyWXRGcmE4ZEQ1bkE0bGd2Z0lvdXZPWHMtZWhvckQ1aEwyRFZoQ3BocjBZUnRrUjhURVZFZjJLeXI3bUY1QS1XdDFRWEpqY2tzU2pqODNWTy1K?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "임영웅 1위, 아이돌차트 평점랭킹 291주 연속 최다득표..2위 이찬원",
+       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5DV3FVeTFLOEhvdXdWdUgzckowN2dvUmRnNDBJdERYbUwzd2F6ZXNoZVpRZFJ2RndlN2k1bTAydWQyTXlMYmxV?oc=5",
+       "source": "브레이크뉴스"
+      },
+      {
+       "title": "임영웅, 무려 291주 연속 1위…아이돌차트 장기집권",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01MkZPMFBIdFQ4eFFqSFIweEhPZVdsZDhna0NOeXV5c2swOTU1S2ZvS0FuRG5jZU5kTkRaV2Q4bDY3RExGdlBkelRidW9aaWxGUWJmbnJGWDg?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "비보이즈, 오늘(27일) 신곡 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "비보이즈, 오늘(27일) 신곡 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WSGVQWlNYdTYyMU1yZE5fN3BpYUZfNHFlUWdhSEtEMTRPcUNPbWg2RlR0b21MNGxDTExBeElyYjJia2p0dU1Oei16a0JXVkxXNXY1andXOEtKZS1PUUJHTWxOTDY?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "비보이즈, 오늘 두 번째 싱글 ‘CAME FOR THE GLORY’ 발매…5인 체제 첫 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5STUg4czN5OTRmbDVnNHJKVktuNWZyVlA0eFhYamdqXzdUcnBWMW9SYVlCcXYyZ2ZZcklBUU9CQXZrY3JRcWJtTWwzaEpqQlFkd0lkSko0amltTWlyOFFmd2I5NndYM1EtNTBySG1mWmlpUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "비보이즈, 오늘(27일) 신곡 'CAME FOR THE GLORY' 발매…5인 체제 첫 컴백",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jUTg0dUx0bW1jdVRaNWF2MFVkU2R2dE8wOW5lZk5mMU1yek9yMG5PaXlLQ0RKa1ZlVk1oeTExeFUwVjJOUjBVS3RUZlllVnNRSWdhN21IamFKWDBMVm9SbGhfRnhjUExuVkNPeA?oc=5",
+       "source": "뉴스플릭스"
+      },
+      {
+       "title": "비보이즈, 신곡 '케임 포 더 글로리'로 컴백…5인 체제로 새출발",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HRVRSVVZXZk90UEtHdFJkZDUyd3VaeUZXa25WN1RhR1ZQUlUtcnhtUkFoRUpTbm1nYmFsNWxubXM0d1BoanNRaV8wbF9hdzlEZnRnRTFITQ?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "비보이즈, 신곡 '케임 포 더 글로리'로 컴백…5인 체제로 새출발",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpTU9FU2tPam5mTTRWSmFsYlFIenZNYmhfSEs0YjAyQUJTWGp2MjdoMXJaTENSUmVqbXVXWEtJSHFUWE5pNGZkZWpya1ZraHpNdS1aYWNhSWRCZw?oc=5",
+       "source": "파이낸셜뉴스"
+      }
+     ]
+    },
+    {
+     "title": "대전 서구, 가수원도서관서 한국 작가와 현대미술 강좌 운영",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "대전 서구, 가수원도서관서 한국 작가와 현대미술 강좌 운영",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzaDlQM3R1N0FKYlhHbXctQjE4cThIcXpKMm4yYmZpeE9WUmhadzQzVGpqNUlMenJsV3pFblJwb3lkeWt2aFVhaUFn?oc=5",
+       "source": "문화매일신문"
+      },
+      {
+       "title": "대전 서구 가수원도서관, 현대미술 감상부터 오일파스텔 실습까지…성인 15명 모집",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96MlRoVTd4c1RGSjZnT1M3MXB1d1FoYlpCNGZuWUs0bEQzdlVwOUdZcnlGd2hRR1kzRm5XWFI3QTJZR29CZ2FMSWZPTWZjSm01U3JiVA?oc=5",
+       "source": "타임뉴스"
+      },
+      {
+       "title": "가수원도서관, 한국 작가와 현대미술 강좌 운영",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mdnhIX0JtRFZ0ZUxDbC1ZemQwYVNPX2E0emhTUG54SzlHN21sLUIzaWF5Snl6LURiSlFFQm5wbmVUUjMyWjRTUG5Na1g0OGdXaC03azdTcDFmVjh4SjdQZUI4b1JhOFZJNXUtT0VZSdIBc0FVX3lxTE1RZVZBUFdoMkVWQTJnSV9SSzNWZy1CNy1yVlM3LXZIQ0s3QjlPWkd0WnZSQjliVVVTYTNvMmlhWmU4YXZ3UDEyQWNJMXdJbTVKaXREMVZTUkFFVXByVXJKZG5MbGltNndsSmJ3X2RobjVYOUU?oc=5",
+       "source": "대전일보"
+      },
+      {
+       "title": "대전 서구 가수원도서관, 현대미술 문화강좌 운영…29일부터 선착순 모집",
+       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1UERTS1FYVzNPZUVScU05REhsTm11UkpJVWVEVWlmbWJBTXdleWdveVI5Qmx1S0pLSnNvczVZY3JDc1d6b1E?oc=5",
+       "source": "뉴스충청인"
+      },
+      {
+       "title": "대전 서구, 가수원도서관서 한국 작가와 현대미술 강좌 운영",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uNVNKc3pIZkFXaTFGdVU1WGJhcGhuOENnMnlqbzkzZXctN1duQjA3UmphSkM4YTEtODZaS1NSVHZCbTBwSlZDNVlQZkRyQzhaaTJyNTdjdU0yWHRrbWIwM2tlNGM2Zw?oc=5",
+       "source": "미디어대전"
+      }
+     ]
+    },
+    {
+     "title": "JYP Entertainment Jumped On Talk Of A 50% Tender Offer",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "JYP Entertainment Jumped On Talk Of A 50% Tender Offer",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa3ZSakFMdm1CcGtfbnRwbElnWTR1VnVFdmhpZmNZOFNCeEZSU2ExNC0xcFQ0TkxaaDEtRFNMREFsZE9BX2E0M2szWlFhNWdZSFZSdE1LdDQ5YmZYLW55M1d6NWwtTC1CUVVZQk9lUzNoMzBsM3FWNFVSX0tnVjZ3S0RHVHBpUWtjM1E?oc=5",
+       "source": "Finimize"
+      },
+      {
+       "title": "JYP Entertainment soars on reports of tender offer plan by little-known groups",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZkI4UzluaUJISFloQjRIclprdEZoRnNNTUFURjY4SVJyQXFBSDU3anRLVHYwaVMwN0JlZkREbHc3cjN0dzFMaGtTNHhaOVg5MnRZcHZYZEtOOGU4VC1BcUpVM2tEY0VVdmFaS2hFVFl3cWdxbThKTVFsQVppdEh3MktZZGxLRVRreVhpRDZUWjUtck1hNXhXSjVQOFYzaTl4SkNWT25QMG5ockU?oc=5",
+       "source": "DZRH"
+      },
+      {
+       "title": "K-pop agency JYP shares soar after little-known groups announce tender offer",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdWtMVjNGaWhYS182bXVjTU44dFVDaEpOa1IzWWdJSVJZTVBXYlhXNGZ6Y3NuWGlPSU15cm0xSTc1dWhKVjBRTzVHc29yNDVTUzNVckJXdUNsMjdDbEpicXowQUNiTW9IeW1McldUOFE5N1otdEZBR1lyOEVoUW9YX0p6RmtPZjBpUlQ1UnVpODhLRkhjOTJwc3l0S2x6YW5RQnlCVnJiMXNheTNLc19ZWWV6MWU1VGJMZWxWSw?oc=5",
+       "source": "The Straits Times"
+      },
+      {
+       "title": "K-pop agency JYP shares soar after little-known groups announce tender offer",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeFRlakVuUmVCWkQ1NWh1NElmLVpUM3BBZTNCNFJ4R0tiYnBQTzY2cVFKeXB5QXlhQ2FYNDdCeHo0UTJqdEZrMmZzUzdIWHkyd1RPOTNRbDFhLUJWelJzR2V2blg0RjhVbnE2R1JQaEMyb28wREozNTZlR09EVzJSZG9vOHFVZC1qWTEwbWpJWFNQeE9LTjB6WnpxNXlBaDlRU3NmMWtjVE1wSW1nUkFnWGl6cEVmVnNmcVNCWjJLRk5RY3Fjb0h3Ri1JbHRVX3FaX0daTkdB?oc=5",
+       "source": "The Star"
+      },
+      {
+       "title": "K-pop agency JYP’s shares soar after groups announce tender offer for up to 50% stake",
+       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUzlJTVRGeWk5a213ZjRhcXBlTUtjbGlYRHB0ZFVsM0dkUktNYkNQU1NTNlp4dFAwdzM1MEF6eGM0UXBmVTRCSUl4OGdLNTVoQ0lqUjAwWWJMcHJfaEx5YlNnQjluVmwtNmdYNmpaWDNSNV9fMS1GS3NOS252NTNyMjd5VVVield5STlnTmg4bU95U2l5MEF1Vk9ZY0JxMm9wWGdtTXpZYWpaejJpQmd1TElDSzlSc21QSGg0M3hFcFVJZw?oc=5",
+       "source": "The Business Times"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
