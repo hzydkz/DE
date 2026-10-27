@@ -1,0 +1,544 @@
+{
+ "date": "2026-10-26",
+ "generated_at": "2026-10-27T00:01:52.112409+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1080,
+   "issues": [
+    {
+     "title": "트와이스 나연, 11월 20일 솔로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 27,
+     "source_count": 24,
+     "links": [
+      {
+       "title": "트와이스 나연, 11월 20일 솔로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCUUhfNEZpdFc2dHlVYnJMVHFieVoyZGRzUUpIRUtvMjhtNmtxU3Bwbklmcm9KQzhITU90RjQ2TlhpanpNMEF3MzlqNFpJVmVhb3pSRVpMSTdtd3A5Sk9nQ0VCX28?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "트와이스 나연, 11월 20일 솔로 컴백…신보 'NA-sty' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VVTZOQWdGVVF4X2RjWmIzbVRTN1FXbV9PRDNXeWlYalIzZVA1QmYwRl8zbXhxS0htUEt4TWU3Rmt6MmlPcVhucDYyV0diM0lRUEZSdmJEVFoxdHY0czZ2cU9USWNwZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "[속보]트와이스 나연, 11월 20일 솔로 컴백 확정",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsMF9FOENGQ1BCUG5UQjZsNndpdFN5b003UTktTHlEWml3bXV3dlkwRzR5N0NINWpXMzI2S3ZKLVBBYkpDb1dsTnpIUUFXT09VcHhGdmwwY1VCRnVpR3kyWnhKRUFTdU9TWWxaMDBxTk8xZGJm?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "엔하이픈, 11월 20일 컴백 확정",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IWkstNklOek93OGdyN0Z4dDloWDVteG5BMFk3dTNzbE9Xa2JwVkFrOEYwWDlyeFhmWWN6NEdtWGdic3FJbGgtTnBFRFNKWG53TlVYNmwyWkUzYUxhLWszd2RqWnI?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "트와이스 나연, 11월 20일 새 싱글 ‘NA-sty’로 솔로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sR2NjNWxxMmFROElNYUMzbEpOX2xPbWFMNGlWeXFOQ0FFMUdLMkVSZmdyRDNwNmxWN2JzWVJ0RmZlRlNYMWRObEp3dVhPU3U1ZnZQUTV2UGlOY2NMY0FkQXU4Ri1nUl9OR3ROY3RDUjJ1dw?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "‘컴백’ 아일릿, 호루라기 들었다…당찬 경고 ‘체포하겠어’ [오늘의 프리뷰]",
+     "summary": null,
+     "ai": false,
+     "article_count": 27,
+     "source_count": 23,
+     "links": [
+      {
+       "title": "‘컴백’ 아일릿, 호루라기 들었다…당찬 경고 ‘체포하겠어’ [오늘의 프리뷰]",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9JTkRON3ROaHVPS1hvZGFPa1M0dF9ZZXk0dGg4ZXdrX0x1QlBOUWdrYW1oUHhudzhVa3hOaEpuamlpd29UbXE1c19xbkxxS2RPVk41ZGxXYw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "아일릿, 오늘(26일) 컴백…‘체포하겠어’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zakU4anRKY3FyT19vUVJnLUI1TFB3SmlFQnJoZWlYMWJZS09iV3JDNnh6SlA3Zkp1Ui1UNEljZ1dlNEV4QlNCUFVWZUxiQm5PQko2T3d3M3RRN3pBcG9FUVAzeFM?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "아일릿, 호루라기 불며 오늘(26일) 컴백…`체포하겠어`",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qZnVMMnVLRlg2ejJxdS1temxxb3dDUVdHSjRtREs3TnppUDFoY3hOX3VaaXcxRFN1Y2s3SFVnblVtZFJOeXg0cHhFVlQyRlRaTk1IZ1oyVk9RbXhtaFZGRTVQODN0Zw?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "아일릿, 오늘(26일) 미니 5집 ‘BREAK EVEN’ 발매…타이틀곡 ‘체포하겠어’로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8ybXBpcDlKS3VhdlZoTDQyR0NpYVZwelpJUHg5WmVZSnh4bjVXaElCZ3NpbkdRaEJBSHdobzNITmZLMlkxR241OFJGWWMxZlZUaFZQMENsTHVKTUlnVGt5MGNxM0oxVWdmNjFUMWVn?oc=5",
+       "source": "www.frame-less.co.kr"
+      },
+      {
+       "title": "대국민 체포 작전?!…아일릿, '체포하겠어' 컴백 D-DAY",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jN0ZObjU4dFBXaEJMWXRpRk1ZR1E4WDk0enFQeldoZU92TzM0MnV3UVdoZW1QOElKYzA1dEZDdWdfOWRUX2VSSXRjMGxTQQ?oc=5",
+       "source": "전자신문"
+      }
+     ]
+    },
+    {
+     "title": "Singer Chris Brown to be sentenced over bottle attack at a London nightclub",
+     "summary": null,
+     "ai": false,
+     "article_count": 18,
+     "source_count": 17,
+     "links": [
+      {
+       "title": "Singer Chris Brown to be sentenced over bottle attack at a London nightclub",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPU0dtNFRqaS1vQkw0RVNrc0tSQWpWUVpSalZ2QWYwZGxGUWpYa3JfMlhJYUZrVTROdjBOajZKTDJxYWFkc2pkdDlINDNvVTRZMGdlWUt6b2NyUGwxYjZKS2N6dzVsc1NqSXBkTkhoSUxXRGN3NllYVWdZbmFBOVRvMC1ETGVpVmU3MTdzNlpONmJ4c1c2ZW9xeE9NNkJPM1BYWEhxbXFzSTZGVTdWTXk0eGtIVU1WRll0MTJLdGxobF9KWlhybTJTcGVR0gHKAUFVX3lxTE9TR200VGppLW9CTDRFU2tzS1JBalZRWlJqVnZBZjBkbEZRalhrcl8yWElhRmtVNE52ME5qNkpMMnFhYWRzamR0OUg0M29VNFkwZ2VZS3pvY3JQbDFiNkpLY3p3NWxzU2pJcGROSGhJTFdEY3c2WVhVZ1luYUE5VG8wLURMZWlWZTcxN3M2Wk42YnhzVzZlb3F4T002Qk8zUFhYSHFtcXNJNkZVN1ZNeTR4a0hVTVZGWXQxMkt0bGhsX0paWHJtMlNwZVE?oc=5",
+       "source": "WVNS"
+      },
+      {
+       "title": "Grammy-winning singer Chris Brown avoids prison time for brawling at a London nightclub",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU19XUlBYQkpMSnZLd2F5ZGRHVnpHQ0NHUGxudjEyS3ZzaDdKZlpWN3QydTNzSFpfUlZmbnNCbk9UUms0OEUteVlHcklpQUpWTU51UlpKMHZuQjVrb3ZXTzVzRFllMDhHeHE2NWc2a1N6SkE2WlR1aEpaZHM3R3hTXzQ1WEF1Z1h6US1JVkdBR1BHY0w5UEZJd1NEdzhKdzBnRXBLN0VCVmtlUDNFT19VaThVTTZMdGJmNGRuRGhuRElVR3ZEc3Mzbw?oc=5",
+       "source": "WPLG Local 10"
+      },
+      {
+       "title": "Singer Chris Brown to be sentenced over bottle attack at a London nightclub",
+       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOTDlNbGtJbnhQZEYzbUI2T1JGSnFTX3ZLT19NczgzQldER2U1bm5RNmlmWUVPY3VubTNvYUxhbnJXdVItSExQVnF0bENzbUQ3THo5dXp3UEZhck9LRUFWVUdfb19MNFU0cXd1WUQtSUVIWEw5VXRaTXk1UkVzSXZGRVZQNzFaMXIxcGRSZmFRcmMxRmphWUVfRDdhQTJOSnhfbG9fc3N0cTdTbFA5VHp2ZkZOQkhIa1Jxb18xXzFGaWJIWTJZc2F3QzlxYXptRFdaNUVDQWEzQ0VRNmhjemhHWW5zTDNsX2FXNjBMQVk5MVJJRFZDZDRQOEpJVW5MSUFKNXNGS2tB?oc=5",
+       "source": "Ottumwa Courier"
+      },
+      {
+       "title": "Singer Chris Brown to be sentenced over bottle attack at a London nightclub",
+       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPVEhoZjB1MEV3R1JZVVpIOVdKVDk0cGprTU9WdXpBcWxCRWpRODdjX3hOY0ZqMDV2X2tCREhJaXU4ODh5XzRNNFNkMUo3YV95YVFIWnh1bHdqMkJqSlR3QUdxb2lScUhfVzlkbExXNmlMRFVrWVEyNDVhbnVQUm1HTDFpSW5SZ2VFNy16b29ybVR2SHA3TkxPMnB4WTBPVG9mOTZmUEJaS2VpWkpfazhrenhqNnQ0REVjc2tsLUdaOE9JVDRsM3hlWDcwTmpiZzZxbGhvNGR2SjdPcVc3bzlCUXZTRHU1bjh5bjk3RUF1NUFUZXVYaGlWNUZOelowMTNl?oc=5",
+       "source": "Goshen News"
+      },
+      {
+       "title": "Singer Chris Brown to be sentenced over bottle attack at a London nightclub",
+       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOOUcwaHctU25FYWNFU3VGeUNUNEQ5Yjh5bGNQR1RGV2YzTHVWYjRidURlRDFwRnJ2eGFoRTlFYkNiMUlVT2I3WnpQc1hDR2RhV1lEWkZCQ1h3bnJIS3lIQ3JUelJueFdTcW9RSWp2MHRfTzJtcy11VnRFRUh5djRmTGliRG1xY0hmaGplOTRDWFA4c0pLZHd6NGpuN2RBRGF4blN2TktEN3FvZjh3YmFrYUNfWEdiMHd4emU1ajlHeVlYSjRxQl9mMjhtSzFWTTJTU0RBX2pRVzFzUEVyeHR2bjVvNEdObGRyMi12ejhnQ1k0UHBLZTN3?oc=5",
+       "source": "The Batesville Daily Guard"
+      }
+     ]
+    },
+    {
+     "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여",
+     "summary": null,
+     "ai": false,
+     "article_count": 16,
+     "source_count": 16,
+     "links": [
+      {
+       "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIWFR6N2lvNDY0UGZmZ0xJTGRnODc5QVdMbFdMS0hqR2ZIc2RabXBDV3FIWDlXWC13em83MWxBaE1JMEpaaXpBNjMyaGc1QzgxRW15WGFkSTF0N2xVQzZvZjFtZ1J0bUJHV1ROSjlUS3JmZw?oc=5",
+       "source": "경남뉴스투데이"
+      },
+      {
+       "title": "걸그룹 리센느, 거제시 연예인 1호 명예시민 > 뉴스",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwU0N6Wld0OC1qbGNfWVZnaUNUTWZaNmd3bHNFQ3ktU0J1X0NFNENNUUhwN0phT0xwU1FxYUQ2MDNiUjN0NWZ2SnFISTJVc3dtejJ2QTRDWEM3dUFpMzJLT3VHWHhqN2ZicTNKQUpEZF9tUQ?oc=5",
+       "source": "더코리아"
+      },
+      {
+       "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4RHkxRUdQMlJ3TWEweXY2U0NmVTNtbDRFRlZaU3B2Tkd1MGhnNnRvN1lVbXMzSUpFLVJHQ2JiNEFya0dHT3VVTFBCY04tQjNwT1dxNC1TeEg3NnIxUkl4dG82WUtZNUdoTTZF?oc=5",
+       "source": "새거제신문"
+      },
+      {
+       "title": "걸그룹 리센느, 거제시 첫 연예인 명예시민 됐다",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBOQU1wM2Izbjc3MjdTdEp3ZHVnMkkyNEVzdGY4SFNteUNES2phSmtVdkEwSWRhdUtJdFhZOFNPU0dfQQ?oc=5",
+       "source": "브레이크뉴스"
+      },
+      {
+       "title": "걸그룹 리센느, 거제시 제70호 명예시민 됐다 - 보도자료 | 기사",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xZ2hrTThBOWM0SDN1WTdGckE1aDlhbTNXZEh6VGZLN1JpeWFiYkxzS21zRlVHbjhRQ2M2djVsMFliN2FrTEZTeGJRazVzTkpuaDdmMW01ZVdNbVhzeUw0?oc=5",
+       "source": "더팩트"
+      }
+     ]
+    },
+    {
+     "title": "베이비돈크라이, 11월 4일 '리플레이'로 컴백…한·일 동시 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "베이비돈크라이, 11월 4일 '리플레이'로 컴백…한·일 동시 발매",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zZkpEVHR2ZXdiR1Y0SzRfb1JPRHFJTTQ3clVDTDNScHFUTFYycUZCR2h1dFZIR1o4cFpnOGdvd1dkWFd2ZkdfQWJ6VGs1VXFHYXhIWS1ab2EtcWpW?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "베이비돈크라이, 11월 `리플레이` 컴백…日 데뷔 예열",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2RG5mbHBUWXp4dXZaT2JaSVVGaE5XWHBnQllyek1jVXhSU0kwRjU2UFZxQ2lseG9pd0M4RVFXV0ZFQnZYdXV2WEpwWDl5Y2FzMnFkRU1LZ1RZYzlpekZMQXlaSVpJUQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "베돈크, 11월 4일 신곡 공개…'리플레이', 작은 유령의 모험",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBGTmpNb1JxY1RveGVaY3M0TW92TWJZQzF4c0hsSzBJNnRidEFjV2FvRDRsUGhkcVprT0x3Rmw4dEpXSFNUNmNWN1V3?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "[가요소식] 베이비돈크라이, 내달 신곡 '리플레이' 한·일 동시 발표",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfMFc4LWxtUGt1U09aMU1BcnNwTlBadWNlVU80cklteksxQzd1emN2dGNIQXMyeU9KMFZUclhCaWc1MXNKUGJrWXFpckdSQVpBVzI2VVpwYldHQUVwYnpVRdIBYEFVX3lxTFBfMFc4LWxtUGt1U09aMU1BcnNwTlBadWNlVU80cklteksxQzd1emN2dGNIQXMyeU9KMFZUclhCaWc1MXNKUGJrWXFpckdSQVpBVzI2VVpwYldHQUVwYnpVRQ?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "[가요소식] 베이비돈크라이, 내달 신곡 '리플레이' 한·일 동시 발표",
+       "url": "https://www.yna.co.kr/view/AKR20261026051500005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "조영수, 버추얼 가수 WON 론칭…“제가 꿈꾸는 유토피아”",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "조영수, 버추얼 가수 WON 론칭…“제가 꿈꾸는 유토피아”",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYX2pfQjZoZjF3RTdUOHBYektGNGg5TEk0X3V4UElxa0JmVlpjWC1tZmozWHRWT1EtX2RsajFMcjc1VDJUV1l2LXdNSmFoVGxnVVRoMVFvNFRKNU1yUEE3Nzh3bHR2Yk91VkpRX3ZpUG9ldw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "조영수, 버추얼 가수 원 론칭",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VT2RaQ2drZnNZdjNQSGlKcE8wbVJUZ1Vza1BqQzhYU2hBWW0yRHFtN2VCZkNjUWZMMnRpWFVWMkV6T0Vaa0hVcE9jY3BpS2ZmNU1UZHh5dG5jeXZuaWRJcFVvNGU?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "'조영수 제작' 버추얼 가수 WON, 비주얼·목소리 공개",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44MUs3NzhvcVBLRmpNcTV5M0t2bks3c2F1SXo1MjJqeEdPMUd5ZXliX2ZSRFNEbzVBekhianhfcE5sM2dZQ1ZUaG1vcnB4cEpocWg0TUtPMDJNaEFpVDc4Sl80YjQ3aWNyeDVNUnQxZUY?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "`히트곡 제조기` 조영수, 다음 도전은 `버추얼 가수`",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WZG9XS2ZXS1BJaWV4cmV3SENDTXNwWldfNExYSVoweTVTSWtqUnhLOS05dy04WDBZelU3UllQcUNfS0I3NHJxeFVocjA2VXhfWU9TTVIyaGFudkpKTVQ1YQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "조영수 프로듀서, 신예 버추얼 가수 '원' 론칭…“제가 꿈꾸는 유토피아”",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFVldXSXRFd0ZEVkktaEhzMUltQWVtN1NyMzktSnF2V09lQjlRb3dNN2Y3eVR0YUxnVlZPRlVKdkl0bDNEZzl2NTczeFNUMjZBUk1va2RZTDljQlM5TlhpdzgwLUhSdw?oc=5",
+       "source": "뉴스컬처"
+      }
+     ]
+    },
+    {
+     "title": "제8회 고령 세계 현 페스티벌, 뜨거운 호응과 박수갈채 속 성황리 마무리",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "제8회 고령 세계 현 페스티벌, 뜨거운 호응과 박수갈채 속 성황리 마무리",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ndWVKVllYekl6bXFUNkhtdFpIWHJZVm0wVS1uTzM3UFR0QmlkUi10N0d0SE0xVkVkVUU5OUJQaXpJV1NndnJTOFgzcENfVWI5NGJ4bmlRVQ?oc=5",
+       "source": "문화매일신문"
+      },
+      {
+       "title": "제8회 고령 세계 현 페스티벌, 뜨거운 호응과 박수갈채 속 성황리 마무리",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WSzdybVBOVnc0a0NsREpFVzNPNG1xbl9FalVsRElQbW4zRFlST21BTEdVRnQ0dktEVnRodGNYS1dmQkpzSUY4ek1sMTVtT21hTzdxalFaQUFNcXl5bVBFZGJfUEtfQXFpT3YtdFdB?oc=5",
+       "source": "칠성고라이프"
+      },
+      {
+       "title": "제8회 고령 세계 현 페스티벌, 성황 마무리",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPUncxTHdtRVVET1BNSUlUd2JralZJcFlHX0NKdVlPZnRDS0NGbElEU0V3Q2JYNlFuZ3lUSEZueXNMemM5STBQNmloY3N4Z19qUjJiWA?oc=5",
+       "source": "세명일보"
+      },
+      {
+       "title": "고령군, 제8회 세계 현 페스티벌 뜨거운 호응과 박수갈채 속 성황리 마무리",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aTWpfeW1OLWtKSW51elR2SlNrSTdWWXBHSVJBNGdGVjUyODVvWlZCNFlYUDViMWZ0OHY2c29GcWJpendNQ0pIeERmcGxER1Rrb1laelJLQjJBc2psZWxZNEJ5Zm8zdlhNV3M4Sk930gFwQVVfeXFMT2RDdVJWSXB2UlYxN0ttejRHejF5UFlxWFU0VVdPM3k0RG83NzdFLWNJWWZwX1NkMGQ3Y1pJYUFVVjJBQ0pwRHdFdlFJOEpZaDNQNUFEVWNNbEIzakJEc0VtTDRfT09zdW9OM21WSGI5Zg?oc=5",
+       "source": "내외뉴스통신"
+      },
+      {
+       "title": "가야금과 세계 현악기의 만남…제8회 고령 세계 현 페스티벌 성료",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9XYmJTWERQVk5jU0NyVGNRQWlNRFh1NnU5QUJqTmM1XzVmZjhaeTZOR2JHT1liN3p6aFlCaGpFWlNyZw?oc=5",
+       "source": "브레이크뉴스"
+      }
+     ]
+    },
+    {
+     "title": "가수 윤하, C9이엔티와 전속계약 종료…정산금 미지급 소송 제기",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "가수 윤하, C9이엔티와 전속계약 종료…정산금 미지급 소송 제기",
+       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPNV9sMk5NcXEwM2NpT2RNUTV4V1RMbFl1c0RpQUpJdXpuRkNuNjJ5V1Y0ZlNsOHdqM0toQ1RnbGZiaDVKQmhhZGE4Z1h2NTdicnlxQmhCbkRzMlFMZUV4Q3lGbnM0X2VFS284elkwSVYwVVNPVmRvZ0QyWnVlMkFXZUc0eG1OTDRaSFpQTW1VOWJWb1dWTm00SU9DQnFxYmJ0ZjlyQ0lxZDZ6Q3ZGelluVkQ1Y0gyeWJQWlBkUlY1b0NOLTFfdFV5VGQxb2FRUE1jY3BfOTdpaksyT25hSE94S0xoQ2dEUGhKSGhPUFFtNzNMVUNnNlVyb2U2eHVxOGxqZGZ6SjlPOTNma19jSHc?oc=5",
+       "source": "데일리안"
+      },
+      {
+       "title": "윤하, C9엔터에 전속계약 해지 통보…\"정산금 미지급 문제\"",
+       "url": "https://www.yna.co.kr/view/AKR20261026070900005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "가수 윤하, 씨나인이엔티와 전속계약 종료…\"정산금 미지급, 법적 절차로\"",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMTd5anZXWkdBNDFyWXRWbEhVazN2NUMzZUZBTlBTQzBzLTBXQThKT1gtb0tfcTYwaUVoOGE2dXNnblRZbENtWVd0Z3Z6VEtQcWJOS3lDYjc2aTVLbHduRmh3LTN3Y2haNGU2dUUybF9xdndwWlhvWnJzbzRuUjRrVENlQWl6QQ?oc=5",
+       "source": "news.sbs.co.kr"
+      },
+      {
+       "title": "가수 윤하 “정산금 미지급”···소속사에 전속계약 해지 통보",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTG9GaTlHamY0ZENTd1dZZDJwWjZXaTBNcUZ3U0sycHJpSkJ2cGNrUllFUFpqcTNmdWUwZ1RfejctOWs5QlBtQ0FQRHhkdDhxWEFRZTR1ZnYxVjJMckg2eVkzZThtc3V2Y25nYzBoT3BWdHh0QjRxeE81MGYwODdWM3NDOWJGNmFsM2MyZGlaTEFySmJQUTRmV2RMb2JocFVrV2pORmNzV0Znd9IBX0FVX3lxTFBOVmh3TnRuN05JM25mU1FPS1FoYWJjSmk1SjMwZUZxb3NORzlzaGphYTM4dHNqeEhtSDVFWW5mMjM4SnFqYTFrTTRweHBZaWZmQkEzZlNMdjZsVzVQSlNn?oc=5",
+       "source": "경향신문"
+      },
+      {
+       "title": "가수 윤하, 소속사 계약 해지·소송…9억원대 정산금 청구",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qOEVyaXNUZTVCWFR3WENlVkRNVXc2c0Z3aVE1WTZBU3pheWhmTHYwOVF3Uzh5LWkwemNkdjlnbnFmSFlEbUdnbDE0a282OXFURzd0TjhyakTSAVhBVV95cUxNajhFcmlzVGU1QlhUd1hDZVZETVV3NnNGd2lRNVk2QVN6YXloZkx2MDlRd1M4eS1pMHpjZHY5Z25xZkhZRG1HZ2wxNGtvNjlxVEc3dE44cmpE?oc=5",
+       "source": "아주경제"
+      }
+     ]
+    },
+    {
+     "title": "Tedeschi Trucks Band to Play 10-Night Beacon Theater Residency in NYC",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "Tedeschi Trucks Band to Play 10-Night Beacon Theater Residency in NYC",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaXl2bHBpNkJpblJIZmpZenVoSVVva0hVMkFIQndmVFRnV1NJR254WGptNlowODFVUU1PU0hiTmFUQ3l5T2NpV0EwWlRRZzh1dG41bWFIc21tYVFXQ1pZQTQtZmlQLUJ3aWs4QmhKaHZNdlctbEc0YjZEZml0eWF4dWh2dw?oc=5",
+       "source": "Ultimate Classic Rock"
+      },
+      {
+       "title": "Tedeschi Trucks Band Announces 10-Show Beacon Theatre Residency For 2027",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd2U5YzYzOHZpVFItSzlwQld1WHhxV1g5bjVPN3I5VE9wUjdUeFZtaWdtaHZ0cFBrZVJyWWNYYy1Qem5jRTJSYTFsTXBHYlBRSk1KSV9laXUzV2o4S2FtQkxQUHFTd2tySnBLbkZzWlVya25ZUzBuZGh0RVhybUQ0OE9jV2lDWFNfeUE?oc=5",
+       "source": "JamBase"
+      },
+      {
+       "title": "Tedeschi Trucks Band Confirm 2027 Beacon Theatre Run",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSnlTcXgzQVJVbmRnSDJKVlU4Q2U1RFlTNThHWWRGWkpRa0xsU3p6ajNVdlZ5MjE5ajRMekg1aUh5WVNnVmc4VU1DRVNoeXlCeDdETEFZZHU4LUlQRmlUUmxnREdlX3VuWHF0VEZ4WDVnZm5CTDduY0tpaVMyQzVUdlVmaUpLMUMxWXc?oc=5",
+       "source": "Relix"
+      },
+      {
+       "title": "Tedeschi Trucks Band Confirm 2027 Beacon Theatre Run",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY0g3OW5BMG1Nd2pIcnV2M3REWmVoSnlSSEh3TDk2REc5d1VoSzVjLWhOaDZsVWtrMXBVc1M2dHpJcU5FZWdCa2U4RjVnQ24xM3BDVTdHRGhKSElUTjNVWGZOZUdnWDdIWGlYQUtXRGE2UjViVzdod1dhQThnaU9reVZtb295MENoZXhQNk9ZZzU1WUsx?oc=5",
+       "source": "Jambands"
+      },
+      {
+       "title": "Tedeschi Trucks Band Announce 2027 Residency at Beacon Theatre",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT2hLZzMyVEZaUDNoSHJiS2daYXhUQkhKejRIendpVDhyWnNVeTVHY3F6bUpGalV4dnRSN1lTam9yR3RSRzNSNldEc1NxUTFkU1BFN1R1aTBXUEZCN1hELV90amUwcXFlRTZnSDI0VnBjLXJncUZhVU1YVjBXWERGTk5iRHV1R1V6eFEwdA?oc=5",
+       "source": "Consequence of Sound"
+      }
+     ]
+    },
+    {
+     "title": "Trump Thirsts Over MAGA Rapper’s ‘Beautiful A**’ at Rally",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "Trump Thirsts Over MAGA Rapper’s ‘Beautiful A**’ at Rally",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMGZ1eERRWVlYaG54S3ZVdVNidWthVnowY3R3ZG5obTdweDlybHliOFFEd3ZEcjUxZ3NMeVJVNUhXaTVneXk4MUxXaHFfRlVKaHlmMW1ZLVZyOGs2TXFhUHoyYWtSeEUxWkNWei01RHdtTHBaNFdlZk83NnpncXhRU2hjX3NiMmpTeGc?oc=5",
+       "source": "The Daily Beast"
+      },
+      {
+       "title": "Trump Thirsts Over MAGA Rapper’s ‘Beautiful A**’ at Rally",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15TlJRdmkyMGdIZWdMVTg4dnNwMU1aRm9KWUcwMVk5RzRxMXZzbW5KakVBZmN5OER1OHpMYnMyZEdNXzFFS041R3dzd3JHWVQ2bWxxYWs1aXhtWmJwYUpPZWZiV2ZaRXM2YTRhdUtidG1SZWdnNkR3cm1iTQ?oc=5",
+       "source": "Yahoo News New Zealand"
+      },
+      {
+       "title": "'HELL OF A BEAUTIFUL A**': Trump's X-Rated Comment For Rapper Nicki Minaj At Rally | Watch",
+       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUW9wWUlib0d0VGtZcmQzei1nT2xGM2VPRUdLaXBrNnZuazVGVldUM2xHZHo2cVNPZTVpMWpoSkVmQmhZZGRwTE1ZNTRMQmdCVld1SlVkd0V6YVFYV0dqYzJremdSNnBIcHUteklkcGxocEVQN0hkRGFzc2k2dURxcHNxNDFIQzNPR0ZCczVKd3hja2VOWWtwT1hCVjVjNG9RN2ZXSXFBWnJjTnV5aUNvM012VW9lRERVcjRIUzd4ZGhLc0lGQnl2SktxaEV4YjQyUmZVQ1NsLXBTTEoyZzZMbzBiYm9sanZDUkZGbFVSbEVJTjBJLXfSAfsBQVVfeXFMT1kzNXpMSWpxNEhCR3FGWHQzRWxkNzItV0txZmMzaVlMZDJfT1lSTmRXcjY4YTU3WUJETndURnlLa203c2tfVnJBazJvOEp5UjhEQXJtQlUycVB1Wmd0Vjh4NkFzR2prUUFlX2RHdzlFSXNLd0xjTkx2SmhQN2xjOWhsckE1TENiSTNSSnk5TGtjOW52aWhoRXdlODdPalBWUjcwTWFPcU5lQnp5dFlneHhseTFfQ2tKMklWWG5oUmc0dHhKR1lPYWlTbEF1NGZvVG9rQkkyc2FNTkJBb0lBMGhBd1hoa1ZQby1JVHlDdTJjQWtiTm5aNV9nZk0?oc=5",
+       "source": "The Times of India"
+      },
+      {
+       "title": "'Hell of a beautiful a**': Trump compliments Nicki Minaj as rapper joins him in Michigan rally",
+       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNE1zbVJTMXotX01PeEV5R05MbzFQYUdIRXRlWnZpT1pKTFR6Z3hxRFBtTVpjbk41Rm1aWlY4ek42bXc4S0xtOVB3SzRVZjRtdmRySHBDSWJXNDBlMFJQV2FXZm53MnNqc1h6VnhRWVA3anRUaHZrU0ZHZHZ3WjNSX2dRZkVoSUlfWXJpQjB6ZW9ManJFUDhnSTNEWEowMHZWc1Zpb2d0RW1IX3MxVko2R1pkeVpXRnZTRlRReG5jZEVpR0VvMTE2UUk5Z29RUmNqX0ttUDBCN0V5MTRNZ0sycHM0Wkg4QQ?oc=5",
+       "source": "WION"
+      },
+      {
+       "title": "Rapper Nicki Minaj endorses Donald Trump at Michigan rally",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR1RMUHhRTDVhY0ViRUZCT2lRUDZudk1WOXNzZGRrUlpRd3FOYXJ6OEpBZXNaSUgzOEt0Q3A0Vmk1X0VLVnFUdjlleUZNbzJXNXl5S1dEa0tPWFZQclczb25ZRHlJLXRiYXRJTUJpcTJDaklfb2psazJaQ2tJcHN3eVdhODNsTWhPVUFaVGhpQzdzUVRIUERncER3?oc=5",
+       "source": "Sky News"
+      }
+     ]
+    },
+    {
+     "title": "김태우, 솔로 데뷔 20주년…메인보컬에서 프로듀서까지",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "김태우, 솔로 데뷔 20주년…메인보컬에서 프로듀서까지",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FSXdlSDNBbWlQemdza1I4ai1sQ3JZbzd6bGVsbXhYVjZqNmZfY3BfT25hMjVVcV84aC1NcE8wUU4xWTVyU0dndEZIbDlmMjNyZFhycnJPdVN1Mno4aVIzcWhRaHZmbm1tWVoxdzNSdGw1dw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "god 김태우, 솔로 데뷔 20주년…가수 활동 이어 프로듀서로 영역 확장",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90LU85Z3NkQVJILWFLczZNRWdqdTNYdmNHSk9UNWdoWGdDQ1VLQklqYlFBbG1PZjV3ZjM0dXBySzVrU0xqVjZzbWFVTlVUWWt0TjI2OEhGaXNncUZNenBPdVRIM3c2ZmUtdVRSZ2dYR1pOMF9f?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "김태우, 솔로 데뷔 20주년…god 메인보컬서 프로듀서로 지평 확장",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12YVEtV1g3QlNfUDlwU3liRlhzSXBPaU5nUTA0Q1J4OHJ6Vkg5dlR3cndKQVlNdWpxYVUyTWRpcHZrZlFOa3hPV2NSWkhHMC16dnV3Yy1zdC1vNHVWODZzMHRiTXp6R0ROZDNvektUWnM?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "god 메인보컬로 시작해 프로듀서까지...김태우의 솔로 20년",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GZUtzTU5rajBKOWp2ck5CSlhFUWw3TkxCY01waW9yNVI5ajdPd2NrWWo1WWhaV2k0aFZ5NUFHR210WHBmYTJheUplZ0JHVHNSNFFmSzhzUDY?oc=5",
+       "source": "포커스타임즈"
+      },
+      {
+       "title": "god 막내 김태우, 오늘(26일) 솔로 데뷔 20주년…‘사랑비’ 넘어 프로듀서로",
+       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBTWFd3MWs2LXZabldkcjY5QTJTZ2dJRWQ3MmR0TmJQUUhwQnI2MkZlRXRHNDJwV0hZZ3NaMFNBOU5LVDVfeVE?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "엔하이픈, 올해 3번째 컴백 확정…11월 ‘THE SIN’ 시리즈 대미 장식 - 조선비즈",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "엔하이픈, 올해 3번째 컴백 확정…11월 ‘THE SIN’ 시리즈 대미 장식 - 조선비즈",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZG5ra2dnckJEbWhWSFhqZXFzeS1oMmZuVnlIc2JiZUt4SjlTQlp6OXJ2TnpmU0h6OHFrYjdBdER2dGdHeEEzWU1TOXBjVDVpMU0xbmlLeDFWTWJSYXFjbEJCOS05djgtQlJEbGJsRC16WUtEX2Fabm81Y3VyUk5tLVhMYzQ3VHo3cHcwUUtkNl90X3fSAacBQVVfeXFMTVl2YVpLcFNmZE0xN3BMZWhhQ2R5U3FWaVZ1WG1RbUctSG5Qdi1YV2l6WXdqOXVHazFOUGplcTNuRFhQM3JpcWtLVlpsR1pHM3FmOUJKc0ltOU96amI4VXNkR3VndHVTMmZnLTN1bWVXbm9lY0Jmb2NGbklXVjNpaVBZYWh5bzVnRjRBYTR3WHNLTXdleEJ0cS1ETXhhbEVfSDFjbUYyOHc?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "엔하이픈, 올해 세 번째 컴백 확정⋯내달 20일 싱글 발매",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kd3hTVXkyZjgtQVJYNkxyeVVlb0FhREJKLTVxekg4QWM4ZnVhN2U2elhiLU5ySTlud2ZmUEJmQlZnWS1HVXUwaDdHTklVX1lEOEdxd0VfclRzODBXazlaVF9OckQwVHhpejBwY05EZlFmMF9J?oc=5",
+       "source": "이투데이"
+      },
+      {
+       "title": "엔하이픈, 내달 새 싱글로 컴백…'더 신' 시리즈 마침표",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWWF1d21xeEhacmZTSG1iQi14YUxHWDJEMjhWZV82aldhTm5WbjRtTHVfV3RUdmU4ZzlnSEpEQkJsMjlnNFd1SExhN2ZkYWFQRnk5UnU0NUN5cTdkWE9LOFc4OFpRLTZBLTU0dUFCWHBteVB1b2lxX2llRTNhQTNpSg?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "엔하이픈, 올해 세 번째 컴백…11월 싱글 '더 신' 발표",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KNHdDb29OeFd1ZEpaa3RwLVlvaEtIa1ZoQzZTcjNET1l2WTBhMHkxNzZEWEpYalhRZzRpLWxRblpMbnNpRktQSDVKYmxsajlrZDlSUWg0Zw?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "엔하이픈, 이 정도면 '소하이픈'…11월 또 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93cDJ2TGZTakoyWVBkMDlwTHVreDMxcV9nWXlYdHBjcngzRTFfdGEtazl3WDUwRjI3blFnUU5uTm41R3dfSlA4VURYRmhsQ1ZqdTJjeE9NQkFramJtMWVJSnhfNFF5QdIBakFVX3lxTE9jdGR3NTg1bmNxVFM0cVp5ZU1OM2xRUy1McFBSYkJzUkgwekpfSlNhWU9tdnVlWlFUakt3TXJpNEdSMnEtbTlibjFWTUFtYmdZVGNMMWdxUUZzYVh6NG9JTXI2bHc0V0JGaUE?oc=5",
+       "source": "아이즈(ize)"
+      }
+     ]
+    },
+    {
+     "title": "가수 김장훈, 26일 격렬비열도서 사상 첫 콘서트",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "가수 김장훈, 26일 격렬비열도서 사상 첫 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uYnNPZWtBR1BpX2dMdHlvRVBRaHF5RURoMl9hT0oxMVJUUVhuVHQ3MUVmWUxteklmZEkxM1RsSGxWaVAxc25WeWtaQ2NVNnJHVFlQSjFUdkxPUnFaa3c5NnJFVG1melNPWms2NEVqd3hmZw?oc=5",
+       "source": "특급뉴스"
+      },
+      {
+       "title": "김장훈, 격렬비열도 공연 기상 악화로 불발…내달 재도전",
+       "url": "https://www.yna.co.kr/view/AKR20261026054900005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "가수 김장훈 ‘격렬비열도 공연’ 기상 악화로 불발…11월 재추진",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUZzJQRl9ZRlhCWWxFdmJTbmx5bEpUNnFqUmtRbXVyQmNmV3ZkWGFLYWZ3YnUxZjdubEZBZXgtajMzMzI1WGdpYWhEVWlKUF9qSEQza1ZtODZfRU1CbWhsZFpoYWQxeHBsTkZV?oc=5",
+       "source": "동양일보"
+      },
+      {
+       "title": "가수 김장훈 서해 격렬비열도 공연 기상악화로 무산…\"11월 재추진\"",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9mbk4xZWo4aWd1c3JSekxYLVRESnlySGk4ci0xczU5NWxXMnB6Z0stVVV3c0Y0enV0YVhyWEF0elhKOW9rejdYZkxQUUxVTnFjakNHMlAya0tLT2sweFpNcGpldmh1Zms?oc=5",
+       "source": "연합뉴스TV"
+      },
+      {
+       "title": "격렬비열도 가수 김장훈 공연 기상 악화로 무산…11월 재추진",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EUzI3aWRZdDREV2tsNlVNcmZJX200SnZOdkJ6MGthYlkwc1AtbWNTT0VhcXdnUWtpRk5lR3lFRHh1dGREbERrVHM1RVVraGtJeXhzNmZGVzlaYjVacmF6blVjVmhvMVk1UEVydU5KTdIBc0FVX3lxTE40bW5lSmU3YmIxRWhHb3hrY0pWYThWTlFBVGRrcXRhV2xCRUxQYnFFR1J0b00ydHNhMTY2UEQ2ekxvTFFkOGZLb0s5aDRSUnRrOWdxaVRlaXhFaGpyMXFoLXM4OEZ0SjEzcUJqODJHSTM1SXc?oc=5",
+       "source": "데일리한국"
+      }
+     ]
+    },
+    {
+     "title": "임영웅, 10월 트로트 가수 브랜드평판 1위!",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "임영웅, 10월 트로트 가수 브랜드평판 1위!",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TbWtOSnpZY0hUVXBnYlVlMGN4Zl85djUwbGlJRVFFS29IN244ZDNIbkdHU0IzSU1NdS1oLWV5UEdTSHZRUHV5SDZjNG5OU3REM2FVNUxGam43dlI4N21fajNrd3kxOV9zR3p3SHJ3TUlaTE13?oc=5",
+       "source": "아시아뉴스통신"
+      },
+      {
+       "title": "[빅데이터로본다] 가수 2026년 10월 브랜드평판... 1위 리센느, 2위 방탄소년단, 3위 임영웅",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0bk04eE5CR3JoWGkyZFl4aEdSTDdUQ3BxcjlGM0lNRTNOLVpydFVqSUVYdDh0Z21aZVoybWZIeWRYQ3dwRmUwaGczSVZfLWdlRmFKVjdqQU1lWS00WkxIbkM4SE1RY21Gdk80?oc=5",
+       "source": "일간투데이"
+      },
+      {
+       "title": "임영웅, 10월 트로트 가수 브랜드평판 1위…박지현·성리 順",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiNmFkT3dEMjFGY194MzBmSE1ySkZheDhnSzNIRFNrRjlkYUxIZFBHT1hoSGpaWFd6Tm55U2ZOM1pqaElwUDJfUFRDYkc2TjBxYzBWa09mdjRWdEJPN1VVemRqZnN6Q19MdUZDYk1ZblhENVXSAXdBVV95cUxOMDdwNHVIZWpmT3p1ZUtqelZ5RDlPQjE5SmVycVhNeE41cVNkTEpKUmtyMWU3aDlGMVFZekJUZUhFaHk1U0FON1MxclpROHVfY3B5YXFDNGc4R3FHV01JNzNycFFId1RTWC03STlOSTd0dElib0g5Zw?oc=5",
+       "source": "핀포인트뉴스"
+      },
+      {
+       "title": "[영웅신문] 임영웅, 10월 트로트 가수 브랜드평판 1위…긍정비율 92.27% '대중적 영향력·팬덤 저력 입증'",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHQld0LWtVaEtxYnRHZW52bWJpTFhFblVqQ0RrX1BMS2FVbTh4d1dkc0NRcVZnOXVxWTFkSFZ4aHBtNkEyeE1ZTUlwQnJ3ZWNPbzhyS1ZQWFlhTy15V21ZUGwzU2cxaE5QeHB3UTFNOXlVZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "리센느 1위, 10월 가수 브랜드평판 정상..2위 방탄소년단·3위 임영웅",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5oVzEwUG02QUNyazJaNHBqOXVmME96b3MzWnVRaUNtdDUyQ1Y3UmM3dVNiWEJndEhUdTZhdzNKY0hUQQ?oc=5",
+       "source": "브레이크뉴스"
+      }
+     ]
+    },
+    {
+     "title": "ENHYPEN Announces ‘THE SIN : PARALLEL WORLD’ With Two November Release Dates",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "ENHYPEN Announces ‘THE SIN : PARALLEL WORLD’ With Two November Release Dates",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00WHZRa2dLc0x1NzFZOXRSU1hjNFFBZWNZclNUVmNwSTMxZ0FRbE1NWFl6M2JWcng3eWxWYnk1dUVMTFhfQTZ5WmM2dU1hN0dIQlVjc0ppV1kyVnNvVVFpaXMyRDR2bU5oZXdDOHV4bFBjcVRSdkxQSVhjNkdJdmc?oc=5",
+       "source": "InMusic Blog"
+      },
+      {
+       "title": "ENHYPEN Announces November Comeback With Spinoff Single \"THE SIN : PARALLEL WORLD\"",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa0xMM0psY3FpVEE1ZTBwYndHU0VkVy1mSVhDRExnSkhudjJ1QVdBVjlLQWRiWGpCbXFLaS14LXVxWWRudENJMUZYa0l5QnJPVFhNaEVldFVtajRJaUN5LWZJRmhqSlQwT2xVNFk5dUlJdTV4UnJhT0xfdnA5UHRBNFBIRXljSVUzeDZZUllZeVhNalNHa2ZYV3ZrUkZMOG5valpUREtkM2w5NlJxM0JtUmxBVEt3UGVUUkMxbg?oc=5",
+       "source": "Soompi"
+      },
+      {
+       "title": "Enhypen to mark end of 'The Sin' album series with new single in November",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT1Y5a1B1eDdsdGQ3UmZsRmo3UGZKbkJyQ2NBZDFlZGdwTkQ3aFZ3c0E4WUdBcmdST1U1aUFaZ01lanhlSF91Zko4ckxzTWQ0bklSUVBTbjJicGZXcUtVVTJkaE5STzBZc3M1UHdXNlBUZURUWEoxeXo1NkpxUlFuUUFtRUpLWTJxWHZmaDlGN0JueTN4OXp5OXZJakt6MDdna3UyY1NnMnRzZ0N3V0hqOTNLd2pRS2c1dXJvclcxU3RfUmNjaEVoOQ?oc=5",
+       "source": "Korea JoongAng Daily"
+      },
+      {
+       "title": "ENHYPEN to close 'THE SIN' series with spinoff single in November",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUDBuQjJ0Z2dLajNuWk5zMFFRbGYwT0hUT0FfdnIxaXRpcFVqQ3RybmRZaWhhdVBLbmNIVV9QWTFkel9uNmZleXNSRW9MMlY1MFd5UEJwRTJVQWZVWGIwSEZlRUdsX1dKVG80TWlyWXByVE5ZSVBtT3NoS3JiQmRVUW5iUzQwZGF0NTZkdWJaQi1neTliT1ZNb0NfT1lQb1lsTHhfR0ROekVseU1wLWh3Vm1WN0EyZ24td092dVZlWnBwQXfSAcMBQVVfeXFMUFAwbkIydGdnS2ozblpOczBRUWxmME9IVE9BX3ZyMWl0aXBVakN0cm5kWWloYXVQS25jSFVfUFkxZHpfbjZmZXlzUkVvTDJWNTBXeVBCcEUyVUFmVVhiMEhGZUVHbF9XSlRvNE1pcllwclROWUlQbU9zaEtyYkJkVVFuYlM0MGRhdDU2ZHViWkItZ3k5Yk9WTW9DX09ZUG9ZbEx4X0dETnpFbHlNcC1od1ZtVjdBMmduLXdPdnVWZVpwcEF3?oc=5",
+       "source": "The Korea Times"
+      },
+      {
+       "title": "Enhypen to release new EP 'The Sin: Parallel World' in Nov.",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvQmxzZlViU0ExTVZmOTRJZDN2X25CWVFmYmRVZ1lQaEo1T1B6XzFkWFhUeFJCeG5qd1ByWGpyZVctd05VSWRlU3BxclY3bTJnempwSWhOS095UQ?oc=5",
+       "source": "Yonhap News Agency"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
