@@ -1,0 +1,537 @@
+{
+ "date": "2026-10-28",
+ "generated_at": "2026-10-29T00:03:31.872964+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 7,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1061,
+   "issues": [
+    {
+     "title": "지스타 2026, 114개사 참여 '인디 쇼케이스 2.0' 및 스팀 연계 프로그램 공개",
+     "summary": "지스타조직위원회가 '지스타 2026'의 '인디 쇼케이스 2.0' 및 글로벌 플랫폼 '스팀(STEAM)' 연계 프로그램을 공개했다. 이번 인디 쇼케이스에는 국내외 총 114개사가 참가하여 역대 최대 규모로 열린다. 온·오프라인으로 전시를 확대하며 스팀과의 연계를 강화해 참가작들의 접점을 넓힌다.",
+     "ai": true,
+     "article_count": 17,
+     "source_count": 17,
+     "links": [
+      {
+       "title": "지스타 2026, ‘인디 쇼케이스 2.0’·‘스팀’ 연계 프로그램 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rdnBoLXhKWmMwcGdjSWxmUUI1VGV6UktKeVVUbWRid05zYVRXNHlKRE96cHBSUFk2bmNNSzV2X1ZaUnlRazVpcDNHYmdudUEtR2ZNRkFvVnA1dw?oc=5",
+       "source": "브릿지경제"
+      },
+      {
+       "title": "지스타 2026, 인디 쇼케이스 역대 최대 규모…스팀 연계 확대",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBndjk5b01SNTNZQ05JcVlYNlVhWDYybzdDMEQ1a0FFTFIxSUR1dWdPRjVGak16eklMWkdYVkFPZWFBYm9Vd0NhRVV6WXA4UXdZU2t4eW5aZFZ5Vk5VRmZjZWp4Zw?oc=5",
+       "source": "조세금융신문"
+      },
+      {
+       "title": "G-STAR 2026, 인디 쇼케이스 2.0 및 스팀(STEAM) 연계 프로그램 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wNXJDR1NOVl9OVHFYUHI2dzUzVzJsZXN6ZXdsRGhnTlJpUVVraDRiWGVtblpjUlE1VnVReGU3VU15V1ZENl80NXdiNlNLLUVYbFAyWmJn?oc=5",
+       "source": "엔터위크"
+      },
+      {
+       "title": "지스타 2026 국내외 114개사 참가하는 '인디 쇼케이스 2.0' 및 글로벌 플랫폼 '스팀' 연계 프로그램 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MN3RicElRTlJKMFpyN0ItRVl6cmEzOEVSZm5CbTlvRlVlcDBlbWN2NDNaMENOaEdjVThhaGV0dTZGeFZPTmoybmJ2UmdIZmN4T3F0YmRNbXNzM1AyMHBpVg?oc=5",
+       "source": "게임포커스"
+      },
+      {
+       "title": "지스타 2026, 인디 전시 온·오프라인 확대…스팀과 연계",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11Y3dyR25rZWZ0VEhXY2h4Q3UwbHJLalA0alJtVldPNTdSUXoxMUxPVU9KdmlTbXpGRVhWLWZlRU1NSWFiamZTN2VvTUtMbjZ3U1ZsVWdDbXZabGlaYWJMX3lOdEpXbG55ZFRQVEVBTENCQ3M?oc=5",
+       "source": "디지털투데이"
+      }
+     ]
+    },
+    {
+     "title": "오산시 신장1동, 가수 정은 후원 생닭 130마리 경로당에 전달",
+     "summary": "오산시 신장1동이 가수 정은이 후원한 생닭 130마리를 관내 경로당에 전달했다. 전달된 생닭은 지역 내 어르신들을 위한 나눔의 일환으로 지원되었다.",
+     "ai": true,
+     "article_count": 16,
+     "source_count": 16,
+     "links": [
+      {
+       "title": "오산시 신장1동, 가수 정은 후원 생닭 130마리 경로당에 전달",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BZEtSb1R2Z0xqTTlJV3NncmhFMTc0bFlpNjRkaWkySE9CSURvVDhmNVlZMHJVNjAxNk5WZDFMOUN4cEpRc21zaWtQcWZjT2hZZ09TVFlpZw?oc=5",
+       "source": "문화매일신문"
+      },
+      {
+       "title": "오산시 신장1동, 가수 정은 후원 생닭 130마리 경로당에 전달",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5EQXA0clR1eEpSc21ocGVlSDd6RUpLRFZ3cmRhclQzTmxjUWQ3WDhBckxGTElfdzEtU3FJeElnaVNZdmdMX0RYanBB?oc=5",
+       "source": "미디어투데이"
+      },
+      {
+       "title": "오산시 신장1동, 가수 정은 후원 생닭 130마리 경로당에 전달",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90SHJyUHF2SF94MkV2bUhnRGJ4NVVDRkZ1aXVyQWRIT2pLM1RFZTVkTTlWYjdRV21YUTJRSFo1MTRWVGNGc0NZNnNn?oc=5",
+       "source": "경기평화신문"
+      },
+      {
+       "title": "오산시 신장1동, 가수 정은 후원 생닭 130마리 경로당에 전달",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtZGRsRHhxVEpTVnpFcjBjUHNaZDRkbjk2SnM5RmZNYjZDRjNKb0RZLWoxdG8zZVRoXzNGUm1Pdl93eVZXWW5jS3BRNG5rWDU0UFVRanhnYmxaYmdEUjgw?oc=5",
+       "source": "광흥타임즈"
+      },
+      {
+       "title": "오산시 신장1동, 가수 정은 후원 생닭 130마리 경로당에 전달",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDOGo0LXNuMXRhWUpGMTYxT0ZUMXhLSE85eUlNaC1vV1FOay1QdlFlT2ZQbmFfNGI4bDZxbXoyelBiZGllR1puVVFUMlFuTWQxSlI3WGVQaGFQdw?oc=5",
+       "source": "경기헤드뉴스"
+      }
+     ]
+    },
+    {
+     "title": "지스타 2026, 114개 인디게임사 참가 및 스팀 연계 글로벌 홍보 진행",
+     "summary": "지스타 2026에 인디게임 개발사 114개사가 집결해 글로벌 시장 공략에 나선다. 글로벌 PC 플랫폼 스팀(STEAM)과 연계한 프로모션을 통해 출품작들을 전 세계에 소개하고 노출을 확대할 예정이다. 국내외 114개 인디게임사가 참가하여 스팀과 함께 해외 진출 및 홍보 활동을 펼친다.",
+     "ai": true,
+     "article_count": 15,
+     "source_count": 15,
+     "links": [
+      {
+       "title": "지스타 2026, 인디게임 114개사 참가…스팀 연계 글로벌 홍보 확대",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81amdxTTMyUFAwREVaV1A5dFdJVjNCVGkwVjlrZEVUa3ozSTFhX05sY2VqOG54QVd3X3ItNGdIa194enlQNUk1X0t3akVOLTB2N0gyeU05SEZKSWJObUdCS2pDaGhPYmxnUmZZUWRUY9IBckFVX3lxTE9tdHc5SkJfZzZ1NlRwTWpjYmVTUjRWS0JnU3h0ZWJBOHl4WHhMV1V1YTBONXhMS0l5ZjVqa0daYXNTVG1VTmUtWVpzMXVGSk41aV9aMjR0NTRGQkNtVlliQkJzRU8xMl8xOEgzSWZSWFhYQQ?oc=5",
+       "source": "팝콘뉴스"
+      },
+      {
+       "title": "인디게임 114개사, '지스타 2026'에 집결…스팀 연계로 글로벌 공략",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwQ3A2ejg3WVZLNzZjUUN5WVlMbWNRSzNscURNc1VrREJEdTVFOWs2WWRXNnY3V25ZdzdITHNQWFhxSVJhM1pvd21PcTRqMHNlUTVRanNUMmtCNkRFR09aTDdtQjNRQTg?oc=5",
+       "source": "청년일보"
+      },
+      {
+       "title": "지스타 2026, 인디게임 114개사 참가…스팀 연계해 글로벌 공략",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ2ZHLThYUW5jVEhxaERiNVBDR2ltMkhGb3YzcTJnNUx1SjViM1FRWV9XZThDWEI0ZU9zb2psWG5hU2ZreXFPNUVyR245R2tkSGJXd0U0emh1YU9vYjZFTlROaU1EZzJQRy1yVVRNa0s5ZUhVOGNEMk92MDBkeTl6dTBVaW4?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "지스타 2026, 인디게임 114개사 참가…스팀 연계 글로벌 홍보",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuOGVoTGZNSGtiaWczNGgxT2dJdk1iMXpMTnEwWnM5Mk45QW82ZGJhdHFBQ1p3T3I5SzNHUVg2Si1EY1NodjJtTVV5eEdNY2FTcmUxSmptR3U?oc=5",
+       "source": "더트래커"
+      },
+      {
+       "title": "지스타에 인디게임 114개사 집결…스팀과 해외 공략",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfODM3Q3Y0em5VMkRZdzlIQ24ycGVhTEZabWNIU1MzVlNtVHZJRXcxWm9FVENubHlKakgtY3pkNHFlcjNuVVRzYkJ2QlRBNkF1X3VB0gFTQVVfeXFMUF84MzdDdjR6blUyRFl3OUhDbjJwZWFMRlptY0hTUzNWU21UdklFdzFab0VUQ25seUpqSC1jemQ0cWVyM25VVHNiQnZCVEE2QXVfdUE?oc=5",
+       "source": "서울경제"
+      }
+     ]
+    },
+    {
+     "title": "르세라핌·지코, 일본 연말 페스티벌 '카운트다운 재팬' 동반 출격",
+     "summary": "르세라핌과 지코가 일본 연말 페스티벌 '카운트다운 재팬(COUNTDOWN JAPAN 26/27)' 출연 소식을 알렸다. 르세라핌은 한국 가수 최초로 해당 페스티벌에 2년 연속 출연을 확정했다. 지코는 한국 남성 솔로 가수 최초로 '카운트다운 재팬' 무대에 오른다.",
+     "ai": true,
+     "article_count": 17,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "르세라핌, 한국 가수 최초 日 ‘카운트다운 재팬’ 2년 연속 출연",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uWlFOQ2Zzcjl4WVdBRW00ci1kcnQzTThQTjQtazQ5N3VTeXl3dU1VUGNYWHBtUVZtamtXRU13MHBEckdMb0d2RkNvS2kwTnF3dG5yeFZTemdUdGRFSmdVREl2RV9vMWd0Y29KemJLU0VjUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "르세라핌, K팝 최초 日 연말 페스티벌 2년 연속 출격",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHaUNpZGJ3OHpMT1JUUEh5MUhnYmxwMm5wa3Z0SUN1bWg0ZWZHa0dXcmlIOWVvd2ZhSVc2anBvMFFLbEllc29aSnh1ZGpNRG1LYnAwb18tX2RvWmxoZlFYaTlOaS0?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "지코, 日 ‘카운트다운 재팬 26/27’ 출연…K팝 남성 솔로 최초",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yM0RkTXRmbWNlU3p3M0pQUUk2RnAtcmJTQ0tNZllJX0g0TDlEc1Nzd1ZKVDBoM04zUkItdVFIWWE2V2FRbWQ5cXAzLUVfOXFyM2p3NldSXzNQUQ?oc=5",
+       "source": "브릿지경제"
+      },
+      {
+       "title": "지코, 日 ‘카운트다운 재팬’ 출격…국내외 공연계 섭렵",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PbzRyYTl1UDEyQmR6c2xDQU0yWGF3S3JlQ2F3MUM4TnhJVHBUZUJNNF9FdnZ0MEluWFVKS2xFTWwwYjk4QlVLYl96aFBaSlNTS3RGTWFsSnlvQm5xMnhyNVpsV2U2QlUyUUw3VHhEVlNLYUtHU2V0cVlrQ0s?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "지코, '카운트다운 재팬' 출연...韓 남성 솔로 가수 최초",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfeE9GQkhzQWZPLXEzMUVQR3VHbGNCQnloMnVWYXI1S0s2NzRvTVFqVTBfSjFfMU1OQUdkZ0R6NFQ5NFpFbUtrdy1aVUdxZjdFemRhZDRhUzg5S3ZGRXJTZQ?oc=5",
+       "source": "라온신문"
+      }
+     ]
+    },
+    {
+     "title": "박상현 경기도의원, 게임산업 현장 찾아 공공 창업 및 홍보 지원 제안",
+     "summary": "경기도의회 박상현 의원이 게임산업 현장 소통에 나섰다. 박 의원은 현장을 찾아 공공 창업과 인디게임에 대한 홍보 지원을 제안했다. 이번 제안은 게임산업 현장과의 소통 과정에서 이루어졌다. 관련 소식은 여러 지역 언론 매체를 통해 전해졌다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "경기도의회 박상현 의원, 게임산업 현장 소통...공공창업,인디게임 홍보지원 제안",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kcGZaNkZmZVRQN1hDR0xQRnBjNHZwM0hzOWprdXRGUm9jQzJEdHBLYlJOdGtDME1ycEpFckY2NXlpNng3aS1HR0JBQnk?oc=5",
+       "source": "시사일보"
+      },
+      {
+       "title": "경기도의회 박상현 의원, 게임산업 현장 소통...공공창업,인디게임 홍보지원 제안",
+       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE41RTVpQzNVX2pSWVdFcXFCWHA3Sk1tLTR5OV91Q09rYmswVUdmbEtQaUZ3eEdFeGNsNGhibWowd0x0X2s?oc=5",
+       "source": "수원인터넷뉴스"
+      },
+      {
+       "title": "경기도의회 박상현 의원, 게임산업 현장 소통...공공창업,인디게임 홍보지원 제안",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5NUTMtTHlSbDZUdlY4UHpGM0U5eHg5d3AtWFUzMzhKNGtaTFpRZDFSaEtHVTJqQ1JUV2lxbHZIM2U2WkhUYk5sSnhB?oc=5",
+       "source": "미디어투데이"
+      },
+      {
+       "title": "경기도의회 박상현 의원, 게임산업 현장 소통...공공창업,인디게임 홍보지원 제안",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oZFJvSm1KNVBiekVxVXRxY1NoOXlNUTNLMkZoVW5ieThpLTNhbzVUNGNBOFVJVGI2Y2Z1Y2VrRnFaZjB3TkpCNmVISU0zVlhBaDV6MXF0TWZyTXozRVpnU0JDUzZwZw?oc=5",
+       "source": "경인신문"
+      },
+      {
+       "title": "경기도의회 박상현 의원, 게임산업 현장 소통...공공창업,인디게임 홍보지원 제안",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3Ujc1dzN3RE5iaGkwaEY0VWZIMjVGVUhtemlQWDRkSmZwMFNVMlctbnRraDZWSTIydDZWa0g2a1FuSUZUUm9XWmo5d25NVVhEZmZGNjVlS29zdTF5S1HSAV5BVV95cUxQN1I3NXczd0ROYmhpMGhGNFVmSDI1RlVIbXppUFg0ZEpmcDBTVTJXLW50a2g2VkkyMnQ2VmtINmtRbklGVFJvV1pqOXduTVVYRGZmRjY1ZUtvc3UxeUtR?oc=5",
+       "source": "세계로컬타임즈"
+      }
+     ]
+    },
+    {
+     "title": "미국 록 가수 도니 아이리스, 암 투병 끝에 83세로 사망",
+     "summary": "가수 도니 아이리스(Donnie Iris)가 83세를 일기로 세상을 떠났다. 그는 대표곡 '아! 리아!(Ah! Leah!)'와 '더 래퍼(The Rapper)', '러브 이즈 라이크 어 록(Love Is Like a Rock)'으로 널리 알려진 인물이다. 고인은 밴드 더 재거스(The Jaggerz)와 와일드 체리(Wild Cherry) 멤버로 활동했으며 피츠버그의 록 영웅으로 평가받았다. 보도에 따르면 그는 암으로 숨을 거뒀다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "Donnie Iris, ‘Ah! Leah!’ and ‘The Rapper’ Singer Dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZUhLQTJBaFBUcGxjN2xUNXJBc1FmSW1TRFIwWGNpUzUzYUw1TWU3Yms1TFZWWUN2Q2VEdWYtMU9jZlc4eEdpZHZEVWNHTnhfUS1ZOUtoQjVNRWNyZGxLSmx5dzFBangtN1E2UTY4R2JfY2NZc2hBdGhTX2NpNnR2aU90ZlE2Rkg4dlhNYy1jd29od1c5ZTlYWXlsLVVEU1JXZEJDMVRPWDBNdw?oc=5",
+       "source": "Billboard"
+      },
+      {
+       "title": "Donnie Iris Of The Jaggerz & Wild Cherry Dead At 83",
+       "url": "https://stereogum.com/2515693/donnie-iris-of-the-jaggerz-wild-cherry-dead-at-83/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Donnie Iris, \"Ah! Leah!\" Singer and Pittsburgh Rock Hero, Dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX2hPYVNBYUk3N0d2TnZMSkdwMXJtaXJPZ0phSmVMX1hkWlRXUmxDUWpObENZbFNISHVEUkFmclFLOGZUZ0xZUkhNMWQta285N1VTUWx4djluS2tSVGlUYmoyLXZkb1ZUNGUwd2R3Vm9wZm5KNEhTcUsyajZuN0l0R1JxWTdtWlFDUjIxX1RBdFVNc3dsYmtxRE9zblM?oc=5",
+       "source": "Hits Daily Double"
+      },
+      {
+       "title": "Donnie Iris Dies: ‘Ah! Leah!’ & ‘The Rapper’ Singer Was 83",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKaVQ1U3llWVFMLW5xX19ZWHVKSkhrY0dUbDlTeXVPdUVKSVNQQllIUmo2WWVNVU5jWi1JUUNEVmQ5czRNWUtISVZfMVREa3lsbVlXd1FPUVhpXzJJY0VBVUdhOTdWZVlT?oc=5",
+       "source": "Deadline"
+      },
+      {
+       "title": "Donnie Iris, 'Ah! Leah!' and 'Love Is Like a Rock' singer, dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTDEyTFdTS1B2VUpUcEJJTWF2THNRbENnTGR5c2dFVnpSZWZ0ZVUxV3FBQlJJNWFLVkJUcThQa2liYUY0LTdjYUFyQjdkRXdyNnhqSzkxUlZBcnhrSDUtdktLY1k5cHh2NldmMkFFSXVINkoxR2NSM3VVWF9RX1FiS3BDT2VBRzdwSXBhSmM4cE4tSHBVa2Q3Uk0tUkdVRWVIYkZiWGRsNk5xWFlmcUNVcVFiaUNaUkwwbElJ?oc=5",
+       "source": "USA Today"
+      }
+     ]
+    },
+    {
+     "title": "플레이브, '하이퍼드라이브'로 미국 빌보드 200 차트 31위 달성",
+     "summary": "가상 보이그룹 플레이브가 미국 빌보드 메인 앨범 차트인 '빌보드 200'에서 31위를 차지했다. 이번 순위는 그룹 자체 최고 기록에 해당한다. 이번 성과는 미니 5집 앨범 '하이퍼드라이브'를 통해 달성되었다. 플레이브는 이번 앨범으로 전작 대비 114계단 오른 순위를 기록했다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "플레이브, 美 빌보드 메인 앨범 차트 31위…자체 최고 기록",
+       "url": "https://www.yna.co.kr/view/AKR20261028060000005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "버추얼 아이돌 플레이브, 빌보드 200서 31위…자체 최고 순위 경신",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53dVpQRGxwY19scHBFSXQ4dnRYLTNfckxVNGxOZG5RODhWckZBYTAweTVvcGpqeWpMVDgwM2t6Sm1YQURyNXUyLWFvaUxpVmVGZ0RsX1dMNHVGbUdEbGNvRndRbjdwYlJnYWVvb250Yw?oc=5",
+       "source": "진일보 | 전남일보"
+      },
+      {
+       "title": "‘버추얼 아이돌’ 플레이브, ‘빌보드 200’ 31위로 자체 최고…글로벌 대세 행보",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBNWJZcHVrcHdWZjdaamZVbmFlLUthc0FUeDBycHdFTjhXRjczcTRsZGtxMXFkRElVYnhtakFBOW56WWtzSi1CTEc2cm05cy1EdkRiR3dsd3RtLTdmQzFFVjRtcjVKcjJiWGFLMEhDQ0dCemdjLTdxZWFlcktsZ9IBZkFVX3lxTE1TX0hlb0tXdEZPT3BMWllyVnhlak9MUzYzTGhCOXdYLVczdVJIREZMbDVCUG5QdTZEX3hsWGMwXzk5TGRSTy05Q3g4dmczdVp0dU1ZUnBqcWd5M1dVZ0h0TEc2NHNTUQ?oc=5",
+       "source": "동아일보"
+      },
+      {
+       "title": "'버추얼 아이돌' 플레이브, 美 '빌보드 200' 31위…자체 최고 기록",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PMXdaUWtVZ0ZHV1NRQ2dySmc5N2hweVJUNmRnQkFKd2xqTl9lMWpOUFdkSnl2bWFydmRyZEZlQTRqQmxWZkczd0lYMUR3WWVwTFZVcUU5R3NCSUdE?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "‘버추얼 아이돌’ 플레이브 미니 5집, 美 ‘빌보드 200’ 31위..자체 최고 기록",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBLWHMtcW5XUVIwQkx5aklLeWRmemhrWWtuUHpRckR3SHVEY1J6bWFnNThXN1c2ejNsWE9lcU1EZ040QQ?oc=5",
+       "source": "브레이크뉴스"
+      }
+     ]
+    },
+    {
+     "title": "캣츠아이, '롤라팔루자 인디아 2027' 헤드라이너 출격 확정",
+     "summary": "그룹 캣츠아이가 음악 페스티벌 '롤라팔루자 인디아 2027'의 헤드라이너로 확정됐다. 행사는 내년 1월 23일부터 24일까지 인도 뭄바이 마할락슈미 경마장에서 개최된다. 캣츠아이는 이번 공연을 통해 데뷔 후 처음으로 인도 무대에 오른다. 이번 페스티벌에서는 캣츠아이와 함께 올리비아 딘, 림프 비즈킷 등이 함께 이름을 올렸다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "캣츠아이, 롤라팔루자 인디아 2027 헤드라이너 확정…내년 1월 뭄바이 첫 인도 무대",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0cHdlbnBQaXFqNDl0UkJzcWxMVVd3a1ZTeFByMkRMdm1FVjlHVlQzUkZ4bkltZUlaM2R6LXkzTndyZFZhN0R4MUNNYl9kVVM2bGtGUk5aWjBCNUowYkxqdU9hNm9BYlY3bWJMb0xidy1Ndw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "캣츠아이, 14억 인도 대륙 집어삼킨다..'롤라팔루자 인디아 2027' 헤드라이너 출격",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTTFQRy1qT25YWjY2cU9USDV3RTZMQ0FGcHdRQm42djlibHl5cjRvLXQwTTVkTDJWSF93MVdJakNDRnBSclYtUmJMRHRtaEx2dGM2bjhCUzNzZFg3OHJqTE5WZ1lOdHg3VzhGVXVWajJtSEdYX3cwR3l5VWs2Zm42TnVXcVlwZkxvSkE?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "캣츠아이, '롤라팔루자 인디아 2027' 헤드라이너 출격",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ1ZhQk1fcjFXUVQ3dzBqYVpPbmdUdlJ3NDFRa3JMcjFteC15TDFKcUFGODl4TFYxU0hUODBaTGcxRTlyZDRoOEJXS1JFSHBvel95LWJkLWMxS3l2Y0xWMGQ3dEt3Rm1tS1FiRjZvUzlpX1ZZcTRJSU1YdWhONktfXw?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "캣츠아이, ‘롤라팔루자 인디아 2027’ 헤드라이너 출격…올리비아 딘·림프 비즈킷 등과 어깨 나란히",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKU0dFYXNxZERGdlRaM1l6bEVYcExNRFVXaklIQmRZSzFTVHBuX1FTWmFmazdIcUIyZ2JrWHJZT1BteGV5WHBsci1aTDdCZm50LU04TExnYVI1UGVZUEFVbGZodGtVeDlyQ0VYd0xYWnBYNkg1Yi03UC1aMDE?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "캣츠아이, ‘롤라팔루자 인디아 2027’ 헤드라이너 출격",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yOWpOUFRsYVJlR1g1TVZ0VlpSZjdKZzVyaWtZaDRQSEh6VFpXTUViUVdZSDkxajhFZGlwdmFXbWpuZ29RbEJIWk5WanJ6WUhMZVdJUDVRQ0ZWeFVPckxYb3h1Y9IBY0FVX3lxTE5yOWpOUFRsYVJlR1g1TVZ0VlpSZjdKZzVyaWtZaDRQSEh6VFpXTUViUVdZSDkxajhFZGlwdmFXbWpuZ29RbEJIWk5WanJ6WUhMZVdJUDVRQ0ZWeFVPckxYb3h1Yw?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    },
+    {
+     "title": "가수 미셸 브랜치, 첫 히트 25주년 맞아 커리어 회고",
+     "summary": "가수 미셸 브랜치(Michelle Branch)가 자신의 커리어와 첫 히트곡 발표 25주년을 돌아보았다. 이번 보도들은 그가 지나온 음악 활동과 향수에 대해 밝힌 내용을 다루었다. 미셸 브랜치는 첫 히트곡이 나온 지 25년이 된 시점에서 지난 경력을 반추했다. 주요 공영 라디오 매체들을 통해 관련 인터뷰 및 보도가 전해졌다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "Singer Michelle Branch reflects on career, nostalgia and 25 years since her first hit",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3V0Z3VsVkk1U3RHTHFkWklRcXc4WlBESWVnNlNKbW4zQklXZEJvTVpFUzVOWFBWc2psczVQRUpJeWJ4NnVxSXVNVE5uVkhabnNVX2FOejFaZ01JbEMyczV1T2FrQUppaGd0VlF4OXNpa1E0T1ZkaU1RVXFCOUlnejBoRFpidlhFOHU3QVZMcGk5cm15Unc5ejFGS2NNc0lma0xLWUxxUWFLbjBXLVUwSnZkUVlYYjA?oc=5",
+       "source": "New Hampshire Public Radio"
+      },
+      {
+       "title": "Singer Michelle Branch reflects on career, nostalgia and 25 years since her first hit",
+       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORjdhbGRlNTd2Y0VHbldkbTJBTTd2dXRPZmZwQmx2UERGMUY5WTBORVVWQXNLVWV1NVlNS0hDT1pNY2xtbnB1ZHRXVUVkMGFhTVZQbW1RMzRlVzVsaHVOVXFlVXE0Z19nRVBnZ2tPUGJkSk5KQUxxbUtLZnU5U1BtLVpJemZhMnlZME5BS1AtdkhhR21fakZtaEJIZlBVRWx3WXBkMnJJV2xLSzQzdWd3cHp1MGstU3hQSE1YVktCT0pfR3loNHQxbGVaZUJkU3MzQ2h4UmlkcXI?oc=5",
+       "source": "KUAF Public Radio"
+      },
+      {
+       "title": "Singer Michelle Branch reflects on career, nostalgia and 25 years since her first hit",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZkxzSGJqb1dlYmZua0J2Mm81WXFJSTZfbTZWa0l1LW9MM2QyaWdmMGZ3akRvRmxVSVp1S1BJaENsUllEamVWdENOMXd4d3hQcFlWMVpoLTUzLXhfNEZHYkpzR3hLbnRXcFdROTR4UC1JUWQ0UUt3ckFRcnpmenY0bEhUcmZTLWx5NngwM25aVzB1RWdVOGxINTVCUFQwRENBTGszXzZ3Q2tuZkJHdFNIX2VXMkhxcTQ?oc=5",
+       "source": "KRWG Public Media"
+      },
+      {
+       "title": "Singer Michelle Branch reflects on career, nostalgia and 25 years since her first hit",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQd251c255SktxQXZBOTNURkxzRnFLdWRyMHpzVmF6ajctR21UcnpuNVhlbGVzanBQSGF4VzkzX1FZa2s2T2tWX2hZRDJsZU1SemMxZEwzdDlVbEQzNllNZWpaRVJOc2hqbTZzcVlYdzJpdl9xa3pndi1KM3RzZ1lqYjc1Y3UwMmFRMS10U1FocFR0eXpxRlVnNzlqX2FwcllGRWNaR2gxOGNraUNxVGNOTEF2X2xOR0R1bFZvQ3JsTWIwODFR?oc=5",
+       "source": "WFAE"
+      },
+      {
+       "title": "Singer Michelle Branch reflects on career, nostalgia and 25 years since her first hit",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN3VFaTFCU0FSenViSnZ0VGVaY2VDTF9raTQ1czktMm9TM21Gbml3Y1VnM3FJNXgyUVE0bGgxYXJUWDlrZGtnaFhoQnNIdWxyODg3ZGJsSE53VHROOWJKekxjZzFfTUNJTGdSMWRJcjhKQlZ3VmNTUGNjY3p6dkR1ejlaS2w2NFNNQ0dRRkZZcGNXMjdvS2wtdUdNazA1c3d6TzVkZWwyY25nTE84dEk5a3lBeWhpTzZDVWZ4OWlEMlZDRTlZ?oc=5",
+       "source": "KUNR"
+      }
+     ]
+    },
+    {
+     "title": "신원호, 직접 작사한 신곡 'Day＆Night' 발매",
+     "summary": "가수 겸 배우 신원호가 28일 신곡 'Day＆Night(데이 앤 나이트)'를 발매했다. 이번 신곡은 설렘을 유발하는 러브송이다. 신원호는 이번 곡의 일본어 가사를 직접 작성했다. 음원은 28일 공식 발표되어 음악 팬들을 만난다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "신원호, 오늘 신곡 ‘Day＆Night’ 발매…설렘 유발 러브송",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xbjBqMXJGMFBJN0RWTkVicG9qbGVmMGhWNWJmOEZ3UzdscTZsSkxFd3kyUGNmWXBtV2NmeVhuVXp6VlRfVzhhSnV6M216VEhVTjBsMzVzREV1M3dwSXZvQkZqeTBpZkNPVXc?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "신원호, 오늘(28일) 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52UzBfdUpCb3czRjgxSnhwakk0ZlU2MEtUTzB6Z1R6Q09EcURUbnBpNmVueDRuSDgzbmtBUUQ1RWxQeFBGa05odGtuNzFGMmVuWHRCdWtaNFZIblFTcHc1SExmc0s?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "신원호, 오늘 신곡 ‘Day＆Night’ 발매…설렘 유발 러브송",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NZjliYVA5al9VV2JQX0c1NERMeUlPcWpRTHRabUtmSzJvTU9lSUU0azdKUDhqcGUtWWpFVGJoWElZVkRoNlBLOGtCUXgwMDhKZks5TVc5MFNMV1ZsQnF4TGRPNmRmeVBoREVTcVJ1UdIBc0FVX3lxTE9rczJRSlcyRGJFRXZtNmJURFhxeDBtbjcybTZyWkJzd0VZRm1WV19PazNqbGpTV0g5emtpM0l5bHRYczN6SDdJdjMzSm9BVlk0N3dlUnM1bktLSkthZnd6d0RJWDJRb2tPNmF2S1FFUlpnQW8?oc=5",
+       "source": "현장뉴스"
+      },
+      {
+       "title": "신원호, 오늘(28일) 신곡 ‘데이 앤 나이트’ 발매…직접 쓴 일본어 러브송",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ucmd5TDdKMWtxTWRBSTFIUGtyZnFuMHlES05wMDA1a3pzRVQyMjN2Q0dmM1Ria3djd1FxSXplUXo0YnZUbUhSSm9rX25FS21rX0FGRDhGWGdCVU0tUE4zbGRn?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "신원호, 28일 신곡 ‘데이 앤 나이트’ 발매…일본어 가사 직접 썼다",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaUWw1T0N1UE1HV0FUSVJzMU14bUZaTVZkaDRmcW1VZnBTQ3A0b0dTNWRPYTJDQTlQY1RCeks5SDRDVUxFNjFLNTJ2ZndsUXdpU01EOGJKdWhNaFIzSGdhNWJsSzRSWHNfX3hv?oc=5",
+       "source": "한국사회복지저널"
+      }
+     ]
+    },
+    {
+     "title": "거미, 직접 작사한 신곡 '퍼펙트 월드' 발매",
+     "summary": "가수 거미가 28일 오후 6시 신곡 '퍼펙트 월드(Perfect World)'를 발매했다. 거미는 이번 신곡의 작사에 직접 참여했다. 노래 가사에는 솔직하고 따뜻한 감성의 고백이 담겼다. 거미가 직접 쓴 노랫말과 함께 음원이 28일 전격 공개됐다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "거미, 직접 작사한 신곡 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaR3FhWXlSVHdyWnlYclB0aEUzemhueVIxR2RPTlFUVi1sZGJqTkVSeEhLWEFfZ3FRSlowWEJaeGlaWFJtVWVydWdUdkxDal83cmZrcFVnQ0FUYy1OVWU5eXdJQS0?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "거미, 오늘 신곡 ‘Perfect World’ 발매…직접 작사로 담은 고백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRUDFNb1Z6WFZHZGRDd2lNR1U0NWdSWTkyS0gzcW9kMFpyeV9zcDNJeS1wUnBQYkFLNnk2cC05emN6Mm5pdXdNaGFwVXVfT09iSk5hUFNJa0tNc3pSTmhOY0x6UzhqY2lJRTRpWFA1a3ZFZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "거미, 오늘(28일) 직접 작사한 신곡 ‘Perfect World’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rdVdQSFhNQlBhS3M3c19Xam5lR2ZWUWtGaG5adG9TMEs5elViRHAxWlY0eG9WYTd6VlJ2WjdWc3UzZ0lHVUhDckw2U05Qak5SbVh3VHFJazZ1OVVqWG44RnVlY0tOZUF6R0kxaTFR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "거미, 오늘(28일) 직접 작사한 신곡 ‘Perfect World’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BMGs1czNfYXprUHo1VzdYblplV3ZVakRVYVpSX01DcjVLMEs0T3hoc24tc25CNnM1ZC1La3I0T3FRaDBrUnV2ZkpnSlFBeVRpcV80RUxLMlh5Y3JVaEYwSHE1MjkwdklGTkt5VlZTNFFfOVc5?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "거미, 직접 작사한 신곡 ‘Perfect World’ 발매!",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wRU52LXlxQ0QzMjhsRml3SGJOU3BMWllVMzNKaU9DVnJ4ZzdxWFlNOWIzcUpQUjJuS0dMMUtrVm0xZFp3UGVPbTJrQW45WWJaX0hFMTBpa3JwV2pWVFHSAWNBVV95cUxPX3lCeVQwRTNCQkZxUXdhUS1iTVY2SF9ORWJ5TFUtSnFaWTV2d1dlTmZKcWZNLVFVMnZDQV9qWU9SdmJpQnNubVhoVWdPcy1JYTBTVHZUZ1VfbzZ6N2JCRV9JRHM?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    },
+    {
+     "title": "엑스러브, 5개월 만에 미니 3집 'i=!'로 컴백",
+     "summary": "그룹 엑스러브(XLOV)가 미니 3집을 발매하며 컴백했다. 이번 활동은 이전 활동 이후 5개월 만에 이루어진 컴백이다. 엑스러브는 신보 '아이 이퀄스 아이(i=!)'를 선보이며 컴백 인사를 전했다. 엑스러브는 무대를 통해 파격적이고 강렬한 모습을 드러냈다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "엑스러브, 미니 3집으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCQnNpT3pCQWVsV1ctb1ZTN1kzWHYwNS1sa2V6NWpqOXY5b0tvcmJUTFY5cENMZ0MxZ0tqaXdYbTctY1VrMmhTRHI3bw?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "[포토] 엑스러브, '아이 이퀄스 아이'로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBqZWtRckpNZDBsSFlBVGJRRHZ5c0RxeUY0Sl9ha2JGOTQyM3VKZzdXSGVtRDFfV2JwNlJ5ck1GeTFhXzBMYzgzQ1M1UURBOU1PWENqVlJWN3VLWGEzMjNfbEJR?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "[포토] 엑스러브 '미니 3집으로 컴백'",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CRHFHUEhyVmRHWm5PWjB2SEszU0lqQ2dBLTU2NEE0c0o2UW1ZSzF3M0o4SndhdDZlVVViSlJQZndLeWdjSW5CUzhZQmdmQzQ?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "[사진]컴백 엑스러브, 파격적인 무대",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR3RhSWdNcEVub203SUl4SVBnUEt4eW5zQmJuSEZ6Qm9TcURRb3U0TmRSdnpSdWJlQUptRDZ3QXF3R0t6QlJpSHBDWG1sY3piUVFQU1hUSU1vUFVtQnVZdUM0UzZIU0ZkeEVISVR2S0tvNldxQzYycVhibnNqR05JLWZXbzlmY2pDdFFyYU14eWFmd3dQSndRc3FUb9IBrwFBVV95cUxQaEhiNDZZU2xHYmdSbTJWVzhhRmF2eFRybEk2dGFNZmdpaHhxWTlCbFU3N25zdUNaU1Z0WXZxcWRqZEdsb25NQ1h1bGY3MGgxeHgwa201VElVR2huN3puZk9TMHg4YUJmRnJpck8yREtQS0JlNFR3NURwOFU3UlJCTVB2ejVGREo1NDBiZHVwZHQ1TkR6aTllZTZBN1BHQUxKaXpDUWVESzYxV2RGU1Mw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "[C포토] 엑스러브(XLOV) 'i=!' 컴백인사",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NWWRNM3FuMDREWU83dzJsSHlGSmpiSlhJOGVhNzlvLTdQUVktTG5Yd0ZsYkdTRE12ZUN2MTdFRGtfakhPZlNLZk5zeGdwZmxLYVVXVFdNVzNUNXFqb1hkZEdVdllZVWVS?oc=5",
+       "source": "CBC뉴스"
+      }
+     ]
+    },
+    {
+     "title": "삼성전자, 갤럭시 Z 폴드8 새 얼굴로 걸그룹 리센느 발탁",
+     "summary": "삼성전자가 걸그룹 리센느를 모델로 발탁하고 '갤럭시 Z 폴드8' 브랜드 캠페인을 전개한다. 리센느는 '갤럭시 찐팬'으로 알려졌으며, 팬들이 만들어낸 모델로 이번 캠페인의 얼굴이 되었다. 여러 매체는 삼성전자가 리센느와 함께 갤럭시 Z 폴드8 캠페인을 본격적으로 펼친다고 전했다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "삼성전자, 걸그룹 리센느와 찐팬 '갤럭시Z폴드8' 캠페인 전개",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE05WUt0SVI2NzNqbW9udmFmYjJOMkNHTTJYcWpLNGdqZFFfeEFHaDU5VENLYUhhSUNLemgyU2FLakx5SGE0SEtoVy1kSXhtalA4YV9zcXZVejNYQjBWWC05N3FPdFpGci1xeFE40gFvQVVfeXFMT0Q0dXY1X0ZMbDRWNG9DMHlieHo3YTZRTm9UQk5fMlpFYXpkMjA0OUVTejZ5UDNyZzJUczU3LTNEZWdiSmJFdjd6VTR1V0pHZGkwQk5hRWNBWlA5YTZ1MzJ1aENRVVJwN1FOUlJ1VkZV?oc=5",
+       "source": "글로벌E"
+      },
+      {
+       "title": "삼성전자, 걸그룹 리센느와 '갤럭시Z폴드8' 캠페인",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBUS3AtNk5QcUlVcVlZZWFZbDFMUnJhT256MXM2VTFLRHZPTXljSmhQd3lyYTZacENEUDRERDJIT2tpMVBVeGNvcE8wb3d2UQ?oc=5",
+       "source": "전자신문"
+      },
+      {
+       "title": "대세 걸그룹 리센느, 알고 보니 '갤럭시 찐팬'…삼성 폴드8 얼굴 됐다",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YczJELUEwdHhZaHMxZFJxck5wQjdQVVlRMkpIY0dVMTNQT1pXdnhRZjdHbTFmbWo2T3FzcG1zcXREZ041aXNtZDd0Y3I1Zm83UWV5emNfcGw1dw?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "삼성전자, 걸그룹 리센느와 '갤럭시 Z 폴드8' 브랜드 캠페인",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBicjdvbzdqeFBnQkxXMkJSbkZUWF9GNFh5eVZQUk9pV3BnY3p6VEU1VnlvUndwSXdlbGU0YVZ0ZHh5R2xzb2ZkVWdfSDRURkhfRmFEejVEMllqQXQxV2pRSmtZMGVQRldMNDhMNzMzRVFCaGc?oc=5",
+       "source": "비즈니스포스트"
+      },
+      {
+       "title": "삼성전자, 갤럭시Z 폴드8 새 얼굴 걸그룹 ‘리센느’ 발탁",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE53ZmdVMF8tM2dnVGgyOGhkTml5UzZlc1RHT3QtbnlQaHJ0dmhmYXlTVVVLVmtySW54VGc4Y3NvdWZ2Zw?oc=5",
+       "source": "브레이크뉴스"
+      }
+     ]
+    },
+    {
+     "title": "지코·르세라핌, 일본 연말 페스티벌 카운트다운 재팬 출연",
+     "summary": "가수 지코와 걸그룹 르세라핌이 일본의 연말 음악 페스티벌 '카운트다운 재팬(COUNTDOWN JAPAN)'에 참가한다. 지코는 한국 남성 솔로 아티스트 최초로 해당 페스티벌 무대에 오른다. 르세라핌은 한국 아티스트 최초로 2년 연속 '카운트다운 재팬'에 출연해 헤드라이너 등으로 활약한다. 매체들은 두 아티스트가 일본 최대 규모의 연말 페스티벌에서 각각 새로운 기록을 세웠다고 보도했다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Zico to be first Korean male solo artist to perform at Countdown Japan",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdVA5czVIRW5QcUNaYmhpc0NtNU42dGhnR1kwUy0tUFJSZ25XX2RSb3UzSjFZaGwxZ2UzMFc2U3VQZWVmbFBxbnhvb1dITWVkck1sdHJLc255Q3NnT2Z0QkNEckM5clBPZTZRYlJKMjlHajQ3eERSZmlyQnlQeHMyUTczVjh2TExvdUlVdTVlajVkemMzLUZnYkpWNEJJT2VFWS16UlZyQ2YwUk96XzhOb2ZCZjQ0eTZzU2NIQ0NINjNORUNjRFkw?oc=5",
+       "source": "Korea JoongAng Daily"
+      },
+      {
+       "title": "Le Sserafim First Korean Artist at Countdown Japan for Two Consecutive Years",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaVktcHJIdFdDRzdQNlZCQ3pSd1FFOWJVTHppcGQ5WTdFLTIxRndKQ2QwUkttUzNtMm5Gd1M2VGJmUzY5ZVA4clhTTGpjeG9kZ0VkRFBndEd0bi1IRDRZRFdHVUt0NmNYUXZoZ0lHQUUyeDBCQ2xiN2ZOZGhENG1xLWhpWlFhSTdaRXBlUnR3?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "LE SSERAFIM — First K-Pop Act to Headline Countdown Japan 2 Years Running",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAxc0hZY3pYLUtWUjhzYzVSR190cnJhV3hEX3RscW1EUzFFQkE5TnJJN29KZ0liSDVNVkt1Y2t1NmFWYnNDajRhT2NRMS10MTBIWkhCbkt2WTJMcmJLNm9YcklqZ0RvN0dvQXlPOVlXTHZsVnkxaGxFU1VR?oc=5",
+       "source": "The Korea Daily"
+      },
+      {
+       "title": "LE SSERAFIM becomes first Korean act to play Countdown Japan two years running",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdnRzbDRlMGFQeGlkeDh4ZnVyUTAyRTl2QTgzaHpaVkxRSC1CY2duam9ZTUN6UjlHZTFkQ3piOENyWnRWZndKQi0wOUFtc0xobmkweURhOTFuVDVmWGRVTWJmZVRBUjM3MUlFSmlyT2UwaDE2c282MzhKRkZZcHI0WnJVQ1NkVVZV0gGcAUFVX3lxTFB0UHJYcjlHaGNpdDliNFBMZWs1ek5BczdDS0FPdlUxc2VfTF9aSjFVZ29EUGFwTldDM3U0ZHB3ZFFwX0NVbU9VOWp5b3ZEZGppWDRST0RlcHRUY1IzOV9FUy0xOFlxV0ZiR284Z3BWdGxOc3FYRTZOcWgzSGVuc0xpbGpPaW1LVzNNZXQyOXRDOS1FZnJvd2gwN1IwVQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "Zico lands a spot at Japan’s biggest year-end festival ... first male K-pop soloist",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mOHJKdWxPOG1BVlY3Tmh4cnFabjBGbW56VHZ6bUV1NTZvYzlFc3RpN2RqVDhMZEt2bXducnJSZjB2RTFETHVGZEo2aEtkeENlbXBKakhn?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "임슬옹·권은비, 28일 듀엣 신곡 'Vibes' 발매",
+     "summary": "가수 임슬옹과 권은비가 호흡을 맞춘 신곡 'Vibes(바이브스)'가 28일 발매됐다. 이번 곡은 두 사람이 함께 부른 듀엣곡으로 달콤하고 사랑스러운 하모니를 선보인다. 매체들은 듀엣 장인으로 불리는 임슬옹과 권은비의 신곡 발표 소식을 일제히 전했다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "권은비, ‘듀엣 장인’ 임슬옹 만났다…오늘(28일) 신곡 ‘Vibes’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52OTU0YW92c1RQTDBtX1dZZnNjTS1LS0NESEhjcjlRWV9sV1FsSEs3cTVPcExZVTExTmxEa1JGbnhQM182TjVuUXFGWVpTeUpnYzVIYlhwNVc3QW9DUXFGVE1MNncxbG9MSjFiYURR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "임슬옹, 권은비와 듀엣 호흡…오늘(28일) 신곡 ‘바이브스’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNRlpDWGhZNmkwUENRbkhNTXduSVg2Y0tDTWtCMEJMRE9aOFk2VERuUDRoX19TSVhFQTBZX0JiWnhCTUFzc29QOEVpV210cFBaUEhocjFLVVNuZ3Nnek80ek1IRUVmblhlZkt1d3F6Ml9heXNLZGlHa3hITlkyalI1UURuM0VieVh4UjByWjU1RW5UdF9vV0trSGZubHRLRVYzdTNFd3pUMHc4MWZvQ3E5U3NxYlhiamdsWHdCZ2JhcU40NnBmclNNcm92RWhXajBjRkFxTTR0Y2UwY29ZVmh5X0JSMkhhVzQ4WWdBWUJ2cndHUG5LZWFVUFFrYkdxbXhEQmo2ak1PdnZldG5xWWc?oc=5",
+       "source": "데일리안"
+      },
+      {
+       "title": "임슬옹, 오늘(28일) 신곡 ‘Vibes’ 발매! 권은비와 러블리한 하모니 - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KYlBKeHNDbnd4NXFOdGhCRTJWRzZVWWZySWQ3ZEVCRTdJbzRJLU1SRlR4ZU4yS2J5aU5XODVLenhyR0RDcnBhVWtxODN2MzFfT2pQbGhldEZMM0dZWU5FLThOU2FydmszVVJKRVNCZ2xRYTc2dGF0S9IBeEFVX3lxTE1KYlBKeHNDbnd4NXFOdGhCRTJWRzZVWWZySWQ3ZEVCRTdJbzRJLU1SRlR4ZU4yS2J5aU5XODVLenhyR0RDcnBhVWtxODN2MzFfT2pQbGhldEZMM0dZWU5FLThOU2FydmszVVJKRVNCZ2xRYTc2dGF0Sw?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "임슬옹, 오늘(28일) 신곡 ‘Vibes’ 발매…권은비와 달콤한 호흡",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJcHRhQ19fOFAxVVBLN2tNSEVxbThVOWZzamxKZVZsdjFDYVRNRk8zcVBlZllUdy00RXhOODhtRnhPZk9EeGVNNWpnaGd0QmFVRE44YkRxa1o3M09oRGFJ?oc=5",
+       "source": "YTN star"
+      },
+      {
+       "title": "임슬옹, 오늘(28일) 신곡 ‘Vibes’ 발매…권은비와 달콤한 호흡",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LTTdNbTYwdFpaRHhrMGZtTVNfOGZ6elhjSEdycUh6X0FQbHE0TUc5UWI2cVI0WTN4Z09qMGpBVE9sRjRyeVdwVWFRM0YwT1h6N29LLUN3N1pKS0lPdDQyZWZURGtKLVViNUNXVzVNN1JyXy1NQ3c?oc=5",
+       "source": "YTN"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
