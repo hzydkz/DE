@@ -1,0 +1,543 @@
+{
+ "date": "2026-10-30",
+ "generated_at": "2026-10-30T23:57:24.047280+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 975,
+   "issues": [
+    {
+     "title": "블랙핑크, K팝 걸그룹 최초 옥관문화훈장 수훈...한류 확산 공로",
+     "summary": null,
+     "ai": false,
+     "article_count": 37,
+     "source_count": 33,
+     "links": [
+      {
+       "title": "블랙핑크, K팝 걸그룹 최초 옥관문화훈장 수훈...한류 확산 공로",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtWlZYWkVWOURtdXdyTURLOUN1N2xVcFhBVGlVTkxUeFVZbTQ3MFZkVWJEaktHV2RZQ1cyQ3N5SXM5WTkxYkpvMldYUmZOTlFrUzF5Wl95R0xYZzFtR2FjaktYVTk1QQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "‘데뷔 10주년’ 블랙핑크, K팝 걸그룹 첫 옥관문화훈장",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nUHpCU3Y0ODVjMGhFWW5mTG50b1psRHdGWmRjR2ttVHRxYkFwVDh1MkJ5T01nZ0JWcW9UcXEta1ZlaU9TWWo0M25IY0hRN3FycUNXaQ?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "블랙핑크, K팝 걸그룹 최초 옥관문화훈장 수훈..데뷔 10주년 겹경사",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42MG5Cdzd3WTFjTy0tbENfMDhEUGJvNjZ0bjZwQk9POGl5V2MzbFlyaWRHUFlyUFdFa0xodFJyMEozTHZvVmVaU2ZVdElQNjNWb2dUbA?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "블랙핑크, K팝 걸그룹 최초 옥관문화훈장 수훈..데뷔 10주년 겹경사",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ0ZxakNhUGEyMmhVT2FtdEJaZ0daOVVRdXA0WTZSa2ZkZGh4ZWtUU1lkSS1SZ1hlNDAySFo3eVZjaVlzYVZkQ0tzcm1OYXZMNEo5cGxuT0pib0k5M0ZhRjJZUVI2b0FfcFVJQ09CMGJTb3pJbDd6YWFxZkhFOUZRYUlpbzM3R0NmTlN3dV9IbGlHWlQ5dTAzMEhBRUVEOE9kNmFham5FMNIBpwFBVV95cUxQQ0ZxakNhUGEyMmhVT2FtdEJaZ0daOVVRdXA0WTZSa2ZkZGh4ZWtUU1lkSS1SZ1hlNDAySFo3eVZjaVlzYVZkQ0tzcm1OYXZMNEo5cGxuT0pib0k5M0ZhRjJZUVI2b0FfcFVJQ09CMGJTb3pJbDd6YWFxZkhFOUZRYUlpbzM3R0NmTlN3dV9IbGlHWlQ5dTAzMEhBRUVEOE9kNmFham5FMA?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "'데뷔 10주년' 블랙핑크, 옥관문화훈장 수훈..K팝 걸그룹 최초",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpTUVmYkxOZHYwdlRjTnQ4UVhScFJMS0xOdGVBUGJCTGd5d2h0LUFnOHIwMkIwQ05mTkhIbHdDLXc5TXJLeF9jdmx1RTNwWmRvLXo3aEh2dkRudURSQmxHNS1lOGo5dUlqYWZSWnRSeDFtSFNY?oc=5",
+       "source": "스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ 광고 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 23,
+     "source_count": 23,
+     "links": [
+      {
+       "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ 광고 공개",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iWFp2SGxQSDA5YjlDbUgxME1kYjNSSWxXNWRhRmRQRUpLUGFtQTlONDFTX2kxNFdjRlR1TVJFYTIwQmJ3S0hJcXVWX1d4VnBoaGt2alFUb3VlanJzS1pTWjRzei1yZEVIY0VBV1d6UnLSAXRBVV95cUxPWG8yNHhqTG5xNWd6NlhOOFhRS2NPbzdZaWhMd3ZRNTVnRTZWbFlfVlVtMXRzbnhVNkowREVHdjJYN3ZhZ1hLa0FENlhYdFJyM0RYZkpEVk1HdmxGQVlGYTY0NFZlUzZCU3hkWXBPcDZtN3hCOQ?oc=5",
+       "source": "이뉴스투데이"
+      },
+      {
+       "title": "우리은행, 걸그룹 리센느와 함께한 '우리는 해' CM송 광고 공개",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtMUVXdVNFU0RkeEpNY0stWEhJekY1ZWw3NjFWMEtKeEtLbXQyZHBXN1VFX2UzYXNBVFY3WnVRQ1hVTHJ1QXFfalR6eWtEUFdObGl2MDFrb1VYSTgyZndOc1lNQXo2VXdNZldBTjVxZw?oc=5",
+       "source": "이코노뉴스"
+      },
+      {
+       "title": "우리은행·걸그룹 리센느, 꿈을 향한 도전 응원...'우리는 해' CM송 공개",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSG1YQlg4QVJfRTVRcmpwV1NlM196WHFES1hteXlwTEthUGhrUndPdXotbWJ2U1lpLTFBS1JRamZva0RrR3ZjeXpnZUEzVFd0ajJqSXQ5Um9FbFlYY1M3a1R3WnFyckZuM244U0ZNUlU2QXJVZTR5clFXaHIzWnRpcktjQnM?oc=5",
+       "source": "글로벌이코노믹"
+      },
+      {
+       "title": "우리은행, 걸그룹 리센느와 '우리는 해' CM송 공개…꿈 향한 도전 응원",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TWGwybTRaWHBGb1pQeWw1cS1FMF9oZkdZM1lTdHQyUmxteGFlbmRHazZOTEc1NXlEUEFMRzlWQlVmTXVGVTRHN3E1N2Vmci1qQ0NLZ2pZdExxUnhkVnRUSW5nZDZhZUFuc2dPaGpDaHlpSzQz?oc=5",
+       "source": "파이낸셜포스트"
+      },
+      {
+       "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ CM송 광고 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SR2Z6ejAtcl9hWElPVnFUek1tTGpmVjZxbFcyV3ZyVFBrVHNNWk80eDdaY0xWeFRUdGJ6ekdkU2ZJbkY5R1JKaTUwT2EzcHFTOUIwV0FiWndadHNOdWZNV21QWnhuQXVuYnJUXzFB?oc=5",
+       "source": "이지경제"
+      }
+     ]
+    },
+    {
+     "title": "BLACKPINK, Marking 10th Anniversary of Debut, Receives Order of Cultural Merit… First K-Pop Girl Group to Do So",
+     "summary": null,
+     "ai": false,
+     "article_count": 14,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "BLACKPINK, Marking 10th Anniversary of Debut, Receives Order of Cultural Merit… First K-Pop Girl Group to Do So",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IbU9YVmJESmt4YlJHclB1MGcyRmpTc2MtU0U2bENxcUpBLUNHbDZqNURMcENaSkRuYkdpZEh1Qm4zcTRzdGt6RDVfN1VTSDIyai1sUUxxdXdibUp1OG5fVy1LaGhkZzE5TFJlNUtucmNMUTJCdGVnaQ?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "BLACKPINK First K-pop Girl Group Honored with Okgwan Order of Cultural Merit",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM2p6MkVDR25RX0s4X2xfMDdvbjU2bERUeUU3V1NhZHdqSmkyck1zR0JkWFhCMnJyYURHVlQwdHVyRlQyaFZHYUFMczJzNG5TQUUtVWlMS1diOTNVaUkzT3RtS2V3aTBwV2lIQmc4VGNXU295alpkOG1uQ2dtVmNCeGlpQzkta3F4MlRqcXp3?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "BLACKPINK becomes the first K-pop girl group to receive the Okgwan Order of Cultural Merit: “We will move people through music”",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MNC1zRVFKbWUzWTc0UUZwbUZvenlkektDTnVwWnRzSDVHX2NKWU8zUnlEbmZ0RzVDX3g0MmRocW1ja2RMRjhXMm1kRHBsTlcw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "Blackpink becomes first K-pop girl group to receive Jade Crown Cultural Medal",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zTUdXWHVMTnVjbmpfOXVzMU96ejNGTzFoU0JvRlMycTVxVWFwLS10dDRsZzZxdDJkR3VzZzJyQzFoRjY3STlkSVlyRmhxSVhsVlZkenRtaw?oc=5",
+       "source": "헤럴드경제"
+      },
+      {
+       "title": "Blackpink receive Order of Cultural Merit and become first female K-pop group — Korea Herald",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSENsRi1qaWZfVEU5dS1pR2toSTI0dEsxRWVLOHVVTEU0S1FkbHppNlVDRnlXaFRTbXZETk93RlVhbkZxUUh2MXpRVXdwamM0RlZsZU44a3lPTFptVW03N0xGakJERkdsOWRXM3VjM3VtYnVPdkNiWHl3SFhLUzZ1bXJrbkpGeXlOb0hRb0ZJUm9FcXdUMXlNZ3lDbUxCbWFENDR0X211ZnhiRXc4NElESXhfRFY5OGV4NFE?oc=5",
+       "source": "UA.NEWS"
+      }
+     ]
+    },
+    {
+     "title": "Skid Row announce new lead singer Justin Sargent",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "Skid Row announce new lead singer Justin Sargent",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJWVRJaTBRZGFiamlOS1FoZFljX0NWc1lrVWtSZ1lTZ2pmZzl1a2I5RFFXNnM0NktPdWR3SjBtUDRKTGMxOVhpVElfYkRCblNIT0RtanpfN0Q5T0N2UDJId1RCM2R3YUpScVZhcUhpTjRBb0tzMExXT0FQZDlONXlKbnNleHpJXzJqLXl2R0c2UQ?oc=5",
+       "source": "Hotpress"
+      },
+      {
+       "title": "Skid Row Announce New Lead Singer and 2027 Tour Dates",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWHNFUFlTaU1DODFMdlRsUVIzWC03UGt3MFRQZXN1dnpibnJianZkUWVOZFVhYm9RYVFWVzlfckJZZEhWSWRrSm9qVlRiWkc1algyTk5HWmxtTHlRMjRNTkFwUHFkTmc1QXFxYWQ4S09saXZVRlR4dHlzMDE0MzJBWUV5QzlyRzRGMEUxSXlB?oc=5",
+       "source": "DRGNews"
+      },
+      {
+       "title": "Skid Row Announce New Singer",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HV08zYU4tLThfTVB3RmlJUUt4cDZzU25OcFcwYklHaF80Z0ZVZGlpQ19SX3BpcGRfa2V2dUwwUjB4eFZweE4tUFRxXy1wMTR1aWNnSTRwTkJEenppblJJTUd3Mk01dzllRHc?oc=5",
+       "source": "Kill The Music"
+      },
+      {
+       "title": "Skid Row Name Justin Sargent as New Lead Singer, Release Explosive Who Cover and Announce 2027 Comeback Tour",
+       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTUJPQkR6WTliVUpuOXFaSFYzY1VReXRhbWFRdDFkakU3QUo3dW5rZFB2dEo0U2c5T2x0c2U4ZmZzbnA3dTEySk92R19rVDYwdWFBUGdQUExIQmVKTTNMamtWV1ByaGV4cm50ekZxZFRwRlI0ZGw1eGlNYWRjbHRTbXRKeVYzVldYTTlhWkxuMlJlVXdvdGhkUmZwSklnXzJ5eU5VbnJHMTlLN25wWnR1V2h3STlxektPZEdXSW5KMzl2ajF4Ym1YOHlZeGtneERVeGMwcTFhVHdVelktNWo2NDA4cw?oc=5",
+       "source": "That Eric Alper"
+      },
+      {
+       "title": "Skid Row Find New Singer Justin Sargent After Worldwide Search",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBwTEtlOXdncjNXeWlrdFJLNG5wWGVFRkFTSW5HYUlmdDBWb09zMDl0VjdwWURuS0hOMDE4NnhBdjRQOUV4eVkwRXV1TzFVbnpwdDRZWUNYX1pSUHhuNzZQUVR0WjBWNHcyc0J3WHBDMWpwSVhCaEZr?oc=5",
+       "source": "Noise11"
+      }
+     ]
+    },
+    {
+     "title": "11월 4일 컴백' 윤서빈, 'Slow Motion' 콘셉트 포토 베일 벗었다",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "11월 4일 컴백' 윤서빈, 'Slow Motion' 콘셉트 포토 베일 벗었다",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3SmMwcExMTUhfMlVqZDNrS1hxajlNMURWYzNXaE10YXhMbDd0SnVEbnVTYW1pYzk0cVFfQm5tZ1ZWallROXFvWGUxWEhCZ2VldVoybw?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "11월 4일 컴백' 윤서빈, 'Slow Motion' 콘셉트 포토 베일 벗었다",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb1hBNHZ0NFcyTGtfbS1aQkZIVm54aFRnUjI1dUc5YXlRd0dEMEVLX0pLRFp1cUpqRDEtZXp1amZ0OTFYOWROTHFjVHRPNWUzOWxHQ0pVcGNtN0xsaUVDa01iZDl1b0JyRjNCVVdIOHQ0OEZnbTd1V19QYkpVZ2N2Yk1Ka3NWTDJ0NUtZX0ZFVng1dHU3WW1Hc2J1MXRrazhKZDlXaHd3a9IBpwFBVV95cUxQb1hBNHZ0NFcyTGtfbS1aQkZIVm54aFRnUjI1dUc5YXlRd0dEMEVLX0pLRFp1cUpqRDEtZXp1amZ0OTFYOWROTHFjVHRPNWUzOWxHQ0pVcGNtN0xsaUVDa01iZDl1b0JyRjNCVVdIOHQ0OEZnbTd1V19QYkpVZ2N2Yk1Ka3NWTDJ0NUtZX0ZFVng1dHU3WW1Hc2J1MXRrazhKZDlXaHd3aw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "윤서빈, 신곡 ‘Slow Motion’ 콘셉트 포토 공개…11월 4일 컴백 예고",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ydkloOGhwX215MmZnS1RSUzU2anZ4UTBWQVB3ekRYdTFMQkZRSE1tYmFfN3E5am5zQ1R4enNxekwzQlBHUnUtZzN2OTdwOU56NklXQlJhZ1ROX0lRZmRsSWNkdHVRRkd1eEhjZmRDLXZ1UQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "윤서빈, 신곡 'Slow Motion' 콘셉트 포토 공개…11월 4일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56QW9RVFRUSmRFdGpwVHVrZGc5aEYtTlFSaGdUUmo1Z0RzREF1Y2RBRlF5S3dadUx2cklzN29ZRGFNQlF1QU9xZmZiVEFBcmxNWEJKMzQyU1ZaR0UzNm5tbDVqNEFPeURYb0NBWg?oc=5",
+       "source": "뉴스플릭스"
+      },
+      {
+       "title": "윤서빈, ‘Slow Motion’ 콘셉트 포토 공개…11월 4일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpRWtDalIyWmlFYWJlQlVMSXZ3aVBaQ0JZYzhVRDlVSlItMFhhM3U3RF9hMkxyRUlxWXNrX0VWcVZGV0t5SnBMU0xPNUwzdw?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "Watch the ‘Soda Pop’ Official Choreography | KPop Demon Hunters",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Watch the ‘Soda Pop’ Official Choreography | KPop Demon Hunters",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQlJfTjhxdGdOR3FTdUFaR1ZPZUd5UlZVM2ZXMXJXX1RwYkE0a1NXcEFBakViZ2RWQlRjMVY4VUgzT1VRdVNpRE11d09IUDRxdVdMcWVTN2l4YktWUEZTdUVXeGd0czRsNFFYMGJDTV9RTHluZ3hpaFRFMWR5X19mVTV6aw?oc=5",
+       "source": "Netflix"
+      },
+      {
+       "title": "“Soda Pop” Official Choreography | KPop Demon Hunters | Netflix",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kXy1CSU0yN3Y2UWl6LVo3UXluOS1WLVFLZjB3dy00YU9xQU8xU25LUEduTDBBLWJiUHQyUjJXQjYwdXBGM2swbWFWZFYtNzFQcXoxMjBDZjhteUwy?oc=5",
+       "source": "YouTube"
+      },
+      {
+       "title": "Netflix’s ‘KPop Demon Hunters’ Is Going on a Global World Tour",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQemFoNEo1Znl0YkJkanVCOHlOdlVmSUZKR01CdXM5TVdRU3JqR01zRU1sNGo3a0JqQ1hEdU56dE9vTS1SWURPVlpNS21qQUZhNDRwcU5GMlE1cmNQY3dEbkx2cG5hMEZuZDlCX3kwSExka01JaWF1Nk1JeGJSTlFsblpyVFg3SEE?oc=5",
+       "source": "TicketNews"
+      },
+      {
+       "title": "Netflix Releases Official ‘Soda Pop’ Choreography From ‘KPop Demon Hunters’",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFNlY3NlVVcxZnpOTU95R01qRnpnMHVTUlhqZG82MlAwMHYzRHpYc2NlNHpnQW9CWkZ6TE1KclhNcUxXblU5bENVODVBeDI3OXd4QzZ5eUYtbkZ0a1Ata1FLQjRPX1BFUHFNN21MT3Q2RU84bG1TeW5OUF9UaFhPOU11ejhMUlZjUmNhVTJodVJmalpCS1FKYTh4UDIzb3RQa24xTGxTLUtNYy1oZEtoSTZ4RnNfSGY2OGVpTTZnWQ?oc=5",
+       "source": "Music Times"
+      },
+      {
+       "title": "Immersive Gamebox Launches Netflix’s ‘KPop Demon Hunters’ Experience",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZDZqQ296ZlNyUWNTNllQQjdTMU5ZYWxzclNJeWFTSUZTWkhyLTF3c245QkpUY01GVWc2MExwMlRBMDZJek9QYXIwT2RvLVRGQTJGMUJVeDNERmU2MTlaRFFqWmdqY1FQSjNjQ2VFUF9UUkVzaUV1RFJ2UTVBOGZaWjhTQnFkeHotS0VPWXlXcTI5b1pZR2F6cjc0Y3Vpa0R3TnI1NUFTMEhlbjdZQ1pvMDFsSmw2NHJfVWQ4?oc=5",
+       "source": "Forbes"
+      }
+     ]
+    },
+    {
+     "title": "2026 순천문화기획학교 로컬기획자 페스티벌 ‘ST.ART’ 개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "2026 순천문화기획학교 로컬기획자 페스티벌 ‘ST.ART’ 개최",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tUFJvblFMOF9GRHZFQXI4ZUw0WG5saTJvSnMtclBZbkpMOWpzQjNsUXRMTkZ6U1JTOUhCc1BLT1VnTHk3dE1LUFJjOHQwM1Ruc0ZIam84dHVVTzM3cWg0WTM3WEQxbURXUEE?oc=5",
+       "source": "도민연합뉴스"
+      },
+      {
+       "title": "2026 순천문화기획학교 로컬기획자 페스티벌 ‘ST.ART’ 개최",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sMmtkaW5ReXZEZUtNRG5CcjhqZEpMTDQ4RWRWWks3SlhRYkJQZl8xMEF3ODh4SHJMc1BZU2JMVy13bWZfbktuOHhueE1fa3lidm5WTVpEZUstemNrTkdLMGhNMHk1SHhZdzNrWHpiMA?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "2026 순천문화기획학교 로컬기획자 페스티벌 ‘ST.ART’ 개최",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QbVBVOTJRYldncGt6eWZOaTcwV1lIZDVCZVRjXzg4QU01ZUViaURyNGpfY013NXRsclZ6Vm82cUhVQnlBRk5kdTRTRjI?oc=5",
+       "source": "시사일보"
+      },
+      {
+       "title": "2026 순천문화기획학교 로컬기획자 페스티벌 ‘ST.ART’ 개최",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuRmI1Q2g3TVBGSlBwNWNfWG1lV1lzQnhXZkNfM2F0TmZvQmZ2MlZjc1ByVEdhYUdSRzlJQkFvaVRqNVRqUzJ1U3Z0SzE0QjNyX1pOMDhoRTJyeVNmQjMzU0YwaENyeENoYTFz?oc=5",
+       "source": "내외통신"
+      },
+      {
+       "title": "2026 순천문화기획학교 로컬기획자 페스티벌 ‘ST.ART’ 개최",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uR2lJemtOano2SUlkQnR4NjhxNV8yekhrRDc3bnBJVjBOSWlHRm4xYUdXcldVajUxejBjaFZfNWxFcUtSbkRneUctUURoR2NtMC1IbGVyWUsxamtFajljTWFyZ2owVXRJajJMTWdEUW1lZw?oc=5",
+       "source": "웹이코노미"
+      }
+     ]
+    },
+    {
+     "title": "‘2026 코리아시즌’ K-LIVE FESTIVAL, 태국·베트남서 3만 4천 관객 매료",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "‘2026 코리아시즌’ K-LIVE FESTIVAL, 태국·베트남서 3만 4천 관객 매료",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORzdnRERPVXdOczVoajhJdkpqMDUxd2toblBveUJDbWlpekMtMlhPYUdFSG1PX2NGbHFPT0xkUXU0VkdvSm1vVlY3cEIyTzY1TFEtUmpla1VqMUFOSzQxM2J0OUVCM2hxcmdmZlVPNEJvRzJRbk4zbHZYN0hpNm4tUw?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "2026 코리아시즌 ‘K-LIVE FESTIVAL’ 마무리…태국·베트남 3만4000명 관객 참여",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qaS1rOXJGZmFxTU5XRElfRTJUMkhZbVMycTRzemxVNHN4dUdCcjhXMHl1cXVIMW1KUnpkbjh6N3NmVk90NUE0X1NpRDV1dy1sNjR0eGZtbDNBVTN5?oc=5",
+       "source": "세계비즈"
+      },
+      {
+       "title": "한국과 태국·베트남, 라이브 음악으로 하나 되다… ‘2026 코리아시즌’, K-LIVE FESTIVAL로 3만4000여 명 관객 매료",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82RVY2OXVmODlRY2JSeHljbEEyMk5YR2U2SnJRSThybmpsTU1McTVjb21jdGkyVlF3Y08wRUF5aDFfQTkzNEMzandDUTJYZDhaWHdJdXdBUUdILUp5UzlN?oc=5",
+       "source": "https://press.theleader.kr/"
+      },
+      {
+       "title": "글로벌 문화교류 '2026 코리아시즌' K-라이브 페스티벌, 누적 관객 3만 4000명",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0yV29xZWdTemUyUGV4Z0p3UVJDWmtwX3hkT3AxNHVFUm55TmZFN2ZaRjVtc1NHSDZKM1JuU1laZC1xWmFPc29ESG1mMG1CS0k?oc=5",
+       "source": "https://www.didimkorea.net/"
+      },
+      {
+       "title": "한국·태국·베트남 밴드 무대에 3만4000명",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yRWl2NVNFSkJraXRjLTJHRlpkVV8tekpqbWdxMDNJdzJaTmxjNEVzMUw0S3dMVmNCd2tZRmVRZ1NTSjdyVFJsY2YtRGlWaXlIaXotY3c3SmRWbThNYWVwaHpnTXJpb0t6?oc=5",
+       "source": "https://www.newsphere.kr/"
+      }
+     ]
+    },
+    {
+     "title": "심현보, 11년 만에 정규앨범 발표…‘우리가 사랑이라 부르던’으로 돌아온다",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "심현보, 11년 만에 정규앨범 발표…‘우리가 사랑이라 부르던’으로 돌아온다",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoTHRLSUxjX2pvamNaNWdOeGtGeXBWOWNJZHBWbXBIQlMxMDJMZnJjR1NBdG5sNUhPaVUzNW9NWmJ3eFdtR3FyNHg3N1VWZ2pFWHBNbmIzdXpXVjdOVjJMaWZTNVBzaEVDdjRKSw?oc=5",
+       "source": "뉴스탭"
+      },
+      {
+       "title": "‘너의 모든 순간’ 작사가 심현보, 11년 만에 선보이는 정규 앨범 5집 ‘우리가 사랑이라 부르던’ 빌매",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52ckM3MFVlV2dxNlo0emM4TlA0WG5LazJ2cThkZkV1cl93V202Mnk2dmJlVVpOQkFmd09HNVdla1N2clVKVkh2UmJPZFZ2LWN5UFdhYjB2VFJsUjMtcFHSAWNBVV95cUxQM3o2UG1JLTE5Rm40blF4cTlCQ1k4di1CWDdlOW9VYlp5VFY3eW05WUdoUERjaHg4XzUwc3hTTmxtbjk3S2ZfeDFKRVNCakpLRE9PZm1aS255RWlfdHNBR2doWG8?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "심현보, 11년 만의 정규 5집 '우리가 사랑이라 부르던' 발표",
+       "url": "https://www.yna.co.kr/view/AKR20261030120000005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "심현보, 11년 만에 정규 음반…5집 '우리가 사랑이라 부르던'",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxbnBPTXl0dnF1SkxVODRiSVVIal84M2FQeHNORHdjZFhRN2NRaDdqN1pLcjlUSGRPM1FKN2ptUlNiS1hiRGh0Q1hjMmpWR0JNZmUyc0tWUUNUdkZiMkN6Tk9YYnQyUWJjc0l1RkdjSGRoYjJ2bEtPddIBeEFVX3lxTFBxbnBPTXl0dnF1SkxVODRiSVVIal84M2FQeHNORHdjZFhRN2NRaDdqN1pLcjlUSGRPM1FKN2ptUlNiS1hiRGh0Q1hjMmpWR0JNZmUyc0tWUUNUdkZiMkN6Tk9YYnQyUWJjc0l1RkdjSGRoYjJ2bEtPdQ?oc=5",
+       "source": "뉴시스"
+      },
+      {
+       "title": "싱어송라이터 심현보, 11년만에 정규 5집 '우리가 사랑이라 부르던' 발표",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzOWwwZnEwZkRKXzV1bzdhSTlrWjdvLVBObHJ3S3dSSENFVDlPMTlESXd5c3lxOHVHaGJVWjVoSHMta3A2NUlfSlYxLVVuNnNTclo4TU1YcVZVLW5HTzBmREZwREpRSEdf?oc=5",
+       "source": "Queen 이코노미퀸"
+      }
+     ]
+    },
+    {
+     "title": "[공식] 리센느, 컴백 나흘 앞두고 악재…“직원 사칭 금전 요구, 고소 진행”",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "[공식] 리센느, 컴백 나흘 앞두고 악재…“직원 사칭 금전 요구, 고소 진행”",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9JWTZqOFN6YjV4WmNfZTZRUnkwVG5ia0lfZzA5X2JjRnhUMXFjQjBBbWVyUGdLdGotWVc4TjhUcEFEQzdqME1nSXo4VzRHb2dUSW5xU0xTX0ZMNVJtNGfSAWNBVV95cUxOMlV1bjM5d2JOR01fTTBnRkJ5b0tJc1FoWjU5S0dUVjJmZ2kyZHVVRHFhWUxpRFllbHdBX3FtMFBFZnRwM1I3Zlh4OHFIM2JKaDRPN0xEazYtOEY3eDM4b2pRNDA?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "리센느, 컴백 코 앞인데…\"직원 사칭 금전 요구\" 피해 주의보",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52eWJFSVQxcTZjeG5FcjYzT08taTVZY1JjcncteFk4TnVqLUlKNjQyX1hUMWpfV2o3QVBIN2lCdEl6UC1sa2psNGtLc2VxcXNXc2JHMThqUWVsSVMySk4xMFU5NmpXbDV3dEZycWdLTVk?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "[공식] \"금전 요구 확인, 고소\"..리센느 컴백 앞두고 더뮤즈, '사칭 피해' 법적 대응 [전문]",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZVC1wMHR2YV9zd3RyN2NRX290QVJ1Z2FoUmp5Wi1GTm80R3hzUE1WWVk0RjVfcXRUOFprS3ZNR0k2TXJFNTBIODYwQU5RTGE0UVVjV2JTQng1NkhLTHpuX2JvbHpXNmJGay1RX1d1T3NPQVE?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "\"금전 요구 하지 않아\"… 컴백 앞둔 리센느 소속사, 직원 사칭범에 법적 대응",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pWXV6R21TWUZWdmJZQXpxVWt1dnl2dWNvYW1YWXhqYlhJWHV3VWFycGNrZEJpbDczNzVCb3gycHpkQlRhMjNEM2xVd2luODVoSEozX0ljSk5fVWltN1pUZkJpXzVxNndudWFwUkV30gFzQVVfeXFMUFNkcFNvLXdvNzhxRzBlaTV5VEU0dk11bE5JZ2NGZkFHLVJSc01BRnFfT3hDR2JXT2piaWJnQ1NLUHY3bXJmOXVETE9TemZRU2RPZGQ4REdYT0lER09veGxZYTd0YVNFMzZtQVJTUklRN1JlVQ?oc=5",
+       "source": "한국일보"
+      },
+      {
+       "title": "리센느, 컴백 앞두고 소속사 사칭 피해 발생…“법적 대응 중”",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5saHhXNkZGVGtkZ19fNDdiZ3htcmtjTVJUUUpaUW0yQy1OQUhQTHBLSGN3NWVLNTBJbVBVT1BIcjQ2S2RvOE9HdDZoM0RHa25uMDBCQkVRUEQxUXk5cHp3ZktMR3pDMjB1UFR2bFVFblJxdw?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "‘더 시즌즈’ 에릭남, 신곡 첫 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "‘더 시즌즈’ 에릭남, 신곡 첫 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oSWxER3VJTVM1M1RqSG53OWdDVEtvU3MzcHctZWdKWTVuNmhnRWh4V25pTXhqbHg2RXcwcnN3V0FGdG02anRGUXhnTUV3Y2xNaEFrOU1sVm02YjhLLVdRSkdVZ1c?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "에릭남, '더 시즌즈' 출격... 신곡 무대 방송 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zMGl0TllrUjkwd010ejBiX1NUNHA3amtKZHBPV2hKOXBKY29PLUN4dGxsZFdoUjNnQnB2UF95YVo0Vmg0N3RDN2RwT2pweXF5ajcxOW11VEtYUG5KSUsyUi1TZE1pQ0VCb1VCdUxR?oc=5",
+       "source": "뉴스인사이드"
+      },
+      {
+       "title": "에릭남, 3년 만 본업 컴백…'더 시즌즈'서 'Psycho' 첫 무대",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KUUVxLXBmMEc5UDJBQXM5V0xGeGg2OUFpbVhMZ3FseUJfREJHVGExV3lBcmFxcGpQTmV0M0Zibk1oTmRxOUsycmRoRE8?oc=5",
+       "source": "전자신문"
+      },
+      {
+       "title": "에릭남, 30일 '더 시즌즈' 출연해 신곡 'Psycho' 첫 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5saEJVZ2V2Z1MzbEJqYV91YzlRb1BmWkRNQkF2RTdONnRDNnVhdUxEcEhNRktNZE1nUzFZSndUbzI0WGJnN3l0QzBlN3VuT0J4NUdxN1g4VGhZOUo5QnF3V2NvQlZKSnlid2JnTXNlQXN3QQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "\"3년 만의 컴백\"… 에릭남, '더 시즌즈'서 신곡 'Psycho' 라이브 무대",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xenZseFhROFdkUWxFU2x4MEdwbFMza1BtV0lHQ3pCcjVYSldjNHR5b3hBam9kYlpxY2hEMDZ4aDJQV2VodHpJN3pSYlJ5Zk5JMGhWMWNjQ2F1bWVZbFgxY2Q0SGREWXJRbjlzc0tB?oc=5",
+       "source": "국제뉴스"
+      }
+     ]
+    },
+    {
+     "title": "드래곤포니, 싱글 ‘Calling back’으로 11월 5일 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "드래곤포니, 싱글 ‘Calling back’으로 11월 5일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE95RnpBenpMYjZwNldmMU16MWdpTVhzSGVhOEJpS25vX2N0Q210QU1UMXBmSHk1dHZaa1k1NFZyOHZpbm12MDJwVVV4NVBiN2p6U0FGVW1YTGZiMGlPaU5sRFR6bmo5VzBCNngweGlod0ExZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "드래곤포니, 8개월 만에 컴백 ‘콜링 백’ 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vVEVFOExYY1ZfTm5vX2VrQXhDQ2JxbGZ4N1RyaUU1ZDJWSEduT2ExcGRyeFUwd3ZjTEEtYUNlZkZhRXZKa0dQUlZfbHpoVmlUZ29aNGdCYkJoRUtZZm5lNjF6Y2Q?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "드래곤포니, 신곡 '콜링 백' 뮤비 티저 첫공개…정제된 연출로 음악적 성장 예고",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JY3FYZmstUTAwcXJDWEEwUndXZV9yallGRHFSVEppdXp1RHZVQW5DT2ZfblhLVnFkWVZiMmdYZENSVFp1U0hSMmpNb0RITEpqOXMwU3h2QXQ5clJTM1FycVpJOENkZFM3c25FNGxOcUo?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "드래곤포니, 신곡 ‘콜링백’ MV 티저 속 감춰진 메시지",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCVUt1dkR1cFFObE1tLVljOXR1aXpmNl8tc2xRSXE1TFRscERublp5aFFMaTdHLUxWSDQ5b1VMdkV2TGhzMnp6YTQ5dTVRdzY5WEFaUg?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "진화한 드래곤포니, 8개월만 신곡 ‘Calling back’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rejNWVHV0YkIzUGhhbjRfZnVJMDdfX1NaMnBXR2xGNmI1VE9BWTV5UjRZTk8zb0pubXNMQ2hJcFlOR05UM3dLZzB2RmR1TW5PZ0s5MXNlaVh3SnlXaFlWQ25DRjZVS2pH?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "남궁진, 31일 디지털 싱글 '화양연화' 발매",
+     "summary": "가수 남궁진이 오는 31일 신곡 '화양연화'를 디지털 싱글로 발매한다. 이번 신보는 남궁진이 1년 만에 발표하는 컴백 곡이다. 신곡에는 감사와 사랑, 소중한 사람을 향한 진심을 담은 애절한 감성이 담겼다. '미스터트롯3'에 출연한 남궁진은 이번 음원으로 활동을 이어간다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "남궁진, 31일 신곡 ‘화양연화’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ubk5KWHZnei1CT1dWYWVxOTBneTBFSXRpMUlYUE5mQmpBYUFhazFYd1FvUEQxdVo5d3FFblpsUXlkVWdQU3pDc1JGU3hFT0hxWEV4b3NBODlNV3dvZHo3VnZpYXE?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "남궁진, 1년 만의 신곡 ‘화양연화’ 발매…감사와 사랑 담았다",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zUy1NZ3gwVUJwb0ZfT0VjSFViX1hoLUQ2M3ZtcWdxMVlGTV9NeDFQYTBUdmF4NjI2WXM0MFZXbkJNVF9ta21rZkh0ZmliT3FnY013aC1JRFRabkxfdjN4Y21YVHRFZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "남궁진, 신곡 ‘화양연화’로 1년 만에 컴백…31일 디지털 싱글 발매",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lckJ1NlVHNC1hZEF6YXE3VDA2UFlmMXhVT0V5RVlRQXV0d2Z5MzJLOEtpbmhmSC1sbUxLd3ZpZm53XzZnYkk3UmNYQlBtaXJId21ra3Q3N3l4aVRvZl9BQ3ItdnROTHpKbVBKWDVvQ0k0QQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "'미스터트롯3' 남궁진, 애절한 신곡…'화양연화', 31일 발매",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1rQ0JvQXZIZk1wZW1KOTYwVE9CdFQtR01tN0dISXNkaG10cHM4am1DYlZUU0EyQ21wVllaMVFKbWh0eXhNbXRhQ2tn?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "‘미스터트롯3’ 남궁진, 31일 신곡 ‘화양연화’ 발매…소중한 사람 향한 진심",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEdm9scG5QZlROLWdkajAwbVljanJaa29BdnFxSnZ0TE81dTFwdFdpVHhWUjM3ZGZodW9wWkJ2NWRkMXV6Wk5XMEtEd2lyZF9xU0JSMXZ5TGRMM0E?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "장한별, 첫 단독 콘서트 개최 및 신곡 공개",
+     "summary": "장한별이 31일 첫 단독 콘서트 'THE STAR IS BORN'을 개최한다. 이번 콘서트에서 장한별은 신곡 '미야'의 라이브 무대와 뮤직비디오를 최초로 공개할 예정이다. 해당 단독 콘서트는 전 회차 전석 매진을 기록했다. 장한별은 음원 차트 흥행 속에서 데뷔 후 첫 단독 공연 일정을 시작한다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "'대세' 장한별, 내일(31일) 첫 단독 콘서트 'THE STAR IS BORN' 포문…신곡 '미야' 라이브·뮤비 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nYUdGSi1sbWNfVGZKcllXblB1TkpzYnJMWlNIRERBb2dXdlRGODhoNXVlY2xIUS11Ty1HNzV2SGNVbXU1TXVDTkREOHJsZmJRb1JyMFRGeU5kejdlRFNleXkyWjl0TldFbDZFeg?oc=5",
+       "source": "뉴스버즈"
+      },
+      {
+       "title": "장한별, 신곡 ‘미야’ 콘서트 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTLV95QmpOdWF4RG9vVFpjYjlTYWN5czhMdnpqSW1sT3lGWDN4ckFWOElXT3BWbHI2R2dBMFRSLVNtQmlmQVZXTU16bnc1QnNjdjlZWTlBVkpJUHV6ZWtUNk1ZUEY?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "장한별, 첫 단독콘서트서 '미야' 라이브·뮤비 최초 공개…전 회차 매진+음원 차트 흥행 속 '기대감 최고조'",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96LW1RclkxbkFKR2RjejViZFZsR2FZNENqSzVqaVAyaFJLb3NSOHFNakNkeG0wNF9CM25lMmV3MHpIcjU1OGx5a0xLMm04ZVowRkFZVWlKalQzWjhwZnpGMWI1ZHh3SUtJM1V4TEgxQ18?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "장한별, 데뷔 첫 단독 콘서트 전석 매진…신곡 '미야' 무대 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MSXBsdDhqTVkyMEFJTVVETWJWVDVpR0ZZSGpQUko3YUstdEJ2M20wcHEyNmQwY2tvQW1PdGNVamNyajkzMTVRX3kwcnlrY0V3Y2dUSjI4MEo2R3hfWUVnZmJjUVBIdw?oc=5",
+       "source": "뉴스컬처"
+      },
+      {
+       "title": "장한별, 내일(31일) 첫 단독 콘서트 개최…신곡 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90NWVmXzB3a2d4eVpPTnA1dWJPaWF1RGlIVUlOdFo3V3NJT2VHek1ETDQzWlF6VEFnVzBKTlVxLTRHajdFWUtjVGwtZXB4Wm55RU55bjVDdV9QOU5LVEJKei1wV3NtT2dk?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "에이티즈, K팝 아이돌 최초 덕수궁 무대 선보여",
+     "summary": "그룹 에이티즈가 K팝 아이돌 최초로 덕수궁 무대에 오른다. 에이티즈의 이번 공연은 KBS '불후의 명곡' 2부 합류를 통해 공개된다. 에이티즈는 덕수궁 무대에서 'BAD'와 'Drip' 무대를 선보일 예정이다. 해당 '불후의 명곡' 방송에는 엔믹스와 보이넥스트도어(보넥도)도 함께 출격한다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "에이티즈, K팝 아이돌 최초 덕수궁 공연…엔믹스·보넥도 출격 (‘불후의 명곡’)",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16UXZJMG00Q2NGQUlQZ05ZMTdXOWpKOHQ3U1U4ZUh1TVBKbWhDSTE0Y2dhVkFMd3FNRkFRdlMxY0NoZ2RHeGpabnkybjlDZThkc2FQRkk1LVRpN2xKNV93RnIzal9yZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "에이티즈, K팝 아이돌 최초 덕수궁 무대… ‘불후의 명곡’서 공개",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05cWVNcERyTDBlTDBPRFNRWjFXejZ6b0hxbnM2dGozc2FKRFV5U05KZDZBWS1jYmRuSGc0eHphUm11Q3c1YW1sQ1lxVENLN085M2M4NG1jRGd2ZUJ3ZWlhYk1ZUVZhc0NpLXc?oc=5",
+       "source": "천지일보"
+      },
+      {
+       "title": "에이티즈, K팝 아이돌 최초 덕수궁 무대 성사…'BAD'·'Drip' 선보인다(불후)",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjaUZzSGU3Y2RpbkNGREFiNDhBd25sY3RBSHRPWG5YYzJtLVVSWkFIUnExUldlckg5QWFEdGYwd2hyRk04a2Ixd3lJRkppUXJ3ZkE5RUlsRU5ydXRfY29kOQ?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "`불후의 명곡` ATEEZ(에이티즈), 2부 전격 합류! `K-POP 아이돌 최초` 덕수궁 무대!",
+       "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE03WmdnandRUW5YMVlVd0R4elp0YlRMbnlUV1hVWnE3c3ZOVnZqUEVDYnhIUkR4NkJjbW9PYTVR?oc=5",
+       "source": "사건의내막"
+      },
+      {
+       "title": "에이티즈, K팝 아이돌 최초 덕수궁 뜬다…‘BAD’ 무대(불후)",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MUEtNYXhUX0oxcmFYcmRmbnNsMTM1ek02MkgxMno5c2luVElQVjBXQnZvMjZMdUM5RWpiOXhqeC13RzhlTXp5SFZGSk5fSV9XZVFMSzI5UE5CN2RWLXZheTl3WndiclZ0RDZ3RlhBSWszWEVpVlVfN0xVMA?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
