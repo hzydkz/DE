@@ -1,0 +1,513 @@
+{
+ "date": "2026-10-29",
+ "generated_at": "2026-10-30T00:08:17.899000+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 8,
+ "llm_errors": [
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1038,
+   "issues": [
+    {
+     "title": "고 신해철 은관문화훈장 수훈 및 블랙핑크 등 문화훈장 선정",
+     "summary": "2014년 별세한 가수 고(故) 신해철이 은관문화훈장을 수훈했다. 이번 훈장은 신해철을 비롯해 유재석, 한영애, 블랙핑크 등 총 10명이 문화훈장 수훈 대상자로 이름을 올렸다. 은관문화훈장 수훈 현장에는 고 신해철의 아들 신동원 군이 참석해 대리 수훈했다. 신해철과 블랙핑크 등은 대한민국 정부의 최고 예술 분야 상을 받게 됐다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "故신해철에 은관문화훈장…유재석·한영애·블랙핑크도 문화훈장",
+       "url": "https://www.yna.co.kr/view/AKR20261028154200005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "가수 故 신해철 '은관문화훈장'",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01TG13dnAxZDhiYndPeXY2UHFzVnRTYXBxeGVMOFNLNW9hNGozU3dVeXdSZ2hUWV92V0xMUkdYOC0zTnpoT2pJQWNtZFYzdVJhQU9aTg?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "은관문화훈장을수훈한 가수 故 신해철",
+       "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNMFJVNHRnQ01VbUQ5a0RWZ1JXREducTRCU18zYUNyZkFMUDFJOGdlc195X2dBQnhvT1h4S1Z6clhZYWVyVmh3RmFzeXYzbWQza25SNV80RGNFSGUxdUJpMU4yRWY2cV9DLVpqSTlSOGdJRkhxMWlLaGZXekREbDVSb2FBNEwzaW5RMUNoWlQ2ZjZDZC05OTI2QWRmTFZiTmtpdWhfS0JIM0NaWkpEanM4aGpsVnlweG9sZ0dDeHhxaW81NDBCTHRmV0ZFRlFzMFZJbEw3dHdxNkF2WWJ2REFyazg4THdXYkJNU0JlRHk4cVUwU01Dcm5OemxOTzBaUzNSa3B2Rk5zQ1ZWRzJVTFJfWUl1MUM5ajVjYzVqVXlHUFMwUQ?oc=5",
+       "source": "데일리안"
+      },
+      {
+       "title": "[포토] 문화훈장을 수훈한 가수 고(故) 신해철(은관문화훈장) 아들 신동원 군",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc0FPODZJd3B6b0ljUVFxTWw3S2VLVnRDWUhNU3p1WkVqMWU2R2kzekszWjRwMDAwbnBMbnlxUFl0cVdxRm93UFpINVVzWnFndUhuaTNoV2tLZk80SmVsZW1TUHBzOEc0ak9SdzYwRm1wN2dqcUsyOUhDX1U1d2I0b0FFaWZ6Rl9weWhjZVRkeXdyaTd4Ti1V?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "Late singer Shin Hae-chul, BLACKPINK among 10 to receive cultural merit",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrbmhUUGx3Qnh4Vjg2VXhVMThmLTNycTFWSVFIOEZFMjZqZ2dXMEZlX0JtTjk1aWRyVzZfWGQxWDJoUlJrRW1OaGQzemJnU3ZQLTdJbGpFZklFQQ?oc=5",
+       "source": "Yonhap News Agency"
+      }
+     ]
+    },
+    {
+     "title": "아일릿 원희·이로하 컴백 직후 발목 부상으로 안무 조정",
+     "summary": "그룹 아일릿의 멤버 원희와 이로하가 컴백 직후 발목 부상을 입었다. 두 멤버는 현재 회복 중인 상태다. 이에 따라 향후 활동 시 필요할 경우 안무의 일부를 조정하여 무대를 진행할 예정이다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "[공식] 아일릿 컴백하자마자…원희·이로하 발목부상 \"필요시 안무 일부 조정\" [전문]",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3RmhJMTdScUdqWXJXajVhemh2QVI5WEwxUmNUQUd5NHcwZFlkOTNfVDJmeExlZTBZbTFNdE43ZnFpWm5teUd3ZzdXdzMxajA1Y3F4UGdtZzFYY3pLQVM1emh0QVlVUQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "'컴백' 아일릿 원희·이로하, 발목 부상...\"안무 일부 조정\"",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUdHczVmFQUVNuZDRVT2pBdU8yRWxTUUZSUFBFWloyNTZaQUlWVjE3VDlGNjZuTUNGX2hvTG84Q3dxVmdDakc0NjNCRDV3WTlzWjBvWWhKOE5oWUdIU1ZEXzVWYXJYZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "이제 컴백했는데… 아일릿 원희·이로하, 발목 부상 \"안무 조정\"",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXRE1NWmp0MGdlbm5GYlZSa0dtdkZLLW9DMktuMTFNOVR4RTBlWllfLWhmb3FUeVUyLTluN185cjRnX2dKYXUzWW5iOUtsOGFHMVV1VUpIUjlpTjhjeUtWd3ZZQ3QwU3ZsdEVBVWJvblJLSnPSAXNBVV95cUxQV0RNTVpqdDBnZW5uRmJWUmtHbXZGSy1vQzJLbjExTTlUeEUwZVpZXy1oZm9xVHlVMi05bjdfOXI0Z19nSmF1M1luYjlLbDhhRzFVdVVKSFI5aU44Y3lLVnd2WUN0MFN2bHRFQVVib25SS0pz?oc=5",
+       "source": "한국일보"
+      },
+      {
+       "title": "아일릿 원희·이로하, 컴백 직후 발목 부상…\"현재 회복 중\"",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10cERIX3pRdzd3LVRzZ3d2dzBheElOSFpJNDd3NzNwMHFNYXdMblNuMFhndGs4WUs2aHFMMHoyQkZ2cFIzc0pfa3g4dW03VExxREhFWFd3QkFSSURfRUQ3bTNjSzM2MzVUNUE?oc=5",
+       "source": "Queen 이코노미퀸"
+      }
+     ]
+    },
+    {
+     "title": "마이크 러브 건강 악화로 존 스타모스 밴드가 비치 보이스 대체",
+     "summary": "더 비치 보이스(The Beach Boys)의 마이크 러브(Mike Love)가 건강 문제를 겪으며 밴드의 공연 일정이 취소되거나 변경되었다. 존 스타모스(John Stamos)는 새 밴드 '캘리포니아 사운드(California Sound)'를 공개하고 예정된 공연에서 비치 보이스를 대신해 무대에 오른다. 스타모스의 밴드는 다가오는 디즈니 월드 콘서트 등 비치 보이스의 예정된 이벤트 무대에 오를 예정이다. 마이크 러브의 건강 재활로 인해 비치 보이스의 장기 투어 지속 여부 등 밴드의 미래에 대한 의문도 제기되고 있다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "John Stamos Unveils California Sound as Mike Love’s Health Issues Cloud The Beach Boys’ Future",
+       "url": "https://consequence.net/2026/10/john-stamos-california-sound-beach-boys-wo-mike-love/",
+       "source": "Consequence"
+      },
+      {
+       "title": "John Stamos’ Band to Replace the Beach Boys at Upcoming Show amid Mike Love’s Health Issues",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMTAzQzFQdkx0cG9TV3lRS3RSTXdpdG9XRXlLb29NdmVoUUdiMTlCcm93UWI1QjVTYXpSQlJLR2tjMDhpWjdnOHNIYlotM3dPSUE3SVVTU1lBenZZOU5RUTZ4OXp0dU5TbU91bk5wYmdaVlhpS3NTc2hTSFBjbGZUcnF2elRCVkl4TEZqc1BnTmlGdWZ0NmNsV09MT3g1VzZPem9N?oc=5",
+       "source": "People.com"
+      },
+      {
+       "title": "John Stamos’ Band to Replace the Beach Boys at Upcoming Show amid Mike Love’s Health Issues",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUXFQbHlFYmZnTjA1WUtDQmpILTBrZ0V6TENSa3BwNVZJaTM5UG0teW8xZ0RHSVhmblRITlVuVHMxLW9uOUNJVl8tc3RjdVNSWVFST3FpblVpUjlQUER5VWRuRmJpYnZLbGRUTUJSZ0g2c0dTU3NKT1FId1U1cXlfR3pqYW5wcG5kZkhscGZkRVlrdHBGY1FKaHBPdTE?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "John Stamos’ new band to replace The Beach Boys at upcoming Disney World concerts",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV0NpQUNtNkJ0RXNuc1RfZndQWXhtTG1ERnBGVTNDYnZLdWwwQWltUWJvbDl3dkR4T25EQ05wTzdXR2g0Z29BVWJPSWpzQjZBZVFWX2R3RTFycTVSOWI3anFxa2dEVUZvLUN2NVZ4Sk1LZE1xQU5TSDlTc3dOQ0ZjRlo2ajZockJaMTl5c0VkTDVVYXVMT3lONGFRQUJpaVNuek1tcHZKeEx1WUR3bGM5LU82dnY2NVlpUWc?oc=5",
+       "source": "Paste Magazine"
+      },
+      {
+       "title": "John Stamos' Band Steps In For The Beach Boys After Mike Love's Health Issues",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmVUd1NySnliYlhLcTB5d3dzNlJnZUx3cGFkSmZVUUE0cFNxalRFN2xmYnZsZWVkWTZpTFVjUG1oMnEzWUNIVERlS2NzeWVFM3pRN0RpUGtIdHphcGlfcDVIbEF2ZWVXWDN2SjQtaVJwN0E1azkyVXFoWktXVUl6UFBSd3FIdXlWVHFmaWFNaU9VaUtlVTZnNDZNT1N1ckM2NXE1UnJRNHk3RnRKMThjbWRiQjF4dl9xLUHSAcIBQVVfeXFMTWtnQXlESWxia3NVZ25uMVFRbWY0bFdhV1lJUkN0a0pheGhwdHpCUFlHbGVZOUNGU1kzeDRzSWpWUGkxcmljQVNCZ0FGTEdjOWlWWHVickt3M3U4Q2dvdWFBMXJ0RWNlVGkyZW1CX21ERVlYdmI2aEhnZ0tyQmRnOGFkZVZCbjdjczlKdW1tZnQ4dWZmVktPWFF4TFVpTjZMSUpSVVNJeTItUkk5X2xQMFNJYjNBSXJ4aWp3WlRIbGFwc0E?oc=5",
+       "source": "iHeart"
+      }
+     ]
+    },
+    {
+     "title": "스키드 로, 새 리드 보컬 저스틴 사전트 영입 및 투어 발표",
+     "summary": "하드 록 밴드 스키드 로(Skid Row)가 새 리드 싱어로 저스틴 사전트(Justin Sargent)를 공식 발표했다. 밴드는 새로운 보컬 발표와 함께 더 후(The Who)의 명곡 'Won't Get Fooled Again'의 커버 음원을 공개했다. 또한 스키드 로는 2027년 투어 일정을 함께 공개하며 향후 활동 계획을 밝혔다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Justin Sargent Named Lead Singer of Hard Rock Band Skid Row",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTXNZc1Jwc2I0Vk1wVFdCMlg3akdlUjJtS25Gb3Z2UWZ1VlhydXM3ZHloTVJULXc2b0dKa05fY2E1Rkt2VXFVdUx3cnB5Y0FEd1hHZUlYU1lwNGltNjZ0UFkyVWQyT0EySTlubDJxVUZPYmlGMEdVLTlFbDFTZTNHRVpTSHA4SHpiM2pBVWhHQjhKUQ?oc=5",
+       "source": "Playbill"
+      },
+      {
+       "title": "Skid Row Announce New Lead Singer Justin Sargent And Share Cover Of The Who's Won't Get Fooled Again",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMUR4bjNHOFNsZExmQ041RE5iMG12X2pyM0EtYjdyejRiV2RmVDdyeEViaG9Kb0luOEphYUt2NUtRWG56N2dYLXcwX1BIbHNlcDFtY0t5THhkWTR5T2stM3d6NmNwNW9YZnpmNFIwSUNFdk5PaThJRmZIejVMWjAyQQ?oc=5",
+       "source": "MNPR Magazine"
+      },
+      {
+       "title": "Skid Row Announce New Lead Singer and 2027 Tour Dates",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wNzBKaTY5ODhjRW15NW5DUUNJNjFCVzR6b2QzS1k5Sms1M2tnSDJHSWpCNEU0bHdabUdfdVRJcXVDazBSeDYzWWlZNHJpZ3pfcjRJOXVRbU9OcVc1VTg4cGk0eE5jelhOMTZMcnZvSXlfSzJNdUtN?oc=5",
+       "source": "Ultimate Classic Rock"
+      },
+      {
+       "title": "Skid Row Reveal New Singer, Announce 2027 Tour Dates + Share Cover of Classic Rock Hit",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YYVA5OWI2Q3FzZEJGQUhFaDVRaEFSdkQxN3VPN1RqVXZqOWhZd21tT1pBb09CdFRILWE4M1YxUjNWVDk3dGpYVmRlVnRqdlFsdWV2RF9xdTg5NGlJQkJiaWkyMG5SMFF6Mkl2aUxnQU9RdWc?oc=5",
+       "source": "Loudwire"
+      }
+     ]
+    },
+    {
+     "title": "빅뱅, 2026 MAMA서 '아기공룡 둘리'와 협업 무대 예고",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "BIGBANG Meets Dooly at 2026 MAMA",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVzEtamhBR0dTbFo4X1h5QXNXZVBmZmZSRHYyZl9tUXNxQUxIRWhieEdsVklMM09lYkN2Zi1Zc2plc19sdEJlb1N5cDNuVE5NQm43Ujh5Vjg1TnVOYmNvdm5nSkNLWE1MZnhkSkt1M0RUOFFkakM5UXQ5Zmw3U3pqVm81LUx4QTI4M01PZw?oc=5",
+       "source": "PAP Magazine"
+      },
+      {
+       "title": "K-pop meets animation: BigBang to team up with Dooly at the MAMA Awards",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lMjU5ajhrUlFTX3d4M0N1NXZSR0ZaM004TXdwSlVIM0w4UnhSeV9HcU5CX0NYa1QxbVlGVUdfYTAxcmVHOWx3TmhmVkVDSDZ1b3hUSkJpcGg2QWsxS0ZyS0l3Yw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "Bigbang, Dooly Collaborate at 2026 MAMA Awards",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWmtiM2RuRG1qM1pwbktBcHBKdXg2b2RHMHlZU29EcVYyUWpYaGpQcWZrQWpRY0E5LWVhZkp1bEVLdkxKWUtRVi1oTGtvUTE3dHlUNkVjOWdFaWc5OFdTSGxrb3I5MjVubmlVc3JobTFaRnZxZDZLSjZnMlhhcHg4TDMxNzlfVWstZUtHZU5R?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "BIGBANG to Collaborate with Dooly the Little Dinosaur at 2026 MAMA Awards",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rZUZHU2VCNmlnYmhvSk12aWRWblN6THE1ZUhFanNwTkVuRlFRckVUVzV1SlN5cVoxWjNPU1ltd3B4eXh4YmQ0NzVyeHc1dC1QVXc2NjFCdw?oc=5",
+       "source": "Kagit"
+      }
+     ]
+    },
+    {
+     "title": "캣츠아이, 내년 2월 첫 한국 콘서트로 KSPO돔 입성",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "캣츠아이, 첫 한국 콘서트…KSPO돔 입성",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pQ1ZwZnRWV1hHclFTVkphbVo5eWVlOTgwNF9TSzNnWXJIMW1jbVA1aFc5RVBQSHNqM2k3T2pXTDZKN3hWMGhZQkhoZzdiZGpsRUJHa1Mzenp6RDNiOVBSbFVaeXU?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "캣츠아이, 데뷔 후 첫 한국 콘서트 개최…2월 4일 KSPO DOME 입성",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpSDBBOTNCdDV5OFJ5WTNXUTVmaV82RlZmckdKbGJPY1dsTUI0ZWYwWlpzUjJ0QzZsSjFCVE0zNnItbjJzQVVCUC1QS1U4aGRtLVpqbVhoaFpNNFNjSTVMQjJyWmFRRHpNVUY5YzRsNk1kTks5TXlTWGpR?oc=5",
+       "source": "픽콘"
+      },
+      {
+       "title": "캣츠아이, 첫 한국 콘서트부터 체조경기장 입성…내년 2월 개최",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OOW9NUHhWN2pjRGgwT2Y3QkpQc0dHbFg0N0FMeGd6ek94OElvQlVZZnExc3F4UHpJRjNoc3N6c29VMnE0dWRKMmZOOUVGRFdjdU9maDluWjdhQWs?oc=5",
+       "source": "텐아시아"
+      },
+      {
+       "title": "캣츠아이, 내년 2월 KSPO돔서 첫 내한 공연",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mXzFSVnBNVklOdGR1STBfMVg0THRZSkxYb3o2ci1WREY1YllhcllSSC11UUEtdG1JRmNnVFl3Sk81YkxWQXBHMjVyZFJnemQtdHc4VGlxSC1ZYXfSAWBBVV95cUxQRjBuc3VBeDhkbjNBVi1COUR6ZXpxMGxyemFhYUl6eXdMNDJERmVoR1lGY0xsUjJFVHhUYnYtbGpPNy1PRzdlTTA0Q2RFdE90bXJVcmpOeWx3OWJhZW1ZMHM?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "캣츠아이, 내년 2월 KSPO돔서 첫 내한 공연",
+       "url": "https://www.yna.co.kr/view/AKR20261029124100005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "엔하이픈·투바투·르세라핌, 2027 인도 위버스콘 출격",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Weverse Con Festival India 2027: K-Pop Meets I-Pop With ENHYPEN, TXT and LE SSERAFIM",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdVlkVTNjREZOZmVZUndyaWpMM1pUbkFPYmhPWHBaZzh4VnN6bGRTbnFKRXFCakl2QXF0OVQwdXVoQzdZYmYtb1dFRXFwQTlPcXNLWDF4QmhpNXBWeVUxWGpRTVQwRXQ0UzZXNmc3cGhCblJCWTJGR0JuWDhjd2pqLUNjQXV0UjhGaEk1ZlIyNDg0VFhUbmFqU1JOQTlPMXlxc2d3VnpvRGVpcU1PTWhSWQ?oc=5",
+       "source": "RouteNote"
+      },
+      {
+       "title": "Weverse Con Festival India 2027: ENHYPEN, TXT, LE SSERAFIM and more to perform",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUTFQQk9aYlF0QU1wUkE4NGwxbGR5TF80WHpFZXZRb1RJeG56a3IydnV0WGRpbTRYZVk2X2ltdWNlUVZhQlpWaGt2dmlSN3J2OTZwckVDQ0RwYW1IaHpXcnRWclBEbC05OVI2MFdHcjQ5U2FQQVV0aWVWTTJ0Ul9ENVJOYTJCMFpzUzZ0UlIzUkRmd0FkYklUVlNtYWVMU2tWS0JYVkdhMHdyS3hqUlI0?oc=5",
+       "source": "Time Out Worldwide"
+      },
+      {
+       "title": "Weverse Con Festival India 2027: Ticket Prices, Artists, and Booking Tips for K-Pop Fans",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbWcxcU4xWllSS0FkUHZPWmNZS2FaaTF6X1p5alRiTVRFUi1rVUptRXVydGUyZjh6M3Y1dEpBcXYxTTl6SGU1SmEtLXRHYWxQNEE5THJlREVFNmZmOWJ3OHdwM3d5S1JYMG1GR1ZBa1htOE5VOFppblBISDRPS2d2UGdKUVdsS2lkRXpwbk1NWTJiUy1oRzZQVmtaV1VyRi11MEtUME1SbzZTTkI0dGZmVEppMnI0Rzd4WWc?oc=5",
+       "source": "Dojeon Media"
+      },
+      {
+       "title": "Weverse Con Festival India 2027 Announcement Sparks K-Pop Excitement",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQck5nemUyVVVwZUt3VjNSckFWSmhndTUwZER5WGhmZHRWM0FPMkNtMV9VLXFLZTdYQ3FqRENFWjRvbm9rNkJyZGVJY0REOEx6bHZVN1VFN2hxUllNY3hSVk4tVnhpYV9oS1ZfLWZiN1c5dzhVb3JvRlBvWEZTUDFjTzFvaGVnVC1iNmZXRE5SLWdMQkpfVGhpeEJIOVpzb1VXR3BzcEZVdmtWYmoxUkVaYmhNRzNteGJWUEJNY0FyeTN5Y25FUVE?oc=5",
+       "source": "Daily Music Roll"
+      }
+     ]
+    },
+    {
+     "title": "방탄소년단, 남미 음원 스트리밍 300% 급증 집중 조명",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "방탄소년단 남미 열풍, 현지 전문가들 집중 조명…“3년간 음원 스트리밍 300% 증가”",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hMnYtWF9zSUo5VWp2dUNmQnJTLWNQX3NTRlFUSnFVV3Y4TEZOQ202SFF2Q0xSWXBxdjRtVVZJYnc4cVhla1RlV0hFVExGai1ueW1tbHFzaEY?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "방탄소년단, 3년 간 음원 스트리밍 300% 증가⋯남미 신드롬 이유는",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wUURNTmEyT0dheWo0aGNQR2ZSYlJRRm9FZ0ljMk9XSTNFZ0lVRVNkQklZSlB6S21tRG9BbE9IaTRYYVNxdVp2VHVUencwdlk?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "“3년간 음원 스트리밍 300% 증가”…남미 전문가들 분석한 BTS 열풍",
+       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB4d25NOTkxSXVCWHk0dTBndWljMzEzelFBU1FVS0d0bWlXNnJ5Vm5SM1hxY0dFeXJEMW1ZQkVpYzQyc01yOFE?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "방탄소년단, 남미서 '음원 스트리밍 300% 폭증'…전문가 \"사회적 메시지·연대감이 인기 원동력\"",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTek9HUTFEQ0dIQy1KVEFORGZBcTI2V2ZpX1F0ampwdHY5MWI3bm1hc0lRbVAwcFpxOVNLQzFwSGw1RkVtQlhleG1WNlhCX1BhR3Z0Yl8zTmFkeDNTdGtpUmYtT2w?oc=5",
+       "source": "https://www.ppss.kr/"
+      },
+      {
+       "title": "방탄소년단, 남미서 '음원 스트리밍 300% 폭증'…'사회적 메시지'로 청년 팬심 사로잡아",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSYlFzMmJQZjBsS2Y2aXJUVFhhdGlkX25CSUl2OEhpT19CaGhvR3lzNzVsQWpGYTJaRVJjT2lpenlPUUxnU0xET09WZFhPTThoVldVVUIzZjlVQkpKQW5GcEpPUmtkSzkz0gFsQVVfeXFMTlhxRnZxU0wyV0tHMjJ2VzJMeEF3Z0pGNzUtZ29lbWlYMnBFUzNKelNfZnNXVWVlN05sa0Q2b3MxcXZKYThrNkJWaGNNdDZ6UG9ScWRCQllMeFRNMlpEUFpNcGEtVG1ZUDhfSW9S?oc=5",
+       "source": "EPN엔피나우"
+      }
+     ]
+    },
+    {
+     "title": "투어스, 신곡 '내 이름을 불러줘' 뮤직비디오 티저 공개",
+     "summary": "그룹 투어스(TWS)가 신곡 '내 이름을 불러줘'의 뮤직비디오 티저와 스틸컷을 공개했다. 영상에는 청춘들의 질주와 벅찬 순간의 감성이 담겼으며 팬덤 42의 부름에 답하는 내용이 포함됐다. 투어스는 오는 11월 2일 컴백할 예정이다.",
+     "ai": true,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "투어스, 신곡 ‘내 이름을 불러줘’ MV 티저 공개...청춘 감성",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE80NUZrVG1oWk1vV0d6TnNhR19qUTlfLUdRZGItdmlKTlRkZE5LQWxRdXJmcldEcDZhellrZGx1UkVDN1RsX3RPT0RqclNyUlRmQUhfQkNxajhLTXNXNG8wSEpoZTZHQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "TWS, 11월 2일 컴백…‘내 이름을 불러줘’ 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iUHJQbkU3dHM4NXp1eUlPaHgyVUJEYkQxSWRsa1liQVVuNTRBUm96VXBuc2JweTY5WjhZTk41LW1sRk16dmtvaElhNFU1cVFsRmNmNUhHWk9SWG5KdnFGSExleUZaUG5WU2ttOVNR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "투어스, 신곡 ‘내 이름을 불러줘’ 티저 공개…11월 2일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxenBJcTBwdTlQa05rS1RNNFFSdE4tUXJwRHVlZW5jUThILWdFeGRXVEVpeVJUY3lKQTJmR0wxc3IxYXEyRDBFc1BUd05PbE9WUFFiemtHWHJuVzg?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "티저와 스틸컷|투어스, 신곡 ‘내 이름을 불러줘’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OVDJUalFTRmlBY3ZWaHhjaExCc0lxV3YwTjFlcHpYUUlMUEl0TW9lYTdNclkyMTBWT05pT19ZeXFDcmlwRFdTRF9hMjlyTEF0b1FSa1pid1g?oc=5",
+       "source": "ZUM 뉴스"
+      },
+      {
+       "title": "투어스, 신곡 '내 이름을 불러줘' MV 티저 공개…청춘의 벅찬 순간 담았다",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QWWxVRUV6RURmNWhpcVNFX3FaUlktM2YzQnJnbmFyZlpzX0RjRTVQMmNqNFJYa1VvWHo2QVdjdHFyczhxeGhtQ1lVUHRqX3ZMNnNLdmpRb3ppZE9R?oc=5",
+       "source": "뉴스핌"
+      }
+     ]
+    },
+    {
+     "title": "트레저, 신곡 'SHOCK' 멤버 3인 비주얼 포토 공개",
+     "summary": "그룹 트레저가 신곡 'SHOCK(쇼크)' 발표를 앞두고 멤버 윤재혁, 아사히, 도영의 비주얼 포토를 공개했다. 공개된 사진 속 세 멤버는 강렬한 아우라와 비주얼을 선보였다. 트레저는 오는 11월 2일 컴백을 앞두고 있다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "'11월 2일 컴백' 트레저, SHOCK …윤재혁X아사히X도영 심상찮은 비주얼",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMUlINXZJTmFYZXNPRC0xUi1QVFo3TFF5Tm85U21zQTBUWU9fNzVnUjA4cmh2RWpwY3JsY0htbkhDVGt5d29WbjUyZlR6MFVYaDhETHV0OGFrLXdGNGZHcElqcldWeDd5dUhJUjBFNXg1TEdRRXdmS25ndG9mOWx1X0l1dzBtMDhYWW0xTGRHeHRhb2pXYkxaYjZra2FzSi00TU1GZG4tRdIBpwFBVV95cUxNMUlINXZJTmFYZXNPRC0xUi1QVFo3TFF5Tm85U21zQTBUWU9fNzVnUjA4cmh2RWpwY3JsY0htbkhDVGt5d29WbjUyZlR6MFVYaDhETHV0OGFrLXdGNGZHcElqcldWeDd5dUhJUjBFNXg1TEdRRXdmS25ndG9mOWx1X0l1dzBtMDhYWW0xTGRHeHRhb2pXYkxaYjZra2FzSi00TU1GZG4tRQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "'11월 2일 컴백' 트레저, SHOCK …윤재혁X아사히X도영 심상찮은 비주얼",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9STmtaNGZySkN6OFczTmI5X2dTZnBQZG1xdUxRem04eE9sRFBYQ010Q3FzLVI1anRfcUZjelVBX2pKSkp6YnQwSk5ucU8tQjFDVzExbw?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "트레저, 신곡 ‘SHOCK’ 앞두고 윤재혁·아사히·도영 비주얼 포토 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TWVB5TG1TNk1YR2pXMzRxTFVuNkRzWDlfZTZJV0FMMHFkYmQ4WEp2WUpDcm8yelNhQkl0LVFjamFUY3YydHo3MlZzbTRodkNwWVd5T19pNHU0QXp0UHc3VjVHai1zNXB6eEx1c0U0aTVXUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "트레저, 신곡 ‘SHOCK’ 윤재혁·아사히·도영 비주얼 포토 공개..독보적 존재감",
+       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBBdzM1TGxEeTNhWm1xTkpCSFBjTm9uV083ejAzbW1FbGVwNUtic3lLemN1UUlTRVFJbVl2Q1ZESDQtQUF5TmUzag?oc=5",
+       "source": "브레이크뉴스"
+      },
+      {
+       "title": "트레저, 신곡 ‘쇼크’ 윤재혁·아사히·도영 비주얼 포토 공개…강렬한 아우라",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XR1VjVzc5d2F5c1NNTTRXZTBCSEFRVFVONGZYZVYyRDdKbzR4djZqcnNWc1ZRZjZVWXZBYk1ITjJtTmJyVzhid1ViRzEtVHpDcmVlbk1fQU05cjQ?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "NCT 드림, 10주년 맞아 신곡 '부기우기' 발표",
+     "summary": "그룹 NCT 드림(NCT DREAM)이 데뷔 10주년을 맞아 신곡 '부기우기(Boogie Woogie)'로 컴백한다. 신곡은 디스코 장르의 음악이다. 이번 신곡에는 멤버 재민이 작사에 직접 참여했다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "NCT 드림, 신곡 ‘부기우기’로 디스코 파티⋯재민 작사 참여",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zR3Y5ZzNuc3dhTDB2VWpXZGo4Z0pyaGUyeVNBZmN4U19sSGp6WHN4elBiOG5vb1NFQ29sNkVHWkFsT2hka1hUY2tlMC1MYW9DUWZndTRJM0Y4aXZzSHc4SE1YUkFuQzdmN0ZtcjRfUGxtVEk3?oc=5",
+       "source": "이투데이"
+      },
+      {
+       "title": "NCT 드림, 신곡 '부기 우기'로 디스코 파티⋯'10주년 즐겨보자'",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MVDBFWEswRWhpUWMxaFI2aDFoaXJaZlpuZmFnMFZVV1EtYVFzUFozeE1wTFdRV1VxNENzZ2RSRC15OWstTnVwUkFJREZNLWc?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "NCT 드림, 신곡 '부기우기'로 10주년 디스코 파티",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VeDlxd2w3T1hsZ191TklEUzBON050aEtDNXFQcDJKMWd3anBvN1JqLVN6TUhkT19hYnBYWmdPbWlwSGhjb3dNSmpQdWkzTlp5M1l1Unlza3dscWd4ZHUxMg?oc=5",
+       "source": "아시아경제"
+      },
+      {
+       "title": "NCT DREAM, 데뷔 10주년엔 디스코…‘Boogie Woogie’로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nX21CYmw2YW5IOWVDd1lBUXVSWWQ0NkdHNlFoQWFEVmM3cWJsazVkbjNNLWFaY0VMeF9LeHYxc2tKZ1QtcWo0dUNrd1dKWnF4LXBtcThKaVFPZm5wQk1YbG9B?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "NCT 드림, 10주년 신곡 '부기우기'…재민 작사 참여",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwZWs1V3pBUFFueEN3dVdrQ3FzT0oyOEdGVnBOcGs5djNtTjNGUUhOMWFBSFJQa1JZcWpKNnR5bTVJb0VEZXRxdzNwNm9ZZFYtYzZBbDVXOVRsdG1Z?oc=5",
+       "source": "뉴스핌"
+      }
+     ]
+    },
+    {
+     "title": "마마무 솔라, 11월 12일 신곡 '나의 20대에게' 발매",
+     "summary": "마마무 솔라가 오는 11월 12일 새 싱글 '나의 20대에게'를 발표한다. 이번 컴백은 1년 7개월 만에 이루어지는 것으로 커밍순 포스터가 함께 공개됐다. 신곡에는 음악인 하림이 하모니카 연주로 지원사격에 나서며 감성 호흡을 맞췄다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "마마무 솔라, 11월 12일 신곡 ‘나의 20대에게’ 발표…하림 하모니카 연주",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PWmpNS2IycGxsc2dVUnE1eDF5VlhKMDdPTE5KRGJyWW1lVnpGZ0IxSzJVVVlVS3ZrMEpUalFjQ0QxaS1VZ0ptRi0xZ25reGxqcHA5R2x0Q1d4bFk5eDJuMk9FNWNLZUNj?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "마마무 솔라, 11월 신곡 '나의 20대에게' 발표…하림 하모니카로 지원사격",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MU3g1N0RMRE1ZV2JheUJPQ3ZjR0FBX2FubTlncFlrNFFMV0hqTnQ1N0lwOFFyaU1IUW5QQ2ZsbnFvZG9JZ3VyU09TR1hkcTBUUi1rSkd2OA?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "솔라, 하림과 감성 호흡…신곡 '나의 20대에게' 예고",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9iSWpHZGVWSlN0dE4yWDM1SXluSVlwUVJXS1NxZzF1QXR3VTAxVVc5Yngxam5FbWZOdU1iZDBySmRQUW9xQmtvd1ppM0Nndw?oc=5",
+       "source": "전자신문"
+      },
+      {
+       "title": "솔라, 1년 7개월만 컴백…11월 12일 싱글 ‘나의 20대에게’ 발매[공식]",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GSkY1YjVSWFRHS2dYdWtKcXBCWUNXMkE5b2pZdGJIOGsycHVob094OVhlRkJrWHJnbUF3Z2pra1JZRWYtbEtpWXJ3TC1CRERnMW5SUk16TQ?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "마마무 솔라, 신곡 ‘나의 20대에게’ 커밍순 포스터 공개…하림 지원사격",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhY1ZJcDM5Si1BUGFaMTRBSXlhVDRDUHpTcWlwandjTmJUdHpYUG1QRldQcGpneVc5OG82MTNfVWNmemE5amhUNnhlaXViWXlaVEduOVM5NjVpS24zOU01TWU5NG9FaHha?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "밴드 루시, 11월 12일 디지털 싱글 '다시!' 발매",
+     "summary": "밴드 루시가 11월 12일 새 디지털 싱글 '다시!'를 발매한다. 이번 신곡은 정규 2집 발매 이후 7개월 만에 공개되는 곡이다. 보도에 따르면 루시는 이번 신곡을 통해 '루시표 청춘'을 선보일 예정이다. 루시는 오는 11월 12일 신곡 '다시!'를 정식 발표하며 컴백 활동을 이어간다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "루시, 11월 12일 디지털 싱글 ‘다시!’ 발매…정규 2집 이후 7개월 만의 신곡",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OTUdlaGVuN3JtNjJNUDR1U0wwY3hMbTlGY2UwVWs3cjFiTmllNHRYMGo4RnNvbVYyZEc2T2pnbHgtT0gxTG5sZUVhTzNwUGFXY1pMTWwxLUZvdXplVDNsQjZzRUFDWmFGYVFlQUM3RzNnQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "루시, 11월 12일 신곡 ‘다시!’ 발매…7개월 만에 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JRDc2TWFCdXlvVk9qNWg1c2ZETElyQnBqVmZKeWRTTkh1WGJ3RFB6RXh6a082Vk82VHFRVVdxa0VLWVoybWRMaTVieVdPVFRSSHM5SlRJbTIzQ1ZhRlR4TURST0tZdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "루시, 다음달 12일 디지털 싱글 '다시!' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42YUR5QTA3Z2NXQmZtQ3R0TkZkNUdHbU1BaUJTdk53Z092QVpEZ1p2V0h5QVFSZFpfVUxORTRoYWpHckt2UmxiVkdobmVhMUttX3VPbFhHaHZtWWIyUUlvSA?oc=5",
+       "source": "라온신문"
+      },
+      {
+       "title": "K밴드 루시, 11월 12일 신곡 ‘다시!’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFX0FXRVExVDVubkJKUFJaUW4zTHh4eTd3NjNrRG1XbThHQjRGOUJvSl9zbC1Pd2Nma1ZpVmdHdkNhQ0ZEY3IxMU8wMDEzbXdC?oc=5",
+       "source": "문화일보"
+      },
+      {
+       "title": "'대세 밴드' 루시, 11월 12일 신곡 '다시!' 발표 \"루시표 청춘\"",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HRFd1TEc1dm9IV0o3UEFkdUlfX0FTZUZOdEVXQjhXejZ5eVVObEc1d0swX2R1dElRUjVxUkRmek5xQ19lNUs0eVN5SWx2V2s?oc=5",
+       "source": "조이뉴스24"
+      }
+     ]
+    },
+    {
+     "title": "허각, 신곡 '나를 사랑하지 말아요' 발매…배우 강태오 MV 출연",
+     "summary": "가수 허각이 29일 오후 6시 새 디지털 싱글 '나를 사랑하지 말아요'를 발매했다. 이번 신곡은 이별을 다룬 발라드 곡이다. 해당 곡의 뮤직비디오에는 배우 강태오가 출연해 지원사격에 나섰다. 허각은 이번 신곡을 10년 만의 미니앨범 발매를 앞두고 공개했다.",
+     "ai": true,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "허각 신곡 발매…강태오 뮤직비디오 출연",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80OVJ6WjZ5SzlweGZYckRmbldVN3UyR2p5U25SamhSRHdpcXc4dDVNVnlWWmdGaVFpUlN3YTNXWG4wYTJPZTYxek5OM1pTd2hnU1VONVpQSUdFRU9XeW92T2xKdkY?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "허각, 오늘(29일) 신곡 '나를 사랑하지 말아요' 발매....강태오 뮤직비디오 출연",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KVlhXWEgxaWpPMGI3YU5BbkY1ZW1JbjZ0ckpkQjhxbGk0NWlPaF92OHVqTTJpQWU0OV9iUEttUmRkaVBqLWdJUkxoY1pXLUE2VTJoMW5jaExlRXJFd0F1MEVBaFJ3eVE1LS10dnptdkcyVy1P?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "강태오, 오늘(29일) 발매 허각 신곡 MV 지원사격",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wZDVvdW4tNDM4MVNXbW5fVVJPZXM1dGJrX3UwMVFVZnJvMmFyTElISnRxb0NvcXo0QkxYM09oVndqOFVyNHZ3ZXgySnRJYTNuZ3N3N3BDVnVJa2h6aVFKcWNyTThVSllK?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "허각, 신곡 ‘나를 사랑하지 말아요’ 발매···강태오 지원사격",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3UXhEeHc3SldtR2RheXIzcmxYbDkyWXZlcVJzTC1nOWNJZHZqbVVxYllEZ0NUc1drUDNrM1FwLUVGLVdvZFZ1NFNBeF82S2ZOR3pwXzlYeXpieHFfaGfSAWNBVV95cUxPV1J2emUyWEJEV2tEWHl0dGNqUHlDMzdsN1ZVV0ExN2RUOC1aM3dreER6THdYMXd4MERINDRQX0VHXzN3OU9lUlZxdm1jN3lqZGNZRFB2YnJsQzZsN2NwZkxMR0k?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "허각, 10년 만의 미니앨범 앞두고 신곡 발표…강태오 MV 지원사격",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MUlByenRBY21CdmotSjRFcjJtdnY1dTJldl9TR1pWaFZGZXQxbHJfZnZ4QXpkWjZaN2hxVVQ2RldPbWhaRk44b0Fod2MzU1p6QlhOaEpvak9nV2xyeEJuX3Q5U0ZEdW4yY09ZbWZ3?oc=5",
+       "source": "알파경제"
+      }
+     ]
+    },
+    {
+     "title": "양파·거미·헤이즈·펀치, 로코베리 신곡 '너에게' 커버 참여",
+     "summary": "로코베리의 신곡 커버 프로젝트를 위해 보컬리스트들이 지원사격에 나섰다. 이번 프로젝트 대상 곡은 로코베리의 신곡 '너에게(春喜)'다. 가수 양파, 거미, 헤이즈, 펀치가 해당 신곡의 보컬 커버 릴레이에 참여한다. 네 가수는 로코베리를 위해 커버 프로젝트에 총출동했다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "로코베리 신곡, 양파→거미 지원사격",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oZXg2QzNoeVNiVmNXakZpNVJHTC1QTlBBeW5adnlQdEdBYlpDTXJ6cjY4U09aSmUxaUdoX2xUQWtJR2YzZkNlYklxUlRzNDFFNnM1SVoxaWVsb2xnMGtIOUVJV24?oc=5",
+       "source": "bntnews.co.kr"
+      },
+      {
+       "title": "로코베리 신곡 ‘너에게(春喜)’, 양파·거미·헤이즈·펀치 보컬 커버 릴레이",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yZUVkbXFfMlNQR2o2SzFYdUFQcFluZXpnYjlJZUFfTENCYWpTRDFzeFFMMnZVTzJlMFF4c1dEMVR4emM3Y3lXSkpvYzF6N3c0eTdvWVNLMzhxQmYyMzZFelFFSVZRWW5aNjVidWt5enBhUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "양파·거미·헤이즈·펀치, 로코베리 신곡 ‘너에게(春喜)’ 보컬 커버 참여",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4NEtQZHl0N1oxcmRZeVlYNDhhWG5OSkdBWVRDQlhSRTFZZ0JzNWVaS0wzb2llNWo1ZVU4TmRselcxeTJfcWQwS01RWlRMTXg5RnVXcDFOTXgwZ24zbjdvUzNkRHUwRDlWdnVzOW9WeHRBeWt2?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "로코베리 위해 양파·거미·헤이즈·펀치 총출동…신곡 커버 프로젝트",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPNlZnVWpRdDFPX2I2eS1LbEdVTWwyc1hrZUxhTTJIczRPV3hBOFFHMXQ0b1FLeEFmbVNzdHRWZHU4NEd3ZWpUMGpVbnNRQ1N6cDE5ZkYtc2VrWWYzazZ2d1RkdEZlbExu?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
