@@ -1,0 +1,536 @@
+{
+ "date": "2026-10-31",
+ "generated_at": "2026-10-31T23:29:43.411772+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 6,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 721,
+   "issues": [
+    {
+     "title": "가수 로런 베넷의 사망 원인이 자살로 판정됐다",
+     "summary": "'Party Rock Anthem'을 부른 전 G.R.L. 멤버 로런 베넷(Lauren Bennett)의 사망 원인이 자살로 판정됐다. 영국에서 열린 검시 심문(inquest hearing)을 통해 36세의 나이로 숨진 그의 사인이 밝혀졌다. BBC 보도에 따르면 그는 사망 전 정신 건강 문제로 어려움을 겪었던 것으로 전해졌다. 여러 외신은 검시 결과 발표에 따라 그의 비극적인 사망 소식을 일제히 전했다.",
+     "ai": true,
+     "article_count": 18,
+     "source_count": 17,
+     "links": [
+      {
+       "title": "Party Rock Anthem singer Lauren Bennett's death at age 36 ruled suicide",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVGVudzkwby1VejRMZ1RSOWFVcVlySElxQTFNNWdrczd4QWdTQUlTZkpIdklmb0FtSVpldWoxVllhXy1rNExURjBmb1Z5cGJwRklXTlJPRDQzV3FlSGJ5SlZfLXJFZUJoSEU3MXBIRWhaVF9CZkdTX2FlNkFGWHFoc1hxUlV3bDhuU1NBNmhpTkRyc2twSlR6cGFyNTZIbEgyWUtqLWc5TTFGNnpH0gGyAUFVX3lxTE9KZXlVQkQ5OUVIU3piNDgwWTJXZEpOT2NkQXFGZl85dHhNTEpGWTI3STBfY1JCakpUZWtPRTdLeVdhV0NPT3hEQVdmZDFlSl9hM216cjVIWWFEdzVRcWd2U2lhRHVIRXExQXZscmRmZDZWd1BtRlBvaTZ6RGJMTkFrVk1LVkxmMnVSeW14Si1JMkpHY3k5TVZGbVAtbHlDNlF4N0FhNGd2cVZ0Y1p1UTJaWmc?oc=5",
+       "source": "Metro.co.uk"
+      },
+      {
+       "title": "'Party Rock Anthem' Singer Lauren Bennett's Death Ruled Suicide",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FVjFNSVIzV2g4bkw5ck1VWjVucnZjREpmdENwSlRMMTJGQlBnb2NCOGI1OVBySlRMdEJ6NEFSTXFwUlF1V2NNZjFKdmluUGp2TE5UcFA0TlprcWtqRjFQZGFpN19wX3huakNHZlRQOFBGVFMx?oc=5",
+       "source": "TMZ"
+      },
+      {
+       "title": "Party Rock Anthem singer struggled with mental health before death",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zZkpiWkRiN3FJR3RPN29raDA5aEdGNVZmRmVheEpKVlktZGJxNUp5SmdTTVY4akgzNmJoN0djVVl5SXZKYy1HOTNhSHdTZlNMQTA1aldtaFRIbHkyaWc?oc=5",
+       "source": "BBC"
+      },
+      {
+       "title": "Former G.R.L. Singer Lauren Bennett’s Cause of Death at 36 Revealed at U.K. Inquest Hearing",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSFdMMjdSOGVCZkROU2tCTFo3cTBjLW9rdEs0eWFyVHNqaG5nN3pFOGVZb2hBMnRfNnZZa1pLNEhaSC1Dc0IxdXdtb0pJLVlhT3lZdzNPQ21pMko1ckF3NmxPUUJFTG51LXJrX21ZVnpTamNWaWlsd183bWYyX0JqT1hmamVNUzZKaWplTmFkaERvd0FRbGxPZ2ppU09oLUdhdVJnWjNB?oc=5",
+       "source": "Us Weekly"
+      },
+      {
+       "title": "Party Rock Anthem singer Lauren Bennett's cause of death revealed after inquest",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ011TG9sZVlISk9mWkQtbGVfanFVemM3ZjJMTGVNMHlDN2pFUGJYNVB1SlRxS3BMUlVFZmZhdHM3S185dHB1RFVvNjlveGpaNG1yRkhaQkQ0d1hKV2o3OTZYTWVpd3pSNnFHdEdYdjR5Y2lGejFrRGZFN2ZVTjNGQUxhanlRNWRXeGdLNnRpTjdlYXlFckFabHg2bWtjb2Y4WHFwcEdDS0t2N1V2X2N2UVZiLWNKZ9IBvgFBVV95cUxNTWNiU05SM2hyb2ROYVpNT3VOd2pNUEVwMkl5dkcxQnh3YmcycTI0WXpfYWNrU2E3ZDdleE90ZlZvU3hxZ0h4SVdacWs2djQ4dl9ZRE1ERXQwOUh5S3RjNlVxZGk1RFRHcXBySnBpVm5WOWlmYXlVVW5WWGNucjFNbk5hWllCT0FSVEZPQTJyeFMyWjU5MnNLZjRvQUVfT05rRWU3QkxvUE1qbW9rOVVoU21fLUwtNTM3QTdnSS13?oc=5",
+       "source": "The Express Tribune"
+      }
+     ]
+    },
+    {
+     "title": "이찬원이 안동 '코리아 그랜드 페스티벌' 개막 공연에 출연했다",
+     "summary": "가수 이찬원이 31일 안동에서 열린 '코리아 그랜드 페스티벌 개막식 상생콘서트'에 초대가수로 출연해 무대를 선보였다. 이번 행사는 소비 독려와 내수 진작을 위해 마련된 소비 축제로 안동에서 공식 개막했다. 전국 4만 개 사가 참여해 다양한 할인 행사를 진행하며 본격적인 일정에 돌입했다. 각 매체는 안동에서 포문을 연 이번 축제 소식과 함께 이찬원의 개막 공연 출연 소식을 전했다.",
+     "ai": true,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "이찬원, 오늘(31일) 안동 '코리아 그랜드 페스티벌 개막식 상생콘서트' 출연..기대 UP",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EbExxaEpjd1BpcXpuU3RpakFHZ0tCMTV2bFhuaEZhNmlyNm5qZktkeTVCaWVPamwxOHhKeHZ2OFRoSU1wd2Q4NjdCWm1Gd3hZVm1TdXAtd29oVWZia1ZOcDY5dzFUUEx1WThZU29SWGpXTnhr?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "초대가수 이찬원, ‘코리아 그랜드 페스티벌’ 공연",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWWkd1RnVndlE3TVJWUW5Ia0xaWWVid0psS2t1SnphR255OWpaYmVCaHl5Uy11Qnd2Y2VxSE5JS2wxY3I1MmEwY3d6M1FMakVZTlllU1VNWG1VMXRCODhfeUtlSzU?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "‘코리아 그랜드 페스티벌’ 안동서 개막…할인 행사로 소비 독려",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdFU2Sko1R2NNaldlV3loTFdEV0FnRFd4SlNlUDVlRDdqeEJ2UW5VLVVrNnBGTy1fZ3pWaU5FNEtIMmlWUGZYYmxDMFlaQW52NG83d0p0SnVOUjBjb1RxU1B0cTRYMFNWeFhvWEdLTGVEZ1RxYVM5VG4xYko3dHRyall6VGppT1N4VEFvS2pIc0TSAaQBQVVfeXFMTUFXTmhDLUF1UWZPZVVDcDhiUkRxRkltWnNwZ1Jud0pjd1hrWlZyUVBjc1IwLTdGdnA2RW9uVmU2RWdXN3VfV3RhWDZoMjdIN09HNGV4cmVUOEZMUnZISHZZWmFvNmNVaUxSY19mWUhCb1RRRHA4ZDdOQzNtVUpyb1dJdFViLXJVc3FwRjU3QUdqNzdEWGdCbVVqaXh3R1lKNjRteGQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "'코리아 그랜드 페스티벌' 안동서 공식 개막…소비 촉진",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4ajYzUnVVZ1FNVE5lclo0VVdXWGxQOHUtU1R3SjlrT2VmYTZTYnhYWS1PSXFoYzNpZjRKYWlRN2RvZHZhZG94X19tMExfOExrNXdXeGJGNmljYUpxTGgwadIBYEFVX3lxTFA4ajYzUnVVZ1FNVE5lclo0VVdXWGxQOHUtU1R3SjlrT2VmYTZTYnhYWS1PSXFoYzNpZjRKYWlRN2RvZHZhZG94X19tMExfOExrNXdXeGJGNmljYUpxTGgwaQ?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "'코리아 그랜드 페스티벌' 개막…안동서 소비축제 본격화",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmWTk1c19tQ0ZJaUpjeWNzdGtYWWFWTXJFSkItclY4WHZFSDhDaGhsN0hJMHVmbU9qckVKbENkRHRyRWp4eThxUVFlTnNWNFFKa3J2ZmRVZzd4bE1xREttNmF2OFM?oc=5",
+       "source": "매일일보"
+      }
+     ]
+    },
+    {
+     "title": "검찰이 래퍼 릭 로스의 가정폭력 중범죄 혐의를 취하했다",
+     "summary": "미국 검찰이 래퍼 릭 로스(Rick Ross)에게 제기됐던 가정폭력 관련 중범죄 혐의를 취하했다. 이번 조치는 마이애미-데이드(Miami-Dade) 지역에서 발생한 가정폭력 사건과 관련된 결정이다. 당초 그는 목을 조른 혐의(felony strangulation) 등으로 기소 위기에 놓여 있었다. 마이애미 검찰이 해당 중범죄 혐의에 대해 불기소 결정을 내리면서 사건이 종결 수순을 밟게 됐다.",
+     "ai": true,
+     "article_count": 10,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "Felony charge dropped against rapper Rick Ross",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdExtSTllYWtNTjBQcTNrSG9FTEQwTklHdkdZbkFEeTFnLUc5REw0ODh6cTh3NDB6TEYzbHk4V0k1UVo5T0prcTB4Mmc3NWNjTUtvU04xRGRmYjRqLU5sNG9tRTdEd09iWWIyVGlLZkFrTWl2UmdaVXBTTkI2OFZ1NEgwR0w4LXRwRUNN?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "Prosecutors drop felony charge against rapper Rick Ross in domestic violence case",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTXpnTThGbW1aanpkRFltdEkwWDJ0ZkVMMEIzQ1F2MWxOTW83MG5Qd0E2MHBvdHR5RTF3UnpiNzZpcHhVSjlmOW5wQWFuN1AzUTllaFdxNmxCZXcxdmhKWUFnOXZzSmd4NlBaOWpGRW5Ob19zRFR6ZTBBcTRXdmNzSjIzZ2R2VDF1X283NDk5TmpLN0NiemYyMG05NXhVcU9NT0NjSnB5NEVGWEVTMHhaMnZsQdIBxwFBVV95cUxNZTJ2dmg2Q0o5MEZHaWdJYVlLUGRnRkMxTmNNWUZNa0NBZU9nOHRSa3hMWklOelRIaU1WRUlPMEZ3bURvMGxEMmFGUkdOZFBkRnlJNk5UWUxLNmFYZk1ETUptUkhuYnRSWFZfRFE5bldqZ1p1TkJBUDE2dU1pWDViZk1qQlg0UGhrWmg0Z3RreFM2ZElBSDF1YnRBc213M3ZCQ29odEUxRzNCU0FfRmt1eXRmSWRlQmdERWVZd25IZktOMElHVkdZ?oc=5",
+       "source": "WVIR"
+      },
+      {
+       "title": "Felony strangulation charge against rapper Rick Ross dropped in Miami-Dade domestic violence case",
+       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTUZ2NlNaVE93MUo1WDFsMTNjRURlVmJ4dVFiNFlHeE1pU2R3Y1ZTM24tRjFIQjBHQ08weVB3WFJKUWMwbkRXWjVZczZQUEhkOVJqOVZQblRRUVQxRE1sWWQzYlZYTmQ1MDVtLXNCdlJnb3BtbkxyOHlXYzkxcXUtbHdNSmxJZ2p2d0lTelV6b2dFOVA2azBCRFJSY3VaTmZhaElGMXFOak81aC10b3dNanNSaW5DQjE3cWFQWTdPNlNyVHV1T3NpZnhBM1VEQWZSTWo2bzdDdTc4NFRXRFRMMXJYOGt4TkY2?oc=5",
+       "source": "WPLG Local 10"
+      },
+      {
+       "title": "Prosecutors drop felony charge against rapper Rick Ross in domestic violence case",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNXhMc3Q4VEtpcFNkQVNfSFBXUjNqNHhiOHVwS25LYkxHN3Q3aWRwLTRGSEUzX3BabEw5enBDX09RN3RCVUlmanJpV201ZERpWThZc0pkdlp3czhlUzFrcjNQNktLR1dXQjVfMl9Lbnd6bGtOOExDVGFWXzkyc2w3UUotNmNGX2hJbGk3MWFiVlZ1eGhKVHNabWlpR2hhdVRiWUFlTlBObnZvblZyWmZV0gG0AUFVX3lxTE01dmQ5VGJTNUVpZFpiemlPR1p5dW9lWW5YOEhCZ1A3T1FqQ3RRMHI1ZDRYR3Ixb2gyY0dEdGdibDYwaG9vbWRmLTl3VnJ5bEtMVUdKSm1XTHl1eFp0QzY5Si1pY29CNEJ2OTVDQ1JDc0JPejVuSnhMQnhmZGE0RmRIczBFOGRrdFdjVmN4Z0xybXZ2S3RnN1lnSHBzM2l3ZWtlOUVPNnlSTXRScVUtZk5PcEJxNA?oc=5",
+       "source": "ABC News - Breaking News, Latest News and Videos"
+      },
+      {
+       "title": "Prosecutors drop felony charge against rapper Rick Ross in domestic violence case",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbUZEbTFYUlJrRUFBMWl4RlJCejNLYVpSY1JyeTBSMXVSNHdHRnpEZUdLS3k0eHBfd3Q3ZXo0UDdZTnhxbVlScjlGTXdadkY4eWFsR3VnTmttamJYVU9QR1Q5TS1faWlpaWh4V0EyMUdtNEhkdlVYRW1xV1Y2MGxOMWF5S3pXZHJ5alc5TE84WUg3WDRGY1V5T2pFWkZRNTNoM2lnbWhNb1VyU2V4ei1sbzc5RTBiNTdRLTlVaUN3c2ZOZExIV3ZaVUZLTHrSAcwBQVVfeXFMTW1GRG0xWFJSa0VBQTFpeEZSQnozS2FaUmNScnkwUjF1UjR3R0Z6RGVHS0t5NHhwX3d0N2V6NFA3WU54cW1ZUnI5Rk13WnZGOHlhbEd1Z05rbWpiWFVPUEdUOU0tX2lpaWloeFdBMjFHbTRIZHZVWEVtcVdWNjBsTjFheUt6V2RyeWpXOUxPOFlIN1g0RmNVeU9qRVpGUTUzaDNpZ21oTW9VclNleHotbG83OUUwYjU3US05VWlDd3NmTmRMSFd2WlVGS0x6?oc=5",
+       "source": "NBC 6 South Florida"
+      }
+     ]
+    },
+    {
+     "title": "미국 각지 방송사들이 고교 마칭 밴드를 금주의 밴드로 선정했다",
+     "summary": "미국 각 지역 방송사들이 고등학교 마칭 밴드들을 '금주의 밴드(Band of the Week)'로 선정해 보도했다. 페리 고등학교(Perry High School)와 벨몬트 고등학교(Bellmont High School Band of Braves) 등이 명단에 이름을 올렸다. 또한 라운즈 고등학교(Lowndes High Georgia Bridgemen), 스프링 밸리 고등학교(Spring Valley High School)도 각각 지역 방송을 통해 소개됐다. 리틀 사이프러스-모리스빌 고등학교(Little Cypress-Mauriceville High School) 밴드는 10주 차 금주의 밴드에 선정되는 등 각지 매체들의 조명이 이어졌다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "Band of the Week: Perry High School",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iNWxuOUZNNTNjaGdoX1ZaeHNsdHdZR0VwYUJHajNsM19WU09GakNybEw0b2xHeVlNVXhUX2N3V1RsUTI1bFdNMnRPdXk3Tm9jM3dJT3hzbXBJS3dZVmd0dlVOaE0wS0JsRkww?oc=5",
+       "source": "41NBC News"
+      },
+      {
+       "title": "MARCHING BAND OF THE WEEK: Bellmont High School Band of Braves",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPd1ZZZVpRc3UySDkwelBMUXRqbDJNV3YwWDFuY0tsNVV2NkRBa3VJME1WS3NJOWZNQlM3bmpMbzllZW02MHZRU3JVTWdZNUM5ME4ya1p4QmZxYzl3N1BXNGxRVTkySFdPSEJ1SXI4NHphdUg1eVQ5bk8wVS1yUkZpZVViQzFpb0ltZUpNdWYyYVNZbmRqampmN0JnWmhvcnJNX1hHdkk3YjdKSlZFMUFYSWI4b1Q0S1NJd1NDdtIBwgFBVV95cUxQeEZ2TXZDaXZkLVZrM3JDRmdNckJXbHBxby05MGZKLVNfWnVtckU2VzNtY3BrZWhiMUFWOWZMWHd3NHctcGZ4TDdDbjd3U1BfN29wQW5GdUdrREVHOXhKNW42Z1JBNGlsQ012S0tZc1hxS3UxbUx3QnJKZkJZTU5zNUt6dWxlYUZCTklTWEI4U0VsNlNkLXpsaVRYbHU1S1RBVks5RXpLRnZyM1VKT1lwZVdvN0J4RE9KN2dmVGVULVY1UQ?oc=5",
+       "source": "WANE 15"
+      },
+      {
+       "title": "10.30.26 Video: C.A. House Music High School band of the Week",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTkpRVVNpakRqWTdNaTV5QkM1ajUwcnR6VjRPajRpZnpXLUF5VDhPQVNHYUpKVnZhMzctLUE4TjZyNEVqdzltbGtMX0JGZUd1bmkwSEtac0M3cTQ5aDVEYUI3QlotOXZiaXlJN0hXZ0FTYkJFUE1sQ0YwSnI3YnZrX3JDY0U3Um41MFVjU3NQdVVCYzhEMEFKcmp5dkE4U0RBVG9PcHEyMFAwZko1Qy1KZQ?oc=5",
+       "source": "WTOV"
+      },
+      {
+       "title": "WCTV Band of the Week: Lowndes High Georgia Bridgemen",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSTFEZWR2djh2VjRJWjZGWGc4ODNkV09aRERWUzNBNGZXTThnVnBSek9BRGxUb2pscU9JRWhaSzRrNnlPamhQbE9oOVRfTG5pN01BRFd1QUFWQy1iVmRXQTU5eXVCTGdCaGhqbUl5dHZORlN2bTFMNWlyUGYtdG5ybHJ1bk5SU09MVUs4?oc=5",
+       "source": "WCTV"
+      },
+      {
+       "title": "Band of the Week - Spring Valley High School",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VcDZ4U2F5LTR4cnkxNkNQbTl4eG9EOWJ0RVlKZTRfN080Mk15bUNGUHlFZVlwM09zTVZoOXIxbG5oczRqN3JGTVZhVW9IWkVCQTZITEhwUUNlVXpKWlVPN2tDLUpDTUFVcWNzczFzX3gtdmFnVG1rd1Rja3VvMU0?oc=5",
+       "source": "WSAZ"
+      }
+     ]
+    },
+    {
+     "title": "트와이스 나연, 신곡 비주얼 필름 공개하며 솔로 컴백 예고",
+     "summary": "그룹 트와이스의 나연이 새 싱글 'NA-sty(나스티)'의 비주얼 필름을 공개하며 솔로 컴백을 예고했다. 이번 컴백은 2년 5개월 만에 이루어지는 솔로 활동이다. 공개된 비주얼 필름 속 나연은 발목에 감긴 휴대폰과 함께 확 달라진 분위기 및 눈부신 비주얼을 선보였다. 매체들은 나연의 신곡 예고에 솔로 컴백 기대감이 높아지고 있다고 전했다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "트와이스 나연, 신곡 ‘NA-sty’ 예고",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HSV9rVWF2d0owaDlDRXA3R2xUX3dGZXV5NXYySENhTmJLSXFmQUo0bEdyQWUzS0FGUHVDQjhET0lLVjBZN2lNT2FFTWJZcVMtRXFfUjhzMy01TEdfWkJsUV9ZeWg?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "트와이스 나연, 새 싱글 ‘NA-sty’ 비주얼 필름으로 솔로 컴백 예고",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE00UklyQXAtRHR2Z3RPMWZIUGxROUdJNElnWWVKWEZuVXFqSFlHRDNkaGVLU3Awb1EwWXhwcnJpQkJPdjdyc296c3hlTy0yVWhFU3pEeFhId2NFYndzY3JCNVFMZ0hqZ3hWZElBaFF3N3lpUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "트와이스 나연, 발목에 감긴 휴대폰..신곡 'NA-sty' 비주얼 필름 공개",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BV2lwbTdudWNtdktMMlNIM2RSQWpvNmg1eTdiYmZLaHhCeUNZUnBDWjJCbjhINzBSTUtIbHpHYU9hN1hZMENJdG40UlFybXJsLTEwUFROWmNsRlFvelktbmp2Znl5eWMyX0dLYVBBZXVVOGxj?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "트와이스 나연, 확 달라진 분위기…‘NA-sty’로 2년 5개월 만에 솔로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lNi11MnNJM0xZTDMwb1I2U1g3V0lCc29QTEhhbEF3Tnl5VDYyMVFXc1otb0sxMFVFaE5td0ltNHhBbXFXYmRiaWktN2pIamlWc0pUWjBVclRfX2NOLVphSVZHUTFVSS10RncwTENn?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      },
+      {
+       "title": "트와이스 나연, 새 싱글 ‘나스티’ 비주얼 필름 공개..솔로 컴백 ‘기대감↑’",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmek9wT0daOEltVlVFV1p3MnEyZzVLUmhLWFZyMG9YUGt2NU4waGxZT3VDU09VQjVkUDUydUR0dmhPdw?oc=5",
+       "source": "브레이크뉴스"
+      }
+     ]
+    },
+    {
+     "title": "리센느, 미니 4집 타이틀곡 'With' 뮤직비디오 티저 공개",
+     "summary": "걸그룹 리센느가 컴백을 3일 앞두고 미니 4집 타이틀곡 'With(위드)'의 뮤직비디오 티저를 공개했다. 매체들은 이번 뮤직비디오 티저를 통해 신곡 'With'가 베일을 벗었으며 '국민 걸그룹' 감성을 전했다고 보도했다. 컴백 D-3 시점에 맞춰 티저 영상이 공개되면서 컴백 열기가 고조되고 있다. 리센느의 신곡 발표와 관련해 팬들과 매체의 시선이 집중되고 있다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "'컴백 D-3' 리센느, 타이틀곡 'With' MV 티저 공개..'국민 걸그룹' 감성 두근두근",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83QWV1dzNSUDlibUJEeGhkd21NZWFTUWp2Rk9aWjQ3emNGMUlBR0lLMW03VEtLb25NVUQ0X25NUVJsZGZiemFiaFNJN2VFTFMxS0xkc3VRaFluRnJDTjhSQUNtTmlGYVozYzQ3TjdYeTA2WDVz?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "‘컴백 D-3’ 리센느, 타이틀곡 ‘With’ MV 베일 벗었다",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1dTl2d1duaTFSREZaWERlRzlSc0V5Z19qckRpVXpTWmpuQWd1S212bnlCWjVBaGJZZFhUM0JvTk1ObGgxYXR1cDJrV3JNdURWblRISGRONEFXcHNiT2fSAWNBVV95cUxPMFdRSzZuTVNrUjBtWDhiS25zS0pZcktLYkMzVE8tV1IxclRpRThia1NnaXlPSXptaHBFellhUkVUMUxaZVRvemUzb19ZNml1aTBqcWZBTjVqamRWdHR5Y3RzZ1U?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "[속보] 리센느, 컴백 D‑3 타이틀곡 ‘With’ MV 공개",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83Z2l0d3ZJVGF0QVJzR0lFSWxGT3F0MGdhX3FLRy1uQnE2Rl9mWUpzMWE3RVpWUmNSY2t6Y0dGT3AtQVJzQUdVNHdMdENxYTI3Vi1Cd3gzS3cxNS1lZXoxWDdOazFpQWRnd1M4a2w1eE5ZS1k?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "두근두근 컴백 D-3…리센느, 'With' MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5PQ1J2d29vTEdydzZUWl9FSldsOEFWOUl5V3ZIR2NNR2N2Ym15QzRWR3pPVXZoTEtpdkFfTC1HaUV5Nk5QUVpiSWhiYzZLZw?oc=5",
+       "source": "전자신문"
+      },
+      {
+       "title": "‘컴백 D-3’ 리센느, 미니 4집 타이틀곡 ‘With’ 뮤비 티저 공개 ‘시선집중’",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBkaHJTTVBYUVAySGRNcTdVUk5BRmRwNmUyVkl0ZC1HS2tQQ0VkcENGTjB1a3hlQzlWYUZ1SnU2cm42Zw?oc=5",
+       "source": "브레이크뉴스"
+      }
+     ]
+    },
+    {
+     "title": "엔하이픈, 11월 스핀오프 싱글 음원보다 타이틀곡 MV 선공개",
+     "summary": "그룹 엔하이픈이 11월 컴백을 앞두고 음원과 음반 발매보다 뮤직비디오를 먼저 공개하기로 결정했다. 엔하이픈은 11월 발매 예정인 스핀오프 싱글의 타이틀곡 뮤직비디오를 정식 음원보다 앞서 선보일 계획이다. 복수의 매체는 엔하이픈이 통상적인 발매 방식과 달리 음원보다 뮤직비디오를 먼저 푸는 방식을 택했다고 전했다. 엔하이픈은 11월 컴백을 목표로 일정을 진행하고 있다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "엔하이픈, 11월 스핀오프 싱글 타이틀곡 MV 음원보다 먼저 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lNm5KaFMwUERfeDRrd1FYc2Jad29GX0hEN2dyV1BjU0xZWUp3ZlYwY1kxcG03TUNlZGY3bEFiRm9yYm9LdGVLU2lqWWluTlNWUVVkYkNmQlQzN0ZUT1N3V0RNX193VHBSUDVsX2M4MFFlZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "11월 컴백 엔하이픈, 음원 음반 보다 MV 먼저 푼다",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01QW1xbnhsdnpyejlMQmpveFR1SjFXOGpxYjVEYmg0ZW9FMEdFZlh5TGg2WlR1YlRKX3h2d0syOW9USjBGWUJRbVNoU2ZSUVRqZUxHN0wyRVNvbjZLem9MajlCYUhmeXUzQ3EzLUlsd0dhLVFvbXdtVzA0Zw?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "‘11월 컴백’ 엔하이픈, 음원보다 MV 먼저 푼다",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuTDRJUE9GN2lybFRMLThzVzhERkFmaXZmbUR0N2xxaDhac3hXQVJ4YWIxX2tVeDF4SUswZkotOUVzQkxMR3ZjNGp4czhlODVRU1hVcQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "엔하이픈, 11월 컴백…음원보다 MV 먼저 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Na1V3QUdXZFgzb1F3MzdnSEwxU1pFalZsYm0taUJsQ3hpMnkyanlRSWVhcEh5MWJWa1o3MmZuQ1lHUXJJU3dzbTlpU2oxUlZDQ1oxbms0WFVlN2lzTnVEcDJRNjNqNEhRV0JBaHpB?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "엔하이픈, 음원보다 뮤직비디오 먼저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TYndMSjZvNjAzR3V3dnhOc0FrRUdkak1UVWVKNzlVcXI0bnRJMVktMGpKV1ZzWXNHOTFIZXl1djRsMTd1UlV0bjFqeHZPSnlLVHVkTXBTSdIBV0FVX3lxTE1TYndMSjZvNjAzR3V3dnhOc0FrRUdkak1UVWVKNzlVcXI0bnRJMVktMGpKV1ZzWXNHOTFIZXl1djRsMTd1UlV0bjFqeHZPSnlLVHVkTXBTSQ?oc=5",
+       "source": "더팩트"
+      }
+     ]
+    },
+    {
+     "title": "런 DMC 대릴 맥Daniels, 로스앤젤레스서 쓰레기 수거차와 교통사고",
+     "summary": "힙합 그룹 런 DMC(Run-DMC)의 래퍼 대릴 맥Daniels(Darryl McDaniels, DMC)가 미국 로스앤젤레스에서 교통사고를 당했다. 사고는 로스앤젤레스 남부 하버 게이트웨이 인근 105번 고속도로에서 발생했으며 쓰레기 수거차가 연루된 것으로 확인됐다. 현장에서는 당시 상황을 담은 목격자 영상이 나타나기도 했다. 현지 외신들은 고속도로에서 일어난 대릴 맥Daniels의 차량 충돌 사고 소식을 잇달아 보도했다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Run-DMC's Darryl McDaniels Involved in Car Crash With Garbage Truck in Los Angeles",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81SUlJcWNLanpCYUR2X3FsR1BLbWlFc3V6Zk1PaDhLcG10WVMyMDRCaHJmeXlxUEdvRXBOV0RQTy14QTExWGthLThFWXRlNHlzdkpxM1V6Qnl0RFpkN3JOblgyWHFzcGo3SFE?oc=5",
+       "source": "TMZ"
+      },
+      {
+       "title": "Rapper DMC involved in Los Angeles car crash, witness video emerges | Hindustan Times",
+       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTUNzWDkxQzExVmd5dTN4NHBsX2d2WTlaMXJOVnJUTFdXQ08zQjFBbEVHdUdOQ2FmYURKTVprWENwMUVGU0FXVDgyV3dOM0tFS0JIOU9RejNiYkphMTZ2cXViTVdZaURHejVSZTBVTHBoOEpZNTZKaWFYbXdUVFdGVTNsUjBTOGlDNG80UGhlc0VoWUxpaDZ5VnBTWWl6YjZEdE8tNWpxcmhNOTZLcjRNaDA3YkpZYXFpOTBneTdVX3NMSHpBWnVYS1JiTG1haFlIU0UwQm9YaS1LclAyWnJ4VHBpdmZtejU4TlHSAe8BQVVfeXFMT3pzM2swa3V4WUZoZDRBNjJrVVVxNWx0c2NSNjkwRmZOMUVNSnF6YlpLc0tnR0lyczhpTmpmZE1aWDVXR29tZ3d0ZldERlVEMk9odnVzb0p2RTdBZ2tKVmJoSy11WnZRWl82aWNHRk9UOTJsZVNTak1OMWN5aFRMZW9rdmVLU0tJVWY5TEFWTk42SjR6cE1yWXFxY3pJZzhhX2ZhZHVQemV4Xy1kcE52M3JqLThrREJBZGYwZkpud3lBcmthbVRiaEYzN2RZeGNOYWZ4YVpWOFQxNndMUnp1STdFdmRDVjlQVmFqbUEzbmM?oc=5",
+       "source": "Hindustan Times"
+      },
+      {
+       "title": "Run-DMC Rapper Darryl McDaniels Involved in Highway Car Accident With Garbage Truck",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSDlVZVRzNXVjYnpqaGhBSzRqQzR4UW1ZSnFuVlNtYTVlLWZzT1lsSEdXTUxkZk5MQzdWUGc1UzhOVHhNZHZpT2tBX3BfaEc0TGxnYjZxTnJyMHpsbmJCS1JFVG11WDJkcFlCaTFmaE94MHYtUURzaUZoSER2amNtWElrMGdhVzdPekJzRDZkLWVKeFM3alp5V3hkRFJOcGdj?oc=5",
+       "source": "VICE"
+      },
+      {
+       "title": "Run-DMC rapper involved in car crash near South Los Angeles",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56Q2RIb21lT2NuOWtzUUZDRW1JSU1lN1NXUDNkR21vUGtmeDZZcVNjNVJRQV9uLTI1RGtuNzVCZGZVTU5vc0xOd25JaUR2QXdtS0xoQjU4SHViSlFrMmRHbW5WMFFGeloyN3hMVXJZSDZ3ZUVtV1RBOWZRSkNSU1nSAYcBQVVfeXFMTklyaVdSUDg1YnlIODRRT2RHLXFFaXBCS1E4LXhjMzVvUEZ5ZWxqMzFkNjRrc2Rfajg0YnlmM2RWWG04Y3pRV3pGWXJIeER2RGRicDcwSGNpQ3BtbDN2eXlLZWRSRGJaTWRuYm84SVNjZUdCbnhEeVJRYldIYkdZYmJMNUMwMk5v?oc=5",
+       "source": "NBC Los Angeles"
+      },
+      {
+       "title": "Run-DMC rapper involved in crash with garbage truck on Los Angeles freeway",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW02d1dUTThacGY5M3drMWdhNnppbTg3eGp3NzlBOGV4LUlhc2RLSjFKb0NGT192SFBxa1BFckhFaFdtUjRwVW1JbmwwbUhBTWNrRE1yNUxyWXE4SE56LXBjYmI3QzBjbWVtY21aZ24wVnJrZHpmNlg4OGsxNkpUVHgyODlSUEo1RFFBanM2S0R1ck1ZSGNnamNqU0NyS3Z3RTFwZkUwSHR2WXc?oc=5",
+       "source": "KTLA"
+      }
+     ]
+    },
+    {
+     "title": "가수 겸 배우 바비 라이트 84세로 별세",
+     "summary": "미국의 가수이자 배우인 존 \"바비\" 라이트 주니어(John \"Bobby\" Wright Jr.)가 향년 84세로 세상을 떠났다. 그는 TV 시리즈 '매케일스 네이비(McHale’s Navy)'에 출연해 연기를 펼쳤으며, \"Here I Go Again\"을 부른 컨트리 음악 가수다. 또한 컨트리 음악의 전설적 인물인 키티 웰스(Kitty Wells)의 아들로 알려져 있다. 여러 외신 매체들은 그의 별세 소식을 전하며 생전의 연기 및 음악 활동을 조명했다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Bobby Wright, ‘McHale’s Navy’ Actor, Singer and Son of Kitty Wells, Dies at 84",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdUN3UDluMjB1Y0pPOWNBejV0cXItZVVtS3hiMVFhUFg0UHM3U0dUS2dXVFMtdnZJQTNtSDl2aUdWODZ3UnI4SnBEMFpkRUZoRFNIeGxRMi13QjhDVjFNSzdzR1FwMjQzSzVUOGVlSks0Nnh4OVlxZlAxeDFJc2kyUzV6ZHROV3pmdmU3c0pYQ2tmMkZXRkhqUGw3VjVVYTFj?oc=5",
+       "source": "The Hollywood Reporter"
+      },
+      {
+       "title": "Bobby Wright, ‘McHale’s Navy’ Actor, Singer and Son of Kitty Wells, Dies at 84",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uVVk3b0xtYzdDakxueU9rZmludDFHSW9zR0FVZWZQYXRrZ2U4QWtzN3JrU3JjNkVQMjZ2U1I4cEUxLXBHcFh6SG1ZdWRKTC1LTHhYVTNKaklwUWJEWV81aUNEWGdvdw?oc=5",
+       "source": "IMDb"
+      },
+      {
+       "title": "Bobby Wright, Country Singer of “Here I Go Again” and Star of TV’s McHale’s Navy, Dies at 84",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMjY1ZnRDeFRnbkNvUzVsdEFiUnhkOUtNS1ZyZVRJMEZWcm9oN2V4WnV0Si1vbmVzcjdiQVdTVXlWUDZyeGNvc0pzckdOQ3kyZTFpRVhieVh6S0V4UzBvZjVlOVN3bzJKQVZEVjNwVnVhRVEwOFJJTlJvbjNHOE5seUl2YjZxc0VDelpoUTFBN0p3NUJFdnpQSUcwUXNDcndqcVhGTFRWbk9aRTNRdkxkQXdHX05CUlhRVnBlWDVnSjloV1JEdGpV?oc=5",
+       "source": "That Eric Alper"
+      },
+      {
+       "title": "John “Bobby” Wright Dies: ‘McHale’s Navy’ Actor, Singer & Son Of Country Icon Kitty Wells Was 84",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM1RPTEF3ZkgzYWd5QmVWbTVJRHh0VUNDMmdTTXF4TkJ2TjE3V042OUFJYnNGaTgzTzNYemNYQ1I4OXZtM1pLeUgtQ2x1S3pDVVpia1J5a3FGbjFWR2JCWWdsWTJOejA2MXRucGFrOC1pLXczdDc2REwzdWtYQmtjMUZn?oc=5",
+       "source": "Deadline"
+      },
+      {
+       "title": "John 'Bobby' Wright Jr., son of country legend Kitty Wells, dies at 84",
+       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdkdDTV83VElEXzhjZDQ5bl9EcFlzTXlaakh5NjA2UG8yU2tkUzNlbFZqQy16UnlwNndOM01LekdJS2JUTzh1c1Z0eFVxODhkbURMbTZUZTFIM3NybW5KRTB3RjFhb3d5VV9NY2dPSDNFcEJtMm0yUkgweXdzYUR6dHF6ekltT2UxZTRXUS1meWdQWHdfZTVvWmRnTktqcmhONmtjVDlhS0dfMEpXWXBkOGlaUzhja2hMeDVmQjZDbFBUSHRBSF93eEdWeXNFOWQ0RUw5T0wzTWd1dw?oc=5",
+       "source": "Marco Eagle"
+      }
+     ]
+    },
+    {
+     "title": "롱샷, 유픽 컴백 아이돌 투표 1위 달성",
+     "summary": "그룹 롱샷이 글로벌 팬덤 플랫폼 유픽에서 진행된 컴백 아이돌 투표에서 1위를 차지했다. 롱샷은 이번 투표에서 총 963만 표를 획득하며 정점에 올랐다. 매체에 따라 '11월 컴백 아이돌' 투표 혹은 '1월 컴백 아이돌' 투표로 보도되었다. 롱샷은 이번 성과와 함께 두 번째 EP를 발표하며 컴백 활동을 이어갈 예정이다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "롱샷, 유픽 ‘11월 컴백 아이돌’ 투표 1위…두 번째 EP로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMXdqbmhNZGdpWU15c1lnU29ETWJoUjQxWVVuN2JXekwyU2p5TmV1VzFyYlF0Q0pnSlIwSnNZa1pjSWwtZk4zVWt1aWpNd2FDN0h1a0NtMWxvZExXWmdlZEdhTVlCeGY4TlhuV1lpejlFQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "롱샷, 유픽 ‘11월 컴백 아이돌’ 투표 1위…963만 표 획득",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtQVp6NGpXcDU5Tm9HXzA3ZS1FLTRCRWxiYWpyVDRudmREQTZ1SUllRHRuLTFTV1otZ3FqVXNrUFcwbHd5ZjRPRU9GNzJOU2ZJQVo5YldfVkxZaGtWZGJ3MFV6b3JFUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "롱샷, 유픽 '1월 컴백 아이돌’ 투표서 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rUlJKOHpsMGRBX0p0NVRiTUdldjRkM3pFMVNfS2xwajNCeTU4WFJJc2pubUtjcHJLdm9WZHRjNXNHbTY0WklYQ2trQ1VtMjR5YnR5Sm5mMzhUVE5OazQzS2xkaUc?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "롱샷, 11월 컴백 아이돌 투표 1위…’963만 표’ 득표수 정점",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TN1BtYTFaYzdsNTUzdlo3T3F5OUc5dEI4M0xvRFlEM1IycDJQTFVHYjB1WlhCTDBqbUNUVGc0ZTRBdFpaMWtIeDZCY2E5Z1VYbHp6OWRtcE5fSlBzb1RVZVRnMA?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "롱샷, 11월 컴백 아이돌 투표 1위‥벌써 뜨겁다",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBY1NIZVZ0RjY0aE5xRFJTXzQyNG9BOV9wYWdpQ3NoSF9oVDE5YWh4TmFkMFFmNUZWYUFPLThGV2pIeTNnc29ieUhjMWV5M0haY01ldnAtV1lLSU1JTHNlb1U5N0VKZ0FxUGxSMTUxU1ZNYU5pMmpYamg4cw?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "남궁진, 신곡 '화양연화' 오늘(31일) 발매",
+     "summary": "가수 남궁진이 31일 새 디지털 싱글 '화양연화'를 발매했다. 이번 신곡은 곁을 지켜준 소중한 인연을 향한 감사와 그 소중함을 담아 노래한 곡이다. 신곡 '화양연화'는 음원 사이트를 통해 대중에게 공개된다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "남궁진, 오늘(31일) 신곡 ‘화양연화’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZXJ5dDVuaE9OR1c4SjNGblNveGExRVJlbldyWFROcURRZW5nTVhKWHZUZDNJS1pISlRISmpoN3dfWlZEc2lSMzV0MzJxTllEMmtoVl9JTUtGbzE3cW10N2pZdm8?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "남궁진, 오늘 디지털 싱글 ‘화양연화’ 발매…소중한 인연 향한 감사 담았다",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ManptUzQ0X00zRXloMEVGOHl6VFhtazJqT2V6U2k0cG9EcmI5cGhVOVdfdUs4cUJqUXhtOU1Ebzh6Y3VLQ1pvU3FneXpLcERKRnVoTjlwcS03aHBGOXJLcVFtT1JjQjRnU09xOVY5clR2Zw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "남궁진, 31일 신곡 ‘화양연화’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VNVhwVHlCYm9rYkhvbGgyRl9nX3FoOTNDU2QyYjVKRWFSbDVLVkgtY3JDZGpZT2M4SHJ2d0RDTktUM3BDNHlFN2hpNDhZUXliT2RLY2JEUGh0MkMzZEwzNjBJZGNXenQxSnBRc01B0gFwQVVfeXFMT1AtdU9ramJxcVBFRFg5OUdVSTNjb3A3em1lcTFYUzhYTzZRMWR0ZHZMZmc2bi1hck1mQnhXeFhIQjlJaHRnR2VMLWtpN1VUSzFHemhuZ1RsUmVkeFJ3MVlTX1VPNXE1TDlYRldtX0oxMA?oc=5",
+       "source": "내외뉴스통신"
+      },
+      {
+       "title": "남궁진, 신곡 ‘화양연화’ 발표 “곁을 지켜준 이의 소중함 노래”",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBBOENuXy03cnAxMmR6ODE4MVdUQWRuNGVYRldIZlBFeF9GMnZDN0tmeGh2dXNFbExEdWhRdmx1TkdPMFZlMEN2aTVKUTU?oc=5",
+       "source": "MBC"
+      },
+      {
+       "title": "남궁진, 신곡 ‘화양연화’ 발표 “곁을 지켜준 이의 소중함 노래”",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rUFRxeWNkbHMxaVJpbFA2bVdJREtCSHdoSEw4cDhwT19Sb0RPUE1mQzd4NTlTV2dJbW05bko2Sy1BOTA5dVg5cFVTZ1I1cWY1YVdxcA?oc=5",
+       "source": "iMBC 연예"
+      }
+     ]
+    },
+    {
+     "title": "TWS, 신곡 '내 이름을 불러줘' MV 티저 추가 공개",
+     "summary": "그룹 TWS(투어스)가 신곡 '내 이름을 불러줘'의 뮤직비디오 티저 영상을 추가로 공개했다. 공개된 티저에는 청춘의 벅찬 감정과 용기, 울림이 담겼다. TWS는 신곡 발표를 앞두고 티저 콘텐츠를 연이어 선보이며 컴백 프로모션을 진행하고 있다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "TWS의 용기와 청춘! 신곡 '내 이름을 불러줘' MV 티저 추가 공개",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84VXdCbENvNy0xNThxb2c3OEZ2VXE0U3RlZmR5R3MzZndsMUx0MTdsOEdPSVRlUGpxZmZGRWk4Y0NULWNfSER6UjB2UHM1aFFNWXlIUXlXdTZ6dl93alhNUDk5S0l1cThCUUs0cXg4TnNiWGds?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "TWS, 신곡 ‘내 이름을 불러줘’ MV 티저 추가 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LVEUyQ2VSS2pCdnl4NHdMeDRadzdrTjNlQldkd25mbGkwWkRmejRsQTVHVWdzQWVERFl6d0Q3ZWFMWV9Na3BOeDEtQTMwQ0FMR212d2YzbU95b1lLWmNxRmdqYk8?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "TWS, 신곡 ‘내 이름을 불러줘’ MV 티저 추가 공개",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtWWVCckdkd2xTdzR2eXRHM0tSbUU4eGlOOU1DeFpNM1FDVU5nUUMyNUFJM3daOENOX1pzcmNWaVBNMWhTR3E0dmJ1LXU2bUdSTUE5bjhWeFRWcUU?oc=5",
+       "source": "ACROFAN"
+      },
+      {
+       "title": "투어스, 신곡 '내 이름을 불러줘' MV 티저 추가 공개…벅찬 청춘",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TZGNZUnk1SHNPTlZSYjdpMzFuWmJ4SG1ZdWJ3MXdFTzhmbnhiaWxnbDhwRWhLQjlrVEVvZ0ZPSmNNZk9KMkFLck1pckVaUHliZURDSlhXVQ?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "TWS 신곡 ‘내 이름을 불러줘’ MV 티저 추가 공개,가슴 벅찬 울림",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ERnp1TWUxV1BOdjFNVjhpMThIY19idVBPZXcyWWdMbmo1OHA4S3RYSllPRTFWWTVKY2U2NFpPcFhWSjVJQU9oYVFfRUZKcHg2RmxueTVPeWNtS2Q1TmNLWmUxOEZubWgyenhlVkRSVzJEMFk3T0ZkcUVIdw?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "트레저, 컴백 앞두고 신곡 'SHOCK' 뮤직비디오 티저 공개",
+     "summary": "그룹 트레저가 신곡 'SHOCK'의 뮤직비디오 티저를 공개했다. 트레저는 컴백을 이틀 앞둔 시점에 해당 영상을 선보였다. 이번 컴백은 5개월 만에 이루어지는 것이다. 신곡 'SHOCK'은 'Hot 뜨거'를 품은 힙합 곡으로 소개되었다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "트레저, 'SHOCK' 압도적 스케일 MV 티저",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13Mm51OVpIeFRMVUZxQkwxbEdoV0NnOFhwZGpFcmNKcEN6eEppaVZHTXpvd3ZFZTJCYW52WVVzUXFEMEtYdzBGYkRSWkVzTTJWYUlLODA3RzBKelMyd2dIU2RlS2I?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "트레저 'SHOCK' 컴백 D-2..압도적 스케일 MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xMkY4T2lHeXRYYzF2dC0tMThzVnRscDhpSmoyVVpIcEV4UXpXLXlIZ3FPZW93RmhNdHpFOU9MOFUtekdLXzZPRWZ2VFRQajZOdGJLeA?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "트레저 'SHOCK' 컴백 D-2..압도적 스케일 MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSUFIb2t3RVJRMHVJX2FxTnd2OXRnd1dVc2FrTlFydkh0cml3dTFFSGxZVTZJRDBiT0RaYlNnekJhNXhONVhFbFV3VjY2MjRxaTA5N0VjZEZ1TmpfYkNPdGVzTmVqVzhuYlhCU243N1lvTGlMeGRpR1BKZHBEWUd2MGlNVWVBdWRJX2NIbzZPQTVBUVJMMEhNbmNnNDZkT09TVHlUS2NmTdIBpwFBVV95cUxPSUFIb2t3RVJRMHVJX2FxTnd2OXRnd1dVc2FrTlFydkh0cml3dTFFSGxZVTZJRDBiT0RaYlNnekJhNXhONVhFbFV3VjY2MjRxaTA5N0VjZEZ1TmpfYkNPdGVzTmVqVzhuYlhCU243N1lvTGlMeGRpR1BKZHBEWUd2MGlNVWVBdWRJX2NIbzZPQTVBUVJMMEhNbmNnNDZkT09TVHlUS2NmTQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "트레저, 5개월 만의 컴백…'Hot 뜨거' 품은 압도적 힙합 'SHOCK'",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hd2hQUDI3bEJVbkc3S0twenZxVG5VbXBUT1EwalVOY2JHWC0yVlhCMUlXS0ZGWEdVeUlkbU1hWV91TmdSUHBZZEJNaFRSR1F3cGRmN1pSN1YzVDJSYW9XTmpmeG1XUQ?oc=5",
+       "source": "뉴스컬처"
+      },
+      {
+       "title": "컴백 D-2 트레저 ‘SHOCK’ 압도적 스케일 MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ORVY1OEZGd0NBX0NmOTczbFpUTVZKZm5vZkVPUk1fQlJNZmJ4Xzdlc1dSRDU5dy1uWlpFNTFyOWUwNnRkZVl5Mi1MX1EwVDhqbzNfVFZjd3hYYkVmQi1nb25YTzA1TVRyMU83RElvdkdOcWM5b00xeUdHcw?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "성추행 혐의 전 밴드 디렉터, 체포 과정서 총격 자해로 중상",
+     "summary": "성추행 혐의를 받고 있던 전 밴드 디렉터가 체포 과정에서 스스로 총을 쏴 중상을 입었다. 해당 인물은 체포 집행 도중 자신에게 총격을 가했다. 현재 그는 중태에 빠진 것으로 전해졌다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Ex-band director facing molestation charges critically injured after shooting self during arrest",
+       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYzhpUHM4Z0w1RUZKNzJUZktEblVzdnpMbTZDM3FEc3B3UTFjOXp2d0xEV2M5c0R5Z29EbUZyeHh6WkZJaFlyVXpRVUg5WDdhWHdjVVRhZmgtU2Q2Y3VQYjJPOWx6MG1wbGN0b2xGRjd3N05KTHV4NGVYY25lR2tLSWx5aVdENlVKNDd4XzJpVFJjTnRxQ0EzaGxrcExfMTE5UEF2V0NVbDg5TVNLdktCa3pqSjVVeERiMEctc3pVV3U2QnNxaDlfdFAzeEhJalg4TXhQQklyd3RUQdIB7gFBVV95cUxNMXpTNFFKT2JGRzhYNTBZZzUwR25HSEJ5UUl1SmZkOEhnTjVhSUJWamVOY1VNa3R4MFU5RTR3bXpyQU5tN2JETHd2UUNyN3dOR0JkZ0VKRmZZRExqN2tNc3ExMzFjS0lqZWVHTk0xR1hET3VINXBzb083cU9CMW5JYjFMVUhENlZCNXRlTHhQTjFodEJ0NU9iOS1veGpsNzBhQld3Ml80TnF1aWMzSXFwd29jVWZialJ4VlpuTzBucE8tTTh3V1BOcFlXUHM2dl9vRWo4bWtDd09WNHZpaUZQTTIyTldJWTV3WE95elVR?oc=5",
+       "source": "WIFR"
+      },
+      {
+       "title": "Ex-band director facing molestation charges critically injured after shooting self during arrest",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMUt3bEpBN3JMS2FhWi1JNG9oNHlDZXlfenN0VEVSeWZ1UTBfWU1iTmpuc0lCUUppTVpNdVlzMnhtMUNSekpKOE5xWUhXSllXb1h6V2d4c0F2MV9BS3pxN0tQYlAtMi1VSlhaSV8xeXNGMlFGVzNNS0lfNXFBcHd4VlZfc0RWeWRsa1RjUXk1LUhtVlN5ZzZEaTV0enBnUW5DNlBnOU10VTBGODM3cmo2OWllZzRyTDNubDc0VTZMWTFTTVhWc2huedIB3AFBVV95cUxQbWlId2RQMXhUZUtTUm1LWHV0a19JSXFCTlFPd0ZnLVJoMU5ZVVZ3NzRSbU0xNkhjaXBjMG5EWVFiaURNZTYwWlFrWWRoRlNSbzdQWTl3dVBsb2pDTTctbnR5TGs1dFMxVTJtZkEtSkxJc1NfdzlPRHExRWdHZzNCRXF0RXI4Qzl4Y3BacndkZm1US2lFb2tQcEpHcUJDTFUzVkRBdUhVMlFxMlJLODRWM0JjQ3FpN2tGbUlJaWxONkxkdGo2MHRIcFlUTGFLS0ptZE1VbHA4THVXZDl1?oc=5",
+       "source": "KLTV.com"
+      },
+      {
+       "title": "Ex-band director facing molestation charges critically injured after shooting self during arrest",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbFRFTWtJeVlkTlAzUVhIYnVzS0pWNjBGc2lhZHZsQ2J5QkdjbjJublpSZnhxNEtkWnZSUTgyTFdENmtCUHFCSm9CdzRncHFXdXNFaV9tMUlsRHo4aWUxMGg2Sm1kMVgwTmR0STlKM0U0WGNWekVHVjBTZmw5cC00VVFGdTRxay1fNkdqcm4xVnphQ3lQSnlibHZBU1dVVDloejUtZmUwckdLYk8wSFJocHpRN08tTXF5aVdiWktWT2pTSzZoSUN4TkhUSdIB3wFBVV95cUxNWFFBZHdWUHU0WGhNMEctNFdNU3FyakhfdW53ZThjc1gxY21pWU82X2k0ck9TaWZhRmQ1eGJnbF94aWE3ekM5U2NPNjRQZWttV3JJVm5uYVF4N29kdFprTTNRenA1Uk9QaHA4OHA2MmJEeUo2MkUyY2xMUFpnaU8wSDI2b1lRVWFDbVh0bFFHMVAtT2NfQlp3X0ZhQkdvVEM4ZDR6M2l0YXotUjg3NWxVSk01V0luQ0xwRmlqdXFOY2ExVDZtRjlmTDlnTFNrU001YUVucVY0QlM2aWNuZjVN?oc=5",
+       "source": "WVIR"
+      },
+      {
+       "title": "Ex-band director facing molestation charges critically injured after shooting self during arrest",
+       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTmI0OThnelBFLXY2SEVxOHRhZldjYURZbWxzQnJPRWRuNUJ1Zk1zYVpmQVpadUtZcjY2YnViS1NDOVJaXzZ5emRsbFplSWV5eVBLMzhJY2ZPVllES1l1VWkzZERDVFpKUTNoYmtaTVVYcVVRc1hoNXIydzYxN1ZuU3piX2ZYams2LXFxdGZlbEFJdWp2WEU1M1ZocVQ3RUZJZE1CMEFXVFR2V2JEdjgyQnlJVWIzWXdSOEhBX2sxbURudDQyODdRdzVuVFNmY2hkOXfSAeYBQVVfeXFMTm8xMDcweWN0UllqeUZDazlBVDhwNHNLMlROcmdKU2YwY01iZERfWk1scXlzcVdISmhRRXJjaUxKLVJSbjIxS3pDTG1Rd0xvc0M0TktjaUxILWpHSV9wa3N2cXBGVDZOOXo5TU1tVzcwLUo2TnpvbVMtZFh2TVVsZWd6YmN4ME43cnJPMkZUdnZwa1kwX0Iwd2hWSHFhLXpYMWVxNTJPYl83QVpkOWE3SUVfdWpEXzUxdndCN2VmMWhVOGxqeFhPckNhZmR5a3R0TE5fS3hMX0t6UHk2c0ZmaWQwTkFydmc?oc=5",
+       "source": "Cleveland 19 News"
+      },
+      {
+       "title": "Ex-band director facing molestation charges critically injured after shooting self during arrest",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcm5KRUp3OWl0UlZxRFV1eEx0a3hDWmhvdU9zUDZnOWNaeHJEQ3lTSy1keUh4cDRLRVZBRjFfYmxnQkZ4WUY5Zk1TZVcySk13N3d4blZDRVEtbzRwXzBvSkFiZDhyWVV1V3ctZkdzeHhXcGU3Z2tENVZhcHNDclVyYkRDZkJlN05STTNLTHFqYjdzZWlBeUxoUm4xUHlXOWkxSFRleUFVZnpjdGhSNnMwSUt4aEFiODlIWXB3aU95U2FPaGNKQnN0RVlyMDZnY2fSAeMBQVVfeXFMUHJaY0QwdjBRNEE2cVcwVEtkckFMLTlCYmdtSGZjUkd0WmVCMFRiZkQxdkJwaEF0Y2dqWko5anY3ZTRYdllNMDA0TkxaNGpIeVlrbThSdmFFdE1DNmJvMTRreXBITERvMmdjOG0za3pIZU9pRmdkRHNaeFlLVF9feDh0NUpjTlNCT2d1OWRoWXhiUkszY3JCV1B5ZXFFaXpCUVhRTnFaT1NZU0JTV2MwWk5DSS1jQnNWcWZfTHRFUWpZSUhYamhtN2FXeEM4VmdBMUZEOTh4NmtuTHU3V0hZUmR3bU0?oc=5",
+       "source": "FOX5 Vegas"
+      }
+     ]
+    },
+    {
+     "title": "에이티즈, K팝 아이돌 최초로 덕수궁 석조전서 무대 선보여",
+     "summary": "그룹 에이티즈가 K팝 아이돌 최초로 덕수궁 석조전 앞에서 공연을 펼쳤다. 에이티즈는 '불후의 명곡'을 통해 대한의 황태자 콘셉트로 변신하여 무대를 선보였다. 이들은 석조전의 밤을 배경으로 제복 차림으로 'DRIP' 무대를 진행했다. 이번 덕수궁 공연은 K팝 아이돌 가운데 최초로 성사된 무대로 기록되었다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "에이티즈, 덕수궁 석조전 앞 황태자 변신! K팝 아이돌 최초 공연",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SMi1FYUFjZWpmaFlCV0piSXdlT3lickQ4UDZhVmNUa1lTdTkta2JPdUNKZVd3UUF3aHg5MDBxWHhqYXU1RnAwY0tTenZCM0NKUEp1dVB0cnl0Ync5SF9jOGpTVXF6S3lsTy1OaC10MFE?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "에이티즈, 대한의 황태자로 변신! 아이돌 최초 덕수궁 공연 성사 (불후)",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WWmdyM3lmNko4SHppRnR5Z0J3ZkR3ejM4emtJbHJieDVxenRuQnpzVy16WWNkVjd5eFloOXVJekFUcnNJVlJnTzhST2RDV0JTd09IN3ZoZkpMY2trS0NlSw?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "에이티즈, 아이돌 최초 덕수궁 무대 선다,BTS 빅뱅도 못 해봤다!",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFOW9fM1NnWjBScVljVGJVQlJxMlRPWnUzVUZENGtRMGNIcDZuNUpDUENuVWQ5OVB2TDRjdlZ3Rm1GbzZack9WRmU3VEpWS1lacC1NdlFFNGprNGR4Z1BncGxSTFoyam42TXBmYjdHTG9SZk5UQWQ3WUV6SQ?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "[불후의 명곡] 아이돌 최초 덕수궁 무대 선 에이티즈, 석조전의 밤을 깨운 제복 ‘DRIP’",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NQTNWWjFrRFlwQmJ6RktQSGFIR1FlbEVrM3BOSFhseThIVE5Cd3g5MEsyODVKdEEzQVk1VG9UcHE5SzQxSXUxdktrdXR1SHp2WWcxZk16SXJrdTl5V2c?oc=5",
+       "source": "KBS연예"
+      },
+      {
+       "title": "에이티즈, 덕수궁 공연 “케이팝 최초로” 글로벌 아이돌 포스 펼쳐냈다(불후)",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UYmwzU19STlhicnVVMWtsdTN1Tm5qaS0wT29IX1lqeEVkbnpKMnNhSjREQzJSSHZxTGVTMTV6WGhqRnBFU0M3VDdNa2cydTlUUEZkck9HSnI2WU56V0c0bzMzdk9ZT0l6VEVNNTBWcFhjUE5ZTV9EUTM2Yw?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
