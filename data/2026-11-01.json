@@ -1,0 +1,533 @@
+{
+ "date": "2026-11-01",
+ "generated_at": "2026-11-01T23:50:19.596999+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 647,
+   "issues": [
+    {
+     "title": "Deep Purple singer Ian Gillan, 81, hospitalized due to medical emergency, cancels upcoming tour dates",
+     "summary": null,
+     "ai": false,
+     "article_count": 14,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "Deep Purple singer Ian Gillan, 81, hospitalized due to medical emergency, cancels upcoming tour dates",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY3A0bko3X04zalVYN0JXYnR6b1RZbG1qamtnbWxNY083MGswNGgzb3hqeWQ3THdubnBac1FZbkxuU2g2ZEZRUUxKVG8yUVhqcV9kSUo5Z3VPUG5CRVhpR0hvWnk3emdmQkpRVGdsaWtwQTh4cmZ4a2M2MkVUVUY5dUNNaVJWZVlVYWNLTzdiMFFOU0syWnlwQjVJTQ?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Deep Purple Cancels Shows After Singer Ian Gillan's 'Medical Emergency' and Hospitalization",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQUZySGRyREhFT0phaFNFVm5KcWFxOVVHN2tzOHoyZGV5T3ptX0pWSi1iYzN3YVhWUVktcUFkYnNfR0FBWjhzY2lZeGNvUW1xRmd5c09ndTk5akY4WHk3cDFGQ19OdmNKNmlndlUxVjVKNmE0ZEE0R3lTalF6eUJtY2lGenRNd3JyODJteGM1WGs0dnUzRWh3UlNkeG1SVE9qMWtPMndWSDlRc2RUWlhKdktR?oc=5",
+       "source": "Parade Magazine"
+      },
+      {
+       "title": "Deep Purple Cancels Two Shows After Lead Singer Is Hospitalized Due to a “Medical Emergency”",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONWUyQ2JEUzF6YVYwYktJcjBqSlFVMk5iaThiSFhkWDlRU29uemFuOHNmY0Z2RUFIVmlrelB6M2h0NWFuNnQ2bTltTmtDa1BHX0lTdVJyaER6Tm9rOElROXBOU3pGY21uZjVPUFNxOG5FN1JnZnFTR2RiWWRBcUp0MnRrZllwOWN0LUhicUQxZXE1TVBIQ2pGbXd0amFOZVU0eUpER2lfRVk1cmxsUlRUaEYydUMwdzlZN05FV0htUQ?oc=5",
+       "source": "American Songwriter"
+      },
+      {
+       "title": "Deep Purple singer Ian Gillan, 81, hospitalized due to medical emergency, cancels upcoming tour dates",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcWROdzRlckxlWFFzZTVIX3ptOFE3LXlRYUtoYVozVVU3WXBWeHpZYTB2QVJiRnAyV056UlRncjRsOV9ubXY2TG82MFJCWmdnSTZpdTQ4R2NnclU5b09vM2toY2tsYUFEelZFM0hZWVFFM3NyanFqUmc5cjdIM2RXQ0JTQWpfUk9jMDVOd05OZXo0ZXVhTEFaZWdrNFBOemxtcHJpTWR2dzZfTjEyQmRwekE4dF90aWs?oc=5",
+       "source": "Page Six"
+      },
+      {
+       "title": "Deep Purple Postpone Concerts After Singer Ian Gillan’s ‘Medical Emergency’",
+       "url": "https://www.rollingstone.com/music/music-news/deep-purple-postpone-concerts-ian-gillan-medical-emergency-1235650888/",
+       "source": "Rolling Stone"
+      }
+     ]
+    },
+    {
+     "title": "앰퍼샌드원, 11월 17일 첫 정규 앨범 ‘PATHFINDER’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "앰퍼샌드원, 11월 17일 첫 정규 앨범 ‘PATHFINDER’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fNGNiWjV2Z3JPVnUxLTJUSG5teEhkTXFpVklNVXBuODhHajNjbUhpMl9YZExZazdtaWYyYlRkUmxrbTZRZWNtR2ViTF9BRVlBekN0NW9NYXRUS3hrZHNuWFhVQkdNUmNER00wbnQ0eC03Zw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범 ‘패스파인더’ 11월 17일 발매…콘셉트 필름 공개",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FZlFqT1EyWWdFNmdkSmR6QTFCWGZETE83UFdjdXFudkxnYXlEV3hfaXhFWjVtdVZScDkxdUhhSmRJNU42eU1GR1FKZ1lSdzhJZ3pLQnFDZnI2eHc?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "앰퍼샌드원, ‘패스파인더’로 11월 컴백…강렬한 콘셉트 필름 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKX1FSN21YWlFKaVkxU2Y4UFlDRldTaWhKUlBuQW13V1JGU0hLSVg1OFJFTG9iSDBwVGJoMlZPN3NGQzlQdFloVlNNYWFQOHJxQTdaWGx6VlI?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "앰퍼샌드원, 11월 17일 첫 정규 앨범 'PATHFINDER' 발매... 글로벌 투어 마친 후 새로운 항해 시작",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KbmlzUWJjVzdwTFVEZlR2dWZ2VW04d1lhZ1djdGRGNzV5Rmk3LXF4a29hRHM0cEllbF83ZWJYSHE5bWRQZUtlMHBWVkZfNjM1bTN3enpDYUJoVHk1?oc=5",
+       "source": "피디언뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, 11월 17일 컴백…데뷔 첫 정규앨범 발매 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCdUo4VnQwUV9NUDBzbGRyQ0RsOUlhQ0R5QktfT2VGWHZvZzc4WVNLUXgxbmVSbi1uN0dEaWM1UnlYVnp6MDFqcXBYSThtNjc5OUhaczl4Uk9tVmV5aWZRZ2FBdTJOQQ?oc=5",
+       "source": "마이데일리"
+      }
+     ]
+    },
+    {
+     "title": "피원하모니, 컴백 앞두고 화보 공개…“젊은 패기 계속 보여줄 것”",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "피원하모니, 컴백 앞두고 화보 공개…“젊은 패기 계속 보여줄 것”",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RbUQ4ZzhwQ2U1WDJtelNNd3pvdlZsV19nTzV5SWJ4cHJvZkJOSXVZRFBEenBid0Fha1dPYTZ0ZnJFUWlnNmNmY2U4emRnY2FjMG1sUENibUZWYjdLOG82OE1R?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "피원하모니, 컴백 앞두고 데이즈드 11월호 화보 장식",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VMWFtZW9xOE5YX0dZWFVxVDctRzVha2M2bmp2UEJMQnJUblp2UkRTSk1Wb19KSnZuWFZ0c3RscWpaVTdLamFWQ2dPNlJwNzAzN1J1WVFEanlHNXY2YV8wOWhjYmJ2SjdFeFZpU2FMNA?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "피원하모니, 컴백 앞두고 데이즈드 11월호 화보 장식",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zVkJhYy1tU3JTOE11enNndzVBLWhIRzUxUGNKWTVsX1hYQ284b2lLNm91UnhOckRJZktOV2l4MFpHUUhSODRFTjNXSFltcm5ORWNDQ2RFTzVTazBMd2FxRlkxVXBOMl9rX2RMRjB3?oc=5",
+       "source": "서프라이즈뉴스"
+      },
+      {
+       "title": "피원하모니, 컴백 앞두고 데이즈드 11월호 화보 장식",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OYjkyMmFLbHhxelFSQ2tmeDJ4ZVViY1h0bnJBdDk4X1BXVGhTRU9WbS1Fc2tkWnVNQ3J3MEpGVjJ5T2VaRW1nc1lHX3RPSzBxMTgtWGNKUEsxVHpHQmFzWDd3?oc=5",
+       "source": "세종타임즈"
+      },
+      {
+       "title": "피원하모니, 데이즈드 11월호 화보 공개…컴백 앞두고 '성숙한 남성미' 발산",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LUXZjamJ3QkJQREY5bkhSYzF0eGF4ZWFIbEFzU3JyVDdObUlLYnVxQTMyQ01MMDM1VXJiTWQzZ3JER1pWOHRlUkV0cERUZlFMWkdXSFd3eUF3T0Ry?oc=5",
+       "source": "피디언뉴스"
+      }
+     ]
+    },
+    {
+     "title": "투어스, 신곡 '내 이름을 불러줘' 안무 선공개...이색 챌린지도 눈길",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "투어스, 신곡 '내 이름을 불러줘' 안무 선공개...이색 챌린지도 눈길",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2UkVZbGxVeGpSRlQxVWJEY3VWeHRMVV9UcVFQSlFkTnRpUHZ2a2N0RkxSWWgxZWlPdV9Tcm5yNld0N1haLURxc09EdXR0bzlubTJQaTRGc3JISmtlMnNIcDNLQUJKUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "투어스, 신곡 ‘내 이름을 불러줘’ 안무 선공개…벅찬 청춘 감성 예고",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5naFdDeVduWVJXc2IxX01yRjRRUnNjRkxkYjVtZEJ1RXdsWmxjeWYxRVE0YUc0NFhoNkF3VFpxcmw1bEstZDUyOXVNWkc0WkhvNkJFMA?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "투어스, 신곡 ‘내 이름을 불러줘’ 챌린지 선공개…컴백 열기 고조",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBRW9fcUN4V3NYdU41OTJEdV9WYmhhUjM2U3Vod3loNFRwRDllT3BFS3FtcTVYT0xwTlIxdVM0Q25aM2YwSTM1aTFUbEVsWmhmNllXenNxV0JBSkk?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "투어스, 2일 컴백 앞두고 ‘내 이름을 불러줘’ 안무 선공개",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ucmt1OWljTlFvN0p2WTlwSGRRc3E5RVhaT3VPWjdMNUhhU0hwclI3cWlJV3k1Z1lsWHBfcC1SaEtONmh4M1c4WWw2TC1sOHMtckdjajFtZw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "TWS, 신곡 ‘내 이름을 불러줘’ 퍼포먼스 선공개…가슴 벅찬 ‘청춘 앤섬’ 예고",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zZDEzcXoxcnNsSTNOX3UyeXVVbGZWbGRJZVpKeWdwYURKc2FYYTJiQkJQTi1WcjIxNTdSQWgzalE5VkJzbkEzakdNcnJuSGx3VThTT3RZVHA?oc=5",
+       "source": "스포츠서울"
+      }
+     ]
+    },
+    {
+     "title": "코리아 그랜드 페스티벌, 안동에서 통합 개막식 열어",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "코리아 그랜드 페스티벌, 안동에서 통합 개막식 열어",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wOGJoNGc0QXJ6WDVLbEtXTTJ1T1RnY3pyWWpJdDFjMzdIYUZZclVsaDJyRzNOOGtXQmhabG9aRHVhVEE3Tnp6cW43QlJPd0htU05tczJVa0c5VUF5amthSWhNV3k4UE9udUhPSndDWXN0dUXSAXNBVV95cUxNMDhiaDRnNEFyelg1S2xLV00ydU9UZ2N6cllqSXQxYzM3SGFGWXJVbGgyckczTjhrV0JoWmxvWkR1YVRBN056enFuN0JST3dIbVNObXMyVWtHOVVBeWprYUloTVd5OFBPbnVIT0p3Q1lzdHVF?oc=5",
+       "source": "실버넷뉴스"
+      },
+      {
+       "title": "2026 코리아 그랜드 페스티벌, 안동서 개막, 4만 개사 참여",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IRjFJbGQwY0pEWldQZGRTWFpHNVllbTJ4dldVbEctZUxBTlVKSmV1aWRlWVV5RnJneEQ1SFhYR2NlYll1c3BCZ3N5ZzZMQ2tubkFrbXJIZWFYOXJsSzdpN0ZrNC1OSjZvY0lFVXA3T2Joal94?oc=5",
+       "source": "구미뉴스"
+      },
+      {
+       "title": "안동서 시작하는 소비축제, '제2회 코리아 그랜드 페스티벌' 개막 - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tc25VMjN0UWpYZGR4ZjRmbVVleFlPU0sxMDhsc0k5LUdkdDFCaVM5WWEyYVlzb1BiS1RWcmlYa0pqam9vVVBnWXB4MWdsdmFsZjhYV2NoanpSQzZoS1hQOW52aEpnNldzWnp1WW5OcnfSAXBBVV95cUxPbXNuVTIzdFFqWGRkeGY0Zm1VZXhZT1NLMTA4bHNJOS1HZHQxQmlTOVlhMmFZc29QYktUVnJpWGtKampvb1VQZ1lweDFnbHZhbGY4WFdjaGp6UkM2aEtYUDludmhKZzZXc1p6dVluTnJ3?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "경북도, 안동에서 2026 코리아 그랜드 페스티벌 개막…4만 개사 참여",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LSENKRVgyZjBvME5tSWtmb09rVDZMLWRCM1kwbVM0dy1qdEw3cHlyTWVLdmdMVkRtMWtTQnJRclpRNUw4Q1RKXzl2SmlTSmthNE83d3o1YVFVM000eXlzMHBzM0sxdw?oc=5",
+       "source": "데일리대구경북뉴스"
+      },
+      {
+       "title": "'2026 코리아 그랜드 페스티벌', 안동서 개막...국무총리 참석",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zV2NBRHpEYjVudVVPWW9qTVVKa0FHNDUteEdxczE4cWVfa3JGV2ptZkp4RnczakphczRsRF9RQmdYemNNTExiTzZRVk04MEpuZEEtRDd3?oc=5",
+       "source": "위키트리"
+      }
+     ]
+    },
+    {
+     "title": "엔하이픈, 로맨틱 감성으로 컴백..'I Want You'",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "엔하이픈, 로맨틱 감성으로 컴백..'I Want You'",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1tYmE1cjU2T1pYTFAyUVBrZ3M1Sy1xTTVWcC1wbVBLSFhyV1B0cWJudkpEbG5VbGo1bnRaanZLWEVKWU5aX1lkQ2FyQXh5Mk9CZG03Tw?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "엔하이픈, 로맨틱 감성으로 컴백..'I Want You'",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ3RTYUVxVDViRFJrLVQ2NGNkSFRqaUthQ0NmdGFqM1hSaGw4dkJpT05MWktjSXhHdHVkZ2Q0OFhiYndveVRkQktpekxJeUZ3QmV6cTRVdVl1MWlCQmVQS3N6WDFHOWJXVTV1bXl4cmNmcWVUQlVFelhqX2wwN3NNRTRJT1NhUTFWZnljNUxqckl4VXplVkI4aHE5bldkaEJxMHl0OWNZMNIBpwFBVV95cUxPQ3RTYUVxVDViRFJrLVQ2NGNkSFRqaUthQ0NmdGFqM1hSaGw4dkJpT05MWktjSXhHdHVkZ2Q0OFhiYndveVRkQktpekxJeUZ3QmV6cTRVdVl1MWlCQmVQS3N6WDFHOWJXVTV1bXl4cmNmcWVUQlVFelhqX2wwN3NNRTRJT1NhUTFWZnljNUxqckl4VXplVkI4aHE5bldkaEJxMHl0OWNZMA?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "엔하이픈, 로맨틱 감성으로 컴백..'I Want You'",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS05tREJJVFh2TTFxclZwbnpzSW5IdW9NZ3RfS0lSVXVTSkd4MGIzUTlKVUR3dnV4RzBvTldRbm5WMGpUNm40Qm1oRDhhNV9hbXlYdmFLSTAyMUpvTldNOU5rbHd3cUtiaHhWQ08wRGwyV2VSX195WVJmTUw4b1JLVE5vektlRk04LWc?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "컴백 엔하이픈, 타이틀곡은 ‘I Want You’",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hSE56eUdzeXNoRUpJbEtTSWEyZjFBOXVZLVV2cjV3bXFDRldoTEhleHpEeDBxai14Q0JWMmluZzd2a3dvYzNMSmtHMnhFSjdwS3J6UTZ5QTU?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "엔하이픈, 신곡 ‘I Want You’로 컴백…팬송 포함 3곡 수록",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LNTBxLW0tM21SN0Z3bkotY01wWm9TTWROTWVFUzlYMldiS19UQXpsV1Z1bkdVeEdEWGtsZS02SDltbkpnS2VzeWpnTFdDZU9NXzNoaw?oc=5",
+       "source": "JTBC"
+      }
+     ]
+    },
+    {
+     "title": "`피네이션 걸그룹` 베이비돈크라이, `리플레이` 선공개 숏폼 오픈",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "`피네이션 걸그룹` 베이비돈크라이, `리플레이` 선공개 숏폼 오픈",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41VDZZY0hFaXhRTVhRS2x3ZHVJdEN6TWw0Ti1TelI4dmliTFhkS0dheVpXOGZ6ZlBPNEhKSkZFYlFSaXpfMjNTa2huZ0NXcFhwU2F2OGgzdllYZlQwT2lBbnUtMm1yQQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "베이비돈크라이, 신곡 및 안무 일부 선공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90LU1Ia0VGZE9aUUZ4VXlnLTBTa2dSdER0RlNLOTNRZ0E5clc0VlJXM0xpWjNGRTg5UURnSnBsV1BMdUhpMGRHZUpvRGNBMmxLNVItS1ZVRTRMTXRKRXlLMlF4aVY?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "베이비 돈 크라이, 신곡 ‘Replay’ 숏폼 영상 공개... 11월 4일 한·일 동시 발매",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDbi1aR2FTZFp1NWVWTXdmaWd6ODJJdXUwTHVzdmxBYUkxb2hsMXdSTnV2em9RTEpQM3NtYXlMOE80UktNR082SXZ4b000aC1jRW1CSUNBdXFKVlBw?oc=5",
+       "source": "피디언뉴스"
+      },
+      {
+       "title": "싸이 크러쉬 합작품 어떨까? 베이비돈크라이 귀에 쏙, 눈에 콕 신곡 ‘Replay’",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sa1h3OFZldmtVSlVPYlhBTmpaQUhyYV9ZZzRTcG5TLTB0d0NwMWc5bkNISFdfU2tGWGtrOWIxYTE2TWY0NXg4RlVQTzVsZHdSY2JLUnVZVkotMnJNUkluRjBnWE0yTV84d3NwdjZDN21lSldNekRBWmdvQQ?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "베이비돈크라이, 신곡 음원·댄스 일부 공개…새로운 변화 엿보인다",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFRml1SmlZZUFzREljUlk2dnFFWVdWTmhYX0RJRFJlMTlfREw2TjNPRDVuQm13QUhqaExZS3dyVF9KemxJYllIX3RqNFpab19Ma2o4cXJOdWFJdlpyLUlVMWdQeEUxNHpVVGZCb2hrcnA?oc=5",
+       "source": "SPOTV NEWS"
+      }
+     ]
+    },
+    {
+     "title": "서울 관악구, 학교 밖 청소년들 첫 자작곡 음원 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "서울 관악구, 학교 밖 청소년들 첫 자작곡 음원 발매",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hNTktNG1UTGR1RERPbERYWkpEMnFzb3JVSkpxMVNjMVpBcW5ZVDdIUEFHRDRtZ1NkQWhoRjl5YzdFcnhxYmRud3RLT2k1TV9Ja2drSVBsd1VYa0xkQlN0UnJrbFVOLTRxdHc4?oc=5",
+       "source": "BBS불교방송"
+      },
+      {
+       "title": "관악구 학교 밖 청소년들, 첫 자작곡 ‘이삼월 신드롬’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QY0dta0h6QkxBVWNuYWpObnB0c2VKQmN3OXk5ZXoxUjZiYU00WmJsTEZOamtZVFJkWW5UbVhlZ01wVmctbXVOWXJQY2k2VUpRRzk2S1FjeWozM0ZGclZFNFdlb3ROVmFQekJ0NFoyNHAwM21zU0Nv0gF3QVVfeXFMTlBjR21rSHpCTEFVY25hak5ucHRzZUpCY3c5eTllejFSNmJhTTRaYmxMRk5qa1lUUmRZblRtWGVnTXBWZy1tdU5ZclBjaTZVSlFHOTZLUWN5ajMzRkZyVkU0V2VvdE5WYVB6QnQ0WjI0cDAzbXNTQ28?oc=5",
+       "source": "핀포인트뉴스"
+      },
+      {
+       "title": "“우리가 만든 곡이 드디여 나왔다”...관악구 학교 밖 청소년들 첫 음원 발매",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KOWZqNjU1N1ZmUGJXYUw3ODE0dWlGek1CQVZRN2wwVDBOQkVCOGszelR4Z0JUbmdneXQyZDFpWE9oallKRE9uYnZtZjZLaW5qcC16cnBB?oc=5",
+       "source": "헤럴드경제"
+      },
+      {
+       "title": "관악구, 학교 밖 청소년들 첫 음원 발매…“꿈을 노래하고 한 걸음 성장하다”",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zUk9CS2FaQnlTRXp1REFzUEtCYzY1QUZMZ3o4amhKdS0zTEhtQ0Z6Snl4bFYza1Q0UVFSLUdQMk42TElMUU1EeG9VRC04ejlodVNMTEZIUTNpVXNIUi1Xb0ZFRlhjRGUtQlVJRlV3?oc=5",
+       "source": "G밸리타임스"
+      },
+      {
+       "title": "꿈을 노래하고 한 걸음 성장하다…관악구, 학교 밖 청소년들 첫 음원 발매!",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5aTi12SUZ2NlpKUEpjRkJud0VxWXhTcmxXdXRtNFQyQnYxSjkzVnRFVGllZ3lkY0p5dG1EZEM4SXFkTVdKdnVrS2NQUG9PUE1YaURtM0g1a3pjT1YzT0IyNXY4VDBwazRKYXZLS0RSOW1ndw?oc=5",
+       "source": "웹이코노미"
+      }
+     ]
+    },
+    {
+     "title": "'2026 강원 뮤직 페스티벌' 성료",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "'2026 강원 뮤직 페스티벌' 성료",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhQm9jM2V5Q3M3eTRXT1dfUVN3ZFdSTzlpUHNBeWZySGtteUJfU0ZSU1Ytb2haaUFTMnZRZlNBUWdGM2Vud2hRMW1oYkNjcTF6clpQem5lTFo3X3JjWXQyQk1KTDdQZ1dzSWZiMl9wRDItbTR5?oc=5",
+       "source": "글로벌뉴스통신GNA"
+      },
+      {
+       "title": "강원특별자치도, 「2026 강원 뮤직 페스티벌」성황리 마무리",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5TzU0OWNaNVp2QmlMY004YWhyN3dIdVRkX0o4Nm05Zjd3SF9JZTQ4eENZSDEwZWlaSDFEbUlwT1ZZRXVjTk5OeW1WMUd2OGktWWNoRk50N195V2RZdzRWZzJ4LXRvR1lYc2lKbUZB?oc=5",
+       "source": "치악뉴스"
+      },
+      {
+       "title": "강원 청년 뮤지션들의 음악 축제…‘2026 강원 뮤직 페스티벌’ 성료",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TMkpCcFdLdm5GdU9RdEtpdENSeWVzMW43Z3dyRmw5RV9aaGVmWUx6TkpzLXVQT3BjOXFDcEZXMXVRS3BxVV8yOVhmOTFIN2ZaSEwtMzE0MGVMXzRmVG1aeXBUOFFkU19E?oc=5",
+       "source": "강원도민일보"
+      },
+      {
+       "title": "강원도, ‘2026 강원 뮤직 페스티벌’ 성황리 마무리",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxYUNJb1R2UnItUHk1dV9kY0RLRHB2WnBrYU0xbEFDdkpQRzI1ZXpkcXp0bWdyeVhBZkdrczgzck1iU3Y3Q0k1aWZqQmtaeFkzQkZDY05RMU93TmhMZncxVVR6eGI1Qy1mNU1JWWtB?oc=5",
+       "source": "전국매일신문"
+      },
+      {
+       "title": "우상호 지사, 청년 뮤지션 목소리 공연으로 연결...강원 뮤직 페스티벌 성료",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE43SVk3LVRscHZySnBsQkcxOGpESXhQaUxvaHNpLUpibjNJMzZhNHFiZ0xuWTcxa1BSZms2Z0xRN2FBVHM3cTFEQjREeTZNVFJkcHYxZkd4RnbSAVhBVV95cUxON0lZNy1UbHB2ckpwbEJHMThqREl4UGlMb2hzaS1KYm4zSTM2YTRxYmdMblk3MWtQUmZrNmdMUTdhQVRzN3ExREI0RHk2TVRSZHB2MWZHeEZ2?oc=5",
+       "source": "아주경제"
+      }
+     ]
+    },
+    {
+     "title": "Towson University Marching Band to perform at Macy's Thanksgiving Day Parade",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Towson University Marching Band to perform at Macy's Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0hXWnBZMHJ1WDMxdTFMVVJoTzNGbVpBc3pQbUlUNndvWndfd1d1Q2RyV2NFMVExSWRsclRhX2p4WFJGTHJLd181TjhQS19iWTNuVkEta3FLdDc5b2xRVDFMUzdOdVhrUEtpQnJuMnFzLWpBN0F2ZjQ2ekVRSDJQT0VuVkx5aW9ZUnlPUFl2VjRySW9KbkFhWW56SFF1aHloRGMySVRSMDBucXUxRmtXY1R3?oc=5",
+       "source": "The Baltimore Banner"
+      },
+      {
+       "title": "Towson University Marching Band returning to Macy's parade",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMVpUU0g5NzBUSm5lRnpVbGJNTnNGTmFzRW8yM0Ewb1RTc2hTelJ1dFUtdE9fazFSeVl6OS1zUGdta0FXQmJUeGNGUkVQaVliTDl0b0t5MHQyWm04SlhuSUgxZXMyejRTOEdCV1JHWlRRVmZVVXQyamtZVWFXZEV4RkRLR0ZnNlhIY05qRFRhR01mZG8?oc=5",
+       "source": "WBAL-TV"
+      },
+      {
+       "title": "Towson University Marching Band to join Macy’s procession next Thanksgiving",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOODNVYUtLZ292NUsxMmFZVHBZRG16amFHZ1dVcTVZdU8wcnExR2l3bWMxZnd5OEw1eDZGR3hrSm5HMThvSGxRWWUwbk56TXRtNkJLRFZyTmtnMFl0X0RpQzBSZV9lQ3dpM3BrWEZmejBOTTRfXzZsektkZWM1YnkxQm5EQUVzaDMzdE43NUNIcURrMVhId1BuUEkwVGlHQkpPY0YyaHhtMTNEcnNpRWNoZFpCYTlKZw?oc=5",
+       "source": "Baltimore Sun"
+      },
+      {
+       "title": "Towson University marching band to perform at Macy's Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaWdhVndLS0xCUlI4cW9IZWNjNnVLeUVrT2d6c1ZKR0Y0R1ZoZU9RODdXYkdvWGNFcE04MHZHV2hoeFJyU0ljYmxoVFAyb3k3bThBQXFDNW00U1p2Tmt4R0MyaXJ3b19ib3U5c0YzZW9qMWlobUR6SXZuT0w4UkZEOU1qeF9hcmNPemhIVXlrSkFVb0dySzhNYWw0VlhaRVNaT2gyT1BfMUpFZGVLeThaQ2t3?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "Towson Marching Band Headed Back to Macy's Parade, Launches $500K Push",
+       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTXZ6bkY4cFZCZFg4SFJwMmxQdGFKbDE2ek9IYjRZODBJazlLU2d6Uld0NlNBU081S3d1TXpiMDNsendjVS1fNm5GYzdzLVdfVlhVVGp0a2pmMWxvc1J4cW9kQUZFTzlzWnhPUWRkaWR3U09JM2M1cG9oUnBmQ1ZDaU5aRk1WbGJ1enBheHFtRHk0eEdYa0swNDV1YmRKS0E?oc=5",
+       "source": "Hoodline"
+      }
+     ]
+    },
+    {
+     "title": "`댄스 경연 출연` 유명 보이그룹 안무가, 술 취한 지인 성폭행…징역 3년·법정 구속 [MD이슈]",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "`댄스 경연 출연` 유명 보이그룹 안무가, 술 취한 지인 성폭행…징역 3년·법정 구속 [MD이슈]",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wdk43VlF2Q1A3aTVpcHZKYTFBZmNVNzJQOUNqYzlIdjF4MXN6QXdkbXROWkdGRWZaVE5GUTJSYWZIUmlXQkRsYnlRcGlpbXdpaXl4MzJpZWo4dmVBcTNBeQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "유명 보이그룹 안무가, 성폭행 실형···기획사도 취업제한 대상",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52dlVOcVdnVGF6eFVta1F4aTBCc0VSNllXUlQ5TEFZajFYdm1QWUhXZUNlOGRZQy1aWEhFeWowbGFfY1BScDljNVNWZVVfc1NnZlhQQ3JtTGRBMk1SZnfSAWNBVV95cUxPNmxIa0FseHlwb01ldndyb0UwNXdWRzJVNHZjSzZCTllPWkNQWjFjX2dhWG5VNDdFblNlVDJadFYyVHJ1TWNLdFp5SkdvX1Axb2V0MlZjdlM4VzBLZXhFcGJPREE?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "보이그룹 안무가 준강간 1심 징역 3년…법정구속·취업제한 5년",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwaERPZjM1cjhYVmhSMm8xZHprY05GWWo0cWFzOTlGWDF4OElxX19aWEZ1N2tlVG1aaHB0UFVWR2ZjMndUeXJQZVE1TWMxTm9NdHg1bER4ajJpMDlGU3NfVkFid1dKVi1TVElR?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "유명 보이그룹 안무가, 지인 성폭행 혐의로 법정 구속 ‘징역 3년’",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhTFVZcmNaRFdwdm1Seml5Q1NESFdtTU1tNERwMk9KTjVnLWpXaHZrOU0zRzRkODk0M1BVWE1XT1pSdHpzWldJV3d1Z2JtODRhOVlmQmVENV8?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "“유명 보이그룹 안무가였는데”…술 취한 여성 성폭행한 댄서",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sVERndlZYVVhXSWtnc1BnM0hfLTNmUFhnTFk2RW1ES085Y004TDZfVHNzSTgtZUdJMWtNUUkzV3FWdkdmNVRLNlN4TVowZkNGMkhhczN3?oc=5",
+       "source": "위키트리"
+      }
+     ]
+    },
+    {
+     "title": "가수 장미, 19일 신곡 ‘오늘 밤’ 발매…시티팝으로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "가수 장미, 19일 신곡 ‘오늘 밤’ 발매…시티팝으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGNjJjUUlFZzhidnZRMlRJaGNoUTE3QXYteXRlaDJ0ek5EbC02dndrd1JCSEZHRnphNUxMZHFqU1U5SndxSEl6MEpnSDhzN2o1UlczeGFMdFFuWVo4UWVKc1Nnazdac0dYU2VYVHdMSlR4Zw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "장미, 감성 시티팝 신곡 ‘오늘 밤’ 19일 발매...직접 작사 참여",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iVTI2UXZiZ2FzMnh6cDdqTXQ1N3J4YXZkZWdBUGhSOXM3ZzNmMGlUSWdpWDFMd09KMEgzRUJsYmgtRzBXQXJ6M2U3UEl1WHYzVVN6aENsWVhkS1MyS2tUTUpB?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "장미, ‘오늘 밤’ 시티팝으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrYmVrejJXZkNqUzRjMHVTWDZTLUgwTTVQSzBMUEdwaDkzUHpGeEV0cU9QRGdrdlNWWUY3UldqNTJYUlhnR255UjZNTUNPeG5MSlE0VDRIOHo4Q1VrcDlneUJWOXA?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "장미, 19일 신곡 '오늘 밤' 발매…직접 쓴 시티팝 감성",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CQ1JEUk1RSkNaQ09KSHlPUnlZWnJ5SDNJTmM4TzFWQW5LX0ExU1JOamdXNUptSjE3SmhvdEprenctOXg2SktjR29pOEV0UF9veTNfb0p1ZU1oWDIwWTJEcWhLWjhvQQ?oc=5",
+       "source": "뉴스컬처"
+      },
+      {
+       "title": "장미, 이번엔 시티팝…신곡 ‘오늘 밤’ 직접 작사",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tMkVwWHlDLVNHbXI0emlnWEx2aXdwZXNtT3pUZzJnSGpESGdySlpYZDJ5eGdxYUhzRDV1UE1GdmpqVGxfTnUydl9Gak9CLUVNUkhxSlUyeDk5a3pGY215R2F3?oc=5",
+       "source": "스포츠월드"
+      }
+     ]
+    },
+    {
+     "title": "Baby DONT Cry, 신곡 ‘Replay’ 음원과 안무 일부 공개",
+     "summary": "Baby DONT Cry가 새 싱글 ‘Replay’의 음원과 안무 일부를 공개했다. 이번에 공개된 콘텐츠에는 신곡 ‘Replay’의 숏폼 영상과 안무 스포일러가 포함됐다. 공개된 음원과 안무는 귀에 쏙 들어오고 눈에 콕 몰입되는 구성을 선보였다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Baby DONT Cry, 새 싱글 ‘Replay’ 숏폼·안무 스포 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IQmRuTmM3Z1hpM0RxX2lwdDlLN1AxSXZZclRBM3JNY3RvQjNocDB6dGloS2lRSkdsUEpMOWN1aXRwUWpjcnl3R2tndHNhUlJWbnRmLUNJY1ZqbXlLTko3WjRjUi1YcG5Wc0tnNi1GdEI0dw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "Baby DONT Cry, 귀에 쏙 & 눈에 콕 몰입되는 신곡 ‘Replay’ 음원, 안무 일부 스포",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iQU93MTNZZm56eXUtWUtzMDhnak5YTzg3VEtOTF9CWXl6N29CUzY4MVpPY1Z4bVhsMGZ6ak9TSXpyYzk4RTlWYXp3ZXhJdzdTeFFLUkhoSE1vbE5YcmUwNmxZLUNnWkdja0NTeXczdw?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "Baby DONT Cry, 귀에 쏙 & 눈에 콕 몰입되는 신곡 ‘Replay’ 음원, 안무 일부 스포",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11aV9sTUYwWWlhTE9rYlpoazF6TmdBTGh3WDBFYWVrVWVIWTNRR1NvNnhCUm15MzJVb3p4RFZSbHR1VHVZd2wxQVZ3amVudENWb3AxYjZQNFM4T1NoRTkyR1B6YVN2b1g2cWc?oc=5",
+       "source": "도민연합뉴스"
+      },
+      {
+       "title": "Baby DONT Cry, 신곡 'Replay' 음원, 안무 일부 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42Wl9aYlBzbzg0Vm1BeHRhR294aFZtUmpfZUYzRzQwdUZFUWpDc3lXZG5ZNjBDcnV3eC1JMXJpNzQ3aTRxYVRpWnFjeG5RdmF1WjZHRmtDMXpMNGp2TFFFMA?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "Baby DONT Cry, 신곡 'Replay' 음원, 안무 일부 공개",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WYjd1eUltcVpWeGx0Mkw0Q2g1RTBFTjdXNmJsblRyNGhoQ2UyOFBxbEJkVmNrelpndmVoM2hicDdtMVpmYXhvOS1vNFg?oc=5",
+       "source": "MBC"
+      }
+     ]
+    },
+    {
+     "title": "TXT, 신곡 ‘Angel Bite’ 10초 음원 최초 공개",
+     "summary": "TXT가 신곡 ‘Angel Bite’(엔젤 바이트)의 음원 일부를 최초 공개했다. 이번에 공개된 분량은 약 10초로 강렬한 반전을 담았다. 해당 콘텐츠에는 스마일 이모지의 눈물이라는 요소가 활용됐다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "TXT 신곡 ‘Angel Bite’ 일부 최초 공개…스마일 이모지의 눈물,10초의 강렬한 반전",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9kMjFiWWRSaFVyeWoxbmYzUXZzelhGZFhDTVhtbWtEeU5LZktLa3dBbzduU3hsVUZmdVE5aXN2R1FiQ0FOSDdZdV8tbkllWUcwUklINkZ6b3NTN0MyMXNITUZPUDRlcmRqNXFn?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "TXT, 신곡 ‘Angel Bite’ 일부 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZbTFtWXhobFpwbGpCRlhsMEY2YW8wTGgtaWx1ZWZFRVhvNDdndnVtR185WHJ1ZE94b1h4Mm5GVThuaGV2OXNjVjNoeWVjMTJnOVJjTDVDY3M0TWUtUlFmSDFhSko?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "TXT, 신곡 ‘엔젤 바이트’ 음원 일부 최초 공개…10초 만에 사로잡은 강렬한 반전",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nd0haUTZRX0t3YmFiMkktcW9YVzVkdHY0ODg4ZkFGTkhnb1RnYThuOEhNNHViNzRyaVRiMUNkVXROS3RKb3VXcTFybTd1VHkxT2tBZDJlbzk?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "TXT, 신곡 'Angel Bite' 일부 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHaldwdXFRdEFubThxZjUwTlFpZVlRU3ZOS1N3akYza1lqbXNneVRGelpQVTA1czJ1aGJDRDdiTFMzY1ZjdEt0OXJqSXgwdW9icmxlQg?oc=5",
+       "source": "iMBC 연예"
+      }
+     ]
+    },
+    {
+     "title": "걸그룹 라잇썸, 우체국예금 명예홍보대사 위촉",
+     "summary": "걸그룹 라잇썸이 우체국예금 명예홍보대사로 위촉됐다. 라잇썸은 향후 1년간 우체국예금을 알리는 명예홍보대사 활동을 펼친다. 이번 위촉을 통해 본격적인 홍보 활동에 돌입한다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "걸그룹 라잇썸, 우체국예금 알린다...명예홍보대사 활동 시작",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5aEoxN3dESGhCRnlfRVZNb0NXaU1nWnNNcnFCYWxyVDRJWVNOMERycWd4UWx2OW9qaXhJVXdSUmZWeFFnYlhXN1V2Z0xQQ0Z4RUdfeDlobUkzZ0lMdVpubXcySDhicmZBNHpCaFE1UjQzSTg?oc=5",
+       "source": "디지털투데이"
+      },
+      {
+       "title": "걸그룹 라잇썸, 우체국예금 명예홍보대사 위촉…1년간 홍보 활동",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLXJfNlQ0THUtTjBUY3ZldXRUXzZxZVZHVnh5ZzBGM2ZtMTNYRXRWQ25xNlFDeFJVVDBRcVl1R2k3Y0M2aW1WVi16Vnc2ZGo0MXpLT0R4WUtOdzJadjJvUTdyVjYxcmdpMG93M0FqX2toV2gxUzlNYkUxUjFHWTFNaQ?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "걸그룹 라잇썸, 우체국예금 명예홍보대사로 활동한다",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SRHVqR0lqdWdZTnpVd3VySF93d053VHMzR2UxZ3ROZjhkbzZwYUluMkc5YTYxNjBjMmFFZVhyd3B5eUZDaEZ4anNJUWgwN0hZWFVsekVyelFsbThCZDNtYjNKX2oyYktiRUE?oc=5",
+       "source": "천지일보"
+      },
+      {
+       "title": "걸그룹 라잇썸, 우체국예금 명예홍보대사 위촉",
+       "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNVUczVGpiN3RTQkFJTEpVdU9ZQWNVby1XLXpna2VJWDNTZXdHeEV0Y0NteWhiZW9PeXVJZTRtYkNXa05GcTRjNmktZUZIbzJVbkRJRWVQSWFmZkxHX2VtNnNza1lpSGZGVUhmU05PcDh6cDZHUUt4c184VmhrdXVQMEFoYlVUSmY4SmRMdGJha3k4MjNUeXJJUlRBdkUweVRJNi1EcU1WYVZGWVRjcF9mUElhSThIZ1N6UUZXcGdoaXVrZmdjNUlDeDNvMGRyREpmS2VDYjJicmhEdHlTRi1MakhvbUdDVUJTQXRncFZVNTVHaFRicGhkRDBGVHRXN1JCTFA1WDFRWFFnRTJkS1h2SFE0UFlEcnZTaWdxMHdabUs2TVJySlJhX01uN21pZw?oc=5",
+       "source": "데일리안"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
