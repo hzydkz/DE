@@ -1,0 +1,379 @@
+{
+ "date": "2026-11-02",
+ "generated_at": "2026-11-03T02:32:07.238827+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 8,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c10 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c10 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 822,
+   "issues": [
+    {
+     "title": "테크노 음악의 개척자 후안 앳킨스 64세로 별세",
+     "summary": "디트로이트 테크노 음악의 개척자인 프로듀서 겸 DJ 후안 앳킨스(Juan Atkins)가 향년 64세로 별세했다. 그의 에이전시 그린스미스(Greensmith) 등을 통해 부고가 전해졌다. 고인은 '테크노'라는 용어를 만들고 일렉트로닉 듀오 사이보트론(Cybotron)을 결성해 활동했다. 또한 '모델 500(Model 500)'이라는 이름으로 대표곡 'No UFO's'를 발표했으며, 벨빌 스리(Belleville Three)와 보더랜드(Borderland) 멤버로도 활약했다. 솔로와 그룹 활동을 통해 전 세계 댄스 음악계에 지대한 영향을 미친 것으로 평가받는다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "Juan Atkins, Co-Founder of Techno Music, Dies at 64",
+       "url": "https://pitchfork.com/story/juan-atkins-co-founder-of-techno-music-dies-at-64/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Juan Atkins, Techno Music Pioneer, Dead at 64",
+       "url": "https://www.rollingstone.com/music/music-news/juan-atkins-techno-music-pioneer-cybotron-dead-obituary-1235651028/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Juan Atkins, Detroit pioneer who coined term 'techno,' dies at 64",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPREFxR25wRWxKellsMF9jZ1RSR3ZfQUdQdk43bUpCaHhpcHBZeEtTd0tOZ2pvQTdxS1Ixak1sQkRsdXhBZkFZRmlEN3FWSkhFakRCaXhOaDdnYnlNdXoxejVTZUxWNXRVVEh0bDlFSHpaQVRhNmdQWTVGejBHLVJWVE1NMmNQS1F5TjAxMDVlYlUzalNMRWFYRUhRVmlGR1pCRkhibmhyUG9KaDI4amVRY1JndHVSdU9HZHl5WHhPdER3ZUpxNV9VNW1OR3Q4WktIbHFnVmF3?oc=5",
+       "source": "The Detroit News"
+      },
+      {
+       "title": "Juan Atkins, pioneer of Detroit techno sound, dies aged 64",
+       "url": "https://www.theguardian.com/music/2026/nov/01/juan-atkins-pioneer-of-detroit-techno-sound-dies-aged-64",
+       "source": "The Guardian"
+      },
+      {
+       "title": "Musician and Detroit techno pioneer Juan Atkins dies — The Guardian",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ0E3T2pzUUo2YnFXdFA3MHJ5RFBqdEIzd0RWOXg4eHlEM1RiTTVCQkxPSmtWbmkxM0F2Z2RTZG9CWi1ZR25jRnpoQUpDcVZuZ2JCSTEtbGlVMnd2OGoweUpFUEU0dXN4VmtRbmZnYzNwQzVvUTVwb2xCLUphaklYQ1A0VlA5RjBrZlRVc1VjYVRvYzc1UWFzMk1QcVg?oc=5",
+       "source": "UA.NEWS"
+      }
+     ]
+    },
+    {
+     "title": "방탄소년단, 라틴아메리카 투어 전석 매진으로 85만 3천 명 동원",
+     "summary": "방탄소년단(BTS)이 '아리랑(Arirang)' 월드투어의 라틴아메리카 공연 일정을 성공적으로 마무리했다. 이번 투어는 5개 도시에서 열린 14회 공연 전석이 매진되며 총 85만 3,000명의 관객을 동원했다. 방탄소년단은 대규모 관객을 끌어모으며 현지 팬들을 사로잡았다. 아울러 대규모 관객 동원으로 남미 현지 지역 경제 활성화에도 기여했다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "BTS closes Latin American leg of 'Arirang' world tour with 14 sold-out shows",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUmJiaU9rcTRpSjg4RV8zdE9SZG5lRktUcG91VDA3QWhucjZiZnRtRVF2ZUtTczN4aXd2VkxfNS1TeE42bDhLS016b09DclliaVdLVS05aUNwSFBsTkVwZ0FaX2VWeU5WUGwwbHpITUZrSlduSF92ZGdXeTlNbkVSZkRmdV9qSFZOS0RheUYtQmxhc0dnejllZlFYVXNzaGtoeUJHTjhaVGdXRTh2MjduNUdfcVhDdTUybEJEeFhxVk1mZjl5WThsb3BiRQ?oc=5",
+       "source": "Korea JoongAng Daily"
+      },
+      {
+       "title": "BTS draws 853,000 fans across 14 sold-out Latin American shows",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDJ3TFNEX2VzVjNBcEdyZUdyT1I3S21vWjBZNExLU2Y2alBSTm9Ud3lSdGlFLXJMWVB2cmRhVmszMjI2eDhKVWRUSTl3aGlHUFpFRXd6dnVDdUdXVkF2dWVWdVMtNFl4RDJfNE5EOUYwZHRhcmM4MFRNd0tCUWVKMjEzMFhFQnFMNExyNzljYkJjeWhXTVo2WW1TeHQ4VThkaDdjcWJtTWFBODZjcFA1OG5KeTVsMThsbXJZ0gHAAUFVX3lxTE1ZYnFuMXc5UXY5LTZUWHVfaVBaRTlXSFFTZmtaZFB1bTBPSTg3ZENZZDVyVVdIMnBCdENfcEFwWFR1V1paX2xvQ3lwWkg4bFVuTWhLY2FaYmxtUzNSZHVfVXdwQ0hURUdhYzRjcWlPeUh6THRXMFZmUXBwVkRvd2hhd3ByY0x4OEhBa3ZadVU1NUtndEVlQnlVcVI3dklOM0xtRFhXamZRY3RfcVlBWEhCTXZjT2VDbGJhLWdEWFBGUA?oc=5",
+       "source": "The Korea Times"
+      },
+      {
+       "title": "BTS charms 853,000 fans on Latin American tour",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16MTJvYk1Cc0RLOWNNZ09BbEFjMjhOdUxha3pyVTcyTDRfT1RETlFvWVI4X0RFbHljYzl5cXEyVHFma3I2WDZncFVhS21hcGNJUHh5RDA3bU1GUQ?oc=5",
+       "source": "Yonhap News Agency"
+      },
+      {
+       "title": "BTS charms 853,000 fans on Latin American tour",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nT3hTMEZlUmRWME1HNE9kZk9UWkVsYWpLRGxPRTNGMFNDVms5V2l1dWtwRVVxZ1JldHUzbExSRWp3ZTdGNFhwMUo2ejhQMzNWTVFFNExuNzVWUTDSAVZBVV95cUxOaTBZZzNvcWxkMFJIWXJKRnhtQnFlMldObTllaDZIclRIZDJWalc1ZURQZ3diaU96dTJnOGthVEl5WWlLQ0RwTHFyT0xVY282UFB2eTU3Zw?oc=5",
+       "source": "K-VIBE"
+      },
+      {
+       "title": "BTS charms 853,000 fans on Latin American tour",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16dnpPOXVqR29DNGZkVXNYMTMtRVlCY2lLTGVfMG1wX1daUWI4RjhPRGpMWjNkWTE4cEgxMjFXTWxMQlJJRGlrcDBtUERScU9mRlV0dmRUcw?oc=5",
+       "source": "The Korea Herald"
+      }
+     ]
+    },
+    {
+     "title": "빅뱅, K팝 그룹 최초로 시드니 아코르 스타디움 단독 콘서트 개최",
+     "summary": "그룹 빅뱅(BIGBANG)이 K팝 그룹 최초로 호주 시드니 아코르 스타디움(Accor Stadium)에서 단독 콘서트를 열었다. 이번 공연은 11년 만에 시드니를 다시 찾아 무대를 펼치며 K팝 역사의 새로운 기록을 세웠다. 빅뱅은 현지 관객들을 열광시키며 무대를 성황리에 마쳤다. 멤버들은 팬클럽 'V.I.P' 덕분에 20주년이 가능했다는 소감을 전했다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "K-pop group's first: BIGBANG captivates Sydney… \"Thanks to V.I.P, the 20th anniversary was possible\"",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1WLTVuVXVxVHJlY3c4OC00cVU3cTh5Ym9wbTVKbXZzWEExc2ItTURSWXpJWVBUd3dhM2FlMkJ1WGdWUmR0UTlzelVwTEpKeV9QaTZSdWcxWkNIUjk3dmJ4TllMYWNzbWRIWnlzTm1KdnpQbUFYSVQ5dg?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "BigBang captivates Sydney too... makes history as the first K-pop group to take the stage at Accor Stadium",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWU0pVVU5lTlZVVmRVS25QVndqSnB0LTQtOXJkSHh3Xzg5S1UxcFprdFh2Z09VQWU4cUxiczFBZTduRktyTm1ZYkRXTENlbS05?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "BIGBANG become the first K-pop group to headline Sydney's Accor Stadium",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0JLdVJ1WU9LMEJnWkNRcWJUdlk3Wm11cjFhS1BkcDNhTjR5NWE5SUtfN2JtdHZtc0lzVFI1Tl80X0NWckpGT3JvWWtwQm5oRDhTM1g3V2llazBFdC1VbE1TY1FoWUQ0cVM4QVdSMzVkLTBkY2pQNlRlbkctcDJHZ05yMXFfYW9mX29mWWdMbkNjanZJeUdEUWhBclZncVVnSWVGbWxsblF5dTNyWE9j?oc=5",
+       "source": "allkpop"
+      },
+      {
+       "title": "BIGBANG Becomes First K-pop Group to Perform at Sydney’s Accor Stadium, Reigniting the City 11 Years Later",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sUkJYY3RvVV95MTNGQks2N1p2STFVQjhhZFpVZ01WRjRqaWZ6WDYwQjQ1UzBFMlkyRnFPMnN4bnIwcThLOU9jbWVuNzlWUG0weU9xX1lNUkhEM1k?oc=5",
+       "source": "씨네플레이"
+      },
+      {
+       "title": "Big Bang makes K-pop history with first Accor Stadium performance in Sydney",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSlVKSFEwejVfVXdKanhlSk5tSS12N2lKVXRGaHJ1Vjdoa1Mtc1hBT25PclNJRXlGR05JVmd3cThiODhua1o4dXF1M2kxTGtQbGNmLWJPUnp5aDJ3UTBmVnA4bkRldEdEelh5R3g5bldIOWVhb1kwMUFKQ3JoZFNLQTA0YlhLXzdX0gGcAUFVX3lxTFByanNIRXZVQU5jSENOenhGLVRZZVFTbVBWV3NWcmlsOTN5MzFYWThLOUJILU5DVVp5LWVlWXJHWm5hclBlOVhBbllmZEZlbTRsRXltUGpXaU5uT2NYdEhLcFdqLV9EWnJWTHlQZkpBTnFBMmtxb211VHdEWmUwNWNkbTQ1dzdZYUFVTloxYU5DaHRTNExMZXNrNE1fdQ?oc=5",
+       "source": "Chosunbiz"
+      }
+     ]
+    },
+    {
+     "title": "매크로로 아이돌·야구 티켓 되팔아 22억 챙긴 일당 적발",
+     "summary": "매크로 프로그램을 활용해 국내 유명 아이돌 콘서트와 프로야구 경기 티켓을 대량 선점한 뒤 되판 일당이 경찰에 검거됐다. 이들은 티켓을 정가 대비 최대 110배 가격으로 재판매해 약 22억 원 상당의 수익을 챙긴 것으로 조사됐다. 피의자들은 대량 구매한 티켓을 암표 시장에 공급해 부당 이득을 올렸다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "아이돌·프로야구 티켓 최대 110배에 되팔아 22억 챙긴 일당",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwcjV1OVVMSmdqOGtXSUlvd1lqdUdWQ2x5S0d3RXozbVludi1sUk1mdm9BdjFRM1N3Y1BLa293N1d6WkZaMzhKeE16TUs3djhTWVU4OFdaMHpmSkXSAWBBVV95cUxNWWNlLWxiMlZ2dENNY3RnOE8wRDZ4c1hVRlBPT0w4NzY5UFZMOVYzd2VsdEVyemk3ZGpzVHNvVFB0eHpuaG1tVU9rY3VERzRwN2pqRHlnc25VSlZOeWRYVWI?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "아이돌·야구 티켓 최대 110배에 되팔아 22억 챙긴 일당 적발",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NV2JiODVKYlVOc1BUdkZGbTVBNEVCWTRrT2p4aHE0cV9WLTRYZThLZHBFQnJjWEwtVW9tSHgzWmFhRGNMWjRLZHRhVE1VT3JLRUpNbVZxZFdkUjJBX3ZYYVVB?oc=5",
+       "source": "미주중앙일보"
+      },
+      {
+       "title": "매크로 활용 아이돌·프로야구 티켓 선점… 최대 110배 되팔아 22억 수익",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVHpqLVFGN1d5VkhZM0MzemlxRXpmTDNWbEVvVDdYLTRqejFVTjNXNWpVelItMnR5dGlpSmN5UjdQUlYyWEx4YTNJam1vcVNJWWFnaktYaG5KVzZkY3d5bDNfWnNJSFY2NFl3MVB0RjFKR3JLb09MRm9LSGJBZ241TmpEZm5zQQ?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "아이돌·야구 티켓 최대 110배에 되팔아 22억 챙긴 일당 적발",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tVldteVJreTlzMC1HMVRWcGJnNHJMQ1AwVWEtMDg0ZjZuS1J1Tm9KYVdZVk1SbTJlQUYyYzI4M0NpeUtBaG9kY2xRbnRXVUNmN2V4alFn?oc=5",
+       "source": "중앙일보"
+      },
+      {
+       "title": "국내 유명 아이돌 콘서트나 프로야구 티켓 최대 110배 되팔아 22억 챙긴 일당 검거",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jX0JNRzdvdHRDY1M5LTZQVWdXRjk5bkExUlZCOGVvb09oQ1B1c3kybjZSRTZtTllBM2JvZzMwZUh4eGU2X1B5ZmFZdnJxOElCWm96WGRkekpuZU5V?oc=5",
+       "source": "시사뉴스"
+      }
+     ]
+    },
+    {
+     "title": "명곡 '에버라스팅 러브' 부른 러브 어페어 보컬 스티브 엘리스 별세",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Love Affair Singer Steve Ellis Has Died",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OWU1zbjZaeFA0SUE1NTg3a1REN2RtSXdVaWU4azJFbUhDSTB1eVVfaHV4Ny1FVGk2aWtrX1lHN1drUXQ2VlNmaWZNRnVaS2ZHS25Jb2FZSHpjbzlTT1ZqdnZ1MC1ycmZZcGVYdlIxU1FpSFJuR1lCU0c1OWw?oc=5",
+       "source": "Clash Magazine"
+      },
+      {
+       "title": "Everlasting Love singer Steve Ellis dies - tributes pour in",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjNkclgydDdrOE84ZWNQNFdoT0p1S0FnQklOTHA5QklnQUNqd1lsb3pWb29ud08wSjVaengtVkxwdy1Gbm5LeG44U3JKaGthWHpOWDFvdExLOG93ejVCSUxvRTZTM1JqS3pFLXplQUJTMHR6VnpGNmhhNlJaa2RseGwxYThpT1V2a3MtRWdxMklRVnA3b0ZQZTNRRWhOVXhvN29R?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Steve Ellis, frontman of Everlasting Love hitmakers Love Affair, dies aged 76",
+       "url": "https://www.theguardian.com/music/2026/nov/02/steve-ellis-frontman-of-everlasting-love-hitmakers-love-affair-dies-aged-76",
+       "source": "The Guardian"
+      }
+     ]
+    },
+    {
+     "title": "트레저, 일렉트로닉 힙합 담은 신곡 '쇼크' 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 18,
+     "source_count": 17,
+     "links": [
+      {
+       "title": "트레저, 신곡 'SHOCK' 발매… 'YG 근본' 담은 곡",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UVkQwYy13ZGFBeXBVM0wyZHdUaEpwTFhfbXdxck4ySTFqNnpxdDVleEIyMUcyZHhxR0VMZURWSWdaWFgyN2oycTZOOUNJRDQwNmxIRHN3R2RSemd40gFXQVVfeXFMT1N1UDVnNG1Wd2lkSGhXYy1iSUxham9MMDhwRVZHRmlVbjdsUU1FdmZ6WTJiRl9BSEkwY2JzUlpjeHdwQkE1SXVfN2hJV0tBd2lkMG8xTlFZ?oc=5",
+       "source": "더팩트"
+      },
+      {
+       "title": "트레저, 오늘(2일) 신곡 'SHOCK' 발매…YG표 힙합 색채 강화",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvY3NjT2F0V3k3UEdTMXZvdzBPelkybjlqNTlGSTd4UmNydE9kSzlrQlBKZXEwLVNxWUJwR2xoU2xLN2hqNlIxNkNTRm9ueGhjYkUxSlNVd25sRExFcWFJanI0WFNoRjlMa2Nn?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "트레저, 신곡 '쇼크' 발표…\"YG 정통 힙합\"",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PdThIbllxMGQ2MWVPZ0VIWkZ6aHZFUDA5ZTFMOGkwZHppa1NsZ3lFQlNpM2p1aDlkZUlCazVqNVBOSk5td1hfUUE1eWJ3ckU5QktlYktPdFgwYVlqVVBaWg?oc=5",
+       "source": "아시아경제"
+      },
+      {
+       "title": "트레저 '쇼크', '핫 뜨거' 품고 터뜨린 YG 힙합의 '기세'",
+       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTjYtNks0WUUxOE02dW9XV3FOMnhrV2JaeHJhVDhVLUJhalNBeVp0VG5uSzJzSzN0Z1hMdHEwcnpWVU9zUGZ5dHNfcG02T19EMU1WMkJYZXhDOU5aYTRVNGpqWUhJaFNpQ2ZuQ1ZTUkstaGlpM1BQUURjd2h0c0V2eVlGbFF4eFZwYU5qdmlzN01teGh6M3JxNVEzb2Zma1A3U1RYZ0x0UFQ4SDdKNHd1RV9OTHQ4dk9YQXYwVzk5eUpxYWMyYjRHYlpjbTZzYjBJM2p3YWNsZ1FLUlpCU2loeDVMTG9ySlhucVRZd2FSYmJuMXR5RHZaQlZ4a2JYaGpRQ0hN?oc=5",
+       "source": "데일리안"
+      },
+      {
+       "title": "“We bring the SHOCK”..트레저의 기세 담은 ’SHOCK’ [퇴근길 신곡]",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHYnVBNHNDRUdGZUpjQnJWY1I2U3ZKN2kxNUVGYjM3WUpCUklyY1lqdEs5Yko5SWpPUnpOSUZ4aFFUR3A2V1NuYklMYXlGVjRyRkhB?oc=5",
+       "source": "OSEN"
+      }
+     ]
+    },
+    {
+     "title": "싸이커스, 타이틀곡 '다이너마이트' 수록 미니 8집으로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 30,
+     "source_count": 19,
+     "links": [
+      {
+       "title": "싸이커스, 오늘(2일) 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCaG5vblU4RFZrTWpNZUhYSWFyOEkxUGVfdTVVSklxNEJFZzdtZmFnZVlyd1lOenJiMkRuczhsa182UHozZHJpYkg1THE5dGpqMmh1Y1czazNvaXpQSDZUZWt0SVU?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "싸이커스, 오늘(2일) 'DIENAMITE' 강렬 컴백",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tVTFCMUdKNzNZSG1zTlh5Ti00d3ZTbHNqXzB6RFJwNlhZQVRBdFhzRG8wZ2RyVXRKOW42WHR5SXIzZ3JFYmxrTC0xT0pZSU00VWxULUhXZ09WNU0wa3VHSy1kSzlzYmVFeW1wQ09fQml5anEw?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "트레저, 오늘 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPLTJQbEo0eERTUGJyTEFfbFRobDN4cFpNbU80cHEzTlpNWEJteC1yQVFid0RrYjFWWkZZTHZKa0hHYlRuNUtyRDM3alk5UHZCMVFNQkoyOVpLRWt1SGl4WGs4ZXU?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "싸이커스, 성공적 컴백 무대",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fTlBLcXRUTFVUR3VSZjZ0cE83YloyaXg4bjBlU0VjVHRPOWZFWW9kbjhqX0d4cG84M0xhOGVGY2w0SmJHVzhnQXJ5blVkYjhpM1BZR01JYXlXeXRYYWo3SE13UDVjdw?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "[C포토] 싸이커스 컴백!",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BbHg0SE5QeEticDZpRElaTWlQUTIyUktnSGtHR0xGcWVEZGYtdXJINl9oTzNiNENDaUFERHJGQWpINnVXQ3FhS3NoMlEwVTI5VlVIb3FuLVZ6QlNqZXo3OF9qazV3VU0?oc=5",
+       "source": "CBC뉴스"
+      }
+     ]
+    },
+    {
+     "title": "온유, 서울 단독 콘서트 성료 및 내년 2월 컴백 기습 발표",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "온유, 서울 단독 콘서트 성료…유주 깜짝 등장·2027년 2월 컴백 발표",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ORE9OS0FpQ1hpZjNVXzlPb0ViXzJKMk9nNW9HdlcxYmttS2tSRU9IOHNLbXB2d0xEMWhValAxY0tOX0h4MWtEQTNOTGJqS3NIV3NTV0x5UVNOUjRRaXo1S2NJeFNSdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "'믿듣보' 온유, 단독 콘서트 'ONEW THE LIVE' 성료… 2027년 2월 컴백 기습 예고",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrZGhQUWFZRmc5VDUwTTF5OW1RdUtCT1Bpb1FDZ212ZlFyQ01HR2tmM2pUdFNPSEUxMWtYYXlQZk9PNE11VUE4Q3dGaWd5MjQyVWw2MG15d19HRXdBTDY2UU1EcktYTlJaYlJvVDNSdGZFQzFq?oc=5",
+       "source": "파이낸셜포스트"
+      },
+      {
+       "title": "온유, 단독 콘서트 ‘ONEW THE LIVE’ 성료..내년 2월 컴백 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUHg1Z0JzNThHV2ZqalVGVkE4WGE2ZVNuYWNRc29PVXJYaHNKa09TN2hJa1FzeWdBZVVRWUFjWlczV0RNTmxEeHFqcmJBYnJTUGZ5S2c1dlVHdkwyVzN1aVNFdk93ZHFaYWpIV1k4aTdPQXRNbnFaUWc2emJFUjBkYzJBNThBVHYyRWxzbzRMaE5vRHJKMTlHMlZPMnFfTWVpNlNmd3ROa9IBpwFBVV95cUxNUHg1Z0JzNThHV2ZqalVGVkE4WGE2ZVNuYWNRc29PVXJYaHNKa09TN2hJa1FzeWdBZVVRWUFjWlczV0RNTmxEeHFqcmJBYnJTUGZ5S2c1dlVHdkwyVzN1aVNFdk93ZHFaYWpIV1k4aTdPQXRNbnFaUWc2emJFUjBkYzJBNThBVHYyRWxzbzRMaE5vRHJKMTlHMlZPMnFfTWVpNlNmd3ROaw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "온유, 3일간 서울 단독 콘서트 마무리…컴백까지 깜짝 발표",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDQW1YODJCTFdIRVZkcmZWLWZQZUQxY2VvcklLY0hkRGRqeXVRSTNWUWhqZ3hsSnFIazVhU0s1RzVTVVBlbzVXaGtnVXRsUQ?oc=5",
+       "source": "전자신문"
+      }
+     ]
+    },
+    {
+     "title": "버추얼 아이돌 플레이브, 유니세프 한국위에 어린이 돕기 1억 기부",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "‘버추얼 아이돌’ 플레이브, 어린이 위해 1억 기부",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HQnZfU0MyaHZZUnpPNjluZWZVOXBHZDZzTTRUdnRQT2daTGRuM2h0Z3hfVnZZY2diVWlsbVZvRmY5MmprYlAteUZIamQwd3dSdUM4Uw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "‘가상 아이돌’ 플레이브, 기부는 진짜···1억 쾌척",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qdHNEUlNuekgyRlRTUzBQaGtSbkszOEtXT1hQZTZocUZza09Zd20yYzQyTXF5SThBOW0yS2VXUmYxcTI5UlpSN2o4aEVGS3VIUWhiclhvWFI0dkxlZEHSAWNBVV95cUxNWDNjUmUyVkxMei1XZUhQbktNNUI5cVpUQWh2b1hzMDBJM05mNkw4Yk9oNkxLcmJGSXhSRFhReUlWTDNXUnpCM2NvdWNHYkFsbWtWMU5yMVFzNzg1THJvdGVFZzg?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "가상 아이돌 그룹 플레이브, 유니세프 한국위에 1억원 기부",
+       "url": "https://www.yna.co.kr/view/AKR20261102054200371",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "가상 아이돌 그룹 플레이브, 유니세프 한국위에 1억원 기부",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fcmctd2xvNEJBVm1HM2loX2lyeVg1YUNvUVh5NnBUV1F6bjNSeUQ3dHdHMW85VHJCbFdLOUhoVmgtamlNMWsyXzBRVWdUYTVSenFZRGNCeFMzYmPSAWBBVV95cUxOcWhwUmZtVi1TM1paTC14aHZURVU5MTc2dkhWc0lpa0h6MTFSQVZva3JzbTd3dkJ1QjZmN0V2T0lJN3B6QjEyYkFLczhHY3RTNGZyaTZEalF3R1A2WjVxTnE?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "'버추얼 아이돌' 플레이브, 유니세프 1억 기부→기조연설대 오른다",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1heUhKc2tVNDBrektES3hEUUpZVTZscWNTRjNwYU9aNXZsS24yaDlraWpCb0h1Sm9LR1hCTExEVGVjc092czY5UTFVbEhsWUVSVjd3S1ZNOWtuYnQzSGZncFdfQ2ZGb21CT0hMNWNDMEk?oc=5",
+       "source": "SPOTV NEWS"
+      }
+     ]
+    },
+    {
+     "title": "우탱 클랜, NFL 디트로이트 라이언스 추수감사절 하프타임 쇼 출연",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Detroit Lions' Thanksgiving Day game brings star acts to Ford Field",
+       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOa0pNSWUyeU4wRExfRUkyRkF4dHZJOElvdXVhSERhcVFrY2xQUGhFT0JCQ3V1YTJrTm00Q2N3d1RWREpOTFVIZ09qWWhnZENyblRrYmhnWnYxMmtZcmlXV0dzMk9qLWRsZkVWRDJWSmlmQklPMmVVNmZQaUNDQndHNXYwbUVwMzY0bXYwaXU2MmdXR1Vnc3Uydl9uWnFvME0wRzhXZmJUMEp3VDVTWklFNHUwajBNY2UtMWR2VlVVOFNzSVdmTW1KY1NEVy1SS1dOMDFOd2dnMGw5Z3NSSmF2bHowQ1NNUG9pakY5MGRmcDJaRG8?oc=5",
+       "source": "The Detroit News"
+      },
+      {
+       "title": "Wu-Tang Clan to Headline Halftime Show of Detroit Lions’ Thanksgiving Day Game",
+       "url": "https://consequence.net/2026/11/wu-tang-clan-thanksgiving-day-lions-halftime-show/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Eminem Taps Wu-Tang Clan to Headline Halftime Show of Detroit Lions' Thanksgiving Day Game",
+       "url": "https://www.reddit.com/r/hiphopheads/comments/1xlcmhe/eminem_taps_wutang_clan_to_headline_halftime_show/",
+       "source": "Reddit r/hiphopheads"
+      }
+     ]
+    },
+    {
+     "title": "18세 바이올리니스트 소피아 드미트리아데스, 'BBC 영 뮤지션' 우승",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "BBC Young Musician 2026 review — was Sofia Demetriades a safe choice?",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObWxhTVJFeUlFWnJTemk1bEVwNzVlOUxjbHNUdENOM3pVcE5HZ0lmempJU3N1cTczUzNkMEZGMUlsSG82bUZyTlU4YzlzUThxVjA1dFpvXy1jWjFmd0FBRFBBUXhBamRDYU0xMjBEY2R3QW1laFVXUmd6Yl9IMnpHTlNIbWwxZzJaMnBFX3JxYUpqOE1SN3FXMFctZVBTODc1UjNtT3FBbkdJRjE3RUlF?oc=5",
+       "source": "The Times"
+      },
+      {
+       "title": "BBC Young Musician 2026 won by 18-year-old violinist Sofia Demetriades",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pNHNwcDdKOTUwaE1wUG93SmNTaUJMVVdvTGFTcWdFRVdyVV9kODZSWGF3b292ZjFoeGRCaXhSOV8yZXBKZWI3enl0eUoxNi1MOGJtMWR3bk1UbkFMSmVHdnA0LWtRNDFIQlhoZjE3RQ?oc=5",
+       "source": "BBC"
+      },
+      {
+       "title": "Violinist Sofia Demetriades wins BBC Young Musician 2026",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV0lKdXNOZEpvbXFsNkJQYktkTXlGdTFXT3o5SDRwYkV0NlJKdVZxRUtLQWh2dDNkWVdjRk9mb0FMZ2s5aG1SeG45WTI4RWpOUGNSTUdvaDZHWExZWUdrU0JQVGZscUZwTWs1QkxROWc2VmFWcHpXSllueU1SdHVVMWdvanRYNlFla1lN?oc=5",
+       "source": "Classical-Music.com"
+      },
+      {
+       "title": "Violinist, 18, wins BBC Young Musician 2026",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zNmZwMk5CVXhzbXVjZXdTNDhBQVBBRXdoWkk2enFOazd4Y3VHLUROd3JtMGVOdG90NU9tOWduUC1OMDdoWlRwLXhrYWg5S29DMXY2aEphbkM4ODJiZmNqdGgwWTBmTlBvMkRnV3NaQzEzLWlaWElhQ1c5TTJQZw?oc=5",
+       "source": "Slipped Disc"
+      },
+      {
+       "title": "Sofia Demetriades, 18, wins BBC Young Musician 2026 with Tchaikovsky’s Violin Concerto",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRU1YQVJIVHg1VGtNbWtvM3lWLUp5ajBScW9ROUVmUFhTWDJEMl9BQjhPb0o0RFBpM3FrbzZOUlNUR1k4TEhMLTE3OUd0Y2FZU3ltZkx5UUZSTU16UEtoSlhqaUV0alY5WWpKS0o2WW82aGwyNzFITW5xbUQ0WUlQYWFjX3ZFeV85WVR3dE9IQ2lxM2Fxd0FwMWx4S1VHOVZnVGVTNzFn?oc=5",
+       "source": "Nacionale"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
