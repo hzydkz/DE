@@ -1,0 +1,544 @@
+{
+ "date": "2026-11-03",
+ "generated_at": "2026-11-04T00:46:27.423834+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 1036,
+   "issues": [
+    {
+     "title": "카카오게임즈 '로스트 아이돌론스', 플레이스테이션 파트너 어워즈 최종 후보",
+     "summary": null,
+     "ai": false,
+     "article_count": 21,
+     "source_count": 21,
+     "links": [
+      {
+       "title": "카카오게임즈 '로스트 아이돌론스', 플레이스테이션 파트너 어워즈 최종 후보",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vdmR2Snk3OWo3Y2YyNTlqOHpXaW5GanZLSklxUENTMWlLcjVkVmpXYjFyN2JrMUk3Y19RWTJnR1YzMlU2dk54emdvcXJqTjNkTW50a08wcFowNHRVbGkxTWxxX2ZndlpSMFBLRkJB?oc=5",
+       "source": "뉴스후플러스"
+      },
+      {
+       "title": "로스트 아이돌론스: 베일 오브 더 위치, 플레이스테이션 파트너 어워즈 2026 후보 선정",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ONlBlaF83VnF3UGpEcHNnNm1veThvMDRaMFI1WkNXa2VoeUZSS2ozNjJTcDJwLUdLWU5zc08tbEM0OXNORDVRTlFteTlOT01nV2g3eDVDVjNnc19RWkRqcnFrV3Q?oc=5",
+       "source": "베타뉴스"
+      },
+      {
+       "title": "카카오게임즈 ‘로스트 아이돌론스’, 플레이스테이션 어워즈 최종 후보",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ndTdrZGZyUk9JOWF2TFdMOGxPbndSU0RUdUtEaENRWTZLN1o1RGxiQlR0U3VkUWd2MF80ZFlmYzFid3owZzBUbjBVcm5RUjVudmdVNUhDN2NxZGdIVlZxeTg1NG05c2FYUW8wUVRGcw?oc=5",
+       "source": "뉴스퀘스트"
+      },
+      {
+       "title": "카카오게임즈 '로스트 아이돌론스: 베일 오브 더 위치', SIE 공식 어워드 최종 후보 올라",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4yU0N1ZXYta2tRcHpINVdXUlBBd20wY0RHOWRleG5tem5DNDA5SVJEOFNoLUhiLTNyVmxGN1dmSUFucXZnYmhRVGR6MHF5NDdaejRvekZ3?oc=5",
+       "source": "지디넷코리아"
+      },
+      {
+       "title": "카카오게임즈 로스트 아이돌론스, 인디 크리에이터 어워드 부문 최종 후보 선정",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1djV4dzhRVzl1QW5xQ0JwU0VtNW15ckJHc0kyUUVtbUFNTEZLU0VfQ3V1c1R4SnBjSDhuX2JkOEJDZkowZlRTQXBGSWU3REhURG5hLXBDV3U1YmdkQWNPYQ?oc=5",
+       "source": "NSP통신"
+      }
+     ]
+    },
+    {
+     "title": "이무진, 1년 6개월 만에 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 15,
+     "source_count": 15,
+     "links": [
+      {
+       "title": "이무진, 1년 6개월 만에 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzS2pCTW04R25zZ216c1V1YzFSRS1WYmc0QXZzYzhJVldIZzdGbUplN3RzQWVjaUF5ckd0dGdzcFQ1RXFTS3lTanlULVZJNzN3QTE3UDBnUUp1UzNJd0wwQUgtc2Q?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "이무진, 1년 6개월만에 신곡 ‘밤무대’ 발매 확정…이번에도 자작곡",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWRkJoY29zTzkzb2h1R1A2REZYQi1yVkJrdWw1WElPVEYxQmRlRGVHdjZTZUhkUjFSWVNscU5TenFHQ0FpOHo1LWJCNUVLdW5DNkQ4?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "이무진, 1년 6개월만에 신곡 ‘밤무대’ 발매 확정…이번에도 자작곡",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU1Qwc0NZTU05cEFBY2hnaFdXVTE3TTVnSTNUUEFLT0NwT19IYU4xR2o1SnV2N1otNEdUVFYxRWFibUQ5dkRoNEE0djZNemRWMHg4eUNob0lFYmQ5SHdUYzRyZFhjTzBTai1tNElvMXd4MTR3SU9UTGtLQ19yellVLWhCU1JJN3VzRHZWelpRa3RJTUljMGt2UjhJSkZQaUo4YldmMlRWNNIBpwFBVV95cUxNU1Qwc0NZTU05cEFBY2hnaFdXVTE3TTVnSTNUUEFLT0NwT19IYU4xR2o1SnV2N1otNEdUVFYxRWFibUQ5dkRoNEE0djZNemRWMHg4eUNob0lFYmQ5SHdUYzRyZFhjTzBTai1tNElvMXd4MTR3SU9UTGtLQ19yellVLWhCU1JJN3VzRHZWelpRa3RJTUljMGt2UjhJSkZQaUo4YldmMlRWNA?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "이무진, 1년 6개월만에 신곡 ‘밤무대’ 발매 확정…이번에도 자작곡",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTk14X2p3WXRjbnJzdzhIdS1BSGdybmo0YTRoTVJpQk1EaGpzdGtFOEt6cXBXRE85cTFvQmY0NWxTcGtpZmxZTWpmTWZULUI4VWhuOUJlRGxuUmktMHZ6bnB1RGxDa19QZXV1RjJ5MWRDams0VjVicmJRLTdlYjl6cl9NRUNOSEY1NGc?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "이무진, 새 싱글 ‘밤무대’ 발매…1년 6개월 만의 신곡",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VLUdGbEJSNGpTT0g0VGc3WExlUWs3a1FDbkZtUE9yZjRhN0JfU3RPdE9PazM3VGVXNi15aGZYTEwtNjBnSE1PVUxkRWlHUFItaGFfbWc4Rm1yY3ZHOWN2VWk5Sk02LWhiT3QyRndlRTVtZw?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "'국민 걸그룹' 돌아온다! 리센느, 오늘(3일) 미니 4집 'PULSE' 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "'국민 걸그룹' 돌아온다! 리센느, 오늘(3일) 미니 4집 'PULSE' 컴백",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UUDZWZG8ySUY1ZkpWYkhjWmNXTlpzX0hBZk1XQnNLZ2JfV0VPZ0NPdzJLQ01WYVVnTGtiWEtHbmNLQUx5NFFJd2o0Nk9fTUhJUW1nNDMxOER6S3htbTBXS1Vrc2Y5LW1QS0g2RVpfOVpkeElH?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "리센느, 오늘 미니 4집 ‘PULSE’ 발매…타이틀곡 ‘With’로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZQ29EY1o3NTQ0b2o3TndWb1VDOXFQeXg4MDdubl81eExvbnlCbUNGcjQ4ZXV4UFdsT3dIVkljTER5dlJRcm50NExrMXdOWjhOekVjbE5PYkE1VWpRYkV3YlduSE84ZGhVNFVVM2FKZHYxQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "리센느, 미니 4집 컴백…‘국민 걸그룹’ 방점 찍는다 [DA투데이]",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9naEJMcUV3d1h4V0ZEWjhtb3FoN3lxTzE1bnFyVHZ0TWd2R0VvOXlac3daS1lfZGw1RkNpMC1OWUZCVmh4c2tqcTlKQldUZF84UVRkZndHa21tbnBRbURKNjVTVnZvUWIyU05aNjd3?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "신곡 '펄스'로 돌아온 리센느",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BREFrblNiNzRSWlVXZlc2dm5yMU9jUDhOdi1jOEZrbXY5RkxaVHVTbTZrQTJOUDZsbjFrRWhqRzVFekdNUW5qOHVFMWhGOFJwaFdZUzV3b3hfNmRm?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "[뉴스1 PICK] '국민 걸그룹' 리센느 미니 4집 '펄스' 발매 기념 쇼케이스 현장",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85MzZ2dzItNHdpelpCMGcwRUUzWWliVTVqLUpVaktObTNMY3FxTHo5TnE1X3pic2t0LXA1RlI4TDIyd0dXWl96WTRndlN0T1ZBNDdyUUpjUkVIMld2aW45SngtY1c?oc=5",
+       "source": "뉴스1"
+      }
+     ]
+    },
+    {
+     "title": "인디스땅스 출신 뮤지션 8팀 한자리에… ‘‘인디스땅스 콘서트’ 22일 개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "인디스땅스 출신 뮤지션 8팀 한자리에… ‘‘인디스땅스 콘서트’ 22일 개최",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WNnU5NmlqdDdMWEpUay1uSmpOaEpxTjc0aG45eUo1WHkwS3BPdFp3RTVxbWFISVVuOXlHZkN0ZnRNbE91d0RVQlBOZFNPbXpVTU1ZMTdBNDJmcm1LMi1OSVN1UQ?oc=5",
+       "source": "쿠키뉴스"
+      },
+      {
+       "title": "경콘진, 인디 뮤지션 8팀 한자리에…‘인디스땅스 콘서트’ 22일 광명서 개최",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ITXhZMkJXNXYzVzVUSVlPQkVXaTRZcFJpR2V1LTRnblZ4UEhTSGlOTzVVcGFpT1FYQ21lQzNlNWZ4NGF6VHJVM3QwY3VYbHNvLW1TcEx0ZXpncFZ5eDV6OFI2YTc?oc=5",
+       "source": "중앙뉴스타임스"
+      },
+      {
+       "title": "인디스땅스 출신 뮤지션 8팀, 광명서 합동 무대…경콘진 ‘인땅콘’ 개최",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ERDJ6UjNoejVIUEoxSTBWUTFiMjB2QkU5U1ZpNU1CeGlPc2ZSZXYwT1djYUQ0M3N3MUZhZDRzM2tSbjhlbF9BRnhGSHQ1eWZZekloNGFHYUh3R21mZktaYXgxR2hUcWdzMGZHMDhn?oc=5",
+       "source": "투어코리아"
+      },
+      {
+       "title": "7500여 팀이 거쳐간 ‘인디스땅스’ 경콘진, 22일 특별 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1FYWRmNUVtMnRyaGhGTm8zeU1sY1Zmb25seDNqMWdmcTR3eEhRVlpNX1FEZTctVEhzcWFFXzRkSUpWUFltREE?oc=5",
+       "source": "케이에스피뉴스"
+      },
+      {
+       "title": "경콘진, 인디스땅스 출신 뮤지션 8팀 한자리에",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YTGltMTY5ODROUnN2ZXpCRzZ2dnU5X0hxb0tpMzM0Q3QwYU9SQkUzUnF6dkRndTd0MVdBOFFsYkI3dE1tZE40anlaQVdXeUxXTlFtWjJn?oc=5",
+       "source": "지디넷코리아"
+      }
+     ]
+    },
+    {
+     "title": "프로듀서 조영수가 론칭한 버추얼 가수 WON, 8일 데뷔…첫 싱글 ‘Mama Song’ 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "프로듀서 조영수가 론칭한 버추얼 가수 WON, 8일 데뷔…첫 싱글 ‘Mama Song’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xRmppemc0SzdHWmo3YVExOHBxakxGTEYtMWdhNjkzcXFud1QtbWJ3Q0VpVFFsdXRVV0N5SldjVExua19wY0VnZzVCRjB2T3JsQks4R0NfWXJlcWFEQ29FaFhaWFE0aklDa05Xb3RCV2FBTFFl?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "조영수 제작 버추얼 가수 원, 8일 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zZ1Zib0l2VzcwclB2M0MzMHZiRXhqelZiUm83LXhlMWxmRmpmaEszS1dpeW9CNmJ5a0VNb2h1Q1Z4Rmt3a0xNdUI4RjZxRl81N0lkWVFEUnpHQmNWYW5ZTmtaWGk?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "버추얼 가수 WON, 8일 첫 싱글 ‘Mama Song’ 발매하며 정식 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hME0wYnZUTzFJdjZlNmlPQUZQSWlrLWRyN0d6ei10VnA2XzZ4VkM3NF9RNlRqZlZuWDlDQW0zcnh3amc2Vnhmc1NhM3lIallVaWlNNUMtc2piS3JTaXZUUml4M2RENU5IX1c1bDQyMnRGQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "버추얼 가수 WON(원), 'Mama Song' 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xU1NIRjdlUlc0LS1xOXZ6ODg2aElNOENwd0pmY3BBLTU2NnFVWUJmWHo2bWdTQ2RULWM1UGpKRElVNkFtZzVfM3ZCQkp6VGstbFJNbw?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "'조영수 론칭' 버추얼 가수 WON, 데뷔 D-5..MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81N3pkTTNLeEM0bnpLM3l0b0pnZm9NVDZfQTFRSS1ESXVMWHFndHhMSGJSX2sxSksyaFVPS1luc3VCVTdpa1UyUXl3Z3V5RU1OT2VTRQ?oc=5",
+       "source": "OSEN"
+      }
+     ]
+    },
+    {
+     "title": "Nicole Taylor Dies at 35: Taylor Red Singer’s Death Announced by Her Triplet Sisters (Video)",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "Nicole Taylor Dies at 35: Taylor Red Singer’s Death Announced by Her Triplet Sisters (Video)",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBTmRFZV9Banktd0RmMl8wWlFjTHlGSTQtR0pTYlQ1OXBUZFF5a0Z1amhUTUkyblloQ0cyUVoxeDlvOXlXV19fblpUd0gzUGhVeC1UMERaWHF5TVBiOUxwSkE2d1FSV2NiNXc?oc=5",
+       "source": "IMDb"
+      },
+      {
+       "title": "Nicole Taylor cause of death: Country singer of identical triplets' band Taylor Red dies at the age of 35",
+       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOUFJkVDhQRjJZVWF2NTFSRlFaSzk1dzVhOURwNkpTRjItTjhpeGl2N2t1MDllQ3dkRm8yWS1lSy0wVy1iaVBIOWhpcXM2Q0pUWVN4R1NKOHJOdEw4SzM2eGlUdHo1dTNWSEhDVzA5U082YXNMcDFNYnJiWlZjejYzSmRxN2xMa0tZNGNrM0FXUEc1ZmpIVXhTOUt0bkE4T1VXVHdjRUFYZDZtWGdLWUtsUzNTeHUydk92UVYtSEpBVVc3RnlxUGhLTGdCVm04UjItc1E4T1FSdG9UYmhHX1FPVjdXUkl5WFpIc1pzQ3E2U2lnR0FqRXhHZnh5dWs0TFlITmQ2SF930gGLAkFVX3lxTE4taDlnTi1qY3pybzVpdUg0UHU0N1NJcnhpd3hNcXlXbHFnVnlmN0JWZ2JicHRsWW8ycmdCaUVLTmhKMnhYdEJMTjNlNUJjNGZxMG9mOC12MkNsV0V4MllXQ050bDFJMzVtdGhuWm5NR2lLUHIySzI5aUktS1d0bzFaRWlxRHBGUFItYU9CVkNzaXE0WEtaWFdoX0xxVUFybGt4dmNDR3IyZThCQjE3Zjl6U05sQ0pTMXltWVJ5emk5OGh1SnptM3g0VHVNY2daREhaWWxrX3FhWC0xSFhoWDk5UnRvdzFJN1pkcWRwb3I4OWplNmw3Qk9jOExsQnJVNHNhTmNpOWJSOXctbw?oc=5",
+       "source": "The Economic Times"
+      },
+      {
+       "title": "Taylor Red singer Nicole's death leaves sisters 'heartbroken'",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQck1NbDRVc1ZIYjhCZF9BRHpGeDJCUTVfaGczLUNDdm1kZEFIVkQxcGJtMHZsMEM1aXFHNk1zWlI2cGNQTVFmcUVKWXFiZXhZM3hyWU9pa0g2M1NKT0Q1XzNZWGlEOFdQczhCMXJCUFNOUFlGMzdJUEZmS1lhblhmZGM3dWtwX0tOcGhVRHB6YVZNSGdXLUQwcmJ3cWhPX3J6Y3N0QVJ3X2JteVHSAacBQVVfeXFMUG1QM3Z1dEZGOXdOeFVaRUZuZ2ZZZEMxdndEMXhIOXdYT0dGSUpIdlZNNmZ3Ykc2d2UyVkloYjN0V09yMTNRUDZudnNNbjhuUUl1R2dGNVVhNjBHV1phT3o3V1VZaXBCUE00SnFUQXVIa1JJQnpsUnJfRUViaWpSY0Y4XzB1eTlXa1RXaXdMYU01UGxTVm5vSmFyVlVENUQybE1yM2VJV00?oc=5",
+       "source": "The News International"
+      },
+      {
+       "title": "Taylor Red singer dies at 35 as 'heartbroken' triplet sisters reveal country star's cause of death",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNEx2cG0xMUVvaXhILXBMN2ZRdmNJT2Q3UXBkOVViWHNzLU40cTd1NkRjVElBcUtSUVM2N0J4SzUxT1JyUTFLSzBCVlUtZGcxSlhFZTNqOTBqZG13REczS2gzQkRuMzRFalNNYXZMQmZkWVJETTV3OVBvMVliV1R3c25mSUR1Sm1YVGxV?oc=5",
+       "source": "HELLO!"
+      },
+      {
+       "title": "Taylor Red country singer Nicole Taylor dead at 35, triplet sisters reveal 'heartbreaking' cause of death",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSDRuSUhZV3JweDF5NmdsWktvMzVvcmEtRW9JLVI3eWxpeHlFSDdwRElGYy1vVUY4VG9pd3F1NG1DSHdZRkc4RUxacVB1VmxyQ1VhcjNuNTFyeTZJVzFrNXVWbDNrWHBFODgyRW5scTZzR3FKeGVqNTVHNEpZVGpRMzV2ZkdjLXFSQ2ZId01JZkN6a0RBR29lSmxtMlpldw?oc=5",
+       "source": "Page Six"
+      }
+     ]
+    },
+    {
+     "title": "세븐틴 디노, 오늘 깜짝 신곡 발표",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "세븐틴 디노, 오늘 깜짝 신곡 발표",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ualNSaDhXVHpGdWcwdW1Md081RmRRSWpmajZLMUpGRFRQQnV4TEhWeHRWd2tlNDc4WHhmMy1oSWlnWnBpUjNPQVlXVzUxclgzRHhEYmlyOHJuTEhpUFJubF9YYXE?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "세븐틴 디노, 오늘 신곡 ‘AUTOMATIC’ 발표…작사·작곡 참여",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NckpQdmRBWThnZVdGX0phWVBIcm1aMUYtVHNoTV91enFVQTMzcERqM3h4MzQyZFY1ZXBvMm9sZ2ltSG5IOVJRaXNmNW5CUzdlQmUtdk1meUd3R2ppRlpPeXFqN3VfV1g4eS1KMnhtRlVMdw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "세븐틴 디노, 신곡 ‘AUTOMATIC’ 3일 깜짝 발표",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zLXRMVVl3UjJLNkl3ZXVSTnJ4R2VHTkROaElZa3pOWnY5S0loMl9CNGNHZllXVm5zV0ZnWHN6T1JIR3l5XzNLWEM0NWZrNy1L?oc=5",
+       "source": "문화일보"
+      },
+      {
+       "title": "[문화 이슈] 세븐틴 디노, 오늘(3일) 신곡 ‘AUTOMATIC’ 깜짝 발표",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MLVN5b1dQMTNZQ2lWalg3eTJRby12MUROSUlSUmVSaVRoMFp4SFo2SGtDQ3dhVWk3Ry04RHZzMWFHaUxWTU15eVdOQ2ZRUTdmVXFORDFXQ3hLZEI3ZllwZzhnNGE3TTFKb1llQlJ0UGROQkdUY3BjZERKZGk?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "[가요소식] 세븐틴 디노, 신곡 '오토매틱'…작사·작곡 참여",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55WUJxajllenVoY0ZESzhfQl9VczJUU3BlakpuRkZNWGsxZVJKNW5BcmRyYTJZdEVZY2Y4WDVJZXZsTmxNTVBEY3M2VUVfNV8zRk5nWmdOSVNhU2fSAWBBVV95cUxQdTYyUWFGZ0s4d1g5WVNINnF4dkFnM1ZTVTRuTldUU1pBMU5Uc282eV9KZ0hOUjFYRXNlb0cxWkNsOGFIRUNidXh1WllIT0liOHdvelVZWlNiMERIN3doYTc?oc=5",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "트레저, 신곡 ‘SHOCK’ 아이튠즈 10개 지역 1위…뮤직비디오 600만 뷰 돌파",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "트레저, 신곡 ‘SHOCK’ 아이튠즈 10개 지역 1위…뮤직비디오 600만 뷰 돌파",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4Nmp1UGlCY3hLd3M2dkxONEdCMmY1cnE1c2RPbmxJR0FkaGowdFoxRzVJV2FpNWk1cFdiSmhLU3ZwdEtoYzZKTTQydC02UDIwRHR2X3JtM0ptYWl5T2c2UjZTVmNwbV85MXQ1RXA3cXI4Zw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "트레저, 신곡 ‘쇼크’ 10개 지역 1위→MV 600만 돌파…KGMA서 열기 잇는다",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBqdHMzX2ZVQ2kzYXp5OGUtYi00c0hDcUliX3FoLUo0b0F1WC1BNXkxZFJyd2FrOG5vVFJWU1pxOUZyMHlxUkVuS3VXZldhbllMMEpCNjhYZDVoZmVkd182NXR3?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "트레저, 신곡 ‘SHOCK’ 아이튠즈 10개 지역 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44bE1QUWEybmZ6MTkweVZOQlNmTFZ2RXh5eXZabWRkY2Ftb3EyQW1Xd0ZPMXhpVDRjTnNDOTI2elA0TURsR19KWl9ITDc2VDNOSEhRbWR5Yjdrem52NW9FUm9UNFI?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "트레저, 'SHOCK' 컴백과 동시에 中·日 포함 10개 지역 1위",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NSlY3aVliMDlvczRNbDRuNENLUUp6TmIta1NSNHhwUGl4Wm1RRXpYci1JOURROFp0THdFUEdIMXBqOFNxRTJhQ3FkZkZjUndvaXJFOA?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "트레저, '쇼크' 아이튠즈 10개 지역 1위로 '화려한 컴백 신고식'…中·日 주요 차트도 정상",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAteGJ1bG1tVk1aX2doWlNxQmw1RUJud3U4X3FhY2I0ZmlyX2o5RHV1MTFjZkw4LUNfZTlYaFJXV283S182ZTktaFNNV291UjVqUGJPN1o0cjMxQV9XMnAwZlJGbWFZeS16eEhxU3p3cnA?oc=5",
+       "source": "SPOTV NEWS"
+      }
+     ]
+    },
+    {
+     "title": "‘Everlasting Love’ Singer Steve Ellis Dies at 76",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "‘Everlasting Love’ Singer Steve Ellis Dies at 76",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONFZtaF9xVXQ5THpRVXJqTm1sMTltVmx4dVFKdGs3LVN4STR3T3BzblpHbEtWTjVRRjZNZmRQSzN3SzBHWTlOMC1rUTFVXzNfTEJnaXBtSzZPT0NwVlY1aW5vRHBmckw0T1Nldlg2ZnRlRVBYVUg0R3k2SXRreGFJM1VB?oc=5",
+       "source": "The Daily Beast"
+      },
+      {
+       "title": "Steve Ellis, lead singer of Love Affair, dies at 76",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPek1hSmxfVXJycDdWa01ZdHA4T1FJdS03bUFjUHFxWElzblo3N09SemR1cnhOMUdoX0lUSUZGcFVLeXBxMUV3YkdqMzFlSFdZV3lGdGlUdUZOY2o1NzBUNXdYODlFc20yOXNTYjJrTy1zUjRmZzZxZUdSc3BnbUZFdUFtMzZKSVp1TnpUSGRydk1JaHpUTnloblUtZlRnNHFyckNQOGZTWVRDeEdqWFp5dEhsTFIxcE0?oc=5",
+       "source": "Detroit Free Press"
+      },
+      {
+       "title": "Steve Ellis, Frontman of 1960s Band Love Affair, Dies at 76",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaURiUE1uOTZIT0FteTkzWXo4Vnl1aVZLek5IV3l4ZWNuZ240VW1ZOVctaTZtaF9MOUI0OVNwbW9xVjNKYUVDZnpfN2dFcVl2ejlUeTIyRThvYXBPNWdFT1o2Y0dqYndWeFhvWjZqem81X0N2OTdPdktzMUdoYkRnUlBuZU1nY2N0RkVGQ25xMlVjYi1w?oc=5",
+       "source": "Men's Journal"
+      },
+      {
+       "title": "Steve Ellis, Singer of Love Affair’s ‘Everlasting Love,’ Dies at 76",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQXVhMjNxWmtwWXlLRGlWM2NCYnlfUjhMcE1LdmhoeGFIckhxMlZjd2hQb0xRcW5rWEFFdTdBVUhNYl8zU0RlTmxlNlJ6YWhvdlc0ZENmSmNaOVN0X19kdERwNTY2YkMxaVdtSVVxdGxNX1RKbHJiVlZ1eTdGN1pNSzFST1NoVjJGaFczS0t6QQ?oc=5",
+       "source": "Parade Magazine"
+      },
+      {
+       "title": "Steve Ellis, Singer of Love Affair’s Hit ‘Everlasting Love,’ Dies at 76",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcktNZHdZSHdEbEZ2MkE2Z1FlNGx5bmR6TDVQdmxsREd2UUNHMFdoS1hfdVpaZkpPOWhVSGFfbnpaLWh4R3VFNEhIWE5vdi1WWjRxM0NEUDVqQTBwOXBaQzBXaWxqZHZYV1h1NDlNZlpudzRhZEYzOTFXNWZCbjNXdw?oc=5",
+       "source": "People.com"
+      }
+     ]
+    },
+    {
+     "title": "리센느 신곡 '위드', 발매 첫날 멜론 '톱 100' 1위 직행",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "리센느 신곡 '위드', 발매 첫날 멜론 '톱 100' 1위 직행",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Vdlg1RXBicjRuNDJXYkNQYjh3azlEMUhLc0wwNVRVc0kwV2Nxano5cXpNbWxnVm85NndmSXVsak55R0l1cXYxZy1hbEFuWFhva1h6MGdNTkViVWfSAWBBVV95cUxPYkhpaUphSVl6VzFiNWprZEJmWDZrYmxVV3dYdjZXWVFzSUZLUlY4bWwwZGx1SF94eS1CVmNXTUVuMmdvRnBsMFUxRWhOdlZWeGZuMF9CS25odHhmbm5wR2Q?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "리센느 신곡 '위드', 발매 첫날 멜론 '톱 100' 1위 직행",
+       "url": "https://www.yna.co.kr/view/AKR20261103181100005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "리센느 신곡 ‘위드’, 발매 첫날 멜론 ‘톱 100’ 1위",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fRWVGa2Q3SXVjWTVvaTh3RVFSOUdQTVdRd1l0MDJ5S1EyNS1RMlV5T19YdG90aXY4dUdVUFhRM0hfcDJIdGtERDd3cnE4emZXeUtuSmh2UnhfVjBDc3RoU0RqS2YzeXhMRzQ3WW9icFNPUklabkHSAWZBVV95cUxNNkpLeFljSktpU0xYRUxVRGxMTUE4VWtVbHp0S1o0SkpadkRWNlduZDBhSmpHSDUycFZTNjNPVFdOOEswSTlULWx6MmRsMkFOSWhuNVQ0MDFtaWZfV19lQnZlLXo2V3c?oc=5",
+       "source": "동아일보"
+      },
+      {
+       "title": "리센느 신곡 '위드' 발매 첫날 불 뿜었다... 멜론 '톱 100' 1위",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZTDJTN2lmejgtWGFpWHFrZzNKRGt6akFGOWo3M3dPSm5JYXItdnNybWxOdHplaFl4aTRTTVh5dVNGcWZENlBYcGJZZ2oyNTZkUDY3RGhJd1dKQXFZY2xVdlBfXzVqcGpPSkVEYQ?oc=5",
+       "source": "생생비즈플러스"
+      },
+      {
+       "title": "리센느 신곡 '위드', 발매 첫날 2시간만에 멜론 '톱 100' 1위 차지",
+       "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNVXlpZWNtb3BoejlEUXNVRjdMYUZUZ3N5N241RjltS280OGVTWDJpYjFGUC03Nm1vNDU3cnN1OC1Wa21Cbm1rRGhjZGQ0RXYwMkFQWkVDVk9VLXZYWFZidjNYUGp2bVUwVFdzeXFDNWQydjEwN3ZpSlFOV01WUUVydU1zREpad2l6N1daQWVvcVQtYUlXUy1kTGpNNmg0czduamktX1BYbm1IV0tTdElKU3pKZnBlR2tFakVmOXFUN0F1R3pkNGtsYzV2Sl9hSlIwanRiOS1uVzJKUlhRbk9rcGlfMkVpbnZzTEROa2Q0czI1LW85dzE3VmRraWpRR21VWXlHNVhqbmg5T0twaF84WG9aYXFPTGp3RFJ2M3E0WFZCNnBxaVJOdlgyZERSUTVIeUh5b1dxLWoyRzhGQS1yVURyU3dmcGlybHhhSUZXSGVxYmlwWF9hN01ISTQ?oc=5",
+       "source": "중앙신문"
+      }
+     ]
+    },
+    {
+     "title": "평택시, 평균 77세 시니어 래퍼 8명 힙합 공연 개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "평택시, 평균 77세 시니어 래퍼 8명 힙합 공연 개최",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGRmpVc2I5NTRIekFMMTJhX2s0bUNGTktYcjVIZzhYWDRiMm4wa3p4ZTVnRkJpdFVCcms4cUNId2RGTW5BbnUya1U0MzRidmlpTGQxcjVrSjNSb01iUDliN0NZN3FrM1M2SG9jLTU5U19DaU50QlFnU2dUcU0xX2vSAX9BVV95cUxQRkZqVXNiOTU0SHpBTDEyYV9rNG1DRk5LWHI1SGc4WFg0YjJuMGt6eGU1Z0ZCaXRVQnJrOHFDSHdkRk1uQW51MmtVNDM0YnZpaUxkMXI1a0ozUm9NYlA5YjdDWTdxazNTNkhvYy01OVNfQ2lOdEJRZ1NnVHFNMV9r?oc=5",
+       "source": "뉴데일리 경기"
+      },
+      {
+       "title": "평택시, 할머니 래퍼 ‘리듬 위의 내 이야기 for 시니어’ 공연",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Wc2ZIRndCM2Q2OG02ZmwzeHp4ZHNWbURiWXhJOUU2SlZkeTFFLTBGNVlDOFEtejJuMkpFbUtHVS00OUtpb08xZ2piNnJLWDYwSkdneElERVNtVWhLclVsTk1zUUw4T1V5ZHZKVjh3MNIBc0FVX3lxTFBlOUQweGxJOHFmTlZ5QkMyeVVwdk04OTMza3hxSXNPWlBUZG1OSWNUWDJDNUFHQVB5SlhPZGR1U0g3NzQ4dXZvZkI5YW50OEpYM1hZQlYtVDg2b3lZZW9sUW5OOTU3b0UtdHNKc0g3X2F4c2M?oc=5",
+       "source": "데일리한국"
+      },
+      {
+       "title": "평택시, 시니어 래퍼들의 인생 담은 힙합 라이브 공연 개최",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SS3lyR0lfUmQwalVsMVRKZDVLdzAwZGNRdzdHMEZuSDV2MEhxblJTMy1HRFQ3dmNuNndIYWJBYWZwbEh4XzEyc0w2SWYwb3AzODQxbnI0SGw?oc=5",
+       "source": "경충일보"
+      },
+      {
+       "title": "평균 77세 할머니 래퍼 8명 힙합 공연, 평택 지산초록도서관에서 한다",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5SzdVUExBWVlCOHFBMmxVME5ocldPbGhORkQ5ejFGaEVBMDA4NXo1X2lCU3lvVGVMUkVnOFF5N3hyNmg4N0F2ZGtKUjBqUXlaLWRPUXdLYTFkRnh4aExST1N5bWdwQQ?oc=5",
+       "source": "검경일보"
+      },
+      {
+       "title": "평균 77세 할머니 래퍼 8명 무대 오른다…평택서 ‘인생 힙합’",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5leko5LUttWlh5QUtSMmt0a2RKY2Zndk1ZdnpFQ2pHT2pxMjlZa1dyN3UtQjZ3VFZaX05WWW1DTURvb3ZSbGtPdVdJMWhXYTNla2cydXNibmVHQQ?oc=5",
+       "source": "브릿지경제"
+      }
+     ]
+    },
+    {
+     "title": "트와이스 나연, 20일 솔로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "트와이스 나연, 20일 솔로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VWGRYZFd6T19XSmtlR21TeE1lYkVUX1NuX00tSkNzUWJoRExIV2lteEl0Y3pWaktleEJnZjJYTFBaZzBra0ZkbGl1cEhCWUdkM0Jqc29VNEpOOXFQT3BXVlhGbUk?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "트와이스 나연, 솔로 싱글 ‘NA-sty’로 11월 20일 컴백…타이틀은 ‘BABY ANGEL’",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KZ2RuMEc4R1JmYlEyb3loR3RvUFdkQWQ2bjUyVmJjY095b1l4aTlUQkN4MVVjV1o5Q3c3TDlia3JSU2Jwc3VQN1U5SlFMR0FVdkRRd2VtYjhEbGlUeVZGMVlERkhpNlJtc2tEeWl0Tk8tdw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "트와이스 나연, 솔로 컴백 곡은 'BABY ANGEL'",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMDMxQXZGQ0YtWDlTbjAyQ0ZkTWllRU1GaS11U2x1QkppdWwxN0lfRkV3RUx2VjlQQUlCNWp1NG9yQmhvaVJ2aXE4TnNUeVBwZ0d4MDQtRGZybTh0Nmg3cEtOTXFKUFhUM3VQcm1MSk5leHc2OEFRc3ZGZmpxdGx5MHV5Zkg4TTUybFFfOERIeTFJMmV2dnZncmVqa1FRelVkdGxadmZzY9IBpwFBVV95cUxOMDMxQXZGQ0YtWDlTbjAyQ0ZkTWllRU1GaS11U2x1QkppdWwxN0lfRkV3RUx2VjlQQUlCNWp1NG9yQmhvaVJ2aXE4TnNUeVBwZ0d4MDQtRGZybTh0Nmg3cEtOTXFKUFhUM3VQcm1MSk5leHc2OEFRc3ZGZmpxdGx5MHV5Zkg4TTUybFFfOERIeTFJMmV2dnZncmVqa1FRelVkdGxadmZzYw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "트와이스 나연, 솔로 컴백 곡은 'BABY ANGEL'",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54V2ZLWW5NTGlPZDIxSnlwcDhxZV9YUF9JanMyUnJ5MER3NEpUWThXWkt2TFRzT1ZJNkVDdHVTQTlzeGhSbk9tZ2h3WXN3UVFLZHlz?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "트와이스 나연, 2년 5개월 만 솔로 컴백…타이틀곡은 `BABY ANGEL`",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYUnpZOG41dTkxZVRsbVd2bnVmS1ZKUDhRN2U4RFZkM0NYTGpvVklId1NfaU1IQW51cHdSSzhZTjBXaDQ3Wm9hbTFoWXJpQXBEMk1QVUdhTDVfSmU1a1hJUw?oc=5",
+       "source": "마이데일리"
+      }
+     ]
+    },
+    {
+     "title": "세종보헤미안뮤직페스티벌, 역대 최다 2만8천명 기록…전국 음악축제로 도약",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "세종보헤미안뮤직페스티벌, 역대 최다 2만8천명 기록…전국 음악축제로 도약",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94b0VQZ3lCVEluX2lCNE42c0hkWUxaOWVEMTZCYWQwOS02STM2cU5wdzFFWnVmWTV4dVpUdDZFUXRRam9SZjBFcGp4OVNFa080c0NFdDhDU0xBQ1dWZ2cxYTdaWktIZEtsbjJUSU9n?oc=5",
+       "source": "뉴스홈(newshome)"
+      },
+      {
+       "title": "세종보헤미안뮤직페스티벌 2만8천 명…역대 최다 관객",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yMU50SlJjOEJmaTlfbS13SjdSZG9ONkowVmxBLVF3bEdXZFdXSVlQVktmdVdzMjNBdDF0M1NRN1J2TklCRDlMZGtkN0NTUQ?oc=5",
+       "source": "대전인터넷신문"
+      },
+      {
+       "title": "세종보헤미안뮤직페스티벌, 2만8000명 '역대 최다' 방문",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lUWNmVFdVUXB4VWpmbmFFbi1qekw3eUF5OVBlWGpDRWE0ZjV3ZUc0NEp3Q0lSZTNRVV9WRDdBaExKOWdMbGljVXBaenZuZUlMT19IVlF0eEladVJt?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "세종보헤미안뮤직페스티벌, 역대 최다 2만 8천 명 관객과 함께 성료",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqUzNRQ3NhWGRwYWJIQUFYYzltNkQ5NWxDQ1hjdzFLZVEwdXhmZmdBUVF2UUhWb3NfTlBOZGh2aEF1bnpEaTFHSE1KbjFLNjdFTVFIQ00xMmdVc0UtYk9lYVFBSkJCTlgwMjM3QkFaWjVCZw?oc=5",
+       "source": "웹이코노미"
+      },
+      {
+       "title": "세종보헤미안뮤직페스티벌, 비를 뚫고 역대 최다 관객 2만 8천 명 기록하며 성료",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iQ2dXV0FVMWNyZWRTVDNIdU1lQ2JVRXp2QTlpX3RaWWFJbFVZT0xicEZDWnp2dTlaSm9HdEhUbzRKNjdxVDJyOUxWbjlGcHhlV2xxQUZuUG9ueWRSQURRakR4LVJEQVA5Wnhr?oc=5",
+       "source": "충청메시지"
+      }
+     ]
+    },
+    {
+     "title": "드래곤포니, 5일 컴백…록 감성 폭발",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "드래곤포니, 5일 컴백…록 감성 폭발",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lQllZYWxJc2ZYX3V2WG80di03WFFOTHA0QUdzYjNNaGRzLXRsWmFKY3RIOXRJUjVKalNOYVdCbDc4Y3dDSFd6NF9zZUYtN2NxbU0tS3NyOEtVTWJTbTllNU05WVQ?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "드래곤포니, 신곡 ‘Calling back’ MV 티저 공개…5일 싱글 발매",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oZWZKcS1pRV85Ty1OSFM5bXB6ZURoak9NYm5HQzl0b3hnNjVWM3hrbnY2NGd0YzdYRTlBcnhReF9Gc2JTbUtfNENqTjZHa2F5NHUyNWhVR1EzRmFreW9POWNJVXlYTE9xZFV2NlhkYVRoQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "드래곤포니, 애절하고 강렬한 록 사운드 컴백..'Calling back'",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UOWlmMXd3WW9YSmtGMWdqSGxxel9ILVE3Y3Z0ZzNkVTRhcGcwM3dlZ0hRN19Femk3NENRMUtJLVNvQ2xndHRRN0EtdFBKYVFtci1UYg?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "드래곤포니, 신곡 ‘콜링 백’ 뮤비 이목…‘애절+강렬’ 록 사운드",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zaEtCWHlsc2xONTlCVDBsMUNkcmYwTVE2UnhRUzdiNWo1WkpnVXhZa3FkRmVjd0Y4eTVOZy1remVmRmlPemIwb2JOQ0d5YUJZYzA0?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "드래곤포니, 신곡 '콜링 백' MV 티저 공개…강렬한 록 사운드 예고",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DaEE3THgyRXluSHZsQ3BuMFJCcjA3VFJpMFNoSDMySkpDZVRMWTFobEZKNjZYbko1TXhpY3lQaGN6OUZyWC1NS1hvMW4wSFU1UUd5cnZfT2hpS2IwN21yWDNqSmxGUExDUS1xNFBBVlo?oc=5",
+       "source": "SPOTV NEWS"
+      }
+     ]
+    },
+    {
+     "title": "남원시, 유태평양×한웅원밴드 '그루브 in 판소리' 개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "남원시, 유태평양×한웅원밴드 '그루브 in 판소리' 개최",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkbGYyaVN2b1pVbzhFVUFEVmxIMjZsN1ZCaDdQTC1Ed21TOFp6dWZSN1RSelpBV0VuSmp0VEd3dXRtTzQ5Qnd3aWExWDB3WDhSd0h4czBPd3ZMc0xIaU1R?oc=5",
+       "source": "뉴스다"
+      },
+      {
+       "title": "판소리에 재즈의 리듬을 입히다…유태평양·한웅원밴드, 남원서 특별한 만남",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tMll0Ty1GTFZZcUVmeWhHOFhaSTUzWkF1SEJmUEtYeFR5UnJfSjlOdGhYc3otbktBc2V3RjdWVU0yVnA0aVFMWjN6OVJFQWU4QmJ0dkpSQjZzMlJkUlU2c213SQ?oc=5",
+       "source": "더펜뉴스"
+      },
+      {
+       "title": "남원시, 유태평양×한웅원밴드 `그루브 in 판소리` 개최",
+       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFA5SW9lR1dOc0o5T1ZTeksxNm0wZnhXNUdXYVpFdXRrc0duOWE3TTRyWE4yUmgxSlVweTFfTkkzcTRPUQ?oc=5",
+       "source": "전북금강일보"
+      },
+      {
+       "title": "남원, 유태평양×한웅원밴드 그루브 in 판소리 공연",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSS3FhR3VwTG5SaW5KWEx2NXhrTlRTby12VDNzLTNZU3Q3TDVjaHF2Ul81Z3ZFUzh6bkl6Vnp3dnd5cTdBYUFVRWZJOVd3RFprX3d3YzNoZjBZRnQwYmRyYngzWVFyc1dDMzlEclZaUdIBb0FVX3lxTFBSS3FhR3VwTG5SaW5KWEx2NXhrTlRTby12VDNzLTNZU3Q3TDVjaHF2Ul81Z3ZFUzh6bkl6Vnp3dnd5cTdBYUFVRWZJOVd3RFprX3d3YzNoZjBZRnQwYmRyYngzWVFyc1dDMzlEclZaUQ?oc=5",
+       "source": "서울일보"
+      },
+      {
+       "title": "남원시, 유태평양×한웅원밴드 '그루브 in 판소리' 개최",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GbXRBcmFZQXBxRUZONUlUbF93YzJzVHVwZUhqSUtiWFBnQzkxUF9CY0JaTjlyeV9VWTQ1QnE5UlNTb0VpdHMwVzI3Q1BOQ3RySXY4LWt6cGVySXVRZ2dnaEZ5TlVwY041eW11UWU3Mmh4UQ?oc=5",
+       "source": "웹이코노미"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
