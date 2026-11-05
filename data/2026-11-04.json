@@ -1,0 +1,544 @@
+{
+ "date": "2026-11-04",
+ "generated_at": "2026-11-05T01:01:16.934261+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 981,
+   "issues": [
+    {
+     "title": "Beloved country music singer dies at 35 after cancer battle",
+     "summary": null,
+     "ai": false,
+     "article_count": 37,
+     "source_count": 35,
+     "links": [
+      {
+       "title": "Beloved country music singer dies at 35 after cancer battle",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQkx6OHM3TGJhanU5U1ByaXdiQzhhMmRKTUhERjU4VHlOUDJUTGJMakhfSGZhZXNkb250bWI1d0M1dzNEaFBrbWpOcTlHbGJOMTY0QzlDRklqclJVbjI0RVZpSjIxdFlBYnMtWjdzSi1hRVVzRURuNzZRZmtiZmJ4b2VKQnpRTXVaaDN3TlVCandsQ3NJTW10dUhRdkUxanRqX2FvcjFQNmVfVHdJYjEwWUhR?oc=5",
+       "source": "Cleveland.com"
+      },
+      {
+       "title": "Country Singer Nicole Taylor Dies at 35 After Battle With Terminal Cancer",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSE5CbEtGLVU1QlY4ZHdFRlM1MlhmdFh4TUVoUDI1Y0UtWHN1cEs3UmVZd25TQ1RKb1ozMXVqWnlNS2VYYWJFTDYtV0xDYWZ4NnNiMkJoVF9Jdm9WYUJXcWN4NUFkR191dnR0M3JmczAtdW9rZFE4anNCV0ZYeGhrUUhfT0FXZ21vYm9QQUl1UFpLdW5WbzNjc3BESkYzdkJuSWxtdUlleVVjT21XcUtqcA?oc=5",
+       "source": "Country 103.7 Charlotte"
+      },
+      {
+       "title": "Country Singer Nicole Taylor, Member of YouTube-Famous Sister Trio Taylor Red, Dies at 35",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUnFfWXlzeXdBclZxMG14a2xweDFaTzJPZDI3a1FnSnFCVFo4SGdya2Y4SjRlREM1aTVXNmpJdjhwNWZsRjRtelJwUEp6ajZ1T01UeE54SFIxd09DSVFXb1BYcGQxQUQ5dXAzSHRKcl9xUDBPdy1qa3k1TWViMllMbUZuUFhfMkh5UHVEUVAxZ0hyRTJWZ0N1dGU0ZXUxcTd0TFBn?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Taylor Red singer Nicole Taylor dies at 35 4 years after breast cancer diagnosis",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM3JVeDNHQUFkVy1yR3FHLXhqNDRNTjNUNkM2VmV4WUpCZDVWbV92LTJvS0ROYjZLdVNYLTNabXZLWUNyVS1JdDNHRHpGZi1tQk11SEhuVFRLc1ZTS3Y0Tl96ckM3RW9qYnNVcXQxTHVlaDB5dkQtMC1HcjB2cGVRUWIyZkZXMkU?oc=5",
+       "source": "Entertainment Weekly"
+      },
+      {
+       "title": "Country music singer Nicole Taylor of the Taylor Red trio dead at 35",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTG9sYU1mQzY4dWh0amd1clNKdlRfazNpcHVOTk1iXzFKWXpvaFdDWXlBeWwyZW9GLUtJS3RsTjJITEJodDZoOXp1Ri0xSmNuUHRDZmc4a2FHZXEtWWR6ZC1vU0N3SzBndnZsdEs1S0pEOWFwdVlLYVJWaHVSbTFMWlE0SmN1akhDVi04T0M5YlQ2dEJ6OWNwZ1dBTVhFRUJ4eGREZVZSQU5KYmc?oc=5",
+       "source": "Washington Times"
+      }
+     ]
+    },
+    {
+     "title": "유니티, 지스타 2026 인디 개발자 지원",
+     "summary": null,
+     "ai": false,
+     "article_count": 15,
+     "source_count": 15,
+     "links": [
+      {
+       "title": "유니티, 지스타 2026 인디 개발자 지원",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Ncl9jbjc4STVzQ2h5TmNtSUh6ODlIb2U1R05Ba25aTFNhZzVDdGxnSVZFLTNSb2libHljcmk4RDZ4YjZ2V0p3a0YxMVVlekk4X1NmR2VBTHhvTDRkMUs2VHNsTEc?oc=5",
+       "source": "베타뉴스"
+      },
+      {
+       "title": "유니티, ‘지스타 2026’서 인디게임 30종 선보인다",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sdElaaU56WU9rc3QwSWt2X1JhZ0hzMG5LU1NXMUg5RGJTZ3dEUUJhbGROQl9VRUN0dEoyell2cVYzV0JEdnJXWmdYT2xvZEUxYl9VV0pSc2VnWjllU2JaZUFkc2JOWi1FOWFpNA?oc=5",
+       "source": "경향게임스"
+      },
+      {
+       "title": "유니티, 지스타서 인디 개발자 지원 확대…AI 게임잼부터 글로벌 쇼케이스까지",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdmppM1BxSno0bjBWbDhQX3B4MXZiZlNpaFNUUVFUX1JrRFVCQ0ZxYk8xcVh2TEE3TTVGWnc3ekFSZ21sMmxTcldWQ29vaUFkM0hlNDdFZXJWZG85SGI0ckY1VEZxaUdqcFhCeS1rTDFWRHVOalZyRU9QbFRyMFMyaUtiQ3g?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "유니티, 지스타 2026서 인디 개발자 지원 총력",
+       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBjWlU3cEJBcXhhNEtkSEtGLS1FYkpmd3JlanV6aVQwQjluYmdabmN0elFhRzVhN1E2dXh3cUE5VnRUNXpDN2dPZA?oc=5",
+       "source": "케이벤치"
+      },
+      {
+       "title": "유니티, 지스타 2026서 인디 개발자 지원 총력",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mbm9iWm1sNGpxOC00Wm5iWk1JYVNxU0xpRW9UR3I0WWZ0MjZCaGc1UGlvbkdOQ2NwbUhvWUZrYjZmdkI4cEpSZU5jN1ZRT2J6ek9pMER6RUM3UTJNRUZlYjh5Zk5nOEo0NUt0MmlBONIBb0FVX3lxTE1mbm9iWm1sNGpxOC00Wm5iWk1JYVNxU0xpRW9UR3I0WWZ0MjZCaGc1UGlvbkdOQ2NwbUhvWUZrYjZmdkI4cEpSZU5jN1ZRT2J6ek9pMER6RUM3UTJNRUZlYjh5Zk5nOEo0NUt0MmlBOA?oc=5",
+       "source": "게임어바웃"
+      }
+     ]
+    },
+    {
+     "title": "트로트 가수 김다현, 화순군 홍보대사 위촉…첫 일정 고인돌유적지 방문",
+     "summary": null,
+     "ai": false,
+     "article_count": 15,
+     "source_count": 15,
+     "links": [
+      {
+       "title": "트로트 가수 김다현, 화순군 홍보대사 위촉…첫 일정 고인돌유적지 방문",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FbGRlTTNvYmFGX2RraHNlTjhiZjlTOS1pbFlhZlAyWmNEUmhST25EY2FSdE41UjJsbUh2a0o2d1Z2eGwzRkxteGZUeG83RnZpeEZoXzV5M1NiU0thbEcyMjR6N1dzTmVtdWJkTFpvRmc3SnNVTGlGV05EYk9jWlnSAX9BVV95cUxNRWxkZU0zb2JhRl9ka2hzZU44YmY5UzktaWxZYWZQMlpjRFJoUk9uRGNhUnRONVIybG1IdmtKNndWdnhsM0ZMbXhmVHhvN0Z2aXhGaF81eTNTYlNLYWxHMjI0ejdXc05lbXViZExab0ZnN0pzVUxpRldORGJPY1pZ?oc=5",
+       "source": "뉴데일리"
+      },
+      {
+       "title": "트로트 가수 김다현, 화순군 홍보대사 위촉 > 뉴스",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GMWxoTXNHNFpmN0JNdzVlNElKMFVXRTB0ZWcwalJqYlpYWkhFQkl5SU53ajJQcDBZT3FmdThXRmVVNFB2b3o0OERxeGFWbHJGai05TTh2cFVSWV9tei1OTl9FcDl6QmFWZnUzOWh6MENUUQ?oc=5",
+       "source": "더코리아"
+      },
+      {
+       "title": "트로트 가수 김다현, 화순군 홍보대사 위촉",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yTjN2eXlmb2Ruam5ieTBWNkNKNWttTURtMkFrRnJ0WXdKR1dvRnZUUk12UkFNcnNodkR6SWFLM3ptOGZIOXE3NFZvMzFLal9GekRvdGVSNnp6dlhUcmtFallrVGhWQ2U1UE1v0gFrQVVfeXFMTzJOM3Z5eWZvZG5qbmJ5MFY2Q0o1a21NRG0yQWtGcnRZd0pHV29GdlRSTXZSQU1yc2h2RHpJYUszem04Zkg5cTc0Vm8zMUtqX0Z6RG90ZVI2enp2WFRya0VqWWtUaFZDZTVQTW8?oc=5",
+       "source": "서울매일신문"
+      },
+      {
+       "title": "트로트 가수 김다현, 화순 알리기 나선다…군 홍보대사 위촉",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xbzBkY005bzlQLTVlVXl1aXVDWm81ZnRHTmJ4SmF1bTNybjlUcVFuQW9WQXNMaklsYzJtRnNrY0pPNmsxWGE5WVVFcWs4TDJ0bWxuaVk2SXpYQQ?oc=5",
+       "source": "브릿지경제"
+      },
+      {
+       "title": "가수 김다현, 화순군 홍보대사 위촉…첫 일정 '고인돌 탐방'",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbUs1cy1BejYtM0RlMXdMR0hBODdibS0tZlU1RTh2MHFEZjBGSVFKWXFQRnJ4U2dxRWw5cC1xZERNX3MtTVpWdURpX05QQW8xQ0wwVWZNb3kwUzZUNFdqMTJiRy11NnNSS0x5bDFaNlB2Y29Tc0x6LWxNTWZFYWFYejd3?oc=5",
+       "source": "아시아경제"
+      }
+     ]
+    },
+    {
+     "title": "[TOP이슈] 리센느 신곡 'With', 발매 당일 멜론 TOP100 1위…'PULSE' 전곡 차트 진입",
+     "summary": null,
+     "ai": false,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "[TOP이슈] 리센느 신곡 'With', 발매 당일 멜론 TOP100 1위…'PULSE' 전곡 차트 진입",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yeUZtQ29TYXd4YkkwbXRTMjREZ0tXWXI1Z1NQNnk2eWdqTnI2YW1ORlYza0puV0tvOXdlaVVBemNlUHFGdmNJVFh1QzRfSHlMTUYwVWZBdWJYcl90OHMwX2Y5Yk9OQjlnQXlSakJMeXFxQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "'국민 걸그룹' 차트 강타! 리센느, 신보 발매 2시간만 멜론 TOP100 1위",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jOGpkMENBdjdzWkthSW9YazYyWmRsRWI5UVJzUlFzeEJYN3d5S2daVVlQX2E3b0ZXblZ6UlBsU0RacHpSYjNkUlc2cWJURWYwX0lIcVhNaGV5TzFBLVNhQ3o5Mk4xOUY5TGtZZWhXVjhXYXZT?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "리센느, 컴백 2시간 만에 멜론 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FbGhRS2xNRVg3bF96d1loVEtNZkdTcUI5eklFYmNyQUVUNi14dmRWN2dmd3FNNFBaeG1zSm92WmtaWjFYXy1XVjdLZ24wU3VubWJhTWxWOXgxWTJicjFrcXZzUTQ?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "리센느, 컴백 2시간 만에 멜론 톱100 1위…미니 4집 'PULSE' 수록곡도 차트 상위권",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUFZCcExrYmMwTFRMQXR3b3ZLbWtNSVR4WVlrQUYtd296ek9QUjJlallEdTJwZDlvSkJtZjdCQmNMcFlpRnVSQ2F4OERhV29hcVJEMl9rSjdLQnVDX3JkSHdYUG9vOXplazZOb1ZJWFRfb0pPdURSazR3a3MwYTJFQjdLQTlxaHc?oc=5",
+       "source": "뷰티트래블뉴스"
+      },
+      {
+       "title": "리센느, ‘PULSE’로 음원 차트 석권…발매 2시간 만에 멜론 톱100 정상",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UT19ZRzVBcTR2Y0o5bzVXUnlFZXI4eHZqcXlNVG92aGhhV0VOc2o5bW04Y2NoczU1eTZEVGFwSGtoUWVoR1hiNTNMWldNMjBRZTRqV2dvTF93SEFCRzVsSHBB?oc=5",
+       "source": "스포츠월드"
+      }
+     ]
+    },
+    {
+     "title": "리센느 신곡 ‘With’, 디즈니 ‘헥스: 마녀왕국’ 엔딩 장식…국내 걸그룹 최초",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "리센느 신곡 ‘With’, 디즈니 ‘헥스: 마녀왕국’ 엔딩 장식…국내 걸그룹 최초",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sWVJPRXdTeGlVakpzZzY5ODNTZXhEX1B4aEdGQ0FMSHZqNUFHZmNOZFljRDRKOEtqeTRNRkdRMWtPZ3hoVWZCV2xJQkI5bng3R1Zhdl9MU1p2Skx5WFVXNFFuUmNyZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "리센느 경사 났네…‘헥스:마녀왕국’으로 디즈니 작품 걸그룹 최초 엔딩크레딧송",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lekVDUzdjTnAtNlYwS04tVlFJelI1NElrcGhEV3ZTemlrbHcwQUNtam1KNGZZWjBpSHA5WkFicUFlNVBHNmVraXFzWHdBRWoxT2xiUTU2aXJhQWZYZGfSAWNBVV95cUxOSVBLb3huSzgwUENrUkRPYVpWVG52QThreXM5SXAxTFZ0aERoelV4UFlRdnRJNkJ4V01tNy1BRDNWSDgzS0ZzcXhRYktnMkRqUzhpQVBPZlJ2Um16OTFZbmg0SVE?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "리센느, K팝 새 역사 썼다…국내 걸그룹 최초 디즈니 엔딩크레딧 장식",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UYmNUend1eElJT3ZBLXF6dVRxcHZNTUJVUFR6OU5VRjlxaWJ0U2hndnFLNWg3bHY0SVpqYmN2Ql9kanlSWHBad2lKMnU5bS0yTXNOSEZacFVoYW53dVRJ?oc=5",
+       "source": "YTN star"
+      },
+      {
+       "title": "리센느, K팝 새 역사 썼다…국내 걸그룹 최초 디즈니 엔딩크레딧 장식",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQeTRXVExFRVE2ejJYNkgyRWw1MDdfNExLUXgtd2N2cnA2UkRoZjR5emdiTnhuNU5PbEw4Sm9wdkFQRUI5VnhiX0hTVHAzY3ZsMXJHeG5CUmlOc1ZBNDM4U2psS0pjdmk0NzZVRW9COFUzWFBGU3c?oc=5",
+       "source": "YTN"
+      },
+      {
+       "title": "리센느, ‘K팝 걸그룹 최초’ 디즈니 애니 엔딩 장식",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EbklILU9SQjBjZF9WRkxDZmpsNWh1ZmUxY0R3OFpXU0JIcTFjemg4SzljSGkyc3VKbE5MT2FSbG4wX3JNZS1lX0l4eU5zVk5KY0YxLW1EMEJHUmQ5RVVMUEo4YkM?oc=5",
+       "source": "BNT뉴스"
+      }
+     ]
+    },
+    {
+     "title": "BTS' \"Arirang\" Becomes First K-Pop Album to Earn Platinum Certification from Italy's FIMI",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "BTS' \"Arirang\" Becomes First K-Pop Album to Earn Platinum Certification from Italy's FIMI",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPMmJuNjR6SndmNG5BVzEzZlFBY1JUa2RLNDZnc3UwdEtnejZlcmgwS1Fxa0hBRDJaLTdsNmpMYzNRYndIVTJWbVQ2UjV1Rk4yRVM0bi1XMzAwanJsNDFfQVFJNHd4X2cwWWdWZjYySmU4Mi1Sb2N5aA?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "BTS become the first K-pop act to earn platinum certification in Italy with 'ARIRANG'",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd3NQdFhKSlc5N1ZmQjVEbEtncVFJRmMwZ3k1U3RZY2V1aTJBaXhjZVFIZktCTTNIcmZGOVNjYUxZMno5RGtIXzR3cFZDb2szUTE4WFpEdTY1UE00SUpTU1R5LVZLZWFUMlBqZjV5bzNGUnFzVDMzRnVPdFF6elNVaVVFT3QxbE1SQ2JKMms0Z3NyQVB4QjJ0dW02bDJKWUpnaExKLU0wdG5aSHFobVIwVU9idzA2eTNsblEyMTdLTE8?oc=5",
+       "source": "allkpop"
+      },
+      {
+       "title": "BTS's 'ARIRANG' Earns First K-Pop Platinum Certification in Italy",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWi1JTTN1Y3lYMVJQSmNJdkNtZXZrSEp1QTYyRXZwdklvTmNua3l3WkV5cVJkRDQ4YlcwNzZVZ3pSVTFGWEhxZ3d5U0Z2RTlfVWNnU1ZIZ25OVWFfMjJPOFJOSkwxcjVSblZqWm11STk1MUE5MFNzZVlPanNmdU5KQmFSTWlyMXEwYjRkc3dR?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "BTS earns Italy platinum for Arirang, first K-pop album to do so",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXpiUnVsT1ZITEE2N2NucXVvMEZwc1FJUjlZQmdlTm9BcDZEX0JuTGVXdmpiRENhTGxYc1h6bzRHdVlMMWQzcDhSYmJFNFRIeXRHZEFhaWZ1QldLUW1jeHMxdHFyanFvZGtjdHFoeE5xd0ZkQ3BXbjJabEtYV1lITkJCTlRVZ0Ju0gGcAUFVX3lxTE1CTUxCZHJsWW9qMFFkQVZYaVFvUVdoNkh4b2w1UFRaMjU4dWZ0MGFQTFZrSXg0aHpFVkF6VGtIaVBDTUNVd2lKamQzbk8xQ19DOFFnRWNUQXpfLUhscWdtcTktSlNCMjZuc01YNS1jV1hTN1ZvUEtqb3kwSHc2UGVGb0JMa3d0MFNZVldZcGt2MkFNQTlaaGZwc1dZWg?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "BTS Certified 'Platinum' in Italy...First K-pop Artist to Achieve Record",
+       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5lbllSaFlqNkVnQmR0blUyN0k3Nm5jN2VtMFhQQW9Tc0JZZUw0NS1iNHd4UjAzVjZTaXBVbld6bUxaOFlw?oc=5",
+       "source": "DIPE.CO.KR"
+      }
+     ]
+    },
+    {
+     "title": "음성청소년어울림센터 밴드동아리 ‘에코즈’, 전국 청소년 밴드 경연대회서 최우수상 수상",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "음성청소년어울림센터 밴드동아리 ‘에코즈’, 전국 청소년 밴드 경연대회서 최우수상 수상",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBISDlwck1RcmpoMTBLRGI3blVDNTNRcEIwdlY1MFoyaTlycVJiNDZLWnZEblpaUDR3b1BYU1AxMWc1cHVBN0UyRDFHX1FHemNDYkEtQnhZMExxcWc3dDhXUjNKaWtXX19FSlQzdw?oc=5",
+       "source": "메가충청뉴스"
+      },
+      {
+       "title": "밴드동아리 ‘에코즈(ECHOES)’, 전국 경연대회서 최우수상 수상",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9obW5CT3k4VzdKc2NmaTRjZWtqS3R6NW8xZmNLamxvVnc3TDB5Rnppb0RCYWFWVDhXdTBqZTA0LWdfdHIzQjlVaHFCMEFDb0dwSUJzelBYR3FuSTh5VW1hT0dwenJLb3E0?oc=5",
+       "source": "음성뉴스"
+      },
+      {
+       "title": "음성청소년어울림센터 밴드동아리, 경연대회 중등부 최우수 수상",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wX2haX0d4RmFFYmVaTmZ1ZE96SjJra1pMd1J0Tlc3ZDdBQ2lQTE9rSGpQdEZReUltVmFfWDdOYkM1RkEzODI0WG1vbWVVOG0zam9qQjNITXplZVVnWndna0hWLUstcTFYdzAtRjV3?oc=5",
+       "source": "국제뉴스"
+      },
+      {
+       "title": "음성청소년어울림센터 밴드동아리 에코즈, 전국 청소년 밴드 경연대회 최우수상",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IelJwcENaUTFMX29GMEk1ZmdFQ2lRSG5KWGJiODd6NnB5RTdOQm1FTmNGQTJKc3ZVYkpFdUpZQ0Y3bWs1TXFhbk1EM29IWlExa0tXQ2VYdENIVTVzTHUtbFg5NHdjMmlRWnBuLVhBZlJpZw?oc=5",
+       "source": "웹이코노미"
+      },
+      {
+       "title": "음성 청소년 밴드 에코즈, 전국 경연대회서 최우수상",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tREp4eldfV0RSUGxZZ0FBaUl2RVQ2a3lWWmQ0Qko5VzYxZWVPS3phX0o3WmpCa0ppSE5oUHo4YnBHRGNiOTV5dnpsbWJDV0p6TnY4WmtaRDlTaWptcGFfejBHSlRKTjNYaVE?oc=5",
+       "source": "음성신문"
+      }
+     ]
+    },
+    {
+     "title": "신인 아이돌 브랜드평판 뒤집혔다…리센느 1위, 하츠투하츠 146% 급등",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "신인 아이돌 브랜드평판 뒤집혔다…리센느 1위, 하츠투하츠 146% 급등",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtdTVMTFdJQ0xLZ25PaGJ2UFNfckxQVzc5THVOa2hZeGxBRlEwcHhQUElMMERxNWtRakRPRW9xWHR1Wjh1ZFYzOXk1cWx6bThPa0YwVXhuTjJZdVdUNmUxMTVnNmhaR3Z6dmtIbkVwMXJZaVXSAXdBVV95cUxNZ2xla0hmZlVicWVHSTQ2Q3c4eF9ySTRjbEFqSnd2M0JsR3B2cGhXeDVOLUFlWjdTRXVuUGI5SEtpVS1vOVBLQVpiSHN1UlFsTE14LUJzaElEQU0ySFJveWhNRzZZU2E4SkFoRDJJYjB0N0drNlhFTQ?oc=5",
+       "source": "핀포인트뉴스"
+      },
+      {
+       "title": "[빅데이터로본다] 신인 아이돌그룹 2026년 11월 브랜드평판... 1위 리센느, 2위 코르티스, 3위 하츠투하츠",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xZ3d5NmpxNnlXMXpCRW1SVmxkVXo3bkF2M0s3TTR6RDIyaTdHelM1QUwxOHNqdVctb2QtdUNPb3VmU3FQT1FVcHIydlVSeHlBMVViMVgySWhadkdTS3ZVaXR6MHlDd09XREZF?oc=5",
+       "source": "일간투데이"
+      },
+      {
+       "title": "리센느, 신인 아이돌 브랜드평판 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yb3BJbm84UjBzZ3RES2c5N1VIX3RWXy1XUTdjYnU1SWtzOGliZzRMQkdoQzJSUGtERHNfeDZvWXRlbUptRFhGNFlNaWhtVFJoUVJ2djJLVmJDbTVVZ2ZwblZ0WVY?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "리센느, 코르티스·하투하 제치고 11월 신인 아이돌그룹 파워 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnMkdmX29GdFZydndEQ1VCX1JXckIzaFNERHd5SkwzckltMVphOVhsUVY2c2d0WnNlZVZ3UGxweWQ2VFJ3SUI1cDFyalRHWW5Bem9lZXU5cVgySC1pV1RTcXVkRWFidw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "리센느, 신인 아이돌 브랜드평판 5개월 연속 1위…코르티스·하츠투하츠 톱3",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrN0tNUWZkMVVPQXpGY25INmZYWXdwYXM5QkZuWXRpb09Ld2U3TGFUTE5lNURMcGdTeFdIN1hfUzRrUC0zWTNIZm5aZVdMaXNDWFhwTjhnUE9oVDIwa0tIWm5zUHJ5WnVjb0HSAW5BVV95cUxNNFlEcHJvZ3dyTG5obW9Wczk4Tm9kVDZWLTNIMnF2NkdjaUlRdzhHeDY2QlhOMDdQb3NsVGU0M0RoUGVxa2JNdTFiek5jTlhpUDlSN2RZTVRnNzBhRWlsNmFtSWdLTVJQTVhDeFpFdw?oc=5",
+       "source": "지피코리아"
+      }
+     ]
+    },
+    {
+     "title": "KT-삼성 KS 2차전, 가수 거미 애국가 제창 “뛰어난 가창력·독보적인 음색, 2차전 열기 더 뜨겁게 달군다” - 머니투데이",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "KT-삼성 KS 2차전, 가수 거미 애국가 제창 “뛰어난 가창력·독보적인 음색, 2차전 열기 더 뜨겁게 달군다” - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vNWFKbWQzNUdsOVNoVHZZeldwOU41OTBibHo5cVp0LXZJSUtmcVlyamtGS21DYUZtYTBsMVRhRFplcTE0SGZ5eGYycFhuVkFyRlk3b0lCVGoxYndwejJoM1YtbUo1U2QtYmxwenNhd9IBb0FVX3lxTE1vNWFKbWQzNUdsOVNoVHZZeldwOU41OTBibHo5cVp0LXZJSUtmcVlyamtGS21DYUZtYTBsMVRhRFplcTE0SGZ5eGYycFhuVkFyRlk3b0lCVGoxYndwejJoM1YtbUo1U2QtYmxwenNhdw?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "KT-삼성 KS 2차전, 가수 거미 애국가 제창 “뛰어난 가창력·독보적인 음색, 2차전 열기 더 뜨겁게 달군다”",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Va0dVS2tPMWw3TV9wazQtSU1IMldfUUpVQXlKdG1kRU9uVnZlb0xNSVZQc3JWWW14SWNrOU9BeU10SjJGby1kelJFVF93MWxlMkxwdQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "[KS] 삼성-KT 2차전 애국가, 가수 거미 가창",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtbUJsel9oUGtQaTJJTlZmSE94Y05DMFpNNTh4SVFIa2Njd3VYN2d3QnVvZjhDYnlOTEJFVUltZnFyVEExY2VIc20waEhfWThreTA2V9IBWEFVX3lxTE5tbkVuRHdhR3FJX3U5c3c0OUVmRVFCZnpaUERRT2d4M09WbDJJTk15cUwxNG4zbGp0M0pMMk05c0xmeTVlQTFQcTMyZThYMnB4Ry03ajV3c1o?oc=5",
+       "source": "미디어펜"
+      },
+      {
+       "title": "[포토] 한국시리즈 2차전 애국가 부르는 가수 거미",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1SbnhJY1VGZXBHeVlGUUdxSmJnRXBvTkxvVDdXV2twd3NpSFBfVDItSVpLSkM5V3hwY3U1dlFfZllyTnRvcXRkdzNYQnhTSHVUZUdNcUE1TDV4eGg2M1FWTTdNVEVqRjFPR041anA0N0JjYkJVMC1VX0JNWUNIdw?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "KS 2차전, 애국가 부르는 가수 거미",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HTllfT25KZWJ4VEdKamo4VnE3TzYxdHd3RzM2THJuRWllVEEtTHY1VjQtdS1YMEVFT25BZ1l3eFpSQXpOZ09RYVhWbkVuR1hhTUEtS0pGTkRVRU1BR3gwV1htZ205eExmX2JPdXJ1akNtQVlqd3VKa9IBeEFVX3lxTE1HTllfT25KZWJ4VEdKamo4VnE3TzYxdHd3RzM2THJuRWllVEEtTHY1VjQtdS1YMEVFT25BZ1l3eFpSQXpOZ09RYVhWbkVuR1hhTUEtS0pGTkRVRU1BR3gwV1htZ205eExmX2JPdXJ1akNtQVlqd3VKaw?oc=5",
+       "source": "뉴시스"
+      }
+     ]
+    },
+    {
+     "title": "Steve Ellis Dies: “Everlasting Love” Singer Was 76",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "Steve Ellis Dies: “Everlasting Love” Singer Was 76",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vZkVhVWRDV0xHYjV2Yjc0cm12emk2azQ0UGRKeWRJbXZkWnltaTNSU2RheXRhOElSSzdVTHNxaHN1LUhaWGk2TjFNdVlmYTBPSFlVLU5tVlB1NnAzcWxyNldFb1NhZGh3?oc=5",
+       "source": "Deadline"
+      },
+      {
+       "title": "Steve Ellis, Singer of 1967 Classic ‘Everlasting Love,’ Dead at 76",
+       "url": "https://www.rollingstone.com/music/music-news/steve-ellis-love-affair-everlasting-love-dead-obituary-1235651940/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Steve Ellis, Love Affair Singer, Dies at 76",
+       "url": "https://www.billboard.com/music/music-news/steve-ellis-death-love-affair-singer-dies-obituary-1236373405/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Steve Ellis, frontman of Love Affair and singer of ‘Everlasting Love,’ dead at 76",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYVdrOG1BY0pmZE9XRjNCYjk4WTRtb3VxNmlOTERtQzhJWGE0ZlhRSEVLeWQ5N2tRNGc5TVpTWmdaNXlRekNUa2lXQ1N5dmJVQmVSQi1WajFWWkdCNjlneUdVSlRvX2wweUZYal9JZ0Zra0x6RTdqSUpKREx4cHQ3WFgtbGY0ampRcU1LcDg5U1VvcnNzcWVFcWFKckNfdHNPSXJVME52T29ESlRLa2dOTjJZWQ?oc=5",
+       "source": "Washington Times"
+      },
+      {
+       "title": "Steve Ellis Dies: “Everlasting Love” Singer Was 76",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UNjg0OEl1RWVaN0hhclg0YklvMFhfSmVmZFJGakFaQUlxV0tselVhVDVTTklJOXU2ckhEMlpZVkM1MmtJcTNmTUh5NTRVWTEtMVAxVXk5YTJNNlZMU2drSXBxbkpfSTQ?oc=5",
+       "source": "IMDb"
+      }
+     ]
+    },
+    {
+     "title": "에이티즈, 컴백 전 빌보드 진입",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "에이티즈, 컴백 전 빌보드 진입",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tR1BFTm4zNlVpMDV6ODVnOU1jRW1qUWVPVE83OTNyd3pxLU1ub3E5UmxHdXQzWU1iWXRqSGQ1MWtpLVpqdS1vWTlKbDE3d0RDYktoQ0RJU204X3MtRlhrelNtWTM?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "에이티즈, 컴백 전부터 심상찮은 기세…선공개곡 ‘드립’ 빌보드 진입",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBacWw1aXMxdDlNWExDT2JOdTFoOXRBbjdoZW1Sbks0LUdaZm9uOWRSNlhuRU91ckNzYnNHck5obVltaVZnSkRmN2lTYXdzajRGSG54QWFvWnE3cXJ4eVNtX09R?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "컴백 전 美 빌보드?! 에이티즈, 'Drip'으로 '글로벌 200' 진입",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1BSmlrdENabGZvNzVlRktHVUQ2YnlCdm1yZW1WR01xVUlNbnlqakx2QVgyNVZlQ0x5ZldXQVBYTjRQbDlRbERvcnJkQVJhZw?oc=5",
+       "source": "전자신문"
+      },
+      {
+       "title": "에이티즈, 이젠 무서울 지경…정식 컴백 전부터 美 빌보드 '글로벌 200'",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOS3NqRGFEYzhITElFNjNpTzdjTEM1S3NHdENDMnhaZVdWQXdhbTZnWkpiYzROWURYbEFEVGxQYk44OWxKeWFWZDE4UkJKYVg0RExhbjlHQ3I1eUpoYU9EYWlLOWFtNU5ndGUxMjFYaDExWmxpQnFUUmZ1SnREZFo3WkVETGNUcXNfMmpWem81d2prQ1dl?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "에이티즈의 기특한 질주…‘Drip’ 컴백도 전에 美 빌보드 입성",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ITUhuOE1XaUd1TU1fRmZWT2lneHRSRk56X2g2QzlzenRDSVFOaE1OVUVGSEtGSTZGdjVEWmVFTWRuRXZRbnl0aWx3QmZEMFlOeUUxQnRKeTlybTI0aFdTdjdxV2laUzNPNW5xWU5B?oc=5",
+       "source": "스포츠동아"
+      }
+     ]
+    },
+    {
+     "title": "‘더쇼’ 앤더블, 컴백 동시에 1위",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "‘더쇼’ 앤더블, 컴백 동시에 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05VmZIZTU1anROT1EzMUJlNnhKVl9FU2dXN3hBTnRFV2lVWjdBWndrVFlMQi1wdkpUbEJSbVc0TXdGV1FxaWZzSW9zSkNFb3I3NzlCczc2dHRyZXZFRmtTRko1Wlo?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "[잇슈 컬처] 리센느, 컴백과 동시에 음원 차트 1위",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GOUJTeGVfamtMbzJqVFBtRFpEaUg1STJZVFZCSmhfMkRzdkxNLWxlOE05ZG9wX21UVGNpY0dGMTZBNlBKeU5KOV9Pc1R1QkxwS0hZaGJoM04yMjA?oc=5",
+       "source": "KBS 뉴스"
+      },
+      {
+       "title": "앤더블, ‘French Kissing’으로 더쇼 초이스 첫 1위…컴백과 동시에 음방 정상",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9BMFNRLTJoQ19WVmtvOUtKeS12THMtcUYtVTBkOWhhb1hXRWNFOEtKQ05XY2w0b3E2WndLMXFLSUdQSTh3VjM3dV81dE9EcG1ERHZHYlBueTVnMlNZdXdBY3ItMjBaaG9IRmRRTnQtM1I0QQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "리센느, 컴백과 동시에 음원차트 1위 직행⋯\"이젠 정주행 그룹\"",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uRWZpQlNZVklFY0N6eWxfemJTYzI4MUlJLVR5dnhJaWl4aHgtU3dDNjZraXJVWUhCdDQ1dzdkU09la08ybE1MTkdpbHdSdFk?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "리센느, 이제는 정주행… 컴백 동시 차트 1위",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jWmRpRVl1MEtpSVNWUXVCS2h5Tk54S24xNlFmcHA2a1N1bVJqWnNzNnBkVklTN2hfeld6a0EwTnMza1hFOVNvQWpKRkNYaTFtNmRTbnNjWlo3T2NLc0NRRUVSMTFXSENqd2RFMHZ30gFzQVVfeXFMUHU2bFp6Z3VhaTZyZVBMSHdncU9MNzl4WU5SeFl6TmdSY0V6S2pYSjRqZ283cEJSbGRUWklJOWVtZlI4bjhhUDdQanFSaGVncF9HalFtVFZVQ2UxRktnZmhXMVNlQWxLanRXenE2T3ktMFlPcw?oc=5",
+       "source": "한국일보"
+      }
+     ]
+    },
+    {
+     "title": "윤서빈, 오늘(4일) 신곡 ‘슬로 모션’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "윤서빈, 오늘(4일) 신곡 ‘슬로 모션’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rS21DNGh2VGFEemxQb2p0dnhrTjlBYVZ4Q1JCNDdyYmh5Y09NLVNDNUszVk9oQl81MG5aX2VNZndScVJSenluOXZYY3g1THg0NUxOZTA2djVyT2V0UEs2d3NfN0I?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "윤서빈, 오늘 신곡 ‘Slow Motion’ 발매…힙합 R&B로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUcTA0UmVGM3haWHlwTnpkNVphdzVxaHpxa2c4WU5rYXVOeHZFS010bDV0czRXSXlvN2pucVMwY1lNZElONjVaY05MbEhNOHRFMWgxZzhTejJ2LXpxbDZGZnRpY0JOWF9pTngtdWZDSk5hZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "윤서빈, 오늘(4일) 신곡 ‘Slow Motion’ 발매…힙합 R&B로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9SUVBmTEloRkY3SUZoZktxaUpndUJINGV5aVdneUtiaFgxTmw1OURQdWtZemdKNHJ6YkNxbUh1XzJ4ZGt0UW9aSFFlcnVKN3dxQ3g5TnEyUQ?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "윤서빈, 신곡 '슬로우 모션' 발매…더 깊어진 감성으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hQnZoelRZOWhQcXctaTJncTlPWURoQ3BHUm4wUHk5c1dmOU02V3BNWjhXcjhGQTRFZ084NDY0RTBDRHpyeXZFRVV0MlB2OTd1Nk5uOGpWSQ?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "윤서빈, 오늘(4일) 신곡 ‘슬로 모션’ 컴백…작사 참여",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CdTVtZk42LXRkYnY3YnlUQmFPdGVLUllnME5zdVo3UXZjd0xSOWQtamdoUXRjZGJEaTg0ZXladTJ1Q29FODktdFpqN1BaNG96WnBBYVFTbE5nazVrVHZhYk9B?oc=5",
+       "source": "스포츠월드"
+      }
+     ]
+    },
+    {
+     "title": "‘국민 걸그룹’ 리센느, 타이틀곡 ‘위드’로 1위 싹쓸이…수록곡 줄 세우기 성공",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "‘국민 걸그룹’ 리센느, 타이틀곡 ‘위드’로 1위 싹쓸이…수록곡 줄 세우기 성공",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uSHRtb0dUcjFMLWpxb0w1Y3Z1d1RuWHRvQ0VXTzV6bE02d3QxMDZtSWZhUk5DVGZzUk51ZVdsa0txb2FTcGlzZjNpRzJ3dHpETjlQVG1MRnRmUzVvYVlTZXNuOFZoZ3RTUlI3djVBeko5NG9pRVMtSWZEdGE?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "리센느, 신곡 ‘위드’로 음원차트 1위 싹쓸이…‘대세 걸그룹’ 입증",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TRnpyWVFzTmRJdksxYVU4NHlLQVBEaGM1d3FYazBJRkJ6b3hsVTZVVzVYNGFHQk1NZUVseTZaeFJ1SkVDYjRpV19BVWZNclNSS1pn?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "\"리센느, 이제 국민 걸그룹\"…음원차트 1위 싹쓸이",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyTThsQnpUV2RXZ2JZVVpOcmZJVmU3MEdTY3BvTDVGS0Z3dG9zRFdKdldqS25VQmJMRVY2UEtiLUlJN0E0U2wyNzRRWnBuVU1UMXZNV0pxNEpzYU1xOW12UQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "리센느, ‘위드’도 터졌다…음원 차트 1위 싹쓸이",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5bl96TXdrR1lKX2g4d3ZOTkoybV9RY0l2SlFFUVpTYV9mR2ktZVV2cTRvNnhMTWt3aTRmV1FlSUVPMnZ0T0xGd1hYeTdGXzdwSHVLX0VDSWdES2tTR3ZUYlpDcmhIZWRQ?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "컴백→1위 싹쓸이! 리센느, 'With' 음원 차트 '정상'",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA5UTRiR1JqOGtobHE3VVNPdUx2Ny12ZGFZSXF0TlhpMVB6NkVFYndxTy1JcFRkTlh6QmNnNWJmYjFQY0hjTTVMazZXQ3VEUQ?oc=5",
+       "source": "전자신문"
+      }
+     ]
+    },
+    {
+     "title": "Jared Moskowitz defeats Scott Singer in Florida’s 25th District race",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Jared Moskowitz defeats Scott Singer in Florida’s 25th District race",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLXpvNXU1elhZZ21wN0tNSmFSZ0hndzl3YUgxSjF1RGZ4NlpoN05lNm55STBaNGRISUlVUUtXLW9tdjVUbGFyZGt4ZjgzNnM4aHhDWVVuV0tvdS1BejlOOXYwM0RGVjZmQ21vRTB1cGpBVW1EUVFWMkNCeGxMWHpFSmhRYVhqWFV2Q2RVang1WGpSNUJXdmFkSXF4U3hMT21qQ3NoTEpOZzBndmdJeEE?oc=5",
+       "source": "WPEC"
+      },
+      {
+       "title": "Race for Florida's 25th Congressional District between Singer, Moskowitz reaches final chapter",
+       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNHpodHBqN004bDFzaThad1N4NGJ5V2NGTHhVQ1FOa2FraEVjZ0o3UWFiZkVDV000YzRNb1BEYjN1alRZMjZaMmNKVTNCV3NWRDF0cURWQUt5TkEyako2Z0JuV3c0clRkblAta2pSREtDZ2hZdzF6TXB0dWc0em5peXVtWkxJQXdOOFRBdDIzSlppN0E3WXhpajZKOFVIMnRoOVE?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "Jared Moskowitz defeats Scott Singer, holding South Florida congressional district for Democrats",
+       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd241dVNzZjhiNVVlOUprOWdEcVo1cEQ0Q2xaLXN5N1Q3My05Z1l1bHhONFRTRmFVNjBvRU5ncU5VUFNUaHpOUWdMcHNqMFBtLWswa3hBdEdqb0xRWkNuakFQRVBMajNzbzlPRHpUSVdFaWpWcmpwVFExUTVibk9FNzRyS3BDbldQcGlsbTJESF9RY2Z6WVZOWGI0ekNpdmxUYlBYWjM0bjR2VEE1RTVKVXNVYjBVeDA0WkVZd0lra2tCOENPZzdSX3lmSFBYQXZJQ1E?oc=5",
+       "source": "Sun Sentinel"
+      },
+      {
+       "title": "Democrat Rep. Jared Moskowitz wins newly created 25th district over Republican Scott Singer",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOb3ZRTE53aGhNVWNBZGVLZk5PZVpaMG8ybk9lc0NrWXo2dEJzU1dnQUY0X1ZpU2RSank1RjcySHhqNGtlYkpGR1lKRGU4a3FpUFJhVGk0YjhKRF8zaTlnQjBGUTdnRFBEcmNqR1k2Sm1kb3A1amRPeU1mLUhJdHpzVmxxOEFsNFhPZUtBTW11VFRQTk9ZYXkyTEJkdTBIUmszLTFaTWpDVUFIME02ZktGbWw2V1ZYLU9QdFBPV2dWTXo4aWcyakd4VDdPOGpHelgwa1hJQg?oc=5",
+       "source": "WUSF"
+      },
+      {
+       "title": "Who is Scott Singer? The former Boca Raton mayor who lost Florida's 25th District to Jared Moskowitz",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUlhCTkRIYWtoVkU3VS1ERlAzclN6ZnNSVVVOcHh0dVUwamc5d05NX2dGcTFna0JUbzM4SjRXRW15RGhBcVlITTdNTUgyV3RadVZzUFRrVUVaZkl5LVlyY0NRYVQ3TkxhTmVLWkZ1UEVzV25uVm5fbm1wM3lQd3VReWlvZzA1SXczMnJJbmdxZW1TVGlZT2dnSURyTnFqMXlfVUxIUVFhWHNLdw?oc=5",
+       "source": "Nacionale"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
