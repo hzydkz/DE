@@ -1,0 +1,496 @@
+{
+ "date": "2026-11-05",
+ "generated_at": "2026-11-06T01:05:56.311010+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 9,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 937,
+   "issues": [
+    {
+     "title": "1960년대 히트곡 가수 스티브 엘리스 76세로 별세",
+     "summary": "1960년대 히트곡 'Everlasting Love'를 부른 가수 스티브 엘리스(Steve Ellis)가 세상을 떠났다. 주요 외신들에 따르면 그는 향년 76세의 나이로 숨졌다. 고인은 'Everlasting Love'의 가창자로 대중에게 널리 알려졌다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "'Everlasting Love' singer Steve Ellis dies at 76",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYUpFR1JOeEx0bi1ORXF0ZU1WWk9TdGhxNXpRQkQteXB3VFZQZzBtT3Rldk9QZVQ0SEhJZkJtSWxBVERJck1tLW9yQ0YzQTNVOUE5dzRMSHdYU3Z5blR5d1paZ3FyNWdVUmNaMmc4VVZkVXljTVZCTEhJRXd6UGFOaE9WbTNTendIamNwTw?oc=5",
+       "source": "WISN"
+      },
+      {
+       "title": "'Everlasting Love' singer Steve Ellis dies at 76",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQlBQeUJubS1fOE5Pam1ENzNaNy01S0YzOFdxZFVMXzA3aTN3V0ZiX3lxejh3YmMzYVh6LW1jSU9NNDh2SGpPeFluM3g4bG1oNFRTQjRLUklKekpLcHpIMVdQSmNCS3lzbmlRMmp0dzVQQ2RyVmV1eE1CclJGb0JxQTRWc09CNGRtU3VlWA?oc=5",
+       "source": "WLWT"
+      },
+      {
+       "title": "'Everlasting Love' singer Steve Ellis dies at 76",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPM294MU1UbUY0OV9YNHBmbEhMUDljSDRsWFAzVzllN2hkS2VwWmUzUlRDa21OYlU3c0NoUjlKRktHZElQdXVNX1QyUXZiUGVnRGNDRU1od3VTbWlITTl6UTBobXU3VTBTSUpTcC1qVXVESGlGRGQwRUV4SGdBVEVEWS1sR3dLSHZCaldqeg?oc=5",
+       "source": "WJCL"
+      },
+      {
+       "title": "'Everlasting Love' singer Steve Ellis dies at 76",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbTJ0MDdoMXIxb29Xc0xXMU1uQVV3MXU5REEtaENwaHpkdWhXZm9SNF8xMVZlUTZiRWU0bldxRGE3MkVMUnBycXp1aXVxcWlja2E5ZjR0WEh4ejhHckZfV1ltc3hGM0VSWWtsQVNTRjMzMTJ4RUdBSzZWbk9fRURXY0V5bXBUYmxMcW5qSQ?oc=5",
+       "source": "WGAL"
+      },
+      {
+       "title": "Steve Ellis, Singer On 1960s Hit ‘Everlasting Love,’ Dies At 76",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcE5iYUxRczdWTjhRbWhTb3pTUHJVNGJaZGMtaUlQd2xjWG1qakRFc25haTdNWUxvbkdxQ0E0Ni1tT3hhQlVRX1ZJY2dSZk5YTE9QUUs1ejJPNERDX0xIM3A4OWNMMXNZeEpWYldkbzd6QlJfVml1QTF0dFdOX1B5V2d2akhHNnozcERnZkNTcGtjRGVHZHdYT1VBcW9nby1LUGNSRTAtaDdMeXhOdllQTw?oc=5",
+       "source": "Forbes"
+      }
+     ]
+    },
+    {
+     "title": "컨트리 그룹 테일러 레드의 니콜 테일러 35세로 사망",
+     "summary": "컨트리 그룹 테일러 레드(Taylor Red)의 가수 니콜 테일러(Nicole Taylor)가 35세를 일기로 사망했다. 세쌍둥이 트리오로 활동한 그는 유방암 진단을 받은 뒤 세상을 떠난 것으로 전해졌다. 여러 외신 매체들은 그의 별세 소식을 보도했다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Country singer Nicole Taylor of group Taylor Red dead at 35",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OVl90djRMUzVQZ0xSYUhIZ3N2cmNJd1cydlZRaF9CTFZRbGx1NENnTTNHN21rR3FVWlR2emRGZWFiRWNkc24tS2RELWtBTmhBUnVIVThpb0hqOU10azhsX0pCZ295WHo1T0VaWFJSTWxzSzdC?oc=5",
+       "source": "Global News"
+      },
+      {
+       "title": "Country music singer Nicole Taylor of Taylor Red dies at 35 after breast cancer diagnosis",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYkdzenJFOGhOWGFsWXhnaWlCQUUzcHhXcE5TRy0tNUlCZW9pVHlXT3UtX3d4blR1aGkzUFRJYXlBMHhjbi1TcTVqY2lTU0hUYVY5UmRkRTZhb3ZwOWNwbFY5cm15WjNNSlZnT2NhNWhiY2JFMmQ3cjhHLXk1dkUyVEhxNXdQMnliWEhzaWdLa1JFa29tRjkxd2tDQTljMFZnN0w0RENR?oc=5",
+       "source": "ABC7 Los Angeles"
+      },
+      {
+       "title": "Country singer from triplet trio dead at 35",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ0lsZ19SWTZ1MTRCaC16WWRuTFRlQWRKR2tTYl8ybjlNMWV3bUFQRFVEd0o0WFpvSXNMeUQwT1haMUFSVFNDUUVWeXlZNk0xRnBENTF1SGxKTTE0WFhlX3hrNVVtTm4xQnNOUFJGV2RZbzJrVmdGX1JaTXlBMzktNFRXSXo0QW12MlhHd0o3UUdyaUlqcnc?oc=5",
+       "source": "CP24"
+      },
+      {
+       "title": "Country music singer Nicole Taylor of Taylor Red dies at 35",
+       "url": "https://news.google.com/rss/articles/CBMihAtBVV95cUxOek83d28yYnVtRjlDVDgyRkhodzlUUUtya0VhUTN1U3ZHUjFabkZIdGxZQjg0dS1raVpDOTduUVoycmI2OXlIa3dvdDM2bFFKbFhhUlZVNDgzYXlLUlZXd24xUjEzVFF1S2ZHU0tLVkd6aVVhc1JTQ2dUZDRwMjdaTjBTTTB1aEMxMDVfZm1lYkpQVmFWUUNFM3VXNllNX25UM2VVcTZHMVF0TEVLT3RUVlVBalR3MHBvS0FxZjR0Z0JoLTR1ZDlzSnhFeEpwS1hlWF9Ra3FfdGVSLTE4SzBpVlE1Zy1oVFlPaGR2NGQta1l1R0ZqM25OTXY0Z3A1dXZWdUZlU19xRW5MYTlpM2V3b1ZsNEd5NGtqTEgwZ3VmWjZzbmJoakdHcmhiOGFSUVlXRDFkOFhieEZxQVpkenJNNVJqUi1sTjRXbEhtWDQ1VHY3U0FZWWFDOXFjcnVTWllmdGs2Zy1ZUGhhcW8yLS1ZTl9ROVE4VHF4WWJRajdMblpLYXFwVko3UWVNclI3TENaUjY0OFBtSHpHeXpMTXBYakg3SDgwTzUzVUd2OFF3M0tob2ozdFhEMG5jbWo4dnNGWkVEMVYzelBPbUVwbzBKUHVyYkdiSHVuQ29TdmI0bldCdlZKWlVBMW9tenV2XzQ4cWpNSGdBbDM5NGVOQzQxMXpaQnhBejkySzVtWHpoNUk0UlBtMy0yejkzcUlwcjNEUWVSbDZZV1JFU0lScUNnV0tiaDNvR2t4Q0FtR19VWHA2WVo1dV83T1FQSERHWE5QQllZU2lYTkNmc25TUUJiVkNMQnUxODFkMGZVRTNKUXVjTVEzb0ZWLW9hTnVFb0o5bTh6blFnVVNDY0VXVnM2MFNOREhVR3RxejBOYzQ4LVpkdGNmcXNJdTludjBfOFh1SVNFRm5UaGtUSnQ5a1ZjNV9WUG9mU0pBa2x6S0lRR0tEYzNDb2g1OGVhTHI2RU1hUTN6Y3ZQRWhKcW0wX1N3VnhoSEl1c2NyZnQwRWZHOVBadlRmNmtqdDFLbW1ERWJISW1WUVdiRE9TR2FoSGhEeXlPSHhzTGVzd2lDaWp1c0JxSHRQajNQN0pHakpnb3BQVHNOTThsVExrSUR6dUVfSzFLS1RidWlOUTI5Wk54ZmlCSVNvSjFKZjdfdVVFZ1RfRVhOQjdlX0djRHphN2FWOFZWNlVSeVRrb2RReWFSU0RmdVo4Z2xPR3ZCOTVWTlZjdXFtM1U0Zm5tdmxEN3UzejhYVnVEZ3ktOUFCelBNVXVMX0I1ZFZpSkM2T0dBMzUxcHlIbERrYXpYSVB1RlJKaW10MnVPVVJrNENMM3pDdS10Uk53eDFKMFpCQ09Ddi1Wd0dYelFyekNTUXh6eEtiaUVXemZiTHk3bnprRUl5VXNtZ25MeGhiTjNNa1VRVmFLTHo4NWRuTDBWTjJCTDM1bmIwY0M1VFUxNW5fUmR0cU1Jc1RWUTJFS3RWQ0VFVHVuRFpCd29jNmQ3VlY1ZEx1cE1XQXBUR1hHNlQ1QU1teWh4RTVDTGttRS1Vd19IUW9YSmxiX1RfYW9UMDYxREIyWkp4SlY2OVFGcmJYd3dFUTJuRklObEZOYjhybnViMWhyOFJSczdURXk2YVBnWmdEN09DZGp2eHp6WVdYY2hMUFc5YnRzbmF4U2dDVHhWeGs2NF9mMlRjOVZLUXVZeTFSaDlEX19YSlp5c0lpTlVoLVVmbWt6NlhlY3VzQVN3NVRQUndEZkRkaEh4b0hCRVBmcEZfa0ZsVTJURDEydk9Lbk5USGphUDJpTDU2MTBtQ3BiRmxrdmxEQUlzTHVzYlh4UU9sS01Ha3VISmFxMGFLNUswemttUE81RHctZFNVbUZPa05COA?oc=5",
+       "source": "ABC7 Bay Area"
+      }
+     ]
+    },
+    {
+     "title": "더 레터맨 공동 창립자 토니 부탈라 87세로 별세",
+     "summary": "보컬 그룹 더 레터맨(The Lettermen)의 공동 창립자이자 가수인 토니 부탈라(Tony Butala)가 향년 87세로 별세했다. 고인은 'The Way You Look Tonight'을 부른 가수로 대중의 기억에 남아 있다. 그는 과거 피츠버그 KDKA에서 아역 가수로 활동하기도 했다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Tony Butala, co-founder of The Lettermen and child singer on Pittsburgh's KDKA, dies at 87",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRGVxSGlxbEZGTmxRV3lKMHk0cWVyT0tfdjViN3RicW9rVWNhSnItSkU4a3Fsc01qX2N2OE12Q3FybGlseXZRekpjckljY2F1WVRnQVZNY2xwbDcwUVpYMXd0aW1TMkxqbmh3bXJWS0d6b29URWNKTjViQjRlYWRiY211ZlVOTExXZHpVdmsydmlaeEdZT2NJWXBId1JMQkxkR0ZZU081Q0JXc0F6bDFjMnJMYUpjdThvYXVyQnBiZEwzOHpMY3JYS0h0X0hKR0lF?oc=5",
+       "source": "Pittsburgh Post-Gazette"
+      },
+      {
+       "title": "‘The Way You Look Tonight’ Singer Tony Butala of The Lettermen Dies at 87",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12aGNvWDVFWW9QbkxUY0VXc0hpNmtYc21ITVBrYlpYWENuU21nTU5JS2lZTzZTX1RMSngtd1VNbUdqSFprWVJoRm5sMDVtS1BicHZwZVRtV1dmd0dKc3lzRUh4UnNLX2wwWk43cjhpejhUbGQ1MnhlVQ?oc=5",
+       "source": "Yahoo News UK"
+      },
+      {
+       "title": "‘The Way You Look Tonight’ Singer Tony Butala of The Lettermen Dies at 87",
+       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNblBkVzhUcTZwcEo3eE1pck9WS1VPX2wxejJfM0hqM25LY09SdHJ6aXZNX3J3eDlWT0VXZTRFdjMyZnFMQ21vdVl2dU8wMzJkQ3ljbFFXVE9CT1I5Yi0wWmNKX3FOMUlMOXpSZTFBcE9HcVJHSTlOTnZBbWdQallPenlCQkVLRWNVQWJkdFVlWWhrbFVhX3UxbWVPT2J0S0pmZ3c?oc=5",
+       "source": "People.com"
+      },
+      {
+       "title": "Tony Butala Dies: 'The Way You Look Tonight' Singer Remembered",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTzBfaFA4QXEzLUR3OGZ4eHVXNE1VSEJTY1E1T0hTUWZ6ZUkxOWhIQWJFNXpjOXptTnl5Q2RXRGFKLWJTUHVCRTV2V3FpUUNzNE90S3NwcE5kV3lJakNLbHlkNlgzWUZyWFBPaUs5a3R6X21vRmZ0enJ5OWRmc2t2VGtnV3NTNU1JejdmMWlPeEd4Nk04aXc?oc=5",
+       "source": "DailyVoice.com"
+      }
+     ]
+    },
+    {
+     "title": "밥 딜런이 바티칸에서 교황 레오 14세를 만났다",
+     "summary": "미국 가수 밥 딜런(Bob Dylan)이 바티칸 시국에서 교황 레오 14세(Pope Leo XIV)를 만났다. 밥 딜런은 베이 에어리어(Bay Area) 공연 일정을 마친 후 바티칸을 방문해 교황을 예방했다. 현지 매체와 외신들은 교황이 밥 딜런을 맞이한 소식을 사진과 함께 보도했다. 밥 딜런은 향후 로마의 팔라초 델로 스포르트(Palazzo dello Sport)에서 공연을 진행할 예정이다.",
+     "ai": true,
+     "article_count": 16,
+     "source_count": 16,
+     "links": [
+      {
+       "title": "Pope Leo receives Bob Dylan at the Vatican",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY2ctdEJUY0JJRlVTQ05IemdxWDVLMnFZWVJybnA0T2ZyUnJoUUVIcUxhbXhraE93N0xTV1l4bTdFRzRKUHFIUFR3RGstRmRYRDY4eUItenVZN09iNm11bk5WQ0hHeGM0MHBVa0Z0ejlvUGxfR3dmN1FoMmI0d1A5TW1nbVRJQ2hnV1dBZS1wamVabDZSY29jb2xvOA?oc=5",
+       "source": "Vatican News"
+      },
+      {
+       "title": "Bob Dylan meets Pope Leo XIV at Vatican – See the photos",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQzJzRE1QazJQcktZTFF5cTRfd3BkU24tV0hHNC13VUI3NElPYlV3ajFWaE1OVU95UTlCRVEyaDVaNkdkSmRNUFM3T1dqa2hVNFhYQnNuck5oQkJ2Rk9meGJuMlRuLVJTUDdscXhHdkdKMzJpdGFXMTJjanRPZExGWmF2TUZFR09oRURaYmRrRFdFSHNLVzdrWmZDOW1ZUVg1cm1TVmloZHQ4MWxrb0FlemV0RnJPRndrZVpsZnRjY3Y?oc=5",
+       "source": "azcentral.com and The Arizona Republic"
+      },
+      {
+       "title": "Bob Dylan meets Pope Leo XIV at Vatican – See the photos",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR2ZEbDJfZnFFRW1VcjAtdjF3dTNqeXRCa3J1d3dqWE1TQUppdFQ2Uk9IN3Y1bE1NUlVrcG1GRDNDcnY0U0o0QnVZQ3BmMUFhcS1EaWRMZ09CeFBJdDNWTlcwUEpUY3hkd2tDRFVGOWdPZnhrOVhhMWJ3Wnl5M3ZyV3hjZlozdmNDVnRPUkh1VElNU09YVW1MZU5OOUZXSlNuMjBNVUV5Z1J0Y0pPQzFKdUZybENmN0hCdTN2YU9ZOA?oc=5",
+       "source": "USA Today"
+      },
+      {
+       "title": "With God on Their Side: Bob Dylan & Pope Leo XIV Commune at the Vatican",
+       "url": "https://www.billboard.com/music/music-news/bob-dylan-meets-pope-leo-xiv-vatican-rome-1236374334/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Pope Leo XIV meets with Bob Dylan at Vatican",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGpueHFvZ2hNMEwtSXVSWF9sZWdva3lTT3VwR3Z6djhkQS1tR1NYWGNjck5wTUFpVFpWdGZHTWRxNG8xRjJ0M1prbTdiSkx0VHB4d0t5QklhVTZjWXFoWU1Tb29hY0pvNkoxWkFfaTBvOUVzZ2RlV1MyOGR3d0hqQ002WHZQSkdWYU9vVHl0MGlPVW44YVN2NS1Oa2jSAaIBQVVfeXFMTWhhNFU5YVBwQkExUXpGdDQ5alh6d0R3WFZjXzg2ZkFzTFNCenBxbEU3R3dGUFU2LXlrd1JHd25SZW5KdTlDTFpoWTJFaUdEYmFVRkJVaUhLVUE3VHNNS3Frb2lKV0QzWkx0eEtON1UyZGZuZWk5QkxMazRZSC1teUZjVUNsZkdxamRkWTN6SzFtRVZ4NkFZaVlMcmQyN3VyeUJ3?oc=5",
+       "source": "upi"
+      }
+     ]
+    },
+    {
+     "title": "제니 빌보드 '핫 100' 5위 재진입·리사 '빌보드 200' 데뷔",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "JENNIE's \"Dracula\" back at No. 5 on Billboard Hot 100 and LISA debuts on Billboard 200",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOY0JnRktQbE14Nm12TTJaRV9JNzVERzBoeEFCTkY5QkxTbU5MM3Vod25CcktNbnZUOWszS3JLdUFwMHp4OHBMMFNDbkZoNm1tdUhiSnNmbGl3MzlYbzBqeGpXbEdneVh1OEZfdTFNNVNaakFiNVpPRURfOTNQNElTWll6ZUx6R1BweDluZzNITHJabXV4VEcxRjVyWk1BYjJ4dnotY3lPUVdUeGkwOHpKWlVFa25rTmQwUTBpYkhpdw?oc=5",
+       "source": "allkpop"
+      },
+      {
+       "title": "[Billboard Charts] BLACKPINK’s JENNIE Ties Her Career-Best No. 5 With “Dracula”; LISA’s “PRESS PLAY” Debuts at No. 35",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlbDFFdFZtb1JUSjBiYzh2bG40X2FyVUdJRzA5UVFaMGVJMGpqR21rSjl2Zm5remxIYU9zRkU4eG5xcFFhc0NvUjhnbndnanhUV3NVck1Gdl9VRTg?oc=5",
+       "source": "씨네플레이"
+      },
+      {
+       "title": "Tame Impala & JENNIE’s “Dracula” Eyes No. 2 on Billboard Hot 100 After Halloween Surge",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbFM0eThnZzFpLUNrRmRQZDFDbXAzcVlrbzZpS2RrR0dmRDFqVnhBZ3R3bnl3eDlaRWpMZ0FsdjVfS2JqNGpvWGh1aDV5bDN3NUp1VFNqQ29xd3pqRlRzaERtS3NzLVBidWliYXN5RmtqNmtTU19kZllYWE9NTWRmdkhYN1pfZw?oc=5",
+       "source": "InMusic Blog"
+      },
+      {
+       "title": "LISA is back on the Billboard 200.",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT1ZOS3FHNWtSYzlTYkUtMHRKNjZjeUhhak1wMTJFOU90dGxrczc3Tk83UTIxWHNvYldES3AtOHRqLTM0SjJzS2VfbmZvUkNRR21hYVBVcWt6QW1sTWVZaktzRmVLYTZMeENvMGMzSTJOaTE5UnRia2E4dXdiaTg2WUs2d2pzYnFfb3R6bjA1dUVEVnF0VGFhNTcwZkRLdFFJSWJXNmNqTEFRZnZpTVc0b1BGQnRjb3lueW05U3FMUmRaVzNnb3c?oc=5",
+       "source": "Music Times"
+      }
+     ]
+    },
+    {
+     "title": "밴드 혁오, 6년 만에 새 정규 앨범 '33' 발매 예고",
+     "summary": null,
+     "ai": false,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "혁오, 6년 만 정규 앨범 ‘33’ 발매 예고...'사랑' 메시지 이어가",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UcFJHc0FyNDQ2VnIyenhBc18zZ3VTckhRTW1ESUNfOW00bm5SMEhmZ3ZhWWw0TElCQS05M1VPb1FlMjdMM05Lb1IxMDdGQ0hiTG54ZGxMOWYtNlpZMjY1dG0yOWhHUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "혁오, 6년 만에 새 정규앨범 발매",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BbVAtYU9aRjR4QUY1M2R6Rk5vb2Nya1A0M09oZGpfR1pCNmV1YURpV2RlU1RyWlZPUktiVlhCM0sxdTFqaHNOdHNBcW1OU1B5dWJISEpXb3RFaklNY09DZ1VKOTI5Smw1d0pIU1BydDLSAXRBVV95cUxPeWM3dmpKalU1bTdPUDI3RmQ5X2h1UGVwMXA2eS1oZkJ5SEZHMUpwV2ZsUzhfaFk3N3ZDTkt3SE1GQ3RIeDhzak92QnZvdEl6WTk2SFZJc05SX1ktdFpBQXBUSFRvYlVoYjdRaXlZenFQWVdPRg?oc=5",
+       "source": "스포츠한국"
+      },
+      {
+       "title": "혁오, 6년 만의 정규앨범 낸다⋯25일 '33' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Jd05xMGdTYThETTFaTnBKVTdIRlltLTFQaWdqbmFBZ0hFWEpPSURCWVViT0lyM3JPemNpU0Eydl91YnhUZlVGUjlZM0h5NVU?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "밴드 혁오, 11월 25일 컴백…6년 만에 새 정규 '33' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1GbFdneWRlOTBDb3h2RjVjeHlmOTZIa25sSU9meVc1RzJ2SWRHVU5MVmNRYng1dWg5U3JhZXJzU3BxWndOOUZJQnhJbGJVemhnMUM0X1lwZ0UwdVFU?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "혁오, 6년 만에 새 정규앨범 발매",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvOExVNjlhWW5EVUFYZUVPQlJ5SlB2THpVQ1JYdVJJYVMzRnZOWGJIWXRCVlNSdU9pN0lhSlFCbnlHdnExMFdfUEhvQW5kMTNVUHdrS0doYlQ1Y0xwZkpiajVnVUpHMnprWnRyOWpBNNIBb0FVX3lxTFBvOExVNjlhWW5EVUFYZUVPQlJ5SlB2THpVQ1JYdVJJYVMzRnZOWGJIWXRCVlNSdU9pN0lhSlFCbnlHdnExMFdfUEhvQW5kMTNVUHdrS0doYlQ1Y0xwZkpiajVnVUpHMnprWnRyOWpBNA?oc=5",
+       "source": "한국아이닷컴"
+      }
+     ]
+    },
+    {
+     "title": "투모로우바이투게더, 16일 미니 9집으로 가요계 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "투모로우바이투게더, 16일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kdmZCZTNvNS1pRkQtbWs2cnpyNk1NZXpPMVU5aWY5MkxRdDNFVlpDa19JQmhHa3RwZmVyRlhheFoySkR1WFU1YkNRbEJrZHJrU2hFNl82V2JQS2ZOaWJXanFlbVI?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "투모로우바이투게더, 미니 9집 음원 일부 공개…폭넓은 장르",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wREZTX0tkek85SHkxWHhwY1ZydUxNVXRvWXRDMmkwSmw4V3hxLUJvWTRPNTR5dEJ0a0hURWNfUS1lV05lbHVPTW1ST0JOLVVILUJrVWlR?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "“범규(아이돌)랑 다녀옴”…방탄소년단 진-투모로우바이투게더 범규, 방탈출 방문 근황",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hSjhZdU1NRlBPaTRVZVAwQTZnaG9mS0YyUnpSUkJBaFFLbUpfcnlxeUpiTldrOFZGdHktU1lfUERFZVctLW9YOGZjVU9MOTZWeFM0OWQ3ZktobmJxY1VsXzJHVE0tVnBfSEdKMnUweEp2UQ?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "박유천, 티켓값 45만 원 일본 디너쇼 개최 두고 고가 논란",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "박유천, 日 디너쇼 한 장에 45만원…국내 톱가수보다 비싼 값 '시끌'",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSWRwMF8xSjdkdTFzaUhFdlAwUUREekNZbHhPQm80Sm9vTWtvQVZjMEFvSGptR2lCdk9GWjVkODI1UUNOY3pKTDNuTU10VEhpUFdVcTJsMkhFbl9ocDlraHdoTHJkWlp1VFplZ2dRWEVHR1g0VmQ0ZzRCU1ZpQ2tvVldhTVA?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "“한국 톱가수보다 비싸네”…박유천, 일본 디너쇼 1인 ‘45만원’",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kc0phbUJzRi1vcFFqTzd3Nl9QeTZEV0dEVllnQy1OOVRfSWlSWDZwNERqS1VodEVLSDd3UVpDcDlNUkhlaGlwQVV3R0RUU2k5anBrdXZuMlo?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "＂한국 톱가수보다 비싸다＂…박유천 디너쇼가 45만원? 엇갈린 시선 [글로벌 pick]",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83a0MwZlNVUUQyUWhEZ2tvWWJ3UU9LOEV3LXlyTjI4UGQ4ekdvMHNGV29lV1pKSWZXWFZHWVl6T25kS19qVVlZWjlZcTNueERjQ0ZJeUZJbkxzRnBxSjhPb2poQVZESHVsMTZmSHZPQzVEcms?oc=5",
+       "source": "한국경제TV"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 시바, 외모 비하 악플에 \"적당히 좀 하라\"며 분노",
+     "summary": null,
+     "ai": false,
+     "article_count": 14,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "\"자식농사 망쳤다\"..'김지선 래퍼 子' 시바, 결국 폭발 \"못 잡아먹어 안달, 적당히 좀 하시죠\"",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOXdJSE93cFBWUTE1dWxodTc3bWhIbXRvMzBWWlFKcWRrM3BMd0ZLQmlRR2FoZXVNQmg3Rm9mOVVGbWZCSldkbUhwbXFuWmp5VTRPeWV0elZHcXRUZENtTUFCN05uWlFVRV9HSHo5UVRuVnlzWHFGMHZyTjQ2YW5pYW1rU2E?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "‘김지선 아들’ 래퍼 시바 “왜 다들 못 잡아먹어서 안달...적당히 좀 해라” 심경",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xVWoxUjVhc1RTd1dfUldDWEIzbExpWmV2dWdHZHZ2VGJVbzlqMFVSZlI2SkVvY2FtcFlQSmJfbGxINnRRRnJtUmdSNXZZeEZlcml1RG1FbHBRTG91QjM4WHJ3?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "‘김지선 아들’ 래퍼 시바, 살쪄서 악플? 결국 분노 “못 잡아먹어서 안달”[핫피플]",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb1Z4SHpOR0xfWXRZX2lzZkNOV2Q4SmhDa0d4SzE2RnlheDVmajFmd1dIXzd5ek4tVUVudGRhWm0wV0IzNHNNRF9JUi1YUDJ6VWhRZHZXbVdWOGVWNk41QThWcUVHaC02NzVXalRjOEFPYVRjWVZ6Q01ZVXRnV1FzMGlEd3dYQ0RiamNfSHF6Yw?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "'김지선 아들' 래퍼 시바 \"적당히 좀 하시죠\" 분노…무슨 일? [소셜in]",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UVF9vVjhNS1R6OFd6WVZlQVBiRktucmJBSFlHaG5mdFZocVBxRzBPVE9GVHl6T0FJVFhNTWVSSG93YzN1OHVmOWE5VGlDdTZQQ19SZUs0bTFYd3ZBWXZjaA?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "\"자식 농사 망쳐\" 김지선子 래퍼 시바, 악플에 결국 폭발했다…\"적당히 좀 하시죠\"",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rM2tfSGlfYURrbUFDYllZVzJyVGROMEUyVTBSZkdNZXdWdVJvVG5vdlhsMGtJaWwwWG1Ed3hQaEdrUWNNcFVRTkFrangtdUJnb2h4d2U3blg1NlU?oc=5",
+       "source": "텐아시아"
+      }
+     ]
+    },
+    {
+     "title": "걸그룹 언차일드, 두 번째 싱글 '팅팅' 발매하며 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 37,
+     "source_count": 23,
+     "links": [
+      {
+       "title": "언차일드, 오늘 새 싱글 ‘TiNG TiNG’ 발매…7개월 만 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yWkRfQ1h5d0VTelJxR0RnbHRDUVBaRzJhbFRvaEtETUFzQXdUV2tTVE11UTdhcGx1eTZONm8zWVJ6ZldWaktDQ2dNUHFvN1N0Sk1zemVkOE9zOTNmY2pvdUZsRWZhN0pIWEtndWZwMmhNZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "언차일드, 오늘(5일) 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94bGxfMERydmh3dTJOUVJ0ZUNUaER6NUVEdUl6RU9uS3lXcmtIc05BV0xaem1KTTJvWGF6UXVZLWVoQ0hLc3VWUEt6RVB6b3hIM3ZWNGFNNUJNd2xkbU94RXdTcWk?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "언차일드, 7개월 만 컴백 \\",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oZm5yel81Z0lUNUZRV3dIVnRqQW9vWjhrYUJ6cXpGTk1ONFBncVI0bEdXWFFoVWxvd2haR0VmdGVaaG14eTlPblNxejZ0dEVuMFJMYURSN1NzVmtrTlZkYVJXeDF5M2xuMGFlZktR?oc=5",
+       "source": "셀럽미디어"
+      },
+      {
+       "title": "[사진]언차일드,'설레는 컴백 무대'",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqX2QyUEJWb2ZNanR3RjFZVWRTaGpJREFpLUNpSGYyYU95NTdPc3ZTNTJxTHVaa1l1OEhWWVoxYzY2TUcxaHpOUEs0c05FUTB5anYwTg?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "언차일드, 7개월 만에 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FbkFIX3pXMGRxNElZM2FBWUY5Q3lYblJVLWV4Qy1SM25aekhNdDlSaGFsZS1WcUZ3NXNXMW4wX3dSVzRBSHJ3LVd5SQ?oc=5",
+       "source": "뉴스1"
+      }
+     ]
+    },
+    {
+     "title": "김광진, 9년 만의 신곡 앞두고 '환갑 지디'로 파격 변신",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "김광진, 9년 만에 신곡 컴백…‘환갑 지디’ 파격 변신(전참시)",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1SmFmZVJXaU1OS2VCdjExNGVSNzM0ZXNtOXBpSW9PU1UtOUo5R1pXS01Tdk4tQVdTRl9vcXFkLVZRMVYwYWZkbkJRVDNTZ2ttQl9maE16ajAwMXVYUzFYS3U5LXk0MVVER1YyMGxn?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "김광진, 9년 만의 신곡 앞두고 파격 변신…'환갑 지디' 된 사연",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMOURZUXRWVE9GN1M5Yi1RcXVIcEU2OWctT0JWWk92eWlXRDVvc01LSno3X3duVkR2MkVqZWlRV3huQVhxaXZXME9zaW1uZ3otRERkdlBtOUZ4RFJLbVR1U3VTSzZTSHdJMWfSAW5BVV95cUxQZWlLcHBUMlpRakVOc1lCOElIbVA1dDZhMmZlel8tSkM5Um9SRVlSMG5YS2lvdThMR2tVd0s5V21vOVNSU3lTQW5lWldkU0Q0bTluMnI1T2FHcEhEXzZjVVpHXzM3LWFBMDQxdTc5Zw?oc=5",
+       "source": "지피코리아"
+      },
+      {
+       "title": "전지적 참견 시점, 김광진 9년 만 신곡 준비…‘환갑 지디’로 파격 변신",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4ZlJPUjlWblZ4TlJ0eHlSTGJ1VzNpcTVoTzRUa2RFdVluTlNFaU8zYm1WaldnRmY4ZFdqNGRNU2VOWmZCMFA3X0M4dW1fTFBib0JUNXBqNmlOVElNbHIxQkpBSmhuRHpOVXFzb29LeENjdw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "김광진, '60대 GD' 됐다…9년만 컴백에 파격 변신 (전참시)",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UeHhmZWxtOUZ1eHMwc2gtRlRnUVg4d0VTMmVaZVB1ZGNaUGxOYnNuSk5KSVVZenZXclpZeFc1clpEUGE4eEpKb2wzT0FKcW5fYUdNNw?oc=5",
+       "source": "www.xportsnews.com"
+      },
+      {
+       "title": "김광진, 9년 만에 신곡 ‘플라이 어웨이’ 컴백…‘환갑 지디’ 파격 앨범 재킷 공개",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UT21wM19WR1F5RGNqMTMwVHJkQXpSanVuRTlSbXF4WW1MY0JfeUtudWlqUDRaOUJWempPc1RGaVMzVFpCVjQtZ3RDSG5jQzl5d0RSNkhCTm5JRWhZdkotc1I0eW9IelhJUjZj?oc=5",
+       "source": "한국사회복지저널"
+      }
+     ]
+    },
+    {
+     "title": "한로로, 신곡 '물음표' 발매 및 첫 아레나 단독 콘서트 개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "한로로, 오늘(5일) 신곡 '물음표' 발매…내년 1월 데뷔 첫 아레나 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XZjFCaWtEanFqRmZ6eElPaF9PcDdQc3ZzTGpuYlJxYUNKZjkyb0N0OV9PaHFBZjN3c1lyTGJMTml5REhuQy1CWVlSN3NHamVLY3dMVWhpMHE1ZWtfclJiMTlFeV80dw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "한로로, 오늘(5일) 신곡 ‘물음표’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RdGtuNk1yMFZMcmFheXIzaEJ1UVYwRTNUa1FUd0tZVlBnVDMzYUp5TEd2Y3JreEZJbFkxaHdXRGNJMWNPSUZZRXNXV3k5Ukp0blJoSzdna2RLMzA0LXRZU3ZfZXY?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "‘믿고 듣는’ 한로로 귀환…오늘(5일) 신곡 ‘물음표’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOeHNmeU1fQmkyTDlnNWlFSC11WElRcnVscXI0MHJUSC11bzhyUEdVdXlBRm9JTnRaeEV5UnpRY1ZXSi1Tc0laMlpOTVJwX1FGWUs2UQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "한로로, 오늘(5일) 신곡 ‘물음표’ 발매…데뷔 첫 아레나 콘서트까지",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JOUc0MkIxOHBzTFF3WUpNRDU2ODJMS2l4REJ0MFYwWDJVYjNDbGZ2WXhqb2pmSzRETGFkX1BNd3lUY1pGTGcwT3p3dC1NeC1rZTFoQnJtdjk4OTI3QVZEWEpDRF9MTXdLWmRlSUp3?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      },
+      {
+       "title": "[오늘가요] 한로로, 신곡 '물음표' 발매⋯\"직접 쓴 시놉시스가 뮤비로\"",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBxMWtTdl9GSDNDc3BVNUM2N1QtNVZGbWFNeE9DejUtOGRtUjhrTU9MNHdkZlpLRnJjeFMzcnQzWFUyY2tTTWREdkdQQQ?oc=5",
+       "source": "조이뉴스24"
+      }
+     ]
+    },
+    {
+     "title": "밴드 드래곤포니, 3인 체제로 팀 재편 후 첫 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "드래곤포니, 3인 체제 후 첫 컴백…\"더 똘똘 뭉치고 신뢰 쌓아\"",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtMU9xNUk2bmtwQWpRaE5ZbXN3ZnNKV1JoUHV0bk5oOE9lX1pKcTZGZ3dpcnJQRjJtUm9ueUhkTi0zUGtmTmV3bGt0QlYxWnE3dzVDMzVLRndtclHSAWBBVV95cUxPX19aeWl4dC14b25qcjJkNHZZSGtPenBhd3BsblpUMXVpZllScVl3b0pNeGRpX0JfUEdFM0dnUnoycmNnRWk2LXhqbEo3OW5lX0VFWUUyV2tKSUpJeUhMdzA?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "드래곤포니 \"3인 체제 재편 후 첫 컴백… 음악으로 진심 전할 것\" [N인터뷰]",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEakVQaE8tNTFmamFqVnRXLWFEVk9kUUpNSmRBYnFRc1N6N0c0VjRLdUtqdndSMDAydXQ2THI5ZzZpaWJDTnBZUXFFUjlNaXkwNWRVSVcxbmZ4bG9S?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "드래곤포니, 3인 체제 후 첫 컴백…\"더 똘똘 뭉치고 신뢰 쌓아\"",
+       "url": "https://www.yna.co.kr/view/AKR20261104136400005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "드래곤포니 3인 체제 첫 컴백…새 싱글 발매 : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jLVpYSnpUTDN4TjZ1OE90dTVBNjQzbjZvLWJFczFmb1VoZ2JCWVhLai1MQ1VSNkI4MXdmQWdHNkVZQmNGTjhPT0o3Zw?oc=5",
+       "source": "재경일보"
+      },
+      {
+       "title": "드래곤포니, 오늘(5일) 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01OU1nTHVXT0MyaXRZUXcyYXNoWWc2VjB4YlAtYWFqV3VETXdaR25iSll4elpqVXAzcm9xbjg5X1d6RzJCRy1LekQ5cTNfQ1ZfUDJsTFI2TTJydGNfakdBZVZnUk4?oc=5",
+       "source": "BNT뉴스"
+      }
+     ]
+    },
+    {
+     "title": "이채연, 가수 활동에 전념하기 위해 '골때녀' 전격 하차",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "이채연, '골때녀' 전격 하차 선언 \"가수로서 보여드릴 모습 많아…죄송\" [전문]",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02a3h5Z2dWM2MwU2hPcjhBcnFQRHRQM3hHSGZtQk5JN1dENEVROHA0bUhWczZKUHR4U2wyMHFuVk14LWZDT21mSFMxMmNvMVFzdGc4TEtyTWV3OGVFWndxWGVnSFY3bm1HMll1RzNYQ2U?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "이채연, ‘골때녀’ 하차→FC 탑걸 떠난다…“가수로서 보여드리고 싶은 모습 많아”",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJbGFfMGlDcG9MVVpVVDQxVmpYUWw4dldqeHFSeWVPSm5sdGZkMUs2ME9TeUFGVXVYd1VBVlVOcWt0MzNhSlUyN01MNFlNYmlGMFpQWUJwZUtlV1NRNUJ1SVI5RGNQSmxMYUZyM0xqMkpNdw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "이채연, 2년 반 정든 ‘골때녀’ 하차 “가수로서 보여드릴 모습 많아 죄송” [전문]",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEalFKOVpuQ2VPTzJWbnFBUFVoakFJZ3JZX2FWOEZtZ2dHR2UwY2lWNWVkYlk5ZlBmazRRVmhqd1pCVWdmaDFmY200UmhPSHNlV2FmM0V0RUxXdlU?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "앰퍼샌드원, 첫 정규 앨범 '패스파인더' 트랙리스트 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "앰퍼샌드원, 데뷔 첫 정규 앨범 ‘PATHFINDER’ 트랙리스트 공개",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8talFCVHYxdlBxekk5d2J6S1FHWmc4c2JUY3QtZ1JGaVdfaE9ZXzNrTFdDVzRmQ0RpNGlWTjNtVGhreFlPQ0hSQURBaGlHd0xkLXN6QlpGTURMRTZOQy1HbXhNTnkxYmJUT2c?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "앰퍼샌드원, 17일 첫 정규앨범 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45bXU4RFFwbHhWWklFNkdaZUpwUVpCQnJTdVJPV19CdEZLN1JaRlVUaE1Qa2k2RHZOY1JrZUVLUmlsNEVFdkNmZUszeUNaaERyZld6TjJfQ1BuTnRNWmtJR05xSXQ?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범 ‘PATHFINDER’ 트랙리스트 공개…타이틀곡은 ‘King’s Way’",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uSzNIREpSb052cF82M0twLWlnNGc5bFRrTnhVQkU4TkxjSnphZFBNdG1LMW5LQTRiLWdPMzROWTJsYm43TUc4dk9wMFREdVpUU3c2UERyZzdTOFpQQWdQT2NqUXRJcWx4RUlSQjBCUWYwUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "‘17일 컴백’ 앰퍼샌드원, 정규 1집 타이틀곡은 ‘킹스 웨이’",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LSll4Wmhka1hhQ2VHc2kyNmkxVXJaazNUQ1M5em9pdVctZklqejk5ZDIxSmFGbnpDWTM3dHNTZHRWVVB0N1A3b01icVhyNkVBaUF3Mg?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "앰퍼샌드원, '왕의 길' 걷는다…새 앨범 트랙리스트 공개",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1pQzY3SlZMUVBKWGlyQ1QyN0p0clQydWN1RmdzTFBPdjlxTTVkVGdkV0x6dW9oV1lVejJxSHFSWExzMVkwaDhRQnFxcWRmNHYzcmNNa1JnT054dF9z0gFXQVVfeXFMTWJWcm5nWUNqendFeHZTSXVub0VGT2M1M1dfcE8zWEI2bDQ1elRtT2FpeE1tQWJ2aG1sR0JyaGc4ZF9XTUI3SzVlSG1ZVUthZlk0MHdHLVNz?oc=5",
+       "source": "더팩트"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
