@@ -1,0 +1,490 @@
+{
+ "date": "2026-11-06",
+ "generated_at": "2026-11-07T00:17:09.580768+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 8,
+ "llm_errors": [
+  "요약 c4~c7 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 913,
+   "issues": [
+    {
+     "title": "뉴진스 계약서에 수면·휴식·선택권 등 아동 보호 조항 누락 보도",
+     "summary": "케이팝 그룹 뉴진스(NewJeans)의 계약서에 수면, 휴식, 자유로운 선택권 등의 권리가 제외되었다는 보도가 나왔다. 외신에 따르면 소속사 어도어(Ador)는 멤버들이 미성년자이던 당시 계약에서 아동 보호 조항을 제외한 것으로 보고서에 나타났다. 계약서에는 수면과 휴식 외에도 교육에 대한 보호 권리 등이 누락되거나 포기된 제한적인 내용이 담긴 것으로 전해졌다. 이번 보고서 내용이 알려지면서 뉴진스의 전속 계약 조건을 둘러싼 논란이 제기되고 있다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "K-pop group NewJeans’s contract omitted rights to ‘sleep and free choice’ – report",
+       "url": "https://www.theguardian.com/music/2026/nov/05/k-pop-group-newjeans-contract",
+       "source": "The Guardian"
+      },
+      {
+       "title": "NewJeans contracts under fire: K-pop group members gave up rights to rest, sleep and free choice",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZFFxY1BzYmRaNEZfNzUyOEgwcGpMLXVlak9TUmJDVjZzaGNBb0hnQ1lvR3QzbEdXR21jbHFkb0lVeFhVdFNpZkN2NEJ1UTVveTRaM1U5b3R0RkpOekhMS1NBZWdHaEdpTUhoOTh4bDNjV3RDbzdOWTdFT1BGWk4yaERvQk5aSVVRZklzcGt1czNhNUlNdzludi1pMi1OOW8xY2xMWXNvZkRCWHF5ZTlvTjliZTd0aG9FRWRZc1lubjk4OTRkVDBjR0w2R0NoNEU?oc=5",
+       "source": "Gazeta Express"
+      },
+      {
+       "title": "K-pop teen group NewJeans’ contracts omitted sleep, rest and education protections",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVVBJUGE4YnlxbHVrZWd3WE5BeVBGTGd3Q0dJYUZTVkNYREh2RHZZNTEtYjhqZ0JFd2ZvSGxkZHFRTE8xWnhTVFNNN2d4TUZWRWZaVFN4THI0LVc5XzNlc3ppcEJteDBlNXdMdFpHNjdpSUk2WUJsZ2FiaXUtU3NNYS1iZmZqcEZNblNfaERZc0tMLWZzS3ZjVDBiSEJaWm1GT2pMX3hRRnY3QW9zSktDM25wdUFrVS1FQjJzTlpsV1ZWU2M?oc=5",
+       "source": "Türkiye Today"
+      },
+      {
+       "title": "NewJeans’ contracts restrict members from basic rights to ‘sleep, rest and free choice’: Reports",
+       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNzNmU3MtMWEtaExZbGt6MVRsVjJGcFRCOXc2SmpBdVdrZWFuakV1SUNtUC1qZFFKRFdyUWtvU1JSVmFTOGdQYnlDT1J4VGJQUkhVRzI3M1RJUjFHeTkyTnYyYnlMMFVuUXF0UUlHZUNzYWViaHJDMlNRcF85elc2clN2M1BnaldueDRJbGMtUlA0b3pNT2ZubzhBdEFIRk1faXRSaE8wWTFuTEVHQVZ6U0h5ZldRdVBENU5RYVY1UnMxVjlucVFZMkgzV0pvQkc2NlJWeDRZSF81QzZtSVlqeEFB0gHnAUFVX3lxTE9Sdnd6cGlUZFZMclVzbFcyTjdrclFNTDc0S3JLc1JzcFBJRjMzQV9IVFRRRE5jajlqWExPSnFPbWs1c1dOX1JQN1MzU2dldUlzZTdXMlRMUDNYQ3djNllyMU90SWNPaXdIUUFMZWxMOVZxSXdzd3R3akRyNUZkT1ZGSjgxS21OM2RKSmRQb0lnN0tCcVFlRXR4Z3U0ckNCMW1PQVJybE9ZM2hld1JiS1ZEcnZtQW9PUUl0a2c0WW9fNFBKdUVRQVAwZC15TGNaa1d1MkZ0REEzWmlzOENpOVVlLUZpMTFTWQ?oc=5",
+       "source": "Telegraph India"
+      },
+      {
+       "title": "K-pop group NewJeans’s contract omitted rights to ‘sleep and free choice’",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TeGJVU2YxaVFFcFNvWEtwZFVIM2YwaU1HRU8wRXZmOHVTNzA0Q21ZUU5XUTFQUFIzQ3l2cGtzWUtPM2h4eHkwUHUyX21fV29HeVIydkRBVEdPekd6QWg2QkRpeENfUXNsVjRLaW1fMHVneUdkRVM0?oc=5",
+       "source": "Irish Examiner"
+      }
+     ]
+    },
+    {
+     "title": "돌리 파튼 매니저, 유족 협박 혐의로 제기했던 조카 상대 소송 취하",
+     "summary": "돌리 파튼(Dolly Parton)의 매니저가 고인의 유산을 갈취하려 협박했다는 혐의로 조카를 상대로 냈던 소송을 취하하기로 했다. 매니저는 고인의 조카가 유산과 관련 직원들을 위협하며 돈을 뜯어내려 했다고 고소한 바 있다. 현지 매체들에 따르면 매니저 측은 해당 혐의가 담긴 고소장을 취하하는 절차를 밟았다. 이번 취하 건은 복수의 언론을 통해 일제히 보도되었다.",
+     "ai": true,
+     "article_count": 26,
+     "source_count": 25,
+     "links": [
+      {
+       "title": "Breaking News: Dolly Parton’s manager dropped a lawsuit accusing the late singer’s nephew of threatening to extract money from her estate.",
+       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWGQ3d1JCeXp4QWVJc1hUbm5lb2tld3RiQ1pnOUFKNHloWlN1WVk3bDdtOHBGUVlnNHUtaFQ1WUlLU0tBTHZ0TG83Rnh6UURrRktBaFBNOVNCN0Y2X3VDLUVzUFdhX2ZrQmtlRXp6emswcmVIWmJHX1duQTN4eTE5RHZ1XzNycmkxaHRQLWl5U3U3a1NlX2l6LVJnTk8xaTNyZ1ZRU05MWVZvdnpaZ2JRaVlqMTFRQnk3VHJ3R3FOMkNVcXg1VEw2WHJCSjRuZFdKdkFz?oc=5",
+       "source": "Facebook"
+      },
+      {
+       "title": "Dolly Parton's manager moves to drop complaint accusing late singer's nephew of threatening estate and its employees",
+       "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOTldxOWFnaDNZQlBQV09JckhoT2ZPSDZORHo5d3dPdWVZa25XdUhnSnJGMFU1SzJ4WWtKRG9qNG94ZlkwUno4VkliTThxVVAwbjVKYVNOM01ZZ3N4T0dIcGg1X213M3BrSDF5MlpmWUFwS1hKSEF6ODlkWlM2SEEzUHpqT1NpTGViMDFBV3V0ajBZQUkySUJPSTFNUlpoSmxuYV81SVd4U3BOTXlyMXl1anEtdng0X3lVdENMT253QmFiOWYySVJyQzRJejI5MUsyNk9LMENiN0hnU0V5azgzRF9nYTA0eWVQUk1veVZqRUJiUXRPOTRMR3FjcGFVU3ZQOUtHaVIxN0RObzBheGVyay1rTHdaSlY0NkxxTkJiU0wwR0dFZkE?oc=5",
+       "source": "Clinton Herald"
+      },
+      {
+       "title": "Dolly Parton's manager moves to drop complaint accusing late singer's nephew of threatening estate and its employees",
+       "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQWW5fR3c4UzZxZXhuLU1iNm9GNTJTbDUyY1VrUVFKSzZoYm5UMWt5R1BZcGl1bFUtRW9TTDZtd1FUUnpmTlotRkR3WTdtR2x6dDNadGNUWFZuVEZlTnRCWUtQSThvUWM0bnRNMGhjODNnQlhpX05xNnVNT3JKdWFWY3lENHlxTC0wN3VCak1HVEhqZGZsN0ZEWVFuT3MzeEVPMGMxRlpvUm52SmtfcXhSNEhhUjZaSGVOdjNGUmN5MHJqQlRQZ0ttTGJvS1VEZmdFaFluWlhXQWxaMGlrX0FmaGNwM3NZUFczMGhmTXBxU2p2MnJnZFJWT1drQXRpcjRWNnJsdVVZcmJXcFRaYV95T2pRZEpBM1ly?oc=5",
+       "source": "KTVO"
+      },
+      {
+       "title": "Dolly Parton's manager moves to drop complaint accusing late singer's nephew of threatening estate",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ3lpcTd0cGtEVkFuQnFZWFN0MlptWXhYNVZUdzBBYWNUR3pPVjBTWWcySmlRRmJVTHRGLXI4UU1QWDk3ZjM5cWhuVG1WNFhqWW9UMV9xZ01oTUtkS1hENnQxUjUtNFIwOUFLVGcybkhLUmt6RDZ5eWpuWHhqbGg5Z1JfbGhDeXpENy01VkNJU1c2OENwbEFKaTdSb09IRkdkUDhaN3JvYi1XTmVveXo3cg?oc=5",
+       "source": "Audacy"
+      },
+      {
+       "title": "Dolly Parton's manager moves to drop complaint accusing late singer's nephew of threatening estate",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVjRHRzZyLTFybzJJUW51MFZzVlFaQVhTLXNyVi1jdl9LSjZqTEx3YUFyMVF4ek44TlpaZGhDYTh5bVhSaHVWRWVkX1I5dDVmbnUyQjVzSmJGSllwTWZFUndmLWt4TEFOb2lWZXNHRXg4U0JUZ1BUeTd4RkM1Znp2TWFHaVYybFoy?oc=5",
+       "source": "Newsday"
+      }
+     ]
+    },
+    {
+     "title": "올리비아 로드리고, 홀리데이 싱글 발매 및 뮤직비디오 공개",
+     "summary": "팝스타 올리비아 로드리고(Olivia Rodrigo)가 새 홀리데이 싱글 'Take Me Home (4 Christmas)'을 발표했다. 이번 신곡과 함께 공개된 공식 뮤직비디오 영상에는 벤 마셜(Ben Marshall)과 신시아 닉슨(Cynthia Nixon)이 공동 출연했다. 신곡은 현재 스트리밍 서비스를 통해 들을 수 있다. 주요 음악 매체들은 로드리고의 새 크리스마스 시즌 곡 발표 소식을 일제히 다뤘다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Olivia Rodrigo Unwraps Holiday Single ‘Take Me Home (4 Christmas)’: Stream It Now",
+       "url": "https://www.billboard.com/music/music-news/olivia-rodrigo-new-song-take-me-home-4-christmas-video-1236375403/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Olivia Rodrigo – “take me home (4 christmas)”",
+       "url": "https://stereogum.com/2516456/olivia-rodrigo-take-me-home-4-christmas/music/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Listen to Olivia Rodrigo’s New Song “Take Me Home (4 Christmas)”",
+       "url": "https://pitchfork.com/story/listen-to-olivia-rodrigos-new-song-take-me-home-4-christmas/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Olivia Rodrigo Unveils New Holiday Song “Take me home (4 christmas)”",
+       "url": "https://consequence.net/2026/11/olivia-rodrigo-take-me-home-4-christmas-holiday-song-stream/",
+       "source": "Consequence"
+      }
+     ]
+    },
+    {
+     "title": "NCT DREAM, 정규 6집 발매 기념 리스닝 파티와 컴백 라이브 연다",
+     "summary": "그룹 NCT DREAM(엔시티 드림)이 정규 6집 발매를 앞두고 전 세계 팬들을 대상으로 리스닝 파티와 컴백 라이브를 잇달아 개최한다. 이번 행사는 새 앨범 공개에 맞춰 컴백 열기를 높이고 팬들과 음악으로 소통하기 위해 마련됐다. NCT DREAM은 리스닝 파티를 통해 신곡을 미리 소개하고 이후 컴백 라이브를 진행할 예정이다. 소속사 측은 팬들에게 특별한 시간을 선물하며 본격적인 정규 6집 활동에 나선다는 계획이다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "NCT DREAM, 전세계 팬 대상 정규 6집 리스닝 파티·컴백 라이브 개최",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Cd1JNQlJSX29WX01iTmplVm1sQ19JTlZSQ054dkRNa0hsZV9HRnJoUGhXZzJVUUMwNU91WGg5d1dBMXdmZkV0VkowNldLdldxd1ZVWC1vTEJ2ZHlSRGlWZEZQMzJ1UQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "NCT 드림, 리스닝 파티∙컴백 라이브 개최",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4yeUhvME9KRUJHQmxLMUkzdXIyNlk5TjN1REVhWi1zZkdHdUpHNmFQU05ydGt3WE5wSFpEME1ILWxEb29uSEM4dmRjbVgxdDl3SUVnaGpDOWdtX1ItY0k4MHFhbEY?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "NCT DREAM, 정규 6집 발매 앞두고 리스닝 파티와 컴백 라이브 연다",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wTjZYS1hjU2ROX1ZGeEVwXzB1bEE3cjUtazN5YnpOOGtrQzdZd0xzbl9NMWJiOHFFWXdHWG5ZbmUxeUFIeHhodERxZWFkQnNvbGNMWGJKWkNkYmpJYlVnLXg3NFFkcVJoZi1CYlJnVFg0UQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "NCT DREAM, 정규 6집 발매 앞두고 리스닝 파티·컴백 라이브 진행",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPV3RxdC1zX05IcERsR3BRLWw0UmVTRUw0bGpENEFVa29Qdm5Jbnd4cV9ueVMtNmtzQVZjWExMQ05LM2tPNWhFSlFJcElpOG1uMHRTaDAyc3BXYVc1YzFIdFBVek1RaV8tdEVqaFNUM3BQWk0?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "엔시티 드림, 정규 6집 컴백 열기 고조…리스닝 파티→컴백 라이브",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HTl9LRjBXSWJHN1JYMXNrS04wSnBuazVPQ01pYmJaSXN1TEJjMXp6a1JRblpMeEJfNVA1SlpZbl9mS1lCY2pHRE5BdGNZQjNlSGhWWg?oc=5",
+       "source": "비즈엔터"
+      }
+     ]
+    },
+    {
+     "title": "피원하모니, 미니 10집 '블로우 업' 발매하며 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "피원하모니, 오늘 미니 10집 ‘ BLOW UP ’ 으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UMkJjQmFFREhYM1BQWjAtcG91bHphdEJpMmNfTFdZUHZVSnRsUUM5UnkySXRjNUo3cUpZV1JmUzdYQjhLX3lHUExPTWxIX3JZWUNldHlWM0FJYlJmbFllUm91NkotSG5fNnc?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "피원하모니, 오늘 미니 10집 ‘ BLOW UP ’ 으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05OUpXeTRGemNma2J6Wjk3S0U0ZnoxWFpmN2ZSLWtsWU51QTVFbllteUNRU2wzQklnRXFKTjZ2X3JVckctVEhVLXZhMlZmaVNmcWlTY0FNYmJiTHFaeGtWSk14LUhrUUFNZWljRDFJWQ?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "피원하모니, 오늘 컴백…미니 10집 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1OXJJcEpwN3VwcmM0VXFUQmNfSUxHQWFJUVJ4aG5jRlNrVUEyVFFJUEZkeHYzajY3Nlh0Z0RlWTZUaXhURks0dlV5ajR0YnZYdnVWU0JIbEN6eDNuSl9oODJQTWs?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "[오늘컴백] 피원하모니 \"'BLOW UP', 더 높이 올라가고픈 열정\"(일문일답)",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vZ1RVcXFBSmlHMkZPUGRwSjFmbnkxcmVCYVhFNE14WjhJQ2R3TWotYkdLREtTLUxjVmFJYWNraTRyTkNQR0VadERaUjZUWjA?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "피원하모니, 이지 리스닝 입고 'BLOW UP'…미니 10집 컴백(일문일답)",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tbXRyLVFRNVhsNUt2YkdwQ3laMkZydW5oMzg1TFVrd283MzhONWNIeG03b1gzRHM1QXE2RmNURGhXOFBiZGsydjh1dndPamlYMmgtV2V0V0p6VVVPZFMwTm5NNGFDQQ?oc=5",
+       "source": "뉴스컬처"
+      }
+     ]
+    },
+    {
+     "title": "에이티즈, 신곡 '업' 음원 일부 공개하며 컴백 예고",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "에이티즈, 신곡 ‘UP’ 첫 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91LU5ucXV2enBwTTlBV2tXOWx6SzVIRFkzb2JaazZVR0ExQ3IzR254Wm5uVVJLV1pQdmxwXy1qaklGWG5yekRZQmdJZzREdnNxYjZqcE8zNXZjckp0RF81SFI1Y3Y?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "에이티즈, 신곡 ‘업’ 사운드 첫 공개…프리뷰로 강렬한 컴백 예고",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsRXBSbHR2dFVydVR4SFc3UDNxcEp2bVhVbnlmNDNXRXNfY3BUZ1g5ZGpTVWg2eU1USjVpVGNITHlmNTdaaF9lQlhsYnVZbFdLVHpKb1RfLUlyWW84VTRuS0I0Y090UQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "에이티즈, 신곡 ‘업’ 폭발적 사운드로 컴백 기대 ‘업’",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wb3Jmb3F1TGdCQnllcGhjNERJX0xyQkJIdVNpZzBWcW9OUWw5dEU0bnFPcWY5ZWRLQVpPWUxnbkpuR21PMzdJdXFzUm85SXdLMDJ4RA?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "에이티즈, 신곡 `업` 첫 공개…폭발적인 사운드",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HWGVxVndJZnVSYms2SVZyc3YzdmVlQUk2TnFDajNIcjItNHhNVC1ZOHF2clFVbGNPTWF5V3o5TlRDVkF1aUFMc3l3dDFQbkQ4T3RVVE13Q2E5cUdYaE9lcQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "에이티즈, 더 높이 올라간다…신곡 ‘UP’ 첫 공개부터 강렬",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5c1ZSNzJBWWlRMFZ5OXJGMldUYkJyU1V5QjVaU2pES2drSTBYTXJzWTZOdmNjWXNxYWkwMTlfSldwdzJWYlg5UVZ6d3lRMlVpOXZjYUZwd0VObU5YOGRSY0lLZjZFbXFYek1mRk13?oc=5",
+       "source": "스포츠동아"
+      }
+     ]
+    },
+    {
+     "title": "마마무 솔라, 거리 공연서 신곡 '나의 20대에게' 최초 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "마마무 솔라, 데뷔 첫 솔로 버스킹서 신곡 ‘나의 20대에게’ 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5pbEZ2RU1LT2FKVjNUQi05VThpRnIwU1ItdElFTzV4OFl5ZjVQRHpmUC1tMlFJeUl0WTUwM2N6QmNqR3RKYll3TE1mSzhXQnU4bmVjRXRqcWxocEM0SkN4SG9YVU9RNWtNckY4OHUzUTlEUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "[공식] 마마무 솔라, 오늘 신촌 버스킹…신곡 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFByblk1dTZSblRfeGpWS1VkR0hwaXA3S2tsX3pCcENlLU1iUzJ6MWFLRmRVaFJYRWlZT0puOG5uY0NFaTNrazJtVGNmSnk3Z1l4NXVoblBnMTZqUl90ZnNfYkpYczVlczJ3RTNyYmN3?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "솔라, 오늘(6일) 신촌서 첫 버스킹 진행…신곡 '나의 20대에게' 라이브 무대 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LM3pzcXVNUnItLWJiaWg3ZGlSX1p1eGhDNG5OaUxUUk1mQ2cxcXM1OFlsOXVCRU54MlJ1THdjNHl4c3ZsT1VOMGtaS2ZTNHNpa3FYRVExamQ1RWtmbnJody1JZ29ldw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "솔라, 데뷔 첫 솔로 버스킹…신곡 라이브 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1ZWxvYndRb0E3blQzWDlSQ2NqZkRJMWlVNHlSQmw4S1M1a29paW12VWJaaHJpMkdyNW1acXlIZEhCZ1RZeGRWYTJSN3VIby1yWkFsMjNTWFpkYlBBQ0NVaEwwaWJ2c2s2ZkNn?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "솔라, 신촌 한복판서 첫 버스킹…신곡 '나의 20대에게' 컴백 예열",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iSTdaUl9wV1RpcGZURzNvczVfVndTWUFxQVlFOWpRRENfaHFYNzR3cUZMVHJDTjdQSW9aZWJRSndlMDZkVGwtNTl6WDBFNU94S3BWaUxhOUJyT0F3U1FIOHBCQkJ1Zw?oc=5",
+       "source": "뉴스컬처"
+      }
+     ]
+    },
+    {
+     "title": "제로베이스원 유닛 EMP, 다이나믹 듀오와 협업 곡 선보여",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "[피플] 청량 벗고 힙합 입은 제로베이스원 첫 유닛 ‘EMP’",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWYjNWVE9HTFhWY0sxTkticGhCWWIzZW5KYUhhVjlfYnlzWlRYLWNLalQtZDZ4V1dXclRDRFdLR3NDVVpBWE5pRnZPdnBtNVhPZGNQRg?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "제로베이스원 유닛 EMP, 다이나믹 듀오와 '런'…힙합 시너지",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1N1hBMkFiTGZ3X0wxUmxjM1dRSjdQZ0RyTWd4cTNmdWpodGFSRFZnTDVJWlhGRmR2dTNRZjdGa1VadjJDZ3RJa1VwVzBzeGViTHJjcnRyNA?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "선후배 힙합 듀오의 만남…제로베이스원 EMP·다이나믹 듀오 ‘런’ 라이브",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LaXNodjRxNDd6NVdxSnpZM2hMU0p4YlJPTEwydVBNdFlkMlJVa1BCVWlham5NVGdXTE13UV9uaVNFQnhvRHlmRmJXZG5CU1N6LUxjdmRSc0VqSkE?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "‘뮤직뱅크’, 투어스·리센느 컴백→제로베이스원 유닛 EMP 데뷔…방송 시간?",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HdjdWSW1sVTJhSHJjdVdKUEFxR0xmaWVOVXZ0UkI1QkRkUEVfcEtCZlhRV29QVHIybVhMWDhrT2ZzYWZkN1I0a1pDOW9rUEc3Qms0bmRfTkpFLTJvcU15WFlNcEZnMmNKYTZGNExQb283dw?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "서울시향·츠베덴, 말러 교향곡 2번 '부활' 음원 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "서울시향, 츠베덴과 완성한 말러 교향곡 2번 ‘부활’ 음원 공개",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PcDh5eUMwTHJBTGRHcmlxQ3N2YlFMbWp1eGdISWtBQWdvYzdEVXNsc0tGTGtzMFNPd1I3d0NqTmxnaUdmWmswSHR0WUtXZTdtek56Y2MwOVZuZDZRTjhjWHlDTkdYTFFIRl9j?oc=5",
+       "source": "서울문화투데이"
+      },
+      {
+       "title": "서울시향, 애플 뮤직 클래시컬서 말러 2번 부활 음원 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qbXJCaE5WQXJ0X2xZcUswNVBMWGMxWDlRV2xmMVhpLVRSbEZOTWdWN1NLbjhnTmdjXzEtcG14bDc4MDBMeENJdEhId05QM0JBYzE1VGJtS1llZ9IBWEFVX3lxTE05cG5IdjYxMV9UNFpCM1EtalhIc0F5V00xcnNiY084SVpJaDNPeFUzNVUwdWpUVTJoMVB0NGVhNHR4aThxanBXQXVfbDkzLXl4N21hUmlla2E?oc=5",
+       "source": "아주경제"
+      },
+      {
+       "title": "서울시향, 얍 판 츠베덴 지휘 말러 교향곡 2번 '부활' 음원 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YY1JxcW91TzNhMi1FSkFEVjQ2VGRzMmRJdWxRaGlXMTdHRWl3OXNvRFliVDN6eHlXZ1N4eHhSejRPb2d3YjNUdTlqZjZWc0I4VkM2R0NTQXlvXzhnNGtCRWVPRjUxUGlVOWRUcTlSM0lfUQ?oc=5",
+       "source": "디스커버리뉴스(DISCOVERYNEWS)"
+      },
+      {
+       "title": "서울시향, 말러 교향곡 2번 '부활' 음원 공개",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xeS11NmRyd2pEZ0JLUUpwVkI3ZEZlSG1HODBRYjNPUW9RWUpGWTlkWW5XbncwNk5fYlZoSmhRbnZtM0t6S1NrQ0lmbUNyMkVLd0NLOGJ5TndhT2PSAWBBVV95cUxQYTF6VjR6OGZId2hoQTZZaFpXMGFfUC1BR0NkQmFlSTY5bzVrOVlIa0Z6UTNPeFZoOFFQN1UwZmFmRTFhSGxkMzJKQmlyODNTX2JHUWJocXBXYlczTzFCU0Y?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "서울시향, 츠베덴 음악감독과 함께한 말러 교향곡 2번 음원 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NTTFwMmdWa1ltbnZDUjRvUDA4NmVrSExIX0RNYnBBMFNmbUIyNHBkdy1KNkhFZ19KdlRYd01WYXdSQ19ZZDBhbXAyeUFvaHNUTnJqZ3Y2eGxXQQ?oc=5",
+       "source": "한국경제"
+      }
+     ]
+    },
+    {
+     "title": "밴드 디어클라우드, 데뷔 19주년 기념 신곡 '꿈의 장면' 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "디어클라우드, 데뷔 19주년 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RTjhMYVg2T3RrMC1lV2g3RG52VWRPTVg4Q1VQcVAtZFhlN2ZSOXF0M1pPX001Y21LVjNCaWFPa0RrVWVGTHZUMzRhbTdwV0RmQlNtRTI0cnh6eVl3eHdBaW4zVFM?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "디어클라우드, 데뷔 19주년 당일 신곡 ‘꿈의 장면’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE15X3pNUDBtbkVxX2pVSEpKc1l5ZzNULWFQcFFqRVN1OHY0cHlsdXBiblZzb3lvMmRIZkotS3VsS2pVOTB0dmpIemF6c1ExV1RFalluN3A2Z2xrWXhhTnBfLUladzd6VkNab1lIZVNDeFAwdw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "디어클라우드, 데뷔 19주년 맞아 신곡 ‘꿈의 장면’ 발표… 연말 콘서트 개최",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KcFRUN0hqZGNmQUVPaGhzQUlCOGVoMDlDc3JWWndlZHZ1UjcwWmYxcDVySDRtWnBpOWVmNktqRlMxQmtSSktZbkxhN1dwbzhIMUNlVHVobXdCVWJwR0FsY0p6Ml92YmIyRVE?oc=5",
+       "source": "천지일보"
+      },
+      {
+       "title": "디어클라우드, 8일 신곡 '꿈의 장면' 발매…데뷔 19주년 맞이, 정규 5집 포문",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oWTRLSldfc29XU244Q2VPdlRlNVhwZlY2VW1ISDJmZHRZVmNaM1RlTGpneHpBQXNhSkRtTk05WERLeklUdDM3bTZ4NmQyZTR3NFhqdHZhcjQ3aTNDY0EySlpnVGV1UQ?oc=5",
+       "source": "뉴스컬처"
+      },
+      {
+       "title": "[가요소식] 디어클라우드, 8일 신곡 '꿈의 장면'…19주년 기념",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4dmZfY2FRNzhPZnlzTEswYXE4UHNRZVlJMDFuU3lMUmo5aTNHcjhrUnF2WGxoWXRkS213bXpWbGsza1JkV193Y0VuX3MyNzlTdFZCTy1SYktLRkN6bEw4ONIBYEFVX3lxTFB4dmZfY2FRNzhPZnlzTEswYXE4UHNRZVlJMDFuU3lMUmo5aTNHcjhrUnF2WGxoWXRkS213bXpWbGsza1JkV193Y0VuX3MyNzlTdFZCTy1SYktLRkN6bEw4OA?oc=5",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "앰퍼샌드원, 첫 정규 앨범 '패스파인더' 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "앰퍼샌드원, 11월 17일 첫 정규 앨범 ‘PATHFINDER’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80Vmw2eXlsQ01JSjZxNzUtNjR6azd6Z3ZFamJsa09SNEU2NkxuWDJTWmljU21DSWZmTW1xZFNXY0RJTS1MRUIwZGNYSTRVeDNvMU1SYVdzUGRka2lXbVRTbDJpanZJN185eXlQMW9XNEVHZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, ‘데뷔 3년 만’ 첫 정규 앨범 발매…글로벌 성장 본격화",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5VXhEN0RvX3RuZ0E0cnFxOFNVV0Y4ZDktZXJwRWZzM25vVXVTWnNqbE85Si1Vem8wUl9tT09oME9NY09YbWtpdG9zOGFUZGVNQnRSdFJqWnluQkpEclV6UEpFdw?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "앰퍼샌드원, 데뷔 3년만 첫 정규 앨범 ‘PATHFINDER’ 발매...새로운 도약 예고",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnNndIeEFDUGRsaHhiX0s4RC1JQUd3eFJSSk1VWmhPRlpwLUhrdGlHWjIyb1lGbWtUakNZeERVNjBUU2VKNFJYS1JvUXQ1ZXVTcnF4b1NWbUJ4VVU0ZU5iQnJhNWlCdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "앰퍼샌드원, 북미·유럽 누비고 돌아온다…데뷔 첫 정규 앨범으로 새 도약",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2ckR3c3dlbHlQeWJwaDI0V3luYzA1YU1KX2kxTHppXzc1dEdKdlF0WGthMjZOMEdybThMb3FpbXRNcGNndkxlTmw2VzMyNFk1U1ZSY2JNOTBkMXozMmtxaGZB?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "앰퍼샌드원, 해외 매체도 주목한 성장세…첫 정규 앨범으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aRFFEdThGU19xLWpnRWVERGF1ZjNiT2F3Sjl4M1c2cVNqamZJam1wX1NYUUlTMURwbmN6QTdicG40aEdqVi1aWmNYa1gwQzV0YjhMQnNKQU9uMFF3elNhaWVoaTFMR2Ux?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 코닥 블랙, 신작 게임 'GTA 6' NPC로 등장 예고",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Kodak Black Will Appear as an NPC in GTA 6, Fueling Speculation Over Other Artists Appearing at In-Game Club",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZE9SbHRNNzVkc1dMSVdoaThxNFZpU1ZzWGh1d0pmX0NCSEJZeFcxeEs2N3YwLVFJbUtDTTd0RUNfX3VkUkNyaEV0b2tyajlOY1Y3TzRFa1kxaTNjVVpNTWtHejlZcXZOVHNjR0R1dkR6YUVGbWNpWWYxYl9mQWQ0X3JjWDdBbXZ1dEI0RU9HbTJIZWhMSzU4SEw0U0hrSHZRaVAxUHIzVkEwdWdobE83d2FLSnJuaWtKbUctZTdEQUhVZ2w4cXowLQ?oc=5",
+       "source": "IGN"
+      },
+      {
+       "title": "Rapper Kodak Black Will Be an NPC in GTA 6",
+       "url": "https://www.reddit.com/r/hiphopheads/comments/1xovtbr/rapper_kodak_black_will_be_an_npc_in_gta_6/",
+       "source": "Reddit r/hiphopheads"
+      },
+      {
+       "title": "Rapper Kodak Black Will Be an NPC in GTA 6, Creating Speculation Over Other Artists Appearing In-Game",
+       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNb05Dc3owbUZtZ1J5RGMwY211WFhMOG9jMGJIakMzZU9vZWZ2ckVmZFRqbmktY3M0ZDE4SlNtdjlHeS1UWDh0WEdXZXBUcVM1LV9NV0dfY1VKdWVHbmNFaEs4X3lCMC1FOEdBeEF6cjE1T0M0eEpheC0zYXQ4bHFsUFpQOXQ0U1JqcUZzR3lVei1VY0o5M0tLcFQ4Z2hMTzlBb2dwWEdQcE1KM3VISjdHZk1FTElpN21tLVMzdzdNZjA0ckpLd3hRLU0yelZob3J0bHROcE05WVdfYkFWSlBZ?oc=5",
+       "source": "IGN Africa"
+      }
+     ]
+    },
+    {
+     "title": "밴드 데이브레이크와 루시, 합동 콘서트 '충전구역' 개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "데이브레이크X루시, 페스티벌 강자들의 만남…8일 ‘충전구역’ 출격",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hMzlUbGdvSGFtTG5YTVlnQXhRSDlpSGx6cUR5dWNEcEpnQTJHVVI3Q1BfQVY2N3lvNWQ0cFhBZnJDOUVOSkJtbF92M0l0VU9Ba0hQbFJ5RTdkUjE3VXIzOGdWSGM3czV6?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "밴드 데이브레이크·루시 뭉친다…8일 합동 공연 '충전구역' 개최",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PbHQtU1IzU1l3cWFNTGN2VVFqdWdjV1lrOU5UU01qNHRsQXNUakQtZTFXU25ORU5Lemd5YmktWUcxbFgtS0loZ0Z3UW8xbEtfeDlCVQ?oc=5",
+       "source": "www.xportsnews.com"
+      },
+      {
+       "title": "밴드 데이브레이크X루시, 합동공연 \\'충전구역\\' D-2",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9md3VIOXpIRmcxLU1rYm1Rb184R2xnV0ZaaXZhclR6c1R3MDNUeUJ3N1lzdVZoRUFET3JTT3NGMnp3bFpTVzVicHJBd0V3OGNmMUV6Uk1PXzR0dEowc2FRTUJlazZkSFBrV2pJ?oc=5",
+       "source": "티브이데일리"
+      }
+     ]
+    },
+    {
+     "title": "god 김태우, 솔로 20주년 기념 팬 170명 무료 초청 공연",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "god 김태우, 팬 170명 무료 초청·풀 밴드 라이브",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95a2hQMXc0dnVJOHdkaTllQTJwZ3MwX29jTG5ycXdkZlU1a2dqNnVsc0dzUFdEOFJ1R2R2MTNZTzhnNndKaWhONi13YU10cmRURVNoODlVQkM0Sy1oMXR5RlpqZENUQXV2QXhkWnNR?oc=5",
+       "source": "뉴스인사이드"
+      },
+      {
+       "title": "김태우, 솔로 데뷔 20주년 ‘통 큰 선물’…170명 무료 초청→풀 밴드 라이브",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81SkkzOVMxOGpzMjVtUmxjQVVjVTRTUVlVT3ZydU1PMUx2YTRJS0ZidjdROW9jNklSSmVZanRFaXI1UVlpczZaSjRhVW85RkVTbEFN?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "김태우, 솔로 데뷔 20주년 맞아 팬들에게 '통 큰 선물'! 170명 무료 초청·풀 밴드 라이브까지...20년 함께한 팬들과 감동의 시간",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qQnpBNkV5amdDYU5SWWx2a0U2aWMtMzJBSTVyQUZ6N3NydHEtVVRVNGlUOXdrNjRYc0hYQ3Y1WDJ1UExqOUlYMFVIMGhOaFRsT185a2gycnE3eElDeE1iSGN4bw?oc=5",
+       "source": "RNX뉴스"
+      }
+     ]
+    },
+    {
+     "title": "작곡가 조영수, 자체 제작 버추얼 가수 '원' 론칭",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "조영수, 버추얼 가수 원 론칭",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LcjhoeDNZb25HY1d3VThOUjFFN3FXV1psV3N3QnBEenRlTnE4QXdZdDZ6bjJ4MUh4SlBGd21JdXdEZzB0WlNKZ0FwQmlCMjU4bWZhVjV5UEMxUm9UYjRUUE5KempJNG1KSkJZRQ?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "조영수표 버추얼 가수 탄생…WON(원) 데뷔 D-2, 기대 포인트 셋",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1pTnhmakZfVHN1TkpwVHU1RU41M0k3dXpKTmpfNk5HMVBGZnQ2TWVCTzhHNDhKWXBsVndSQ1l1SlhyZHZhem9NNkRwc3BnMWNMQTNjRA?oc=5",
+       "source": "www.xportsnews.com"
+      },
+      {
+       "title": "'조영수 론칭' 버추얼 가수 원, 데뷔 D-2…기대 포인트는",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sOGtlOHJCS0dKa2xCWlpOdVBmN08zcW1aSGtJZHVwTmoxWnRweTdPZnFHYUFjU0pVVUtDT093Y2JqbXc1UFN1WC1jaEFOXzBuYnZGQlo0WQ?oc=5",
+       "source": "뉴스1"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
