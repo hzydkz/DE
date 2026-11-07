@@ -1,0 +1,524 @@
+{
+ "date": "2026-11-07",
+ "generated_at": "2026-11-07T23:45:11.344055+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 710,
+   "issues": [
+    {
+     "title": "Macklemore Says US Arenas Won’t Host His Free Palestine Tour",
+     "summary": null,
+     "ai": false,
+     "article_count": 14,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "Macklemore Says US Arenas Won’t Host His Free Palestine Tour",
+       "url": "https://stereogum.com/2516796/macklemore-says-us-arenas-wont-host-his-free-palestine-tour/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Macklemore Says Major Arenas Refusing to Host His “Free Palestine” Tour in US",
+       "url": "https://consequence.net/2026/11/macklemore-free-palestine-tour-us-venues-blocking/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Macklemore Accuses U.S. Arenas of Turning Down Free Palestine Tour",
+       "url": "https://pitchfork.com/story/macklemore-accuses-arenas-of-turning-down-free-palestine-tour/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Macklemore Calls Out MSG, Kia Forum & More U.S. Arenas for Allegedly Refusing to Host His Free Palestine Tour",
+       "url": "https://www.billboard.com/music/music-news/macklemore-free-palestine-tour-us-venues-refuse-to-host-1236376181/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Macklemore accuses American arenas of turning down Free Palestine Tour",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQTNSd3JYbkRwYmJSMzBxdEhvSklQalZCUjh5djhONnBXMk5sOTU1RW5YZXNLMnNvdVRITktVeDBrOGt1ajJTMUJ6bnh6OHpITTRNNWJ3RTBERExzVWZlNFhIdlg5cW5mTkZ5bU5rdzNJR2NFOXV6WGRZSURBaU5CanFjOHhZSi1nc2hadElzaUpTQjAzMkZOMVNDTExFdElrcHlEemVzamFob3lDNkFIOE5DVndadWJZ?oc=5",
+       "source": "Paste Magazine"
+      }
+     ]
+    },
+    {
+     "title": "Vince Neil’s Girlfriend Arrested for Alleged Attack on the Mötley Crüe Singer",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "Vince Neil’s Girlfriend Arrested for Alleged Attack on the Mötley Crüe Singer",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPalh3WGJ1UkdpS29kQllKblNZbWJDQ2ZCR0o5ZHdLV1JZRTBXZThKY2s5WjlhbHdjczJUOV9QUjBQR09TMkxjbVRfZVZNdEpvMkh3emE4anRtQl9DX3pnSkdEV2RGbWFTTWJWNDd2RGJIZk8zRjFDUGFTOGlzbGs4M2VmcjBVLTBlSVVxT2hQU0xSMHM?oc=5",
+       "source": "Consequence of Sound"
+      },
+      {
+       "title": "Vince Neil’s Girlfriend Arrested for Alleged Attack on the Mötley Crüe Singer",
+       "url": "https://consequence.net/2026/11/vince-neil-girlfriend-arrested-attack-motley-crue-singer/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Mötley Crüe Singer Vince Neil Allegedly Kicked in the Groin by Girlfriend During Violent Domestic Dispute",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRU9fQWFfQkhIUk00RWJxRUdmbDhfTWhXajB1YWdJQmxZc1BleUZJZlhYeERwU1FQMmY2MHA2NFY3ZkQ2eEtNX0tHSmpFT3BiQk45VDdXam9Ja1FhTHRRcTY5VTNmVlFKbHVlODFJM3RWYkdiYzgzcF9rYWlSbVBQRmQwYnVCMnZCSUFlb3VQNXFFNm1wT01hYWxUNW9hZ0tVZF9SSEJoRTRYejIxWUNXRFc1M2hTUVAwRkFJMXdGWmVTSFExczBBMXlSWXVzQjlFQUdEeQ?oc=5",
+       "source": "VICE"
+      },
+      {
+       "title": "Mötley Crüe singer Vince Neil’s girlfriend arrested for domestic assault",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMkdmeXVoNDBFNjRxT1J1Z2JYZ1lRQVNCam9uQ3lFdElaQWZZUnVsbmd3V3BvdU1qeHB3ekZlY0VtYWtjYmRjYW5ub2t0STZFdDlkVFUwdXkxbnd0V21wT193ZnZXMUxQS1l6RjZZU3NPOG1wQUxERnN6TGVubXAwcUhPRERDU21KNng3OXJLYzFKaTZwTmNnTU5IWWhaOUJVdEFOLTFOV1FfeHVOMlZjVHFIcWRlcUQyeGdndkdnQXlaYTQ?oc=5",
+       "source": "Los Angeles Times"
+      },
+      {
+       "title": "Mötley Crüe singer Vince Neil’s girlfriend arrested for domestic assault",
+       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNcWZkby1DSlBxQXB3WmhVajBha1lVNWlPdU5Bc1FGeUwxQ01UVm1lbGI0VHVPU0R0czR0a1hSQU9zaWdYc0txSVdmb1BHZ2JMazhWUjhZdUdZQVhkc3VXYXoxbGdBblRsRFZxT0YyVkFLVUVKYnh5cVpETzdtbGd4QkdpUVJfRGlnTmxRYWtCWGV2dVE0d1JmbXJabVRzN2tUMnBRMTZ1ZnM1V3kwWHEyR3RCVmFBRzZVQmo0ck54Z3NOV3p5TjFLcTBBZlhvRHdhRG5fSGdLV0xhRjNYZHFUNVExNDRXSE1MbklTZzgtTGxpZVplbDBMMy1yb2g4bTRfYXpGdWVkR1Z0ZTBFb2c?oc=5",
+       "source": "Porterville Recorder"
+      }
+     ]
+    },
+    {
+     "title": "아일릿, ‘체포하겠어’로 컴백 후 첫 음악방송 1위...\"'글릿' 마음 체포할 것\"",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "아일릿, ‘체포하겠어’로 컴백 후 첫 음악방송 1위...\"'글릿' 마음 체포할 것\"",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UNU9VREtuUWwxZW9kTlZfZUZXbktPMFlQWGpXNC1NV3F4RnVaNTFqUzdzc1hyTDl4c09LN3N3TmJyOWIzTmtMbUJaWTF1dkVxRmNSa2tfdml5bzBKUDZRZXFqNEstZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "아일릿, ‘체포하겠어’ 음악방송 첫 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUYmtLMi16SHVON0VIQXhGeHV6cXh3eE9PNTlLM04xOGM5RTBncElyOURDQzd3djd2cDdjTGVsOFVMZ1pWcWd4ekdWekNQb2pqRVVIaDdYdlREWEdyWWdWclVadWk?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "아일릿, '체포하겠어' 컴백 후 첫 음방 1위..\"모카에게도 고마워\"",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wOWJCOXA1STdBMVU0TXBWbjE1STBpMEpXeVk4ZF9HZjUxdGVWTWMwdU9lcFI1dnJwUXhIWXJlbVRGa2dZS1k2NXRjaEJrZExCbjlHQg?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "아일릿, '체포하겠어' 컴백 후 첫 음방 1위..\"모카에게도 고마워\"",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb2VrdHJnaDNXMzJDOWo4ZnlHVHEwV0labW9fRzkyYVcxWmM4NTYzVm9GTWVpanlRTGMzNDdtUFUwZkJ3SzFJMlB1UzU5aXBvUFo5WGxzenJmSk5GY204MU9NcFJmb1A3a2otNlp0aHc4YVF3dU5vVFNLMmx6X01wWnBrOXRRQmJ0eUE?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "아일릿 '체포하겠어', 컴백 후 첫 음악방송 1위",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PUHdKektuNWdPTkJUYnNCbjVxZW9ObDVycHZjNmVKZUppWENiS0FnYkpXZ0p5bkdaWmY2NFF1YWR2U3YySThjaERWbHBGRTJpNjFxczhibDVlTTV5MjVjeV9IaDhHWklvMHBZ?oc=5",
+       "source": "한국사회복지저널"
+      }
+     ]
+    },
+    {
+     "title": "솔라, 버스킹서 신곡 '나의 20대에게' 라이브 첫 공개...귀 호강 선물",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "솔라, 버스킹서 신곡 '나의 20대에게' 라이브 첫 공개...귀 호강 선물",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NcWJxVVUtTDNtYTFLQmd3WTBXZWZXa1ZBdGVFWTZwcXpWdGRxRGI1RXoyOVFuc0NyQ1Rlb1JUMlNuOUFVdVl0bHBDeGFiXzdEdXdoRmVfdTZfeDd0OEFPaktLRkU4Zw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "마마무 솔라, 첫 솔로 버스킹에서 신곡 ‘나의 20대에게’ 라이브 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUX2V0QjAzbFVRNU5BM0VYVEx5azlEb0lzWHZZUzBRemZPS0lZeEZ4TkFqWWhKdVo5NTdjVFpkcE5SRDd4bzBWQk85NC1UUl9RcHYzU0xmeHNwSkc2T3k0OE81TTlRV1ItWlMwMEN3VkpYQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "\"신곡 최초 공개\" 솔라, 신촌 버스킹 찢었다 '나의 20대에게' 묵직한 위로",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVnB6elFYMDh0SFVmV0g1eWJvMmMtR1Ayb2VJZVFjMXJuQXM3QVkydlNXQVkxeGl6eEJITUFKM1c4eUFVVFdnVUI0MmR0a0swMS1GLUlHa3Y3anpBalREWVFla1JweWdHZlpkWTY1VENzYkpJWnl4MjBZMmtMcTUwWDk4bFA2OEYzLVE?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "\"신곡 최초 공개\" 솔라, 신촌 버스킹 찢었다 '나의 20대에게' 묵직한 위로",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsWUpFZjZoRV9BRk1Yc3NGTWlZSnRuLW84bVVfM3JDQ0pCcmQ5b1pFWXZNZHg1N2ZNWS1XOWU3S0Jac3QtUHc3SGVMT3ZLVFRJWE9NVA?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "마마무 솔라, 신촌서 첫 솔로 버스킹 성료, 신곡 '나의 20대에게' 최초 라이브 기습 선공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3dVhDR1J0YndPR3NCd1Z4a2hnMVBUNk5mTXJVUFpQSmxZOUN5OHljeXZacmVmeUQxSFZuMEZHcjN2Mzl0UVZRb3FxWnl6Vy1lcFF2bnA4RGVyMVVzUmlnR3JoSXd1QzFCbFRYbVFR?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      }
+     ]
+    },
+    {
+     "title": "[오피셜] KBO 한국시리즈 4차전 대구 KT-삼성전 시구자 공개 'AG 유도 금메달리스트' 허미미, 애국가는 가수 홍이삭",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "[오피셜] KBO 한국시리즈 4차전 대구 KT-삼성전 시구자 공개 'AG 유도 금메달리스트' 허미미, 애국가는 가수 홍이삭",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lZGdmcmtFU1dXZ3NtdlFiZEZyNHVBY2I3dzY5a2FIMWFyQmFlWUg2VkNfN2pvMmpiQXlzNEI4Z0U4WEMzZjZRUG5VSWgwNkFUMnFUalVVLS1FTzdmVEtEck9OWWQ5SXN1SHVqZmp0THJhcDhldEE?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "‘AG 유도 금메달리스트’ 허미미, 한국시리즈 4차전 시구한다…가수 홍이삭 애국가 제창 [KS4]",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX1Q4WWFmdEVSNFVycW05OHJsVmhmaUgwOFFqOVdOalY1ZGxXWk5wRjZWX1VBQWRKdjlVYUNJSHVuOWVkTFlMNFFzcU12dWdyeG1ub21RSnptdTNkQjhyaE5tak5sNUJoUFp0MmYzSU9QTWtEaVB5S0RFWUEzRW5hWEdnaw?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "‘AG 유도 금메달리스트’ 허미미, 한국시리즈 4차전 시구한다…가수 홍이삭 애국가 제창 [KS4] - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ySERyalIxSnpoNnlUaHNKMXlyT2J5bWswQzFCckVMRHdpR2NxT3VaUDZLQy03QTFHUnlLNWtqUlJpcmdWcnM2b0IwMFg0UkNHNG1aZ0QtaTNTQ0RvNVVzbW11ck54SGRTWWhrc3Q2SdIBb0FVX3lxTE9ySERyalIxSnpoNnlUaHNKMXlyT2J5bWswQzFCckVMRHdpR2NxT3VaUDZLQy03QTFHUnlLNWtqUlJpcmdWcnM2b0IwMFg0UkNHNG1aZ0QtaTNTQ0RvNVVzbW11ck54SGRTWWhrc3Q2SQ?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "‘AG 유도 금메달리스트’ 허미미, 한국시리즈 4차전 시구한다…가수 홍이삭 애국가 제창 [KS4]",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBVWtXX1BkcWpuMXVKVUtMUDNxNm5nZlE5dUN4LVprLTFEWno3bXRxTGRKUjN6MXF6YmdwTFRFMmVfSVJ4ZTdYdWFwUHVjZGVEMG9tUjF2M3JCZmhKelpqTEJR?oc=5",
+       "source": "미주중앙일보"
+      },
+      {
+       "title": "‘AG 유도 금메달리스트’ 허미미, 한국시리즈 4차전 시구한다…가수 홍이삭 애국가 제창 [KS4]",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SMkxwM0VFSndUVXl4VmoxNGE3Zk9vR0VWNXFvYy0wRTRCY3N4dUFLTnhSLUlSYXJlbG90SHpHbWlhOHdMbDduUHBFQTEwM0pQUzJ3dQ?oc=5",
+       "source": "OSEN"
+      }
+     ]
+    },
+    {
+     "title": "이무진, 신곡 ‘밤무대’ 이동휘 출연",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "이무진, 신곡 ‘밤무대’ 이동휘 출연",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YeHJrMkZfdUFtNUR4SDVWYWRybVU2QWRhRjJoMkFPUHNaV00zS1hGdG5GWDJRLWVmclF6Zkw4NWJoeklwRnExckg4Umh6cE8wdXlLejZjZ0dCQ2FXb3VCQVBCT18?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "이무진, 신곡 M/V 티저 공개…이동휘, 시네마틱한 등장",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBtdjV4Z25IWWdyWV9Ob0kydnJNc1oySG9TV0otcU5BQ3E5ZFcxY0hkR0xzZTBEaTBGU0FYeUhhbWdGbnluU21SS3RR?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "티저와 스틸컷|이무진, 신곡 M/V 티저 공개…이동휘, 시네마틱한 등장",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QdGNMVmp0N3d6d0o5VEpxLVJIWFZfR08tZmdrMVRBem9wNUtjc1MxSDJVZDg1VFRsSlkzU1NnRFRaQ0xEdW51bUFVZWt3ZWZ1VEYxZTdEUkU?oc=5",
+       "source": "ZUM 뉴스"
+      },
+      {
+       "title": "이무진X이동휘, 이 조합 진짜인가요? '밤무대' 만남",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYjJCcHYxM3lsWmMxZUpSS1V5VjFnOUJIcUdpcXQzQlN3RTNHVlJrRFVpdkZkOEl2LUVoX24wOTZnWU0zYTZxbmwzcE9uMnRCX1c3R21LNnhoT1hfOW1mWUowcnpmZHpYYWw3bEo3Y3hKclhhS2thRlMwbklkcGFYd1lkT3NnU2o2NGFjamwzSQ?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "이무진X이동휘 이 조합이 되네? 영화 같은 ‘밤무대’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BU3FpT2hNUGgzT19ldGJPYVFNWGhfelBuVGtNWlJESmhna05USjBEOEE5UmZiMHNZYXBGQW40ZlRUSUsxd3lieTh6a1hoUkRNcmJLSmhVZHFXVXRxbmxiWmhOOHNrSDZZ?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "Band of the Week: Davidson Marching Band",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Band of the Week: Davidson Marching Band",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lLXBHUVBHZHgxOENVZTU0V1JmRmh3TUdKQkNvWXpSTGI5TGdJSERrcENLTUdlME1YQUpubzhVdFFHc3laNDlSdV9DSlQ2N3Awc09GMVlvd3J3ZmFSNFFPTm9CZUZiWFRRQ3NwUHEtenhCd0EzRDdFWnZZck9jRTg?oc=5",
+       "source": "fox10tv.com"
+      },
+      {
+       "title": "MARCHING BAND OF THE WEEK: Huntington North Marching Vikes",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd1ZFdjBySEtyVFcyNmU5SUFoVmVqd2k2TDBJNktWOVY4UDJKZ3V0bUVkeXlLTkx1cWdkdjFKV0NOMGtiZFhVVDlwcXJxQVVLaGdJMFFFY1Nwa1VTSEdXS2xiS01palNDX2R6RW9tNmhlLUpJUXBPSDFPNlBVR2hUdm9qUHRDVGpkV2tVR0xLbGp0Q1dsQU5lQkFwcVVwU1FmM2k2WGc3OEJTVm1ZZDF4VjFSOVA3d9IBuwFBVV95cUxPbEU0NEl5WV9oX2VaRVZrZ3h1dEEwc3l2TTNpdHlZaUF3c1E3dEY5b0Q1eVNtZzZ4d2ZJVF9KMHgyUG9kUVNBX3lrakFHOXVPd19rYjRGM213N0FadVFhRHpwd1BpQmVMV1RZUktJd2FtTVZjV3A3QWE3YWtKeF9neXNzeUZsN1lrMFpMQ2p5RE1KMWhabU5SVDkwWDNtcmtfWmdSa1Yzc3A2TWxiTXlta0x1OWdGUVJ0MGpz?oc=5",
+       "source": "WANE 15"
+      },
+      {
+       "title": "Band of the Week",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01YWFlWlVoRXB0d2pLbmpnaWQwb2VmWGIyVGlWUEMtQ2N0V2llSERiYklNOFZDZTRUSWhxR29zUzh4SFNqNGhyeHBDOEh6Z1RPdXplR09sN2lZTXhF?oc=5",
+       "source": "WSAZ"
+      },
+      {
+       "title": "FNF3 Band of the Week- Friday, November 6, 2026",
+       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQXBPQkY2RGhWc2xPOVdudHR3a1kyejR3TkNQNWRMLWxsQk9nTjRPTkZYa2VUbVRIeWpDSG9aYm13V2dYUzMyeHVrUG5lWUhkT1psSjAxSWJhb1J1bWNHMFhsbjEwelloTkt4Yy1nRTc0Q3Y1V3AyZVUtX1A4a0NZQ29pdXBRdTFiSXVNS2pwbHVhUEdBZDF0a05FLUVHcDZaMW96QTZDdjZJSnBOaFQ5UVlic2kwVnd6ZkdYdXBhOTAzS0Mwdi1hWGs2R2czS0VIdVBlekVmMWxROTdrempWYVZsbjU?oc=5",
+       "source": "Local 3 News"
+      },
+      {
+       "title": "CFL Week 11 Band of the Week",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaHNyalVlemNhYjRmekZwTGdTck1JcU12al9aM3JXamNSNW1PcmJKUkhuMGhSMThpaEhrdmp5UUtMWE5aRkRZWWlsb091UjJOUzlWUUszcFo1alZqa1M1LUdhb1R3aVRhR3ZtdEl2cnNGS1Z5S1dRMGdZbjE1UVV3MG5wSzY5QWhFT3hQWFd2b0YxTTQ4bGdIbndudVo4UlcycWdnZ1JpelpoZ3lVdjhBNG02QkE?oc=5",
+       "source": "crossroadstoday.com"
+      }
+     ]
+    },
+    {
+     "title": "NCT DREAM, 일상을 축제로..신곡 ‘Boogie Woogie’ MV 티저 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "NCT DREAM, 일상을 축제로..신곡 ‘Boogie Woogie’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wX2J0R0tiYm9INTdlbGxOYUFkcmxwdnVod0FOMzllbFQ4ZmREUWZTaTUteGpuakF4TGQ0TlRBUDNDdjNGaF9BeElMQ09kSHJhczVRXw?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "NCT DREAM, 일상을 축제로..신곡 ‘Boogie Woogie’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPckJGV3ZfVUQ5b0l1UTJkeVZmdHZkeDlaM0tDMV96VG4wSGItaEVkc3RwdG52SWdXT09Na01OeHAwRjBPLXJ6d3lXVm5lblNjTW1PNVh0cV8yRWk1c3kxc1ROY3dnQlBRVjdMTVE5cFA3bFhEQWtINWpNNlYxMlZYbDFFX3BzT2ExelloRTI3N2VPbGdqMDF6ZENZUGlOZ3NUbHA5NWxLRdIBpwFBVV95cUxPckJGV3ZfVUQ5b0l1UTJkeVZmdHZkeDlaM0tDMV96VG4wSGItaEVkc3RwdG52SWdXT09Na01OeHAwRjBPLXJ6d3lXVm5lblNjTW1PNVh0cV8yRWk1c3kxc1ROY3dnQlBRVjdMTVE5cFA3bFhEQWtINWpNNlYxMlZYbDFFX3BzT2ExelloRTI3N2VPbGdqMDF6ZENZUGlOZ3NUbHA5NWxLRQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "NCT DREAM, 신곡 ‘부기우기’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HSHBveWpKRTRpZmJscnd3djZhVkdFSVRRSXFwTUxwaHA3em9rdUNnaXVYOUJhcFJILTZKMHpRRFQ3NjY5c3dfalFKa210aVRwT3MycWFIdkdSVlJ3QlhjeVgtem4?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "NCT DREAM, 신곡 ‘Boogie Woogie’ MV 티저 공개…자유분방 에너지",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9teklSLTZfWUtlZlNtV0xKdDZ6TTBleGtoWHprWE9vdzN3TWJkaVJSb1NHbUVxTWdtbTRuaE1Bc3kxZzRFV3UtU01Fa3NwekRNaUpDZnJWZF9CRUNfX3lHZHltNkNXbzVsbWxubFZB?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "컴백 D-2 NCT드림 신곡 ‘Boogie Woogie’ MV 티저 공개,기분좋은 에너지 전했다",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMTzY5dElsNFhMakpZSE43UEVZckFQOC03YmJuQVljd0xVVWZZcWtwTWlOS012cjhXTF9YZ1JONWNpLWl1Y3E0QW5ad0ZDZHNTc2xEcDlGeW9JNGR0STNtSjJHMnZzdm5V?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "‘17일 컴백’ 앰퍼샌드원, 정규 1집 ‘PATHFINDER’ 콘셉트 포토 최초 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "‘17일 컴백’ 앰퍼샌드원, 정규 1집 ‘PATHFINDER’ 콘셉트 포토 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zenMzTHlaQUh2U3I0Z1U4S2VHQVF0OTJtU2ktSmlTb2tHaGxKdXFZam5lTWY0aUNmS25fNjdpc1NKLS15Vk9TbkhYdnQxSHcxWXZmb3RRdWp1OWc2VW9tTzVhOHQ3bWM2NW1TOA?oc=5",
+       "source": "메가충청뉴스"
+      },
+      {
+       "title": "‘17일 컴백’ 앰퍼샌드원, 정규 1집 ‘PATHFINDER’ 콘셉트 포토 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11UXVUQjNxSjlxTmZFNjlRcHZGV1cxaUVWc2tZMFo5WXcwbm5Fc01EOTY0TzBsbGZmdjlPbjBHMDBPaGpSb0k1T0o0NVpXaDhnNEg4Vlp0SnRGdmp5THk3Z01PVHhUa3RTRzlJWUhfVQ?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "‘17일 컴백’ 앰퍼샌드원, 정규 1집 ‘PATHFINDER’ 콘셉트 포토 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xcWJhXzRLUHVNa2M5WDkyU3V3SldyTW0zckhSM29jTlNrRGlJZnp3OVlPeUdUQ2FZd2tYQkVvMHJkdWQyUEVJMU1FOFVmS0lDcGs5YXRCTkVHYnZuRFZGU3VNMWk2V0phX2FSQzZTbw?oc=5",
+       "source": "서프라이즈뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, 17일 첫 정규 앨범 ‘PATHFINDER’ 발매…콘셉트 포토 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEMjAteG5Bb0ZNWGR4RU84bXp0aG44RFNyeUVEaVZIMHd4TGx2Vkd1dElJTDlhemgyRzFMMUZkOVRyZnROdlpyOG16VFFjdllpOUJyZUpMLXNuZVJHcTVkNllWdnl0SUdteWluVU5CZVFoZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "앰퍼샌드원 첫 정규 앨범 콘셉트 포토 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oem9BZXJUQmlITzAtYV9hZnE4WUdCZlNGdm5pYnBPSnlzVTFyMHZZdkcyelpzWURLVDRvZDgzZVdvQjhfVHhYTktLbmw3OE5OWTBtVXQ5TkRGU2xBNmZnVGM5emI0dnlv?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "리디아, 오늘 정오 신곡 ‘제발 가지 마요’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "리디아, 오늘 정오 신곡 ‘제발 가지 마요’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBuSnZRZ09ZQjFoOXR5Qjh1NnhCeVFwVk9DUmxOMFkyRE9ycVMxQ2ZTMDgtbXBRR1V0QmRCNkstNWp0TmJTRjl3UGkxWk1kWm9vbXJ5XzFtZHA3aC04NVZaX1ZWOGF0Yk1oZzF2YkQ5aHNqQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "리디아, 오늘(7일) 신곡 ‘제발 가지 마요’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5GNmFzLWhGSTN0YlY5TkpLeVB4MHNXWGFqMF9oTjl4bHNIcWdzRDBxWng1WExHWUN5TXRaaTRKdFdadXNSaVpaMlpUYVF5Y1NTcU85a1A1TTQzVUJOb3dvMzdjcC0?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "가수 리디아, 오늘(7일) 신곡 ‘제발 가지 마요’ 발매...사랑을 놓지 못한 가슴 시린 외침",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zNTlRWE9MeVRYbHhtdVB4dUp5eExPMU1nQ0lMSFZFYXVjMWZ5eEMxLXc4bWpLSzlnMkxjUWVGRldwVmNuQ3NXc0NkbllENlc4bm9tZ1RtU3ptaDlNTkFlZEJn?oc=5",
+       "source": "RNX뉴스"
+      },
+      {
+       "title": "리디아, 신곡 ‘제발 가지 마요’ 7일 발매… 이별의 아픔 노래",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IZW92ZzczNktEWkRXay1TY3JUTzFGckozbWZWTXYwVzNXV2NsWmNoS3V6ZC0wZTRGMFpSZGhWLWhUU0ZuU1NNNmxRU1ZFbkJKdFFGVmlHU0NEbkVZNHVJNVdFSGU5NEpVMlE?oc=5",
+       "source": "천지일보"
+      },
+      {
+       "title": "리디아, 신곡 '제발 가지 마요' 발매…끝내 놓지 못한 사랑, 절박한 이별의 순간 노래하다",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UV0dIVnJRSGtNS042UnpsMjdmM2hwQ200Vjd5Y2xMMzVLMmRGUnJ5SG9lZm94Vm9rUmIzeldxMi1YUlMxMzExMVFfYWlub1YwWm5IcnlmaFhoQ1F3UTBuZg?oc=5",
+       "source": "제이앤엠뉴스"
+      }
+     ]
+    },
+    {
+     "title": "BTS 뷔, 유픽 ‘12월 생일 아이돌’ 3년 연속 1위",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "BTS 뷔, 유픽 ‘12월 생일 아이돌’ 3년 연속 1위",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rMGdnTW1MU0NLNkF0aXZCOU8tVDIyZXZYV3lMUl91WWZYbXdORW16SGtqMUkzb3UybVl0NkZxN1B2RjVPZmNxWEtNcUoxRURuTklpSnZMaVc4dDduNWNBNTh0MElUdGhIdFo3S3JVMXhkUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "BTS 뷔, ‘12월 생일 아이돌’ 3년 연속 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VNkVWRnFvVVlfeFBiVXNJQ3JCZ2tORVFXSkFZQ01NUWY2UzJUWUdnVWoxZno3T1NrVllpR3RsRnY1V01Xd2YzbFNMemxuQ20tV1pBVmhEZTBLNmJZQk0yUjJSLXc?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "BTS 뷔, 유픽 ‘12월 생일 아이돌’ 3년 연속 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFdHVOT3cwLThUTDU5UjdGMVlSX0VhMjJPd0N5MzBCZl9PRHhKaUsyNHpPaExYazhnT2ZRNEkzTnBUN1plck5lbXpiU3FLcFJHdDM5Tkl1czNTNXlVckdwTE1ZRUJiZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "뷔, ’12월 생일 아이돌’ 투표 3년 연속 1위…홍대입구역 영상 광고 송출",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5heHQ3dnZNWEhaV01GTjZBbmM2VTZiUzA3aEJUanZiU3ZGSWNPWDR4SHl6d0h5eWJkT3A5bVNzVkdLNFlsVU90UWtxNXZjU3l5MEJvOGNDckFWZk9INHI4Y1JPTQ?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "방탄소년단 뷔, 역시 월클‥‘12월 생일 아이돌’ 3년 연속 1위 왕좌 지켰다",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBLWFBtUG52VjJ5SzBDcEE5cnhLWlBuT01Sc0NfNEc0X0R0bnlJOWpXWk85X2p0THB2TmRKaGVyR3dKYmNrOTJ2RTNtajFVaUI4VWVNWl9aSWo0VlgtT3BLX3ZJOUgyeHBSLVlHZ05XSF9QTDh1X3U5ZF8yWQ?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "Dolly Parton's manager moves to drop complaint against late singer's nephew",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Dolly Parton's manager moves to drop complaint against late singer's nephew",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOejg4eXNnb3M1VWoxRHQtTHcxU0cyR2gweF9HWk0tS0xGY2JndlZicXJRaWttMURNcEtlaEUyNHlGdm5sYU5RUkVIbldkZk5lRjBxVHV4cm1zV0g4UEFZQy1kQjlJNnhqMkR2OVdxVjdnS3FveWtsazZBTGxudXBUWnl6UUowVGNLck9NZmgwQ2h5azVXOUdBamZ6SEoydDZabTBGZmVNWWZRbFk?oc=5",
+       "source": "KPAX News"
+      },
+      {
+       "title": "Dolly Parton's manager moves to drop complaint accusing late singer's nephew of threatening estate",
+       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOTkw5V1NpV1ZScEdNam9aUmd5ZU52SFZGU19lamozMDB0cl9hblBfTkxQaDhYZ3lxQ3RCcHFQUXpYMTVzOEtoOUZ1RW9kalp5QmJfTWVLNVFpM3gtUjVuNHRPeW1ZV3FTSUc3SVVYQmN4dENOWi1UdXIxZmVjQ3lSV3N3aGVkcXBRUF81RkR5LWQyYjhxN3ZENWdSVUhoS3dxcjcwc1ZsNXpHc0xKaFlhWWY0LVR5WlV4bFJDV1VRNWhVRm4yS2hONjR6aUVYcVVMODNReWRhemQtYkZSbzB0UVlxYzN6eDlkaHUxQ1FwN3lWNnY3?oc=5",
+       "source": "Japan Today"
+      },
+      {
+       "title": "Dolly Parton's manager moves to drop complaint against late singer's nephew",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUpCWS1PUWhvOG1PRUJBcU9iajBxS016YnVwLUFObm1WOWx6ZVNqejFiLUtDUmp6QXVWUVJOVEtrdF9SU0FyV0xDWjZXWTZQMmR3QVZDZkZ6UVlwSnZxYzBUbS1KWEp4bzZFeTh1RUVqLTM3eW5yVHREQzB1NkRkUUY0MDZoQUc2SXUySG9uRW5rVVBBeUJqaFlSQzc1c2t6SF84akVjb0RJdkRWbkdaQ0gtNndweGwzTnhUdF95QzA0aHdzSnc?oc=5",
+       "source": "FOX 17 West Michigan News"
+      },
+      {
+       "title": "Dolly Parton's manager moves to drop complaint against late singer's nephew",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlhFMUphbDYtSDdFNjkxR2ltTVFNUG42Z3VjSmNDYkNvMFpXV3ZFdmZzTVVXelB2RjBldm9MQkNaQXZVb0o5aVo3cXJUa2MxWDdwUU5JbVNEek9sbzBRVDVRZlJOOE9aZk45Ymk4UUJwOWtWdzlfN2d4WWU5eTdHNVQ5RGlqazBScFlSVlZmV3ZqRDlqZVl3M3lRM2QzdXMwX09XNVZtZUN5M0dHci1NSU5WV1ZFQQ?oc=5",
+       "source": "News Channel 5 Nashville"
+      }
+     ]
+    },
+    {
+     "title": "투모로우바이투게더, 체험형 부스부터 온라인 게임까지…컴백 열기 UP",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "투모로우바이투게더, 체험형 부스부터 온라인 게임까지…컴백 열기 UP",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hSlctRjhmS0p4MlJBaThfckVaR2lkVHp3eFQ0RE40NTFXRFM2S0tKdVZlRW40ekpEVnV1VVpoVVhqMGVWMS1aajRXWHJRSUFnMGxUYlhVdFJsU0hwc2ZYTXFjXzZjTTZkZmZ5YWJYVXM?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "투모로우바이투게더, 컴백 앞두고 팝업→게임으로 팬심 저격",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaOVZ3UHRsUFFsSHRETFhzSDl5ZENXYlVDNzlDX0hSdmRwZlRLcXdhbjJnNllkQ29Bck5BUUtJUENpeUJaRjloWXNJdmU0YUNWX3F0WQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "투모로우바이투게더, 컴백 앞두고 팝업→게임으로 팬심 저격",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWWdzNWdfZjh1aU0tVFNaLUl6aTJqS3VXQWYyNHdGQjlXTXBaTENHSkhJN181emNFaVZPOHF2bGVLejNINUNKSWV1bEN5aVFuZVZVQVZmY1V3dVhTc0pSbFJIcjZQWFBSdDRQR21HdFM0RHc4bmtUN2JybVNya2cxME5JdmE4bUFxX1Z1NHlQMFZJajRjYnR6dFdDNExMZzlmUC1aaXh6d9IBpwFBVV95cUxPWWdzNWdfZjh1aU0tVFNaLUl6aTJqS3VXQWYyNHdGQjlXTXBaTENHSkhJN181emNFaVZPOHF2bGVLejNINUNKSWV1bEN5aVFuZVZVQVZmY1V3dVhTc0pSbFJIcjZQWFBSdDRQR21HdFM0RHc4bmtUN2JybVNya2cxME5JdmE4bUFxX1Z1NHlQMFZJajRjYnR6dFdDNExMZzlmUC1aaXh6dw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "투모로우바이투게더, ‘Angel Bite’ 담은 게임형 프로모션으로 컴백 열기…팬들 시선 집중",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hbGxQSVRiQVlwQmJqZVFkSTJjcjRTeU9UOC1YelZuNkhFd1NQeWtMLUloVEpHc2laQ2MzX29qRTJxVkZSdV9ud2VQQTk2bFRYb1lLd19XdjNOUWJ0WnFQbHdBOVM?oc=5",
+       "source": "https://www.ppss.kr/"
+      }
+     ]
+    },
+    {
+     "title": "[더 시즌즈-성시경의 고막남친] 4년간 발라드 가수 준비했던 아이비, 박진영 권유로 댄스곡 데뷔",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "[더 시즌즈-성시경의 고막남친] 4년간 발라드 가수 준비했던 아이비, 박진영 권유로 댄스곡 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9DaGI2VVZCS3Q2dTR4OF9hU3dYcTJKdG9zRTJBbE0tYXBvLU1hVnZTSzBmOGlaWFJsZGZMVFZMUHRMek9tdmFrNlBZYlNONmVlM3BLUU5Nd1dURTZNVWc?oc=5",
+       "source": "KBS연예"
+      },
+      {
+       "title": "아이비, 4년간 발라드 준비했는데…박진영 한마디에 댄스 가수 데뷔 - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HY1VIRVQ2TXZOeWY5ekJMQnZLQzdacnFNRVU4OFFhSURqbTdjZFE4UThoNUdKcHd0QlkxbkRkTHAxVV9fdUcwb0J1OG50bWFLZS1MOGtLdlJjcllLaUJkVzA1bjVfT2J2eGxycVpWQzZzWWxyclpwUtIBeEFVX3lxTE1HY1VIRVQ2TXZOeWY5ekJMQnZLQzdacnFNRVU4OFFhSURqbTdjZFE4UThoNUdKcHd0QlkxbkRkTHAxVV9fdUcwb0J1OG50bWFLZS1MOGtLdlJjcllLaUJkVzA1bjVfT2J2eGxycVpWQzZzWWxyclpwUg?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "아이비, 발라드 가수 4년 준비했는데…\"박진영 한마디에 인생 바뀌어\"",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54V1R0eVpQZFllc0E4MU9NS3h4YVpOYk9GQW1leGlDVF9WaTNoOFNhT09sVlIwRTUwbjJ0cjEtd21kSDMwbTRWSU12Vjkwdy1IODRUQnUzdUtfd09RZjV2OGQ2RTl0NlhVOXFSanMtSjkzaC0zNWVlWNIBeEFVX3lxTE54V1R0eVpQZFllc0E4MU9NS3h4YVpOYk9GQW1leGlDVF9WaTNoOFNhT09sVlIwRTUwbjJ0cjEtd21kSDMwbTRWSU12Vjkwdy1IODRUQnUzdUtfd09RZjV2OGQ2RTl0NlhVOXFSanMtSjkzaC0zNWVlWA?oc=5",
+       "source": "뉴시스"
+      },
+      {
+       "title": "아이비, 발라드 가수 4년 준비했는데…\"박진영 한마디에 인생 바뀌어\"",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIM3gyaDl6cWdrRElnMzlXUEVOS1RZeGRHN0JRNldjMXFQTXg3aU54SFNSSzVlZE16d0Z1UVd4bWN6bklWODdOLW9zZWpZcHlmcGNld9IBVEFVX3lxTFBIM3gyaDl6cWdrRElnMzlXUEVOS1RZeGRHN0JRNldjMXFQTXg3aU54SFNSSzVlZE16d0Z1UVd4bWN6bklWODdOLW9zZWpZcHlmcGNldw?oc=5",
+       "source": "세계일보"
+      }
+     ]
+    },
+    {
+     "title": "WME Signs Black Pink’s Jisoo",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "WME Signs Black Pink’s Jisoo",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QWTFLemtJSFIxYmxFSTdoNzNzNW4tTTVmdUVGTE5VWHhnMHpwWFltZ0txU3RhVDJfTTY5SHdTZzNnV0JLazlSV0lqbUZSSjlXckI0MTFmZHJkSFdqdk1QVU1JRQ?oc=5",
+       "source": "Pollstar News"
+      },
+      {
+       "title": "BLACKPINK’s JISOO Reportedly Signs With WME for Worldwide Representation",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8yYkdNbHZYUVVoQUxRS0tJVm5LVVN0MzQ2dVhmd0lLVGNUQXpKbUcxZl9QODdFcERWSWVEQ3J2WFdrX1VDR3E0MjFMdjlRS1A1MUt3Mk5US2FOc2JYd182aWJxaHVkN1VadExHdVBCUTRlSmlkTUd0WEJB?oc=5",
+       "source": "InMusic Blog"
+      },
+      {
+       "title": "Blackpink’s Jisoo Signs With WME for Worldwide Representation",
+       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXIyYlJzalRlUXJjMUY4d3JQNDQtaDAtZmQwRlM5V3NmaEJTU2stZmtEa1NuemwtWmFBN1FmTWs0X0h2QWlRM2VkRDdqZ2R2NVExREc1QW80bnBnMWh2Qmg2RHJvdE55Z1ZrUEV5dUUwUGIzcXdTOXVQb3YxeUIwV0pBLWtOQ0tnYktXYUtjX3ZlYkdld2NQYzgzVW5YV2c?oc=5",
+       "source": "Variety"
+      },
+      {
+       "title": "Blackpink’s Jisoo Signs With WME for Worldwide Representation",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JOVpjamdpSkI5Yk51dVU3QVJwTjlMTjlDNVJ6ZEhLR01ZWU5aTkMzTEhfaU5HeThQRHJZeDR5eDNIMHpSSWhiT1FfNlIxQUFldjFr?oc=5",
+       "source": "شبكة تواصل الإخبارية"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
