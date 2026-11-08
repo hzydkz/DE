@@ -1,0 +1,479 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08T23:57:39.144739+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 595,
+   "issues": [
+    {
+     "title": "Richard Lloyd, Television’s Virtuoso Guitarist, Dead at 75",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "Richard Lloyd, Television’s Virtuoso Guitarist, Dead at 75",
+       "url": "https://www.rollingstone.com/music/music-news/richard-lloyd-television-guitarist-dead-obituary-1235614110/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Richard Lloyd, Television Guitarist, Dies at 75",
+       "url": "https://pitchfork.com/story/richard-lloyd-television-guitarist-dies-at-75/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Richard Lloyd, guitarist of influential ’70s New York band Television, dies aged 75",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOajdtNHIyN0d0eU1nT005WllaMWEycXdUb1JrckhxN2dwSnlqS3pyamw3emhrNlRPTEhNYUJCSjhTaWFIUVVyUkRMRjl5MFpHNGlEU2JmcEFJU3FJTVFQLUFsRFltZzRXQllWdXhEUU5hOWttTUNLNXZ0c1pfX000TUtndWI1WDgzaFNaOHFUNTd2QUwtWE4xVXY4UG5lNjB6UDg3ODIyem9yZWZSbTV2OEp0bnVSMER5WUdyazE4STI3RW9Vd2c?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Television’s Richard Lloyd Dead At 75",
+       "url": "https://stereogum.com/2516946/televisions-richard-lloyd-dead-at-75/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Richard Lloyd, Television’s Fiery and Fluent Guitarist, Dies at 75",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVXZSSXR6cnVTREs2Uzl2NC04TG51YzlHM2J1OFNMZXRNQ3h5MmZZNkZPWmRGMEl0SlNpMEJzNjN3Y0QwZHYzZlg3ZlhPa29UZEllRU9lTmNEN2xOeXNmaElycEdjM2c2alNkTHR2LXhFYjlfQXllZlFvTnlLcTVsZDFfNlRXVWxmVXctaUcxOVg?oc=5",
+       "source": "Variety"
+      }
+     ]
+    },
+    {
+     "title": "BTS, 11월 보이그룹 브랜드평판 1위!",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "BTS, 11월 보이그룹 브랜드평판 1위!",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzX042bVhwY01pMnBrTHdvM1IwWE5GRkgzb010aEZ1WWRSdlVlOEtqYVBoZGZmUmpuZ1ZuVHFpdUFPUGFvaWZYaVJiTS1tZzVmUTVCMi1ZQjNHbzhRTWVxc25sTEdDQW9KVU04NlJRSzJ1cXd4?oc=5",
+       "source": "아시아뉴스통신"
+      },
+      {
+       "title": "라센느, 아이브·블랙핑크 제치고 11월 걸그룹 브랜드평판 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zdENOeFpJWWdCSEpNNzhLZ25qa0xUMjhDRGZ3MUJBVVlFYW51X2k0NFpTQldvR1RITW9KZ2QtNzRRZDZaejMwUmk2MThPZ0ZsZWZDQldITTVHTzlSTHpOYzZ6RUZCQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "리센느, 아이브·블핑 제치고 걸그룹 브랜드 평판 1위",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BRkZBc1o0THhZVzIyVURZNkVvUDE2Rk80cXh1TXcydWVFM09TcEo5YjdNREotYjRtcnE4a2hRTGtQc1JucEkyY29xcTV0Z1JST19r?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "컴백 리센느 또 일냈다…걸그룹 브랜드평판 1위, 이수만 A2O 라이트는?",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BTl9DR3Q1WlprQzlDQmNwWEpqQWptbFFaX1BwWTR2VENUSnNQYWdBQkh5SnhIUDNsZVRmOWE5WDU2V3YtalAxX1JZdFppaWdyUXVHMHc0QVY1eHBnbkpzQ1Y2RDZkdHdC?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "리센느, 아이브·블랙핑크 제치고 걸그룹 브랜드평판 1위… 대세 입증했다",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OWlhBUlhEdXVrM280ZVlOSG92VEJzTmVGWks0czdnQXo5bkRWSW1kOFEySWNnSWpuX2ZXZnBubTNPZ3duUnNMQ1F2cTlqdXo3WXhrRkVTazdrTXBpd1dLUms4WQ?oc=5",
+       "source": "MHN스포츠"
+      }
+     ]
+    },
+    {
+     "title": "보이그룹 세븐틴 에스쿱스·가수 박혜원, KS 5차전 시구 및 애국가 제창 [KS5] - 머니투데이",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "보이그룹 세븐틴 에스쿱스·가수 박혜원, KS 5차전 시구 및 애국가 제창 [KS5] - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WSkE5NmZIcnZuZ3MzQ25MM28wNGJmRldUdktLaGVsYU00T1J3OHRVaV9KamVXbEluajBObGlGU18zN2pWN2x2RjV3aGRLVlAxLWNaQmoyM1Q2bkdrUFk3QXZrQjZKYWNDM1HSAW9BVV95cUxOTEVDOVYtMmdCeFVFNHRpSHhId2t5WTZhaUo3MGRRLW5qcDJiZ21hM1Q1dnVsSEJTVG01UEFQUkJzY0JXWmt0dnF3a05JM2IxaFVBTVVEdzkwcHdTbjFlLUczbV9pT3VmcTNQSnVuVlU?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "보이그룹 세븐틴 에스쿱스·가수 박혜원, KS 5차전 시구 및 애국가 제창 [KS5]",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nbXN6U2FDdExHLWZkUEtzZ0czNFEwX3BOWlV5aTh4UUdibGh1WmdEVzZkVkZSTmtxSWJjTW03QTNnWjJSNE04YmRnakVxa3FiU3JQTA?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "세븐틴 에스쿱스, 한국시리즈 5차전 시구…애국가는 가수 박혜원",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3OVVuS1F1bWdwaFo3cjNIWlRQRkoxUHA1MUlFbzhXUWNHRTZ4bGRxVnVPem1JRnZmVjlsb0l6UTN4VTRremtZQVJzNXZUTDlpSUN5TW5vdw?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "2026 신한 SOL KBO 한국시리즈 5차전 그룹 세븐틴 멤버 에스쿱스 시구, 애국가에는 가수 HYNN(박혜원)",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wb0hGVHBLbGtZRGJyVE4zM2dLY0JSMFJjcGZ4aWZQMjRkazBsYmVnSFV0WFJKMnZMakh0TnpsWXQ0NTNpVzFPTnUwOUdDS0VhUXpfVWZpb05Bcl96c3JDci12UGI4Q2c?oc=5",
+       "source": "코리아방송"
+      },
+      {
+       "title": "[사진]한국시리즈 5차전 애국가 제창하는 가수 박혜원 - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBORnItR0k0c0tISkdlc2NsNURXMnRMWFpnaU5WLVUyWm1EUEZpb1NjTFFBb09MZDAwQUZ4SHl0WmI3Q3VsTkFVUDZWLXhpZUZTckZQSzZzM2Rtb3hJeDNRd0JCYmh4X1dCbUFTQjY5SdIBb0FVX3lxTFBORnItR0k0c0tISkdlc2NsNURXMnRMWFpnaU5WLVUyWm1EUEZpb1NjTFFBb09MZDAwQUZ4SHl0WmI3Q3VsTkFVUDZWLXhpZUZTckZQSzZzM2Rtb3hJeDNRd0JCYmh4X1dCbUFTQjY5SQ?oc=5",
+       "source": "머니투데이"
+      }
+     ]
+    },
+    {
+     "title": "앰퍼샌드원, 정규 1집 ‘PATHFINDER’ 콘셉트 포토…17일 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "앰퍼샌드원, 정규 1집 ‘PATHFINDER’ 콘셉트 포토…17일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1JRWE0ZFlZYnc4WTZBd01HYWh5cmJFeGd3cDhiME5VTno2aGV3Qm1JbHE2R3BrRksxQU5oNjRRSndsNUVDRFdJOHM2c1I4T0tzUzJYNkM5SUp6VHcweWlwVm93dw?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "'컴백' 앰퍼샌드원, '패스파인더' 콘셉트 포토 공개…독보적 아우라",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0MjkwVGtZVktkdUFCczVBOW92TVZrTUNSLUhrTDdFVmpfa2RWMFFmYkE2QXlCcllGTENUTmgxMGRPMWRMa0VzU0lvT1puZ3N6T3V0T0lxcw?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "앰퍼샌드원, 정규 1집 'PATHFINDER' 콘셉트 포토 공개…자신감 넘치는 컴백 예고",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IR3lyc29RNVJQQ01WMUNZeXJfOTBjYjczQUhQN19rd2Q2VjhQbDdCTWttZEwtel9EMVZHYkJOQjVEMHp5RmZuVFBQMW9yUmd2ZTd2SC1hand1YjNWWW9DV0E5cUZiWVIzUGJR?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "앰퍼샌드원, 정규 1집 ‘패스파인더’ 독보적 아우라로 컴백 예고",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XTndqWm1KcVlhMkdTTm9ZcW93S3lQdzNkREpodUMtRUlqTHl1aVVqQ3JNUFlNdzk4Y0hHSzhGVXBkdDFVMHRqM2VtWVJtNHdFc3VEZVA2UWQ?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "앰퍼샌드원 드디어 첫 정규 앨범 단체 콘셉트 포토 공개",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE45THAyWXRkbXRnNGxjd21KMVBlbVZyM05yXzYtS2ZSOXFIUFBsLU43eDktcFdsZGQyTXFfcVhWTjZGVlRRVXhaSjc2TzhjcXFXeWhfcUlVZ2xwSVhUbjdJS0preXd2QndRcGFEUG16Y2F2MDFxMFhhSk1kZw?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "피원하모니, 미니 10집 ‘BLOW UP’ 발매와 동시에 미국 주요 신곡 플레이리스트 선정",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "피원하모니, 미니 10집 ‘BLOW UP’ 발매와 동시에 미국 주요 신곡 플레이리스트 선정",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14Z1RncDNoTks1UEEyUDkyMXp4OTFQdXFNQkxfQUxLYXlGU21aT25kUU1GSzhPWWFqd0gzcUFoUzRtNlZrNVhESTNkZEFINVl3Umppazl2aldaU0VRTmpEMjgwb2N2VXMwakg5UzJKWFU5dw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "피원하모니, 스포티파이·애플뮤직 등 美 주요 플레이리스트 장식",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBaekdPVjJpb0ktenhteXR0RVZVR2lQQmxwRDNfdEw3MWhHMG5YWThUa2RWVEFOd190N3NoOTQ4Ml9iM1JSalFza2p0UmJMdURhNlMxX1hNN1FiYXhFQ0Q2YUJn?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "피원하모니 ‘블로우 업’ 美 신곡 플레이리스트 선정",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oeXF6MHBQaWxDZ1lUNW13QkZ2U2EtN0Q1b25rWVFLVXJXVzc2WmZTd19QRmQ2TlZMbHk5ZkVMY3pULWNhdmtXWS1LWnhQTlJfU055MjBwSW4yV3VoWm5XS0Y5OHI?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "피원하모니, ‘ BLOW UP ’ 컴백과 동시에 주요 글로벌 음악 플랫폼 신곡 플레이리스트 장식",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tbkxJTmR5a1lwVzJ0QUg5cllwSzNiZzJZS0hfTjRGTGdjS1hybnF6M1c3Z3F3UmlMTGtUU3d0Sl9VeVEyZFRvbU9xUVBxVkc5dk1BZ0VnNERRQ1FlcmZqSTI2aXN3VzlOa1ppZ2ZB?oc=5",
+       "source": "서프라이즈뉴스"
+      }
+     ]
+    },
+    {
+     "title": "앤더블 ‘인기가요’서 신곡 ‘French Kissing’ 절도있는 군무 치명적 매력",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "앤더블 ‘인기가요’서 신곡 ‘French Kissing’ 절도있는 군무 치명적 매력",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nWkxKcWExNm1hY0UtZFFkbDV6NVhCRmNGckxUV0xsNi0wMHlQcXU1Z0IwOTlwNk84N3ItRFFIWVNiSk5WMjNYcjFxSVA3Y1FPMjRlRHBjU2xwdlhjOFh4d005REJvWTNu?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "앤더블, ‘인기가요’서 신곡 ‘French Kissing’ 뜨거운 무대…절도 있는 군무",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPeU5tQzNfcmtac2hQd3JoRFhFdlFFT0dkUTJnbDJGbE82SHRUeURpblRzcV9IYzMtWTJseDZmRmJlTkcwRWdfTnNLellzZkRCYTB6Zg?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "앤더블, ‘인기가요’서 신곡 ‘French Kissing’ 뜨거운 무대…절도 있는 군무",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNelRReUJ0ZzEyLUpJRk5LM0xhUG5sVVUxdXRXbE9wcFprSDZiUFV0eFlyU3dHcTRLT1A0dTUyZVlTS0tmYzRfalVQNV9vaHptLUNkMVZaSUdOZ2FkMWFHb2Fld0JZcURMRklOU0NTeGFLRWZ6eVh4ajdhOHlzMHMtZkh4OXc3YU9NakpKT2dYdTEtdFJSNmowME1JaHRfaVQxcXVqYTNmd9IBpwFBVV95cUxNelRReUJ0ZzEyLUpJRk5LM0xhUG5sVVUxdXRXbE9wcFprSDZiUFV0eFlyU3dHcTRLT1A0dTUyZVlTS0tmYzRfalVQNV9vaHptLUNkMVZaSUdOZ2FkMWFHb2Fld0JZcURMRklOU0NTeGFLRWZ6eVh4ajdhOHlzMHMtZkh4OXc3YU9NakpKT2dYdTEtdFJSNmowME1JaHRfaVQxcXVqYTNmdw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "앤더블, ‘인기가요’서 신곡 ‘French Kissing’ 뜨거운 무대…절도 있는 군무",
+       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQXzBKUmRQYnNvLWFSaTBCSzd1aW04VHpjQXM2aVdhRWhjSEtqRnRBTzhEbVRrV2tZSmdBd2VwVEFuYUNHR2l5YjJHOEhuNUx2R1ZHT1F6MTJpN3FEa2FhMkRKc0dqTnFGLXZFOXNEbW5jNDEyM0dRdGNsc2JGVGx3clVRamVpdGU2TzdjYUtEVzJlbFRRMmFjNlBHbTVkQlhkTnc?oc=5",
+       "source": "조선일보"
+      }
+     ]
+    },
+    {
+     "title": "버추얼 가수 WON, 오늘 첫 싱글 ‘Mama Song’ 발매로 정식 데뷔",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "버추얼 가수 WON, 오늘 첫 싱글 ‘Mama Song’ 발매로 정식 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvWHZULS1mSldfbGtJSUt0Z0JOcUUwSGxZWFlPaTh0emk4aTQyQWs0UmJjUWpmNEVUWkRhckR2NHhvVHk3SzlFa0RlS19YZUNtTEFkNHNBX2JFekhERHFzRWlOcVkybG1CZHpyWmIwNW95dw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "조영수표 버추얼 가수 WON, 오늘(8일) 정식 데뷔…첫 싱글 ‘Mama Song’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTdlRNQUVRcEp6QXNBZW1LSDMwYUwyZVZTQVVxcjctaWtLOTZ6N3JINmI5MGw3bDY4cXFJal9pNDlIRTBoUEJuTGpkaVplQVptbl8wRQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "버추얼 가수 원, 오늘(8일) 첫 싱글 ‘마마 송’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10eVU2LW1xZXQ0b0I2UEM4VGpnbnpRRWdfcG5LQkVfUmJwSE9IUk96eFZfekx1OHNpdlRDblh5VDZFNkZHcnVwTEFEeEZTTm0xajdRbjZ6WWQ5TWI1NlNwY3J3cDY?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "조영수 론칭 버추얼 가수 WON(원) 8일 정식 데뷔, 첫 싱글 ‘Mama Song’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEQ3FVQTAxYkhoYTJpN1J2cVBvRnRoRmJLYm9GWnFtY0VsUjJGeFVKMWRENWh1M3JJQlc0SDUtM1ZoQkhhRTNBUWFNa0RtV1JSdG9rVHpRTlVsYTJ5M01UakRpamU3ZjNn?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "가수 송하예, 8일 유튜버 조매력과 결혼…1994년 동갑내기 부부 탄생",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "가수 송하예, 8일 유튜버 조매력과 결혼…1994년 동갑내기 부부 탄생",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ydThTYVdLeUptMjdJeE9RRVlOeHUydGpZa2hGY0FYcjhKTFRaRjFzOVREMFB0UHJ2NkItbFhuS0J6Z3ZnZHFvQS1JNDJtb3ZBT2Jja1RRS2U3Mno3TWRwMlJLaVJ0aThCZ2hKQnNUWlktS2c?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "가수♥유튜버 동갑내기 부부 탄생…오늘(8일) 초고속 결혼, 송하예·조매력 열애 8개월만 '결실'",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4ta0tacUE1NUFXQU9JT19YcG9DLWtQUW10YjRlb2FDU1dMazlBZDdkMjQyNlptZnBnU081OHJ3RFRacy1wR0hndlVjYWNRUDRWZ1JzRA?oc=5",
+       "source": "엑스포츠뉴스"
+      },
+      {
+       "title": "가수♥유튜버 부부 탄생…송하예·조매력, 연애 9개월 만 오늘 결혼 - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ualJGa3FDQm96aUw2SFFuelQ0cERYak9IR0x0VlRYTTJXT2dpTXVKNEdnd05JdTBNTEJ0MHcyVjhReW1SRzdKUHU0YkprQTdna096YTdCWVNEM3NsTEg0WlhEaGZHS0FLc0xnaGdOQnN2RFXSAXhBVV95cUxQaWJGTzhmMUtMYS1SQlFDdFZPSUlCTUhjMGhYYjlEaU1DdHlFMld3a3JSZ29VTnU2RDNBVE5PZ1Y4a19jQVRpaTNpOHdhZG8wZFJrN0tVX1MtNndwTFdlUmxiV3RVMkVYZW1uay1iS3BxMlgxZVR1aGU?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "가수♥유튜버 부부 결실… ‘K팝스타2’ 출신 송하예, 100만 유튜버 조매력과 오늘(8일) 결혼",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5dmZ6Z2EyWWI5cVJiVUpsQk85RXZ2aDRIZ0xlWERCQmtZNDRjNm5TWGRGaFhoem9YTzRMZUhZdHdkRVBvN05ybzJlWVE0ak9ZS3lqa3cxUTRYNE9zdnppYnMySQ?oc=5",
+       "source": "MHN스포츠"
+      }
+     ]
+    },
+    {
+     "title": "'공연형 아이돌' 82메이저, 오늘(8일) 타이베이 단독 콘서트",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "'공연형 아이돌' 82메이저, 오늘(8일) 타이베이 단독 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wb1E0cU5VYkk3ejdTbmtmRGlfSVBKczNRRGdCb2VrWDlmMTVGQktQb2V0NFdqQ1BSRmhLNjJjYUItU3hQZ3FZQ3VkSTJPODZkaExsR1VWZC1EaHhTMlk1Sm8waTVTRXYzR25nWXJQQ2lHMFFZ?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "82메이저, 오늘 대만콘서트…미발매 신곡 최초 공개 예고",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WUER0R2V2VWw2RVo4T2E2RGd6WU1Qbmt5SEdEOEtvTjVpWjQ4bXcySzYzU0RRX2w1VXlXRnFzQzd4M0U3R0s0ZUg3Y1BkYW5yOURiUDR6QlZtNWx1VTlOZjdkZUx0cm1ycGNLcURR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "82메이저, 대만 단독 콘서트 개최…‘공연형 아이돌’ 글로벌 광폭 행보 시동",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyZ2pOM04xbmNNOGE5cFI1X1lIdkRxRVJpVEZ6bURXbXd1cm9KNEJibGJQaEZkSEJTRjF6TVV2TVowSENzV2ZSVVRIZHF5N3AxNENYbGRjbVA?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "82메이저, 대만 단독 콘서트…미발매 신곡·디제잉 예고",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45aUp5b1RnV2lUTlVCTklJUFpYS0IzNWE1LTZpOXVqMnZ2WExMRjZNVUE5Z0lZSDZ2MFdsU3l6LTRMSTJFZWdUeVNLYkIxMzhxVnR1ckd3?oc=5",
+       "source": "비즈엔터"
+      }
+     ]
+    },
+    {
+     "title": "Mötley Crüe singer Vince Neil's longtime girlfriend arrested on domestic assault charges",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Mötley Crüe singer Vince Neil's longtime girlfriend arrested on domestic assault charges",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdWxlSFNweDIyS1hCbVktbHZWS0hST1lwbF9NcGc4WVBxak5QOE40TFkxVEN6NEdEZmI1LXZVTDhWcmJlb09BQnU1X1NSS2IwOHdYOEstUjJCV2k5U1lFUkhKYTMtTHU2cExmZlBpVTNvV00wT3pOLWFLREs2eXM4QjQyTFgxU2VEMERYalpDQVhyRTlNRm1pWWI3RHJXYmNLT0thZFNLU1diTkRObkh0aXF3TGg4QmhaYUN5Vld3?oc=5",
+       "source": "Fox News"
+      },
+      {
+       "title": "Mötley Crüe singer Vince Neil’s longtime girlfriend arrested on domestic assault charges",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbXhKTko4Q25GWDVCMF9IcXI5WldIdVVNQUIzZnNyOWdNQ2lMUmtHcTl6LUJqQzIxNGxhNnExejcwWXRqNFJ1M3pKcFlGTmhSLVdhOF9oUzlNRi1VWV91VmdCWWlWc0ZJeURrMG02LXk3b25PUVhCY3Y0ajI1VHhpaGp2MA?oc=5",
+       "source": "Mezha.net"
+      },
+      {
+       "title": "Mötley Crüe singer Vince Neil’s girlfriend arrested for domestic assault",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVG91aHNMZUFocFlWMFN2c1VPQ0dwRGdLV3otRkFJX0JnVEZlOU9DVzB5djRhQ092cC15M0w1ZmtzaGRGYjBKZGJKaDJFX3cwREllRFAydXpTV0FlbTMyUWtfbzF1NVVWcWU5VWQ5eDlVTGdMZXJYM0ZKUl8tbTd3aUw4ZVBycVlWX3RTaHVoLU5WR2IwTG9rc1FDNHV4UQ?oc=5",
+       "source": "The Spokesman-Review"
+      },
+      {
+       "title": "Mötley Crüe singer Vince Neil's longtime girlfriend was arrested on domestic abuse charges",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JclBNRV9RajE2akxUd04zY2F2Ynd1RHNpWWZVdzlPREZqOTBMQWZ4RTNSQXVwVGVMYjN6X1I4RVdqeS0tVWducTlGU3YyaHNuNHJQWnpGRjZpVnZGcTgxc3NMZFpYcXlwYzl1WEFIc09USkVPT0E?oc=5",
+       "source": "Yahoo"
+      }
+     ]
+    },
+    {
+     "title": "트레저, 2026 KGMA 대상 포함 4관왕…힙합 변신 성과",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "트레저, 2026 KGMA 대상 포함 4관왕…힙합 변신 성과",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ENDNlRnBFM0pmbktpNUI5RW5WWWszYnhwb0E0anVpcm9LejdGVXBBeE1yYnd4VXBXQWgxV2U3UURNNDFSekIwc2hDUGgtaTNIcVdxS0ZGTXRwZ1J3dV9WR3ljaHVlVnhJekthekdpU01ydw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "′YG 힙합′ 트레저, KGMA 대상 포함 4관왕 등극",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0elVuanBaN2ZDbGNQaDJoeng2d2ZHd1lyTjlKRk5PanFQdTlYMFdDdFB1U1JjQXJ3dmZab3kwaC1fVTlfR0JweWxVZmZUQk1JUmxzMGo4bVZjOFVES1d5ZUJMUWVwV1c3eU0wMTFB0gFrQVVfeXFMT0Y2eURWNjBBRUpBSDBaRmk1eWpmV1lsWmRKNHdSaW1VVnpLZW9QMmpYSmo5Q1JHem9DRUU1eTRSbkxncjJtRUN1cFRmSmgwa2k3OG5VQnd3akpaSVNSaFMzVzE1TloxbUlMMU0?oc=5",
+       "source": "SWTV"
+      },
+      {
+       "title": "트레저, '대상' 포함 4관왕 됐다..성공적 'YG 힙합 DNA'",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdW9MZDNtaXN5TUVXbXIwaUczd2h4UmNBdEU5dkYzQ1lVV2xvSEZKblNCd3ZkVTFmZm1GMHJ5QmpVVDdqRjNiSFRCSTNBOFpJckxQZnFRNEhkU1lteXN6ZTAwZjZUZklnaXl3dzMwZmVsWTdfeVRMN3VUTk1EOUU1VExHRWlUZHdWaEJIT2hTWFJ2RzlyTlZBNE5qdW1xZjljaHdCc1ZQNNIBpwFBVV95cUxNdW9MZDNtaXN5TUVXbXIwaUczd2h4UmNBdEU5dkYzQ1lVV2xvSEZKblNCd3ZkVTFmZm1GMHJ5QmpVVDdqRjNiSFRCSTNBOFpJckxQZnFRNEhkU1lteXN6ZTAwZjZUZklnaXl3dzMwZmVsWTdfeVRMN3VUTk1EOUU1VExHRWlUZHdWaEJIT2hTWFJ2RzlyTlZBNE5qdW1xZjljaHdCc1ZQNA?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "트레저, '대상' 포함 4관왕 됐다..성공적 'YG 힙합 DNA'",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sUnlESjExS05NYWZqVVlSaDA2enhfUC1XM3BxWWxYcGxiZzV2UWNqcUV0bS1ERW83U3J6Zkk5WlJlamFJVEVqNUhGQllwQk1tMjdvdQ?oc=5",
+       "source": "OSEN"
+      }
+     ]
+    },
+    {
+     "title": "State marching band finals: Huntington North ranked ninth in class",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "State marching band finals: Huntington North ranked ninth in class",
+       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNX01QVjlvTnl3UlE3Q2tzclJhazNkUVd4TXR6cm9fTUwxb3MyQ3g0Qkl0SE9KQlRIVGxiUFBFTHozaEV2VGMyQUYzZFpLY3lXakJLUmRRQWFEeUdKX18xY2RiY25FcXZOcHBwVkFmVHJ0YTFyclc0MlRUOGNZRXZhMjhUdkl4dklhcm9GQ0ZzRzZnWW80aldCZFpxeE14bUlfMUlhUUlQd0FVZFpKZ2ZtdUhNRWw2eHdjN0dhY1paLXhpSjNNQTJyNFlqQ2s3eW9Ka01SdDFXa2kwci00VEs3VU9CS25CYVFaRlh6bTNTMm5pQQ?oc=5",
+       "source": "The Journal Gazette"
+      },
+      {
+       "title": "2026 ISSMA Marching Band Open Class State Finals results",
+       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNEZhbm5mN2NIRzdQcndwenRPdWhJX0VpaElhQ1ZST0ZQTUp2bXprcHVkYUtWeXJRTlF0Y3hBa0MybXpDV0UtN19LWG9GTVh5VkY1ZUt1TnZiSGhhcjMyN01YYUU1QnZhbTZUTDY3aEJ3RHhuek0yTXZwX3lZcUc4bmVBcjdBczBKcnlDanVJYVpwOGJfRkdLRThwRHVlZUI4UkNsclA1QXpaajZ6N21jWENNc2pfV1U3MDVkZkN0V1dXRzRJdWs4QnJsMjRMQ0h2d0NvUDl4eUFYYUE2SWc?oc=5",
+       "source": "WTHR"
+      },
+      {
+       "title": "See Class A bands perform at 2026 ISSMA State Finals at Lucas Oil Stadium",
+       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMHVNZmtrd3Zia0tHWGlMUXlydlBTbjVyeWxQdEVkOEloNy1yNGp3eVpRenRqQXNWNXNWcl9SNTQ5cHFWS3R2ZFpHT3JINFVZbGNUN3RQaDYxSVpKdVBQa1hVeUM0WFVfQmtuRG9rOHdISnFOaEF2alVNOWFMNjR6eFhvY1QtYmdIekJEYjFtZ24zRFl5N0c3dVhfQnM1bUZRLXJ1M3pJcWthc2EzUm1IMW9FWnhZa25Rem0yY3hKbUZtSlRmaDdrZjJLX1V4QlRrTktFSDNndw?oc=5",
+       "source": "IndyStar"
+      },
+      {
+       "title": "State marching band finals: Leo places sixth; Angola, ninth in Class C",
+       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVGdtM3pka3ctS0x0RUQtcC1tVnAtVFVmNkxqb2xKR3ZxOHhpcmF0aGZpd1BEWHNlcU1BRjlGbDY2a0V3MVJhbGRvcUp2ZUNUeDlwWlo1bDlxM0hLTHJmTGN2YnRLdVBJRVFZTzhydFJTLXBhOXJiYlUyLTZYYzlyTHJ2WDZPS2RVS3FXeVZ6bFBaOVBDVGFfV0FtSHZ6Z2owazQwT1MxNmdDbDdaTVpqak9NRnhIN1Y0MW95Ukt2NTVWR0FLdVBNTEdCSlNHdDAtY2MyTG5CVUdtQ1p5UkJpOXNtZTJkUzJvOGRTQU1DeWJWVnlH?oc=5",
+       "source": "The Journal Gazette"
+      },
+      {
+       "title": "State marching band finals: Garrett awarded fourth place; Woodlan, ninth in Class D",
+       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUDlRWnpIN3VVY2ZZTGdfdlE2TWxtOVIzRUM4V0RKXzY5anBHVTdQazhrYTZzN0tOMGFtbE0xR2tsWEdEaTBMeXI4QXhIZU9JbWpIdWloTmtMN2ZjYzFFVU8yTGNpLWxJV3YtRS0tTjYzQ2FnTjRmU1dNakFPdTg4U2FKdVR5MlpNMzlaZHhCd2dHUlNFQ2NzN3Rfb0RmSS1xdGhXVkdYaWtnRlNBRUp1NTF6aEotV3phSV85RXRKNFAwdVF1Um1DOVVxd1dTVzZzWXcyVHFrN1FOLW9QWjZLbnc0QlFNUWotUENZVVZDbGtfVmNCTkMydnZNMFdKWWVCdk5TY0p3?oc=5",
+       "source": "The Journal Gazette"
+      }
+     ]
+    },
+    {
+     "title": "‘SNL’: Watch The Strokes Perform ‘Lonely in the Future,’ ‘Going Shopping’",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "‘SNL’: Watch The Strokes Perform ‘Lonely in the Future,’ ‘Going Shopping’",
+       "url": "https://www.rollingstone.com/music/music-news/snl-watch-the-strokes-perform-lonely-future-going-shopping-1235654344/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Watch The Strokes perform ‘Lonely In The Future’ and ‘Going Shopping’ with Walton Goggins on ‘SNL’",
+       "url": "https://www.nme.com/news/music/the-strokes-lonely-in-the-future-going-shopping-walton-goggins-snl-3975379?utm_source=rss&utm_medium=rss&utm_campaign=the-strokes-lonely-in-the-future-going-shopping-walton-goggins-snl",
+       "source": "NME"
+      },
+      {
+       "title": "Watch the Strokes Play “Lonely in the Future” and “Going Shopping” on SNL",
+       "url": "https://pitchfork.com/story/watch-the-strokes-play-lonely-in-the-future-and-going-shopping-on-snl/",
+       "source": "Pitchfork"
+      }
+     ]
+    },
+    {
+     "title": "TUIDE Wins 2026 KGMA Rookie Award",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "TUIDE Wins 2026 KGMA Rookie Award",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUkV1S0cwZjhpYWdpYmhrWW43Y1c3aklrc1lvLTJsNHJVYTB2cjZNNzV4anM0bFFBb2JGcENXM0g2cC1qOVdueUhVakdHZmdrbDZSN3RYS200b0ZJR0VSM2ZENXEzMVFFTWpMWEpQTUdIeVdhOUMyTG5qZFg5SzgzLTc5R0p3ZXV2TWZOdG1R?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "TUIDE rookie award — Girl Group Wins First Trophy at 2026 KGMA",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ROGFURTREMDRwZFdLVXRTdlVhMXM5dDRDbHVTNkNpZGd5T3JqWEZKNk5SbVZsLVlQU0RMVml4MjdXdkFleHVKOFZodEJyZllqV0trbjVHcEJPVE5HdXpaQnhWTUJfQQ?oc=5",
+       "source": "The Korea Daily"
+      },
+      {
+       "title": "TUIDE Wins IS Rising Star Award at 2026 KGMA, Marks Major Milestone at First Major Award Ceremony",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ1VxSTlpZm1HWkZBQ212dDBtY2xOczVvLTN1ZlZrNk5WYUlJMGhJYl8xZEIyS3RXQW5IbmtQdFM4MkVsS20wQXMyOE9XTHdrSkhMRTllTVppNnZhMGdmdXg2MmI0aUR4aDdKUU5IQXgwaEZHenRHYVRETkpsUXJZeDZhZEUzUDNGR2MtSlg0UkZVYVBRLXVFMTRMd1MtVDRRWnJHa1ZKdXBYM2d3NkYxTDZJV2JpWlk?oc=5",
+       "source": "International Business Times, Singapore Edition"
+      }
+     ]
+    },
+    {
+     "title": "열린음악회 오늘(8일) 출연진·곡명…김준수, 박애리, 주시크(Joosiq), 노을, 안치환밴드",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "열린음악회 오늘(8일) 출연진·곡명…김준수, 박애리, 주시크(Joosiq), 노을, 안치환밴드",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNMG9CTlN5VzA3eXM3ZjRuN0g4MGZBU0t2T2p6NTc5bXFBcTdsaTZqMC0tcy1BcFdUNlZmY0hqWUg0Z2R6RWVJZ2ktaXBPQXpIYkxBa05zU2IwQl9PWlZzOWQ3MUJlMkxPV2JFdkotNTTSAXRBVV95cUxOdk5EU0ZGUHFOU2dtWDNzRXYxV3ZpTHV5ajFRRWszUVZra3ZWZmNqbnFNUXhTTWdLTWVLeWNJdVBvdGdVTGtEczQ2ZmRuWmVwdVJOclA1LUtFVjQ5RzczVXo3SG03X0QwNDYyNTBfelJhUXRoTQ?oc=5",
+       "source": "더페어"
+      },
+      {
+       "title": "열린음악회 출연진 라인업 노을·안치환",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RVXNQZGZVazB6Z1ZyU2hqUGNsaUs1VmdHcjNYUE1YWWJuY0RzclA1VFgzNWlvNW5nY3NodFYzMjQ3RGpIVzB3S3BUcjlfaFJTdElsZ19FNU5fZmNpS21sQ1JfR3A?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "\"김준수·박애리 국악부터 노을·안치환 밴드까지\"… '열린음악회' 라인업",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMQmNjakh5TTFxSVFpcWdCSDNJdXVTN2EzelpkRG5WQmtnTHhvelp0bkZPS3ZYOXZaY0NEZGtKbWhCdTJPb0JEbkRNbDJfZ3VLajlWeVJ4MHY3WmZLSmt0NmFDTEFuMVo2YmZGWW5n?oc=5",
+       "source": "국제뉴스"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
