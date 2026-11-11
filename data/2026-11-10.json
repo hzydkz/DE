@@ -1,0 +1,544 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-11T00:53:07.339010+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c12~c14 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c12~c14 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 925,
+   "issues": [
+    {
+     "title": "Paul McCartney Becomes a Billionaire, Making Him the World’s Third-Richest Musician",
+     "summary": null,
+     "ai": false,
+     "article_count": 20,
+     "source_count": 20,
+     "links": [
+      {
+       "title": "Paul McCartney Becomes a Billionaire, Making Him the World’s Third-Richest Musician",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdmVzTURkRnRqWVpfbVlzZ0NOOXRDcGdUSy1rLUtzclNaQlRzV3NZdzdoeUt2WG83OWd5dzQ4NU4taWxtVUNvdF91QXU3dEFGMWwyVGFXS3BjSmZHT19IWjN1aTVDYmJHckZ0NjJFUklCVDV0bUhwUDlkb3U2TnM0ZDF2Z1V4emphYlRMNVRzWFVUN05tMktLWU8zeW1ZVkZyam16Q3VXOUQ?oc=5",
+       "source": "Variety"
+      },
+      {
+       "title": "How Paul McCartney Became The World’s Third-Richest Musician",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTkxrbUUxemZsalZ5TVhpZ1NzN2Z0YWhUYXkwV0xGcGlZWFNrbDlfa3d1eDZnTk8ta0lRaHR2NkJoV2t5eEZIMnRMMTlSak53bk8xb193Q2FzcVBETDE4V0RSTG9Rc0ZxaGNmVHc2RWFrZWRmcnJidVFyMjEtSHFOcUZ4Rl9GbXd3NlhsMTlZdkVsSnNlSVBHZVNuNVJfczg5TE9WdWxjSHJQLVlwYnloN1NJd0VMaWNWd0E3YXV6YWcySDg?oc=5",
+       "source": "Forbes"
+      },
+      {
+       "title": "Paul McCartney Is a Billionaire — and the World’s Third-Richest Musician — According to Forbes",
+       "url": "https://www.billboard.com/music/music-news/paul-mccartney-billionaire-third-richest-musician-1236378066/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Billionaire Rock Icon Becomes World’s Third-Richest Musician",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN1Z4SWVlRDJuZlQyNjBYc2lEMDBuM05mekcySzhfVzNDUzBVdXBoeTJkLW00dldONDBGYWJPTF9OcER2dWZPamxGeW8yZ1F1eGVsRmF3cV9BMzZEdGN1dGRYUVVjSVgycFQ1NndxOXVITVgweXJSTHl1Y1NWRFEzQVlkZ0trZV9vdW1Vdk81cjR6WExDTlE?oc=5",
+       "source": "The Daily Beast"
+      },
+      {
+       "title": "Paul McCartney becomes a billionaire and world’s third richest musician",
+       "url": "https://www.theguardian.com/music/2026/nov/09/paul-mccartney-billionaire",
+       "source": "The Guardian"
+      }
+     ]
+    },
+    {
+     "title": "Rochelle Fleming, lead singer of girl group First Choice, dies",
+     "summary": null,
+     "ai": false,
+     "article_count": 15,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "Rochelle Fleming, lead singer of girl group First Choice, dies",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcTl0M05aanJudktjemxjRjVqaDUxWDJ3TGg4MndsZDk0S3otcTUyV3pFb0lQaExzbTQ0NTllbWc1b1NRRklXNGhPZlpIM2psUlpjaThiTDdjbnV5SjNXS1FBd25VenR6T280WUNzQ2hLTUpJNTN5djlqX0t4SWRsWHlvOFRBSmN2ZzRTMA?oc=5",
+       "source": "LiveNOW from FOX"
+      },
+      {
+       "title": "Rochelle Fleming, lead singer of '70s disco and soul group First Choice, dies",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEZvZWhJZ1c5dkYtd1NBRkFYdjNfVXNwV0NjN0hrNDRTN3NhdnREZzFpWmU5UWRXYnVDX1p5aEo5U1J1RHMybGRvZkxhdUd2NTdWdnNNZVl3NVVKX3VJSmo3TnZmVmI0eXJVa21PY1Q2OEVlaFZKam5JYVFuQUF0SHdRQmhTZEJiNXc?oc=5",
+       "source": "WPTZ"
+      },
+      {
+       "title": "Rochelle Fleming, lead singer of '70s disco and soul group First Choice, dies",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPakhBWGdMWTVIWWpLSjFoTnV5N0dQMDVpVmhIeXNYTElONUtyTlhDWV9BY0E1YlV5U2dueXktektPY3ZhTkNVaWhXeEZJMk1Ballha1hJSEpmYlpvdU81YzNwd3Exc25QTnFvZGdsaWZqVEphLThzMlY3R1dDMnh2bWljdXRhSzdtTEY4?oc=5",
+       "source": "WMUR"
+      },
+      {
+       "title": "Rochelle Fleming, lead singer of '70s disco and soul group First Choice, dies",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX1o4cTF0dWF1eDk3RGxIUDFhbnkwc2ZScjZORE9vdzRwM3Njdjc5OVlsU09lT24wY3M0YkVQa2NweWpvdi1lVEZSS3hPY29SU1kwU1ZfVFFpd3lpTnhDZ3o3VVN1LVFuV3lwNXVBZE91TEdURV9oWFp1Njk1QkFaMjJ0Sk1JU0xZaS1N?oc=5",
+       "source": "WLWT"
+      },
+      {
+       "title": "Rochelle Fleming, singer of disco's First Choice, dies at 72",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSWh5ZHBSak9jRGdrSzVNRVdQeWRhWXEzYkN2VHBrYUZjTmYwc1dFNnE3Uk4zLUlROHktd2gyampZNDExclhfbU1GUGFkbUEwZE44YmtnRzZQSEFnM0pKTlYtcC12UEd3dHVOSmt1TDducEtRRWpTbmNjdU1lRnhGeER2MWZZT1doSk5HLWpwdXlyQmtqMFFabklGcG01Y2lXVUd0NlJZWEdBVXpzV2c?oc=5",
+       "source": "USA Today"
+      }
+     ]
+    },
+    {
+     "title": "Stray Kids Announce 2027 Tour: See Dates",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "Stray Kids Announce 2027 Tour: See Dates",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5cHZhY1RCWEtQeGdIcXNKQUJCNTV4VWxMYktpU1ZRTlVkbk9xXzE4aHdCeDh1dUtLQWpiMlQ0SURlRUxWX3hOSUhyTkN0bWNkT05oNnF4RFRQOVM1emtNa093U0N1WVI0?oc=5",
+       "source": "Ticketmaster Blog"
+      },
+      {
+       "title": "Stray Kids announce huge 2027 world tour including London stadium show",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZlFac3lkSEJ4elpMLXFCei00S2xFLVZIS3JNV3p3ay1JWEtIZUtNbmV0eDU5aHlwZllkUlJIY0xrQ2NQdVdUMHF5T1lITjVDWEQ5a0FOSkNJNFFYQnVPYXE0aUZBaUxEMlNpN19QWWNTcDZDTm9Ld2tXY3MwSG9RdjdrODRsT0UzbmNkUHh5b3ZCdmQxWjNCRmdYSDBTcjZYWjdQSG5mQ0h0WUFUREItVnJtZG04MmZR?oc=5",
+       "source": "Contactmusic.com"
+      },
+      {
+       "title": "Stray Kids just announced 2027 'Run It' world tour, including 12 U.S. concerts",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVVhGb0hJdVAyeDhfZFQ5TXVOX1VTVk1xalZRYUtVRzNVMjRkclZFT2NBb2tESExyOS00S09DNHZRWGpUano5UDBUM21CLXlUWFhpYXQ1c2xjdGh3ME00TDBqX290Nzc5YWRQeU9GQUVTcXBBNjRTeHYyelpMYVVEN196MERUeTRBZE9NM2dvMXRuUjB6ejZleWxROHZNelhrRWI1NEJBYjgxY1JzQjFHRUpfYXI4WmJIaWJNNnMwZzc?oc=5",
+       "source": "USA Today"
+      },
+      {
+       "title": "New Order Announce 2027 US Tour Dates",
+       "url": "https://consequence.net/2026/11/new-order-2027-us-tour/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Stray Kids Announce Dates For 2027 RUN IT World Tour",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWENEaDZCRUpUdGNLRzQ4MXgzX3Ribk5rbUoteW9KNWtYVG5VdU43OVhVRlFaR0hJbGUyN3hkU1VWazZQbUJoUkNtcjBZMUVIUnYteFROa2YxTHN1YmRzWHBSa1dLNzRXaU5zdTBuSHhYdkNIbzBPMVl5Y1NyYlVnMDNoRjdmOUlpOUR6cVBMT2pTeGU2LUZBakF0dw?oc=5",
+       "source": "Billboard"
+      }
+     ]
+    },
+    {
+     "title": "계명문화대 재학생 힙합 듀오, 전국 음악대회 수상 이어 정규 앨범 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "계명문화대 재학생 힙합 듀오, 전국 음악대회 수상 이어 정규 앨범 발매",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZVzZtQlF2Z3VSMzhOZ1FqdmI3T183dUcwWTVWOXN4cFpwOG45VWIyakZROFJ3aTI4dzdiYWgwUFhIN3JNU3BTa21qMGt3cHZZMVVwSHZ2Y0lSTHBWdW9IU01n?oc=5",
+       "source": "매일신문"
+      },
+      {
+       "title": "계명문화대 공연음악학부 재학생들, 전국 음악대회 수상 이어 정규 앨범 발매",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JYXZiejdpd0lGZ3RiR0phYTFXemFkdHpUQ19xdEN4dTFNQWtaUDZzYV9JTVp2dGJiX3RmRnVvbHZ6c0dVVXJHN1hDN2JrNWZBajk4ODB5dFFnZUVCZTZsQmRyVlBXSUF2eG84NlNDSVRsSUXSAXdBVV95cUxNcVdWZnhiaUNpRXBoanJka3EyLW1KUTFUdklicl9uSlZ1c2lYeDJxN0pWTTZVdHQwcThaUHlpY09mT1BqYjdObUU0ZGRncUI0RkQwbWxORVlDOGhXQ3RqOTRvaWNfVXFLc21ic09uZk1DYVExdnJBWQ?oc=5",
+       "source": "뉴스프리존"
+      },
+      {
+       "title": "계명문화대 재학생 힙합 듀오 ‘데카앤바스택’, 첫 정규앨범 발매...음악계 주목",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TMjZ0MkF0b2ZWTHdsallkMkRGRzE1ZmNfa3RyRFYxdVpnOU1lSEEwU2d4ZGFZQTB2WUhQeFY1a3VETU9HZGpSR2I3NGVHQjR0ZHA1MjMyNVk3OEhOV3hUazYxdkNfSF84cE5B?oc=5",
+       "source": "프레시안"
+      },
+      {
+       "title": "계명문화대 재학생 힙합 듀오, 전국 대회 수상 이어 정규 앨범 발매",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zMEpUOWpjMHluQlBSTHhQcWEwNHNaVURyMkJxdDdxV0tpV1N4UnNFQUlMVHNPYXZFczNpZl84d3NhcERFaUdkbHRRYkY5UHRYUlRkX2VaRi0?oc=5",
+       "source": "경북신문"
+      },
+      {
+       "title": "계명문화대 공연음악학부 재학생들, 전국 음악대회 수상 이어 정규 앨범 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51VWxvQW50cy1nemFSdExjLUlFZmY0a3N5dzRIT3RPTEtDVGN0dVRYWTlXRXpycExWakJ2WndodUtNUEhMR1FMa1c5Y2VISjZjbnB1cHRDRXZiWnRKQm5kbUYzcDJnZw?oc=5",
+       "source": "한국대학신문"
+      }
+     ]
+    },
+    {
+     "title": "SOOP, AGF 2026에 버추얼 스트리머 28명 참가…이세계아이돌 총출동",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "SOOP, AGF 2026에 버추얼 스트리머 28명 참가…이세계아이돌 총출동",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE94X2MtZGlHZjNBVWJPdFFqSXktNTZLMk9PYTBVR1ZuUXB6XzU3Z0c3a0lYM1BkbExhSk5kWXpiRjBNbFg2SDRJQ1Vraw?oc=5",
+       "source": "아이뉴스24"
+      },
+      {
+       "title": "SOOP, 'AGF'에 버추얼 스트리머 28명 출격…이세계아이돌 총출동",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wMzRhdXlnUGpMLUl1ZjhnRDhSQzNCX2lFdWNYcnRNZ0g0bUt0R3JsTk1COG9SVjEwQ0hjNnFTMEtKUkM1TE5NQ2FhcVFwRFhDM2lVVmJSUHhFQQ?oc=5",
+       "source": "파이낸셜뉴스"
+      },
+      {
+       "title": "`이세계아이돌` 6인 전원, AGF 2026 뜬다…SOOP, 버추얼 28명 집결",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4ycUVhXzZzeWhPdGU4RDVVNlp1b3IyZTMzUjBOVHNlcnZfcW1jQ2U3QkNPR2JpLWFVcFFHUlFobTRPQ1hTd3VNdXlYX2NfbnJySGdxQ3JNWHNESFlHSkFOTzVB?oc=5",
+       "source": "디지털데일리"
+      },
+      {
+       "title": "SOOP, 이세계아이돌·이브닛 등 버추얼 스트리머 28명 AGF 2026 출격",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WcktEdFNfTlNiOFhMTXI4STYzT0t1YnhINTVtbHlaY2hTR1F2YWFzeU1DZU5VZ0I2WlFtRzJ5VGZiM0FkQnNrQkN0RjJ2dmZ2SHpoRXpoQ2dHNmRUeDlDT1dVQVBmUUxNSkJwbA?oc=5",
+       "source": "ER 이코노믹리뷰"
+      },
+      {
+       "title": "SOOP, 'AGF 2026' 버추얼 스트리머 28명 참가…이세계아이돌 총출동",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByYWstd1Y0ME5ZTk1CWkpfODh3empEbTdab0hRSEFoRlBLRHJvQjN5R1BaY0pXODhVOWJfTmF6emN5aTlSQlB6aktPcFpJbmZtcFVHcHFMejg?oc=5",
+       "source": "뷰어스"
+      }
+     ]
+    },
+    {
+     "title": "금천구, 14·27일 청년 무료 콘서트 개최…힙합부터 지브리·디즈니 OST까지",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "금천구, 14·27일 청년 무료 콘서트 개최…힙합부터 지브리·디즈니 OST까지",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5leWJ6SzlhQ1pWeExmWnNuOTVSX3RSci1mZ0swMDk4R243TkhyWWxMbjhCbmxGQnJlQS1PblR5YWlmWEluZjBpeTRZYjJPQ2VNc1Zhb3dWODhIcVlRc2dDeWFFZ29BdmJZUEQ3bjlrTQ?oc=5",
+       "source": "여성종합뉴스"
+      },
+      {
+       "title": "금천구, 청년 위한 무료 콘서트 개최…힙합부터 영화 OST까지",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnTHdyYjhJX3NKVml5QmpkVjdMWXlBVWZCSHg5V2dSTk90b2dRSXVURVlibnVacER6eVZMSTNUQzd5VFNzWUxDQV9mTFU3cGRDb1JCeVE4NFpjVkd3SnA2dnM2Qm4ydC1rTzZsdmhn?oc=5",
+       "source": "뉴스홈(newshome)"
+      },
+      {
+       "title": "서울 금천구, 11월청년 무료 콘서트 2편 개최…14일 디보·윤비, 27일 권예성 밴드 출연",
+       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPZXF4V3N2M1oxbVhIQjVrbEtEY2NmUW5RWExidExtbmlyWHIyeGJrNGp4c2U4bFBwVV9GVnJqakoxNU05TV9BdXpRbVY5em9WY01BMk92d2w4bU9kdDRUcHhDZU5YTXNfejBXMnNJQnRvUkZqVXhFejgxY1duRGhxS0w2SlVRbzJWNEpieU9FNE83Q1lkYUhlWDM1MU9nQlBDVGJEcE5PRTM2TENRSjZEWWZ0dXdTd0I3czhMUFJsbnBaXzktakhRWENmb2ttbER3VkVITm9KOHJueExVMWI0NXNEV2toVG05dlQtX090aFBwd2FGX2hyUTlMUS14T0tBQ3c?oc=5",
+       "source": "데일리안"
+      },
+      {
+       "title": "“힙합부터 지브리·디즈니 OST까지”…금천구, 청년 위한 무료 콘서트 열어",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBRaC1Ta3FESGR3bm5kQW9jajFCU2xURnhRNUx1Nlh6aXI5QlVDZHZabm5YTEp3aXRrOWNiNnY4a2VZN1N3dFoxT0xsUmN2QTU4Ym4wM21lTThKYXJqejB3RGJsWVNidTNxUUNZenNB?oc=5",
+       "source": "G밸리타임스"
+      },
+      {
+       "title": "청년 대상 무료 콘서트 2편, 11월 14일·27일 금천문화정원아트홀",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tQ25XdnFURHFLWjV2QllKRWo4VG1HUzdXVi1GZ0V4b196RHFsemxvY1FtNEtuUnIwbmZfTUFNS2UtTExra1Nqb0ttRWt6WFZWOFlXNVBDSUVjMlpFYS1yaTVxSnVQdk9HZ1E?oc=5",
+       "source": "마을신문 금천in"
+      }
+     ]
+    },
+    {
+     "title": "“산신령도 공짜는 없다”…윤수현, 신곡 ‘공짜가 어딨어’ 오늘(10일) 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "“산신령도 공짜는 없다”…윤수현, 신곡 ‘공짜가 어딨어’ 오늘(10일) 발매",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3SUJVWVdPbG11SHBjTTZhb1ZpZTcxOVY0eHJuTVZjSHRCVmhTQjl0aXNOU3NQcXhhOExfbGJqcU5KNWhpNC1zTC1nQjhzdC1XRVg4LVAwdWtubEU?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "윤수현, 오늘 신곡 ‘공짜가 어딨어’ 공개…트롯에 레트로 하우스 더했다",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBodDdtdGhERUpqWC0welN3TnN0U2N3OEt3c1p1MXM4VzVxWmtCbVlSb1FGdHZ1QVhWT28yX2hMbUNhdTZYQmtBOHNuZ3gtWjRtczV0ZmNMaHpIOWh3VWswMnBRV3E?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "흥부자 윤수현, 신곡 ‘공짜가 어딨어’ 10일 공개…듣는 건 공짜임!",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMRmtQaFAzWk9ONmQ2SjZjSGI3M2tNV2Z1THFETlQwRW5FOUpXelpxcThOdm9kRmZUZjEtaWp0dWZ4Y0xhRnlPeWZUbklkeHdYX1ZUMG5DSUZJdGJUeUHSAWNBVV95cUxOMTRqMjZTVUFaTG1wSVU1bDBGRGpNc2x6V2dIY0M4OTlxTWJTLXpNbC1kcDFUaUpMUEpYR3p6WGxodUVxUlA2QWVnYUgyWnk5VkRrVVN5S3YxR2F5WTJNUThpVXc?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "흥부자 윤수현, 신곡 공짜가 어딨어 공개… 세상살이의 진리를 유쾌한 흥으로 뒤집다!",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10Tml1NHdOa1JhRUpJZTlxeEtLUm5pTk1uZVdQcVV6RXVCY3ItakgzUS1rZWhyX2l1TWY0WTdVMkV3d3RXWEJNVmw2OXladWhFU1plNm0xVjNiQdIBWEFVX3lxTE1ZZnJMd3BhdEpiT2I0TkxOcnN2dFNSMzg4ZVVFLTlfQXA1eUJHd0NqWENnUVhNeTlNS0xkamF5Z0FMS2pBRTBKVjAzM05ocTdSSEtQMHdwUW0?oc=5",
+       "source": "아주경제"
+      },
+      {
+       "title": "‘흥부자’ 가수 윤수현, 신곡 ‘공짜가 어딨어’ 오늘 공개…“가는 정 오는 정 매너 지켜줘”",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9BTjloeXE4UXk3eVVHdXdKblFnTmtkdTNOOElTaTFGTDJDTFd3VHVuQm9EcU8zWml1OWNJRWpPc2IwTHUybFlWWTBNZl9PWmhXMUN3WWdQZFB1TzhYQkZlUVo2NmFLLW5pZGZGc3dQWVJsUQ?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "Rising Country Singer Dead at 22 After Tragic Car Crash, Just Hours After His Final Performance",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Rising Country Singer Dead at 22 After Tragic Car Crash, Just Hours After His Final Performance",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ3kwSkQ2anA2Wk1sTE9ScmhWdUtzSUdyMkIyZzBWX1Ffd0pHOVF4cG1mX1ZfZmNjQWZ0SjhxbmlwdVlsaUE4dUlvSEYycURPbTJGeVU0bS1sbS0tclVGY1FYRVh3RXpsdXJrU054MHF0MzItcGVaVFA0cTFWLWhUUWlKVkNRVHp3aXFJR0NOZWwzSkRIaTJjaEZ0YVdadzNXREh4WUNsVldHOE52T3A5MlRkNm1weW1WbXh2VDBucG5LWUwy?oc=5",
+       "source": "American Songwriter"
+      },
+      {
+       "title": "Country Singer CJ Beach Dead at 22 Following Tragic Car Crash Just Hours After His Final Show",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdFMweVNBdDBxeGloallSOWp3WEJaWGxCX0RkMGxKSEtock4zMF9rbTlfVjVJUjV1ZkJUMGRsVGp6Qjk0Zm13U0IwNGJsR3JmUkhpY0hZaFB3X2hoVElqY1h5LTZlZUJaeUl4NkVDX0twVzBwOFhWalBlRC15czc5bTVJRXQ0S1IwbU4wN1NTeWhPZGszMjF0ZFRJUEhFUzNtNnNGMVhmLWdtZmRBUF9waTNGcWF4STg?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Promising country music star dies at just 22 after devastating car crash",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONWpTaHp0bzJrNmZNT1FEM0lGSGszMHdCbjhaRHgwT2Z4OHdteWZoQ05xeWNsbW1HZUd2bURkT1ByVmhOWmYzb0NFdENDejd0T2FiUlhHcVotOE54NzYzMzdsNWJxaHVVa2U2dmY5ZllVVFo4enNpSWRKUFJRNzBHM3JPbjh2aDNLRUxDWVlxdWhaRE1fbGdiTHJHZHFtM2xPQllJZ0FMZmV5cU9aQ3RfTkJrT2RMalVfUHBV?oc=5",
+       "source": "Page Six"
+      },
+      {
+       "title": "Country Singer CJ Beach Dies at 22 in Tragic Car Crash Hours After a Performance.",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OckZoaGpiU1pzSkdTdjA5VkFGRUl0b19wNTlTWGdETEpMUDBUNFI5Qk1Oc3JlSVFWWVE1dF9Tb3gwLU4yOUs5OHdDaEc2c3pmekRPZ3dMcUlVOWdCN2VlT3ByMlV0Z2NzRlV2c2ZXNzhWbk1TV2VLZEVlMTh2QQ?oc=5",
+       "source": "People.com"
+      },
+      {
+       "title": "Who was CJ Beach? Tallahassee country singer dies at 22 in a crash hours after a show",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUDY2dHN0ZTFqT1dFZTJJOE82LXU2NXRRSS05ZzV6WmhzZ2dUODBvdUNnNEI1akMzWDhCejlrbUVWS2Zhb2twN2tIQ084eXA0SFdNUW5QbDgwWi1NLW9DY2lGYm5ZRV9JdFR6RzNtUFMwVF9GMHBzNzI4eTJwekx5ZklVbnEtNEF3WXFxLTBRRG9UUXhaNzFUNWxrYlhVQzls?oc=5",
+       "source": "Nacionale"
+      }
+     ]
+    },
+    {
+     "title": "임영웅, 아이돌차트 평점랭킹 293주 연속 1위",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "임영웅, 아이돌차트 평점랭킹 293주 연속 1위",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqNWpPcV8yazhqcGt0RGJRM3pZTHdTUlN1YmJrTnlKdW5HNkp6dVVvNjE1cm1WcnNXY2p1UGRHcG9PWjllQjYxX0NJYVhxYmVlbmYtQ252ZzRqejNBczQ0QTd5WVRXZFZQdDVJVG02bDdnQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "영웅시대와 함께 新역사! 임영웅, 아이돌차트 평점랭킹 293주 연속 1위",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NNFJZcDlHdFl1SDJQdHFERDFQLWZSaFlZYXVxaFluZmk4MDNMMHFTeTBDVTdiRFBHOEUyVlVWMHd5Z0FKYUFOSVZmWlVkal8tV096YWQ0aFBMWGlyd0pUS0FSR1VCQjA5SDllLS1CWFdmbF9a?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "임영웅, 아이돌차트 평점랭킹 293주 연속 1위",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fNU9XakVEVFRQY3VJSkkyWDlMRkxuanJzMC05bnhQUkl5VkFWQTBXeFZIWGZnZ29mbHhlNktUWnRHNTZWZ2czX0tXcVRZcWZ1aUYyeWhUdnpiMnRtaC1tMlRWM3dRa0Q3ZUJhX3NmZEVOaUJWNS1hUV9fY9IBf0FVX3lxTE1UQXh3R3dFMUJGdlljdU95QW1wLW9DTVlGc1lBSnZYOC1ZZi1lMGhLSW01bXhlMURZZWM3LUR2WlhYZV9mVm9iVTR3cmpLSlVPRElzQ3habzF1Sm5aUHBvT1J4YXlvYURzQ0xxdXgxUmVSRG9qQVBNbHhYUVh3aGs?oc=5",
+       "source": "데일리스포츠한국"
+      },
+      {
+       "title": "박지현, 임영웅 또 제쳤다…아이돌차트 2주 연속 정상",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94TkxrZFlTT2RBQ3BlUndrU0dSaFRsdkQ2R0l3azJ0N1prd2F4bHAwX2VEckJZZmF6aWxlcHdCSzZ6Z1VHMWZqRk4zLV81WUkyTnE1ZVJEa03SAVhBVV95cUxPeE5Ma2RZU09kQUNwZVJ3a1NHUmhUbHZENkdJd2sydDdaa3dheGxwMF9lRHJCWWZhemlsZXB3Qks2emdVRzFmakZOMy1fNVlJMk5xNWVSRGtN?oc=5",
+       "source": "아주경제"
+      },
+      {
+       "title": "임영웅 1위, 아이돌차트 평점랭킹 293주 연속 최다득표..2위 이찬원",
+       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5vNGpHZXBRWXloVFB1X0dPeWc2UVlMVkNUcWhIZzhqbXk2dTN4T2dyRW5xWlgwZ1g1c0JMMXY4SnlETnNxSGlN?oc=5",
+       "source": "브레이크뉴스"
+      }
+     ]
+    },
+    {
+     "title": "이세계아이돌, 미니 2집 ‘Across Dimensions’ 발매…타이틀곡은 ‘REBELS’ [공식]",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "이세계아이돌, 미니 2집 ‘Across Dimensions’ 발매…타이틀곡은 ‘REBELS’ [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSbHZwb0p5MWE3b2JaRnZIcjJwbTZDbXpwWG1xZDdNa1RWVmY5ZURhY0Rpb2pQWVc4V3Rja2NkTmFNMktlSTBQVjQ4dVFGYkRSaGlWZDlmbw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "이세계아이돌, 미니 2집 ‘Across Dimensions’ 발매…지니뮤직 유통",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TSUdyUGdyQVdlRy1iSFMzYkRxOVpzU3A4ZmlUVDNVNENxQ2NfMnFGT29mVEY0SmlpWG55YlNoVUlZdl9FQ3JmOUJxb0pZSlBkaDNrdnFhOFdveHRaSmluRzlvUzJITlVKQlJOdnA1OXp4QQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "이세계아이돌, 미니 2집 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55ODJ3TFhjTUZfZjJic3dReVFCd2huZmVFYkZSSW5KZ204Rm5HdXo1cnkwQTQ3YVltaDFHTEJQT083SE14a29JRnAyVFJfLUhwZmxja0Vxc1VXeWQ0Mmc2WXlqSmE?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "이세계아이돌, 2집 미니앨범 ‘어크로스 디멘션스’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5VjFCOEp1M0QzTldTcks0anlpSjlPSTRxTUNfa29KUEJoa1FsTnYtbW9nSzlTVGRlbzNNQXZJeERWbXZGblRVS25jbm16Nk15N3Y2dl8xRzR6OThOazRXRlBPR3EwemFGRUNLMmNR?oc=5",
+       "source": "전국매일신문"
+      },
+      {
+       "title": "이세계아이돌, 두 번째 미니앨범 ‘어크로스 디멘션스’ 공개 : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wZzZzYXJXamN5eENSY1NZRHdOZE90WFN6QzRjWjVkZ1drVGU4eXAwZlhQOTBiWUp0bWt2Q3ZhVFFwNEdrNVRZRHBHRQ?oc=5",
+       "source": "재경일보"
+      }
+     ]
+    },
+    {
+     "title": "Oasis Won’t Be Attending Rock and Roll of Fame Induction Ceremony",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Oasis Won’t Be Attending Rock and Roll of Fame Induction Ceremony",
+       "url": "https://www.rollingstone.com/music/music-news/oasis-wont-be-attending-rock-and-roll-fame-induction-1235654642/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Oasis to Skip Rock and Roll Hall of Fame Induction Ceremony",
+       "url": "https://consequence.net/2026/11/oasis-skip-rock-and-roll-hall-of-fame-induction-ceremony/",
+       "source": "Consequence"
+      },
+      {
+       "title": "The Rock & Roll Hall of Fame ceremony is this weekend. Who's getting in, and who's honoring them?",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX2VRUWFNNVNBam5iRHBtOEExMEt1cG94cWNUSEktRmpScXdXa3FRRFVzeTJrNzR3bDk3ckZVYkREWTY2TWNidnEzaTZvd1BVbHV1dzNuQTktV1BaSFFvTVlnNnAzM2UwUW92U3dTaUVmLWgyVWlWRWpPRDNjUkcyNl9IZnU1cTBhN3pIenpxQk9FWDZYLWZKRQ?oc=5",
+       "source": "Seattle Post-Intelligencer"
+      },
+      {
+       "title": "Oasis Won’t Attend Their Rock & Roll Hall Of Fame Induction",
+       "url": "https://stereogum.com/2517176/oasis-wont-attend-their-rock-roll-hall-of-fame-induction/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Band won’t attend their own Rock and Roll Hall of Fame induction ceremony",
+       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUDBJU2hCUFlMei1jSFZWRWhNMVFNSmVFODY0NEhPdDhtcnppRlROSVptLTFIelgxdXRQSUt6alpuQjZXSHRkc1JyV251R0dnWTNrc1c3QXkzaHh6cjU2VHJLaEx1SHBrODdGN2JBZ2ozMTZMZ25NUldwUzJuODRlVmZQQmV1NE5oU2NWSy02QktaQUFoWHJkaFBrakxWUEluV09BMzlvdDhMTkw5cGFsalNnTHlrWnVRMDR6b3I2enkzUdIB1gFBVV95cUxNcG9teUFRS1hVUF95WnBVVy1ROExSTHFkSndwVEJuTml3dHNndlMxLU5mQzFKVHRfeUdnVW5yV2xpaEVZdnRJb3JQb2JjQWJFd1RadUsyTXlxeTdoQmJtOUxKUnRqTWcyS2MtWS15X0Z6Q1BlQlh3bVVpMDVOb0F2ZU84VlFpS3NIQUg2OEQyejFmaGx0Si0wR1N4X29PbXpHVlhRME9kSWJhQWo0c0FBMU40ZUFqc3F0MHd6enZlbVFkSm5pZjlndzRlbU9Hd0hpRUNFZllB?oc=5",
+       "source": "Syracuse.com"
+      }
+     ]
+    },
+    {
+     "title": "임영웅, 트로트 가수 ‘K-브랜드지수’ 1위…성리·박지현 뒤이어",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "임영웅, 트로트 가수 ‘K-브랜드지수’ 1위…성리·박지현 뒤이어",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yWGdXQWJhZWRnb2hWdzFPLTI3VGNDZzBqVGE2U0czdDItRTI4U3BnZk9PVzB4VXF2ZDNCcUhXZ3NiR29ydGdwTDVTdVduOGFsdUN1YUx2cUtCM1FMcHFtWHEyOXBfUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "임영웅, 10월 K-브랜드지수 트로트 가수 부문 1위 … 성리 2위 도약",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tUkY2TGluWV81SGdtTVI0RndHSEhzdXpGM2pyMXRLUHd3QnhNRmtRbl9uSnpBNVhSb1NrYlR3SHZBRERyMkhadDQ5aUIzc2JsakVQVU5oRU9xNEdHUElsNGk4WnBZaUNlRTJzeg?oc=5",
+       "source": "워크투데이"
+      },
+      {
+       "title": "임영웅, 10월 'K-브랜드지수' 트로트 가수 1위⋯성리 2위·박지현 3위",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DVzVfZklpdFNySkR0SHYyNUxyd2ZuWWtBQktPRkZXRDR4N1ZwcWNDRnFYamFoTlhLdmJROVlxaUFSUG1rSHN3alRMMWVBWDg?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "[영웅신문] 임영웅, 'K-브랜드지수' 트로트 가수 1위…견고한 팬덤·높은 대중적 인지도 빛났다",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1haGs3bEMwU3pBeXRYN0hCTzB4d0lOMkFBdWt0RVdCcXlUcE5LcUNUN016ZTFlRU1oY0dfSlk0TGdCM1hVOW9acFlsUWc5NW5qd2hGb05hTEw3ZHJzeGhTWTk3WjA2ZUlzS2s3ZnFfLVpwQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "임영웅, K-브랜드지수 트로트 가수 부문 1위…성리 2위",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56U1otaGZmTzdCYzVIRy1Kc0NsZjFfV2lVeVdUSGEzVEhuQ1Y4UmJqekdTeG5Fd3FqbndvMnlmTFhNd2dkTFdkaWxCX0l3aGpIZVFkNmo5OHo5WXVRdVhiSDZiaFpVaUwyVk85ZzdZU1RjLTh0?oc=5",
+       "source": "파이낸셜리뷰"
+      }
+     ]
+    },
+    {
+     "title": "[단독] 존박 ‘맥도날드 랩’, 무단 음원 등록됐다…도용 의혹",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "[단독] 존박 ‘맥도날드 랩’, 무단 음원 등록됐다…도용 의혹",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94X0VmMTBYQVZ5U2hYTi1VWjNjMWwzMkZTRjhRY0pmM0RvZGxKVk9obEhnLTRpOTNpd0pDcDFXTzZRM2h2VW5uQWpOMFJTVFF0RktxSw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "존박 ‘맥도날드 주문 랩’ 해외서 무단 음원 등록... 무슨 일?",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKa0lSVWJTSkw2Q3hEY3VhcDI4ZHVnMFpsaWRQTVdhWmNBU3FQdnlpQ3JLcmlHQzJCd083LXNXbjVaUVZySWMxRl8xOVkzeDRwOF9DMjFxRDB0Zms2b05wVTI2bUgwUEFiVlE?oc=5",
+       "source": "금강일보"
+      },
+      {
+       "title": "존박·곽진언 '맥도날드 주문 랩', 해외 음원 플랫폼에 무단 등록…작사·작곡자도 제3자",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtTUwzMFY3VVk0SEZCNTRDTzhVZGotUVNFdXZHSWVTSXdub1EzSnBzT0liQk1NTXhRQkxRODRxWjRja1FrWUN2cTQ2UHp4SkdPTGIwRi16bjhScnJQMjJCLdIBeEFVX3lxTE1aa2p6VFQwWEw3N3YtSDJQQUdla1RFZ1hFTWluUWRWS2k3SXNHLS1NLUI4eDNqZ04zQWg5Q0dRS0FXcXlJb2tuMTloTzl2ckpNLTJCMnF6OHhiNnJNaGNUS282QS1Zc29uOVJ1VFUwd1hMa3NCcDh0ag?oc=5",
+       "source": "뉴시스"
+      },
+      {
+       "title": "존박 맥도날드 랩 무단 음원 등록…AI 음성 복제 의혹에 소속사 대응",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rV1Byb1lKWnZTOE5BaFJoWnI0MTY0UlYzT0FPUDRzVVhwZ09xZjBWOHZ0dDBPYl9LcDctdnFlcXRDSnR6YmV0ZWd1c2hRdjNCUkUzdzJNV0FlUzE5Rjczcnh6Z0Rfak9sbnVZSVV2aTl3QQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "존박 ‘맥도날드 랩’ 인기 이 정도? 해외 음원 무단 등록… “조치 논의”",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zQmNUR21Xei1GNHFFZTNZSU5FSUppRjNVWThqQzFBOUJzVjVmSUlNNzNacUxWZ0NTVC1ZMWxOU0VsZV95XzI3ZV8xZnRmVUFEYkhJNHB6T193elJuamfSAWNBVV95cUxPR3otQXVyVDJiaG1GWEtWSnQyOVFZVDJySldHYU5hUFIzX1lMSWl4QXMwUDBseDNaQzdISDk1N2hjaE9FSWxkSTBWZVp6cjJDdDN2M1Uxc1hPeHF6ZERYS0Y5OU0?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    },
+    {
+     "title": "AI 아이돌 이터니티, 이탈리아 제작팀과 협업…11일 신곡 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "AI 아이돌 이터니티, 이탈리아 제작팀과 협업…11일 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93UmNDZ2JxYVVOQmtiWjRibklfLXFDdjk5aEZkQUkwS2c5VFp0VDF4ODdNbFJTcTdWYmhnUXpFSmIxeVY1S2VtcjNxLW1BZHJ3UHYxa3FjdV8wVUU?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "버추얼 그룹 이터니티, 이탈리아 제작팀과 협업…11일 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmSk0wUmNiRlZNMzhPTXY4VzFIWF9ET2d2MWZZMWhsYkMtcXlpQ0s2Mm9PZ2YxbS1GRVZ2MWdFN2VnenNYQTFvVVBOb1VHLXdEMWk0ZXZXRQ?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "AI 아이돌 그룹 이터니티,영어 싱글 'Crepuscule Syndrome'11일 발매",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OSUowMkQxbVNFUUYyd0llRmx6Y3VNbjBGcks0VFVPamNkSXlQbDdzUjRPVW9teHpKZ0xYWlA5RnNOcDg0Vmk1alZyRWE2b3p1cXViaU1lRkVWU253SDZuVTVaQVVWMWh4b3RIWVdoMkF5aUxZeWdyMg?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "'AI 아이돌' 이터니티, 이탈리아 음악 제작팀과 협업⋯11일 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wMFFYbUJDODFTNUlLc29JUEJuM3RCOTc5blRZeGJ5WlE1WFB2Nkg1N21ablRHZmtmRHRZNWk1VHFNZW1CN3VGWXN2OUhFbUU?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "이터니티, AI와 음악의 만남…'Crepuscule Syndrome'으로 글로벌 협업",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jSkZ0aWZnMXpxRFVTMnp4MERJQ2pUZFpvU1dMZ0hPSVY2ZHF6QlBsX19DR29ZcWZXeENfUkZJNkpPWEpiZkMzRWhBTlk3cno4d3c3eWlLMFlQR1dzUWwxZ2ZhTEQ3NXBMb2JLalRWcFVhcjAxN1JoSTdpSENDVEk?oc=5",
+       "source": "스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "NCT DREAM, 컴백과 동시에 '음반·음원 모두 1위'",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "NCT DREAM, 컴백과 동시에 '음반·음원 모두 1위'",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jd0JheUdmR2dST2V1Wm9TVzhJazEzNE1xRl80MUNfWlFSRzZJLVRHbnpLNS1aNy13RG82VVcyUnFyZmgzWE1OcFZ3Vnp6QURJVnZSaHB2LTVCUXA40gFXQVVfeXFMT05FNFpQdHJIY3JSNUJoWU9ZZzdoUFp6TlV1UV96SHZnUXQycVVob0J2bmEtbnZNWjA0SUNEcjhDdkRRZk5lQnlNRzB2TUVJNk5ncU9DQ3VZ?oc=5",
+       "source": "더팩트"
+      },
+      {
+       "title": "‘10주년’ NCT DREAM, 컴백 동시에 음반+음원 차트 ‘1위’",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ndDhjSk84c0NuMlR2WnNySFVkRHp2U0NKVlRYODE2ZFVLeUZBQTJVT28yWnBFQ1JTYlg2R1ZsRnRpdDlncVhRbDlhLWlPV3hLM0ZF?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "NCT 드림, 10주년 파티 시작됐다⋯음반+음원 차트 1위",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9OcG1weVdKbktYLUpMRExveVpFOEg3OFFneERYTHdYM3Z2U2xRd2JlWWFocjdRV3ZsYURsWXdxc091ZGJBMjhFWjlyZw?oc=5",
+       "source": "아이뉴스24"
+      },
+      {
+       "title": "NCT 드림, 10주년 파티 시작됐다⋯음반+음원 차트 1위",
+       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ONzVkZ00tX2xfRlFrNUxUNnROT2pHanJVenlTVl9hamE0Rjl2aTg3X1lFbHZfcXpwMk9yOGhFUm5hWlFQZXVVUQ?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "NCT DREAM, 정규 6집 발매 동시에 1위…중국 음악 차트까지 석권",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RX0VROWloTHY5eUNYRWJxLXRuTVg4VWN5Y1JDcnA5QjBTVzUwbEpQSUF1X0N4WTktbVpYdnJVYloyeXlnNVhHYWEycTBGbTI4VkJCWHN2aUVyeVo4U1NIUTFiMDk4MmtHeWEzNkVRMTZqQQ?oc=5",
+       "source": "스페셜타임스"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
