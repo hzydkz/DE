@@ -1,0 +1,544 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-12T02:08:15.490561+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 964,
+   "issues": [
+    {
+     "title": "‘흑백요리사’ 이어 음악 서바이벌 온다…넷플릭스 ‘흑백 가수’, 2027년 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 36,
+     "source_count": 34,
+     "links": [
+      {
+       "title": "‘흑백요리사’ 이어 음악 서바이벌 온다…넷플릭스 ‘흑백 가수’, 2027년 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtb3RNb1FjczBIMWJUUFZQMkFMZFhSMW1MVHJ4MElMX3dyZXU5TGVuLW51LTRPTXdBckVMb1NqLUFMZFdyQzFXSXNFbmtqQjFocjZNZUR5Q3A4cV94c0xyUEhhSWxMbGhHQk43QjJB?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "‘흑백 가수’ 2027년 공개 확정",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kc2lWM051NDNiLV9yWDBTb3U1VkNlLUhSNFhRdVNRc2YtOW1QbUVpbGFVcmlxaXdwYXdkOU9Fd0h2bnQ4LUNxLUhvNVlHYW1uMUNSSXVuQnBmZ01PcnVQZkhla3M?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "넷플릭스, ‘흑백 가수: 보컬 계급 전쟁’ 제작…'흑백요리사 가수 버전'",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ra3JTc056YUE0Y1I1Ri1aVmM5NEdmTW9wS2Y0NEs3eV9RLUNGV3pzYndPLUJiNmVQdHV0TGl1WmxNdVhVbTZtS050ei02VjNKT3lISzg1VHVDQjhNcWwtZnFPQmFadw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "'흑백요리사' 다음은 '흑백가수'…넷플릭스 2027년 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMdFUtNEM3bXZGNGNPVW4tWlIyMHpzUUtPYmxKdXVDSlo5Qm5lTmp1dTFmZUVXelZJWF9MOTJiYm5zQk1qOHhIOU1Wa3cxTHNYckpvamtYa3FmVWVPeVJBYw?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "넷플릭스, ‘흑백 가수’ 2027년 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tQmE5ZkZ1SjdfNmdhbnJwVzhvUTlKbUJXcTMzdnZlQXlJRDFuZjJUWnR6d19nX2xZY1ZoWU5ka3JqRzNST1IyaHhMNDNoNjJWZnYtNWJn?oc=5",
+       "source": "비즈엔터"
+      }
+     ]
+    },
+    {
+     "title": "존박 측, ‘맥도날드 주문 랩’ 음원 무단 사용에 “필요한 대응 검토” [전문]",
+     "summary": null,
+     "ai": false,
+     "article_count": 24,
+     "source_count": 21,
+     "links": [
+      {
+       "title": "존박 측, ‘맥도날드 주문 랩’ 음원 무단 사용에 “필요한 대응 검토” [전문]",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16cnh0dHNJQ194ekxDazQxdDRjaEpZWm1iOVdRTmFncV9qaWktcDJCRVJWOFVGNkhWUWpFRGFfMHY4NlQ1TUtVWG5vTnVuN282aFc0VnA0RFVxZTZxM0QwdDgyOEI0bTBX?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "[공식] 존박, 직접 만든 ‘맥도날드 주문 랩’ 해외 음원 무단 등록에 법적 대응 검토",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qZmlUM2NzT1JmbEtweVBrMXRlU2NZblJBbDNVZWZIWE1iazRpTzJQakxET1BfdXlycjhreC1wTW1XTEVXQmo4ejE4TzB5WG04dWl0SklPSTJ5bEtER3d0dmpQcHBkTDlDOUE0T1ZR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "존박, '맥도날드 주문 랩' 불법 음원에 대응 나섰다 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DQ2hrRktPdUFVV2ZPSEtZOHBXODVBODRrbkNwbkVyMmZHcUV3MXJkTEI4UDZWUUhFQjh4UFJUZnBZa2FJSHJ0UWtERS1oUQ?oc=5",
+       "source": "전자신문"
+      },
+      {
+       "title": "도둑맞은 존박 '맥도날드 랩'..해외서 무단 유통 \"음원 삭제 및 법적 대응 검토\" [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtaFFSOURRQzFnT0U1ZzlONWRJNWRPWk9HdnNzRHdtWm9ZWm9YWEwxREdaNVZFdkZZcjhYbDZoMjFDWGdLSVdjbVdmODN2ZXJFOGRTbQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "도둑맞은 존박 '맥도날드 랩'..해외서 무단 유통 \"음원 삭제 및 법적 대응\" [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTldBQm10R0Jaa2NxYUpfU1lMTERZMWd4NGlvWm9EWXF1a3Uzb0pPc0lCLTdYZVRCWGdlNWVRWXBiSFhSQVdpQkNjdFZxcnJwc1VyUEtuZWRyWGUwVzZ6WkYtbTcwLTBaU3M5dzk2c0wzMFZxZDYzZ2FRQW1yZlg4cXVpb3hfTHhQZkE?oc=5",
+       "source": "조선일보"
+      }
+     ]
+    },
+    {
+     "title": "캣츠아이, 유럽 대형 음악 축제 시게트 페스티벌 헤드라이너로 출연",
+     "summary": null,
+     "ai": false,
+     "article_count": 16,
+     "source_count": 16,
+     "links": [
+      {
+       "title": "캣츠아이, 유럽 대형 음악 축제 시게트 페스티벌 헤드라이너로 출연",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE12R2RwMGtsUWRXdHAxSXpmYUtJcTFGN3NfOWpPMHo4VWE2bDhaR2lKcWpMV0ttVWo1VWpjN0dGQ1R2cFJidVhUX3M3SVR2TGU3ZVZ2aVpUNlpvVXZaQktTRFcyUUkxVHA3N2RzMmlRS3EwQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "캣츠아이, ‘시게트 페스티벌’ 헤더라이너 출격",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xVEQzQ1A2QW9jMHBJRTRIR3o3Z3Q1T29hWGRzeWlKUFlRTUpkRzNzajViU1BjZzZlQmM4OTNvVTJVNUdtclVfYU53VlpwS0JKVEVRaFIxY0FERFFqaEl2TWFWRms?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "캣츠아이, 유럽 대형 음악 축제 ‘시게트 페스티벌’ 헤드라이너 출격",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFdjZBRnpsb1ZXQnZhOWRGOTJhMm51eXREanBPdTlqbGJQdnBBSGNCY25vcE00QU5QOGZYbDJlaWZ0VGRRUktHWkJvMjN2Y3habC1WSVE5TFl4TmFmYXfSAWNBVV95cUxNbVVyeUxEUjBnd0tOdEVLOFNpOUQzd3ZLbC00ZWhKOHJfaWFqbXp3UE1MRnY4bi1Yb194WTdkV1F0eUNvWHFlRF9ZbjFwOGJCX2ZsOXVsSHp6X0FEZWNiUXpPRTg?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "캣츠아이, ‘시게트 페스티벌’ 헤드라이너 출격…세계적인 아티스트들과 어깨 나란히",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB1Q0l0RmNYUFk1MDEzNWVyRlQ2T2tldzZLWnRZUDBhZl84RFBmTi1BVk1QTkRWMTlkdjRPNnhhS3J1MEx1OXJFRl9PWlRXRkYtRzJTNGlXTVh2QmVKcWlnOHdZZ3lhVHE2U2sza1pEX0pTczBfQnZiMmJ1Sms?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "캣츠아이, 내년 헝가리 대형 음악 축제 '시게트' 헤드라이너",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrbTc5b1lGRC1XaHRkNXdUY2hvQmo5N21QMVJnak9QVGlBakRadGI3WkVEbXFMMWpnTXp5OHpSSjhvRFdrNF9mUlJ3WUdFRzQyMFpkeWZsdlZtX2_SAWBBVV95cUxOamR3c1dGaEFmRVppZF9aeFc3bVNvRnJ4bWVXX055ODJ6cjMxRUgyYmN2Q0NzWmxmZ0ZyaTRzTmE0RE8xY0wxcktCNDR3djdvaXNpRkRHNnNyWmd5NDFza3g?oc=5",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "BTS becomes first Korean group to land on Apple Music’s 2026 best songs list",
+     "summary": null,
+     "ai": false,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "BTS becomes first Korean group to land on Apple Music’s 2026 best songs list",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUlZPTWhHZVpSM1ZDcHFRUmVqeE1RUkQ5RG40bjVPLVk1aDBqVXN2V2dfczZpaGNBQ2YxTE5KdmlJMGcydzR6YlNfUVhvZndWMmhYZXJfS1hybjBvWlZ6aWxiUDBsR282QU5uMEZhYVRnTk9GWjBkVjlBQzlMSEo4UFlLeTRqdU5p0gGcAUFVX3lxTE9uaUdHTWVlcm1vTDZWX1BheXlGWlUzM1Fva2lzSTF6dGtBNG5NdUpQSWQ1T3dTU0FmU2NOUnFOOGl0X0l0Z0c4TTRHRW5QR1BLWlpsQ2U4N1VNOWJ4dDk2N1ZfWUp6S2x6VGVySGRhRGRZUklBN18xSnI3ZTVQYTBmNkFsQ1ZmaXMwcVFCQ0xNQ0xxREticnN5M2hCTw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "BTS’ “SWIM” named among Apple Music’s “Best Songs” ... first for a K-pop group",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RVW1sMkFYXzc2ckU4NFBXX25WbEw1RF9LVUxXRUl1UmNxQXNNMFoxSkNvYlkwc3FPV1ZkaGxjUEFwUEs0WnJUOW9GUG1OZmJt?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "BTS SWIM — First K-Pop Group to Make Apple Music’s Best Songs of 2026",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2SERGTUZMdHFsT05oUzgwYlVsZXcxSjRwMkhPaGVqQzBtdzdqVTFFRTVBS2g0MFRMMlRRUVE4czRQS1UtbVo0TjdBQ1hYaEUyTFJIbUVhanJ6Z3NQM2g3bTJ3VG1GVW43SGkwaS13NnA?oc=5",
+       "source": "The Korea Daily"
+      },
+      {
+       "title": "BTS's 'SWIM' Only Korean Song on Apple Music's '2026 Best Songs'",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa2E5bDFzZDBZY0pBR1Uxd1BYTm50ZWFqMHEzY19IeEpYNG1RdEVHLS1HV3JuREVQV0JSQjhrckZRelVfczNwclVyRk02c2x0UFpneDBPZGhjMmRaNzdzMFk0bENHQlRrZWhrQXp1Z19ZU25NSUNjQUpCMF8ybXZScVpITmZjRTZIUWp3bUlB?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "BTS' \"SWIM\" Selected as Apple Music Global \"2026 Best Song,\" a First for a K-Pop Group",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yaDZzVUtXOUtmZnphZGlaUUJkX0VmN0pwQTJTVlV0bHRQUXBUMDlsQnFPRWkwc29aMDhVdDNYZzZEazlmVUtmWm1mSF9TQ2NsQzk1N094aWdrYmJ2djVNcTNncWx5ZTd2UFpjTUk1XzFwa051SzM4cA?oc=5",
+       "source": "스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "‘JYP 첫 보이그룹’ 오브더블루, 신곡 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "‘JYP 첫 보이그룹’ 오브더블루, 신곡 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Na3E4dkY1Qm04OGhQTm5HWG0xeFNoUk9IUkJtYnJOZVdsNE5pNDJlbUJjeHcyc2tQaHZTcHhWZ0tCcVE5bVhRYWxCa1F0QUVINVBUZVJna3BNU3g5Qlk4R2xMakY?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "JYP 신인 보이그룹 오브더블루, '풍선인간' 깜짝 선공개",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SQWdBbjNiVUZzSS0xSTBMSDRDbUxWSnRFUWFJVVo1TTd6ZENJZWpON1hpbzZqUFdkdG1oZnlZa01PT0ZGOXIzVkVzZ2VqUXhjTEZVSjhYX1Y1NURKdDJlSnJqSzhPZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "JYP SQU4D 첫 보이그룹 오브더블루, 선공개곡 ‘풍선인간’ 발표",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wNl9LZXNTVWVncnpYYnEzOGU3RFptRlpoU3VSWXMwek4zd2IyY3R3Z2JGaU0yU1p1ZHRMOURvR2I4WlRlSy14SVFMTXY3Mk4zZTlXV0l1cnZtcDhPbXBVTl9ubVZ1Y2NCZnUzeFc3eEVqZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "JYP 신인 보이그룹 오브더블루, 11일 프리 데뷔곡 '풍선인간' 공개",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lZlplQlctY012N1c0Q1NINVE1V2VXNlZSejQ4NVlob25SY1VMRnlmZFNFSlJRZk1WalZfTzk1SWg3amVxZzk1NUZzc19tcDB4SVMyNEgtZ0hMZjky?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "JYP 신인 보이그룹 오브더블루, 11일 선공개곡 '풍선인간' 발표 - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzUmVsaDh6RjZRdXI0aWZfQ1o3OFdCNXZ4QndQc3FrR1VDQlh4WVlqRkJiMHByeWlCMEE5dklfMkZZX3AzVWVCb09kU3VOeGVXaG93MHlnWWgxM2ZVdklmRWw5S3dQVWlY0gFuQVVfeXFMT3loVjVaU2diWWhvdk9RTXJqcmY1OTZ4UExtOUVDd1h1UzRfTVAtbEM1REJQMEdQQVRvem9NV3ZGVjBzVEFTUUtBZ282MmM5MFpuaHlEYVdjVlNLSEIxZGFfVHhrUXNXV3lpZlhscXc?oc=5",
+       "source": "머니투데이"
+      }
+     ]
+    },
+    {
+     "title": "다이나믹 듀오, 16일 신곡 ‘하라는 랩’ 발매…1년 2개월 만에 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "다이나믹 듀오, 16일 신곡 ‘하라는 랩’ 발매…1년 2개월 만에 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE15MElVSS1MLTlXNHdVQUZHY25qRTQ4RGlkMHMxU3NybzFqY2JKaENWNnBmR1pFQm4zcTMybE5QZHFQelhhanZMdmNpTllwV040Z2xLR0w3d182YWMtSWhKMm1FQ2JhdUVpMm9qTnhZZnFNZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "다이나믹 듀오, 16일 신곡 ‘하라는 랩’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lbWlvaHZYYkN0WlNielNWNUlvMXVXeW1IVjFMTkhYVEdqOU8ybEtZYnpmYWxWWFhWVzFMVzZueWF0aEU5Tk43NlkwUHRrbkh0ZE5WdWozZTNDTm9Xc2E4eWIzSlc?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "다이나믹 듀오, ‘하라는 랩’으로 1년 2개월 만 컴백...기안84 협업",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPRV8zcGgwUHpFMGcxeHFHLTE5U2w3UzRZMFp4U0NIWFA4QWRUTlJIVEFHLTNtMGRXejBBMzJ4c2R2dkJtdktUcVRoS09SYXRpYkt4a21kMDljMmtSTUViMHBaTW84UQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "다이나믹 듀오, 1년 2개월만 신곡 ‘하라는 랩’ 발매…기안84 협업도",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uOTB1Mkl6eHlEY3VHN3FzMFhJS1RZZm5YOWdaOUE5TjZhUW5zbTE5eHR3Sjc5TFFUN2lkaEJZUC1WVFFuTVd3MkJQQTh5MWdhMEJaOGZDOUxGT2ZEQ2k0dlBkZG1QSnM0?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "다이나믹 듀오, 16일 신곡 ‘하라는 랩’ 발매…일상과 음악 담은 신곡 예고",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VWElaNDVRdUM5VmdPMlE5V21nUFg5dGp4cUJpM2UxYk9TQjJoSHZVMnlRQ1l5WmxWdW1ZckJuYnU3WDk1VTN4TlhNN2hjTm1CdjRvcVRvYklOVDRMY1RvN2lYamRTSVpuWVdWb2QzUW9ZbXNy?oc=5",
+       "source": "스타데일리뉴스"
+      }
+     ]
+    },
+    {
+     "title": "존박 맥도날드 주문 랩 음원 불법 유통에 “유관기관 협의 진행 중” [전문]",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "존박 맥도날드 주문 랩 음원 불법 유통에 “유관기관 협의 진행 중” [전문]",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fSUQwNU5WR1otNTVwX0Fzb1ZEd2pjQmcwaUtaRldsb3Z6c2JQVTNPRXRPZWVIWXNOYl9DOFJ2NEJNX2VLODI0Yk8yWDdaLWhoaEJjNWh5X3BnUjdsTDhyandXd1BlZXdnZHpUSFd3?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "[공식] 존박 `맥도날드 주문 랩` 음원, 해외 불법 유통…소속사 \"관계 기관과 협의\" (전문)",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Pb2ZHalpJWnlhcDlJak5mcDJ5QkpONU1pc21hVGNIdXlFbXgyV25ETGRtR2Vmdm5zMDI5dm1nbHIxaGQtQmRPRDdpRDNpeXJZb2FpeDJEY2VrWXdTRnZrZndnVldHUQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "[공식] 존박 측, '맥도날드 랩' 음원 불법 유통에..\"관계 기관과 협의 진행 중\"",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HcTNjTEFMdkFJdmpWOGhOaTl2eWREM1ZmNDY0RUhxLVdmOWVxZmZKNHprckZlZDd1RmZhSFJrdUxmMDB1ZXJnM3JRRF9zYUlpR2RIMFJweWplS3k1UmVpbG1icWt0c25RTjNxN0pPb1ZaSlM1?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "존박·곽진언 '맥도날드 랩' 도용 의혹..소속사 \"음원 삭제 협의 중\" [공식]",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVkczV0tXbUd1TWhWcGR2OEU0TkJKSlZ0MGZ1eXBkRUltUjQ3RnVkSFBJZ3NjUlpKa1FDNE1yc0oydGVWWldMZmhNVEpKbzkwWV9oQ3VGVFBRZ0tlWHRpOVRVOXJETG01TllEWUI4Mk84RzRBbnpuVURTcXRfUVo5LUNoQ2s?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "[단독] 존박 ‘맥도날드 랩’ 무단 음원 등록에 소속사 “삭제 협의 중” (종합)",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TTVVBUzFRY0V6WHlsZGhkVkprYldpZUhZNEs2WG45bUJRTVZwN2dobWtpQ2s0SWJtSEhTVFhZMWhCNVJDVVd6alNVajRxOVQydFlKN2o2UEc?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "'비틀스' 폴 매카트니, 억만장자 대열에…전 세계 3위 부자 가수",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "'비틀스' 폴 매카트니, 억만장자 대열에…전 세계 3위 부자 가수",
+       "url": "https://www.yna.co.kr/view/AKR20261111078700075",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "'비틀스' 폴 매카트니, 억만장자 대열에…전 세계 3위 부자 가수",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5YUHJPOUN0MWdHTEV1QVg2ZG55Ql9uZWxJcDNvdk5vRXRuOU5COTc3WlJHVkhzdHAzTWk0V3BCWUNHWFB4UnhobnFRa1ozY29Ebm1JQnJnR2lhUzTSAWBBVV95cUxOTWcxeFNoa2psZE9aTmZGR21LYW5Yd3RFLWswUEtSRVY4TGR0NVpzQ2h3YzdpZVEyZEUxMjlhVk5xT0c0LW10akRZSkFuM2E0NlpWZGlEX1BpUjJYdkNISmY?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "'비틀스' 폴 매카트니, 억만장자 대열에…가수 중 세계 3위 갑부",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2OHNJa182YU9rUm1malhad0JrVThvWmdNZ3JsbGx3NFdrWm5ZVExuZ0J3SzFFa21jckI4aTd2YzZMY0Y3RHliNzNqcU5YU3ozMTVpbVE0OTRrci1SbUJ2YUVkeUNOQQ?oc=5",
+       "source": "news.sbs.co.kr"
+      },
+      {
+       "title": "억만장자 대열에 든 ’비틀스’ 폴 매카트니…세계 3번째 부자 가수",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83REVrNUVVZGRvemNUYm5NQUwtMUc1NzlYNnhyNXp3SXY3NjRIa2dvWHQtRG1YczA0bUplcGlINVlBV2V1by1lZ1hkcWh1X1NLNFVYbkRjUVh4ZFYtLS1iWUFER1pCd1k?oc=5",
+       "source": "연합뉴스TV"
+      },
+      {
+       "title": "비틀스' 폴 매카트니 자산 1조8,726억...'억만장자 가수' 3위 등극",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IMThOZUVvUTRfRkd4YXJZczY5Y2hvRS1GdVdPS2pxcGFSeWU0TmVsXzAtdDJFU25KV0JHMXdBQTVUNHJHUHp6Slo4NWM0OW1pak9CVGFsdEtLQ085bGc?oc=5",
+       "source": "YTN"
+      }
+     ]
+    },
+    {
+     "title": "Paul McCartney achieves billionaire status, becomes world’s third-richest musician",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "Paul McCartney achieves billionaire status, becomes world’s third-richest musician",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON2UydTZTckdpSk9lclhNN2JPekZXTG9KZE5BU2hBVXdRSlVPTW1oT0NINUpVT1YwQnlTU3MyX2s0ODZUNEg1b2hZd0Vmc2prNVhDbUVGR2RkdmV1SUpKUi1hcVc3X2pGREtqbkxkejJ4WUlwZWxkQlIyX2RLdlJSX2tfVy1zdk1aSnhKNjUtUzdJU2dYSnNQWQ?oc=5",
+       "source": "WPTZ"
+      },
+      {
+       "title": "Paul McCartney achieves billionaire status, becomes world’s third-richest musician",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONnBkdjJESVloeXFxbjJGSVp5N3FZQzJjQjlBSW5iWURaTDRubmk1TGQ0c1hTQV96Tm1BSUVzb1Y4bFRvRkV3Q01jWkxSYkdNZ2dVVnNLdmVQaDRlY01IaTJ1VllmaUZNU1VzTExYX1dpN0EwQkk3UzBwc1ZtaVcxbHRpdlNDQzFBcUI2YTEycVlYMGR3UUVBRGp3?oc=5",
+       "source": "Gulf Coast News and Weather"
+      },
+      {
+       "title": "Paul McCartney Joins Forbes Billionaire List as the World’s Third-Richest Musician",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaYjlfRmNfeWtBVkRpcDlOLWhnTXBkaUJTcm0tQVl4VEZFaFFBbDdhQlc3MHdYdk5kS0JVMWZWUHc5alZUMXZiYkY2Vm1nejF0VDB3RmI5VmEzcVRoNHR6Ny1keFFYR0hhQmpMQlRWOA?oc=5",
+       "source": "ColombiaOne.com"
+      },
+      {
+       "title": "Paul McCartney Just Became the World’s Third-Richest Musician at 84",
+       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdktsS2J1SWo3Z21YdzFPWm9oVE1Day1XTFVHVVNOcEpocVV6RU9hdmZUeHA0d2daY29CbFpVQjloYzNGbktTc1BjYlBfajNHbzl0Yi1mUkc1UWc4UzRxX1hPSkJMa3BfUVhmYTVxdWtFUVpIalg5WGQybVZzMFI2MF9nOGxPOHhoUng1TVpfRl82UFJpTTloeVlLWG5EUDA?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Paul McCartney Just Became the World’s Third-Richest Musician at 84",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQelBBTTZIMmozeHd4NjFRamh1enpfbUlpSnhvdVlSc0Nnaklsa2Qwa2RVN1ZlQlJ6MHdKelJ0YnpxSUY4cXFENUFSN0JBQ0ZTWjMxV3JFVHNTb1hhYXNYSVk4aFQtN182OTYzMDJzWDUwMlptU3IyZGRpNXlNRXU5NEUzWS1QWW9MVmptcENIVTJvZFFJdDBHcEZEOA?oc=5",
+       "source": "Gadget Review"
+      }
+     ]
+    },
+    {
+     "title": "‘더쇼’ 리센느, 컴백 첫 음악방송 1위",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "‘더쇼’ 리센느, 컴백 첫 음악방송 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52WG4td01NYnNXRmxYTWhTcTc3VHdHSGlFeWFGbDNydnRtZmUwM0x2X0tvRWdhc3VMU1Y5OFVuUzFxUkcxTjBlQ3FraGFYZjVWdGlnTUpMY0huaGUtSkZ6a29FS2I?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "리센느, ‘더쇼’서 타이틀곡 ‘With’로 컴백 첫 음악방송 1위",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0a01WdG5xMnJCeko0QVc2clF4VDZ4bjl0V1F4VUVFNVh2QkRQZ183eEFyaVVFMnRwU3AxRFZtRmo0QkFiNmRBaEViNm5yYS1YS1hXZEd3RUVEVXV6dlpwY2taV1hSZFh6dmZ1QlRhLVBSQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "리센느, ‘With’로 ‘더쇼’ 1위…컴백 후 첫 트로피 \"리마인 사랑해\"",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oaFlXTzV5TXFYRHVMaGlFWEpmTXNqRnlZZHJkUF9TM2NQcHM4dy1mR0YwS2hEem9jS2lFaldkVGU5UTIwbEpLX3NNQ3BfNzVkZVR0cG8wTEp4eU1ENkg1VVJNcWJjQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "[문화 이슈] ‘더쇼’ 리센느, 타이틀곡 ‘위드’로 컴백 첫 음악방송 1위",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4TmZSaXRESjlueG1mVV9xTHVsRGNNcVRoRG44WDVzYWF6NS1GRy1idl90dWVZUUJ3XzFOa184LVk2NE5jZ0E0M1I5LTFvNENWS3lNVU9zZ2VTWEJQaldoT1BHUWdNemFTckxOVTBnSlVjcWFQRDRKbm9IR18?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "리센느 ‘더쇼’ 삼켰다! 컴백 첫 음방 1위",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HNVpXYXBjLUxEOW5LVi11d0xPVkRHX04zTHY1c3poTXhHeUJmdl9ZaTFtaU1SLVhaZVE5Ml9hRVJ6amdwSkdpZ1AxdlRNQWNSZFVPQzZlc0laZ25GUXfSAWNBVV95cUxNeXZNaHlWV01rVEhvNEVTdXpPMW9PY3FudVVFMzN3TWZjSmN4Q29lU1FUSTFPeXk1cTMtSFRTeW9LODFFcFRYZm5zRk1LZTlNQ3hSV29IUW11X1VYb1VrVVdlajg?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    },
+    {
+     "title": "Dua Lipa, Tame Impala & SZA to Headline Coachella 2027",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Dua Lipa, Tame Impala & SZA to Headline Coachella 2027",
+       "url": "https://www.billboard.com/music/music-news/coachella-2027-lineup-1236376135/",
+       "source": "Billboard"
+      },
+      {
+       "title": "SB19 to make Coachella debut in 2027 alongside Tame Impala, Dua Lipa, SZA, NCT, JISOO, BABYMONSTER & more",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORzBJejRocTZGWThld1h4LWFfTFRIVDR6bnAyMmJuWTZrUHpwU1NJZ1pMYjRlQnZ3Y1Myb3lVSDdvR0NOSHE4OGx6bk9RNjcxMFB0U0NsVkJvT2tnMUhWQmp3akE1N3R2VXp5NEowdHBZMVNua1dwZ2hYTWxLY3gtb3J5M19KZlNTXzFsd3BaLWk1UE40RkVBdFlXVjA3Q3hlcmZyelNvb2hIZw?oc=5",
+       "source": "Bandwagon"
+      },
+      {
+       "title": "Dua Lipa, Tame Impala, SZA to Headline 2027 Coachella",
+       "url": "https://www.rollingstone.com/music/music-news/dua-lipa-tame-impala-sza-headline-coachella-2027-1235630556/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Coachella Reveals 2027 Lineup: SZA, Tame Impala, Dua Lipa, and Madonna",
+       "url": "https://consequence.net/2026/11/coachella-2027-lineup-sza-tame-impala-dua-lipa/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Coachella 2027 line-up revealed with Dua Lipa, Madonna, Tame Impala, SZA and more",
+       "url": "https://www.nme.com/news/music/coachella-2027-line-up-revealed-with-dua-lipa-madonna-tame-impala-sza-and-more-3975649",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "속초 원도심에 음악과 활력을…‘속로로 가을 페스티벌’개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "속초 원도심에 음악과 활력을…‘속로로 가을 페스티벌’개최",
+       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB6ZURLUkkxemRMZjRMY09FTTRLUjRFWk1tS01aTHRxNzFOdm80XzdGTExPX2JDbml4MGt1cE1sekgySTJsa1ZkNg?oc=5",
+       "source": "시사줌뉴스"
+      },
+      {
+       "title": "속초 원도심에 음악과 활력을…‘속로로 가을 페스티벌’개최",
+       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9PRnNXWXJKd1RDNUpOeTJLZlJZNFQyWE5IX3I4aThuZHdnOG4yYzBZa3BLb2YtNTQ1MEFGRFhqQUEwRDZK?oc=5",
+       "source": "미디어타임즈"
+      },
+      {
+       "title": "속초 원도심에 음악과 활력을…‘속로로 가을 페스티벌’개최",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13TEMzOFFNQnRRdW1MajJFME9NaXpvbUZfTUJaRzU4TEU2S09taEVJTnpMOE5DNW5KMm9OYTVjaGNLNk16a0dCOUdvTzRwdmswcDZhVEhyWHp3bEFUR0NVR09EQUc?oc=5",
+       "source": "한국언론포털통신사"
+      },
+      {
+       "title": "속초 원도심에 음악과 활력을…‘속로로 가을 페스티벌’ 개최",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNVlVaSS03dHBDb24tWFVTQTZXel9nUHJVM01VRkpYbWY1OWlCaEF6LVdiT2NndUdRUjhJbDlzRWtEMC04WUJWQl9BUTV5TUdZMWdTYWhMRmd6a1JVRnE2dnhnbTM2bWdwdld0TUphTlRNZw?oc=5",
+       "source": "웹이코노미"
+      },
+      {
+       "title": "속초 원도심에 음악과 활력을… ‘속로로 가을 페스티벌’개최",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKOUhoTUV4T0VMWEs0eHF4RjBKN2F1S2FSSG1TNVdZeFNVSTEwOVloSHFqMmtNd0N6aEhqMjVMd0N1emNZZWlZYVhzNkFXZFVWaGNtSWVoNnlsTWdXSW1idUhOR2FieWM?oc=5",
+       "source": "강원도민일보"
+      }
+     ]
+    },
+    {
+     "title": "JENNIE’s “Dracula” Could Break Her Tie With ROSÉ on the Billboard Hot 100",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "JENNIE’s “Dracula” Could Break Her Tie With ROSÉ on the Billboard Hot 100",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3l5SFpwTWxLd0lKeGVTRTNLRTF4UFp5My1vNUk2UExwTHhpYlVpeWd6VzZGd190OWlHNDNGUzRiSjJrcUVfOVBBOG5kNE5GQ19vTElBV2VzakxVQU9IY0t3UFpnR09XZDJBaUpFS29wMjY4LWx0N04yQm1zZTlGYkFXdmd1b3Vud3c?oc=5",
+       "source": "InMusic Blog"
+      },
+      {
+       "title": "'Dracula' featuring Jennie climbs to No. 3 on Billboard Hot 100",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sdUxjc0U0Vy1YQmFnejAyUms3ei1Tb1U1ajh4Vi1LNTN6MTUtLWk1N1c1LUJwNkNiM3hHbHhuV3JfVXdhMVprbkdzUVFsdFJnd2p2MWhqZVlRUQ?oc=5",
+       "source": "Yonhap News Agency"
+      },
+      {
+       "title": "'Dracula' featuring Jennie climbs to No. 3 on Billboard Hot 100",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMENQTk1TakpCYmdDRWxnMDBXcFcxMXNvNWVIMzFrSV9lMVhfOU9vbnFQNUx3Wms5UnhvV2VwOE9OVWxnZm53M3BUdzc5U0NfQU8wUWFWeFgtUmw3cHBhSHFUTHhBYXp1dzZpdGlSaGFXRjZORFVfSDh4aUI0eTZ4czVaU09RNmxfdWRQYlZkS2VqdGpqN0ZvV1B1Y3Atb05RYndVNnFiNktkdDVuZGlEYXJVbWNCZFhETDJzUnNTd9IBvwFBVV95cUxPMENQTk1TakpCYmdDRWxnMDBXcFcxMXNvNWVIMzFrSV9lMVhfOU9vbnFQNUx3Wms5UnhvV2VwOE9OVWxnZm53M3BUdzc5U0NfQU8wUWFWeFgtUmw3cHBhSHFUTHhBYXp1dzZpdGlSaGFXRjZORFVfSDh4aUI0eTZ4czVaU09RNmxfdWRQYlZkS2VqdGpqN0ZvV1B1Y3Atb05RYndVNnFiNktkdDVuZGlEYXJVbWNCZFhETDJzUnNTdw?oc=5",
+       "source": "The Korea Times"
+      },
+      {
+       "title": "'Dracula' featuring Jennie climbs to No. 3 on Billboard Hot 100",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU2ZrdmNjdm04d0g4UWZLbWtTSGt1ei0zQ3F6eEYwVnBvV3pLN1pLUUY0MTUtclhzSGR6YkZJV1dsYjI3RV9YWVB4dENvM2lsRWlfeklEU09WcWlwOWZJc0RBNnVWTXd3cHpaVkdDTnZTRVVPVFJGV2R0UThiVFA5UExOV1c0QXJqakRlTVdaMG1PNG1ZZ1BTU05uTEp5VDJ6MDZ0WmJ2UVA2NHo4NERQbHN3bTAwSl8yZ2c?oc=5",
+       "source": "Korea JoongAng Daily"
+      },
+      {
+       "title": "Jennie's 'Dracula' reaches No. 3 on Billboard Hot 100 after 58-week run, tying Rosé for the highest ranking by a K-pop female artist",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BclhHT1ltZVROYmVPV1FuWU5ORWJPcHpCS19LZmtLUnhZUG9VaTA4WlhXeG41azR2ZEN0VG16eTEyank3WnJtdFItUEtWc2NRbll6RjEtT1k?oc=5",
+       "source": "파이낸셜뉴스"
+      }
+     ]
+    },
+    {
+     "title": "도경수, 오늘 신곡 ‘Darling’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "도경수, 오늘 신곡 ‘Darling’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14UjZUdU9mc1QtNkpVZ1I5OTAxV2ZPbWF4TkZ6NmF5QXd0dHJhR2o2QWhza1pWNy1UZC03TVNxWEYxYUFlbmctaUlHYlVTT1g5Rm1QVEdXVk15dE5WbVVBRmJORVE?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "엑소 도경수, 신곡 ‘Darling’ 발매…팬들에게 전하는 진심",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aYV9vTU5PRWM3NGRSUGVER2ZycjN4Qi1HZjkyRHlnX05vSWFuSVJXUVk4UjJYVUhEcVV5RUhyWTRjRU42bGNuWDBzQnVzRFVFQ25GVHNDYWNKeXhTcVRZRzVUN1pPQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "[공식] 도경수, 오늘(11일) 신곡 'Darling' 발매",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XMlQ4N0hTXzJPSUFwT0xNNXJ1NEtPaW4zVkdjSFIwUHlpa1dhdXJMWVdTV0lqQ2tMUUlJNGJNa3JHcEYtempvdzZITmgzWVI4TTE2MzNsZFQzb2dHMk5GYnVjTVlib3ZRSmxKTS1zY29MSGc?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "도경수, 엑소 콘서트 끝나자마자 열일…오늘(11일) 신곡 ‘Darling’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Fb1lpWUVrZXpuUkJRS09Tc2FfQnZlUjdDZFcyT2tjMWl6MnM3cEtvVXVZV1J5eDQ2QTQ3bTdWUk45LU9sTjdmSkY5dVl1bkxJRDJsY0NKX1hsRUJESHNzUU5RbUktdGdL?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "도경수, 오늘(11일) 신곡 '달링' 발매…팬들 향한 진심 담은 발라드",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORUxCdVdXdXg4WUp1WHVYZ2JkX3lLRFI0NGZ5cU1UWTd1dmxpV0x1aVU4TmlmLUFKWFlHVEJ2YmYwXy1zeUV0Xzdaam9MYUR0TnhKMUpjS0hsT1ItX3JMVC13LUhlYnRmWlpQOXZCYm5JWW1vMUZiXzROMWF6TGYtZNIBbEFVX3lxTE53a1hNTXBTaXFOQXgwYmxXbFRkMjRkRmFxLVdQNkxCN2lsWmZEdGFxY3QzT1BVNkpocy1CbGxSNXVEbEVzd0VFN3NqS2pCcXF6c3l4R3Q5Q1Atel95dHZGVFdhMTN4RmRxMlZaWg?oc=5",
+       "source": "SBS연예뉴스"
+      }
+     ]
+    },
+    {
+     "title": "이정신-오세영 ‘소아과 의사와 인디밴드 보컬’ [MK포토]",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "이정신-오세영 ‘소아과 의사와 인디밴드 보컬’ [MK포토]",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kOWFUYzNGZDJaX1RGVVREOGRCLVBxeGpUSG1ualBTendWRm5ILUl5OHB2T2ptZmI2cFVmdWdpQWNuZDIzMjBJZHJYTDJ3WV9pYTFmOTFVVQ?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "이정신-오세영 ‘소아과 의사와 인디밴드 보컬’ [MK포토]",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1MaWtDSmdHS1ZnZ3Y0VmxCNDVlMmt0TU9OWjQ2X3ppaWt3MTR6SmVYdFpmTzNlRkFsNGJaaFE5eGRVU2tOeDBoZzlLaTJTaEMtX2E0aTlfelR6Und1cFBj?oc=5",
+       "source": "m.mksports.co.kr"
+      },
+      {
+       "title": "[사진]이정신,'오세영 밴드신 조언'",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9nQWtVTk5neWM4WC1lclRVcTNrUXNPRFRvTHVTejBtT1k1bk9FbjYyc3kyS3VNVXdlSlVOYllDWnFncmtrdWNWdjZLcEtpWGF4NktsdQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "[사진]이정신,'오세영 밴드신 조언'",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDFBYkw3YVZOc0k1RW1mREpJR2szZzRuT3M5VVRwLTRod1FfbDZ2YlBlNlhaRmJMNmFMQU5JR09QcDNrWnZhRXZUV2Y3SGRYZ2JEZjA5M3NTSnNyalhQQ2w0SVc3djFETHVUaG5sS2Q1SGxrc3hSTXE1azVDVGNENHpvR0FsLVJkUVNIM1ZpMGtuNnFzaklIa3JHcU9BWXc2MkZPOFREc3g2M1lidVJz0gGvAUFVX3lxTE80MUFiTDdhVk5zSTVFbWZESklHazNnNG5PczlVVHAtNGh3UV9sNnZiUGU2WFpGYkw2YUxBTklHT1BwM2tadmFFdlRXZjdIZFhnYkRmMDkzc1NKc3JqWFBDbDRJVzd2MURMdVRobmxLZDVIbGtzeFJNcTVrNUNUY0Q0em9HQWwtUmRRU0gzVmkwa242cXNqSUhrckdxT0FZdzYyRk84VERzeDYzWWJ1UnM?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "[포토]이정신, 밴드 조언은 가볍게",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wNXpSeU1YbVBaQTV4M1BnamlZd0JsenMyeDR2RFpRVEpYRVBidTU0UUdGSkhqT20tajVCWDg1MXQ0eEk1LW1wa1g2Yld6SnpuNEU1U05CTTlaNkU?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
