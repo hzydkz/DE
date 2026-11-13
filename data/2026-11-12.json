@@ -1,0 +1,528 @@
+{
+ "date": "2026-11-12",
+ "generated_at": "2026-11-13T01:14:04.377367+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 912,
+   "issues": [
+    {
+     "title": "Rapper Yella Beezy convicted of hiring gunman who fatally shot rapper MO3 on busy Dallas interstate",
+     "summary": null,
+     "ai": false,
+     "article_count": 33,
+     "source_count": 33,
+     "links": [
+      {
+       "title": "Rapper Yella Beezy convicted of hiring gunman who fatally shot rapper MO3 on busy Dallas interstate",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVm9meV9HY1p5a00yOWRsdWhWTG9BOXlvSjEwemhaTGxhcFdsQlppa1pENDU2UFJxcEVIVHdvN284eWxHLWgteEhLekk0eVlzOEFvWEVFVUlyQmIxcHE2bVc4bEtsbHJrNHU3QUlkVFFKb21xQjFzUHJaTE9jVk9hQXp5em9JRTZsUDIzQ3p6ZVJreVI3UVBGMzFnejBuRjhkemhxUnBjY2lER1lsZmU2SUQxTmU2N3REUnotWkJTQXZidEFoNzJfY0hOM2pFTmNOYXBOVzJB?oc=5",
+       "source": "The Republic News"
+      },
+      {
+       "title": "Rapper Yella Beezy convicted of hiring gunman who fatally shot rapper MO3 on busy Dallas interstate",
+       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNUV9KSjZvNmN2SnZ1YUZKNEJzc2NsUXFJb2s4QjY0WnBxLXRPc3FZRmZDODBRVWh0a0ZXdU9MTzNoSEFWTHZ3anZDQlZIZmc0TzQyRkVTbU5OOV91cWJCcENuZ0RMNzhjeG4yaHRwVDVXUlB6NjdWUHpUUUFwUHQ1aGlqV1JORm5QY3Z0RFdDbmlUNFNHWEk4dkFMZi1XSEE2U0owZUNkUE9UMlVvX0RPNUhUTFM2RElXa0I5RVZrazFZUW5sOGhma1V0MDBiMmFVeHZhZEhNTVpxWWRnWGlrSFJ0U1A3NUhXZnRmZnZGM3lTX0hoMEtBaGt0SzIxT0UzeTFuS21QRk9XQjdHZkh4U1Y4LTNGQQ?oc=5",
+       "source": "Clinton Herald"
+      },
+      {
+       "title": "Rapper Yella Beezy convicted of hiring gunman who fatally shot rapper MO3 on busy Dallas interstate",
+       "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNVm16ZFlyTDJYMWRKU3ZINmZwdC1XX1U3VFFtU0JIaEpOSHRUNkp2bEQ3aWpwSkRWRDZCdnhmeGI0LUxHMTc5TkttajBwZjlOMzdLb0RnNWlLRUVjNXppZGlNZW9RcklxbmFPTXU3TS00c3RCeVdIRlI0d180QkVaOFpHWmtLaW5YcVhrbmNWZk83bzI3TGt6WFNqQXJRbWl5MHhmZE5nT2lCYWNtUFdOWFJwUFR2Z2NfS2U2NE9FRWlvYnpydXhONnNVX3FXX0ExTkUzLW9OQ3ZsWnJiZ05wT1BvQXcxZ1BnOThIM1Mxd1dsZzJJaEVxVXd0VTRuT0pNNzhkZHZVaFBHZndKaGNuSWhWb1U5QnRaRU1HQlZjSEM?oc=5",
+       "source": "News-Press NOW"
+      },
+      {
+       "title": "Rapper Yella Beezy convicted of hiring gunman who fatally shot rapper MO3 on busy Dallas interstate",
+       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZVpybTA3bHVqanl1STNPWU81Y2k5TWFvZy1KcTJmMzMyTDNvdzl5dFJuYzZ5a0d1VGdEMWJoekZJWmVpdllHUEFSdXFWYUx2aFVlSko0SmsydW9MQ01FQ0ppSThIQmpUVVJxb05HMTFSMGZWN3ZSa2JaaUNXS0lMaUg0Vzg5c2w1aHpCaDZmT2ZCSDVzOVJnZ3BFTXItMHNxalA2SDlSQ0FETDJ0aW1UY3E1UEhhWkFCYm95MUpWbFZCQmZNbHhtZWtjaWZtQlpQSEl0dHhzdjQ4aFVVaUdnV1ZYdjBXYloyQTExbDRrVmN2YWxvVVFEdFBTTTZIRGM?oc=5",
+       "source": "The Killeen Daily Herald"
+      },
+      {
+       "title": "Rapper Yella Beezy convicted of hiring gunman who fatally shot rapper MO3 on busy Dallas interstate",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS1AzRldYWC1iWXR3TTJYdUtHWEhHbmJlVDBtZ05lcW5sRC03bGpMb1ZCUWZ2ZHcwb21iQ2tjT0ttbDdORU5nN1hJbHUtUHI0Mm9rLU50QVM1U2dSQ0JQMTZEVVoxd1N0R01FNFpNRnNsdDU1dmRXMWVISjl1TVI2dXp4S1FxeU91ZmZ0MHNPclBuTldMSWtnb0xwVHR5ZlRwNnlZaGNTSEkyMGVMekHSAbMBQVVfeXFMTkl4aXMxUmdKcVB0amtIMkJsZTNORHRab1o4cWJnb29JZ0VsQXpsbElfQXFYaVRtRWl2SF9ITkQ4T19nME9Ya09vMGcxRTIzM3ZWRTVXR0t0UEJMS0lqNlh0aktkOEJjX2ZHUnhreU1BNkp6aWo3U0QxTzZrb3NVQkt1UjNJcmFlbmJ3enh5SHh3TmpKZ2U3VWRuMllMM2lmWUd6QVdFOVZzRnM3T0JqMEpuUVE?oc=5",
+       "source": "ABC News - Breaking News, Latest News and Videos"
+      }
+     ]
+    },
+    {
+     "title": "[포토] 에이티즈, 미니15집 UP으로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 14,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "[포토] 에이티즈, 미니15집 UP으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONzJteTg0azlycnNLbV9tRGRkamlZeS1nc3hpS2pyUklnQVNLZWpHb0pZalRocjFBVEJ1LVZQSnlna3g5NnF2R2pfZGlqam9yTXZfWDhoTGlnMWdobmtWem9tWUlWVlVwTTJmUVBpUnFKQmdZTTdPRDl6czJmVm5lONIBgAFBVV95cUxONzJteTg0azlycnNLbV9tRGRkamlZeS1nc3hpS2pyUklnQVNLZWpHb0pZalRocjFBVEJ1LVZQSnlna3g5NnF2R2pfZGlqam9yTXZfWDhoTGlnMWdobmtWem9tWUlWVlVwTTJmUVBpUnFKQmdZTTdPRDl6czJmVm5lOA?oc=5",
+       "source": "뉴데일리"
+      },
+      {
+       "title": "[포토] 에이티즈 컴백, 글로벌 UP",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nb2xzb1IwYU1INjVUTHpFM0MxUlE5ZFllSTY3cGgtSTQzX0x6V0N0SU5PYmU2Rkw2dnZxd1BzTUhqdHdfT2p4RUY4LV9RTE44bkhaekNJRTJtZFhkZUI3ZA?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "[포토]에이티즈, UP으로 컴백해요",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1adnVUU3p4MjBnZXBtb01xQm1vSXVKdlM0ZWNfX2JrLTY1bGdiZHhKbGtWODJqTXFLUm1QSmVaRVBrS1lkRWNLS254VTUtUkVXTFZR?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "[포토S] 에이티즈, '컴백'",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00dEdpWUZKQ0FJeGlvMEVELTdjRXBmbTdzME9BaDFaZGh0YmZvVkk4V25xX1hPb3FtTkQ0UFRVRkllc1lDeV9fY2NwTVIzSlZHVzl2QXJwZ0lUUC14MmZzS21iVDBaYk5CVFM4QjU3M1Y?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "[포토] 에이티즈 '미니 15집으로 컴백'",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91WmZqdXhwTUM2ZklsWjVFSUlRbzAyRXhzZnMydkZkTzJUTGZYNHFuekR3bS1iSl8ycThZSjNwT1lFY0tfdGFqQ1c5SEgzZ1k?oc=5",
+       "source": "조이뉴스24"
+      }
+     ]
+    },
+    {
+     "title": "Jury deliberations begin in Yella Beezy murder trial over Dallas rapper MO3's killing",
+     "summary": null,
+     "ai": false,
+     "article_count": 12,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "Jury deliberations begin in Yella Beezy murder trial over Dallas rapper MO3's killing",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQmlhdk0tYnJ4Ry1OTFdOcVlSdHRLNHkzOFJFaUN6aXpGcGNRa0hfTEdoZi1jNWFQTGFnb2JuYlBIbHJTalZDMTQ3cEFYX0RISWJXN0dheUtWOF9BOUdsRmJxYzA2eUp1SFlOODBCN0RobGpOSzJfZmlGSjNHUDJONjY5d25NWm1QWUFzdlpONGdQLUNMaXFRMnZFY3F4LUJtdWV2eS1hVUczSndHdEtid3NYVi1jSDFDN0Jvc0JSUzBRR19VcXfSAc4BQVVfeXFMT2xHdFpkcDVXQk5NMVd6ZGdIYzg1MUlBSVNadFFheDBOZ0hwWVlxZGZ1QmRPS0hSUkp0bExkZGN6NXEtS3lpZGFmREZvMG5rZXBXUmFDd2hkbzh6VDY0RnY2Mkl1MUFhOXRCSXk1eU5NMHJEbDNiU3dCYmVjVWE2NDI4QTMweDZmc1lOYU02ZXo5U1dJTWphQnUybWNKQVU1RW9HQlpxUFZvMUtLTlVGWnpsVzBZUGxLZ2xQTUJaSEZzYlZReFA5X09tZk9BbVE?oc=5",
+       "source": "NBC 5 Dallas-Fort Worth"
+      },
+      {
+       "title": "Dallas rapper Yella Beezy found guilty of capital murder in the killing of rival artist Mo3",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcW55SFBoVW53Y0VnZlY0dXQzMXpFUS1mVDE2VWZkMXl4bjVENWg1SUh0NXFRcjVBSTlpNEs2TnNmLWxQcV9lQzdZZDA1R1MtdjBZMWtWaHFKeU1vTmpKejZzWVR4WlhlT1cxcFJRNEtMMkJhc21mUzYtOENUbFI4RVFHZUJQRzhJZWFkcjcwOWNQUGZUaHltZDgwenpheUVvSm5qTXhLNElaUFRLYUFVbW1TaEJBS1lSYUdWSm1hOEx6MGllZGc?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "Dallas rapper Yella Beezy found guilty of capital murder in the killing of rival artist Mo3",
+       "url": "https://www.reddit.com/r/hiphopheads/comments/1xttbsv/dallas_rapper_yella_beezy_found_guilty_of_capital/",
+       "source": "Reddit r/hiphopheads"
+      },
+      {
+       "title": "Dallas rapper Yella Beezy found guilty in capital murder trial",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNd2FhbV9tY3g5am50RV9RMVpET0ZGOXZXTnMyYTRBcXBocW5zZzczTTVXTWVrdWliRklBMGdjVzhpcEI3QVNJMEtFZHlrZ2JDQUtpMGNSTEE2M1NjMFJtZWlWTXZ1YTBwaHhpQ3FRSWRmRExsblk1dWRheWdTZFFkYmhuOUZVSFZxOWVWcV9ZMy0xU3F5RGZvaElOVWJFcE9uc1Zac0hTTzExaExFdmc?oc=5",
+       "source": "Dallas Observer"
+      },
+      {
+       "title": "Dallas rapper Yella Beezy found guilty of hiring gunman to kill rival MO3",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0tSMkFQRjNpTFM3cUl6RVlpdE9rUGhIanBoTERLcWZnem5XUG1VRkZ5bnlJREFoQnE4TXZCeVVyMk41VVR2cERSM1JDZ2RZOHFCWXhCaTZFVmFXOXR1eHRIOV8tVi1QY0txQVc3ck9fbHZ0V2xiXzhhdWx2M3NSRDVKX2VaSDNVZDM0c0NWZlAtNEctWFFUVURVUFlhdGdYWGJ6Vks0cXRvUQ?oc=5",
+       "source": "KERA News Breakthroughs"
+      }
+     ]
+    },
+    {
+     "title": "‘JYP 新 보이그룹’ 오브더블루, 내년 1월 정식 데뷔",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "‘JYP 新 보이그룹’ 오브더블루, 내년 1월 정식 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xaTVmdWZvRWZrcWxUUGo1aS1uY0RNb1JWY1hPSnBvVUtNdEdaT0lMVGFXZ1FvNVlJYlpHanYtbUFpSWY4S2xqelhrOGlZVHlHSWVrc2FpTk1UaU9vRkl3Qk01Rk0?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "JYP 보이그룹 오브더블루, 내년 1월 11일 정식 데뷔 확정",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50TjAtcFpCQ2xiR2N2SVhpRVFKVC0zcjY3NWd4NkdvWEJ1NEJTalZvcW14Y1ZOSGFVUnFjRzhxb3NQMGlOQk94bEMtcHduSkhpdW1OcFZFMjh2b05z?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "JYP SQU4D 첫 보이그룹 오브더블루, 2027년 1월 정식 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE44d251X1JCVmUyZXY0aG9IUWhFZHJQOXJRWFhTbWNRUW51SW4xd3VMZWZacDRtTF9qOFNJbFBUYTdBR3EyZDhoM0FudDNVYmV3WUlJbV91Z1I4MGVxNGJTUWptRlJ5bFk4RlQ4bXRLVVlqdw?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "'JYP 새 보이그룹' 오브더블루, 내년 1월 11일 데뷔 확정",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Ka0ZFUHA2UXhoMnp3X0toUGczS3JseHVtVVcxOGRXUkZPWGF6TGlxcFNvRHBiS3hfZUlLNFA3WWtBeFVaUGd3ak5DcXJaSXM?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "JYP 신인 보이그룹 오브더블루, 내년 1월11일 정식 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WNzhoeFlmYlFmZ2NtMkFCRTh3LVBMRzRVbFQyNWJWWFBoS2FucHEyc3dWdllaWjJJV3RyeFRQLXhma2p1QnhNZ0pjY0NmZ2g1Uzh3UHRnTWNSb0kzVnRvcVh3?oc=5",
+       "source": "스포츠월드"
+      }
+     ]
+    },
+    {
+     "title": "NEXZ, 한국 두 번째 팬미팅 'MERRY MERRY NEX2Y!' 개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "NEXZ, 한국 두 번째 팬미팅 'MERRY MERRY NEX2Y!' 개최",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vNkUyVXg4dUY4ZTAwOW9RdG5uaS00eVlPU05Ya21sVTlsWllldnJXTDNrYkt6WXE4eEs4VHM3clEzakZsczdhRmlRRlZiUVVFTGdIcHlsTXhrdTU4Y05BRG9kX2FwQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "NEXZ, 12월 일산서 두 번째 공식 팬미팅 개최",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPMzRDZmoyd3p1amh0SjlmREk0cFd6SnRKaXdQOUlZWWduSi1paWJZRjZRT1VLWExSS0xhd2ZBS21sSm9xZ21DOVdTQXZWQU8xVlc1aWRfam9HeXlTdjNBZ2VPbDVGbjNtakFrWWdiQl9LQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "넥스지, 12월 한국 단독 팬미팅 개최",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rUm9hQkJiaWlOeHBkc0xGdFBPenY1R3ZRREprNWRwZ254UU5iOEVCZ1l5Nm95X2ZyTVFBTHd0NlU4UGpuczloYkxSYzE1bHJhdFhDWk9teEg0RkdOTlp5THA2c2E?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "NEXZ, 12월 국내 팬미팅 개최…약 1년 9개월 만의 재회",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5sUjVVWVFiSVZ0NUZXbGdQLXNqbzJWZHgyVnhoelppZjlWYWphcHl6REExSEJyMFYwenB1TDAwbUZMSS1PYm9WZ0JRank3TUk4c0ZkYUs5SGZPMnV1dnVWMVhOVE02OF9LaXRoRm80ZFNyMWs?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "NEXZ, 12월 팬들과 특별한 만남! 한국 두 번째 공식 팬미팅 ‘MERRY MERRY NEX2Y!’ 개최",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNMkpsamJQdm9WWW0tVDRMbHpScU1RbkIxTTNMQXJaaFpIQllKUzhzMHdNTy15MWY5QnpyVzhJY3hLOFpYeklJb1lmVTJIVUdrLVlaODJfR1RDUTZRT1HSAWNBVV95cUxOTkp6cjZOUWJfVktxS183dHlYSFNWVVFhY2lCOG5xR0hfSlZ6d3RRbFpOeW5aNVF0dEpXWnVCUVFpbE1EaWM0VXlSNVhHZFd4SDRmWjluRTZUQVV4eXNHa1BtcFE?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    },
+    {
+     "title": "Stock tips with a beat: Samsung Securities' AI K-pop group racks up views",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "Stock tips with a beat: Samsung Securities' AI K-pop group racks up views",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUDQ3c0otcnRoeXI2Y1dUOWhpLV9HNFVRMkVBWmRGdF95b1NCek5yRy10aDRSS3VlNkNMcURnQ3RaWlA0Y1hiRmhpckZpX3NzdWlNLXJPZGtCRnFzQ2xFX0o1a0d2SDN6SmNHM3RJSEdST1IzdE9VcVhKUDc3NjFPbTlYa3o0UkhkeHYzLTFNX05QZDdMb0g4bWQ5aV83NGZvYVFDaDhEVG1aN1d0UC1GclBXQlRWT1VRdzJGMEl2QmJ4eEREWUNv?oc=5",
+       "source": "Reuters"
+      },
+      {
+       "title": "Stock tips with a beat: Samsung Securities' AI K-pop group racks up views",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPamd0dnU0bFZCcmdmdDYxaWk4M0RvMl9jQmJqYWoybjFGUXp0cDNkeTNnaV9MekVyQmNkWUR1TEQ3N1VpNmd3a3RLYUJRY3d4dkw1bUxaUVFlVGViMVdqaEswWjBCeU9ReXFqQ2p2d2xxUW5pR2VlaFpIZ2dPejZkZEUyYmtpSmhZQVdERU4yTnNSZDkwek5CWGJ0TWZoSUd3cEJsMHdET1FOLXdPQW14QldsZw?oc=5",
+       "source": "CNA"
+      },
+      {
+       "title": "K-pop meets stocks with Samsung Securities' AI-generated girl group",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyVlQya0N3UDFOZHAtQzVvVlhzQnFnNDhEc1JpVVFCa25rRVFoY0xmVHFfNld3NlJDT3VEOHIyTW13Tl9UVjJwQzZEaFd0cllLMzJMRHlNSlUxa25SdGRQdFotYVpSLWJxWUl3ZjZDUFJ0LXdXZXc?oc=5",
+       "source": "Yahoo News Singapore"
+      },
+      {
+       "title": "K-pop meets stocks with Samsung Securities’ AI-generated girl group",
+       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZzhVYUJWeGFvZ1dLMlQ1ZHphbVQ2RzJrQlhFXzNVWjM3TkFZaTctZkttXzVBWVZIaG85a1JKSExLbk03TnpDNkFTVjZxN3hsV3U2WVhvR1d0TkxDRFA0Ui0xMWtaVThkVmp5REg2aVFNbmNBTWpGeW1vSGNuMnpwaXFNTVFwYktpUmpTRnlraFZweGN2MnpMZWlndmxCUnlFRVVmUDdYbDluQlM3Rnh5eXdjTHlkMUhJTnFRVE0xRWRlX2xBVmFJSlJWWWxPaDZjc1BRSE9wOUJqS0k1WFNmUjBmanNkdw?oc=5",
+       "source": "The Weekly Times"
+      },
+      {
+       "title": "Stock tips with a beat: Samsung Securities’ AI K-pop group racks up views",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdW1lZFVBcFlaZUJfRGtXVjNsR0kwSF9UNmhqdDRDb1VrYU55Q05TUm1XRFlvYjF0ejNTYWZUT003NVJFdFRFdW5nY3FydGJpR1hoTXByNmVuaHUyM0JuZTRnRjJwaUI2OFVvQlQyYjFYY1FySDZEMXl4MVVwUEMwb2I3MU54QndPYjM3TlJqUEJ0QmNoR25ZbmZzbmtmT3N0SjgwRDhELUNodXk2T0x0NkFpMVFYNERaZkxRX2FXa2I?oc=5",
+       "source": "Daily Maverick"
+      }
+     ]
+    },
+    {
+     "title": "\"비밀로 하면 뭐 해\"…윤하, 신곡 정보 KBS 통해 유출 '허탈' - 머니투데이",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "\"비밀로 하면 뭐 해\"…윤하, 신곡 정보 KBS 통해 유출 '허탈' - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XWmJ1WnB1VGRqWTQxQmxfVGk4cHNYdFB4TlNydTBKLU84c1RVTTVkYzZNQldtR2JvTU0yRm5wbmNXdUx0QTFXdTUzeVFTcC1ON3ljVVZNZmxZSjNJNTNYUzh5V3N2QW53by1qTHh4Xzk4U1d6TjBXRNIBeEFVX3lxTE9XWmJ1WnB1VGRqWTQxQmxfVGk4cHNYdFB4TlNydTBKLU84c1RVTTVkYzZNQldtR2JvTU0yRm5wbmNXdUx0QTFXdTUzeVFTcC1ON3ljVVZNZmxZSjNJNTNYUzh5V3N2QW53by1qTHh4Xzk4U1d6TjBXRA?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "인'스타'그램 세상|\"비밀로 하면 뭐 해\"…윤하, 신곡 정보 KBS 통해 유출 '허탈'",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JOFUyVjBkcnVWSUlqWmtqMTA3UXpjMlluai1wdlRNRnI2Yjgtb25wOEVmV3F0QTZqWmJGaFItR3lNZEtNWDNEdTdpak12Rzk2cTgyYVNJNW40TWNrenVtSjlfTV9VUm9BMjRPcURfZUdSTDF5TGFDVEdaN2k?oc=5",
+       "source": "ZUM 뉴스"
+      },
+      {
+       "title": "\"비밀로 하면 뭐해\"…윤하, 신곡 정보 유출→KBS에 황당 심경 토로",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oRlIyWEpnU29QVlR6Qk9vZFR3MDFhc2RucmRRai0tbHBnOUEtWjhXdksyQUpLX0puQU9vNWZjb2IyeS1YRmI3SkxQaUEwamVOVVlLRTVWaDdGT21fSVZreG94WVVCUXAxYUVXNlRJTE0?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "윤하, KBS 가요 심의로 신곡 정보 유출되자 “아무리 비밀로 하면 뭐해…” 아쉬움",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PZDlkUWhGZ2NGZFFNVnVHai12TEhkelN4YjZEOElIanFFdmZoeFpuTjR1UlBnWElkd29JdE56aXNLU3d4WWs4S3J1ZXN4WldNeUw4a2hFbm03MFdRa1HSAWNBVV95cUxQODlSRUUzUFpOZjA4aVF2aG5NTDN3SDNEcUNMTjA3eEdRRTIyREtib29PRDJHOHpjbmhpV2FWaldhYWZYTFJsdFRzM2N2eGRBT0VjYjVndlF4NXJrMThqbm56VjA?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "윤하, 신곡 정보 KBS 심의 공개로 유출…\"비밀로 하면 뭐해\"",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zV29DbVJjWlFybE95WlYyUVp5WnFvSmd5RTNNekViMmx6MExJWE82T0hfeW5qTmNJRlkyUjAxdUdWb2I0a0g1SGl1cmRMRV83NDVBeWFydVhWR0FrLXVhSzBxc2tKaVZXRzBFRDJ4OURCbTQwVFBnNNIBeEFVX3lxTE5zV29DbVJjWlFybE95WlYyUVp5WnFvSmd5RTNNekViMmx6MExJWE82T0hfeW5qTmNJRlkyUjAxdUdWb2I0a0g1SGl1cmRMRV83NDVBeWFydVhWR0FrLXVhSzBxc2tKaVZXRzBFRDJ4OURCbTQwVFBnNA?oc=5",
+       "source": "뉴시스"
+      }
+     ]
+    },
+    {
+     "title": "CORTIS surpasses 1.5 billion Spotify streams, cements global rise",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "CORTIS surpasses 1.5 billion Spotify streams, cements global rise",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbHNRYmpJSnFwRnZYeERoYVlXY2FsLTJxdUlsdDFyYmctSUtqNGVfNGpockJuZEE5dG93UW1RT3gzbEJOQ2pia2tDODhLblRwV28zTnRwYnc1alg1T2FicFlpQ01neDV1enBSN2wzTFJ3eElUT2V1a2tHMTdfdFRReHRJRzZKVDR30gGcAUFVX3lxTE9BQ3l6b0x6elJOZXQweldobkNodnRjX0FPLVh6LUh1U2E2SVgtU0VhaUNnaFduWGhpazVjWVUwT0EtZjJ3a1dYcnJUNS1mMzFTVGU2NXNkS0lwSl9SNTVuai1uZ0M4VmlFdDNYbGlyTGdtMmhFeWU0UkxUUXFoNHQwVzhVeFNmR2lBd0VONnFKaW45TUZOWmhlQTZScg?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "CORTIS Surpasses 1.5 Billion Spotify Streams Among K-Pop Boy Groups",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPazM5amFncXlCWjhKVjJSQ0dKSEpBSzNyVm8xRjFqa180bmlxUllrVzNNdDNaOEdDWHhZWmdraUZVcGNqSjlKSDIyaVdzaUluUWVoZlNDdXc4RVZpcllyUVcxZTZiNDdsb1lvVWJEQUZKZk9SbUJ1bUsxMWo3S2pFVmVvX0xPV1hSNGozTXJB?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "CORTIS Spotify streams — Hits 1.5 Billion Mark in 1 Year and 3 Months",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwZl9COUdIc29pNTZaeDZoaDBvb0c1Yk5yZ0RzVzhZTFlXYzdWZHBNbGNXUGR6cE44czdwMVM3emJ5dlJtYnFEQ3lFaGxrTURHcmxGM3Y2WFJoVDNyd1F2RWVERHhzYThrTkFITVRB?oc=5",
+       "source": "The Korea Daily"
+      },
+      {
+       "title": "Global trendsetter CORTIS surpasses 1.5 billion cumulative Spotify streams in just one year and three months since debut",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5QXktRkhIcUQ0MVhscTVLX3FTVElXZEF4NWpxWjV5UTloSFI2OHNHNDRYS2VsYlByT1VwU3ZNb211TDczLUdaRjhGdGpxZjNYZHpFNjJuTzNPMll6aExpeTA4N01PNE1Hdk5IWHpIeXZsRExSaFpucQ?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "K-pop boy band Cortis racks up 1.5 bln Spotify streams",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NdmdFa2hva0JwSE55R1RHWGdndExzTVBKREJ4OHd1WVpoUGtEa2ZTT3JYXzNZcnhsemh2RWFhbERMVWEtNk10ckxrY09DTV95Q1M5c2hVU1BPZw?oc=5",
+       "source": "Yonhap News Agency"
+      }
+     ]
+    },
+    {
+     "title": "NCT, 美 ‘2027 코첼라’ 출격..K팝 보이그룹 유일 합류",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "NCT, 美 ‘2027 코첼라’ 출격..K팝 보이그룹 유일 합류",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcEpkYWpfeFJJZTQ4RG9DdEd4Q2VfT1VEQ0p5ZFdDU0YwdlRUUExzWkIzdFpsNG42VFpHRWRpX25kSnpaZjZaYXo3RnlmUzhHUDZtdGJWOEZnclNnUVY2SmM4OFYwZVQ0UVltMGt2TzYyM1ZOQldVdy0zT1VrSEY3amlQbjd0d2dGdlE?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "NCT, 美 ‘2027 코첼라’ 출격..K팝 보이그룹 유일 합류",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5acjNfdHRDU3o1TTVnRnpwdkw1UTNrelE1cEYtM0c1amxfbHZobjgwbS13SGhtajViODFwcDRuRHU5bVRhU2dOQ3psOVpmNEVWQy1pUQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "NCT, 美 ‘2027 코첼라’ 출격..K팝 보이그룹 유일 합류",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOam55UVJGYTVtalNtV1Z1MWNST0hyOUV0bk5ybUVrYUlRYTh5cVpwVDloZC1ORVdzRGw1cU1oS0NhTnRIb19jS1lxU1FqTGhhVjdkSURPYi1qQzdvQnE4bF9sY1o3SHlScGdkaS1JcDJCN1dZUklJVHFMNUcwTjJjOG54OE9NaV9aLTVyR1NDRG1CaHfSAacBQVVfeXFMTjBvOTkyMlJ5UHQtVWZPMTdCX0VTMmJjbC1zdXBBVzJ2endTY1lmOVlab0dwZHlHc0lLc1U3ektuMkQ2WW1sa2p1cEFKSm4tam5Nb0RpOGVtUnFpejZFTUhHZmdyS2lvenBBSFk1RFVORThUcGV4NDNUaXlQYTd0WWJTcHhSRHU2VEhNdkU3NGc1anY3Ylk3TkI2ZFZaYXpBMDV3T01YX0U?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "NCT 127·NCT 드림, 내년 ‘코첼라’ 동반 출격…K팝 보이그룹 유일 라인업",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91Y3B6N0tyZXlhZWhqVDE2QWN1OFBqcHNaRkRqTGNGdEQtc0V1N1NfZDhKTUlHbXF4UW1kSWgwNmxadXdXOGdrQ3c5REZ4eTZ0QlVDQ21Ua2llWDg?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "NCT, 美 '코첼라' 출격한다…유일한 K팝 보이그룹 무대",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9lakk1UGtNNTZ1dW1TbmZyTmNueG5IZGlLUjBtVVhvZEhRbDNGQmU5RFNtU0I1aDlsTXhNdFl3XzBXTVNxNGhlc2Jn?oc=5",
+       "source": "디스패치"
+      }
+     ]
+    },
+    {
+     "title": "휘브 유건 주연작 '내 아이돌은 공익근무요원' 공개…능청스러운 반전 매력과 높은 캐릭터 싱크로율 '연기돌 입증'",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "휘브 유건 주연작 '내 아이돌은 공익근무요원' 공개…능청스러운 반전 매력과 높은 캐릭터 싱크로율 '연기돌 입증'",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83T050MC1vYmZfcnBBZEFVa0xTRmNQcmZQOG1VcWpWWXIxcGV2a1NYVDRoSEdqdUVCMk5tTXV6bkZ0cEtyMFhnQmhFQWhTajNGb3FCNEw1OXNhZWp6Y3pYc243S0VBWXJ2Vlk2TEF5Slg?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "휘브 유건 ‘내 아이돌은 공익근무요원’으로 연기 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwR29zMEhNNXV0b1VsNG0xOTdOYTR0TzJ1R0ZEck1WRFpnUkJhMTdTbm1icWFaelozSHZYajkyT0Z2VWtUczhSeDZjNDcwQWRCa0JDWTY0bWJ5Y05GdDhTNEl2cjk1ZHVDTUE?oc=5",
+       "source": "천지일보"
+      },
+      {
+       "title": "휘브 유건 ‘내 아이돌은 공익근무요원’, 원스토어 1위",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBha05ZUUgzSk5HbHRLclI2eVhLdWx2clJwVU9pYnMxMkRzeV9XVEdLaHVqaEd0QlVUZ2RoT2tPNXlvSEdlZmQ3QUhBcmRIX3lTdHotSjB4Q05DbFlRNXVyclh5Slg?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "휘브 유건, 숏폼 드라마 ‘내 아이돌은 공익근무요원’ 베일 벗었다",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFR19VVEc4N1pOYm1hcXVvc3l2NVJFWGZJYmtCb0JIVjFrRzlFSjNpWXBjNzFrZHhJLXJPRXhjWjl4Q2xETFlmR0tHNW1NRVlEajZ6anY2VnZxcmc5X2fSAWNBVV95cUxNTGM4dk5YSXkzMXBpdFFyUzNDc0s5WUtVZHlxN1hUWko2STRaVDVOSHZfdnFtc2U2OUczV3ZEZTlQYy02dU85LUU4TmpTVDVpRk5ZYlpiQV92YWF3VXBLV0xhckE?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "휘브 유건, 쇼트폼 ‘내 아이돌은 공익근무요원’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5lU1BlSHg5Z3ludHVaVmZwaWFLUzZTOTBSNEV5QjlFd1g4T3NWaVJfVkxmYWJNQVBkZ3BweXFadzNjX1NOTy0zZWhsT2dLZ1Y3?oc=5",
+       "source": "문화일보"
+      }
+     ]
+    },
+    {
+     "title": "Rapper found guilty of capital murder, sentenced to life for killing of rival rapper",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Rapper found guilty of capital murder, sentenced to life for killing of rival rapper",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRFlaQUlvalp2Qk9jQ2s4UHNrcjJTbnFURlMxWmlGQWlqNENlQ0xYV0dUQ2FyUVByMHltSHRBYWVKOUQ3THFMaHhoZmE0NnRTY2JERkFYODVhSXdoWDZoRURWQWRzMWNlTldENlpud2Qtdl9QQ3E5LVVuTFhYeVh2dUt5bjl1R0R3ZWpKbUlFYVZPOTE1WG1BQTB0SWk4NGdkTHVOb0VYNUt1bzdOSHJZdWFMY3ZKTVZGN1E?oc=5",
+       "source": "Washington Times"
+      },
+      {
+       "title": "Dallas rapper Yella Beezy found guilty of capital murder, sentenced to life",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QOF9nTHZPZGFKa1c2ZWQxalNnQjFlNEVkRnlVazE3cHBtdmpMc2UzdHJULXM3S1M5bDhVam9RSF9Va2pMWXh3d3FMeHJxRU5yUWc2Q0I1S3Zpc3RqQzRmd1VEWUVES2Y4VE9nYlh3UVZuVXoxUFJj?oc=5",
+       "source": "Fort Worth Star-Telegram"
+      },
+      {
+       "title": "Rapper Yella Beezy Sentenced to Life in Prison After Being Found Guilty in Mo3 Murder Case",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQnNtQUtWZEdGNGhaSlJzbTJ5ZWRoNUpzbnU1WFJnRHg1aDlQajd2QzNyY3dLdFhBc21tdFl1MzNUVTlIUFJOVXFmbGRWMFIxbjZFSWpybk5VZHlXR1kwRXpsekI3UkVlOV9hNGpNOUpEdTBkVG52ckE2SWlfR0M5U19jZVRyWHgwMXp3SE1BdTZNbi0zVUVqaWp5RlVnUGRmbGdFc0oyTTMzR2VBclc3c2hsZEtJaUtvYmdObm1n?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Top Headlines (11/11/2026): Rapper Yella Beezy found guilty of capital murder",
+       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSWpYSkxsekxZSXZhajhIZGlJd1Y3MVVnZmd4YUdrbUFvU2JfV2tCc3Y1ZXA4ZWhlN0ZPaEZ5dWItczRMMExhcm1XelBrUTdINWpwM3JwVnc5Q1NOMUk0TGhGV21sNXpiY2xXaDV5REZKUEVKSXBTZTZKeF9rYkgxcGt5SkRHZ0NSM19YN1dfd191SUJOaWl2QlFZTE5QdFF6ZzRad0wtdEk0UWc3TkhTeWxOeVFsa0lHX0RBbTl1Zi1OU1lyOGdKUWNtVThPLUYxWWpIUGllMFpEQmwwSjNvQ0gzbGk5OTdwX0RFLXl4OERWc0k?oc=5",
+       "source": "WFAA"
+      },
+      {
+       "title": "Rapper Yella Beezy Sentenced to Life for Rival MO3’s Murder 6 Years After Deadly Freeway Shooting",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPakNPVlRDRkYxbl9zLVdYTncyLWpscGstQlRZcEl5MWExaWdZUEp5c1F4X1E3dkh0YmVkYVp0ckQ5MWhvVE9mTDltNE1UVWpKb0xnNWdCbjhJaC1objhhZlVrTnZ4cWNmMmctaDctTDhEdUprV1VWU2Jvd1JkbDA3S3A3QVVzaGlhcWJob3dMT2thT0pyT3dXajF1Q0VZUE1kSG1N?oc=5",
+       "source": "Oxygen Official Site"
+      }
+     ]
+    },
+    {
+     "title": "리센느, 디즈니 영화 엔딩크레딧 장식…국내 걸그룹 최초",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "리센느, 디즈니 영화 엔딩크레딧 장식…국내 걸그룹 최초",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15VXQxaDJTV3Bib0xOa2dzQkxYZjZSODR5c1NFX1hLeVY2YnFLRmRfZWNldzU2RXVfY2VYbENzXzJseG5lUUxMZUp4c1ZXb1RmVjhxMWhoQUNCNlZSeU1JaWVPaw?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "리센느 '위드' 디즈니 영화 장식…걸그룹 최초 엔딩곡 발탁",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2RVNBd3JjTFJaTkhZTHROWExMRWY0UG9WNkdRMjk4QkhkZEJDdFJGN04wYTFuNzE4YnQ3UVRUa2tsTFZOUjVIUzRWRTBDU25sdVZpaVJBbFR1UC1JUkJzVVduSTQ4Sm8?oc=5",
+       "source": "청년일보"
+      },
+      {
+       "title": "‘대세’ 리센느, 국내 걸그룹 최초 디즈니 영화 엔딩곡 참여…‘With’ MV 공개",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GT2cydmpWaUg1MldfWmNHaW4telFZNDlPRXBBTFJqdzRna0lRcFNDX2pCTDBZNFBxRDNqTlc5MVo2Mzl3Nmw0QkN4QzlORk9CUEhTazVIQQ?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "리센느, 국내 걸그룹 최초 디즈니 영화 엔딩크레딧 장식…협업 MV 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ObnN4M0NqNWItbkVQNm1tbWIyRVVoYzd3Ym81UzZrSkFKZ0NfdG10SVhwX01Ddnd4R1NIUUVydU82c3NfY2FaT1ZwNkFjV0NFWmdOZXRn?oc=5",
+       "source": "헤럴드경제"
+      },
+      {
+       "title": "리센느, 대세 끝판왕... 걸그룹 최초 디즈니 애니메이션 엔딩 장식",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xcXdzUkRMVGo1N18wNXBqWFpWdEpoYlhfcEFtb0RqNjJnVjhGemE5aU5uUk1sT3ZSZG9fa2ZSY3FnYTNvTjlkTm5Ycmd1TlFoeVRCWTVSN2RaMEFrai1CMXZ6U25kN1ZReGQ4TVEtc9IBc0FVX3lxTE84b0JZZjVISi04LU9EYU1TTHdudm9NcmpRaUlOMVNUVWZkbHZEeFVGczlmZldsOEZTQ25RVWRBVnVDRU01WFZpc29MUG1TbXBnRjExTVY5NldXajM5eWxjdU9vRzV6RWRZdGx1Z25ZNU5BRFU?oc=5",
+       "source": "여성신문"
+      }
+     ]
+    },
+    {
+     "title": "특징주, JYP Ent.-음원/음반 테마 상승세에 20.41% ↑",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "특징주, JYP Ent.-음원/음반 테마 상승세에 20.41% ↑",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZeVBXWDF5NDRjS2d4cU9kYVplTUtNRDFwSnh6QjRIZE1TYjlrNnFnTmNGTjl3aXlMWUcyVW0zQ0dTYmwxZkdXeXRyNU52TlBMOHc?oc=5",
+       "source": "매일경제 마켓"
+      },
+      {
+       "title": "특징주, YG PLUS-음원/음반 테마 상승세에 9.69% ↑",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5ZDg0Z1Nhd3RDSXJrSXQ5NXdWMDROVm5fTmF3MDAzc3lPSDNHNHJBeFNSNC1PcnE5b1NTLXhKbExNeENyZm44SjcwcGs0RGIxSUE?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "특징주, YG PLUS-음원/음반 테마 상승세에 9.69% ↑",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TSXBBQmFQYzFGNW0tMkVGQUNEeFJ3V2ZFZEp2QmJ0cjdUMXdZVFZxa0xpbW9IWWRWRVhXcTc3cFlKalF4c0FKa2l4N0FCX25TLVE?oc=5",
+       "source": "매일경제 마켓"
+      },
+      {
+       "title": "특징주, 에스엠-음원/음반 테마 상승세에 9.47% ↑",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DWEFXQ00tTzdNeGdCVEJMNGFkNjVRUm1uRUNRTGVzaVpjSmwwLVh2NnR0RWd3VTdfcWhhcHBiMjZCNjlibGVQZVUzWG52dDE5U2c?oc=5",
+       "source": "매일경제 마켓"
+      },
+      {
+       "title": "특징주, 와이지엔터테인먼트-음원/음반 테마 상승세에 6.45% ↑",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BN3haM0o3WFEzejFQemJTN2c2d08yTExhZkdHaW5tcmlOdlVMc0pHS0JYSllEWXZuVW9rZTNkOWVmSHAxeVlxZFpmZ0NUSy1iMWc?oc=5",
+       "source": "매일경제 마켓"
+      }
+     ]
+    },
+    {
+     "title": "엑스러브, 신곡 ‘투스젬치와와’ 첫 무대…우무티 작사·작곡 참여 (‘쇼챔피언’)",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "엑스러브, 신곡 ‘투스젬치와와’ 첫 무대…우무티 작사·작곡 참여 (‘쇼챔피언’)",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56Z0pxVnJDai04bE9tYVA3X29HWlcxR08zWmxfTFVFT1dPS1Z2RndrRUtoQWI0SFRMZUxQZGhyOWM3ZmRCZVNQVVl4OGJ0Y1FuOGpRdUd3cjBmQXBFdmpFcVF5SQ?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "'쇼챔' 엑스러브, 신곡 '투스젬치와와' 음방 최초 공개…러블리 매력",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81eGJhdUF5MW9vODgzTDJHUnFTaktvTUM2UDQtV09RZ1MtQWRHRUdFZXhreENtRVVZWjZqUHNsZnRIMGdCTko0LUhKYXFRM0pIU3dKWWpDdkJvTlNfc3ZsZQ?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "엑스러브, 신곡 ‘투스젬치와와’ 무대 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4za25WSnEzMkh3T2syaUo2REpVSDBUZ3ZIMks3UVd6dXVMYlBfQzcxQlBUbnJiczRjUVNGdFEwMDZibU1vN2QyUDl4SDVjNDhORFNUT1dqMnZ6WkVXaVhKV1lDOFQ?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "엑스러브(XLOV), ‘쇼챔피언’서 신곡 ‘투스젬치와와’ 컴백 무대 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE43V1FfY1dXeUp3RlNBYndfcmZHMEtmZGlXUWlFOE9ncHpyWm1aMXRWZFU4WVVwRE0yQXQ0S24tWm9BQ3RndXpxTDRlXzM2am5HakFsOHpjdDM?oc=5",
+       "source": "스포츠서울"
+      }
+     ]
+    },
+    {
+     "title": "BLACKPINK's Jisoo to Perform Solo at Coachella",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "BLACKPINK's Jisoo to Perform Solo at Coachella",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55bXpNRDNEeWx2RDdyNGNscEZZNjBZel83dkNRZFY3eHg1LUxPU0JFNC1Nczk3NG1pU0Z6aUZMZTA3XzhMMUt0bVU3bFB4Mkl2ZVVBX0s3QzNlS3Y3VjRKdVdMbWNRR2RSS21wZm5n0gFmQVVfeXFMTW52UjR4OEU3RXRVWkRmZF9WUzZMYU1udWlNY0pYR2dobkhjVUZxcjlzc3JBd2xNN1ZQdGNHNUk1ZUxXZ0x6Q2dfbkZSZlYzY0I2RTM4WXRzc3RjcHdVSkxuWDFod0pn?oc=5",
+       "source": "SBS 뉴스"
+      },
+      {
+       "title": "Blackpink’s Jisoo, Babymonster, NCT to perform at 2027 Coachella",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE93VWNyTm5MdENSVHlZQjBXa09EWlJVWms0eUhIckZWRXZlOGpHOG9sTVktZHo1RVY1Tk9ld05ualloaDNkR2JVUFZ3NUlnZE0zbHRQNzNzSQ?oc=5",
+       "source": "The Korea Herald"
+      },
+      {
+       "title": "Jisoo at Coachella: BLACKPINK diva, NCT and BABYMONSTER are taking over the desert",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa0dHRXRJdGpMdlUtbzNTcVhHaDBweG9Mekwza0hZTHBYODBGTEp5cmpUU0Q0VG40THd5UjRKaEVKUzFueGZFWnc1RnZQa3RINVlSRHAtcm1oM01DNUV2bEJtSXdjMGhmOXRSUFZMd2NRLURDWjFseTBMU2h0OTNMWlltUUJOOHVkTlFQbjNIYXpVeXRseG9DVEJkN0xKQUQ2TVhmaHpZSE5ja0NETXhnU1JnSUlzSF9xOWRDbWZIYUdqUEVz?oc=5",
+       "source": "t2ONLINE"
+      },
+      {
+       "title": "8 Asian artists to watch at Coachella 2027, from Jisoo to SB19",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOHM4NnM4bkJUbU9jQkpDektfN2lOc3JabWVXNGVocHIxZHBPb2RlcWxmTW5oM21ROVZwa3RjT0JrYWd2ZTdRazFhelUyTlZYb1UtclV1X1d1UUdURnlGRzJJcHFGMW5VSnNtZWJPQUJtY0tWUEpmSnBiV3hRYjVOQm5ZMGlLTXNDdjNwV19XeHltWGF3QnU4?oc=5",
+       "source": "Hashtag Legend Hong Kong"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
