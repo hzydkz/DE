@@ -1,0 +1,544 @@
+{
+ "date": "2026-11-13",
+ "generated_at": "2026-11-14T01:03:56.190021+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 862,
+   "issues": [
+    {
+     "title": "Duran Duran’s Roger Taylor Exits Band Due to Worsening Tinnitus",
+     "summary": null,
+     "ai": false,
+     "article_count": 18,
+     "source_count": 18,
+     "links": [
+      {
+       "title": "Duran Duran’s Roger Taylor Exits Band Due to Worsening Tinnitus",
+       "url": "https://consequence.net/2026/11/duran-duran-roger-taylor-steps-down-tinnitus/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Duran Duran’s Roger Taylor to Step Down From Band Due to Health Issues",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX25KSm1lbTNEOTFZNFdYczJKUF91elN6enBaM0twQVhHZTNwS0tKa0EwMjNIYkpsRHo3MkxSc3I4aWl2cmNEdTB0VnBtMVNiZkpIN0JueWh2aWJtSVBzQ3VKVlU0RUYyUGc4Sk9wUUEtVnJrSG9YWnhPdVpaMW1RbE13?oc=5",
+       "source": "Ultimate Classic Rock"
+      },
+      {
+       "title": "Duran Duran Drummer Roger Taylor Retires From the Band",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSlgySjdZd1V3T3FwS1J3R01lc2lEbW9mTDE1TnRIbENCRDMzTF95ZEU2UzJWa1VpMmVrU2lRRXA5Q29BTWEzdnV2aU56ZHJlY21FQWhQbThVVk14Xy00MGp2OEtmUWZPbFduaVJJUkphS2wwN1RRalVBLUFtcmhsNWl2NExyMTFYOUdOZlZybmtuczV3RDk4?oc=5",
+       "source": "The Rock Revival"
+      },
+      {
+       "title": "Duran Duran’s Roger Taylor Announces Retirement",
+       "url": "https://stereogum.com/2517738/duran-durans-roger-taylor-announces-retirement/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Duran Duran Drummer Roger Taylor Retiring Due to ‘Worsening’ Tinnitus",
+       "url": "https://www.rollingstone.com/music/music-news/duran-duran-drummer-roger-taylor-retirement-tinnitus-1235656532/",
+       "source": "Rolling Stone"
+      }
+     ]
+    },
+    {
+     "title": "KPop Demon Hunters Announces Golden World Tour Dates — Here’s How to Get Tickets",
+     "summary": null,
+     "ai": false,
+     "article_count": 14,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "KPop Demon Hunters Announces Golden World Tour Dates — Here’s How to Get Tickets",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNanJZMDRJdnNyZlR0cFFQQXgzNnNteDlsbUFqS3NOT0Y4aE5JeTNBMFZHV1RfbHR5SWZjaGtPTGw4dzBNNWZqVnVkem5OX1NCM0FEWHJjbU1BTFJmSFBiUjg3VlBnLWN2eDBZcUptcm0yd2VPZjgteVlWTXViX3ZSeDd4bzBUWm5qYUZr?oc=5",
+       "source": "Netflix"
+      },
+      {
+       "title": "KPop Demon Hunters announce 'Golden' World Tour - Here are all the details",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSWhLUGUxWnFYTkhIblYzNmtOZkJUMjhOLUh3QWRzdDlfRzI1MzEwb3JsUDFuS3ZFRDVhaTZNYUM4aWsxVkozV0I5US1PMmQ2TDVodlVoM3NVaTFUVDVUeW9JRlFQTWV4ZjhpaWU1R2hjOVNuOV9hVzhKeXp5akZYdk5ITW01MlJsazFMX3FKUHNyMFE?oc=5",
+       "source": "Capital UK"
+      },
+      {
+       "title": "KPop Demon Hunters Golden World Tour 2027: Dates, Tickets, Presale Info",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BTFVpbGpVN0dvNmN6SFUtdnZSY1ZuRWJvOXJkbDhuZTNvR0VhVW5TVGJTTE9FSWY2dnN1eVdRRVJJekRtRnY3ODhSOHNIQWNhTzNXa1FTd2MtQUxORWNCVHExaHVwdw?oc=5",
+       "source": "IMDb"
+      },
+      {
+       "title": "Netflix Just Revealed 'KPop Demon Hunters' World Tour Dates for 2027—and Tickets Go on Sale Next Week",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONm1Fb3N1TkxEVGg1bWUzZXJxY2FqU0g2N3BrSXc3c1plUkFCeW5QZW9ZR1ZTYlN2TWFaS1gxVDNKNEJYNTNjc3VzRjE4LXZHYmF6cjFBcUxRX1hKOUdKV0RjeUVhcURLNG9iaVo1WkxEejB3akhZYjhqU1F0RnpwVjJvZzZpalhaTHFTNm11ekdvMkg3ZVhCSGp0aFZJSzZPcVM0Zl9BVmVrX0YtZnhtQ1FWNG1DWS1rUzZFeHZsTFY?oc=5",
+       "source": "Parade Magazine"
+      },
+      {
+       "title": "KPop Demon Hunters Golden World Tour coming to Indianapolis",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcW1pNWh5aWNCLUFFSW9neEd2ZURDcW5zeWVRa1NsSWhaM0J6ZTF0MVRUX0ozc2FtRl9hbGZ3YzZBSjh4Yk5IT0hncjRXS0llTExsSkYxdVhpb0VZZHBoUGwtQU8ycG1PQ1NfQVdKek91a3BMTi05Rks3RXVPWVdkVjZ6MGpnYWF0R1QzcUJLdw?oc=5",
+       "source": "WRTV"
+      }
+     ]
+    },
+    {
+     "title": "씨엘, 테디 품으로…더블랙과 전속계약·11월 신곡 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "씨엘, 테디 품으로…더블랙과 전속계약·11월 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Cbml6bF9DTk13c3VDc04zMmsyQUw4ckt6VGk0WGlZUkN5VEktcUtyNUpUMnJKWDBjRnBKeXY2ODV5cWc0dDRhbEotR1ZEazVnMFo4dg?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "CL, 더블랙레이블 전속계약…11월 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QdzBRcFNPVWVJUWMtaTdNU2g5S3I0QmpCUGdUaFFwb0VzWkxOUG95LVRZTUhCSUQxdi1rejh4T3NUdE5Jb09CT0Q4cU1nRlF6eW1pNFp0ZnZxUmp0T1ktZ2NXTC0?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "씨엘, 테디 품으로…더블랙레이블 전속계약 체결 “11월 중 신곡 발표” [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pZXUtU2ItQ3J3bENvWVNhdC1Qbk5BUDdWM1did3BnVUdOcWN2OVhrYkJ6NElSSHpSb2J3QnZqOWhzWWpBYlFfQzBIVGpnV1RER1o4Ukd1RHNycXM?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "CL, 테디 품으로…더블랙레이블과 전속계약 \"11월 신곡 발매\" [공식]",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HbU5ENHBMT0xiVmVxaU11Rk9CTkJyYXh5aWtXa3NkMFlYVGxFaTVYMkM4Z0lLdXlhY1JNXzJid2JJZjdiejJMYzV3YkFHdWR6eDlqN1hlWnFkQjg1eV9xaENFWVlpVDNqNjFhRi1OakJmdjRX?oc=5",
+       "source": "파이낸셜포스트"
+      },
+      {
+       "title": "CL, 더블랙레이블과 전속계약… 테디와 재회·11월 신곡 발매 예고",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyR2RHWkt5LU9nc0JnSTFfR19Rd2FmOTZ2aXJpX0FCRFRYaWlHSGpDSDF5SU1ERWRJZ3FFXzc0RThudDJ4X1NOdDZEMDI0OGdWaHExSUFObmRJbmxsNzJQU01wS0JvWEVNdEE?oc=5",
+       "source": "천지일보"
+      }
+     ]
+    },
+    {
+     "title": "Greensboro native, ‘Mrs. Steven Rudy’ singer Mark McGuinn dead at 58",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "Greensboro native, ‘Mrs. Steven Rudy’ singer Mark McGuinn dead at 58",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPenQxRlhGZjdFblVjWWtOU2pnZlVlR0szUTVMNWZSSlpGcjFMUHk1al9Velh5SFQ3UUZTRnVSeG81NmtFWXl2V2RIdE40QjktS01Mei1YMmduNVhxdk14ZzVINVFCZ1pjX21zTVhzZzJ5RlFHMmpqUW9hcWlQMVZmNzVCQ0NKRzkxZnc5amtXOG9WcDhReDJqWkc0bzdjWHkwTlNSNnRBU1RZNU9BTWZEdGJnX09jUdIBuwFBVV95cUxOTTduZjlMeEd1YURZaDNDVFN0Sk5uRnJnZ3JzbFNwY3JTb3Y2LUJFWUhHQ2EyNENEeUJMNVlvQXRPaEFwRlltMktoRlFOemtWY1F2Um5IMDhyWXduR08zTG4tSDduaC1fak9DRmNvWXJ1OG9fNERndnJPZjFJT1hlQXVsb0QzeUliYnJPOU50T3ZOLVVnNlh1SXhETEV0SUlqN2oyWjg1VHFiSF9WWTA4eEtNUTJoNmtGaEVv?oc=5",
+       "source": "FOX8 WGHP"
+      },
+      {
+       "title": "Greensboro native, ‘Mrs. Steven Rudy’ singer Mark McGuinn dead at 58",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdnNQY2hMZWZTUWN3bzhhLTZMMGR3azhDV2plOF9WY3JwVGZONm9qMUxoYzNmbEhnUmcyWmdCZkg1RlQ3SDFVdUJfWnN0aW1OLWhqakFKMlpPV21GZFpZYVJielJMaWN3WEtzcDVyMzkxVlA0eERCZjNkWjd6bzVWMV9lQmg4T0pqRzFBR3VWMUVnWlNqRU9EblY5dFhkSzBPTzkzSks2Q01KME9ZNzJ0clZfRTlJNFZlcmdtal9n?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "'Mrs. Steven Rudy' country singer Mark McGuinn dies at 58",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeG5FZ2c2bnlVLWhocFBXN3RNOWRKVTlmcFFpN1MxOTF2NUpPN0c3UTg3NUNmWHFWZ0VsTW84WWhQWXlyLWoxSnRiV0h1ZUhrQWJQelZnSzNRZGVyWFlKTjlXd2dvWTRJSmZSNHZHYVBVVzVUS05xSGRhMzFDTHB4QmFTZ3EwWXZMY3VXQWFJLXVOYk9xX0dpLVBESXZBRS04WkxwT0ozb3hNcFQ4Qk4ydlJ6M2d3ME5RNnNmdWU2ZE0wTTZhSDkw?oc=5",
+       "source": "USA Today"
+      },
+      {
+       "title": "‘Mrs. Steven Rudy’ Singer Dies at 58, 25 Years After His Breakout Country Hit",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9xekNqMVVsRHNWWUZYdEhZT21NcVg2UFlsVzZ4ckRXTkhiVHJLRDFJLTF4UWltQ3ZaSzd0QVRaaXNZd1FOOHBwTS1wWmlKZUltOS1KM3dUTDI0YUx1YVo3T0VFRGZVRk9UMDRnRWZMVjZRdWVtUWE1TWp3?oc=5",
+       "source": "Parade Magazine"
+      },
+      {
+       "title": "‘Mrs. Steven Rudy’ singer Mark McGuinn dies at 58",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SU19saWVoekJjT1hXUEgwUFBHUWVaRkZZWkxvRnNUV0hjS1dHdmpMaHdnaEpfUWt6WFQ0eWVKbW9WbTM1Sy1JVy1kdm1IU1c2b1c1eEtEMnJNRVNuSzY0SGlmRkFZSmRwLWNkQm1lMmJrWlJTeUVaaGtBdGw5QdIBlgFBVV95cUxNUU9KU01BUEpYQXF0NWhTcmFTRk8tOXdCRjlTaTJRa3VtMXZPQ0tNczRPN1IxQjk0Z2pVZF9ya3dmSDVQaS0zdmZfRUFTRUE5LTZPU1pWUGZ2RXZKbkRHNjZTSUhGNFBtYVRqakZOSVNSQW8zaXI0VEtaak1PTFhndEpTMFpoaTB4VWVUQ0FVZ0MybERSMWc?oc=5",
+       "source": "WJTV"
+      }
+     ]
+    },
+    {
+     "title": "트리플에스, 완전체 신곡 오늘 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "트리플에스, 완전체 신곡 오늘 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BSVlsMmhIM3RWc3lwdEJZSVUyT0xWMUhpX1RMbU12dHNqSXZzbUF1TC1NQVhWdldvZFRjbjhKMGlTMi0wbjJYZkVkbzZkZXNENWR3WVV4TzNXWVFaNDZwdUJ1amg?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "이번엔 라틴 리듬이다! 트리플에스, 24인 완전체 신곡 'I Want You To Know' 발매",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tR0Vod1JHeVhwUlgxQ3pCR2ZfdVhndDJieGtaQ0lOS0NtdDk0dVBRREFxaElILThHd080WXl5STUtYzR0Y3ZtMC1mSXFQTW1yeFU2bHJ1VGZZRS1zMWVsUmlQTUhaX3RqSWxMQVZ5UVNDNlQx?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "완전체 신곡! 트리플에스, 'I Want You To Know' 발매 D-DAY",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5iVWNselVWXzFEQ1c2QVl5eG1ka2N5OEVvaW5makIxcTRQWTU5TlUtMV82a2xNb3BmakU4clBMVW1mbkp2cGlOU3B2OUt5dw?oc=5",
+       "source": "전자신문"
+      },
+      {
+       "title": "트리플에스, 완전체 컴백…'아이 원트 유 투 노', 13일 발매",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1yWjhKYzdlUmJjRlJVb0pSVHdTV3c3aGNrRW9Pbm52dTdyUkZibDkxelBJRGVTemNtbVpLUGVSMm96cDZwYXRpZmhB?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "트리플에스, 감성 신곡 ‘I Want You To Know’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94cGhHWW1idVpHalBIU0xWV1g2VWpYZm1sYzNhOHlnbHJ1MUphMXFvUFoySk9rSDdaZ0JxdGVEdzFPSTZPdm8ySE9Vc0w1UDlTalROdFVB?oc=5",
+       "source": "비즈엔터"
+      }
+     ]
+    },
+    {
+     "title": "HYBE Adam Smith Awards Asia — K-Pop Giant Wins Best Treasury Award",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "HYBE Adam Smith Awards Asia — K-Pop Giant Wins Best Treasury Award",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sY29uRk9GcXYzTkxaQlNlV0NnVjZsakFjT01vM0w0UUlCZWk2QWY3YVZmT0daZm1LS1hial9jd0kzQlZBdk1EVmNYLVpyVjRvVkRfaEREM01xNndrMnBrNmp6akI?oc=5",
+       "source": "The Korea Daily"
+      },
+      {
+       "title": "HYBE Becomes First K-Pop Entertainment Company to Win the Adam Smith Awards Asia",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1DNndReVJ1NGdCdXA2Vkp3TVlBZVE5ZEd0Nm12RjdzcWhjTkMxVnFtQTJTemdoWm0yRS1VMUtqVGdiVDZrNFMxSU45X2VYUXJQ?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "HYBE Wins Adam Smith Awards Asia, First for a K-Pop Company",
+       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTGM5bmNaWUhYWl9iVkdHNTQ3WmlkMm1vS011WHlaY0FtSFRXdkZ3TDZqMHRUQmM3UGc1WkNjT25ldHpCMkw2TmVBVkQ0eEg2UzB4TTNiZ0dIcWlqbDJ6RWpPNUxuZDR5eklTRXRPNXNDWFFPNl9VX0tKNVhkWGV6bFhReFk3TTJ1ZFpCeG00bWRPbFNvY0VGcUF2RTJyN0ZmUGc?oc=5",
+       "source": "Seoul Economic Daily"
+      },
+      {
+       "title": "HYBE Becomes First K-pop Entertainment Company to Win Adam Smith Awards Asia",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KdVQ3dzVDU0k3X3BUTElmclVDbksxOW1lNWR4Wl9UZ2RvaU93LThqeGFsUDVSRE40NXlrelRJa29JUFYzM0V4dnN3NktaWm1LaEVEMGpHV1oxeGItWVhuai03T0czUC1wYWZzOEN3?oc=5",
+       "source": "news.sbs.co.kr"
+      },
+      {
+       "title": "HYBE wins 'Adam Smith Award'... first K-pop entertainment company to receive honor",
+       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5CNmhxSnFyNWFtcEIzSnNQTjJ4MWNOU1lIWXlaNUgyb21qZjYzQTU1WV9TcGFRaEZWVE91MlQxcXhMNmoz?oc=5",
+       "source": "DIPE.CO.KR"
+      }
+     ]
+    },
+    {
+     "title": "세계 최초 청각 장애 아이돌 그룹 빅오션, 미국·유럽 투어 성료 [공식]",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "세계 최초 청각 장애 아이돌 그룹 빅오션, 미국·유럽 투어 성료 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5QYkxRMmE4RWFXU3JqVUZlNFQ5b1ZLdE9SVmc0TUhQc2NWR0Foc2ZSSFJTOHZ3QVlUcHY2ODVGbXR1Wi1HNEEyLTVGUHFJUmZwTUpPd2ZKUlllRWdTX3N3cXdKckdfRl84V3VIRm81SFpyVTJZ?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "[가요소식] 청각 장애 아이돌 빅오션, 미국·유럽 투어…\"큰 의미\"",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44QmNFbVdQaDlFMTRERjFzeWtOY3JwVUJkeDdLNGptajdyWFJkd3VJSlVqbTdUMTFqQWRhcFcwUDlVUUxpUW5JNnJLRDRtS0k3NXZxTV81U0J6bndsbnZOOdIBYEFVX3lxTE44QmNFbVdQaDlFMTRERjFzeWtOY3JwVUJkeDdLNGptajdyWFJkd3VJSlVqbTdUMTFqQWRhcFcwUDlVUUxpUW5JNnJLRDRtS0k3NXZxTV81U0J6bndsbnZOOQ?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "[가요소식] 청각 장애 아이돌 빅오션, 미국·유럽 투어…\"큰 의미\"",
+       "url": "https://www.yna.co.kr/view/AKR20261113060000005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "'수어 아이돌' 빅오션, 미국·유럽 투어 마무리…\"팬들과 약속 지켜\"",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5QZG1QQmJranozcXBsQzh0QWZESThUYnhqdnJHWEFZakRTdl9Sc0ZMN1BaYm1jbFJscm9CalQ5cXpiTE5tNTIzVHRPT3h3X2RLeXg1akJ1cw?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "‘수어 아이돌’ 빅오션, 미국·유럽 투어 성료… 뉴욕 패션위크·UN 행사 참석",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Jdl9TOHJUYmM5aWNrUVRsUU5xUkdVeXRKR1dRVDBzZlFvUFNLd0g0V0NfZnM2WjJNVFZFUWFPNDRPb1lyeDBIMHp1WS1KcGcySmg4b2F1d3E4akZxWlB3MjNqRQ?oc=5",
+       "source": "MHN스포츠"
+      }
+     ]
+    },
+    {
+     "title": "엑스디너리 히어로즈, '임펄스' 콘서트 개최…신곡 전곡 무대 예고",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "엑스디너리 히어로즈, '임펄스' 콘서트 개최…신곡 전곡 무대 예고",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhdkVtRHBsMEtYNklYTE9qVi1lQXU1VzdrXzlZSW4zb0oySUdkSHFMSUxROVk1d3N6amItUTAyVUZlRV9GNWNZVk5qRTlVSS1tRVJwaVpMTHBCUWlhNmN4S3pvaTRBUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "엑스디너리 히어로즈, 오늘 단독 콘서트 개최",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BcVJKZlBxREFYZk5TdmRCRjAxdTVJeUg3cVpGSmxyZG1NX1hhLVBfVGVUcDZhamppd1cxSXp6VnpXbzhzVGM3eFlfN1NhcjBCanlINHkybnZ2NFRFeTdVWHdCRk4?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "엑스디너리 히어로즈, 단독 콘서트… \"완성도 높은 무대 보여드리고 싶다\"",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jMHNWcWRqczYtb2dXTnpQeUpvSy1vOVphU0J0UWs1UHgtc3ltNjZ5dUlWdUR1bEhRazhJRGx3TmQ2bG5GanBBLXhlR09yQW5td25vVHNRbTVEUmRheVR1WE5nTQ?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "엑스디너리 히어로즈, 오늘(13일) 단독 콘서트 포문 “빌런즈께 힘 되고파”",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAycGlBSUpybUFWN2Q3Yjh4dUpRYWJHOEd0TFlRaE9JTW04UnZGaFh2QnkwUlkxSGM5ZThnSno0UFIzOXc5RkJTdEdYcGp1aWtieUlEZXFrX2liVmktYUpqWE9jU0lCYW42NE53?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "엑스디너리 히어로즈, 인천 인스파이어 아레나서 단독 콘서트 개최",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrMUhOa3NVU3cwclVTcEN4VTBnY2RJLWFnX2FnU1dHNHJTSkFxaHY4d3NleVR1MmVQa095eE9SeGVncWUtdjdYVzY2Z3ZIYzNYVWtCNzdkNjQzd3c0eU5KOXdSTFJxTFFDRXBJ?oc=5",
+       "source": "한국사회복지저널"
+      }
+     ]
+    },
+    {
+     "title": "‘KPop Demon Hunters’ Golden World Tour: Every Date, City And Presale",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "‘KPop Demon Hunters’ Golden World Tour: Every Date, City And Presale",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb293Nlk1dHdmNmhPQ3ZoM3ZzbWRURTZ0N2ZhNXBvVUhuNGFveDFkTlNWWXJ1N2dRT3lqV1ZGVGVVYUNLbUVGSFZhaWhvQmdDVXl6UUVsM0FYM2RtZ0VnXzNSdUNONU1xZ2daMW1jNEIyblJXMlNFc0xGT2RoamVXVV9VY2RLRXRZTmV5Y293MHJUU2l0Sm5kcUs2bld5MzA0NUkzdmtNNlZTLWtNRGEyRHR2aHZYT2FhUEE?oc=5",
+       "source": "Forbes"
+      },
+      {
+       "title": "Netflix Unveils ‘KPop Demon Hunters’ 2027 World Tour Dates and Ticket Presale Schedule",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzdjZUZhbXN0Uk9jSnNCQnBjbDVweTZiZHpJd3lFYTNrcU9KUWFrTk5TRnZtbHlSeVF4TEdtQXhPWklHQi1EN3dmRDVYZWNhQXhPbi1HY0Q2TTVwN29BOHR6X3c1SXVrQUJpY3RTZExQckstTm9YNU9HUEdvR2hmNHQwN1hYY1RheDRvWTlJb3k?oc=5",
+       "source": "What's on Netflix"
+      },
+      {
+       "title": "HUNTR/X Is Coming to a City Near You! AEG Presents and Netflix Announce KPOP DEMON HUNTERS GOLDEN WORLD TOUR Starting June 2027",
+       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPR1JhZ0IyMTE2MUVzOEM4eFJQU0EzMmVVN1FTY3J4eG5ZdUhEMVVPZFJiVDlXTThiakpaclZaODlVSE9RSGw0ZDh2ekVMSVRiMk80M3puSkZiZVN3elY0djBVODlXbEI0cG85WjFNX293M3Z2V21WSnBGSU9seWcwSl9RSkMxVUhnOXZSUUxzTUFZWmREVmh5NlRwQ2NUZE02NGJhNVBVWFV5ZHpnVF9BUmJGTmF4aGRQcmFvVXlMYXBwTmVDT0dvUFpJWXNBZmlIRmpOTGZ2bExmSW1ndDFhUkV4enVHdUxJM1FFSnhYaHBtYTlueUgwaDlpU2phTXoyVHJFTzJtTWpZQQ?oc=5",
+       "source": "巴士的報"
+      },
+      {
+       "title": "HUNTR/X Is Coming to a City Near You! AEG Presents and Netflix Announce 'KPop Demon Hunters' Golden World Tour Starting June 2027",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWUhJTlhNUTJsdFpZLU5FRGZyOHZZV2dnVXFXS1Q1NFUxTlNJcmFtSFZULUFYRUZYeXdiYkVXcm9Vak9fTGo2TVZ1LUxqeEdsS2k0U0NyUXhKRXp2OExkN281eWhpb3BXdlhrWGhPMEZiSWc5d3VlSGktZ2FSZUdpQWUzbmhUQi15NmxLU2szNXpFU0Y3ZGc?oc=5",
+       "source": "About Netflix"
+      },
+      {
+       "title": "Netflix Announces ‘KPop Demon Hunters’ Tour Dates and Details",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vZHoyNUp4U3NSaGN1MVlJN3hvcENVRU5jVm5fOTNTbWd2SG5vYlFhcFZNSFpNcXR2djZ4UnItUEV5NVY5Zl8tLUotM3d0dmZ3WmxfRmR4YnFab2hrekFaZEJyZ0o?oc=5",
+       "source": "ScreenCrush"
+      }
+     ]
+    },
+    {
+     "title": "Netflix Is Slowly Revealing the ‘KPop Demon Hunters’ World Tour Cities",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Netflix Is Slowly Revealing the ‘KPop Demon Hunters’ World Tour Cities",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV2pEVGV1VGdmekROSkd1T1BueFEzWkE5TkRLTlNDd3VqcWtaSGlnck1xM3RkYmVhWUdudXBiUGZheDdiOHgxb0F0bFN0ZmRLTnoyRERUY1E0ZzZzRGpoRUl4aFRIcWdQNFFtVEtoX0RzLVhoRlkxaV9rcWpkOHlPbVZUQmlaNS1OemtJRQ?oc=5",
+       "source": "What's on Netflix"
+      },
+      {
+       "title": "KPop Demon Hunters makes tour cities a fan reveal",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KRmdkN190R1JQV2xZdThYaUVkZDd4ZmJHbXdlS2RldC1FbUFFNURXYmZ4YVNWc05WUzBKV0plTGpLWDJ0d3BHaS00M3ZOYnI1R25QeDNSQUFfbG1RdUR2c0Zta0VPcEZoZzJr?oc=5",
+       "source": "ContentGrip"
+      },
+      {
+       "title": "Baltimore among cities on ‘KPop Demon Hunters’ world tour",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY0hrajJkZmllcUxqY0NTeU1RUkdsUXVZek5iVjJBNzRPaHBnSXZ0WllQdng1Q2xpV0lVZnV1Yk9YcGFiRGNqcWNEdGw1TVRqai1FY1ZzeThfU3p2S2Nia0xiRFVTUFNENkE1S2VtNzRSVlcxV3NNWl9pbVp1SjYydXVDZzA3SzhKWGc?oc=5",
+       "source": "Capital Gazette"
+      },
+      {
+       "title": "'KPop Demon Hunters' Is Officially Going on Tour",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBUTA5SnZXMUFKVmhyNTcwWGE4blFnQjF0TWI2YVFpM2ZaR3ZYamlhNDhqeFBWVUI2SnB2RFFTTmtoeWphOTQzWnFQSDlOeVg1SlBMM19lZnRtb19NVU1XQ3dWcy1uQVhoUEJDdUtkYUpBRHZF?oc=5",
+       "source": "Collider"
+      },
+      {
+       "title": "Baltimore among cities on ‘KPop Demon Hunters’ world tour",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNekJPV0RJem5lbjlDOHBsVTExTFluczdsZDZiZDVrZ0xGc3c4TkJvNE9QLWdXNGYtbE5wVC02cUlfcG1nVFoxR1NPVzBNM0x6OXBiZXNCLWZZa1g5UnMxODFBQkJVU0hKYUxsQVRHdm1Vd3FMMkk5cmdhOU8tQlVPUg?oc=5",
+       "source": "WBFF"
+      }
+     ]
+    },
+    {
+     "title": "'뉴진스 민지 닮은' 방예원, 배우 데뷔 \"KCM 신곡 뮤직비디오 출연\"('케가네')",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "'뉴진스 민지 닮은' 방예원, 배우 데뷔 \"KCM 신곡 뮤직비디오 출연\"('케가네')",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54MmQwdXVSWjdZeS1PSXc2SFBUX01UdFJSdnZudG5rZ3NmSHgtVHJaSWxFWTdBVEozTFpmSEZCV3poUmVUdFg4TnAzSlVTN3FhVzZN?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "‘KCM 아내’ 방예원, 신곡 뮤직비디오로 배우 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40TnZaTTllSFdpNGMzd01PM1lwZGU0ODdVRS1tS0VIWGtoWDVOMVJMbGtwcmpyY3dFMjZQbFNxM05NSnVQcnkycEZuMVNwdnJPVk9GYUhidzFLMVBZaVYyQ2dtcVh2bUt6ekxV?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "‘이 낙하산은 찬성!’… KCM 아내 방예원, 남편 신곡 뮤비로 배우 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5nZTlnTHpQTS1lanJGZk5JU2JVeW0wemE2SGR2eXlZeDkyeldfbVljS1lzSktzeHBnZ3ptSllDODhfVlRVVnMyNDlpWjVLT3BIWnN5b0pibWU?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "‘KCM♥’ 방예원, 연기 도전…신곡 뮤직비디오 출연→”소중한 작품” [MHN:피드]",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDd1BiTEQzSHFzaUhXNEhFRFl0Y0lRVTIwdmVwTk9FZGc1eGc5THpPR3VjR19zX2xuNFBHUzI0NmtsYVRoQWtObC1UbFJ3bmVmMnRTQ2RNTU9IbGI0UFZpcl9tMA?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "KCM 아내 방예원, 남편 신곡 뮤직비디오로 연기 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpV1dLbUVhU2l3VlhpeWpJRDlfWTVUQlNIVGhpUXRLbXIwcDd1WDltVHFfVGZTc3BUYndBTlhPTmQ1TlQ4cUt4NlltQmVpbXJaUHYydUhFRFN6d2VxakVUQzUtZEVYamF0R1RQd2hB?oc=5",
+       "source": "알파경제"
+      }
+     ]
+    },
+    {
+     "title": "다이나믹 듀오, 16일 신곡 ‘하라는 랩’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "다이나믹 듀오, 16일 신곡 ‘하라는 랩’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SS0tCdkxqa3NpS20zem8wdHBONDZ6MnVXTU1DanhiNWV3eklHUGdqYzBqcVMydmhzWHVzai1sV3JSQXd0U1NHWWhwUnVvZDR2MDduSXJvUkFpY2dGRmxISmZzTW8?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "다이나믹 듀오, '하라는 랩' 음원 일부 공개...현실감 메시지",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03MFk2YjZjTkFvUmFMMGgwVEE0MjBERi1kTUxRNVhka1ZoZXhfNHdNNWR4NkxObHBsM2VIbE9GT19ERTNQVGhGYkxTNUJFWEJhb3otWDR4b1FiUHdUTWlpR1pJbXhkUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "다이나믹 듀오, '하라는 랩' 음원 일부 공개..16일 발매 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nVTN1dWFReXBRSEcwTUNJSUp3Z1k5WUNpOEpqRmJaY1ZacGlkNnNnMW1TMS0zZU9RUVllNFBUc1RKeUtYc2dUenBPZzJ2eWIwUUpJSnJkMzZOZVZFakc5elFfVmc2djA0NHNLZTZmM2RSUVU?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "다이나믹 듀오, 신곡 음원 스포일러 “하라는 랩은 안 하고”",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sSHlidlE0eU9Ya3Q1ZGlmWFpzMEV5MUw2OVNCV2x2TC1va0tjYkZrd2VWRm9Ic2cwZF9GanVpa242OHhtTWNpSDBUM0ZlYVVoWEZHTTZ3?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "다이나믹 듀오 \"하라는 랩은 안 하고\"…신곡 일부 공개·16일 발매",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFaDRITjhIWkcteWV1Rzk4UzkwQm1SaE9WSi1HcER1UTJlUHFFd0s4c0gwRnJOWXBlaEtHNHQ5enVINUdUSjR2WXRMdktOMWw4amdZZjI1eG03SG5JSTBmUnM5eW0xN0ZBVnNXMFJn?oc=5",
+       "source": "이투데이"
+      }
+     ]
+    },
+    {
+     "title": "엔하이픈, 신곡 ‘I Want You’ MV 오늘 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "엔하이픈, 신곡 ‘I Want You’ MV 오늘 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6azdtUjZONG5lQjZ1aFNfQUFXbFlFLTJ1MnZFdUlncGJTLUNWS1h5UEVKclVqbnNqRjZ3cFFJbWhkdExJTFpLMG01cDcyYWZMMlpPVEpIWUlrTkVOLTZncDZOOFo?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "엔하이픈, 이번엔 달콤한 사랑 노래…신곡 ‘I Want You’ 티저",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80MFBnOXpyQ3UwUnhrVllqdks3T3VGdTlLcGthT284ZUtDWVJPaXZMX19kQlhSZG1lVkdUbHNmRms3X25VLUxIZEJnUW03ZnVRWG5RQVQ5Uld1SHB5eUpienU1MTBoYXc5?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "엔하이픈, 평범한 일상 속 달콤한 러브송…신곡 ‘I Want You’ 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE02a3UzTnp1RS0xbVBNQWlhdDVaMm9Yc3BLRHBZUWVGYzNMVFRUR0MxVFdNMzhrcm1GSld2dTJ2X1c2aTJneFdTbklOMjN2RFJTb3p0Q3Zwdw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "엔하이픈, 달콤한 러브송 예고..신곡 ‘I Want You’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNV0d3TXB2X2gyOXlqejB0RkxOX2QtY1JidlNxczRldW4ySnIzV3VTLVRNc21jcDFLeU5qWVBKRmZxd2o0TUtUNElxdjAtZndiaU5jdQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "엔하이픈, 달콤한 러브송 예고..신곡 ‘I Want You’ MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN3RCaTEyWkVLVGowUng3QU8tX1d3blB0azcxSmZucGZwUGNUMUtHNE1fWDNUVzlsaU14R3hsa05sUzc4SzBnTE8tbkhsaUtweVVDN2lNWXNwX2NxQ2tkUkFMalgxREpCeVNxaktzOG9IbU5TVW5XX1p2amE3NHRuYl9GNTBoaHJmbm9lSTU2QzZfQmxsbmxGVnRKelFDcUdLZDFrX1NxTdIBpwFBVV95cUxPN3RCaTEyWkVLVGowUng3QU8tX1d3blB0azcxSmZucGZwUGNUMUtHNE1fWDNUVzlsaU14R3hsa05sUzc4SzBnTE8tbkhsaUtweVVDN2lNWXNwX2NxQ2tkUkFMalgxREpCeVNxaktzOG9IbU5TVW5XX1p2amE3NHRuYl9GNTBoaHJmbm9lSTU2QzZfQmxsbmxGVnRKelFDcUdLZDFrX1NxTQ?oc=5",
+       "source": "Chosunbiz"
+      }
+     ]
+    },
+    {
+     "title": "Local musician’s death prompts father, community to voice safety concerns over Wakulla County road",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Local musician’s death prompts father, community to voice safety concerns over Wakulla County road",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNWQ3QU9LR1phcXpXUTdnSjNJdzg5MWFmY2VYTExibHNndURvYnpJUThVY0sxVUJDXzNHR2tYUU5tRzllQ0tLd0ZyekR2eVAtQUN3WGtlZnAwdDlmRUJSaDU0SHg5YWFTRC1hYmJYcU1xd2pTdDRSaGMxdWxSVUtKLU9HcHZJM28yclZwVTdRM1daWnQ3YW45alFTeXJ5MVZsLWZ2TWotbm9LNDhVS3BkV19SQ25rMHZXUkhZQW13WTF3bWUtSHlxS0U5U2F6VlVEcmE0bUFR?oc=5",
+       "source": "FOX Carolina News"
+      },
+      {
+       "title": "Local musician’s death prompts father, community to voice safety concerns over Wakulla County road",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjdtdjVsbklyTmdsUnRsTmZ4V3NfeGRMTkh0czdFalQ2ajVTT3FMNVJVWVhDTmg5RmRWV0sxWDZvTGJ6cW5VVTI3LTFVaWlEcUt4UzlWcTNNNmx0bkxva1hmbTI5Z0V6aG1wc3l2blBrUEFNbW1vZ0JUVjlQRG9PYnJtUjJ0Z2xZd0hHZDZCQXd4b0JWeUpqNkpjbWxoRU5FaUFMWF9TdWRtRHZIbTd3a3YwUHk3WGI4SjdUQldjN2VWX3NDOTdWTTlwaG4?oc=5",
+       "source": "KCRG"
+      },
+      {
+       "title": "Local musician’s death prompts father, community to voice safety concerns over Wakulla County road",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQemVfS2MxRGJIa216Y2gxcFgyRXA0ZXNCVERFMm1ITWtPc2U1MXBlMTNBMXRCVzk1clUwQnpWdGNmN3FDTUp4VkZqNGF5OW82Z3AzaF9acjhSYnUtM1JjT2IzNjJZd0hjQjY4czFUekZlX05hODNEYWpSU3FZMGlsc3VmNGpPT2IydFRCTnZVZmdvakw4ZGVjRTdWU3dPS2pZRUxzUklPa2Vsc2ptTGROb3hBX2VaYkczd3BpTWpoYjBxUWVNckE2Z19BTTMxdEtr?oc=5",
+       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE"
+      },
+      {
+       "title": "Local musician’s death prompts father, community to voice safety concerns over Wakulla County road",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNclVtNTdQQllxLUVyYXc4Vzl3U1M3WFlIRkZWclRCQjNscnRxa2F6WFp6Z2RaNXgzMlNCUW5BU2tBVFhzOUJkcmNYZzY1dFdlZnpRWm05STFNUmNROFNkT3A0MWp2Mno5VGk0QzRvVXdxTkVVUkFGVldQSmwxVE5UcjRHZjVHMThEQmYyb212SzVyY0I0T3dUdTVibVhsaElUNmU3TVZVQmU3WFp2ZVYxaVdqa2VnTENIdFJnNmhISlpDR0Yya2FMZjZXVFA?oc=5",
+       "source": "KKTV"
+      },
+      {
+       "title": "Local musician’s death prompts father, community to voice safety concerns over Wakulla County road",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOVY2Nm84dGg4cTJmTzdIM19fTEltdER0SWVVWWl0OFd6ZHF2VnFxTUllRFA2dnl2endONGdKSVA4bVlYT0pnaFVIejFLZzJWU05Td3IwX3lRc2lURGg3c0l1bXExNS1taTNlbjUyQlJRX0dqYzR4TUpyNmlHaW5IaURIRTZ3OGxrdU83enVleUtpOUVkRlZGSjRXamNORWRGWk1LUUYzLWRPbmE3cHg3VUs3bzlSeXRwRlBIcHgtZzhPZldZM0lNeHVCTnY?oc=5",
+       "source": "WFSB"
+      }
+     ]
+    },
+    {
+     "title": "Deftones Plot 2027 North American Tour",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Deftones Plot 2027 North American Tour",
+       "url": "https://pitchfork.com/story/deftones-plot-2027-north-american-tour/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Deftones Announce 2027 North American Tour with Knocked Loose",
+       "url": "https://consequence.net/2026/11/deftones-2027-north-american-tour-knocked-loose/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Sacramento nu metal band Deftones announces 2027 North American tour",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHVPUFU3aDBKU05haWg3cmw4QjlzV0Y2cW1yamJVVnE3aE0xdWdOc3Jka1JUSWw1YjRoTHJmZFdmcWxrbDREQlc5UEJVQjdrelZCRHVlOW5ITUMwUE9RbHZwWU82QkJCaE9qdzhvUGRtMlgtRHBOVFRlYXF2azI5UHZkT21mR0w2U2l1dlBnQVFHM2h4QURr0gGcAUFVX3lxTFA0NmlrUjN2MjhfR0xpTUpVeVF4dXQ2WUJlR1BCRGlNdWx5M3Eza24tclNheEU5Y0RPMjFHb1hLeDNlUGZSQkRONS1jaDJWczFVV2hMU1ltTWhFMmlpOXUzSVROWWUxZ3VvVVdVQ0k5cmVLdEo1aVZxSnlnYzBVRXJtV0N2Vm9lazNMUEFmbTBjUnYxTDZsb3l3SzZDaA?oc=5",
+       "source": "FOX40"
+      },
+      {
+       "title": "Phoebe Bridgers Announces 2027 “The Lost Tour” North American Dates",
+       "url": "https://consequence.net/2026/11/phoebe-bridgers-the-lost-tour-2027-dates/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Sam Fender Announces Spring 2027 North American Tour",
+       "url": "https://consequence.net/2026/11/sam-fender-spring-2027-north-american-tour/",
+       "source": "Consequence"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
