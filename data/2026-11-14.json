@@ -1,0 +1,489 @@
+{
+ "date": "2026-11-14",
+ "generated_at": "2026-11-15T00:13:37.469299+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 699,
+   "issues": [
+    {
+     "title": "KPop Demon Hunters to bring Golden World Tour to Columbus",
+     "summary": null,
+     "ai": false,
+     "article_count": 62,
+     "source_count": 58,
+     "links": [
+      {
+       "title": "KPop Demon Hunters to bring Golden World Tour to Columbus",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUUYzUldjSmpkVXdhM2pnRWcxNVppQnBia2E3VnlJdkFqSmhwRjBqa1pLN3NTX3M4Uzk3Nk1neHRzMkZpNVN5cF9PR21sOUZqTTFTMnZoOHpkUzFGXzVqTFUtSDNhWDlsc2djZzVKTklrU2FNVjlSWGxQSEhYaFYya0VXX3FuUGZXSy12bXZ4NUxQMkJhdFExVzVVSE9CYmNaUEpZR2FtQjJTa21kRXRqR0FBMndvRkNNUHZvNkVNbkVEVkJx?oc=5",
+       "source": "10TV"
+      },
+      {
+       "title": "KPop Demon Hunters Sets 2027 “Golden World Tour” Dates",
+       "url": "https://consequence.net/2026/11/kpop-demon-hunters-golden-world-tour-dates/",
+       "source": "Consequence"
+      },
+      {
+       "title": "KPop Demon Hunters Sets 2027 \"Golden World Tour\" Dates",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVlwTlo0dWUzWDg2cHl4SmUzYVgtVVkwXzNKUjZqRWVzam9uUTBxdE9SWUF4NklRVm0wZHlkYk9BeGFNWUxKVERFQml3Q2hTQ1N6enpFMUt4d0V4YnZQRnBkMUJJRzMwWXVrT3oweWFwbVhWYVBBb2lxUkNfVjVPYg?oc=5",
+       "source": "Consequence of Sound"
+      },
+      {
+       "title": "KPop Demon Hunters' 2027 World Tour Is Official, but There's a Catch",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTR2w4R0lZQ3VRbTVGd3NQeXhGQXpweEpRNFJ4NFd4TWE3MHM2Y29XSnlfSDBkekdNMHNYazNnMERMbUFURDZ1b1hGTEh0NUhHVXd6ZGk1TGVuTENsRWNmZmpCUUR0NzF1YlNN?oc=5",
+       "source": "Polygon.com"
+      },
+      {
+       "title": "'KPop Demon Hunters' to Embark on Golden World Tour",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNd1AzSll5Tk9mTXk1UlZzTTdxa3FRT2RKdU9sTVJTa1hvY0JZazFRNllHdFVWMFBVdXBsWlRqY3BpRjdrY25ZQTd3clNMUHYtTS1sLWpUZEREVXdfazJ0RUVOVFhOQ1JHS2dPVWlVRkZMcU5zalltMElGYUpWTmdnUzZ3a3VJOEhPVktZ?oc=5",
+       "source": "Exclaim!"
+      }
+     ]
+    },
+    {
+     "title": "KPop Demon Hunters announce GOLDEN World Tour including dates in London, Manchester and Glasgow",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "KPop Demon Hunters announce GOLDEN World Tour including dates in London, Manchester and Glasgow",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNnk5M1ozSVZTV0t0ZmJoSmlZdmZCeE9yUk8zZTEtRnRrMjVuOG11UTBQTWZSSzNueVUwTkNPQllQazNSN3VwUjFoSDBfRjhzdTVpRXpkODFKLXFRY1VUQjgxb2RMQ3cwTmw0UW9yQnVnaFF2NENTdzJLcjY5RUEwS2Zhc05kNi1RTExUY0dlWHc0Ql9NV0VOekRXTWZlUU5uVmI5M1RCc1k0V3ky?oc=5",
+       "source": "Official Charts"
+      },
+      {
+       "title": "AEG Presents And Netflix Announce KPOP DEMON HUNTERS GOLDEN World Tour Starting June 2027 with London O2 Date in October!",
+       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQR2dEcVc0bHVQVTc4bUlpdXdHX19iWG96cGYycGZUVjJJRGg5WlZXcFFmUUNWTXMtVHdiMmhoU3BrYnVkV0ZmeEZ6cTdsenRGblE4S1pHaGZNbF9NQ3NiUmFnMU9GSERzWU9qb3BPbkNRV2F3cVIzZmoxeFUtZm1aYk9ZSWdWMkVlOVh2LWVTcm9tbXc4T0R5QWltRkxydEJJVzRQdmpWUWwtMzBzZkxqWjVLNmlGbVZXWlRSQnJNYW1pUTBCVXAzaHJvMzl5UHhreF8tVVFsQ0lQZHlWdHVsUDJ3R3ZCYWZCMzFsVTVWeVN2Q00?oc=5",
+       "source": "The Fan Carpet"
+      },
+      {
+       "title": "'KPop Demon Hunters' goes global as Netflix and AEG announce 2027 world tour",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTmJUUVJNbGR6NUwxcWllcHAtVHk3M2ZLVWpLcWpDSFYyMk12b3doeEtENV9PelFOT2c1X2JNYXZKRWNQa3VsdGV4MjhoTXd6eEJKVWNmMUllRDZjS1phcHdTQUU3cUxJVVg2WmRlYl9IVTF6b2Ixak82YTR0N04tQTBUZ3RzZVRKSXIyNXpyUnQxbjhJMVVpa0psYUo5NFVvMUFBQ1JtVWFnTV9OZ1gxaVdETm1TVWdFSGlnR3RUSzd5cTlMc2VvNg?oc=5",
+       "source": "WNEP"
+      },
+      {
+       "title": "'KPop Demon Hunters' goes global as Netflix and AEG announce 2027 world tour",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM3lLa09KQWdES2dhUlczX0hMMkhucmQ0cmxpQTh0NVFYUVJzTTR2UzNvSmp2X2pxYlJvTzFjUVF1WnJfMHo0UGxHcXh6UU1lOF9tc1Qxb1lkV21LUE1QWEdoa2VzYldORUlfRTVSa1JSakJvUHQ3aTNMYkRlVktEUVQ2U2tpY2hadS0yazhRdm9ka0djeDVBd1BnZWk4N3ZKaGRNNGZXY250UVVnTGlWTGlQc2Njc0NVbEp6YUdtU1phQ3VzLXhWTnN3?oc=5",
+       "source": "kens5.com"
+      },
+      {
+       "title": "'KPop Demon Hunters' goes global as Netflix and AEG announce 2027 world tour",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS3h0TWJfNy1nRE9FTVZ1ZEJaN2dreHJhbUFFci02bTVlSUtSbUpWeWJYR1IyY0xESGhnVDg3cWhaWDF4YWI2d0hfV0dBcmJuMGdtbnQxNGV2QWVLUWNaRllLakNHTVNWbHo3U2d2czFWREc0RWdQbHdzaUhJd1hSOVNOQm5GRWxwekk1N0dvQ0RDeWN5Y0pfRHZhSkhObFRyRktPR3NqdlhyeTdLaFZkVGdTYnkwazlQQXBrSy1CZW5kZnEzeXlETUtn?oc=5",
+       "source": "THV11"
+      }
+     ]
+    },
+    {
+     "title": "FCC Confirms Start Date of Upper C-Band Auction",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "FCC Confirms Start Date of Upper C-Band Auction",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FSDlKaDRrMzJoeDZuQk1oV2JkaHpCMHFNLXYwVDdXbGxtNGFfMVUteThQZUpiQ1dELUp1UWtwc2pjbl9wSm9TOVU4MlpRRHJBaWFya2NMRmNWQUlTZjc5RnlSNTFfcm11YnpXUXU4ei1Hdw?oc=5",
+       "source": "Radio & Television Business Report"
+      },
+      {
+       "title": "FCC sets key dates for upper C-band auction",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2pxS2U5MzFYQUoweXNGTXJLanhsTHFqMHlGcFd1UlRrNDRkWDVZZU9iTTZES2pTY1RCbVZPRi02dEszdFp5VXpIQTdneGNYNlNud05SS1RMNFJuZV94N2VRUVZoaFJ3MFBvQ1RKaXc3V0ZQWWQ1TVpXeHBybGFGZ21jZ1BYblgtWlpJTC1vVTdoZm1ib2xz?oc=5",
+       "source": "Light Reading"
+      },
+      {
+       "title": "FCC Sends 2027 Upper C-band Auction Plan Into Motion",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYVZUQmVSaWNsb2hHdzdWSTJoYWkxUVN4dndUNHRxWWowcHl2TjBOYXBvQTRVaEtrZlJhZUZDRkdHZkU2Y1ZFX25DdGZCaUpWeVBaM1FaNzFEdzRMT1hzVkJud0txbTdQb01sWXlJXzlYSTRJYm9SV2dOUUU4UEFXUEQwM0k5RDMycjFNdGxBRkRTRkx0ckdVbWIwdU5lQ3J6RnZUV19JOEJrM3c?oc=5",
+       "source": "Radio World"
+      },
+      {
+       "title": "Upper C-band auction gets April 27 start date",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR2pSZ2ZNbExIXzhpVk9UZmVLNWd1M3hZOVZaOVZNbENzVmpabFRkMG5tc0U5ZFo5V0ZmdDlCZmo0VUNWbFYyT0c0bTdYbGVIc0Z2bzl0UTlxeFBOUDhyaUxhOUlFdFFxQ0hyMEhOXzNFN3d5ZGJmc2t6WHlESVdNNnVNT2pTOGx4UmtYaV9B?oc=5",
+       "source": "Fierce Network"
+      },
+      {
+       "title": "FCC Sets Upper C-band Auction Schedule",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBqcXJtTXQ1dGRyTmJUcjQzNzBTX3VEV1RyMmRUYmZRc2ZscHhmcVJ5UDFMRkJldEtONHAwYTFWc0xZbjBkR3JQOWhBbTZkT2MzcV9TUXBRWG5pdHJGMUx1MnJ1dkhlUHhpdzVXb2NQeXFqNDZFUnVfVHlR?oc=5",
+       "source": "Broadband Breakfast"
+      }
+     ]
+    },
+    {
+     "title": "‘컴백 앰퍼샌드원, 웅장한 분위기의 신곡 ‘King’s Way’ MV 티저 최초 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "‘컴백 앰퍼샌드원, 웅장한 분위기의 신곡 ‘King’s Way’ MV 티저 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kblYxZUo3bDlXQUZCaTc0N0JFTWVxTy1HbVJUNDVlR2VxOUYxSHFWQktGYnV0bEtTR2RVUEZyZHBHcjlzWkNSTHdxTG5jM24wQ1dtUUtjWkN5LWR3U203YmxCOXcxVzlUaExUNnA1QQ?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "앰퍼샌드원, 'King’s Way' MV 티저 공개…첫 정규 컴백 예고",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10TEFPajlhdEl0dU5kV2pMYUkwcU1ycHJvaGluZmZLV1pmU0MzSVdTVTE4ZXRtdndqd3lhbVlJRno3T0hOamRRWUotWWtScy0tbTl3OENFdUNqbEZVMldCU3RjR0h2Zw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "앰퍼샌드원, 신곡 ‘킹스 웨이’ MV 티저 공개…17일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pTDdFNUlfdW5MQ0k3VzZDN2JMQzllV21mbjVsNW1lNEdaYTZJOU4yWnFRRmZfeF9LOFdxUEk4d21pNHJDaVRkZVZ4YUt5aDRDVkx3dndiaG9UYW9acl94Z0Rn?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "앰퍼샌드원, 웅장한 분위기의 신곡 ‘King’s Way’ MV 티저 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GUVZhLUN3T1gzOXZRckNxMG9FYWdTRWhwck5keTAyTmlYbl9JMGVXSjV3R2czbldQcWR3a0hZd1BhLWFZRG44RVlBMm42OVI5UXVSUDE3bG1jMFc5elBxYzRLc0tlSV9JRUZn0gFuQVVfeXFMTjcwUjU1U2hqV0hFQ3NoWEtxTTJjNFVoaDB3U0JpZ3NQWm03N0Z3VnRfSC1wRHE4eWdoR3B0aFQ2QndOYm9rZG9kdlZoN3RtNkdQTEY1S2ZDZ242YWR1U2lCTVpwRTJWemhXNFVET2c?oc=5",
+       "source": "매드클럽"
+      },
+      {
+       "title": "앰퍼샌드원, 신곡 '킹스 웨이' MV 티저 공개…나캠든·마카야 작사 참여",
+       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQbUt6MmttRndKb2hIdmJOc3QyU2dQU2ZIUU51UXVHeVdwMl9wVkFCRWJyN0VQRjhSWmk2TVhRT2dLX21rWTNkdWZsWWp1T1cxZndZN2F1alJDUkFFRDRMS0pwbS1VVTd6ZEJYb3hGTzFRVVNhWU9VZXRYd0xFUTQyNzRBOEVxWFVUNWFJSk9SWlI2UE5DQTV6MnYxVGdsUkw5bGFHTEREZHg3dWNTZ3dCUURudm1kX2FiYjFRU191Tklqa3FGZ252NExueGdlSFpZd1RJN29oenNQVF84Z2stYlNSR04xclVORGdISWZYLW5RZHNjQVB2SW1vb2laaktqWE9v?oc=5",
+       "source": "데일리안"
+      }
+     ]
+    },
+    {
+     "title": "이찬원, ‘첫사랑’ 음원 영상 300만 뷰 돌파…식지 않는 인기",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "이찬원, ‘첫사랑’ 음원 영상 300만 뷰 돌파…식지 않는 인기",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tS3Q2MnFHbnBfdDBMZE5ab0lpU05VZ2VUenlGbDBFVnVMV0RWdDVRTnNPbXZSVmlvbVJJNmxtdVBBalJlaGIwc1haNVdfeXV3MFdaRGRSS04?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "이찬원 ‘첫사랑’ 음원 영상 300만 뷰 돌파, 인기 지속",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zLXVjRjh3QzQyNFdYQXp1ZWRhN2JBNjI5TVFrb0RKaE4xTlhFaWFhYXc5TGNUTC02SlE2LWZDLTZLT1lGTUxlaWE2MFRfclNEeWNvaXZNem5GZFAwMERwNy1JR0RBRjB4N1BuV29NX3o2WWc?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "'달콤 쌉쌀한 첫사랑을 노래하는' 빅싱어 이찬원, '첫사랑' 음원 영상 300만뷰 돌파",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HM3BENE9Ndl9PMVMwbEphRjE1Wm5HdFJ1ZmZTdTRGNGRDWmFadnVmaGRCdHhKQ3VyMnJhS0tra2tEbUJ1Y1cyRTduamdxZGZYcjJFR0tMYW5hUWJoeW4xQTd1ZTlhOUxyRFpPQzBEY2d1dw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "이찬원, ‘첫사랑’ 음원 영상 300만 뷰‥찬스와 콘서트 앞두고 인기ing",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1MLXRndGhXc3VIV1ZzRkRwQVRyMmR5MGxySmNlS0UtR1BPWDBtYVVDN3pYaGRQYlVUMWw4WVRzSUF6MHpFWENjb3lCaFlqSmF3bGhTOHRMRTdzT2I2bzJHRVlIWnNHaGpaSHBJN2xrOXdhdmQtbkZ1UHpqSQ?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "이찬원 '첫사랑' 음원 영상 유튜브 300만 뷰 돌파",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtQUxGNFdXb1hxS1hOTlAyYW01ZzNKMkcyTG9JYWxqTU5Lanl4dlJjOGRmbDRjM09NYU1VaW9hTS1RbDU1SXRJTnZoXy1ZaEFPUXdYbHpVSzZBb0VUaXZxN2Rfay1iOUctT3FPTG12Z04zMm8?oc=5",
+       "source": "스페셜타임스"
+      }
+     ]
+    },
+    {
+     "title": "Duran Duran drummer Roger Taylor steps down from the band",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Duran Duran drummer Roger Taylor steps down from the band",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NUGF3SFBzSWctaTlwMDBYdFFQelp0STdFenEwdHgzQWdzWmd1ZU5feXozMnY0Q3VCX2ZoYWcyMF95LVpzdEEwTTd3VnhLS181bkRDYmw1aWprNXZwcUNlQ2VQcGZCcU1HTkNPUUtkOEJvOFBVVGFkdFQ2NGllUQ?oc=5",
+       "source": "WISN"
+      },
+      {
+       "title": "Duran Duran Drummer Roger Taylor Leaving Band For This Shocking Reason",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR3M5UlFENGpab0d1eVQwaG5VMVFkVHNFSGR4c2kyME1WZVd3NXFzcVg0NXdRU1Y4ODBVb1VCeWk0Y0VQM21Oeml1QnZLWWNaaXR5WFNlamZNXzdXYUNYMFkwOG4xeW91QXJMaVNObHZYZmFLMS1rTnFtblpXTjBfb0kzUDJkZ1Q1bkN6ZXJ0b3NpRmpIdDJ2c3RwNHlyQmYwclFzcHJSUmU3cW5Vb01pNWVrS3ppQWNBY0E?oc=5",
+       "source": "iHeart"
+      },
+      {
+       "title": "Journey drummer Deen Castronovo steps away from the band",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUGJKN3ZjczBxQTFZRkFFWVlzM0I2NGpoMk9idUd6c3pqRndjbmRSRWhuSzJfQU12V29HcWlrZXJNYTV0bkJRSHdIc3dOeXduczRfeDQwZ3lXS210bWFXaHNhVnE2bS1LUlQwNU1iQy1LVkVCRW1uSWtMek56T3hsMTltaVV2Mkt6S3RnWkoxaw?oc=5",
+       "source": "The Music Universe"
+      },
+      {
+       "title": "Journey drummer Deen Castronovo steps away from band over ‘personal health matters’",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkdZT0VpQVA5SS13N0xGTnViVExDMjdaQnJUMkJLVUl2ZEk2WnFhTWNPQ0tyelo5dUQybWhmcFJsd0VqR1RNaG1TMmpUTlVvRlFkMjVQR2gwenZLbzZDeHdRdlRGU1lrckY5M1RPRVVRRm05YXN5TUtSdFYyT2VvUVRyY3JVRVFFYldoZ1diSHRjTTcyb0Rra0VMeTJTUmtHaExXbVZURHZ1NXczNGx2enplTEM5ZWRpczZ2NDhWcEdJS2h0dGc?oc=5",
+       "source": "Page Six"
+      }
+     ]
+    },
+    {
+     "title": "FCPS Band Director Charged with Production of CSAM and Solicitation of a Minor",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "FCPS Band Director Charged with Production of CSAM and Solicitation of a Minor",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdDVMeWRqb0FfVEhSbnhxWEdZSkdHMVlneFF2YzVMRm9zRnRQZXNES0pWQTlNMkJDT295M1lDRVBnUlNlenNlbDEzME40SW10WlpCdHd2MzZTM3h4d1hNUVhZdjlkZ1hmZi15VUw4UHVsbXN5Y1pXenNYNHpyN3ZuUWtUclNrcGNmQUlrTS1MTFlIRmJWZzg1VEdTMktZaEl2M0JBTVB6MDAzODBoQzlKdQ?oc=5",
+       "source": "Fairfax County Police Department News"
+      },
+      {
+       "title": "Carter G. Woodson HS Band Director Charged With Soliciting Minor, CSAM Possession",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQkJzbUVWYlVtRy1IMk1SVGRkNXd0QmJGX21SUmhMYWtUeTBLSGwtajdNN1lhQkxQSlNHbEQ0ZFhweUYyYVJGZ0p1MTQ2QW53YWNBVkFrbEp4cy03Z2VzQTdxOTdjN3Ywc1dYY20zN0puOEphWGZIWlRkTlN5TFBqZ0U0cUtQenN2Sjl6b0RhM25kU2FnV0R6M05USmxPT0JhOXFnYXpLb3B3SGZRUzBQWXZvRdIBywFBVV95cUxOemtsYXZUQVdnSXRBODVRSWVfb2dJY1NsQVFsUFFKTFJiSDlWSHdaUFo0YWk3TTl3LXY1ZFdsU2FqS2x2WWNUODI4T1J0dmlEeTVJSGdVYlFTR2x1cDVKc084UXp1bnJTa29kVUZ6WHQtY2VueG9xX1RleVUwTWs0OXNDZzJ1WF9uNlltb0JFQ1RvNEc4cFB3NFlmVk9IWnhJX1pjVjBFQ0ZGck1HQnJEVl9JQkJZSjlyZzNQZ25nYnhKcGFHdUJxMzV4cw?oc=5",
+       "source": "Patch"
+      },
+      {
+       "title": "Fairfax band director arrested, charged with possessing CSAM",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaXp4RWJBRWVfWmNOOXY0a3BFTGJjRWVPV0FvSGZBXzFRQWJWdV9SSGVpa2xENURJajZTVFhsaG1FUzhXTjlkTlFnTTlyWll0MVlUUUVGdFN5UVBnTjB6X09tOVREOEh5X0FJME5XRngwS2JnaEhFOENxb3NTXzY2Q21oaWZxSExQaEE?oc=5",
+       "source": "FOX 5 DC"
+      },
+      {
+       "title": "BREAKING: Woodson HS band director arrested for alleged inappropriate conduct with minor",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRktLbk95czJFU282MWZxaGpGUUJjVGRsR0dOMWtyMzVlRndicmFSWmpGWFV6SmFlcnFDWGZ4XzBlZU9aMHFkSnZlZFN1TEpZS2c5S0tDTUk2eWVOR1R5NW92V2x0UTFTcUFtOG9DRTBFWDNLR2YydVlsdnQtVGh6R3ZMMmFLZHk1Vms4OFQzbTZ5SUpFMlRLZTFsQ0pyTmY5a1dCM3BVanFMeTRLNjFYWEFrcGF2ZFRsa2FWZEFxcw?oc=5",
+       "source": "FFXnow"
+      }
+     ]
+    },
+    {
+     "title": "Grammy-nominated singer Alex Warren coming to PREMIER Center",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Grammy-nominated singer Alex Warren coming to PREMIER Center",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQkNRRUVWYXpQeEJoRjFsRHJoWGRDSVUxNUNRMmZQN1NuQTZkS2lDUzZKOGRoTjctTDQzZE44ZnZOR2lObzdfTzlHM3FvRG90RXZnamJtQ3NYTm4ydHJiUVhWSll4aW5iZ3lYcEVVTFdOX0NBbEZrakhIaDExaURjejllM2VqY0JURE9uN1pueVAtcFUydTQxYlJQSi1ET2hT?oc=5",
+       "source": "Dakota News Now"
+      },
+      {
+       "title": "Pop singer Alex Warren coming to Albany",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR1pRNkd0YkZEUFg5NUVCRExxeENDQUZkR1B3UGFGM1hzN2xJLXdXQ2xielhoSFBha2w0ZXNqaExyT2ZRWVJpNDdXeFNlazhseDM1RHFtVkgwT1l5MnlHZDNjdDRqZENURjFMMVRjRUJRLXlUWm1Vd0d0cXhqYkZrRWQ2M0N3cGZqUnNyRGxpVzBCWHJBSVFvb0ZMb9IBoAFBVV95cUxQQ2RMQjEtcmppZktfSk4yT1h1bHBqc2JYTGMwNFVqT2NJbmllSk9yVVJUelZwcnVmdFQxLUZUdF85Uk9vSU9DOXlnVFBzNENNaDJwQTVKOFJobHRvZVM3bmptOVE1bTRyWDBuSVlpbVZTS0FqX1FpYUdUWlZPTzllTzVmRlp2QnVZRnhFT3pUZzZuNEw5N1NUSG9udzRnYVAz?oc=5",
+       "source": "NEWS10 ABC"
+      },
+      {
+       "title": "Grammy-nominated singer Alex Warren performing at Kohl Center next April",
+       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOS2ZWSExjZFJnT09OOHdkbmhFMXNyaHRvQWFfRFdvLThlVVBoM252LVRYcHA3ZkliTUJMdWp2SFdEUjNpMlBRODR1R3BoLUhNQWFWWEVSVUg5SE8xcDlyMzhXa3FwZWJCcHpsaDAwNFB4Wm9XXzZhbkdwUFhqOGVkaUIyejBSc0c2MkJwcmdpaFdzZzJ5UjVfS0lia09uaFA0XzZoM2NHbUhfdTd6MDFuQUp2SDllYXNuSUJ5M2I3cGpkNnRaUGZ5VUtHUmxaVUloUGxkcjNEVGtXTVZveU4zcWg3cC02ZXlveFVYcnpKa0U3TWZiNXZF?oc=5",
+       "source": "Channel 3000"
+      },
+      {
+       "title": "Grammy-nominated singer Alex Warren to perform in Madison",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYWJWZHkyWVc4aksyb0tIZjk0Rm5YYXRsNFI2MXVOX2t4RDNrdURvRG1DQUp6cDF0TDlLQ0NyVXpoUW1RTjUtb1Z3Qzk3NlJIOXJtREx0bndYdFo4VzhBRFJkMF8yaHAtNkxTN1Q0WkpiRFRPNUp0blh6Y3BQM2RHQ9IBhgFBVV95cUxNNlpTUjJ0S3NwNlVwb0ZJZWUxM19nS0JIY082SjBtQ1BRNm9KWHFWOHdSb2Nfbzd0SkNFZ01KUFowc21aSDBaMnFUTThTZHJGREh3dWhYRlRJUlptWm10WnB6WlVsTDNkXzdPeXZxaWlHTHEwR3JOS0ZBR1dEd1VjZ0lxX2l1UQ?oc=5",
+       "source": "WFRV Local 5"
+      }
+     ]
+    },
+    {
+     "title": "Avril Lavigne Reveals Baby Daughter with Mystery Partner",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Avril Lavigne Reveals Baby Daughter with Mystery Partner",
+       "url": "https://consequence.net/2026/11/avril-lavigne-baby-daughter-partner/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Avril Lavigne Is a Mom! Singer Welcomes Her First Baby With Mystery Partner",
+       "url": "https://www.billboard.com/music/music-news/avril-lavigne-welcomes-first-baby-mystery-partner-1236381751/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Avril Lavigne reveals she welcomed baby in surprise announcement",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcTZYcGhnNXpuZllSNWs3RGoydFB4T2p4VXcycVpEZXk2WXpTTFlWZHZ1UWJVMkpsSnk4NWNlTjVlTkljdjFmZTN1a3lhVXA5N0ZxVUNsVF9iVGhQczIzT1pFOXd0Y1gwUERHbnUxZ0ZybFZtZE8xMzgyaVN5alk1WFlSRGV6WC02NE9zRXI1aXRUUm5WTFdaTkI5TnlLUFNXSThDdEJoYWJKT2JrSnc?oc=5",
+       "source": "USA Today"
+      },
+      {
+       "title": "Avril Lavigne is officially a mom! The singer announced the birth of her baby girl on Instagram.",
+       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQR0RWZUlPZ3puaWtJbGY1XzEtN0lwbUJpQTBabnY3Q0JpY0M0V2FPTVBncFM3VXk3aXdJelJ3czVjeTNQWENhWUtCQ2pIZEx5cXJ4Uzl3akFyNDRnT3BqRWMzU1c2YUhXWmZoeU5zenBneWxJa0IzVjVtN2hlZHZIcFp4aEQ3Rml2T1M4Tmc1SmZqNWc1eWMzWjR1ZjJ6U0pTNlVCaXZVT2hzVEo5UWp5UlZhMTk5SXV4UlFQSkt6OVZuTkUzM0dhMXdNMGsxU3dCYWVPbWdNSE52Zw?oc=5",
+       "source": "Facebook"
+      }
+     ]
+    },
+    {
+     "title": "IDK – “Welcome” (Feat. Eminem & Prod. J Dilla)",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "IDK – “Welcome” (Feat. Eminem & Prod. J Dilla)",
+       "url": "https://stereogum.com/2517907/idk-welcome-feat-eminem-prod-j-dilla/music/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "IDK Brings Together Eminem and J Dilla for First Time on New Song ‘Welcome’",
+       "url": "https://www.rollingstone.com/music/music-news/idk-eminem-j-dilla-new-song-welcome-1235657529/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "IDK Taps Eminem for J Dilla-Produced New Song “WELCOME”: Stream",
+       "url": "https://consequence.net/2026/11/idk-eminem-j-dilla-new-song-welcome/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Eminem Joins IDK for Hard-Hitting J Dilla-Produced ‘Welcome’ as DMV Rapper Signs to Shady Records",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUzBCOHl5MWJwMjItNWNkMERUNFl1ZXM3QTBXSW0ySy1INVQ1ZHo4elFTcHNmb2lBakp0WjM4RXVMX0NraFJ3UjZzSFI3SkxiazJGbDlmay1aWG5maVdIMmh5V1hmSXFDSDY3YzhEZ3pLanJEREhHNnprY2l6aWtQSEl2SmppRndUOHFWY1IzQXZiX3RXaFdIcS16TQ?oc=5",
+       "source": "Billboard"
+      }
+     ]
+    },
+    {
+     "title": "Hearts2Hearts社群貼文 - 슬플 때 나는 힙합을 춰.. ዽ ጿ",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Hearts2Hearts社群貼文 - 슬플 때 나는 힙합을 춰.. ዽ ጿ",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yRUhmMDVwdzlJSkE2OEozdy1BX3lvWjVadmVkRGFWd2k5YnZtZDNMaXg0dU1Zc3ppbkI3aFZPVVZBUWs1b3REemVzWDZnTzlCRmluOGdyM256VU9jQnplU1VhN2VwT1FvR2VIVkdn?oc=5",
+       "source": "Weverse"
+      },
+      {
+       "title": "Hearts2Hearts社群貼文 - 컴백스포..?..?.??",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0bWdsdDVRSF9uMmRhQWhrNFhFNEtHLUxKWVVzcVAzeDZES3NkQTBhLWxqOXZsdEFnZmU2dGVYeTU0MFBaYTgxLWVXUFVJN0pwQTJzLWpKQkdnYVZzeUlmZTJLZXRjQWNlZWRkYVV3?oc=5",
+       "source": "Weverse"
+      },
+      {
+       "title": "Hearts2Hearts社群貼文 - 르멘핑 진짜 곧 컴백.. 너무 기대돼!",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LNUo5N2QxeG5SZWk4aUpnM25abTRveUlhRTk0WkZBb2Mtb2ZfSWpoZmZkeU1oeldUSVB4TXJZeHhjdWRxa1BWQXo4TUtHLTJqVlNEV0dwWXdkRU1aOTNta0RFeE01Zzhad2lHSXFB?oc=5",
+       "source": "Weverse"
+      },
+      {
+       "title": "Hearts2Hearts社区帖子 - 르멘핑 진짜 곧 컴백.. 너무 기대돼!",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wYlotYm9EU255aTltaHlyanZWVVRnWll3RkVUTkxxUThmUWFKWDg5VVUtUmNsUzdmMVVPejItS2ZKRlVveTc2T2Z0RDF6SzJRZkc0NXNseGszekdpS0hXV0JKbXQxU2sxQ2RNa3F3?oc=5",
+       "source": "Weverse"
+      },
+      {
+       "title": "Hearts2Hearts社区帖子 - 컴백스포..?..?.??",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85NE5lOEpkTU9iNG5kQ3p4dlhVaER5bW5pQTB1dlk3bm83Rl9ZQ2pCR0dxY0dqOWxMY0hVZ256WXZsaGZLcTRPVzBSQl9YazhkZjJIMDRHektTZ29vam5xUjhoM2F0T2NNNUZMbjZB?oc=5",
+       "source": "Weverse"
+      }
+     ]
+    },
+    {
+     "title": "Hearts2Heartsコミュニティの投稿 - 컴백 많이 기대된다 홓홓홓",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 1,
+     "links": [
+      {
+       "title": "Hearts2Heartsコミュニティの投稿 - 컴백 많이 기대된다 홓홓홓",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BcFdPZE12aXpYNG9lb3EwcFY5V19XVjZoRnhLdmx0TFd6c1Q1NEo5dE1YdF9Yc3htMFdGUi14aVVsSVc4UzE5TW1NMmpBUlVUN0dUQlFSZUw0UGJlUzVtS2RmZXF0NkRFaUE?oc=5",
+       "source": "Weverse"
+      },
+      {
+       "title": "Hearts2Heartsコミュニティの投稿 - 주은이 빨리 컴백 했으면 좋",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FVWREdnJtTzVQajMxOXBzUjJlTTVVbmtwdk9DU1JuZlo4SFptTjIxTHdESHBfb2pVazNrLS1GeDVpMmhjczZCVVcwT3pTV3NRTmN1aDBzaU4walFMLTU2d1gyQVVLNS00Rmc?oc=5",
+       "source": "Weverse"
+      },
+      {
+       "title": "Hearts2Hearts社区帖子 - 컴백 많이 기대된다 홓홓홓",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yZ01IdWRValVaWEpmQ3U2SVMzaWtfUGUyTml6ZTdxcVNjaTFoYW5EUWNlSkpoYUFFazNTSWVkaWtPaFZMSEppTFlka2NxbmR2TERDSVBwa19oOFVBbUFRSFNUbFBUakFyMGI2M0ln?oc=5",
+       "source": "Weverse"
+      },
+      {
+       "title": "Hearts2Heartsコミュニティの投稿 - 주은아 나중에 컴백하면 주은",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2cnl0TG9remhaYmVfMl9WVW1UcjdQNFVzU3hUUUE3dFZzdE1KZ0tKZ0hBNXg1RW5pYk9UMDRkVWpPNzhrRUxrcEFVdmhhVjlJU2gzYzUxMTFMRWpUcEZ3UWpoUFUxZEFsQ1E?oc=5",
+       "source": "Weverse"
+      },
+      {
+       "title": "Hearts2Hearts社群貼文 - 컴백 많이 기대된다 홓홓홓",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aTW92U1NKb1M1QkNvVTZScVJzWXliS3NMUzhoTkRVMVd2UVJmaF96WVFDZUhGeHJuaGRtOEF2cVkzbzJzXy1TVGExT3VLclg2UWJVWlhPeE8xSEg5d3ZmQmhmclhNLWtMZHI0WFFR?oc=5",
+       "source": "Weverse"
+      }
+     ]
+    },
+    {
+     "title": "Melon Music Awards 2026 Winners: See the Complete List",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Melon Music Awards 2026 Winners: See the Complete List",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mSmFSdnZHQU9Yc1VXM3hmWHNaRUt5MExtMnRpWG5XbzBHbXNhbndBbW1Wb1cyWW1KejRocGc4TENZZkZldUNDZEVoVVMySjJWd010Q0lVdVZOeDMxdkRUMUVRaUp3bnVmVkFJOUhFWQ?oc=5",
+       "source": "InMusic Blog"
+      },
+      {
+       "title": "All The Winners From \"2026 Melon Music Awards\" Day 1",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45RWw5VnZGaHo2bm1rUnF5aXA0M3pFc2p5WmxmcXdsS3N4a1FORU4zOTNudERJZGc4WkRhcHpEUE1XamJMakVmY0p3VlRjYkUxR0Z4RXgzd0ZyWjZKa05TNEptYmpRdTBlUzJnU1gtZEJMTkc0UGU3VWJB?oc=5",
+       "source": "Koreaboo"
+      },
+      {
+       "title": "Melon Music Awards 2026 Day 1 Winners List: BTS, aespa Bag Daesang; ATEEZ Win Big",
+       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONlUxdTJWT0h1LUl0TWtUdDdOU1JPRS1zR1N1LXpoakFWNjgxaVFIRGdJenJpdkstN3dkYU5Gamd0aWZ3YS1keks3YlVKajRZWllqUGttQnhRaXBqLUYwaVlJN2c0aXhhV3RySy1aZ0toaEd2YkNWSGlXeHp6MDh1NlVlWG5oS2s4YXdDM3M5dUpMTjhsZTdGSllpN2VFcFhGNGo5d1ZZdUhCLURfYV9iTFFaSENfTjZ1YmxoMkRNODZKYlRhSG5UNkRQYkczQXZjYVcwa3ZJVXNZSzRqcW0zNFZSWndUd9IB6wFBVV95cUxQSmtwV3F3ekt3YVBzQkloOTdMcDhhSXRTdFRaU1ktTDBvUFZILXNqdElpRU9FM0VSRExyNzFXSUM5eGRJR1JibzNuMWo2YkJjMDBLOFFUaThrLVBzdWNkX0VsbF94UkVVQ1pXODFDMnJienhtWWJkM2VVeGt4NjNXMEJiLVhuSko2UDFCT3JKemVlWml2SE5zR2JfWThQblctOGRxMGxSZmZfcUhHOU5faVdUVlNMMmNCUWFfelc5QjNmQXA5LWdRdDlwUHQzSnNza0dKOWYwQ2k2Znl0ZzRTVEFuRWYtVC1VQ1Nr?oc=5",
+       "source": "Times Now"
+      }
+     ]
+    },
+    {
+     "title": "Sense and Sensitivity: Musician wants to balance duties with pursuing passion",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Sense and Sensitivity: Musician wants to balance duties with pursuing passion",
+       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQNHAyZkFXSW1tYUhqR0FKV01la3IzU2p6Y00xVDRKQ1ZmZi1XNTU5WVU3eHRtSnY5bDVOSTBHaWZnVHRGR3o1bmRmRkl1UUNRbFJ3X2VtLXg0QlFMWkdKTmhRT2FDMWpaU21YYTUxRENBU0JRVk10WVV5alhlLWs2NHlMaWNCNUVRLXpMRVJyRVExSHdRaG9pZEtMeV9VbUx6dkQteGhMbFAwQnBPUVI5bTJFOWZmS1k3akx4UnhUTWcxUXFFNG9iallzb1VSVU1FdDFkczA3YURoNHdrMXpEejBhMkNKZTFFUThTbm9zcFRKWV9EZkt2QWF2LVU2Ull0clE?oc=5",
+       "source": "reflector.com"
+      },
+      {
+       "title": "SENSE & SENSITIVITY: Musician wants to balance duties with pursuing passion",
+       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQc1RNZ2hSM3RUazRUOXB6QkRHOElEcmI5UUNaTmtnVUdMWktPQ3JjT21VNzRTb2ZSdWNFLS1aWkJFRXQ4UTdtS2hLOVZGaE42dG1RazB4M1NBeDk5R2E3MGxILXJVX05INlJETG9JY3I3TVJtcWt2cnFPOE0yemdKSW8wNmlXYlBTVVhvNGFBWVlsSDhXMTVpZGpNRUdDX0IyX3hhdG5EMkpZbUFoUDZJc0txZW1saWJQYnJQRjROR05NQkV3dG4ybTg2UXNaWklPQWUzcE9pNkRVekdaMF85LWUtSmEtMWQxOUZVeHkzNEl6QQ?oc=5",
+       "source": "Rockdale Citizen"
+      },
+      {
+       "title": "Musician wants to balance duties with pursuing passion",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNC0wRWtPRjY4bWF2eHZSbmw1YzBJTU1ZYy1QclhlLUk0Snp3OS1nMGdySDlGVWN4VHgxdlFtM3RFclFlRkwxTVlwQTlmQ09NNFBPMnc4N0w2a3ZXU3JsalNMTXJwMHZULTh1VVNKa0lkS2h1X2RSOTdRY3dWWnJBLWZLRUhSTFRKMjg3aXdHTjBBNDNiSDZFOHhWNTN3TWpiMzdpUFpn?oc=5",
+       "source": "Mon Valley Independent"
+      }
+     ]
+    },
+    {
+     "title": "uSMART Securities Singapore Marks Third Branch Opening in Bugis with Lion Dance and K-pop",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "uSMART Securities Singapore Marks Third Branch Opening in Bugis with Lion Dance and K-pop",
+       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQbVNyOWdKWW9INkd5b1FJRkhvS19QM3k2VDhQSHRvN3V0bm1ZUXA3ZW9ib3lVclZhX3JGcnc1aElJVmlFRUx0WE9DTmktcXhPNkdYNlVXdUVjZ2pJVUlyelFKaS0tRW56a3pOeEVUa0thejJBUndTeHd3UkJwVjk2ZjhGZERYUUtXR0s1NGdQd09jOVFmYmlKWlA2SWJVQ3NDbU14MmxuVUEwV1JTWUljemg3UnRCamRuclp1cG1BRi1sb3BEbDl4d3BOcUtoU0ZZSHRnYnRNQlV6RVhzb2dPaE52SEwwZE9lVERrc0k4U05CX1nSAfgBQVVfeXFMT0pPdkVUQTJHRUdHQTd5cktEaGgtY0hISHpzQ0pmc1FFWE5USTZNXzNGMmhDakF3QUR6c3NpUFIxNW84OGgtQ0g1Rm14cEZUZFMxanRXWDUwVjVYTFBYSVUzdl9UdlJBWHYybVpnX0FUMFJjUlJPczMtY1ljSnJFUFN5ZHZJREQyQjZXYld4NWlBN3pjbm16ZGc2WTlTQVVnS1cyOG9fTG1ZT0xfWjVQWnZvWnE4OHlSeFJuOTJqUFpTdXhtX1oyQWtIMFBLTnhjRWtQNHI4ejM0Wk5mMmQ5VF9va18xdkdYYVVuRVozM3pVZ1RwakhNOEw?oc=5",
+       "source": "The Manila Times"
+      },
+      {
+       "title": "uSMART Securities Singapore Marks Third Branch Opening in Bugis with Lion Dance and K-pop",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcTAyVnplbzJjRkpPaGwxdi1xa2tHaHBPWEo5aWFHYzh2dU0xVFdrT3JlZmNOdGNmaC1UVk9waXVROFlNZUNfUnFsSElPUl9HU2xkd1dpc2NFcVh1Z2QxLWo0ZUs1OHo2VElPbHFMS2R3UmFyOGFrQTFKVGk2cW9FbkM4bktWWW1vMTdydVNRUmg4WEVRejA1S00yZjZqd0RwTnNGRlpVZWYwUEFvNW92UWtGa1gwRWM?oc=5",
+       "source": "Macau Business"
+      },
+      {
+       "title": "uSMART Securities Singapore Marks Third Branch Opening in Bugis with Lion Dance and K-pop",
+       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNy1mOG9BNFRYRjU2ckM3WnY0S2JtUi1ieW43T1pzTzVmTHlhcDlWVTczOEZCX0swUmxpYUZEWEpXM3otUVNWMkNSdF81Wl9TQXZ1enZtaTBjX0tKTGo2ZGFnVko2SWZCRWplX1NiSlpTX1NpSktQZmpUSFhvVkhGRmpYNmlyd0RkUWV3dnJ6RGQ2ZnhvczA4SGRNaW1lVERSNVN5SFBWY09adFd1TE16WmUtd19rYkp2UW9kYjliY1JkdWxWVkhrT3hyM2pVQQ?oc=5",
+       "source": "The Malaysian Reserve"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
