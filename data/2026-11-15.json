@@ -1,0 +1,386 @@
+{
+ "date": "2026-11-15",
+ "generated_at": "2026-11-16T00:02:08.637722+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 4,
+ "llm_errors": [],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 619,
+   "issues": [
+    {
+     "title": "오크 리지 보이스의 베이스 보컬 리처드 스터반 별세",
+     "summary": "미국 보컬 그룹 오크 리지 보이스(The Oak Ridge Boys)의 오랜 베이스 보컬 리처드 스터반(Richard Sterban)이 83세를 일기로 사망했다. 그는 그룹의 대표적인 컨트리 명곡 '엘비라(Elvira)'의 '움 파파 마우 마우(Oom Papa Mow Mow)' 리프 파트를 맡은 것으로 잘 알려져 있다. 여러 외신 매체들은 그의 별세 소식을 전하며 오랜 활동을 조명했다. 사망 원인 등 구체적인 세부 사항에 대한 보도도 이어졌다.",
+     "ai": true,
+     "article_count": 16,
+     "source_count": 16,
+     "links": [
+      {
+       "title": "Richard Sterban Dies: Oak Ridge Boys Bass Singer Behind “Elvira” Riff Was 83",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPclJNNW81Q3dldlVkRkNNVnZMWlZ5YVNLVHFEVFhfMkNWT2ttLUl0a1V0djMyQU8yWi1kVG5fRy0wQlBMaXpHVHMzQ3NTNWJQTDdYUWM2U1BPUlhYdVNpYlB6dEJ1ZGlQUXYwZ19tdEdKYVZFU21tRG1nSmxlLWlTdmZpY1c0dllPRWxtVXR1ZlZNQQ?oc=5",
+       "source": "Deadline"
+      },
+      {
+       "title": "Richard Sterban, Oak Ridge Boys Bass Singer Whose “Oom Papa Mow Mow” Made “Elvira” a Country Classic, Dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNakJqbDBMWW9tdks4Uk5LVzB6QXpNTzdSRUk2MzBfMm82bm93bHEwRlotWU1iN0ItcE15WVpoTlc0enNnbG5lWmN5N2ZscXNCQkRMejMxb05MeFJDLVh2TWdQb28zOEFBVXhmUlFkMlh2Y2xMcmJsSF9jNzhOVnVsT2hNaE1TVGNnZXRFcWZfNWJ0Y2M1WEZ6STNrdDVxMU1sWnhFeDRnbG9VWlNCdEhVczg3QzRpUVBaSEJ6Uk1haTBpOGpIX0dRbVg1SUdqeFA3bFctU3Q5WFJYNzZZTkVWZDNR?oc=5",
+       "source": "That Eric Alper"
+      },
+      {
+       "title": "Richard Sterban, longtime bass singer for The Oak Ridge Boys, dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaWktM2ZxNERpRjRlbDBmbGd5cnJGcHMyZlFGNmh5TWpBZXVYVzNHUGppdnlUeXJxZV9DRUpHOG5tU2gtaWxCZnF2ZlkwZkdtczNKNEJPLTRRYnVBLTFmRXlsbnBKRWRkM3NfQ0M4WERaUzlnVmI3SE50NDRZVHdmMGhRRUFQbHgwWm5wOFhzMDNlRkRyR1NYazR4WmpJdTZWSTRkTzQ1UTFtWmhyWDZTbUcxOWVPUVNhT0hGamJGTmJOcWozZlNFN2FudlBIdmwxelFuY2lZdXJPa21TdDFpZVZWWnpPNDlveGZTZlRWZ0hFN2tzQWJN?oc=5",
+       "source": "WFAA"
+      },
+      {
+       "title": "Oak Ridge Boys bass singer Richard Sterban dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YV3JLUGU4LWlkQWVUSGptRUJ0TENsaDRIZjFEd1ZxWXJ3OXp6ejItT1hZVmIwOVpLTGcwT1NwMlNhSnp2Vk1jcE9ISmE0UzhkUTBLc2VmV1J2RVFkWmxDenJ5d0lyOF9nSUVHZFAtelI5eEJVdmd4dzJB?oc=5",
+       "source": "AOL.com"
+      },
+      {
+       "title": "Richard Sterban, longtime Oak Ridge Boys bass singer, dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNUN2ekx3VEhGdDBWZmt2bnl0N0w2TFpOMEFTYV9PTXBfbFgyRVFMN2h2MlExa1duMXVJc2FrU3ZxaVIwRW9BVEUzZ3dyTzh5aEROY05VTU9UbHVIQjVxWGRxSW10bXZmWTh1b2NsbWt3QThIQnM4MGdsbEZUMTdlaDdxMTZ4c3pPRDRuTjRBTHFQTWgyeHBB?oc=5",
+       "source": "WSMV"
+      }
+     ]
+    },
+    {
+     "title": "필 콜린스·오아시스 등 로큰롤 명예의 전당 헌액",
+     "summary": "로스앤젤레스에서 열린 로큰롤 명예의 전당 헌액식에서 필 콜린스(Phil Collins), 오아시스(Oasis), 릭 루빈(Rick Rubin) 등이 헌액되었다. 제네시스 출신인 필 콜린스는 솔로 아티스트로서 두 번째로 명예의 전당에 올랐으며, 트래비스 바커(Travis Barker)의 소개와 신시아 에리보(Cynthia Erivo)의 'In The Air Tonight' 축하 무대를 받은 뒤 기립박수를 받았다. 오아시스는 멤버들이 불참한 상태로 헌액되었고, 프로듀서 릭 루빈은 닐 영(Neil Young)의 소개로 헌액되었다. 또한 데프톤스(Deftones), 로런 메이베리(Lauren Mayberry), 피터 훅(Peter Hook)이 결성한 프로젝트 팀이 조이 디비전의 'Love Will Tear Us Apart'와 뉴 오더의 'Bizarre Love Triangle' 축하 공연을 펼쳤다.",
+     "ai": true,
+     "article_count": 14,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Phil Collins Inducted Into Rock & Roll Hall of Fame: “You Haven’t Heard the Last from Me”",
+       "url": "https://consequence.net/2026/11/phil-collins-rock-hall-induction-solo-artist/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Oasis, Icon of Britpop, Inducted Into Rock and Roll Hall of Fame",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TbzNWWkM5M3NJeDN3NzhEdXlhQmNObklHMG5ZNFlSbjUxTkZiYkw2c0dYVXlVaFRLMldzSGdkVjRoTW55RmVUR04wbmVUUnBvOW5JRmRSSHBZZW8zNnpQQmRkejBQbE44XzZlS1Jxb1AzQlpCWjFHR3o3cw?oc=5",
+       "source": "Ultimate Classic Rock"
+      },
+      {
+       "title": "Legendary metal band finally inducted in Rock and Roll Hall of Fame",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdG0xMk90Ny1DU24td2FJbzlEbDNRUW1oeU82dzhhSDRiVllRS21jWWFreVYzTzFlckNiSDFUdnlzNGxvUF9BSUI0ZGdfNUNFOExOMXJZYnZGR0tGRVk4dmxLMEJxZEt4enpIWW9DRnBOQi0zVS00dFNoanhCZWZWOUQzdkxpYWxGaFI1RjhRZ3lGU0ZzVFhIOWh5OGg1azdNRWVfSUM4QTVUYi1HM0taSHJVMUhvWWRYenpR0gHPAUFVX3lxTE9COV9BNXFPMXlSU1pKVWtxY3BOc0VtQU5Uc09oMnpkenJpeS1TN1YydnFLTFpKY21IOTM5R1YtRWtacEh6czJsdl9rWkgxUWY1R1pDWllJX2RBZmtjaDllNzVfaGVjQ2lVQUNHTHVBRDluTURybGowRHJvOEpHWGxRQno5NzZYUEs1UUVFUGp2b1Y5MFRkRkpUUkdxemNoNjBmc3Q2dDhURWsxcDFwR1NuS1JmYUZYSUk4Z2FhOVJ2V0pqcDVLT1hJenY3a3NmWQ?oc=5",
+       "source": "Syracuse.com"
+      },
+      {
+       "title": "Phil Collins Enters Rock & Roll Hall Of Fame As Solo Artist, Says “You Haven’t Heard The Last Of Me”",
+       "url": "https://stereogum.com/2518065/phil-collins-enters-rock-roll-hall-of-fame-as-solo-artist-says-you-havent-heard-the-last-of-me/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Oasis inducted into Rock & Roll Hall of Fame without band members attending — NME",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMWJKNG44RHVFSWJDX0prcG9tUHVGQnZmMlk0Tk5ZeDBXTHgxUEVtVlNOcV94YmdMV3EyUXZUbFNmYTluNVk5QzVxdWF3bHVMS2lHaEtVWHVmbkRWSjBvQ2d5cVJ3MEljVkt3T2VGaHYwZVJjUzdlRWFRMno3aHNtSDVCZHdXQmJBNkg1eFQ5YmpCbl9KU2E0cjZrWWdrVjdqb25ONy1FR3U?oc=5",
+       "source": "UA.NEWS"
+      }
+     ]
+    },
+    {
+     "title": "MMA 2026 1일 차서 BTS·에스파 대상 수상",
+     "summary": "2026 멜론 뮤직 어워드(Melon Music Awards 2026) 1일 차 시상식이 열렸다. 방탄소년단(BTS)은 시상식에 불참했음에도 '올해의 앨범상'을 포함해 3관왕과 대상을 차지했다. 걸그룹 에스파(aespa) 역시 대상(Daesang)을 수상했다. 한편 2일 차 시상식에서는 코르티스(Cortis), 아이브(IVE), 엔시티 위시(NCT Wish)가 톱10(Top10) 트로피를 수상하며 일정을 시작했다.",
+     "ai": true,
+     "article_count": 27,
+     "source_count": 24,
+     "links": [
+      {
+       "title": "Winners Of Melon Music Awards 2026 – DAY 1",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT0dIemQyQ1RCSjV3RF9rbEl2NVI5TjV5UUJwRzFmYnREcndoaV9jM1FzVFE1UVZ0YUFnc3NzV0ZLXzJGamktcTlsWUh1b0tjeHZSQVFKNjgyVk9TT2xxRWRnT2tNRV9QbVBoeURGb3Jkd25oUFA1WFNxMnhmNmRaa2dLblNqYkhTQ2c?oc=5",
+       "source": "Soompi"
+      },
+      {
+       "title": "Winners of the 2026 'Melon Music Awards' Day 1",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT2E4bEduMlhBQnlRaVFlNEl1Z1NSaDVvVHVDanBjc2pqdkZFbllUcjBzRFJFZUs2TXN1MjE1c2xxNkVyS01PcnJYT2JCcFNhS0cxbTdFdWJvOVE4MGZZbzNZT0wzUnlxN0JpSGtRLWFSVHMxYkZnTEpJMUp5Yk9QdVRVOEY2dlZZM0swVA?oc=5",
+       "source": "allkpop"
+      },
+      {
+       "title": "Melon Music Awards 2026 Day 2: Full Performer Lineup and Schedule",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYjFKNy1xVlJJdTRDUWpKdXdrVVdJQktXMnB2LUlLM3Q0NVVwbExoVUV6cW9rcm9mR1BsZWVmd3h0b0JPVUcxUExac29PVVR2ZmtoXzdCNHNFXzR0MXk0Smt5NjlYczk0VE54UEFFaXdoVDJvRGh2QmxsaV96LU9wT053?oc=5",
+       "source": "InMusic Blog"
+      },
+      {
+       "title": "BTS wins grand prizes at Melon Music Awards 2026 Day 1",
+       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTEl6dTVkcWJkejBCcVpmbnJfeGFxcFdNQllBVkNRQUZlVlNOT29uc3Z0Z2FUUDlJZjZvT1Z3YVlDazFuNDkxVjJ3c2lYWGVNS3NLLWpOT2NfOC0wZ18wdWstQjB6ZFBxWnhuNjRzWFpKelJYdVNvenpBVnFjZk92NmF3UDhKU1BkUTVaWjdCNEd0YlZLRFV6UXozY3Zka2w3NEHSAaIBQVVfeXFMT0xJenU1ZHFiZHowQnFaZm5yX3hhcXBXTUJZQVZDUUFGZVZTTk9vbnN2dGdhVFA5SWY2b09Wd2FZQ2sxbjQ5MVYyd3NpWFhlTUtzSy1qTk9jXzgtMGdfMHVrLUIwemRQcVp4bjY0c1haSnpSWHVTb3p6QVZxY2ZPdjZhd1A4SlNQZFE1Wlo3QjRHdGJWS0RVelF6M2N2ZGtsNzRB?oc=5",
+       "source": "Inquirer.net"
+      },
+      {
+       "title": "Melon Music Awards 2026 Results: BTS and aespa Win Daesang, Winners List and Day Two Schedule",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbUNaZjlubVJnX0s5bzZEaHNCMXRwT0lJcmdvM29YM0w1Z0p1cmYxeEpMOGRfOWxGSXcxQnlWQ2UwNmh2ZjlKNjhrdlc3ejZyVjhjRldHc3ZOLWp5TkozN1FlUFRKTHVFc05zb3hnV05GaGxhWG9LOVo3d2JCeTUwQ3E3RGVYdlZOSm4tRDBUZUdWUUlCOEVHVTE1WERIeUVVbi15bDJ5ODgxdVNaTGRVOW80U1FtVVNlLU92d2haTWd6QmZadHpnNg?oc=5",
+       "source": "Aktualita.co"
+      }
+     ]
+    },
+    {
+     "title": "필리핀 가수 카멜, 유로비전 아시아 첫 대회 우승",
+     "summary": "필리핀 국적의 가수 카멜(Carmelle)이 방콕에서 처음으로 열린 유로비전 아시아(Eurovision Asia) 무대에서 최종 우승을 차지했다. 다수의 외신 매체들은 카멜이 이번 방콕 데뷔 대회에서 압도적인 승리를 거두었다고 일제히 보도했다.",
+     "ai": true,
+     "article_count": 20,
+     "source_count": 20,
+     "links": [
+      {
+       "title": "Filipino singer Carmelle storms to victory in Eurovision Asia debut in Bangkok",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZjhrSUlXdU1pcU1jMlBlUDFCWlNaY1hSVURYZHg1UGJrdl9MNVg3b1NybHJJZ3NPRnNRQi1uSVAwa0tvRVpVNm5jc1pDOUFOTXZ0U014LW02N0otWmV1VUtlVnNrNkZFcTBDY2VnX3NxTjY1d2dJZVRxWUgzaHV0dnJtY2g4UlJac2Z0ZEtWUUQ?oc=5",
+       "source": "The Independent"
+      },
+      {
+       "title": "Filipino singer Carmelle storms to victory in Eurovision Asia debut in Bangkok",
+       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOSk9FTHVhaS0zcEd3VjFiNk00UWV6R1VySWtOQkNwcG1ZV1RFQU5CQjhhRFRUSWNvN0FySmRPQUJJc1YxWkh5djhXM19XSk1xQ192SkVBUkFEVjFnYkYyZFNpYmlFaW0zeGp2WkFZdXY1MktBcEQxd3E1blZ0Z0E4eEhHTnRWak1OYVdKVUFxWlFtNWZ2b2hKcHZkZTZMMVZsNjBMTUViUmN1eWtyN2JwSDlQa0JzeFFQNjd5bkl4QXhfUUtQMkNYRERiSzRpWlNlWjhWMWxuUzNvaGE0T1J6Zk9mdDBQVk9OY04tQ3pBRjNVU0JnS2Z0UndlZUdRT3I0RmJ2cTFQM2M0SFZlQ0lYNExhMA?oc=5",
+       "source": "Bozeman Daily Chronicle"
+      },
+      {
+       "title": "Filipino singer Carmelle storms to victory in Eurovision Asia debut in Bangkok",
+       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNX0tnVGN6N0VfdFYzRU11b1VyOVN0WllJeDFjZV8zb0NINWE1dmFQRy1Xei1ZWW95bzRoUk5SUXNQQnpVRndVTDY4VXZ1YmNzd01MS093ZTg0NEM4MW9HYnUwRGlfYXo0R1BwNUJnZTBaclNHR0xucWxfRDA1U3hXYlRpR0VjYW9MdzlwYy1UUzA0akRsdGpEMm1iWW11c2h5Z24zZnhvalkzRVJBcFdzeU9VeW9sTFZsZmJrQjE1LXJnZXZidG1nc2I1STJQNTA4ZHRQRTByWFhBTlpTcl9aMWNDMUlWQjhDeGZoRlNCMA?oc=5",
+       "source": "The Killeen Daily Herald"
+      },
+      {
+       "title": "Filipino singer Carmelle storms to victory in Eurovision Asia debut in Bangkok",
+       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQTC1HZ0RVZHVYT29mZmtEbHpuTXZiU2VNWWRWT2ZyU1I2UFI4OEZxM2xDelZuS3k2cEhsOXNhTWxJWDB5VUQxbG15b3lKSVpSVVNlcndXVkFaSUVWNTlEeUFrY0FjTmx3cTY4VENwT1A4bWtqT2JQVVlnTDM0VHdNdkE1UmdYM2RSZDVpVk1mVXAteFFtUmFPbDl2VVFaNWI1TDhlVTlkby1pVndHc3F1R2FwZkRYbkY2Tjc3amc3QkZCZ1YtTmtWRm5FcXdJVTlpMkpsYThRUE1pSXRfNWppRkhhSFZ4UkZBbVBJWG9fU0RfcGF6THpwb2pLNWoybk1W?oc=5",
+       "source": "News-Press NOW"
+      },
+      {
+       "title": "Filipino singer Carmelle storms to victory in Eurovision Asia debut in Bangkok",
+       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZnRSTzgwakdubl9BZmx4ZndlQmRxOC14aFo1U1h5STFSVVlPSmlrbk16T1NJMkxmOHpVM3lKTkhzTGpJNEtOVGN1WE5TOWJxQ2hKWktlSFB2VGlYbFlmdEhVbEpMU1JhUGY0UWdjOEpNamJXODZYMFRCdWpYLXBwMXN1bEIyaTROS0ZZWnVvREhJTnVHRWgzZHJKbGtsUmRvWXhUX0tXWHgwUEdnTHFmRlkzS0daeDFoVTU2NHVRZnBNdExaNW5SUVhoXy1wemduZDBwWDdMYzVsSU9PX1EteTQ0X0phWjdGYUdtLW8za0Vvc1Q0V0NSV0tYNVhURG1CWVJaTGNTUFQ?oc=5",
+       "source": "Herald Bulletin"
+      }
+     ]
+    },
+    {
+     "title": "방탄소년단과 로제, 2026 키즈 초이스 어워즈서 주요 부문 수상",
+     "summary": "방탄소년단(BTS)과 로제(ROSÉ) 등 K-팝 아티스트들이 2026 니켈로디언 키즈 초이스 어워즈(2026 Nickelodeon Kids’ Choice Awards)에서 주요 상을 수상했다. 방탄소년단은 이번 시상식에서 3관왕을 차지했다. 로제는 '페이보릿 여성 아티스트(Favorite Female Artist)' 부문에 이름을 올렸다. 이와 함께 제니(Jennie), 캣츠아이(KATSEYE), '케이팝 데몬 헌터스(KPop Demon Hunters)', 스파이더맨(Spider-Man) 등이 수상자로 함께 선정됐다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "BTS & ROSÉ Lead a Big Night for K-Pop at 2026 Kids’ Choice Awards: Full Winners List",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LaUhadm1kUXRQdjZTSzZueG9kVGd0RUU5U0xXNVZRZGl0R1poWDdaMUdDMDUwZmFRQWI0c09BYnJodnVaQ3BPb0hYV2l4VmF5TnNyWDVCNEdYbjluaTRfSVlnem8yUjFYMlFabEpKN2FRQmVpY3FkVkM0MmZSVm8?oc=5",
+       "source": "Billboard"
+      },
+      {
+       "title": "BTS wins three awards at the 2026 Kids' Choice Awards as Rosé is named Favorite Female Artist",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSXlLRnF4Wmp5U3A1NE9ldEpoV0Q4V1J5RmxyMXZTUDFFQ3BOQkFnMGpqcGhIdGVWdURUeU9yQVRrXzJOakNza0ZSM1p2c19vd0VkZlZNV0t1QmEyeXB5U202VzJ1UV8yRkNfWDRSekpNRF80WFRkUzlsTmNMU3RRblVDZlg4eVNxUGlMZEVaaG9oR29wZ25tOW9WY2hoWTFaYXJFX25OSWlWOTlReDFSbktEa3k5WnR6QzBKTk1JTi0yTXFPREVmS1lzZw?oc=5",
+       "source": "allkpop"
+      },
+      {
+       "title": "BTS, Rosé, Jennie, \"KPop Demon Hunters,\" And KATSEYE Win At 2026 Nickelodeon Kids’ Choice Awards",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVnkzeS1FT01KcmlxdUhSN0hvdTFBNHBJV0pQb05nNjJQUkNkZlg2RjktNExZSEJ1NG5xRENQbTZvZmdSRVc2TENFYjYtVDloUVNHMk9rVDJCdHlUbi01T0ItdF83QVhIMGxWVVpXdDRnMjYtV3pUQ1JQVnVuS3gtNi1jZlZ0OHNkOGVhcVVzM2RCLWJwa3BXSWI4Ny1HRXlCcHdXVU5aRnR3dHRQeV9OZ2t1dEw5NlBvcmZpMS1fNDg5bHpxZmpVTWlLYw?oc=5",
+       "source": "Soompi"
+      },
+      {
+       "title": "BTS win three Kids' Choice Awards as K-pop stars dominate",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55aWFEWTJWNkp6UUdxVkt0T1h0RlRIbWFpWmlIM01yakY5dHVXLXlFdldQdlVldDhMTG1FY3BPTmwtUGxFOXB0cFhIeXRCRk9TbmR2Q3dnM1RyVUotZU53cVA4a2E0dTVSQzdDRXRB?oc=5",
+       "source": "Kursiv Media Узбекистан"
+      },
+      {
+       "title": "Kids’ Choice Awards 2026: Spider-Man, BTS and KPop Demon Hunters win big",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wb2dBbkc1TUNJbWl5REpqSU1RR3hraTJLbkZqbnVwaHAySzluUHJJR1F5cE1QZFAwaW43ME00Q19xSHFCa0Y3RlVQNmN2VktuME0xSXJNRF8zcGI3Ulp2VzVn?oc=5",
+       "source": "IMDb"
+      }
+     ]
+    },
+    {
+     "title": "밴드 저니 드러머 딘 카스트로노보, 건강 문제로 탈퇴",
+     "summary": "록 밴드 저니(Journey)의 드러머 딘 카스트로노보(Deen Castronovo)가 밴드를 탈퇴했다. 저니는 카스트로노보가 공연 도중 건강 이상으로 퇴장하는 상황을 두 차례 겪은 지 며칠 만에 그의 탈퇴를 발표했다. 카스트로노보는 무대 위에서 발생한 두 차례의 건강 응급 상황 여파로 팀을 떠나게 됐다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Journey Drummer Deen Castronovo Leaves Band, After Second Mid-Show Exit",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNnVJMENFbVY0ekxXbmtrcVhzM1Z3MmJUQ0VsbVFwQ0JDQzltLU5RWDQxeDkwSjBJZl9lV1RsZWxpTk1vbi1rc0t3YXJXTjVDTEh5aHNvbHdILUh6aXFGN1VnMm9UZ0F1aDFTRkVPMUxTaUVCcHhmejVpNmJPaGVPX0Q2MHoxWHZBaWwtemdiYk56YVJRUlhTVWRWVlVwQXN6a0RiN3pn?oc=5",
+       "source": "Variety"
+      },
+      {
+       "title": "Journey Announces Drummer Deen Castronovo Is Exiting Band, Days After Another Health Scare Forced His Second Mid-Show Departure",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZllBVWpWbjlQZE43dkE0c3R5T0Y3VVlPYXhGNHlzakZUZHNGUmR5UGVBWDRQdWZMWXR2al9DX2didHV5bEpZU1hvWktmcTdoUFNGWFU1N3lZb014U3dHWUY1REk0OGRDMzBJb2lNbTZxdmx1SVVGeUtyTm9XejlQa3hIMGw5N1ZleXc?oc=5",
+       "source": "Yahoo News UK"
+      },
+      {
+       "title": "Deen Castronovo leaves Journey after two health emergencies mid-show",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTzItLTRLVTZTMjdkcFBHOEF1NFNna3NfbWNWbzNmUlBiRE8wQmd6djVCZjBrMGI5OVl5NC1hdGRxd1gwVjIwaGpfbHVVR3h4SUhRRm5rNkRZMUVDMUNzLUJGeG10eDlHcTdxRjlmQTNlMTNFVXk1amJ0aHVNUFZ5LTdhd1F6WTVZM1BSVmd5U0xMSTFGQUxsS2NPcTVLY1VOR2RfVjZSTkhFQWhBbW9kOEk0WnkzeHVLTE83WGkzWQ?oc=5",
+       "source": "USA Today"
+      },
+      {
+       "title": "Journey Drummer Deen Castronovo Leaves Band Days After Second Onstage Health Scare",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTjZNVjctREhRSjdiZ1RJeW5UQzFGaGQybEdXRk1qdDAzUmpDZXNQRFEyNmdrUXFKallHVk5Kcl9PNUhmSUFjcDZzYnNNbGx0OUF3Yk10bnhNTm5RS2VKTE1OWUp4UWZJUVhxelF4cWRCQ05YSnFRVjlybVc4ZG5qYUVuYS1INjlGYnFnQTJ4MFhvZDd2UU1jelBKTDVpcXJET3BoWHZYSXRndw?oc=5",
+       "source": "Parade Magazine"
+      }
+     ]
+    },
+    {
+     "title": "투모로우바이투게더, 150분간 신곡과 데뷔곡 등 19곡 무대 선보여",
+     "summary": "그룹 투모로우바이투게더(TXT)가 신곡부터 데뷔곡까지 총 19곡을 연이어 소화하며 150분 동안 무대를 펼쳤다. 투모로우바이투게더는 19곡을 마친 뒤 첫인사를 건넸으며 '스틸 더 윈드' 무대 등을 선보였다. 현장에서 멤버 연준은 1년간 두 번의 컴백과 월드투어를 진행한 점을 짚으며 어려운 일을 해냈다고 소회를 밝혔다. 투모로우바이투게더는 이번 컴백과 관련해 완벽한 폭풍을 몰고 와 더 높이 날아가겠다는 각오를 전했다.",
+     "ai": true,
+     "article_count": 14,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "TXT, 폭풍처럼 몰아쳤다..신곡부터 데뷔곡까지 꽉 채운 150분 (Oh!쎈 현장)[종합]",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8weHc0RlptUXRKcjBUYUFTczlJOVJrTk96cjlXYWFTRlQ5S1B0aEp6S2RJcUg4a09OTjl4MEJFTU90NkhnNzFkcDNwelUtdlRzR1dyWQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "TXT, 폭풍처럼 몰아쳤다..신곡부터 데뷔곡까지 꽉 채운 150분 (Oh!쎈 현장)[종합]",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQk8xaktnVGNDTF9JTWNjRUJWaDFFcUJ1eHhtd1Nkb1pxUDdwX19ZMkhVeUZ1RzRHVlg1TGJYbV9IcGJqeGNNcmVqemM2Z0JrZDdWOWlJUktIS1lGTVg2SUhpV0FkTlZwc0hKZl9YSmcxNlgzTG1tcHNwUThZN2JmZ0FXeU4ybHdub1dhakY1MFpUcldwNFE5YVd4Q01BMXFtYmRoYzdSTQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "[스경X현장] 투바투, 데뷔곡부터 신곡까지…폭풍처럼 몰아친 ‘스틸 더 윈드’",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWMG5CRl9vSWNpcDIyUzR1b0lXNkZIQWRfMGlqRXVsWGItZUZrOEY5X09qY2hROVpiNmZ2a0dLcVVXSTlNblRjRmpONGh5Z0hoRGlSVk1YN0ZhVGJRWnfSAWNBVV95cUxPbHpUenliaFBQQ2pBcFBqS3g0VVI3LXRyQjVNSE5mNE5jVEhhUDF3ZVVFSjNFLWV0aVpGNDc3MU1mU013YnM4UnpVOElxR1R2aDdmWDM4RVFMNFcwcG9sTXplVDQ?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "투바투, 19곡 몰아치고 첫인사…신곡부터 데뷔곡까지 '보는 맛' 꽉 채워",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDWUVRSlU3OEd3THBkOFA0S2U4UHNaRnRqOTBMdkw5bXh1MWwtcEYweXZCM2pFY3dqSnRWcXF2Zmh5aDhXakZQY0JXZE1GZEZLMGRkUHJ1ay0xU2F5dXc?oc=5",
+       "source": "동행미디어 시대"
+      },
+      {
+       "title": "투모로우바이투게더 연준 \"1년 2컴백, 그 어려운 걸 해냅니다\"[스타현장]",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTYWR2VkQyd3BKaDFUMGFRZ3NmQjdkVzA4Nl9tVGdINnZZYzZJcUo5V1d4dURkRUdralVJcDh4a0Q5UHFoSWdYUG9DYTQySnd1c0hENDFfdzRHOHNWSnBvemV1OUl2Q3YtcWxpODhtck9sby1M?oc=5",
+       "source": "스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "호주 밴드 택시라이드 창립 멤버 대니얼 홀, 48세로 사망",
+     "summary": "호주 록 밴드 택시라이드(Taxiride)의 창립 멤버 대니얼 홀(Daniel Hall)이 48세의 나이로 갑작스럽게 세상을 떠났다. 기타리스트이자 가수인 그는 밴드의 히트곡 '겟 셋(Get Set)'의 작곡과 녹음에 참여했다. 이 곡은 아리아 어워드(ARIA Award)를 수상했으며 1999년 빌보드 모던 록 트랙스 차트에도 진입한 바 있다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Daniel Hall, Taxiride band member, dies unexpectedly aged 48",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcnJkbXhmTzlHeklzVUVqOFhWVXdEZURhT3FNaUlDczBpZC0wVjlCY2Q2VC1MUHl1b2FNUEViRzBwN3VtY2FlNlY2cjVaT0NsMVBvSXBqd1NKUTMtd0pNZGtaSTNfUmY1d3hhNFVUNU9vMFVRWTY1T2w4QmphLWZUR21JQ3l6RTJHcDM1aXZkYi0tOHFtMHREaUhQdkhiNFRkLUJla1pMTkptTXJNTVZ5NEk4WUxkS0tMb1EtbEc4YVNfMjVpWWc?oc=5",
+       "source": "Nine.com.au"
+      },
+      {
+       "title": "Daniel Hall, founding member of Australian rock band Taxiride, dies aged 48",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRFdCcFZST1AzNlk0VWxzYW9KOHNNbVdVMU5MUmdZT1ZpRzltdTFlYi01dmxhdmQtMjY1cERRaW5TWTdyQUppQVM1b25ORlNGZ3ZDTVFuU2hIdm1QTlU3c1VjOGV3SlBxUFJnMTF5OEZqd2Q2Vmpmcm1fVmFaam9LYl9Ya0o5NjVIXzFIWENQcVF6VnJKbVgwTVVIYmpLT0g3Zll0djJlS2tPRjZnZDRVQ1BOc1hubW1vbHlN0gHAAUFVX3lxTFBNYkRQUTU4UXVLUFVRMzlveHRBQ2hzTThVeGJwR1cwcS1FaUZJamxsNVNzMmVHV3liVmZkMlVPUG5LRm5Id3lSX19CTUFkWm1JQkhETmQzdWsyU3d4cTN6R0NNaDU4ekMtdlcteDRCRnY1ZzZGVDlUQklvcDl4Ums4V3ZuaEFGZkRSM2UtbkZBQWRBeVM5TUc1WFptRW5yOGRyUHZubGVNMnY3SjA5VEZLcWhlOUgtNnpVVThwWG5rSw?oc=5",
+       "source": "7NEWS"
+      },
+      {
+       "title": "Daniel Hall, Co-Founder of Australian Rock Band Taxiride, Dies at 48",
+       "url": "https://www.billboard.com/music/music-news/taxiride-co-founder-daniel-hall-dies-48-1236382339/",
+       "source": "Billboard"
+      }
+     ]
+    },
+    {
+     "title": "GTA VI 사운드트랙에 라나 델 레이·두아 리파 등 참여",
+     "summary": "게임 'GTA VI'의 사운드트랙 앨범에 여러 유명 음악가들이 참여한 트랙리스트가 공개됐다. 이번 앨범은 총 34곡으로 구성되며 라나 델 레이, 두아 리파, 자라 라슨이 신곡으로 참여한다. 또한 제니, 아르카, 모건 월렌, 키스 리차즈, 트래비스 스콧이 피처링 명단에 이름을 올렸다. 저스티스와 마이클 맥도널드의 협업곡을 비롯해 테임 임팔라, SZA 등의 협업도 포함됐다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Lana Del Rey, Dua Lipa, Zara Larsson Contribute New Music to ‘GTA VI: The Album’",
+       "url": "https://www.rollingstone.com/music/music-news/lana-del-rey-dua-lipa-zara-larsson-gta-vi-album-track-list-1235658416/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Leaked GTA VI Soundtrack Tracklist Reveals New Songs By Lana Del Rey, Dua Lipa, Justice x Michael McDonald, & More",
+       "url": "https://stereogum.com/2518014/leaked-gta-vi-soundtrack-tracklist-reveals-new-songs-by-lana-del-rey-dua-lipa-justice-x-michael-mcdonald-more/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Lana Del Rey, Dua Lipa and Zara Larsson contribute new music to ‘GTA VI: The Album’ – see the full tracklist",
+       "url": "https://www.nme.com/news/music/lana-del-rey-dua-lipa-zara-larsson-gta-vi-the-album-full-tracklist-3975990",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "아일릿 '잇츠 미', 스포티파이 2억 스트리밍 돌파",
+     "summary": "걸그룹 아일릿의 곡 '잇츠 미(It's Me)'가 글로벌 음원 플랫폼 스포티파이에서 2억 스트리밍을 달성했다. 이는 아일릿이 스포티파이에서 기록한 통산 일곱 번째 2억 스트리밍 곡이다. 아일릿은 이번 성과와 함께 빌보드 음반 및 음원 차트에서도 성적을 기록하고 있다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "쌍복 터진 아일릿 스포티파이 2억 통산 7번째+빌보드 음반 음원 쌍끌이 흥행",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZ2VDZURCcjlaekllYXVwVElXNEQtV2lEV0lGYVYyQU1KUnhjZERpb3RKeHUyZEZJNWlGZlRXLU1lM0lVZlhfNWJnNEJJdG5aUkgyZS0xVDFDNDZfZGV6VFhpSTZ0TElh?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "[가요소식] 아일릿 '잇츠 미' 스포티파이 2억 스트리밍",
+       "url": "https://www.yna.co.kr/view/AKR20261115032300005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "[가요소식] 아일릿 '잇츠 미' 스포티파이 2억 스트리밍",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10bGwxcDFQYUx4dlVDb0dZUGVxM0RTZDZlTUlPM3pRWkZ6SXdveVpsdl9XSlRMemFhMDM0S25lNlh6Z1pPTHRVNzgwbm5ZcXBPM0x2dS1fZHZzTDczbVFhTNIBYEFVX3lxTE10bGwxcDFQYUx4dlVDb0dZUGVxM0RTZDZlTUlPM3pRWkZ6SXdveVpsdl9XSlRMemFhMDM0S25lNlh6Z1pPTHRVNzgwbm5ZcXBPM0x2dS1fZHZzTDczbVFhTA?oc=5",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "2AM 이창민, 보사노바 트로트 신곡 '어데가노' 발매",
+     "summary": "그룹 2AM의 이창민이 15일 정오 신곡 '어데가노'를 발매한다. 이번 신곡은 보사노바 장르를 접목한 트로트 곡이다. 이창민은 이번 곡을 통해 트로트 활동을 병행하며 색다른 변신을 선보인다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "이창민, 오늘 정오 신곡 ‘어데가노’ 발매…보사노바 트로트 도전",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE53VGJFaXBzQjJOdWY1d2QyQm54ZXozSTl1OG03bjVudlB1STN1NHBOQWd6WUpyRkxGeXUxTmtDN05aQ05pemlmdFdMaGRNTy1RM1JLUG5qTmhwV2tReEhCaFh4YWZvMWNZN0diX3RBQnFDZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "‘트로트 병행’ 이창민, 신곡 ‘어데가노’ 15일 발매",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RWHlDZWtJZmNGMy1mV1c2aWlodGoybzcyaTEwYWN3dFlJTE5yUHphbE42Z1dtakZSWmRpM29mMkc4SGVTazM5VEVWODk1V1ZF?oc=5",
+       "source": "문화일보"
+      },
+      {
+       "title": "믿고 듣는 이창민 15일 신곡 ‘어데가노’ 발매, 색다른 변신 확인",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mNTFBenhNeWpLMlJxVmY1alEwMnBVOUtyTWV5a0hRNGlGOEo3VEdGOWdFSzNyd1FpNkZsby1nUWVxZmVGcmdYNjJSMWJlMFI3ZXJXYkpfci11SG1OZ01ESTFRaDBkM0k4?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "이창민, 15일 신곡 ‘어데가노’ 발매…보사노바 녹인 감성 트로트",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lSERDSDhhck9heFZRNkZsMFJEbEZqM2g5LWVKQWtfdFBkU0tKZnBrLUV6ZGpkVHRUVHRpVndueG5MZzBxckhNTVkxaXhCM1Z3QVRHWGsxRjZlQTg0WTNVLVdKaGlHQdIBZkFVX3lxTE1lSERDSDhhck9heFZRNkZsMFJEbEZqM2g5LWVKQWtfdFBkU0tKZnBrLUV6ZGpkVHRUVHRpVndueG5MZzBxckhNTVkxaXhCM1Z3QVRHWGsxRjZlQTg0WTNVLVdKaGlHQQ?oc=5",
+       "source": "동아일보"
+      },
+      {
+       "title": "2AM 이창민, 신곡 ‘어데가노’로 장르 넘나든 귀환",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJM3dpaHVhMHpXMkZkQ19TM04tNlFYNzBiUXhmRHNxZ1FkRU9oLTFjc25uRlRCbzhLOFVFWHNULTVsLW5mOEJtRTA0cmZXRWhJeG1hYUFLdVJXYldSUXdOek1FOG1BT3JfQU9OYm1tQ3E5UQ?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "더보이즈 에릭, 첫 단독 팬미팅 성료 및 내년 솔로 데뷔 예고",
+     "summary": "그룹 더보이즈의 에릭이 첫 국내 단독 팬미팅을 성공적으로 마쳤다. 이번 팬미팅은 2회차 공연 전석이 매진됐다. 에릭은 이번 팬미팅을 마무리하며 새해 솔로 데뷔를 예고했다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "더보이즈 에릭, 꽃보다 빛났다…첫 단독 팬미팅 성료 - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ycHNUbHVpVHB0dGg0RXVueC15Tnp6NEcwREpoRkZpdW92VjRETVFhVk9QcUotZzlmMnZUVGdrNk5pMkhpYmoyeFZjMEdMZnNSS1VSMXJmM3psU3NHRHF6V2ttS2ZKNmo5YnA4SjJ3QVEwTmllUnRtOdIBeEFVX3lxTE9ycHNUbHVpVHB0dGg0RXVueC15Tnp6NEcwREpoRkZpdW92VjRETVFhVk9QcUotZzlmMnZUVGdrNk5pMkhpYmoyeFZjMEdMZnNSS1VSMXJmM3psU3NHRHF6V2ttS2ZKNmo5YnA4SjJ3QVEwTmllUnRtOQ?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "더보이즈 에릭, 첫 국내 단독 팬미팅 2회 전석 매진…내년 솔로 데뷔 예고",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51VElkeGNuWEJ3YXBxVGRITGVzSXhXdEtxT2xJQWg2UGFEc2p0dll2dF9jVUN0c19ucEJKTW9jR20xVlQ4ekNHSmNiUmNLN1l5dlFIRHl2QmNJSU9ac2VEeGtCeDVhdVR1WmxWeTJ30gFyQVVfeXFMUHRwZHlpdHVKV0dMQnVLZmJreVlKX3h2MFBHTUF0U2Ribk02OEZzSHJ1ZG9kM1NlbUlMajJSckRMbTRCVXFyUVJvb1pqdG5UdUZHVkxmNmxFVDk2TVdPdjhMYy1Rb2NrUWU3c2lSdno1WkRn?oc=5",
+       "source": "뉴스아이이에스"
+      },
+      {
+       "title": "더보이즈 에릭, 첫 단독 팬미팅 성료… 새해 솔로 데뷔까지",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QTFVYLUJ4eUp0OHREeWQ4LWMzSXFjMWZOWUpTSUVDczZ0RXljck5VTTZWa3BVM0FkX2p5WkZuak5RVTlMOU9BejBPME41MjBzRFBJazExYVRmMUtUbmdGRnBYeFFFd3VtbDVIcDlVOXk4ck3SAXNBVV95cUxNUExVWC1CeHlKdDh0RHlkOC1jM0lxYzFmTllKU0lFQ3M2dEV5Y3JOVU02VmtwVTNBZF9qeVpGbmpOUVU5TDlPQXowTzBONTIwc0RQSWsxMWFUZjFLVG5nRkZwWHhRRXd1bWw1SHA5VTl5OHJN?oc=5",
+       "source": "한국일보"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
