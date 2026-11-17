@@ -1,0 +1,542 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "2026-11-17T03:09:12.792249+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 9,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 863,
+   "issues": [
+    {
+     "title": "지스타 2026, 제2전시장 부스 공개…글로벌·인디 게임 집결",
+     "summary": null,
+     "ai": false,
+     "article_count": 19,
+     "source_count": 19,
+     "links": [
+      {
+       "title": "지스타 2026, 제2전시장 부스 공개…글로벌·인디 게임 집결",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nNWo0a1poYjBLZHJqa3NJUVoxUjBDZ2ZsNjcyc1hGczlWX0hnWlU3R0VRTzh5ZHdQLUV6UlB0MHMtT1dHQkl6TnI1TzRPLWpIeFFrTkR0clN2N0JZdlUtQnNQLWxnMF9RcVJSRWJJN0xpRUk?oc=5",
+       "source": "디지털투데이"
+      },
+      {
+       "title": "지스타 2026, 글로벌 게임사 5곳·인디게임 전시 부스 구성 공개",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnaVZqYjRyOGRYeHl2Q0RNRXdscldoZmd0Snk0Y0hrTE5wYTk5Z3BkdjZHX1JRZWVTc1VrdHJwSkhOdDliVl9BQzF6d0hhSENMVk96N2RwRWh3Z1FXQXZRblc1WVlTTmNQVTZWNA?oc=5",
+       "source": "워크투데이"
+      },
+      {
+       "title": "지스타 2026, 제2전시장 부스 공개…글로벌 게임 시연대 150대·인디관 스팀덱 체험",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRaW5xSlhab2VVdVFkXzUyU3pLYVJaZ3Q4TWdqVmQ5T2lsWXowcGtkeURCaHoteEZBWlF5ak9WYTduZ2xpTi11SEItMzlIMENSdUsyYjJB?oc=5",
+       "source": "지디넷코리아"
+      },
+      {
+       "title": "\"글로벌 대작부터 인디게임까지\"…'지스타 2026', 제2전시장 체험 공간 \"윤곽\"",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3cmNoNzgtWjVOMnA1d3pwU3JXV3dRY28yc0xFalduVDZSRU5FM3UydGh0dE5fOTVHeWcwcHFUR1NUQzM3T0dfTGFjTVBWc2xoWDNzaHVqeWdYOFBwdnN4ZXlyeGJMY254QUE?oc=5",
+       "source": "청년일보"
+      },
+      {
+       "title": "지스타 2026, 제2전시장 글로벌·인디 쇼케이스 조감도 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NdUhQQjY5MjRUUVdpcjcwcXpBd09FSFdfaThjZ0R6d1NuTG9kaHNOb05MbndmWlE4UlYtcFh6T3o1X0l4R0VpZ0l1c254Rm5fdGhVVUp6bG5XQzZVUy1uTkh5ME9icExqUk1TSUN3?oc=5",
+       "source": "뉴스후플러스"
+      }
+     ]
+    },
+    {
+     "title": "컴투스플랫폼, 3년 연속 GIGDC 후원… 인디게임 상생 생태계 넓힌다",
+     "summary": null,
+     "ai": false,
+     "article_count": 16,
+     "source_count": 16,
+     "links": [
+      {
+       "title": "컴투스플랫폼, 3년 연속 GIGDC 후원… 인디게임 상생 생태계 넓힌다",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mQUtGV0g2MjFqaG9xMnNmSWlHV0hzT1hIalJEYnFlekpzZWVTSktKSGNqOGZXWE54RHpCaXlkbFhULXA4R0JDejE4dncyRGFhYTAtZzdTSVNibHJ3T1FIYmN4WXBMUWpmX2dTa0dUUk5tQQ?oc=5",
+       "source": "인더스트리뉴스"
+      },
+      {
+       "title": "컴투스플랫폼, 인디게임 개발 지원 3년째 이어가",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9IcGR0Z2JmNHl4d3BRMDRWTFQ3cXpZcUlZQzRXVW9VVDdYclpJOXVHY0Q2OG9MM3R4WGZqd0V0TmZsLUlCZF9QWWhNYzFYcUNtWVVENm5ST25heC05VUkzTkVjSkhZVHFaRjBLbQ?oc=5",
+       "source": "경향게임스"
+      },
+      {
+       "title": "컴투스플랫폼, 'GIGDC 2026' 3년 연속 후원…인디게임 개발 지원",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1xekZGQUI0NnZ0c3cyeTJHNWF5eW5GbDlqZTkzaGRvOHJYVlZjeFhVWi10WHJrTXhBeGxlcm1XYjhDVXJ3SU1TdHpfRQ?oc=5",
+       "source": "아이뉴스24"
+      },
+      {
+       "title": "컴투스플랫폼, 인디 게임 백엔드 지원..‘GIGDC 2026’ 3년째 후원",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtNG5WUF9lZkRfaGdFVnVaQ01zZXlHNk5qZV9WRHFYVGFlMUxsT1NEQ2tibThaekhTclNteEpDZVp2VGQ3YXNzTlRjN3JGYU9Ma1E?oc=5",
+       "source": "한국정경신문"
+      },
+      {
+       "title": "컴투스플랫폼, 인디게임 개발 지원 확대… ‘GIGDC 2026’ 수상팀에 하이브 크레딧 제공",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3cURhN0NWcFBBVnV6djRtZU9tVVZhWEd0eDJ6c2huRHBkazJzRVhGdXJzWFFGc2dpMHJvSHM1Q1NVNFVueUdWX3laQ1pEdVhmeVJ6VkFwbk9lQWs3clhzY2lWSEVtcnBibzJialQxRXE?oc=5",
+       "source": "Korea IT Times"
+      }
+     ]
+    },
+    {
+     "title": "플라이 투 더 스카이, 8년 만에 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 14,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "플라이 투 더 스카이, 8년 만에 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Mb2JRR1RaVmhwZVJtV0RNWmt2VVJkVnMzR19kXzBLYXlyZjlacUtlVjYxWTlja3RudjEtOEJNX1dpbW5QQW02SFA4eVB5dDZNOWxOeVgyclhfWnZHZHlFcnpwNDQ?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "플라이 투 더 스카이, 싱글 ‘SOLITUDE’로 8년 만에 완전체 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YM0xJUi1UZGlWNE54el9lcXNqYjhiMVhubXM2eC01Umpwc2FtUFlwWGNXTU40WDV1cHBObXdMdzM3S2ZFUkFRUDV1WU1xdG1CZGhySUhQWTAtbUUzeFVjY2t3SmdTOEM0T1Y2MlQ3YnBxZw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "플라이 투 더 스카이, 21일 완전체 컴백",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8tMld2OXltMmhJaVNMSm9wMTB3NWJJQkZYeWNNLW9MTnBCTGFnUExfcUlia3hsVU9RVWlGZEU4ZWNTZ0xGZmZpZUM2MXRacTVhdlYza1pfdWNQZncyR1FpWDhXWThHbHFKS0J3WWRn?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "플라이 투 더 스카이, 21일 신곡 ‘SOLITUDE’ 공개 및 8년 만에 전국투어 개최",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VX2JCVVFDU0dhc1RDcWZrNkZENmprVHRqaFpndndJSFdya2dMY2tTYlpoanhCTWM5S3VNbzBadVFUMnhublVFX3F2Q1I0dEtJSnR4aVpWdHMtNFl3LThFa0VzVjI3TTJ6LUdj?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "플라이 투 더 스카이, 8년만 완전체 재개…21일 컴백(공식)",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZSENRWWRLdU1aQi1QWkx4ZDlaYzAwMFFXM3Rpc2NEMDdNSHczOHg3N0Y1OHV6aHJMQmtBaGtuVnFJcHczaEJMX2dEZGRHN28?oc=5",
+       "source": "조이뉴스24"
+      }
+     ]
+    },
+    {
+     "title": "Oak Ridge Boys bass singer Richard Sterban dies at 83",
+     "summary": null,
+     "ai": false,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "Oak Ridge Boys bass singer Richard Sterban dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1FKRF9BSGRZQTByWUNQWHY2S0gxU19CTVRLODh5dUtsTTlPd2Z5c3pjbDI3Rjd3dWJVOE5rTzZSNkE1Zno3YlBaZnkwdUxHdHZzU2FyYmZvVVh5dmxmZFItTWtwTTBUZ2hOeUlDWU9POFE1N1c1ZlhXaXFIQmtyXzhrV3pHRDhtbmJPb3FWWFJueWM1VHY0?oc=5",
+       "source": "East Idaho News"
+      },
+      {
+       "title": "Richard Sterban, longtime Oak Ridge Boys bass singer, dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWU9YcXZ4N0NtRDhQV3VCVVZBNjNQa21mMEFRWVJYLWlFUkZkc2NyVHZRZU83TllkS0NTckt6MUZYZVRIRUo4ZHJaSWpyb21zeFozQUdfVG1kQ1kydWZLN3pELVlLRmp4a2FUUTAtZ2FDeDUxSng4SUFRSUNEQlRRV093Vmk0dW5TcjhJMjJYS3hDaTQ4MUJBREYtd0g?oc=5",
+       "source": "News Channel 5 Nashville"
+      },
+      {
+       "title": "Grammy-Winning Singer Dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYXNfMlFSc1BsUFZiUk4tOFpoN3BfODlEeTByNnZ0TlZfbXFHMHRwVkRIazRSSE5BUEJMdFYtblFOc1hFWVh4TVZzN3ZyblMtX000dVBtN1lFVGpZQW4wS1FET09FSnQwMk82MXZscTdEckNyNTB1bkFPZ0pndG01dGxKY0Q?oc=5",
+       "source": "The Daily Beast"
+      },
+      {
+       "title": "Richard Sterban, Oak Ridge Boys singer famed for 'Elvira,' dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcDFpTlZoYWl1T0ZwRXZTSjFON3RyR0xJWE5GSVF3dTRlbEI4TVU2M1Mwc1ltWnJWR01lWkY4NGkzRTFvRkNscEVSSTlqbDQ3blFyaXlEa3FOdG9OU3Y2OWdkNnBqeVdxYzcza3dKcHJFQjRqdzVkUFNLdEVNdTVzV3hwYXZwUUhScHVLZ3Jma0JnejFyMlNvNnhnNkl2UFNPWUxxZUNma055U2VwaTJuQmphZUhDbE5f?oc=5",
+       "source": "USA Today"
+      },
+      {
+       "title": "Richard Sterban, Oak Ridge Boys bass singer, dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeERpMnBhMEVELTF5aEpBZ05lcGEwU1lpRDhNT0lpWXl5OWs5NUNRekxMRHpHSUs3Y0x0am1SRFEza01WZ2pyOE9NUmJoWkJFZEkxQWlfT0dMcFB1eFB6NkhjV3YtTWlaanBObllTSzZNc2lMZ3FyT0Q2RjJFUXBTVENwYUNDYndKa0c0MFduVkNScXE3eVFtdEdUWlg0a3pQeV85SXBRNDhQYXJCTTVQYQ?oc=5",
+       "source": "Dallas News"
+      }
+     ]
+    },
+    {
+     "title": "키스오브라이프, 'Greedy'로 데뷔 첫 겨울 컴백…윈터퀸 도전",
+     "summary": null,
+     "ai": false,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "키스오브라이프, 'Greedy'로 데뷔 첫 겨울 컴백…윈터퀸 도전",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qVE1JbTJhcl9QczhzQ0ZrcERXNVhUTmpRSzZNZWxCT2tQU2xzbUNhRVdGRGRzVGI2N0VOb2R1Uk1ubzFVbjdqUlNxazdkVnl2TWZfM1JyRDVnd3lLX1h3cXI2QS10dw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "키스오브라이프, 여름만 노리는 줄 알았더니…데뷔 첫 겨울 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56dGxmZUV0d29fdkNSUUtWbGNrTGZiTnoyQnIzTlpBU2t3TVd5QkVTS2pfNUVWM1EwSW5QYTBnNFdZVUVaVFlCWkE5TXppZnZRM28xa0pWOGJMSFU?oc=5",
+       "source": "텐아시아"
+      },
+      {
+       "title": "키스오브라이프, 25일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3XzVKRmplZDJnQWtoS0V2b21SYko1ZWcwdEJfM2tlcFJCMXo3RGE5T0hnczlFWjBiSE1PbGVVUV9nR0dZNVVPM0NRc2FCZlRiM21mcVJ1Y1FOdE5uMFdJdDV0dkU?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "키스오브라이프, 겨울 컴백…신보 'Greedy' 25일 발표",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iMEc0VUxHT2VoUEd4empWWFAyY3JQRkV2RjJ5YVhWWnFqSGwzckQ4UnYtaXFWSmMwX1lPUUUtX3UtWmhoZHhsOWI4UXNLUDR3cG9OZng4TTZ6ZVIwZjF6QUlZS3JhcDRNQ0haWDhEX1BxZw?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "키스오브라이프, 25일 데뷔 첫 겨울 컴백…'윈터 퀸' 도전(공식)",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TTzNCcmRqWE9tY3VYZGNKWUNodGFJT3cxZkJOb2pRckk0ZkZQbmpEdTFiWTlyX0s1U0VSTU9FZkZoZTdiY01ydVdXWDlkUzg?oc=5",
+       "source": "조이뉴스24"
+      }
+     ]
+    },
+    {
+     "title": "가수 '사랑의 하모니', 계양구에 자선 버스킹 수익금 100만 원 쾌척",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "가수 '사랑의 하모니', 계양구에 자선 버스킹 수익금 100만 원 쾌척",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzdVJ1UERNdVNCNnRpZGJMNTFMZDg3TW1iVnh1RWFpMUJVMm5nb21lckxPRmxrMEVtczZUMUttb1RVd29RMGFqVGQ0aEgtRUVMeGF0Nm5FT003OWtQbkdtRURaaGo?oc=5",
+       "source": "중도일보"
+      },
+      {
+       "title": "계양구, 가수 ‘사랑의 하모니’ 버스킹 수익금 100만원 기탁받아",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55LXNBMlZEWTNIeGZNMkUtNTNXbTdjQXlqU2psQWhGZE9LTTlZQnJaT0FqdW84a1pSRWRZUV94SmNLUU1XUEVWNDBPR0NHMzB3ejhUa204MDdqSlpQb1ctMm9UREdkN2Q0Q3lrXw?oc=5",
+       "source": "전국매일신문"
+      },
+      {
+       "title": "인천 계양구, 가수 ‘사랑의 하모니’ 자선공연 수익금 기탁",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zQmExaWM3UzVBekVRLVNFUDNsX09EY1JmSkFlb2otRmx6VU10UWpxQ3dDOHZzR0lxMmRwLWJLY0ZWQ1R4VFppV1pQNGhjTlJXUE9zOXdtN0c0SHFyY0lBclBwbHM?oc=5",
+       "source": "매일일보"
+      },
+      {
+       "title": "가수 ‘사랑의 하모니’, 계양구에 버스킹 수익금 100만원 기탁",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RN0YzYmVPSnltNlFpUlo5ME5DN3NXYkJ0aHA4RjhURm5lRXhtY3dTcFBYcmZRbUVlN2lPZzFFQXdaakMwVXpzeTExRUxPTUpWa3BOVTVpMkFLemlaSG1iNVdxajRLdw?oc=5",
+       "source": "뉴뉴스"
+      },
+      {
+       "title": "가수 ‘사랑의 하모니’, 계양구에 버스킹 수익금 100만 원 기탁",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LOWRlZXdMbG9mTE8ybGw4R1pwRWViVXJDV192dTZBbnQ2ZTFmU05Wa2NGc0tmZkpPX0lWY2RNUUxQTDJMbmF4eENybkNabG9NQTliaVlNb0ZSbEMzRHVPSENZd2VxMnBmUFY5cGVB?oc=5",
+       "source": "중부일보"
+      }
+     ]
+    },
+    {
+     "title": "‘죽어도 아이돌2’ 오늘 첫 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "‘죽어도 아이돌2’ 오늘 첫 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBveFF3U0c2eFp0OV9aQndRajBUU2Jlc2hsZjhmOTFIQkFlMzlYOFhxVnhaT3FJaDVOTGpNcUV0cDhNa3MtVUdXNlk3ZzJrcnEyMFprVkFMUm1yOUlJY3FuVFZQR04?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "‘죽어도 아이돌2’ 오늘 첫 공개",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qNC1CLXJ4S3Q2SlJDTkVVaXRPMjRxRUw1bGFSUHpka3RFaW1tbWd1VnRwaHNPUEFITWJsTGw2eFZwemdONk8td0xJMGpySXFwd1FpazBjQ0ZwUHBEVzVlZ3BoNFpZZS1MeGo4cw?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "'죽어도 아이돌2' 오늘(16일) 첫 공개…매튜·루카스·사무엘 등 데뷔 재도전",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JbUhDTUthSEJ3aHg0RmN1UG1LdEZZV016WU9vdUhXQ2VhX3FKMEQ3am1QZE53UXNSNnBZX0kyUVBvSGtEd0ZDVGFuUEZIb2xUcVo2eE42YzNYdVQ5czV3c3hFVU9TZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "'죽어도 아이돌2', 두근두근 공개 D-DAY",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMcjRhaDhhaVNrQ0Nxd3ZJSHp6OGwzM3k4R3ZDVE5wbTNoYzNWazh0ZzRLTENBZ1hKRlpNdmhkTEdCUjVKWUN6YmR0UzQ?oc=5",
+       "source": "전자신문"
+      },
+      {
+       "title": "‘죽어도 아이돌2’, 16일 첫 공개!",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9CMnJJYjJwZTRiWDhlalFOM19vYTBzelRYeWY1ODBVRTY3andyd21KT3NnOWdGcmFkS0hCOVRXX1U0cnBJNm1GOFF3dk9sNEJpa05WYXVsbDF4RHhIcGfSAWNBVV95cUxPMnJqYmJNLWFUd3JFQm8waGpmNTJGd3hGa2NnM21sdkdCSzVwOXdIRWZiRWY3bVRUaV9pNjg4ZVQyTERROVZ1UjdFLXJtV0dPd3JrbUh0TnJNUlJFc1lrNXVvZDA?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    },
+    {
+     "title": "[Official] NCT DREAM Achieves 11th Consecutive Million-Seller Status, Celebrating 10th Anniversary Milestone",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "[Official] NCT DREAM Achieves 11th Consecutive Million-Seller Status, Celebrating 10th Anniversary Milestone",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zZzhlS2VIR1N4WlhZTU5kdHdYN2ZPS2psN3EtR0FZbTdYRWJlRC1TMUJpdnJWbnl6MVJUNFNmZjRPbVdWNW5lSW1oX2EtZHhGSlFzMGRZYUxKMmhWMlI4OWtVendFQ09WcXRLUWIyZXQtNkR1RTJQRw?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "NCT Dream, 11 Consecutive Million-Seller…\"Regular 6th Album, Achievement for 10th Anniversary\"",
+       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4yY1FKWnQ1cFM5MWlXd2lXN0JtR0twdnAtVXFTTmtwUFI5bEppS3N0NnJLd1JZZlNrXy1XRmttcUFjOHUy?oc=5",
+       "source": "DIPE.CO.KR"
+      },
+      {
+       "title": "NCT DREAM hits 11th consecutive million-seller with sixth album",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMEFrLUw1VTlDX0RxR1pnVGNXSUZsLUN0YlI4d05rZVhlajgzTVhLejhMUkxRdVdXcGFaVGhUUF9BbGZvZnN6dmZJMkt2OXpMOWZIRWVUaW5kUGtUZnAtX3NjSWx5WjFGYlR6VUZrLUJQdUNwN0Iwc1VrZFNvRWwzVWlZTHRKaFpw0gGcAUFVX3lxTE85VFVpcVZKRWFJMWRhdXFRNDhVRldvUzBDYmgtdVZZREZJcWRSbFRvMGFTdkQzcjRON1lSMlZ4Wmt2RTlnelM0OGhrS2pGRW5fZjdjeWtEdlYteEwxeUlSOV9PNWlMMXRoUW5neE1tQlluQmF6Wi1hUkZKR2ZlYnpuNkJGN1JmM3Q2aEQ2SFZsbWxCeUhXRXduczEycQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "NCT DREAM Achieves 11 Consecutive Million-Sellers with 6th Album",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTzU4Z1pyd0t5ZnVMekU1alUtTEF0bnVWR2c4MDVhUVN4bHlaa25lWUhvRnRiNEp6RFdQd2hzd09Td1VCTVR1UUtnZnRzMENBcWNzX1VHM01tbzU5bXFGczJDNHJIMExDWTVGNGVvaTdaQkRPWnp6N0NzUG9vMEtQLXNwVkFpY0JzZ2ZBY0JB?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "NCT Dream hits 11th consecutive mln seller with 'Dream After Dream'",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wZEtpT1Z5c3JlYVMwTWhuN3NFMFBFcU1sM1h0T3BfS2RuYWVOYUw5bkMwRlV5SkJjV1kxRXlvNUYxdVlRSkNvQmRRd0xfel9PaTFpeWN1WjNiQQ?oc=5",
+       "source": "Yonhap News Agency"
+      }
+     ]
+    },
+    {
+     "title": "걸그룹♥야구선수 부부 탄생…'귓방망이' 배드키즈 연지, 강동연과 12월 결혼",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "걸그룹♥야구선수 부부 탄생…'귓방망이' 배드키즈 연지, 강동연과 12월 결혼",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BTzRUOEJYVHZQVjFxamFoc0pmakV0OVd0RHg2eWJvWHQ4UkhjdUlmUUM2QnowdVVXTUpyZWVqdUdKVTJuZXoydzUzZXFWT1dLWGxIQzl5N1drR2ctalc3bk14VXMzcm5DZUhjSmlKY1o?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "걸그룹♥야구선수 부부 탄생…이연지♥강동연, 12월 결혼",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdllXRUpRX0E1MVhUUlZ0Y0VhbU1BTnpqc0ZVTjQyREFsMXZLVS1mQXF1Q2JsNVphdmF2Y3ZxRGp2QkpEblF5UXBpMlhmVGRuRzBMMnl4Wk5WRkd2ZHdraGE0QldyNXYtRHdhN2JPdlk1TWFYWWUwMFNUWTR1Z05IVExKZ3E?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "걸그룹·야구선수 부부 탄생…배드키즈 연지, 강동연과 12월 결혼",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GY25ZMjJBaWNnV3R4dkZKRkoyTUZ2d1pXVzlxOFFFV29WUVI4OUROV2hIOE1NbmdQWVNKM0J5SFVTN0RLQ2F2N1AzbHJaTlhwN1d4WA?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "걸그룹 출신 연지♥前 야구선수 강동연, 12월 결혼",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa2VmTjlRbHR2eUMxdUxvU3JWZzgwSzBfb0NXRzBLbVJqcHZIMEN4UWZlc1ZnUDlPWGY1dDFKM3ZUVS1ucFhwRnppSGxHaG9idXVxYkxjUnEyOXRfVnVSeFZxVDRkWnlGdXE0Y0E1OEswcHZLTHk2QlB1dHNrVWthUXd0UHLSAZgBQVVfeXFMUFQ1RzFCMVBNYTV3ek1hNDhLYUNXb1N5MFFSUDgxNUdjdkszRWFzbnFBaWo5b2ZoN1AteWFqeUNscHFNMHZocThGMnkzR29EcWlSakVlQXF6MXlDUUd0TkJGbVlMMzU4V1ROVlBGWFZiTk0wLTZwUlE1c0VPWmlkYW9rbVVrWGthY2ozYjFIdHhDWGVJU01qMlg?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "걸그룹♥야구선수 부부 탄생…이연지♥강동연, 12월 결혼",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcGJMbjBMUVhhTFY4emhIWFVRc1RwX2dGd190VkJIZS1SaGxrUEVnOW5QaUlUdjRKUTdzbFpfcmRpS2RuYVluUXRNTVRGT25Pa2JsRWQwLWJiWnE5bnJjMzhua0pScUVzRnUzVEpHZXFkQW9sZGtGN25VNHFicldaNWYxam93S3UwMUNxYXRVZ2M1d0dl?oc=5",
+       "source": "조선일보"
+      }
+     ]
+    },
+    {
+     "title": "다이나믹 듀오, 오늘 신곡 ‘하라는 랩’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "다이나믹 듀오, 오늘 신곡 ‘하라는 랩’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tdy13QV8xVnU0bUVhdnRxZE4yblg5dEo1UmREekFfU0F4Z2k2Sm1xU3Nza3Y4TjNBWWR2dGJ5SXpLUXc2SENPQkpleE1zQWtYOENmV1E5TFByUkNRYkdER0l6V1U?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "[문화 이슈] 다이나믹 듀오, 오늘(16일) 신곡 ‘하라는 랩’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1LUc1NHJSS2JTLU9nd0RJZXJtcHc1dmFDY19nYXFCeElaUUZsdVYzTS0zX0REVmNNU3NuTWJlSjhyR1p2STk5ejd6MWM5SzN6bUpoTkVYLUVMM2d0bXc3bzdZbmJLT2lsWmg2eHY5QkphcXdXenBPaGNZUVc?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "다이나믹 듀오, ‘1년 2개월 만’ 신곡 발매… “하라는 랩은 안 하느냐”",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VcTZwWUNzZEtXanFHNEhILW5RYjhfQ2VWdEQ0S1FTS05RSFBpYUNQdFFjMElVbkdNLUprekcxVVZic0RVVThOQzRCNUlDZzBLOVhqYUR4WldkVDFSVnBueEl1SQ?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "다이나믹 듀오, 신곡 '하라는 랩' 발표…지적질에 일침",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10cGtIdFp3T0ZUSVVQX2R2RHpCakJtWkxvTjg5S3ZpdkM5ZDJubWZWaW5FSWFKSmk4alYtT1RLRndYckkzeHA4Z1YtdnRlLWFhU0tIQ1I1MTh4Z2pJ0gFXQVVfeXFMUEV2cmdQZk1YUGRmZTZObWlmb1pBNmZwd3JxejZ1UjZZLTFqWjRjSGs1djVTZjNHaWY1Q3I1QUtfajRhYU00cFRrelJXdzExY0JrdkdKR1JB?oc=5",
+       "source": "더팩트"
+      },
+      {
+       "title": "다이나믹 듀오, 신곡 ‘하라는 랩’ 16일 공개",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzS0Rzc1V4dHNrNDlvUUp2VjRfdXVxOTRmYWxTbF9UZmwwSW9TcDJlZ2xHUVdlblUzUDUzd2l4X0dIekYwWU4yX3YzclRHR0NFUnJraHp6RXBSc3Y1MHoxTGRoZmdwcEs3RnNmMHVn?oc=5",
+       "source": "전국매일신문"
+      }
+     ]
+    },
+    {
+     "title": "Raye, Rosalía, and Ella Langley Lead 2027 Grammy Nominees",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Raye, Rosalía, and Ella Langley Lead 2027 Grammy Nominees",
+       "url": "https://www.rollingstone.com/music/music-news/grammy-nominations-2027-full-list-1235658661/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Phoebe Bridgers, Charli XCX, Rosalía, and Geese Face Off for Best Alternative Album Grammy",
+       "url": "https://pitchfork.com/story/phoebe-bridgers-charli-xcx-rosalia-and-geese-face-off-for-best-alternative-album-grammy/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Album Of The Year Grammy Nominees 2027 Include Rosalía, Phoebe Bridgers, Taylor Swift",
+       "url": "https://stereogum.com/2518141/album-of-the-year-grammy-nominees-2027-include-rosalia-phoebe-bridgers-taylor-swift/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Rosalía Looks to Cap Off Triumphant LUX Era at 2027 Grammys, Vies for Nine Awards Including Album of the Year",
+       "url": "https://consequence.net/2026/11/rosalia-lux-2027-grammy-awards-nine-nominations/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Grammys 2027: Raye, Rosalía and Olivia Rodrigo lead female-heavy nominations",
+       "url": "https://www.theguardian.com/music/2026/nov/16/grammy-nominations-2027-female-artists",
+       "source": "The Guardian"
+      }
+     ]
+    },
+    {
+     "title": "KPop Demon Hunters to launch global tour in 2027",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "KPop Demon Hunters to launch global tour in 2027",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdTdMTHFGa09OMGw3UXlQRU5ac0o1RXBiNWw2SXQ1RXhHLVpZRGJjdXlHVkxYSGx4OHNrd2I5cHlGVnJ0Um9NWWNpdFFtRW05VTRkSG5DOXpDNUEzRXIxN0JGcTZSeDFmUXhLX0xiaHgxZUY5d0sxMnFiRHJZTkJIQnVwOHJkbmxUSXc?oc=5",
+       "source": "The Straits Times"
+      },
+      {
+       "title": "Netflix’s ‘KPop Demon Hunters’ to Launch 150-Show World Tour Across 50 Cities",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NU2pqS29YYW54dXIyWUZEMFZ0WFlYSlB0b0I4bEpnWHc0eXZyeU5FeTJWTDhzM1BsV0NfTWh4eW5KZmZhSzBsSUtXSFVQTWZaTHBYYTcwR3g1eDA?oc=5",
+       "source": "씨네플레이"
+      },
+      {
+       "title": "‘KPop Demon Hunters’ is going on tour",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wc2N0VHVJYVFtQ1dDVGctNWlkLTFYY3RRNC1NQjdXWlNfbWV3WHJjNVpDZW9PWUJ3NjY0ckRjdnBnOWFPSVZtUUVFY1U3VDBZUGsxZ3U4a21uRG9Rak9FWWVWbHBoNFI1eGZwUGg3MlIta3VFQTFn?oc=5",
+       "source": "AsAmNews"
+      },
+      {
+       "title": "How to get tickets for the K-Pop Demon Hunters 2027 UK Tour",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaDBCYk5JNzVIcUZQejA4OExLenNUMmRBMm9Dbm1Mc0JpcFVtMGJzRVVzWFdhU01wRzhEWXBoaDJsRHFpUVlXeEZnLVRNb0ktTlF6M0F1Q3JQNFRkMW5HX3B2UG4zYmJsT191b25yZnpWQjBkZnRKT1RLdzhrTGszOUlhUXhTZGt6WGJpaHVKM2FBSl9GOWc?oc=5",
+       "source": "Time Out Worldwide"
+      },
+      {
+       "title": "KPop Demon Hunters to launch global arena tour in 2027",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44WjBoM1FTU3FrY3hLbUFYakV5U0Y2aEEtbzlYN182eGoxQmVQWk02dVAwUmJ2ejE3YWN5VWdZY0VqTlROTDZFQi1CVkYtTjZsdkxMSWUwOG55aHBSZXh6aUdZQUo?oc=5",
+       "source": "blooloop"
+      }
+     ]
+    },
+    {
+     "title": "넷플릭스와 AEG, '케이팝 데몬 헌터스' 월드 투어 일정 발표",
+     "summary": "넷플릭스와 AEG가 '케이팝 데몬 헌터스 골든 월드 투어(KPop Demon Hunters Golden World Tour)' 개최 일정을 발표했다. 이번 투어는 2027년 아레나 공연 일정으로 구성되며 콜럼버스를 방문한다. 또한 2027년 10월 영국에서 7회의 아레나 공연을 펼칠 예정이다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "KPOP DEMON HUNTERS GOLDEN WORLD TOUR ANNOUNCES SEVEN UK ARENA SHOWS FOR OCTOBER 2027!",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQREl4R2VWUl9zNXZBTkJXeVpJX0RtWWdSYkJjMlRiU3N3U0tQSFJ4LVFpVURNVTFsWWFlMS12OW5EcW1pYWxIWjMwV2dFX1E0aVliSlVUOWRFRHhpU2lpMGEwY1B3Mkl0NGExS3RKeGdnbkQ4M2lJaGszVzE2TmdPVE5ybmRCZWVVSmQ4akROb2dVT0FUdUdxa3F0dnVPdDQ5X2pSYmdJeXM5UUdyYUd2dV9rQQ?oc=5",
+       "source": "vergemagazine.co.uk"
+      },
+      {
+       "title": "Netflix Announces 'KPop Demon Hunters Golden World Tour' Dates",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQekhEdktUeTg5eWpUNi1zS2gteVZZaFY5MzNVYjd3OUdwU2FlNnZnelU3UngzREozdDhOYVRERzFpRzRXZzJJcjBOMEdWclR4YnVJM3UwWG9UYXRlbnFOQlpMNjZyNnNjaUotSTRBLV9IeDZaZGZKdnVCdEFxYUtIUmdFTkFCZWJ2dkI2UDlHSkplMGhYUFFmYmhMMkxLZlliaHItY0p2T04tVFo0YWRQYnlQYnMzVVFWOF9QNFlB?oc=5",
+       "source": "Anime News Network"
+      },
+      {
+       "title": "Netflix and AEG Announce 'KPop Demon Hunters' Golden World Tour",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMXpiU0FRUTVCdGVlVERZNW54RTVoVVk2ZmhtMDVJcFBRblMtYkdpbTAycjlMbldvTmpqX0dOOWNfMUJudC1TOGhiLWhDamFaY1VFMDhzRWpnVDRZT0IxcU5WUktrckE3azhpWDdfaUxxZ1lnTVM4dW54QlE4cm92VTkwNmN3Y0x5N2JsQkstSmpJMDVFc3F6SjVfeW4?oc=5",
+       "source": "Hypebeast"
+      },
+      {
+       "title": "Netflix’s ‘KPop Demon Hunters’ Golden World Tour Sets 2027 Arena Dates",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeTllME1wcmhBWmJBQXRVRjl6MXVncmlkX2t0WDNnWi1TWlhheV9vZENmTjhuN1h4dEQ3RFpiWlFmUW9HVkUyWW9PTkVxSGtjNzUzLXVSZExlenYyZzl4QTVkVENOSDVGV3F2MUxWWVVCa2VfcVJrQkNZWHlpaS1uTy1CR0xMT0JkaHZsajNQQmVaYkE0YzJwckg0UGhSWUo0WE9tQ0xIZ19kUQ?oc=5",
+       "source": "Resonate Voices"
+      },
+      {
+       "title": "K-Pop Demon Hunters Golden World Tour headed to Columbus",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFhZc3BsLVFpcHlSeVY1cVRjX0szcVhCaEprU0Q4eXVXQTlrbzNnMmhSeVV3T3pqSFF5UkhibkhwdUlrQ3BRZDBQdGxjX040TG82SUJSa1NaR1BBbndXb1pabmo4X3FZTUhycGdFN1dxbUVRRXluRS1Zbko2di1RRWh2VlZfYkNYNmfSAY8BQVVfeXFMTUhBMWVtbkU1MDBJeFVqZHJMc3NuR184ajVyUHFfNDMxNlhkdVB4T0FUN2dzbGJhNS1aNWRfY1RXODZlWFd2ZHFxR183WHZtdl9HMmIyRWxvQlE0TDVxTkhZUlBZbTFJdzU1Q3VqaTlQaVI3TlZubE9jWVZYb1pVdVZRR1ZJSFNfTEFPckFUb0k?oc=5",
+       "source": "WDTN.com"
+      }
+     ]
+    },
+    {
+     "title": "싱어송라이터 태비, 18일 신곡 '영화 속에서 그 로맨스에서' 발매",
+     "summary": "싱어송라이터 태비가 오는 18일 신곡 '영화 속에서 그 로맨스에서'를 발매한다. 이번 곡은 새 디지털 싱글 형태로 공개된다. 태비가 소속사 더메르센에 합류한 이후 처음으로 선보이는 신곡이다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "싱어송라이터 태비, 신곡 ‘영화 속에서 그 로맨스에서’ 18일 발매",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zZFRBaVRWU1cxU2VDMWEwNFQ0RXNGQUp0WTVlcDU3SUNsTmpLOTNEZFo3enlGdXJ3RHpYMjZuZXJzdWlDZXJHdkFHRmxnNWpBeTUxQ3VDRjFZR1k?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "싱어송라이터 태비, 18일 새 디지털 싱글 ‘영화 속에서 그 로맨스에서’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xZVpwYTVHSTJmblJ0cmptMjlLVGp3dTBBY0swZ3JBZmN4U1JuTUt6T3NoSWhwQ1UwMWM4cHlHVmg0OGkyOE1lM0syMmFIM1FPQXctYk90NFhNWFdDT3Z6X0RXWEdsODNJTU5n?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "태비, 더메르센 합류 후 첫 신곡…18일 ‘영화 속에서 그 로맨스에서’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5IZDY0NTl5VGZ6YXgxYnhacFE0SGhUUVQ1LUt4OURTY1BNYVduTWcxd09ITXpMNjBLbG03bG94N3ZVaWtYaEh6TTBTTkkzT2FacFZfU3NHUQ?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "태비가 돌아온다…신곡 '영화 속에서 그 로맨스에서' 예고",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zNUNsMzQzNVV2U1RDWXFvdURTMHdPVnVQdmNCTTFoS1lWbkx6N20tbzlQbFNBc0pDanhwbzFTNmY0bV9wQTlVUGxGal90dw?oc=5",
+       "source": "전자신문"
+      },
+      {
+       "title": "싱어송라이터 태비, 더메르센 합류 후 첫 신곡 18일 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qVTU5NFRTTnJZM0FLaE5FcEY0akxfSFJEMklkNFZ5STc0NVZHZXp5T3h2cnV4NVlOV3pLWWlTNWEzVmtFb1BjX3hmendBQkhKTlhMVA?oc=5",
+       "source": "JTBC"
+      }
+     ]
+    },
+    {
+     "title": "방탄소년단, 멜론 뮤직 어워드 2026서 대상 2개 포함 6관왕 달성",
+     "summary": "방탄소년단이 '멜론 뮤직 어워드 2026(Melon Music Awards 2026)'에서 6관왕을 차지했다. 방탄소년단은 이번 시상식에서 대상 2개와 기타 부문 상 4개를 받았다. 이와 함께 아이브(IVE), 에스파(aespa), 코르티스(CORTIS)도 대상(grand prizes) 등 주요 부문 상을 수상했다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "BTS wins 2 grand prizes, 4 other awards at Melon Music Awards 2026",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YRHdBTlFvRTV6emVaTGxIbEJ5OEdTUS03YkR1a3NQZjZRMDk3VlRaQzdCclFTMmZSdk85SGl3ZGlad3Baa2Nab2dZWXhPdjBjZDV0MlAzUFVXQQ?oc=5",
+       "source": "Yonhap News Agency"
+      },
+      {
+       "title": "BTS sweeps six awards at Melon Music Awards",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTUZBU3lfeVlObS03ZFBrZlBnTVUxT19PczdrUWQ1aHZWNHE1REVGWnpOUXRCUTY4SGI5aERib1RBWTF5dUFfaTZLX2R3QTVydGpxX2ZfaXlkQnVSTUFkYlVqdVFOdzBXN2hNVXpfclYxVVgwYnN0cld0dFJEc2l4VHA2VnhINnhXdkc5c3E2OHFGMUtaZzhTOE5UYkRZNEVkLVUw?oc=5",
+       "source": "Korea JoongAng Daily"
+      },
+      {
+       "title": "BTS wins 2 grand prizes, 4 other awards at Melon Music Awards 2026",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNlo2TTNYUWhxazREZlBDWmhZOF9RZVZhUHBPbnBQVEs0aE12eWF5N3IwejJ5cldZTkFuT3VuVTlxUEF5eS1DQkFHTE1xdzdMU1JKYmtIcWJ5N1oycXpsWEZHZXRRSzhreEI1RkJGeHlFcExsMEFnNWZYOVhWSGtPUmVKSjRnV0tjbEhXY1I4THpKSVFmLUhNZTgyNGFGVVpXb3htZDdFZUdINGRYZnB2eU03aXlSLU1UWlgwV1lJLVBhbzVLclHSAcYBQVVfeXFMTzZaNk0zWFFocWs0RGZQQ1poWThfUWVWYVBwT25wUFRLNGhNdnlheTdyMHoyeXJXWU5Bbk91blU5cVBBeXktQ0JBR0xNcXc3TFNSSmJrSHFieTdaMnF6bFhGR2V0UUs4a3hCNUZCRnh5RXBMbDBBZzVmWDlYVkhrT1JlSko0Z1dLY2xIV2NSOEx6SklRZi1ITWU4MjRhRlVaV294bWQ3RWVHSDRkWGZwdnlNN2l5Ui1NVFpYMFdZSS1QYW81S3JR?oc=5",
+       "source": "The Korea Times"
+      },
+      {
+       "title": "BTS dominates Melon Music Awards 2026; IVE, aespa, CORTIS take home grand prizes",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOME56VGo1Rld3SUU3ZzdqYkRMdk51TUtGbjN1THlReGhaRlRaRnFWSkpDWWZ5Z3lYNjRmcnVxLXFPU251VG9xaFZfTHZ3ZUZOa0MzbFl5c3NRUjRDd1hZbUhnczBIVlE2MERKMnBHdWY0TUtRX1VXcHZDMk1LbEtQU256RGRTTXN0c0NrN0x4cDh6aWVjZjBDY0NnUVRQUXozaC1JeWVSVkhTQQ?oc=5",
+       "source": "Manila Bulletin"
+      },
+      {
+       "title": "BTS dominate with 6 awards while IVE, CORTIS & aespa win top honours at Melon Music Awards 2026",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbG5LQzdGZlNidjA4OHF2dmdocTJDMlVrNHFhamFENmwyR014QTdMN2QzOXdjVDZTX2JwaWQxQzVDU3F4dXlDR18xY0xjQWVScU9LTy1mY3FxZkZSa3A2Yl9kdUVoemZ3Q1JPdjBSU1pVaWV0eVhPVENMQ2hnNDJVVUV4bjUyTF9KYk81eHZYalJaQldXLTRtYUNJM1lRb2JFRlpLU1RLbnpRcG9faDdmQi1JblJGbVR2Y1E?oc=5",
+       "source": "Bandwagon"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
