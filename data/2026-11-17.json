@@ -1,0 +1,504 @@
+{
+ "date": "2026-11-17",
+ "generated_at": "2026-11-18T02:34:42.695209+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 811,
+   "issues": [
+    {
+     "title": "[포토] 앰퍼샌드원, ‘킹스웨이’로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 26,
+     "source_count": 20,
+     "links": [
+      {
+       "title": "[포토] 앰퍼샌드원, ‘킹스웨이’로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1hYmZZaENJT3FDQXdLaDlpVmdxSkRKSEpyUHdLZFpCWERnMlNCbkw1ZmN4RFVDbnVLY3NtYS1tb0tHQlFMSGU2QXlMZzUwejlyLUlv?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "[포토] 앰퍼샌드원, 정규 1집으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSklzZ0tMT3dyWnhHbXpOdWYwVllBNnNaYjlISTZyNzJxSTRfdXBhRDNuREFHYTV0ZHBRVkYxLTZVZ2lBck1GQVd4OHVFYkptM0U2cjNsOVpBclVIZUFmQjJWekdDRDFNeHpwMXFtOHl2dXR4OTljaHRJRGZZam81ZzFHeDU?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "앰퍼샌드원, 정규앨범으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUG01cDNLLWlMVWw1VDIwZ3phRUZNaXFrSWpUMTZJY1U0UEJUSzZxYjhQTm9nMFNDVTB2c09Qc0wzcjk0bkVzenhuUmowUENGZWxGXzlOMmIzd2tPc2JsNk1ucVZGZGlvUjl4dndQX2ZzUHlMQ0F6UXJxQ1pJSDA0R1Z5UXJzVmlveWNtUU1wTmUzQXhWY0ZESEMyZWM2d2lPaHN4WTNsN3lKYUpIZXM1NXBCOVVQZmdpQ1o3Z2RwdGMtM2NLNy1OUy1Fd19kSlhWTWtNdkg4RGh0eHhabkl0Z214MDk?oc=5",
+       "source": "데일리안"
+      },
+      {
+       "title": "[O포토]앰퍼샌드원, 컴백~",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qOTRPeFRXenpqSDMwTklFbVdSdnBlVHB4MFl0M0F2MEpNRTNQMWZXRGFfQVVDMXNsX0Y3eWNpaVlNd25NYjlreUFPeTlyRTEtMDI4TmVuVzBvRmN4WExoeEEtbmwyaEY1ckE?oc=5",
+       "source": "https://www.ohnews.co.kr/"
+      },
+      {
+       "title": "[포토S] 앰퍼샌드원, '첫 정규앨범'",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CX1J3ZVpmR0V2bDh0QkUxM25scUpVa1hOMEhnLVBtcXhqblh1elh0cnF1S1hCWFY1LUZnSm1JSHlIUHg1d0V6R1BRSWhOcjZKbU43cXJBU1N3aUJHYVZnOU1wdGh4ZFhOWWtkT0tUX0g?oc=5",
+       "source": "SPOTV NEWS"
+      }
+     ]
+    },
+    {
+     "title": "CL, 테디와 재회 후 첫 신곡…20일 'ICONIC'으로 5년 만에 솔로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 20,
+     "source_count": 19,
+     "links": [
+      {
+       "title": "CL, 테디와 재회 후 첫 신곡…20일 'ICONIC'으로 5년 만에 솔로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yZzJBWmVoVzdjaEZ2cDEyOGduanlkN3hQQXRuZ2dFTUlSN2N6YjB1UDlnem40X2VWRWM5NWxXVzlnRWczYWpSTEFGZkQtcXVsSl82bDB1ajNZZkh3ZXV3ellhYUhqdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "CL, 오는 20일 새 싱글 'ICONIC'으로 5년 만의 솔로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CM3RVVnRpYkJRU2JPYWJmR3ZPOThycnVoQndtTzZwaUl3alVQcjdpWXk3S255RzBiSGVmdVpEek9SdkY5R3R5eVRwbGNCeGlVY2FJeFpfQlRlYW5HRUFiNXZMTUdQTHBEOHc0WDln?oc=5",
+       "source": "국제뉴스"
+      },
+      {
+       "title": "CL, 20일 신곡 ‘ICONIC’ 발매… 5년 만의 솔로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44bDJhOVRFSFE2emtvMWl1ckhZckxxdnN2TjR0MV9hTmJTc3NJZVdZbElUMkx4RldkLVNPZGdzOW8tS2d3SVRpMUU3WnJhYUZIVUEwemdpMnZfczlLSXFWeVJ3Tlp6clB1T1E?oc=5",
+       "source": "천지일보"
+      },
+      {
+       "title": "테디 품 안긴 CL, 20일 초고속 컴백…'ICONIC' 발표(공식)",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YSVgwQWJCM25lQ2xFUnNzWk10NjhDNGpTRFFPUEp5UTNLMm5qb1VCZV9MTWx6QjlGY0FENG84Ukc1MFIwa3lWdGdISi1GVU0?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "씨엘, 5년 만에 솔로 컴백…20일 '아이코닉' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04SDdnV1VfMjJEYVpCSG9VV29fdU1PV0s4N21VZWZTbEx2LWZHeHVENmZKSDU5anhyNVdHRUQyc0FKbVR0RUJJUTBNVjN3NVB4T2M2amRfNERBZGZP?oc=5",
+       "source": "뉴스핌"
+      }
+     ]
+    },
+    {
+     "title": "Musician tour bus involved in deadly crash in Marion County",
+     "summary": null,
+     "ai": false,
+     "article_count": 15,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "Musician tour bus involved in deadly crash in Marion County",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaThjSlN5NnpNSWstWEdRWXM2T2ZmTDRMeEE1VEFJWjdfdjlHbXhLQjBfM19najVDSW52ZEE0QkQza2VyYXJDb0FKdzZIVDRWOHNwWmVSNkRMVEdLVVM2dEY2YUJvLUs4SnFEOGpMNDdZVlk3RXpGMnRibUQxWFFaSm9ENnA1YUZsd2tPUWFzRdIBowFBVV95cUxNb1djVFV0RXczU3RoNEtFa280R2Yxd1pTbE5TZTY4XzR2R1dncEU3VExXSl83Y01SVElIV3NUTndDMEY0NnZ2TFYzQVZVR0JXUU1Pa0N5Q0gxMHp1Z0xDWlJrVk5FZ3dzcXVlQUFXeU93TVlkSTBFUWkzazAzWUhsVkZjT1J2aEdmc2ZNYWNtTmVhUmV0R0tIM19zNVhtLVFGVVA4?oc=5",
+       "source": "WCJB"
+      },
+      {
+       "title": "Musician tour bus involved in deadly crash in Marion County",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa01TS2pVMGFUU0Z4UlQxM2dKWE5nV0JLaGdYVmppN0kwaXlwWi1DU0NKZHl5UUp6ZHBvaGVxeDR3Nm44bGZaX1J2ekFEeUpvMkY4bW9LTmRGVEwxRkMyVm5uWFM3T3ptZE1wZVU4SVI3clJ6Y0cxNjBnMXNZUGtqNllPZ2pVd2ticGlid1JQUS1kTHd6UF84?oc=5",
+       "source": "WRDW"
+      },
+      {
+       "title": "Musician tour bus involved in deadly crash in Marion County",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNG9IaVFtRXhXYkY0aHZJSlU2blBnS0RVNzdpZFJWTi1IMHhjRmxpYU9nTEpmWldIemViRHdLSDkzV0xrM2YwM3RMQ0NtbUJKZkZlM083cUlMSklWZ3JrREh4LW9RNHlmOW9GV1R3V2VPMGpXZDdTaHdXbUFua0hUQUU1SGZZWmxGWEpwZTNEWDF1eUxrWlNz?oc=5",
+       "source": "WSFA"
+      },
+      {
+       "title": "Musician tour bus involved in deadly crash in Marion County",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUU1pdVRrdmRPVGRiR2hSbkJhZEZDOTB0ZnhndWJndUdOZ3ZQaklCSU9yMlRueFZ5OEZjVlhQSkVOUkJSQ1V2Rlh5Y0hiR19SN29JSTBFRXRwNXFmR0pfNF92VXBoZ3dELVZDbmUzd3BYX1dQMXJVY1ZBS3JxWGJMY0c4Vi16Sy1ISVdQOGZ5am9FekNQbm1F?oc=5",
+       "source": "KTTC"
+      },
+      {
+       "title": "Musician tour bus involved in deadly crash in Marion County",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPclVsUklNM3UxbHdaZUhRYWxqVHpJakJta3pPeV9vUXE4bnp0aUxDbGJONjhHUVNXeXAzbU9iUWlHcjdta1NWbng0ZlJQLWtLVWtIZm5Cclp2TGZYU19QYTh0SDlSSVhLdWRlSTdYUjZDcUMxMWp0VUVsXzVzUFdSX3A2d2N6MWVsZ2RCWGFPZS03U2pzd3hLZA?oc=5",
+       "source": "KCTV"
+      }
+     ]
+    },
+    {
+     "title": "대전음악창작소, 래퍼 행주와 협업 음원 ‘99’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "대전음악창작소, 래퍼 행주와 협업 음원 ‘99’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pcDdXdVc0TUs1dEVPR2JkNWgwUFlMblRva0JWNHJoc1M3cXd6MVVwbG83THRHR2tiQWRHZUthNGVzT0tWc1hFR25QNkd6UzIzbnNXaFV5QUoxanZ5aXFoWWhNM3NTQnRxWi1vZw?oc=5",
+       "source": "뉴스인뉴스"
+      },
+      {
+       "title": "대전음악창작소, 유명 래퍼 '행주'와 콜라보…음원 '99' 발표",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5XNmhaWnR2RUp0bXVwS0JweFllR1VLTm81dHhNUmRFVldtTGdkaG1CTlNyZU5KMGIxRUJiMVdxUmRGM3g4eDhVTVljOFFPX0Q4LTVGYXhOaTdtTllWVTJIbGNYYkIzWTVxOHlDUUNnSDZMajDSAXNBVV95cUxOVzZoWlp0dkVKdG11cEtCcHhZZUdVS05vNXR4TVJkRVZXbUxnZGhtQk5TcmVOSjBiMUVCYjFXcVJkRjN4OHg4VU1ZYzhRT19EOC01RmF4Tmk3bU5ZVlUySGxjWGJCM1k1cTh5Q1FDZ0g2TGow?oc=5",
+       "source": "대전일보"
+      },
+      {
+       "title": "대전음악창작소, 래퍼 행주·대전 뮤지션 협업곡 '99' 공개",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hdTJKcXR6UUFJdUczRW5ETFY3dHIyVFhKZVhRU3k5bFduQmNYZjlFUTYwcEJzeGNBVEZRLUtVdmctYWUxR2VieTJoaU5wbjZFd3ZwcFROX25mNnJsYnBkV0ZYM2xrdHhEZ2c?oc=5",
+       "source": "뉴스티앤티"
+      },
+      {
+       "title": "대전음악창작소, 래퍼 행주·대전 뮤지션 협업 음원 '99' 발매",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84UGdoeXhack8wNDc5ZVZEcklTZGRQSkZUS2Jha3l6Z1pzaklwcnZUUzhySXdSM1h0M0tBcEx3d3ludGpqUTgtUjNjTHJwZ2MwdGt3OGwtSmNNT2YwRmNMWXFEM2owU0c4bjdUYw?oc=5",
+       "source": "중도일보"
+      },
+      {
+       "title": "대전음악창작소, 래퍼 행주·대전지역 뮤지션 협업 음원 ‘99’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qZjd3amc5R1E0elFsZzdxZENmS0ZQT2V5WUNmVUp5OXNRZkVmcXFPdjhCa1lqTnhsd2ROd0tJUDN5U1dJNGJHalBrV2NnN0xGVGFud3dRTXI4Zm00T3BFY1RWbjI0RmNLNUQ0?oc=5",
+       "source": "충청메트로"
+      }
+     ]
+    },
+    {
+     "title": "‘솔로 컴백’ 트와이스 나연, 이번엔 앙큼하고 러블리하게",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "‘솔로 컴백’ 트와이스 나연, 이번엔 앙큼하고 러블리하게",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53T3YzdWI3QkNjZGNKOGNYZk1qOWM0al9WVS1OTTNESW5LZXdQSFdXYlkzWlNodjA1SUJIbDEteklLaU9BOXRDcmxSSW1kTFJWV2VPZ1k0TW1mUHFLNkZIR2VrYTlzam8t?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "트와이스 나연 \"2년만 솔로 컴백, 앙큼+당돌+러블리함 담았다\"",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMVmRXa1VfNzMwYmpUSkVCb291eVpZandrUGtwZE0taGhLeDAyQUhIUXp1UzYzRjFwMENDbF9TS194ZnZaTTZyckVlUmNzejQ?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "트와이스 나연, 앙큼&러블리 컴백...싱글 'NA-sty' 주목",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1TnJndlJSRUZhSHBZYjVwNXFBV3F3WmUyUUU0MlpQVmo3UmdINkhVSFdPWE1OcUFGNlpJbTdLVmlPaEhJUXJ3NU0wcWNrMktuLVo5RFJ0bkRaNkEzZnZ0UE1qX1hPZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "트와이스 나연, 신보 'NA-sty'로 솔로 컴백… 타이틀곡 키워드는 '앙큼함'",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54aE43WXlMNldzdWJWNElnUmlTQlpjQ3VRZlppVHZpV0V2UFdDd05qSml0UG9CdFhHbWdybDNNSldiZXhhcDBTSjU4WHNHMWRlV2F1SUVwRlRucXpVYk1JNXJzR1pPMVZ2RFJ3?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "트와이스 나연, 앙큼한 솔로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFbi1QNlpTWmg0dHdfOUk2ODN6MUVYM0p6Nm1TejZESU9TcUZERjZoX2N3U1MwaHg5ZFpIbDR0QS0zbmYwRWtVX3ZWV1JROFpOTzhzM0hLaUMxdDY3MXFRQmc2c3Y?oc=5",
+       "source": "BNT뉴스"
+      }
+     ]
+    },
+    {
+     "title": "킨디라운지, 11월 인디 공연 라인업 공개…테종·뷰렛·유인원 무대",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "킨디라운지, 11월 인디 공연 라인업 공개…테종·뷰렛·유인원 무대",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NYUhzZ3Nnc1dYdDIyeWd2MjFpaENVZlYydHd1MlpVanVkSnRMNVA4ZjE0aS04MUs2RE9vNFcwczZpWjBYNHoyT3BCNXZya3A4NDlsQkVuN2dVTjdjZUhqZVgxRTJZd2FWOTF5ODg1eEE2dw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "킨디라운지, 11월 추천 공연 베일 벗었다...다채로운 인디 라이브 무대 예고",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lNHJXMG8tdElCWXhVN3gzNjc3UGx5Y2RFUkR5cFhKWmdJdzhqVWZWRjNXUy1zVnZMVG9aZXpYdVRoRGNDQTVNblU3Sk50bDJQNTFEYXhFN045eXBp?oc=5",
+       "source": "아시아뉴스통신"
+      },
+      {
+       "title": "테종부터 유인원까지…킨디라운지, 11월 인디 공연 라인업 공개",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12eTdhdThmS3g1M0psTlRqNFJfTjQxQXVrMElYVHhheVlCcEdDbWNpbG9uZTdCQ3I5MlVTWF91WkVJVnVKRWFkRWNaazVsLU45M3VtVDlvbw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "킨디라운지, 11월 인디 음악 공연 4편 추천…테종·뱀파이어호텔·뷰렛·유인원 출격",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qb242S2FqUVhXbkxrTlU0WkswQy1ITVA3MHVCaVVDOHNjS1MxejdJUGtheXJjRHVKNW5wYTFGalJQWHJSOGtMNGc2T1JZMS1FY0pJQU10OEJPOTVWaXFLX0ROdE5UTmQzeW1lTg?oc=5",
+       "source": "뉴스플릭스"
+      },
+      {
+       "title": "11월 홍대 공연장 달군다…뷰렛부터 유인원까지 인디 밴드 총출동",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OTmNrZllrZERXZTZ1NXRuaURwRnVvT3B0OVlkeW9wY19mQWttbnlZZlBCTXVIN3I0MzNUREdaVlN5QU5KUS1qc1ctZ2NMeTNEZEV2RC1nWW82TkU?oc=5",
+       "source": "텐아시아"
+      }
+     ]
+    },
+    {
+     "title": "경기도의회 김승기 의원, 경기인디뮤직페스티벌 관련 3년 이상 연속 수의계약 지적",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "경기도의회 김승기 의원, 경기인디뮤직페스티벌 관련 3년 이상 연속 수의계약 지적",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE93NmxFWTJORGF2bG9KdzRpcW1zaTlQbUltOHB4VFFUMEdMWnJ6WE5qaW5oYWFJcFRLQmNkYW1GUlZRb04zOVdfU2Vn?oc=5",
+       "source": "경기평화신문"
+      },
+      {
+       "title": "경기인디뮤직페스티벌, 수의계약 `엿장수 마음`…일부 업체와 3년 `연속`",
+       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE41Q1dkVEQwdkgwVGtMcjRwRy1vRmRSVG81aUtOb2tLd3c5VWpjYUQwdDlUcmMwMEZYcnFTMUtMLTdTMk14?oc=5",
+       "source": "일간경인"
+      },
+      {
+       "title": "“홈페이지 3년·총감독 4년 연속”…경기인디뮤직페스티벌 수의계약 도마",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sQ2JNQ3hLeXlIVkRhQnFQdnNwb1JlSTVxdHdEc3RXZXh0X0RsM2N6THU1Uy0zd3ROc0l2TVloLUJBTFNUanROWjlzSlFOVE9vLV9xTzhlOVpXcnh6NGZscVpoZERpUjQ?oc=5",
+       "source": "쓰담미디어"
+      },
+      {
+       "title": "경기도의회 김승기 의원, 경기인디뮤직페스티벌 3년 연속 수의계약 문제 제기",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FVDBCbWFCVHRzbC1jMmFnVjg5YUc0WkxmU1FyWkgydkdXZ213czVlMWpBd3RCa2pXTEJXam5YOExMYjFfQ0RCdmRLQjhqVnMzTk1SYW8xcHNNeGg1OURsUHZMaXBQSUtLcHNENXNPYnFGZw?oc=5",
+       "source": "웹이코노미"
+      },
+      {
+       "title": "김승기 도의원, 경기인디뮤직페스티벌 반복 수의계약 문제 제기",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xclZ3ajlRNjRrWTBsb0FmQ1loSHZsTVhYQk9EX25BYk1xalRfSUJyRjBlOUl6cjlzZmZzTkxUUEhsRURmS3BwRG5qenFsLW5oUzlRZVJ3Q0pjLUhfY2N0dGFn?oc=5",
+       "source": "팩트저널"
+      }
+     ]
+    },
+    {
+     "title": "Richard Sterban, Oak Ridge Boys bass singer who put the 'oom-papa-mow-mow' in 'Elvira,' dies at 83",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Richard Sterban, Oak Ridge Boys bass singer who put the 'oom-papa-mow-mow' in 'Elvira,' dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQUpTMV9KdDBDc0hETF9iV3JCQVlhSjVhRnN2cVNESHZYS1d4Q2VRcW5sWDN0WDJzNFZKc0ItQk1KSFVQY1hHQ3BtUUlHblNxVlpnNVQ5eHlJR0ZTMC1pOFhHU0pjOVlzSkR2R21QMU5aVWdkclZNZ3RuNFZ0NEdsR0pDX2VNVEJLbk91NVVzYkpzYlZkWjczaTFWSk1TTms3WVFGSzFwQTlCaWszblBwNVlxUQ?oc=5",
+       "source": "Los Angeles Times"
+      },
+      {
+       "title": "Bass singer for the Oak Ridge Boys dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ1o2VUpuR0hna3ljcGxTTzJDNmo4QTZTdGlsamtESEJVTDR1bnBrU2ptMWRFeEZOVXZLalVRZHdVemNKWHh0VU8zVUFPRVVlTTRrNDdndEFiVGVnTDFVZ0t1TFk1R0hlN3Fzb0VYMG1kcUNDTGp4eXJwbGdqZEpndEN1ZHVfVHZESFhxODB0X2d0RHJjSnZGZTkyM3hnZHVTYXdtd1lROXhvSENaQU5XQ3VoSFRiNkFGSFE1aHNtTWgzZw?oc=5",
+       "source": "WBIR"
+      },
+      {
+       "title": "Richard Sterban dies at 83; esteemed singer was integral part of country-gospel group The Oak Ridge Boys",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZmhLaHVIVEJmaUd6WmtxOVhfSTVXN0NGYV91Mm9PYVlibXQzTXB0UTQ1b2toZlJqUHQyUFVhZC16WTdvOTJ6UDdRWVVVeHBsUmFFdGxaLUlyRHZuTHNkTjN6dWd5NmY5WEJ2QkczVUFWTVprR2JsNXA4aU9XMkQ5ajJhTFlnQXMyVVE?oc=5",
+       "source": "The Mercury News"
+      },
+      {
+       "title": "Richard Sterban, bass singer for The Oak Ridge Boys, dies at 83",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUlUzWnlRTWt3Rkd1WElmTTQxSDVMaWVsVnBucF9JdTZMQzB1czhLNUhsTEI0bERzdUtPQ29lUzA2eHpfc1VLRjRDQmN1LVpNR2JkclhBdDdRLUJCNUFXdk00dGJVUmZTTGN4S3h4TXFwSllXZ09vSmNNenBxRWxTSGZ4V2RER3AzQWJLNlJPWVVLb3dJem9xbUFEalFOcVZpRmtLRmU0WENGWnh1aUNzSVpUZ1RGYmNJZUdFeGZB0gHSAUFVX3lxTE4xOXR0b1hMMkprSFBCNG9zeE53N09tYW11YUszZDdTZ2g0ZzF1ZkJBQ1U0ekVtLUFoblBGajF5d3VMWUxuU3VCRklMREZyZXpyb2NPR1R0Vnp6Mk5WMFVjQUpIMVliVFg4Y1dOblFyRnZqbnktbTBqWFBPbV9ySThQeF8wdTBaT3JjZzhKVHFRWnFEMDV1VnRyenJ2dDQ1OFJoeGlpbHBjdUh4eEJMUUQ4MUtJSjkxUnQyb19JNTZLYnhIQ0dTcmRsY1ZtcHRVZFVXQQ?oc=5",
+       "source": "Boston 25 News"
+      }
+     ]
+    },
+    {
+     "title": "日 요아소비, 내년 4월 내한…고양서 세번째 韓 콘서트",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "日 요아소비, 내년 4월 내한…고양서 세번째 韓 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1UMVQycDBLS2NpOUg5c0lCZ2ZrbUtQUUZOQTVJZnJuQzNYbnFsRkZQOEc0Q1N1UWtrX0lzNGJRcC1IdTh0UE03MDB1NXZTb0U?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "'최애의 아이' 주제가 부른 그 가수…요아소비, 내년 4월 고양 온다",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5teDNjZmxSYXdnampsYkJyaU9YNXIyM3l6Vm9tbVl2LUV5QTE0clJ2eFhvT1J1YUdjcE01NGVLbkpmSmxLR25yZFRzdXE3dWZMcV9td2h3?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "요아소비, 내년 4월 고양서 월드투어 공연",
+       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE55WXRUSlpEQXROdXNraERhM3RrOUhDNFRTWjIxSkw5M2lsLXRITU1oTVl5QzNZRVRPUnAxRElUMDFtZkM1VUE?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "고양특례시, 글로벌 J-팝 유닛 ‘요아소비’ 월드투어 유치",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Ka1BkcXN3LUJuYTRIaW9XZFdKb0FMZ1pPeWxSMThKTUR0OGVNVFhCeTJXdnMyVVVUdW9VNGxPbHZfakZFRTFORFBCN0hYYVJSR3YtSTZTeGpLVEZpQ3dGd1ZieWZKQ3VGTFlMVtIBcEFVX3lxTE5Wc2xUd0lERFRxRGFhZkdVRnJ1S1lpdm83Y09iLWZxcXhWVVVBSWxWcXhfSndteEc0WmtmU1hyYWV3TXlMT2Q5SzUta1QzRGlSd1g3M3ZfMGRNamo0OEZLVDFyak83YTBVaG96NHE3d2M?oc=5",
+       "source": "내외뉴스통신"
+      }
+     ]
+    },
+    {
+     "title": "FBI seeks potential victims in investigation of former band director charged in Texas",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "FBI seeks potential victims in investigation of former band director charged in Texas",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGkweFBNM3VaQ090eXpzb0V2UFhKdENoYlF1SjhrOXV3YUZjV1NoZFVXNGQzLURubjJfdld5OFdSYUtBMlNEVmJjYU5LZDNSWnY3Unl1enY4ckJpRlF4cno5RGM2VEw2SWx4SWhuUUJDMWRxSXV6SmdRZkpCR25KeWliWFJmdV9xMEx4MGUteGVKUXJ6RkY3cFB6amh0WmpINnpuc1pKcEtmZHc3UVHSAcIBQVVfeXFMTmdUbE91TlE4c2pYTDZ4cm90WXZzRFNkZzBJb1BBaDNTU3RyQTM5SkdlSnpVLVoxTUEzbHhrMGhCNS1vVy12QzhqbVh5V3g2RUdRSWk5VW9BcFlscDY2MXVrbWpueEVmVEF3UEJPU2lhWFgwaFRSR2RvcWhJSFFFaUNwRjIzYjRLbG1ZLVFweUotU2NtX3ZxUnZIeS1lVUh4N0Fmc1QxZGJuZ1V4ZlVrTWdxaF9TaTRpRGVHYlpQQmVtQ0E?oc=5",
+       "source": "KCBD"
+      },
+      {
+       "title": "FBI seeks possible victims of former band director in Texas Panhandle, eastern New Mexico",
+       "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQcm1xb29icnZONmtFclVCa0F4WWVmRy1objFZX2VudVhQcUdyWmNkTXRaUzBnazFpM0hjM2t3S2lsTjNFQ3J6V3BfSzUtUVg4Zko4ZkNkbmJyNTU5ZHVmb3FSTFJQSFU3ZHU4M1NtazY0VDI5dGtxNXcxbVRPUXZQSHpLa1NnbzhtY0NwQUtLWGxoLWhPeXBHOHhNYXNSSHdISFZLRll2OVdjUXdMTG1tTW15czVuS0xEUDk5bFVOMlZSbmJ4dVMyVHR0TmtnT3ZjN0x1R1N6UHhKRVZFeHdCNzFuQ3ZHZVRrT3p6eGNuWFNsaXU1Q0plb1RDeEZ1cG5TWXZLcWdXMUpicXJuVzZKV01JTE11VEtTaUJsZw?oc=5",
+       "source": "KVII"
+      },
+      {
+       "title": "FBI seeking victims of former teacher and band director",
+       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN3dLd2hxQlc5Nl9uenBScGZuZHlaN0FiZlUzYTF0UndrMUJuaGYtcFI5cVA3Z0dMWW5lLTE5RFhBOWI3THVoVXlRZF9MdzBhWDFNb0FJc0FLUHd6OHZuWUhCQ2M3RUJfVTBxZ0xDZkpMYnhmTUJNMVNzdVVtcHZXeUt1ZHVhWUtkUnBRYmlLLV9WWFhacFZ2ay10Vkt1bVp0eGZNZmpXeU5JdlI2UXc2ekpSUlpyRVJaTXBzZ1RIRGVndllnQ3R6Z1FwMlZMa3pnX3c?oc=5",
+       "source": "WFAA"
+      },
+      {
+       "title": "FBI seeks victims of former New Mexico band director",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTmFVQ2MxZTRFajhlVDVkeFpDWG4ydEQ1bFgxSV8wQlhFS042czdaY1kxa01RQlhKaVhrdHdZTHhDLXlrTUJ4eEhINTE0TzJyQXd2ZklLc0Q0c21LSU1VWTNNaDlfT196ZUtGaWZIU1lDcElzU0d5ZWd5dHJaS19ndk1xcmRCNktXMFVUS2lKRE11eEk?oc=5",
+       "source": "KRQE"
+      }
+     ]
+    },
+    {
+     "title": "Hayley Williams Curates Outbreak Fest 2027 Lineup Topped by American Football, Dinosaur Jr., Wednesday",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Hayley Williams Curates Outbreak Fest 2027 Lineup Topped by American Football, Dinosaur Jr., Wednesday",
+       "url": "https://consequence.net/2026/11/outbreak-fest-2027-lineup-hayley-williams/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Outbreak Festival Announces 2027 Lineup Curated By Hayley Williams",
+       "url": "https://stereogum.com/2518350/outbreak-festival-announces-2027-lineup-curated-by-hayley-williams/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Hayley Williams-Curated Outbreak Fest Features Dinosaur Jr., Blood Orange",
+       "url": "https://pitchfork.com/story/hayley-williams-outbreak-fest-2027-lineup/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Hayley Williams to headline her curated Outbreak 2027 Manchester line-up with Blood Orange, Julien Baker, Dinosaur Jr, American Football and loads more",
+       "url": "https://www.nme.com/news/music/hayley-williams-to-headline-her-curated-outbreak-2027-manchester-line-up-with-blood-orange-julien-baker-dinosaur-jr-american-football-and-loads-more-3976183",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "BLACKPINK Star Jennie Scores First Solo Grammy Nominations As BTS Boycotts New Asian Pop Category",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "BLACKPINK Star Jennie Scores First Solo Grammy Nominations As BTS Boycotts New Asian Pop Category",
+       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU05OZWZFbDJ2RzZrekJuNGVPWkdlQTc3VHZwR01VZEpyZUVXNWdhUU8tZmVjQ0pySWY1Zy01Z3pkd0lMbFF1MFEwZ1ladDZKZHhRYkN6NWtHZXNRZUthNlJaNFRoc0hIZENlMjJ4UUxkZ0lqUU9zTWlKYTRFaG9EYm92VHZ2Zm90Zy1oY2lKR3JNcFR6ZUN0MzFoVW5OdXBsNkN2LW1JWFdhMG5mVzZBYmNpMTZQT1Flekp2ZExJUVlZYzJSV0JYOWg1MzRSQTZ1YWc?oc=5",
+       "source": "Resonate Voices"
+      },
+      {
+       "title": "Blackpink’s Jennie earns two Grammy nominations as major K-pop agencies sit out new Asian pop category",
+       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY0ZfNWVNWE95Y2xMYWRNZnlNcVJhSXhfYWYwUTRyTmt4ZFk4bmFLdlM1UUI1Zm45VURXSl9JVnptSnZuRDYwSXVLOWwtb3lrNHRUTXllR1lVb2JQS3p5em04cXhXcEV4b0ZfMmZ3WG5IZGNYV25UWlZJLTl3SEJEbkJjSUp2N21abmY0MEpHWlRIZlhlUm9TRmZ1Vi11OWZOc2NoQjlhSEdsTGF1V2xNWnpSTUVpRzE1emtfU1o4RFd4cS1TVjR3N2FxY3d0LVJCUVVLV0FMNA?oc=5",
+       "source": "The Straits Times"
+      },
+      {
+       "title": "Jennie leads K-pop’s Grammy charge as major agencies shun new Asian pop category",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNczhYS2Jzck9DRkV6WG1ob2g5MjRHeGVETDNzMzc2UVJISWQyUllzbXRwX1VRTW05dEFRYmhKbHFTSzAwcXZEU2pBQnJOVmx1YmZsNFI1bWk4LXVWVUowREVrU2c3MlAtTGhOb19xZm9YLV9aMXMzaUpac1FyUVlyMEtVSGVkb1RFcFJiR01CSUYxSE5IWGxyREh4MV9HdDZ4VXJMRjFvdVN1MmYzZW5hZGx5T05uQVE?oc=5",
+       "source": "Newswav"
+      },
+      {
+       "title": "Jennie leads K-pop’s Grammy charge as major agencies shun new Asian pop category",
+       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN1ZhWkRRaFU4TXIzT3M3ZlVVQXp1SE9CZ0VDYmVjLUJHQVcxbVR4N1BLRVoxUHMzV3FyQ1I5SmtlSkhnZUVVMG4tZXVRZkx5U3FxWno5c2VycHg2X2tUalJzcm9DbmZTa2h2V1FHOGRTUHNCa1pDbUQwWkJDSW9pc3ZsTjgwVDF5UTBwRE9xQWVIcngyODU2ODdaY0xCaVlrTC1iZjJubGxfekFMd0NHVTZaYXRsdlRzOFZpVFZrdngtUFZyazlOdWNYTGZzUTEwTWfSAdcBQVVfeXFMTm5SeF8xU2tNeVlfeFNydkE0Nkt6UnlwZHI3VVJ2LUFUejFGeHFBd0RLUWYtSV9CdGgzLW03aHRQYWJMNGUzNWdxQjBZMjJHVF9samJpbTZiNGk2Zzg0c0hSQ1JpUDYyNXV1SUZNYW1WRW5ZOUZKSXpzREpsLUF4LTJxam9BcGgwbW1fQl81QWJkc1lDaExST2hhcGZhZFdfZTJIZU5hbkJRWi1FdHFoei02MnJKSDN3T2doSnhUcUdkbFlGM0JpMXUtdVBGeUNfSGM5U2N0WGM?oc=5",
+       "source": "Malay Mail"
+      }
+     ]
+    },
+    {
+     "title": "유니티, 인디 게임 개발팀 지원 프로그램 ‘유니티 펠로우십’ 출범",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "유니티, 인디 게임 개발팀 지원 프로그램 ‘유니티 펠로우십’ 출범",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42NWRRR3B2akVLZy1CdmZDazJKdEhGRW02UW1WdEdhRXg1SXR0ZUd2dXJHVW5jVmM0N1hSSmVocGVjMmppanBFUUpMR1hGTEFRT0IxM1hn?oc=5",
+       "source": "e4ds news"
+      },
+      {
+       "title": "유니티, 인디 스튜디오 지원 프로그램 ‘유니티 펠로우십’ 출범",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vVHdCLVZSb3pIaTZ4SXAzNkZ5OVZzOUpDRnAwcVd2RURYdjFpVFoxOU1Kakg3MlQ1amVUWmdWdmhWaUJhMVBXMUd0U3l0YnpCdENwYUpkRmsxZ1puMWgtaldsYk9ielNVcExoT1d5VQ?oc=5",
+       "source": "아이러브PC방"
+      },
+      {
+       "title": "유니티, 인디 스튜디오 지원 프로그램 '유니티 펠로우십' 출범",
+       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBadFdPUk1HcDhIMjhTYi1rQ1oycTRaRzU0dzZOS0I5Yjh0TnoyaXU3VVhOb2RIWGRSY1B6UHQwellSUThzV2Fveg?oc=5",
+       "source": "케이벤치"
+      },
+      {
+       "title": "총 10곳 선정, 인디 스튜디오 지원 '유니티 펠로우십' 출범",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEVWdSclp6Z3hTQXg2REwzQzdYQnQ5ZkJhYmk1Wi1QWmtpZDl3bkFHc1lIa0NEVGx3ZVNNSkRGWlA0R1ZOWjhMRC0zTlhVRWVnS3czY294RHfSAVtBVV95cUxNT2F4LWJPSkcyYjdwNkdYbDlQMDA0eHVtcXZPOGNGUjhhaTFkYTJEcWtOeUFvY0dyRW40Yk9QMTlFc3FLeFNhTVlRcl9XWTZ3YXFnS0xmZHJUdG9j?oc=5",
+       "source": "게임메카"
+      }
+     ]
+    },
+    {
+     "title": "82메이저, 美 아이하트 라디오 '징글볼 빌리지' 출격→미국투어 돌입",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "82메이저, 美 아이하트 라디오 '징글볼 빌리지' 출격→미국투어 돌입",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HUF96R1llbkRDaWhyZjIycmNBc2hzVW92ZHp2M00wZjJJOFhrcU9fY2RVdjFsSDdKVjM1R0h2TDBKN3dlTlFFVDlPZUptU3FmNXdlN0dtazlkbUxNc0xOcldZMVktUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "82메이저, 美 투어 본격 시작..'징글볼 빌리지'까지 합류",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iUE5RbEF1Um1wd3RJUWd4cU13TVVxWFdNRjVUYTA0c0hzM21Ga2x2QXlFa1N0MjlUUGhMb3RJa09ZTGk4UHlpUFFXaU12QUphWEdpWWFmSXVRVWFkcEJNOEdja21Md9IBakFVX3lxTE8tM25mTkgtYlVmaWswc2JVVnh3elNsLXhUU29MUkdzR3FMOFdkNWRWS1U4WV9Kc09qWVpNSHVfRFBUaXhtWHNWTmhIS1ZrSlpzMWVIMGNLTzVjYlBqbkZfalFScW0xZzNyQ3c?oc=5",
+       "source": "아이즈(ize)"
+      },
+      {
+       "title": "82메이저, 美 음악축제 '징글볼 빌리지' 출격⋯K팝 아티스트 중 유일",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1udU03N2wxdnA3MERjd2dQcEIxUUZmXzloOGJCdnVnQkFHME1QT1JDUTdmTzZGaHRLZXpsNmthQzV0b0E3TktadlRIelMzNXZUcDloLQ?oc=5",
+       "source": "이투데이"
+      },
+      {
+       "title": "‘공연형 아이돌’ 82메이저, 12월 美 최대 연말공연 ‘징글볼’ 합류",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9kc2FLS3FsZmdqRndUd0VNWFZkUXBjcFpTTGZZV043dDRnMmNFUEZwUU55Wm1BNk1iY2RDd19DSHhlblA2ZWJ4VzRQek9ZaW1HMi1mSnkzMm1rR0xZTWQ1cW1BM1BUM1k0a095REI4YUlSTl9wZ282Q3FnWQ?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "EXO KASE — Kai and Sehun Announce December 1 Unit Debut",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "EXO KASE — Kai and Sehun Announce December 1 Unit Debut",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCNnFkZ3dNWS1sQm1RcFY5cHhXQ0pqTHplMWxqcGFnQjNYeGpnUTNRVzFuM3VQOVdhUmZCTUxhZGc2bndZQUg3YlBCc2ZCV1pnUENMZGU1aTRHNEIxOUdRalcwQ29JOGM?oc=5",
+       "source": "The Korea Daily"
+      },
+      {
+       "title": "EXO-KASE Unite for December 1 Debut Showcase",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbFFQTEI3enItSmpwN3Jtdm1ZSjY1M3ZidUhsVHFnS1NKbFRsWHozaFY2REpFWkZHbElfeGVCUFpuekpHZFhQZDQ3a0FOdUZFUkloZ2RQZ2dyR0lZZjNVY2Y5ZFNfYlRZQUhDOUgxbVJGWkYwd0RoZ24zeWpDZ1BxTy03WEVwUVVYVFdKZDJR?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "“Their Very Existence Is a Genre”... EXO’s KAI and Sehun’s Unit Debut Strategy: “As Expected of SM”",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdEdmSnZhbEpwSldPbFRYcU16SEwyYjU2bnhBbUN2SzNuY2NTM1Njck5obTdvblNRdk9pdVVhUHVoZENISy1yTWdaaW9waDJHZkk5V3gzRnVLSkthcjhqQkstVmx2N3RKaldhLURqdVhQRnFSSDdDQUQxMjhGcFpES3dfWQ?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "EXO-KASE to debut ‘Waking Up The City’ at Dec. 1 Seoul showcase",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjhtMDdvRFIwRHNQRW96YWNocjFRX3ZQZE5tTXg3MGhlTV9mQWNXdUY4TEdQbFpqOC1teC1QdDFrb3lKQUlDalRTZllfck44eFJfT0NvVGJpOXRyWHhUV2pMenF2TmdpM2tjdW5EbGhTZ0gxNmRaQTJzOGYtOU1HdzhQU2U0NG83aW8yREJGbThhQ1dXcXNYNnhuZ1ZUZEZGczd6cXlQSVJnSlVRRXBhLTliQWNTamRj?oc=5",
+       "source": "Korea JoongAng Daily"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
