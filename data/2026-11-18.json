@@ -1,0 +1,519 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-19T02:00:20.348159+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 860,
+   "issues": [
+    {
+     "title": "\"좀 나와! 퍽!\" 아이돌 ‘라이즈’ 과잉경호 논란…인천공항서 팬 밀쳐",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "\"좀 나와! 퍽!\" 아이돌 ‘라이즈’ 과잉경호 논란…인천공항서 팬 밀쳐",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWNk1MSmJJV0RPdnpaOEpwQUNOUEt4eDdyVi11UWlTYnVmUkpKWDhEbmRWZy1QbEpZMWRkd3FuZEZNWE9lTW40bTNLMkVzRlhKRF9qcQ?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "사진 찍으려던 여성 팬 힘껏 밀쳐… 아이돌 라이즈 '과잉 경호' 논란",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14czdXQUFaOFJHUHhiMlVyczBnRFMwRGtaRnpCdWVmQ0JMc3NyN2VlczVTeUZxa3RibmdUUk51Q2Nxb3FobGNXYTBkdEpUeWhKc085R0VBUzhCSzZXbjRoY05ueHphZDhvMk9qRmNn0gFzQVVfeXFMUGRPdkJFd1U5dHBiQ1F1UjhVUlJVazJIYngwejdmcUpNcGU3dHY1cnEzWVY1dDlZM3FLR0twN2RiNW9WRFRfQ0dqRElzT19WNnBKeW1FdUJXSzVsLW5ObGVSZnZiOGRXZ210MloyYjJubmlDSQ?oc=5",
+       "source": "한국일보"
+      },
+      {
+       "title": "또 아이돌 공항 '과잉경호' 논란…라이즈 여성팬 '퍽' 밀쳐",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1QcWNHdHF6RDJ1ZlB1WWppaEwxeGV2U2FYMVJneFFsM0VXdEE0Q29RajdTa3RpWDdUYWI0T2FXVEpadGtDaUtHb0ZBbw?oc=5",
+       "source": "아이뉴스24"
+      },
+      {
+       "title": "아이돌 ‘라이즈’, 공항 과잉경호 논란…여성 팬 밀치는 영상 확산",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBONkQ2Z3g0ZkJ1cGhZVlRDNlBtUHpaNkZ2elZLNmZxc01ZRGFwUzFqNEppVEowc2g4VGNrZU5nNEJURDF6ME1QUlVHbWV3alBZNVNRSzY0TjhKV3h4Wm5nR09UN1IzQdIBZkFVX3lxTFBONkQ2Z3g0ZkJ1cGhZVlRDNlBtUHpaNkZ2elZLNmZxc01ZRGFwUzFqNEppVEowc2g4VGNrZU5nNEJURDF6ME1QUlVHbWV3alBZNVNRSzY0TjhKV3h4Wm5nR09UN1IzQQ?oc=5",
+       "source": "동아일보"
+      },
+      {
+       "title": "“좀 나와” 아이돌 촬영 여성 팬 힘껏 밀쳤다…또 과잉경호 논란",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4ydERHUXFHSlpsVG9LYl9lZExMQ1NUcncyYi12MzIyYkFUZk11dW90b2ZYQ3VIQWNqbWNmbmNZX2w0TFhvMDFhZ1lDWUI1R29hSEZQUWVac2JFUnhxN1hxZmN3?oc=5",
+       "source": "미주중앙일보"
+      }
+     ]
+    },
+    {
+     "title": "앰퍼샌드원 커뮤니티 포스트 - 앤디어 오늘 드디어 첫 정규 앨범으로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "앰퍼샌드원 커뮤니티 포스트 - 앤디어 오늘 드디어 첫 정규 앨범으로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85NlhYZXpkd0t6UTNFVW15aHl6S2dXNGZFTU1aZWM5cEZSaWh2NDdFTE1PSTdQQko4d2R1R2hvRS1oLTFvZ29CekJvRjRmbkVjLURYYm1GbjdDdkFwOFFTZ1dGY3lmc00?oc=5",
+       "source": "Weverse"
+      },
+      {
+       "title": "앰퍼샌드원, 정규 1집 ‘PATHFINDER’ 컴백 쇼 성료",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YYWpiUlk5NFdEcWEyWjlFZDhGZmtDUHdCeXliS1VKc0xNVG5rV0N1UEZJODVSTHFXRWktUk5XeUJLNzZLN01oUzEtbGU2LUJnM3JCb1NIUl9WMjlTRzB2T0RIcmFZMFZlbUE?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "앰퍼샌드원, 정규 1집 ‘PATHFINDER’ 컴백 쇼 성료",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwa2Rjc0J6YnJOMnp1dUhDeGtNVk8tNGlPVFZLZkZybnlxUDVkeGRwckp0elNQLW9PSENCZXk3YmlpLTZXWG5sYnJOcWVycEhsUmp5QlR4RTM4SmRsbERTa0NBY2xtMWpmMkdyR2xLcw?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "앰퍼샌드원, ‘PATHFINDER’ 컴백 쇼 마무리…110분 알찬 구성",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IMFJDTU9raW9lRzBFd0ZPemFHZm9BRTR1bUJlS1F2MGhrT0pqZGJDV053M0RoVk9Hb3NPSjRCREhfcjNJTldocy0taXVIeHN1Y19UdXcxMHIxWFotaWE4d041ZnlEQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 컴백 쇼 성료",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FZXNDSWlRSUxQYkRrQmlRWGZ2VFVBUWdNMTZvRFVXLVEyWmRHOUxTZk01b2pYYjE1SnBuRHJWWlN0LWpFXzZwR1RMZF9iZjZ6S0t2bFByTXZCX2pPY2NQaGx5WFA?oc=5",
+       "source": "BNT뉴스"
+      }
+     ]
+    },
+    {
+     "title": "드림어스컴퍼니, 음원 유통사 ‘DFSB Kollective’ 지분 100% 인수",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "드림어스컴퍼니, 음원 유통사 ‘DFSB Kollective’ 지분 100% 인수",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wbVpKbktaVnlqRDYxeVdOeW9RTnhkQ002dzhWU2RRZVo4MUVuclhhQkpleHQzZGt1OXZpSUZyVVhLX0VRRVI1elZLVVZyaTA?oc=5",
+       "source": "와우테일"
+      },
+      {
+       "title": "드림어스컴퍼니, DFSB 콜렉티브 인수…글로벌 음원 유통망 확보",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XcTdrSHRTRXpXdExZRS1BU0kwRTZyOUFZazVnS3VscGZBZGduVlVrX3RVLW9iaUlqOElna093SlBaLWpqajdMbVZncG9fcy1fS3ByUFdER3U4Zw?oc=5",
+       "source": "파이낸셜뉴스"
+      },
+      {
+       "title": "K-팝 해외 유통 1세대 DFSB 콜렉티브, 드림어스컴퍼니 품으로",
+       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKRHQ1WE5rT1JGN2x0OTNPNm1wRm5nWVkzM1p4aDNpSU5kYzBnRU9pNzJYd2pldzlGTE9SdWdzX3NhRTdlT0ZEcg?oc=5",
+       "source": "플래텀(Platum)"
+      },
+      {
+       "title": "드림어스컴퍼니, 해외 음원 유통사 ‘DFSB 콜렉티브’ 인수",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9BS0JkZW9oNV80c3JPU1NjZmtsdVFEVmZIemhxMWlaU1d3d2NBZVVMV2tjMnJ1R19nRlcycFBqZFFOZlJfamF6T09aRDY5dGQtTzNTc3NuZW1pWnM0d3dNcEtRZjhTS3dsSGZTRF80WUo5U0Zt0gF0QVVfeXFMT0FLQmRlb2g1XzRzck9TU2Nma2x1UURWZkh6aHExaVpTV3d3Y0FlVUxXa2MycnVHX2dGVzJwUGpkUU5mUl9qYXpPT1pENjl0ZC1PM1Nzc25lbWlaczR3d01wS1FmOFNLd2xIZlNEXzRZSjlTRm0?oc=5",
+       "source": "IT조선"
+      },
+      {
+       "title": "드림어스컴퍼니, DFSB Kollective 인수…해외 음원 유통 역량 확보",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EQ3A1X2Q1ZWxxNUlhOU9fVDhYdTBXaTFVWEM5MzhYc3pQXzdfbENPcDZlUV9nMWdqQjdvczhSQm5COWN6NXUwRUE0NWROSUJWSXB0WnR3LV92VlhhWVZzWGF0bWJYOUIybEd3Z2ZSMjRnaWVOOEp4TGtR?oc=5",
+       "source": "로이슈"
+      }
+     ]
+    },
+    {
+     "title": "수능 대신 무대 오르는 08년생 아이돌들…코르티스·리센느 등",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "수능 대신 무대 오르는 08년생 아이돌들…코르티스·리센느 등",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83ODh5LUp0NXJrOTVjMkJLWkxrZ2VHNlhnNW5abGVEQklGRGVzT19YOEFGQkJZLW5lNWZBN3RVRzhXN3YzMWRSdzZXOHV1UzlnVkRicE9RanoxSFnSAWBBVV95cUxOQnNPQTZFejJCcFo3NVFGV1NpSjJsM09tUWhxY3ZKNm10NnQwdnAwWGdvSjB2WmZIS2ZsUjI5N25taUhlWVc1aGRxZ3ZEclJ2NkcxeEZrM1YwUG41TFJfa3Y?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "수능 대신 무대 오르는 08년생 아이돌들…코르티스·리센느 등",
+       "url": "https://www.yna.co.kr/view/AKR20261117153900005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "수능 대신 무대 오르는 08년생 아이돌···코르티스·리센느·A20 등",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMjNqVERUUHdzcTg2V2hCeWpQcGRZdmg0UUU3cUZsUlozVGN4VC03SW9KeXFUblVmRXNMYlZiRUV0c0hzdmNKSlBEM0ZTZXc1cUJ0dW5rc0hhaE05dWpYakp4UkplblBzb2x0SC12SkUzU3V5TkJpTkM1SWNQY0RpeEprR18tUkpGSVZ4S1lyX1ZqT2VDYjhqZkZRUE54anlIalFQNlp6dW5GeTF10gFfQVVfeXFMT1VyMnQ5ZXZWUHo5amZSWGtpQlIzU0ZPWFFMMXpoZXA1ZzBoTXBvUERUTlBOc01TT0JQTlJQUkJ2N2tTaUJmMi1rZXdfaXJzbkJkc3FhRHFtdHNfbXAya3M?oc=5",
+       "source": "경향신문"
+      },
+      {
+       "title": "코르티스→리센느 미응시..'수능 D-1' 08년생 아이돌의 선택은? [Oh!쎈 이슈]",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMy1zQVBVN3FDemxsMG5PMVQ4cTExaUlHUnUtX0dPRVRBTi1TTWljbWFlbG1KZ1Y4a25ZZ0ZrZlNlcGRGM29iZWpSalBmTEExTVJMS0h5QndvakdlQXN1UzdHR2ZMNWxpVDVPSVg2d3RBejJiMHZOenhyMWNjcVV6MGdsRkRHdWJiNVE?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "코르티스→리센느 미응시..'수능 D-1' 08년생 아이돌의 선택은? [Oh!쎈 이슈]",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOWN1WnpPQl9xMXpIUEhrdmdtMnhBb3hJdVVWSjI0OG5MdTJxWU9MeUNPY1BQTmxrRHowSUh2b1VlVFAyVE02YUZmbEZfU1ZQRUVoWFZJRlQyYVpmNXNVeTJuR0EwamZXSTlkZTNEdHRaeldEbklhTHVzNi1CZ3hndGpNRHM4OUxoSzZoZGxfRFFwYXPSAacBQVVfeXFMTjhzbTdBeHV0NEppRkowS2xsUmRSVkNxaENrZ0xteTMyS0twS01mWUoybzkwM1l3SXR1MlJ1UXNLajJwa3NfdWZMTkU4RXRJUEFwTDIzVTRDcDlnQm1PbVp3X1U5TGFxRXNwTkpKWnlwRlVkZUsyWmt4UlFGZ0FEc2dGaGcxelhKOGNnbUlISm9fbWFFUzV3WDM2T1VzTXNoSnVkZFBSaW8?oc=5",
+       "source": "Chosunbiz"
+      }
+     ]
+    },
+    {
+     "title": "일동후디스, 가수 장민호와 '하이뮨' 전속 모델 재계약",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "일동후디스, 가수 장민호와 '하이뮨' 전속 모델 재계약",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQOUJzSkxRajFVNVFGbVZodFZJNHF3VEpraWFDQk1YU3FyVG1YVUlIQ3VEVE5hZjB2ckRSamY5OHpiTnBqbHBLTmpFN2cwX2ZQeUhFYzNvai1GVm9URExRV9IBYEFVX3lxTFBQOUJzSkxRajFVNVFGbVZodFZJNHF3VEpraWFDQk1YU3FyVG1YVUlIQ3VEVE5hZjB2ckRSamY5OHpiTnBqbHBLTmpFN2cwX2ZQeUhFYzNvai1GVm9URExRVw?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "일동후디스, 가수 장민호와 '하이뮨' 전속 모델 재계약…8년 동행 이어간다",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FZ1BKcWVOMmxray1JdHVKd3VmaEg0Skp3N1BVcFphSml6NUNLUXJUZ0c0Y0VXQ0lEcUlicXZ3WVo4VW94elFuX1pCTUFlVjVUM0t3SEtMOHJvV2ZCRmZ4NE1FOXByT1Nnd29N?oc=5",
+       "source": "한국의약통신"
+      },
+      {
+       "title": "일동후디스, 가수 장민호와 8년째 모델 동행…전속 계약 1년 연장",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQYy1ac2RvWXJlZkoza1A5dzVJcHMxUnlJSElmbDVFQi0wemZOTnRYZ2FFcFd6MjF6TWJXSUhlNjNmUW1iMk9OaDJQRUJsMUhidGU4TDBtV05NWTZTYzhnZWJoVm90ZnNfVDNN?oc=5",
+       "source": "라이센스뉴스"
+      },
+      {
+       "title": "일동후디스, 가수 장민호와 '하이뮨' 전속 모델 재계약",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaWGtLMF9Ba05ET0lXUm1KMVN4Vmh2c0xFazU5MXhralc1S3YtNjJHRFZKZGl1ZlpSTzlFWEhrOHkzRTgyV2c5ZEZrMEFVekh6VU45QlRRTE5zVUFjTHpha0dVMUhBNG1W?oc=5",
+       "source": "문화투데이"
+      },
+      {
+       "title": "일동후디스 하이뮨, 가수 장민호와 모델 재계약…8년 동행",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wTnBCenhSYi1rZTdaOEJYZms3QndIRjBJZWZVemNIc1VsalRXM0g4SUFTdFdQNm5kYlFJRWlFd01INXVBNlN3YjA2UVc2RTA5dnJmRkJmNjE4eUpGNGxmOXhwMzY?oc=5",
+       "source": "인더뉴스"
+      }
+     ]
+    },
+    {
+     "title": "키스오브라이프, 25일 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "키스오브라이프, 25일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lVVZPYXVBczVhbFJyU29oZkJxWWN2NDNzQ1JKVzU1VHFRdC1hZlozeWZNZHJQNFhKa0VYbEw1WjlydXdMRTIzbXdCbEZGQzBMS1pqMzludDhPMXdoc0hmdnU1ejA?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "키스오브라이프, ‘Greedy’로 첫 겨울 컴백…스케줄러 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1jb0VBYkhtbldReVpRaWRkSlI3Sm1SRzFieUJlX2xrd0JoRmFhNWJFd2FPeVZXbnpvdXJocEtCMVA3akFFd2o5VGdYa3ZmN3VWWHBVQkF5SXhGbWozU2VHMTRZczRnQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "키스오브라이프, 25일 신곡 ‘Greedy’로 데뷔 첫 겨울 컴백",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBybno5c3ZoYXdQM0NVekVkRDl0YWFWMG9GSEFja0ZvbkQ5YXotNDE4YjFoZ1ZIeUd3TUpLdlJhMTQ1bVA1STFjb2JhVklOTzFiOUdTWk40ZFhveFhwQVR1Y1ZtaUlUSDIySEVDc09B?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "키스오브라이프, 25일 첫 겨울 싱글 ‘Greedy’ 발매…크리스마스 엽서로 컴백 신호탄",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVcWlvZEUyX1RDdXdVWTl2b1V1dFJDUGo1cnBadklWajJnelBaVW1mNUVnNzFaYy04NV8xX0lMejVUOURIVnhUcWVPaVJsZm9mWjdMV3YwM2Exd1FQX2cyMVM1bGF0b1hNRGF5aEZB?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      },
+      {
+       "title": "키스오브라이프, 데뷔 첫 겨울 컴백...25일 신곡 ‘그리디’ 스케줄러 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fM3ZEdzdUUEt0UmJ5WTB6ck93eWgySG11bzEtbUhYM1Z5TE95UWtnQW1makQwcmZPQWlucDN5NjdfMWF4RWhZdktiOVg1SlJkRE1GcTZaTjB4TTFQZTZBWEVn?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "플라이 투 더 스카이, 신곡 티저 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "플라이 투 더 스카이, 신곡 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rakN0X0ZBVzY2TXp6aVYxZTN4RmIxNnItU1VRclZ5M2VZQklGcHZhRzJPcFcxa2R1dVlzcUdNbnBUYnh4a3EtSFhhYkRtZzByZEd2Ul9UalNyVng1cWRlWU1pOGk?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "플라이 투 더 스카이, 8년 만에 완전체 컴백… 신곡 ‘Story’ 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wWi1BV2hCbjhSTjZGS054WEVuSHMyYXItYVhRUWlSQUppa3NFS2V5YVJtT1dGNzZlbkxxdnNsYTNoTXJKYkdJeUFxajdzcXlra0s3Z1dhelpuMDdUY3VNTEpLZVpubk51ZVE?oc=5",
+       "source": "천지일보"
+      },
+      {
+       "title": "환희X브라이언, 영화 찍은 듯..'컴백 D-3' 플라이 투 더 스카이, 'Story' MV 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vWWRXUGVTSURhVFlEamkzUmZzOGJsV205VmVMVUx4azJaejg1X2pTbTcxQWY0blpjR3A5eVZhcVBmYmJFTGV1Sm5DT2RaZ2NiUmpsWWloTkZOblFYMTM5SGpBM3ZMNTk0NU1hX2RJMnlURlFz?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "플라이 투 더 스카이, 8년 만의 완전체 컴백…신곡 ‘Story’ 뮤직비디오 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxTG03UzlQOFRKdThqUVFPaVFuZ055VHY5dXl2bHdvTjJrVFB3RDIybGotb2JCREl5ZXhDcHNoZkpxd1U4cG5lRWdJZ0NCWTR6WUt6OTlaTlFadWZPdGx4dnFScmpWTzROQmYzcw?oc=5",
+       "source": "뉴스플릭스"
+      },
+      {
+       "title": "‘발매 D-3’ 플라이 투 더 스카이, 신곡 ‘Story’ 뮤직비디오 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhNWgzRHlBeUNpbWRPLUlyQzcyZWZ5T050Y09HSXVXSngyTWhwOGlEbS1ld3hkcGxmZW1YVG5fc0liVTRjTEt0ZjNKQWRKMlZ5Ui0tLTJqN1J5MGlNTWfSAWNBVV95cUxNcEUtQnY0XzlLaDNQLXU4enhhMWl6OEN6TGc4T0w2T1RwZmZIQVQ3LUNtaWFCQ3UzNjc2YklWUHN3ZVhjN3FvUVYyX1hEY196RjFmRVVXbWUzZGkteFdsOHRZejg?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    },
+    {
+     "title": "Sam Fender, Harry Styles and Billie Eilish to be youngest Glastonbury headliners of 21st century",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Sam Fender, Harry Styles and Billie Eilish to be youngest Glastonbury headliners of 21st century",
+       "url": "https://www.theguardian.com/music/2026/nov/18/sam-fender-harry-styles-and-billie-eilish-to-be-youngest-glastonbury-headliners-of-21st-century",
+       "source": "The Guardian"
+      },
+      {
+       "title": "Glastonbury 2027 line-up announced with Sam Fender, Harry Styles and Billie Eilish to headline",
+       "url": "https://www.nme.com/news/music/glastonbury-2027-line-up-announced-headliners-3976266",
+       "source": "NME"
+      },
+      {
+       "title": "Harry Styles, Sam Fender & Billie Eilish to Headline Glastonbury Festival 2027: See The Lineup",
+       "url": "https://www.billboard.com/music/music-news/glastonbury-2027-headliners-lineup-1236384106/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Harry Styles, Billie Eilish, Sam Fender, Cher to Headline Glastonbury 2027",
+       "url": "https://www.rollingstone.com/music/music-news/harry-styles-billie-eilish-cher-glastonbury-lineup-2027-1235660230/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Billie Eilish, Harry Styles, and Sam Fender Headlining Glastonbury 2027",
+       "url": "https://pitchfork.com/story/billie-eilish-harry-styles-and-sam-fender-headlining-glastonbury-2027/",
+       "source": "Pitchfork"
+      }
+     ]
+    },
+    {
+     "title": "2008년생 아이돌 수능 대신 무대…일부는 시험장으로 : 연예",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "2008년생 아이돌 수능 대신 무대…일부는 시험장으로 : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1VTkg2ZHQ1ZzZYd0NHZVd2cjdEa013U0QtckdiZzUwdU5ZeWlPaDNpb2s3R1c3VkdobWpaakZ4VEloNlFYUXVPdXU1bw?oc=5",
+       "source": "재경일보"
+      },
+      {
+       "title": "수능 D-1, 2008년생 아이돌의 선택…누가 시험장 향하나",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYNFlRVndIN04xVEVMUENrZEZjSG9xUGpoYmhGUE52SFFkNnBNTTU5SmNGWWZiaGp0Q0dXY0hudHl2NlluWllPaE1OWHRxM1hnbHFCWWdrb21WZ9IBWEFVX3lxTFBrSW1NVkhta3hUd3V3N05aTU5CS0dya3lfajRCOU5JRUNIdndBX3FIU0l5Z2JLeHA2NVZTQzlleXZMZHoyWkt3VGRzTjdEM0hmR0h6cmo2Q1Q?oc=5",
+       "source": "아주경제"
+      },
+      {
+       "title": "\"수능보다 본업이 먼저\"…시험장 안 가는 08년생 아이돌 누구",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCQmhyQkpvbmFiaGxfVkFYRjBlRXpoMnhhTXlOZXMwNEt3aDVlWEFSbTN6UGJaVjRlU05xclFGLXJzb1V1MFRLUV9Yb0ptbnRxS2FVeDBRR1FvUQ?oc=5",
+       "source": "한국경제"
+      },
+      {
+       "title": "수능 D-1, 08년생★ 대거 미응시 선언…시험장 향하는 아이돌은 누구? [종합]",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MZUoxeTZ5TmxKekd0WnV0eVNMT1BkVUhWQUs0V3BzM1ZUakFPTHNJcEVicmtoejNtUFdmRVg1eUJfM004eEU0NldxTXkxcnVvdXM1emRIcWNTaHdaWEVidERjTGlNZUE4a3JETmFHRFJnYk1zalZtR2x5SQ?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "2008년생 아이돌, 수능 두고 선택 엇갈렸다",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yTkVIYXV2NVEtVVpEaHRHeV8yY0xaWFVzZFFLemZEalo0XzNRWUtua0xJam9fbkFtaTdWRlRKSWM0dW9OMHRFcS1kRkxUMldab0RHYw?oc=5",
+       "source": "이투데이"
+      }
+     ]
+    },
+    {
+     "title": "Julien Baker Lines Up New Album This World or the Next",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Julien Baker Lines Up New Album This World or the Next",
+       "url": "https://pitchfork.com/story/julien-baker-lines-up-new-album-this-world-or-the-next/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Julien Baker Reveals ‘This World or the Next,’ Their First New Album in Six Years",
+       "url": "https://www.rollingstone.com/music/music-news/julien-baker-new-album-this-world-or-the-next-hound-1235659222/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Julien Baker announces new album ‘This World Or The Next’ with epic single ‘Hound’",
+       "url": "https://www.nme.com/news/music/julien-baker-announces-new-album-this-world-or-the-next-with-epic-single-hound-3976206",
+       "source": "NME"
+      },
+      {
+       "title": "Julien Baker Announces New Album This World or The Next, Unveils Single “Hound”: Stream",
+       "url": "https://consequence.net/2026/11/julien-baker-announces-this-world-or-the-next/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Julien Baker Announces New Album This World Or The Next: Hear “Hound”",
+       "url": "https://stereogum.com/2518378/julien-baker-announces-new-album-this-world-or-the-next-hear-hound/music/",
+       "source": "Stereogum"
+      }
+     ]
+    },
+    {
+     "title": "(지스타2026)최휘영 문체부 장관, 게임대상서 \"인디게임 지원 대폭 확대\"",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "(지스타2026)최휘영 문체부 장관, 게임대상서 \"인디게임 지원 대폭 확대\"",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLSVVQYmdkOEJ6ZkRTSGxxVmdXci1lOHVxcU8wRXFsQ3k4V3VJbDVTQ0lWcnNPbnMzc0xyRG9qU2trUFZZTGZDWlR0RTRJT3g0RW5jNVNUNEdneFh4Ui1zRA?oc=5",
+       "source": "뉴스토마토"
+      },
+      {
+       "title": "최휘영 문체부 장관 \"내년부터 대작 게임 지원\" … 인디게임 육성도 확대",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLXRVNTNjdFU4aE12RVRfSTd2OXV2X0hpdXJDdmt3cE1xQzZuSGRDQlhsM0JZZGFQOVlEckRGQTJjMEptUzZXN0otdURFZlZFS0FsZUFCYUpWTjhfWHFkZzQ1U2kyNGFSRF8zXzRuSFQ3MjIteGtPYzFRLXZZUTNBR9IBgAFBVV95cUxQLXRVNTNjdFU4aE12RVRfSTd2OXV2X0hpdXJDdmt3cE1xQzZuSGRDQlhsM0JZZGFQOVlEckRGQTJjMEptUzZXN0otdURFZlZFS0FsZUFCYUpWTjhfWHFkZzQ1U2kyNGFSRF8zXzRuSFQ3MjIteGtPYzFRLXZZUTNBRw?oc=5",
+       "source": "뉴데일리 경제"
+      },
+      {
+       "title": "[지스타 2026] 최휘영 문체부 장관 \"인디게임 지원 대폭 확대\"",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SWTM3V3U1czJFbmpnQm1fbVgxdG13TVV4a2Roa1oyYTQzWXJaUW1NNzhFUnBBTGZZZlFfYzV2NzZLWnhrcDM0eF84THMtNTNlQ0hpVXVEMVZsNmxkZjVJT0t3Z0YtQksydnUwR3RrSHc5UQ?oc=5",
+       "source": "프라임경제"
+      },
+      {
+       "title": "게임대상 찾은 최휘영 문체부 장관, 'AA급 육성,·인디 확대' 담은 2027년 게임 진흥 청사진 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LcmI3aEVoeDFYWDFET29SNlRjUnJsSW1NdFBDMXcybXZ6ZTFpMXVfV2tsUEdsZEdCSVdZU2I1TXl6R3FUWU5PT2tUUE5fMU43VHpmT2M2VzVBQkdYU1UwcQ?oc=5",
+       "source": "게임포커스"
+      }
+     ]
+    },
+    {
+     "title": "Musician Ryan Adams, 52, Is Engaged to Kate Farr, 22, After 6 Months of Dating: ‘Here’s to Love’",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Musician Ryan Adams, 52, Is Engaged to Kate Farr, 22, After 6 Months of Dating: ‘Here’s to Love’",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQajFXZFNWc2w2OXlJQzNmS0RKN1J1eWxGT2lZRGZYeG14ajNlTTNLN0ktUngxZVdlaTRwajhuUDJXaEREVU1iQi1sRFg3QUFud2Ytb1RxVUtQNUR5MjlzUmhFUlUyQmN0RUZ5akJXR21MaXVCd2NJdnRnQWxyLTRNenZNcWtaN1RuMzFHYXJhOVIxUjlPem5RQUFfY1o4UVhlcElqTG1ia01xSVE?oc=5",
+       "source": "Us Weekly"
+      },
+      {
+       "title": "Singer Ryan Adams, 52, Engaged to Songwriter Kate Farr, 22",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12cWZBdWx3N1JBeG14Yl9FOGx1Q05EbFpIMUc3T3I4SDZWdE90X05PQjZvMndZakhHbUdjYndFYW1oSGdOTC13UnpEc1lJOFJSMnNLUV9kaUFTaS1yU1JCQlNyZWZjQQ?oc=5",
+       "source": "IMDb"
+      },
+      {
+       "title": "Ryan Adams, 52, engaged to fellow musician Kate Farr, 22, after 6 months of dating",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXQkpiczAzOFpvQXVKQ1FiTFoxRFl4T3dZTjV3UGlqUUhnU21vUWRXVmxlcjU0WlNjOURrYlBKT2N6blZOTVJ6dmg0aXJ2TlZ4X2dHcHVFem41VEk0TGpxOXp3?oc=5",
+       "source": "Entertainment Weekly"
+      },
+      {
+       "title": "Ryan Adams, 52, Engaged to ‘Best Friend’ Kate Farr, 22, After 6 Months of Dating, Says He’s ‘Never Been Happier’",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWnVQeFdrUjMxem82S1hReFhqc01seTVKdkZnM3J1QzQ2b0F2QmVqRmFkSFpQeHFVYzZWSUxpc0pmM2xSeG93VjllX1hOTXFRWkhOZ3dEcHBlZUhVZmxmTXI5SW1leG9MMDdkS2Qydm9qQXRBRTB6Rk5lWUZZaDNKcDhTWXp2N3VQc3MxX0tTQ2YyRnpC?oc=5",
+       "source": "People.com"
+      }
+     ]
+    },
+    {
+     "title": "태비, 더메르센 합류 후 첫 신곡 ‘그 영화속에서, 그 로맨스에서’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "태비, 더메르센 합류 후 첫 신곡 ‘그 영화속에서, 그 로맨스에서’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IWVRVT3RpRkJlLXZIclQyMW0wUU5CUlpFWS1oSDV5M1V0ZFk2cE96X05hN0g4dDRteDFpRmN3SERiVjcxNm40T0JRVUc3QkJ3ZmpIMzdiUDhPT2hmWFFqTWJ3?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "태비, 더메르센 합류 후 첫 신곡…로맨스 영화 같은 이별 이야기",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjbEtndE9ha3VrWGFIZTFMWDJwZVcyOF9xbWNzRHdfekxyblZ6azZfOTZhZ3F6WnBuRi1ndC1LZ20zX2N5aUQxX0E5R3pvZlNmVWdz?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "싱어송라이터 태비(Taeb2), 새 싱글 ‘그 영화속에서, 그 로맨스에서’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BaHRETlc4d2xsZ2JJVXpQT3dBZF9ORDM2cXNkNjhwal9nUndYYkVJeWlnWmh5ZGtKUVZJTXRueDUtVDJoa2pVa1VxaFVHTXVWc0hlVkl0b3k5TWlLVGt1a2JwMNIBY0FVX3lxTE9BaHRETlc4d2xsZ2JJVXpQT3dBZF9ORDM2cXNkNjhwal9nUndYYkVJeWlnWmh5ZGtKUVZJTXRueDUtVDJoa2pVa1VxaFVHTXVWc0hlVkl0b3k5TWlLVGt1a2JwMA?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "싱어송라이터 태비, 새 싱글 ‘그 영화속에서, 그 로맨스에서’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GWlRiN2hoa2ZKY2tSVEdvb1ZIbGdwem1Jd3BxckszQmNFTFVHZC1fZmFiMUVfNVJndG5OYVNBdXo5SkVtdlNBZHN2aWpmeWhwZGtOb2M2dDIySHYyNGZfUnVsOE1nRFJkdUZqdThVLXp0Z28?oc=5",
+       "source": "스페셜타임스"
+      }
+     ]
+    },
+    {
+     "title": "‘미스트롯4’ 홍성윤, 신곡 ‘그래도 사랑입니다’로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "‘미스트롯4’ 홍성윤, 신곡 ‘그래도 사랑입니다’로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIVFJmRHpJdmhaTWtjR2dHRUJISnhpMG9PZXJxRFpvQjB1SWF4R2xTVXVyUnYzRkNNSjJPcG5tREFsTjdSU19jZGJVOTQ2RzBSUUpQY0ZnNGU3Um5FTW1IRGF2OFE?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "‘미스트롯4’ 홍성윤, 19일 신곡 ‘그래도 사랑입니다’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5hSnlUUjl5cy1zOWpiclV5NjdSM3otdmk1OGdPVjVKdDVrLVRIWFFUT1NNeWFWbW0wRHdlOGFNcnRqZnlzMFBaZXdmcDlfa3QxY1kzeEtMaw?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "‘감성 거인’ 홍성윤, 국악 내공에 애절함 더했다…신곡 ‘그래도 사랑입니다’ 19일 발매",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VYXE2Z2lDN2RINE12U09yelBRbnZ2ZjhPWkdVODdtVjc3YnpDR2FMWktmVTFrdDhxS2RrTVFKMVhqbWxKY3ZObFF2dUxfWG1EWElmbXBXYjR3WTh0ZUNDTjRkcw?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "[속보] 홍성윤, 19일 오후 6시 신곡 ‘그래도 사랑입니다’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iZC1uOEpGdTV3MGtXV2RqMUhjNXNvTFNPTmdrZjJxakJlLXFUaVY1RWlXSjJ0LWpsRm00RERMNEY0d2xpZFBmby1FS0dEcldkUUR0ek1Gam1pSGVUbGhGUFdzbHVFVmN6ZV9MVkRXTFVvTms?oc=5",
+       "source": "스페셜타임스"
+      }
+     ]
+    },
+    {
+     "title": "'마당발' 전현무, 이주연에 돌직구…\"아는 걸그룹 중 제일 관리 안해\"('전현무계획4')",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "'마당발' 전현무, 이주연에 돌직구…\"아는 걸그룹 중 제일 관리 안해\"('전현무계획4')",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xbkZNMjBaRktuMUM4VWduNjJWbnhVbGVnZDRxdW1tUmFJTnVpdEZONHo0ci1LX0lGMVBvSW5ucENlZUg2cVlJWHl2bUJsaFZkT0IyaWxJRXpMU0tSOUdaelVhN0gzV3Y3MVVaYVpCTkM?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "전현무, 애프터스쿨 출신 이주연 향한 돌직구? \"걸그룹 중 제일 자기관리 안한다\"",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT1hGT0w5QTN1eVowYmRzMzVmb2NpeVBuMENaZkpCR1VVVHp2eC1RNmE5cFVCaXNBcU9SbHRhc2xBclhGc1JVb05oN2xFZ1A2TnF6SXJvUkNpMEthYnBnMG1HV2dSRHJhdWxtWWRHSk1xN003bVkyajg0WU5FLUhDNFo4bkjSAZgBQVVfeXFMTzB4VVp5RFNiMU04X0d3bXhIakpuZGpBeXR4MXROZmxqcWNQcEU2NzVoNEZaSTlscE95NlpkQ3p1WWhJLTBuWC1aR09wTVBBSWFsVG5SeWxKUmlfYVoyZ1NvejBzVWc3bmdTS0ExX01rcVlzZGREaUdLeWdZTkdZcEZSZDlHUVhrcWw2UGtvT0NMOXVZTl9sTzI?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "이주연, 전현무에 자기관리 지적받았다…“걸그룹 중 제일 안 해”",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzSjVOT1JiWFdfR0l2ZUFpYVJaOUFuYklqZ1JBMVFxbTlvLWhRZ0NfQXFOWmRNanhMUXZvVWhjRFVoTGtqRUNFNk95eG9zNjhaNnN6OWlhbEsxZDl6aVlGdFExd0NiS2IyR3Y3Z2VR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "전현무 “이주연, 내가 아는 걸그룹 중 제일 자기관리 안해” 폭로",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMZmFVeDltendvLXhuejZ3TVRyakhJU1FCTFRHbWVtOEdaaEt3N29DYTRCQlZ2a1BuYmVweEE1MXZ0YlRzdXpiQ3Q3elQ4WkMwMmJ5MUJuNkpCRkplaEdWSE1aVHJtdw?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
