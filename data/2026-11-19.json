@@ -1,0 +1,546 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "2026-11-20T02:01:36.399594+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 9,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c12~c14 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-hiphopheads",
+   "name": "Reddit r/hiphopheads",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/hiphopheads/top/.rss?t=day"
+  },
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 902,
+   "issues": [
+    {
+     "title": "윤도현·이홍기·적재·김우성, 한일 밴드 오디션 '밴드왕' 마스터 합류",
+     "summary": null,
+     "ai": false,
+     "article_count": 20,
+     "source_count": 20,
+     "links": [
+      {
+       "title": "윤도현·이홍기·적재·김우성, 한일 밴드 오디션 '밴드왕' 마스터 합류",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JV0lKRGRFRXcyNEdic1FOUkFNN1hIemstOUxXeXJUTVJJWldIMHNaUENsa3BmeTlBNDBHM3dFM253d1hZMEhrWHphazVlejdUeWdQMU43MkZmUkZRdmY2X0h2QTUtdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "SBS ‘밴드왕’, 한일 마스터 1차 라인업 공개…윤도현·이홍기·요스케 등",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5amR3SlpHWUpUTnJrdmlIYTBHNWdjMHFxalE1ajBqMnc0cFl3LWZIRWVCSEI1OVdvRldUTXpoWV9qSU1ka0J0UmFEdThYVVRmTFE3RTlXand4clFvUEt2TGozSnBHQmVubFRGUFRSajc4SEg0?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "윤도현·이홍기·요스케, SBS ‘밴드왕’ 마스터 합류",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CUEJQOS14ZEowa1NXMUFGYUdnbHpENHo0bnZzRVJfaWNJT0dHTmU2N2lzUlA5d2xGYTdQZWlHVEU3b0FnclRENEdLd2NLckE4?oc=5",
+       "source": "문화일보"
+      },
+      {
+       "title": "윤도현·이홍기·요스케, SBS '밴드왕' 마스터 합류",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE51M2ZybTBBa2VOOG5qa1FHOFhuNkgtNGcweEwzRThZcXh3RWcwN1dFRXg1QmRDaFFIdnVYRzI0QUdQMkZLc2FrdUx4ajg3V1R3WVZFMTgzWjdjaHFGTGk1QmJ1THltY3pTTUtZ?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "윤도현·이홍기·요스케…‘밴드왕’ 한일 마스터 10명 공개 : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02MlNVbTdYa2pKUUFUZzUxbkEyNWVEai1McmtWUnJnYkxRbWdQR1JGLWs1NEZVZHctX0Jia2RGNFoxNTI5N2NwUFBsQQ?oc=5",
+       "source": "재경일보"
+      }
+     ]
+    },
+    {
+     "title": "이민호, 버추얼 아이돌 된다…박규영과 첫 로맨스 (버츄얼 러브)",
+     "summary": null,
+     "ai": false,
+     "article_count": 19,
+     "source_count": 18,
+     "links": [
+      {
+       "title": "이민호, 버추얼 아이돌 된다…박규영과 첫 로맨스 (버츄얼 러브)",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1cFRfbXBVOGRZd2N6NW1OUWVQTDlTSnlQa3N0bF9VU2tmMExxV2R5blJFMU1EZTAzQkd5Y1VLby1ydXpBeHdUQk4zXzFaQUY2RVpaS0ZqVFI4Slc4bXo1alVzb2pMZ0loVU45c1d3?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "이민호, 버츄얼 아이돌 막내 된다…‘버츄얼 러브’서 박규영과 호흡 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GM01jSWk4dmlPQmd0YzhycEo2WnJYbW5IZHpkeDNLZl9MSlJDbk5aeWprNDhRN2JuU2dKUWlfR0dlVnNNOXZJT1d6NlpKWWM3bEZqWE1GTUhNY0RXNFNFY202bzloeHpwLXhMMGhmb205eWVsVHpJQ3BPNA?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "'버츄얼 러브' 이민호, 버추얼 아이돌 된다⋯박규영과 오피스 로맨스",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBaQ2FFV0labnpFWkZ2U0xSOE50ZXFTZ1lwSzlfVmFLN3VfV3EtOVZwNUV4ajZySUNLNWVwakEyaWZxYWxDYTJua1F5TQ?oc=5",
+       "source": "아이뉴스24"
+      },
+      {
+       "title": "'버츄얼 러브' 이민호, 버추얼 아이돌 된다⋯박규영과 오피스 로맨스",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9adHI1bWRFTTV6ZTJCMjQ0YXc2UVlSRmQ1YnNRdEVxM2pMTHJtcHFwMVpfc19YNEs4NElGSUtXcFdhc2hKMWhKZS1TeWNkVFU?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "이민호·박규영, SBS 새 드라마 ‘버츄얼 러브’ 캐스팅…“까칠한 상사가 내 최애 아이돌?”",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOLVllTEpoejJBN3NEc3ViWWU1c0N1TWRiX01NSUt3cXdTZXNmUjU4S0JRcDg2T3lVWFQ5NkM2OEsyZzdyUzRtSkhoVDV2Y1VXN1hGLXNNMk9SUzk0Yzd2MXpYazU4MTNIMDZ5Z3Bn?oc=5",
+       "source": "www.frame-less.co.kr"
+      }
+     ]
+    },
+    {
+     "title": "이즈나, 25일 스페셜 음원 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "이즈나, 25일 스페셜 음원 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJMXNILUlxT2FNeTNQUHdYT2FWQVNsbGh2ZmNWQTdmbllmbm9Mb3VvTmFyal9OcXNGUVFzWmdteVhBRGhMdms2SmUxeGdWcTBYWXBqXy1zZFlxU2ZNNElSSlktR0w?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "이즈나, 오는 25일 데뷔 2주년 기념 특별 음원 발매",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wdFdxZWJZZ0luZU5kZ2dZMUlWYmo0YjdrQzhzNWsxQmN4YS1fMl9kVERDcVZOSURidmtJSWQyU3cwbjEzbUxXYWVxR1NnTWJ2RGEwaVphc2lqTUE?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "이즈나, 데뷔 2주년 맞아 25일 스페셜 음원 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xTkNMN0dyYWs1ek5YTUhqVk1JUGg4bnEtUEJXZVhuV1pvVTFsOGxrYWJUYTNlNmRXSHM5SlBUVXJTWVFJdm1RVXFYZDUzY3hRTTlpNg?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "이즈나, 데뷔 2주년 맞아 스페셜 음원 발표",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FT3EtUFZMRFRjdE1CbTNPT2Y5MkZ4bXoydVBfdkZYYXRYT2YycTdRQncxLTRRWEx4UWNHajQyUTNHVTh4X3J5SkRHcDBKNTZlLWpnRjJOVVoxaTVuUFUtUk1vendDckhoSnllV1FERVRlSk0?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "이즈나, 데뷔 2주년 맞아 캠페인·음원 ‘사랑으로 남길’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56OE9KYlc4Mm5KN21UM0FnSHVHWlhrMEYxU2JVOWdIUDlqY0w2UDFMWmNBbl9VVmliVERocUtUeFdabHpjRFUtNVpuR1ZoNmg2YnQxR19xQXV6RnpRRkHSAWNBVV95cUxOUjBHdU9kVnFYNWYyQUM2QTJpZzdzZWdtSHVDSlNLWnNxYy11UTZFNE1uWWpmd2txWE5KTVNpVDVFZi1BOGUxalhXUGFQN0Y0WmVUcEdoTFh4YnUzSWZyMUJqc28?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    },
+    {
+     "title": "GS25, 투모로우바이투게더 컴백 맞춰 협업 '샌드위치' 출시",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "GS25, 투모로우바이투게더 컴백 맞춰 협업 '샌드위치' 출시",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BbkRqUTdVeXR5dFExV2tXQklkc1R4V25QaUotcnZ2cVhwbXI3eW1TVzBIQVZUQ29KT2J5OEtYQkVOMEdNcnE2NE92WmdaaGU3WVktcFp0SzlVVzNOOEpr?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "GS25, TXT 컴백 맞춰 협업 샌드위치 출시…앨범 판매도",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmV195TjJ1bXgzQ3RpZnBHd1ZKN2pxZnRUZU82VGF0cGpkbGtRWWxmc05hSURJc3o2VzJRdVJGZkVDYl9qZ1huUFNHVlhmeXk5NEV6a1o3cjhlSjDSAWBBVV95cUxQM3pKRkh4dGR2YjZjZ0tJRVFkS3g2V0pVN2toRXQ4ZUZVYW1MMVpSZ1NLcTBOeTVXRDVESWd6X1dManMya2tlelpRTEtpUjhNMk1hcU9XTW84NHFxUHRyVjI?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "GS25, TXT 컴백 맞춰 협업 샌드위치 출시…앨범 판매도",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nQTNXbWJDRHlwdzZib1o0MnVDUTJFOUpxalhMTnpjVy1OQk1wUTUxNVZaTEpKNGp6RmhkXzk4YWg4VWgyQmcyclBDTjE3ZkduSFE?oc=5",
+       "source": "매일경제 마켓"
+      },
+      {
+       "title": "GS25, 투모로우바이투게더 컴백 맞춰 협업 샌드위치 출시…“아이돌 컴백 성지로”",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tWERZZlJNWnJuQWdmTV9SUzVjR3dRMlBfUGZ1N20tSldVYndBdEdoeEZfbHBTQ2lKRzZBa0I0U3FNMDMwQUU2SHd0QVQ1RUM1NnViX2pXdzNWbnFIX0U5NF81aWNPMzJXQ2xpRl9JOA?oc=5",
+       "source": "우먼스토리뉴스"
+      },
+      {
+       "title": "GS25, 투모로우바이투게더 컴백 맞춤 협업 샌드위치 출시",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tRWF0cUtKaERZUm85YzZqczhnbUtTVmJuSEFnMnd5cV9kakNBbVNmSGNodHZQcTdIN19rTUxSTGsyY3U5d25NSWJFWTBpQ19lamtGbTNHOG1JdFgxV2J4RWk0RVJvTkhqOGfSAW5BVV95cUxOTXM5U1NKUmQ2VzBBTm95Y0ltT0NRUlJ2ZU9STDhRYkxGTkVRZG9QMUE5WHVya3lqNTd1enQyUDFzbnlGaElPaWR2TGNqYm1nQ3Rzc3VoVFRnNWpsYmtOYTZOVW5lTUdlZkJVaklpZw?oc=5",
+       "source": "파이낸셜투데이"
+      }
+     ]
+    },
+    {
+     "title": "인디뷰티 서울, K-뷰티 해외 진출 웨비나 개최",
+     "summary": "인디뷰티 서울이 K-뷰티 해외 진출 웨비나를 개최한다. 이번 행사는 온라인을 통해 글로벌 수출 전략을 다루는 웨비나 형식으로 진행된다. 보도에 따르면 개최 일자는 11월 24일이다. 아울러 '2027 인디뷰티 서울'이라는 명칭으로도 행사가 소개되었다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "11월 24일 인디뷰티 서울, K-뷰티 해외 진출 웨비나 개최",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jc3hJemxPUG0zcGZTcjRLWEc2NEhiNGZ0ZjJldlBRcGtDMTN5RG85bkFuX2hTVzFFc3ZSTHJleHVReDhjS3I1alY5MVdMajc1SW0za0tud1J1MDJmRmJzVXV4aGxjUE5xU2c?oc=5",
+       "source": "THE K BEAUTY SCIENCE"
+      },
+      {
+       "title": "2027 인디뷰티 서울, 'K뷰티 해외 진출 웨비나' 개최",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDUHZsYTlXdmF2LWEyVzNOSF9IY1N6ODRuNG5ONFc3cEljZGgwa3U3QVd1dFA3TUVXS2RsUWEyZlNONXNFT0pyVEVYcHlqbmktMEx6bWJtQVpBbnI3TXRhbUJXOGR5ZE0?oc=5",
+       "source": "장업신문"
+      },
+      {
+       "title": "해외 진출 막막한 K뷰티에 길잡이…인디뷰티 서울, 웨비나 개최",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRDVZSU1DazJXbVpiRmtGLTAtTXpRWmpzUV9INVloU0NSUURfa3pyR1pKZ1M4M2RnU3YtRWVoVVRFc1lJTW5UWUNOR19uZnVNMk54M01xc0VBZzRZZGRXcmdjZHpsaUd6bDhFSHBpRlE3QW0zalHSAWZBVV95cUxQbXRPSXpJUldyLVQyT3oyZzZobDlPTWdFZXcyMFpUQnNpNF9yNTFUeDhob3pyRDlhcjhuSWxXeDM3RlZGZ1JPQ3ZnVTF6bDB4Ym5WbUJxaGFrZnUySkxjMjM2UF9NZEE?oc=5",
+       "source": "동아일보"
+      },
+      {
+       "title": "인디뷰티 서울, K뷰티 해외 진출 웨비나 개최",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LdkR1UFFab25GYlYtRkM3cXBhTmNXUGl4NEVLWVJ2UFQ2TjVPMVBlcTJNVk1pQklhSjNFSEllY0gzSnlOYnFITkM2ajRORExyYnNPZTVqS0wxUGZ2N3M0TEU0cnRXekwt?oc=5",
+       "source": "한국섬유신문"
+      },
+      {
+       "title": "K뷰티 해외 진출 어디까지 왔나… 인디뷰티 서울, 글로벌 수출 전략 웨비나 개최",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RdVh3SS1jMjQ2QkpfWVZ6NkFub2NzRW01ZmM1aFBPbkI3c2k5bnVhVThmUW1ya0lnZGVUMGQtLWw4Rkc5Z1RIVjV0dHVBUlBvZUdTeXRtd21oRnpGYXhVemFvd2p6Q19m0gFsQVVfeXFMUGtjVTcwdGdNUkZhdDY3NW53LUdGZkdrempFd19yLXNlVjhHYXJXY0RzakdxeXJKQ1UtU2pMMlV4RDhQU2o5SDRMUlFXUVg2eTdLRktoYlUxYmF3ZDhWUXQ4UGxKS0RycXFyQmlP?oc=5",
+       "source": "스타트업엔(StartupN)"
+      }
+     ]
+    },
+    {
+     "title": "가수 이주은, 함안군 홍보대사로 위촉",
+     "summary": "가수 이주은이 함안군 홍보대사로 위촉되었다. 이번 위촉을 통해 이주은은 함안군의 아라가야 역사와 문화를 홍보하는 활동을 맡게 된다. 다수의 지역 언론을 통해 위촉 소식이 함께 전해졌다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "가수 이주은, 함안군 홍보대사 위촉",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ITTUzcURDaW90Zzk4WW1vU0RTSGd6dGdqRS0wQjhoZy05OVYxMk9zUGtzb1J2V3U5VW1MMkJDbmtHNU1WTnJLOVdMMGxjbW00Nm5wOVQ0R185Q19DbkJJNVJXY3dFa1dRTnVaRzd2STJWcXpUVWfSAXZBVV95cUxNSE01M3FEQ2lvdGc5OFltb1NEU0hnenRnakUtMEI4aGctOTlWMTJPc1Brc29Sdld1OVVtTDJCQ25rRzVNVk5ySzlXTDBsY21tNDZucDlUNEdfOUNfQ25CSTVSV2N3RWtXUU51Wkc3dkkyVnF6VFVn?oc=5",
+       "source": "LG헬로비전"
+      },
+      {
+       "title": "함안군 가수 이주은 홍보대사 위촉…아라가야 역사·문화 홍보",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GcDBoUXdFeWhRX0J5ZFhDRGFjbGpUVzg1bXd3TDVZT29qVDB6VEoxeE91RjU2N214OS1XLVEzQVVZNU00MFdlRTBxSnJBUzYxRElPMnRwbnpLSWJqUnZHclJ0RWNldzYzaFpfc0h3?oc=5",
+       "source": "https://www.newfilenews.com/"
+      },
+      {
+       "title": "가수 이주은, 함안군 홍보대사로 위촉",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MZXZ1bVFGTzVrMUxFUW5HMnJTVEpHZldrWndPN1h5eklsUFRNUS1SbDZIS3JOcFd0UlhqRmZjYTQ0ZjBvUFRRYjVRRHBfWTV3bS1TUWQ0YUJSLWkwZGM5WTFNeFUwZ1VodlF3?oc=5",
+       "source": "경남미디어"
+      },
+      {
+       "title": "가수 이주은, 함안군 홍보대사로 위촉",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BT3FTUUtHbDlja1Q4eEZIVXNTV0dWVXo0RnpWQXRBRkpIZEowYjNQeUgxV3NzcDFXSWZyZlhJbUVxaUNLWnZsZTBLbFlFWjByT0lVaXNsUFFqV015SzVqQktzbVdhM1F5ZGNvS3NhYzZFdw?oc=5",
+       "source": "웹이코노미"
+      },
+      {
+       "title": "‘가수 이주은’ 함안군 홍보대사로 위촉",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Cd2ZkUHdEUENvNjJwYVY0UWJkRmpVQ05KQll0STdpZFl3V3JyYjBqMXgyUkJjc1lHYVZFUVd1aGNFMVVDUEhCd0doRDZmLU9nMmQ1aE9XcUFmVXp4eDEwQko4RXYtV0V5ZHc?oc=5",
+       "source": "진주뉴스"
+      }
+     ]
+    },
+    {
+     "title": "앰퍼샌드원, 첫 정규 앨범 발매 앞두고 플래시 게임 등 이색 프로모션 전개",
+     "summary": "보이그룹 앰퍼샌드원이 첫 정규 앨범 'PATHFINDER(패스파인더)' 컴백을 앞두고 다양한 프로모션을 진행한다. 이번 컴백 프로모션에는 플래시 게임 공개 등이 포함되어 이색적인 마케팅으로 주목을 받았다. 또한 음악 플랫폼 플로(FLO)의 응원하기 참여 등 다채로운 이벤트로 열기를 높이고 있다.",
+     "ai": true,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "앰퍼샌드원, 이색 컴백 프로모션",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11TnZ1bGY1ZGRXdjZXYjdPcUl6V25qc3N4SHdJd2lDMUVYbnQ0RXBxamhsX0g4QTBpSlM3TVo3bXZUWldPM3hyRmlhSTNWa1k4RXBUOTdvalhiUXBlaGVxYVhsWnI?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범 ‘PATHFINDER’ 이색 프로모션 눈길",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wZ0ZPSVV4bS1LT1lIQ0RqQTM0bVZlTjVDR3hnSmc2SWpHOGdfX2lwS3VGMFdXYm5JUDQ0dWNaYTJpQ3ZNcUlXQjE2RWVVWkhtRVlvS2k5YW9ET2tiTkN6T2JhRmNyRjRTNFE?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범 ‘PATHFINDER’ 이색 프로모션 눈길",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iTE5lYnYxRU5tZ2MxWjY1RWJZYzR0Yks0c3BZckd1b2NKTUdKZWV5aDVhd21XNk5CVml0OFlmWUFmeVlDSkQ0U3IxUWhEVXRlekpTNE80R0pPZjRFWllwR09sTUlXSTl0MjZNUw?oc=5",
+       "source": "메가충청뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범 ‘PATHFINDER’ 이색 프로모션 눈길",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wMmhGMDFrTnhqOUF2MmJHTDkyLXlUcHF1VThjWkVvaTZ5eEY0WlJTWlhDSi03SVNNeFYzZ05HUXhieXJhcWhXemNRZFF6TVc1UlVCSXM0dWRpaDJSQV9KQVd4SUF2a3RPMEh4TWZRWQ?oc=5",
+       "source": "서프라이즈뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범 ‘PATHFINDER’ 이색 프로모션 눈길",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41QUduS3RRSV83RDRBV1kycUdYajVtVWxoYmItT1lRc1N4cG1FTDNtVFRmX2NVWDRLeGUyaWJuRXFHMHp3TmFXT2s4dXR4VFBtNjNjZlBHSGFoemM1bFN0bDR4QUt2LUEwbnoycXAtQQ?oc=5",
+       "source": "뉴스파이어"
+      }
+     ]
+    },
+    {
+     "title": "일본 보이그룹 2xFE, 신곡 티저 공개 및 홍대 쇼케이스 개최",
+     "summary": "일본 보이그룹 2xFE가 신곡 '2시 7분'의 뮤직비디오 티저와 스틸컷을 공개했다. 이번 신곡 뮤직비디오 티저는 멤버들이 직접 촬영과 편집을 진행한 것으로 전해졌다. 이어 2xFE는 오는 23일 한국 홍대에서 쇼케이스를 개최하며 현지 활동에 나선다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "티저와 스틸컷|日 보이그룹 2xFE, 신곡 ‘2시 7분’ MV 티저…멤버들이 직접 촬영·편집",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PTDVmNzVHVHI1VThxV01SeEVXcm4yYVpqRGR6aGtfZzQ1dzc5UWpDVkxTXzdOTUxYaUdSZTFxNEs3TlA3cHd1Qjl3aHAwRUVHbTNva1NYOUo?oc=5",
+       "source": "ZUM 뉴스"
+      },
+      {
+       "title": "日 보이그룹 2xFE, 신곡 ‘2시 7분’ MV 티저…멤버들이 직접 촬영·편집",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9vNVBxbVU5NGMtNUlOd0x4QVhqQ2tEVjhod19CdXNOZTFWdTJ5TVJWVW1ySDFLWlY2eHM0TW5jbVE4cjNIdkQwS3o1VVNDb0RoS2RMYzlyai0wNEpFVTFVaUZR?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "日 보이그룹 2xFE, 신곡 ‘2시 7분’ MV 티저 공개…23일 한국 쇼케이스 개최",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05S00yeDFYZmlGdk5LUE1DZGpZTVNhbC1VUGROWTdVbk5tc2pnVmYxOUFkNl8wMEx5T1pSdmpfY3EzM0FoQW1vZGxuQWpVekZONEtMWXJIRktkelBsdjRZaG1DZExHSTVYTS1tZg?oc=5",
+       "source": "뉴스플릭스"
+      },
+      {
+       "title": "일본 보이그룹 2xFE, 신곡 티저 직접 찍고 편집…23일 홍대 쇼케이스 연다",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAySFdyVnkyUUpTVjk0U2d1bmQ2Z3dMTXBvVHpqbVlOalBEczFhUUJtbEY2VEl2Ml9OaXRLZWFSRkZKY1d1YlBkbUV2cGFxNjhpeEE0dm42TQ?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "日 실력파 보이그룹 2xFE, 새 음악적 지평 열 신곡 ‘2시 7분’ 뮤직비디오 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGenlwOUVFMTNOQjhuYktQQjViS21hZFNscW95VmpzWTV2YlBnTzROd0ViTGUwalB5Rkg3Wm55TjFuZExid2ZtUk5JMHp2T0VpQlpNdTlISW9XWTdGcXfSAWNBVV95cUxQWXZMMjRyZEpvVmlnenp3Qm1CN2ozXzFWNjdFYjNtWGVZRGNxUFBRanN5QTAxT2FzMzhmREpiLWNPNVg5MlF3RGhzcFNVejgxVzllWEtVYWQ1VlhZd3B3cVpMRTQ?oc=5",
+       "source": "스포츠경향"
+      }
+     ]
+    },
+    {
+     "title": "서울우리소리박물관, 20일 제5차 민요 프로젝트 음원 공개",
+     "summary": "서울역사박물관 분관 서울우리소리박물관이 향토민요를 재해석한 프로젝트 음원을 20일에 공개한다. 이번 음원은 서울우리소리박물관의 5번째 민요 프로젝트 결과물이다. 향토민요 속에 담긴 공동체 정서와 흥을 현대음악으로 재해석했다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "민요의 현대화…서울우리소리박물관 프로젝트 음원 20일 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxUDV4WnFhclFzbkdUcml4M3FMd25heDZ2bTY5eXA5NHRuMGtjNU5yWjRzRmg5UnNaa1VIbVNsM21wMmVON2VXSG5TZk55cVFKSnRoV1FsMEQ0eFY5ek80TNIBYEFVX3lxTFBxUDV4WnFhclFzbkdUcml4M3FMd25heDZ2bTY5eXA5NHRuMGtjNU5yWjRzRmg5UnNaa1VIbVNsM21wMmVON2VXSG5TZk55cVFKSnRoV1FsMEQ0eFY5ek80TA?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "민요의 현대화…서울우리소리박물관 프로젝트 음원 20일 공개",
+       "url": "https://www.yna.co.kr/view/AKR20261118161000004",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "서울우리소리박물관 5번째 민요 프로젝트 음원 20일 공개 : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5GZHhlMVVTRWpwclJxOVZvekM4SUZ1LURQb2RFMmVCYzFLZXRKQkU2MlpsM0ZBdlVpVHFOVjZjSG1CWWQ3c25yT2JnSQ?oc=5",
+       "source": "재경일보"
+      },
+      {
+       "title": "서울우리소리박물관 민요프로젝트 음원 20일 공개",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONHdUMDBXWUpsX1MwZy1WbUFXbDB1ZG9tcWc3SmJoYUxHcldoTkN1SHhvV3ltMXlIZjd6dkdvNWtscHA3TE1QdkxLOVBtckx0a1hrdDhPbHJIakZYX3h5X2tyRVZFbUNmeUZRWk5OeEFvbndUajVSVy1YbW1JQXdJa0hpc2NFUQ?oc=5",
+       "source": "TBS 서울"
+      },
+      {
+       "title": "서울우리소리박물관 민요프로젝트 음원 20일 공개",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWEN5UlMxVFJPNWduYWRfYVNnaS1BUTk1c1FPc2ZwVWN2SlZqMVJGZFBiU0liNWR1cDNCcTBPQzFWcjcxX3NNVGlDaHhvOVp1RE9qWVloT0l5T3dYYXFSalY0dlg0NjZNWXd1eUQzU2JORlA2T29qd0Z1alhkZ181S2l5dzhndjNr?oc=5",
+       "source": "서울특별시 미디어재단 TBS"
+      }
+     ]
+    },
+    {
+     "title": "강남구 강남페스티벌, 피너클 어워즈 2관왕 달성",
+     "summary": "강남구의 '강남페스티벌'이 피너클 어워즈에서 2관왕을 달성했다. 이번 수상으로 강남페스티벌은 한류 분야에서 3년 연속 수상 기록을 세웠다. 관련 보도에서는 2026 강남페스티벌의 피너클 어워즈 2관왕 소식이 전해졌다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "강남페스티벌, 피너클 어워즈 2관왕…3년 연속 한류 분야 수상",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iQTVIYnFXczc2aTFDUUNhSTZLcnR6MG1VQUd2LW0wT2VMLVJsV3pHZ3JtTlBBdS1KeUhkRWpFRjdoT2VEWjItWm83M1RZTExoZFBNNE1R?oc=5",
+       "source": "헤럴드경제"
+      },
+      {
+       "title": "강남구, 강남페스티벌 피너클 어워즈 2관왕 달성",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fVWlFRGI4TmppNldKRmVSRmQ3ZjYzM1ZfajdXUnI0bExaNlZqbHdnV3V0Z2RRZGZKX1h5NEZIck1KZ0R0aVlKZHVaUkJYcVJZdndkaTBFUkwzcXVQRkdOU0I4VWNFQTBHSDV0bVdmYURPNzTSAXdBVV95cUxQckY2eEVYa1c1NllkNWpFYVB5eTJIZEFaWFpOc0E2SzFLYjNtQXQ1cVpfSFVwMThkQ1EyUjBOXzVkQ2JmUWZEeV9NS2Uwd0t5VXQ1WXJXZUZDaTdfSnNCM0NqaEtKdkU3MjBVQ01zdGp5MEJid0V6aw?oc=5",
+       "source": "핀포인트뉴스"
+      },
+      {
+       "title": "“강남의 축제가 세계로!”, 강남페스티벌, 피너클 어워즈 2관왕",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LelAwaUllNE15RUlDSE12NEpvZTY5Tm9FbjJnWF9iZHBJdkg5ZjZNRFEzZ1lBSG1aam5fS2J6VDl6YzNmbExBdW51Y3RGbjJKdnViUVJDS2xTY0NJbHV6YU1WOU84czlyVkQ5cUg5ME1FUHJL0gF0QVVfeXFMTkt6UDBpSWU0TXlFSUNITXY0Sm9lNjlOb0VuMmdYX2JkcEl2SDlmNk1EUTNnWUFIbVpqbl9LYnpUOXpjM2ZsTEF1bnVjdEZuMkp2dWJRUkNLbFNjQ0lsdXphTVY5TzhzOXJWRDlxSDkwTUVQcks?oc=5",
+       "source": "이뉴스투데이"
+      },
+      {
+       "title": "강남구,2026 강남페스티벌, 피너클 어워즈 2관왕 쾌거…글로벌 축제 경쟁력 입증",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0ZXFPTzdxQm9ZT3VpT0dDX2RxLXJCVGRMaUd6SktHLUVCa0FtQnEzVUFXb2V4dmhWOF9KTW5XYWJ0ZWU0c1VEZm5VZEoxYk1tYWFfU1R4YW5kZVQ2NjhfVGVzbUZfUzM0WXfSAW5BVV95cUxOdkFHZ3hxb1NJMWoyUDV5R1JkTXBFWVhBZmx4c0pCdU1aYUtXM0k3bzNkSFNIVWRoNmNWZEVZamxoSHNOUzRMd3J0RUVCN0pmUXVxTGt3OGhOd1RvUUstUmRhQXZhQV9IQ3drMVlMUQ?oc=5",
+       "source": "퍼블릭타임스"
+      },
+      {
+       "title": "2026 강남페스티벌, 피너클 어워즈 2관왕 쾌거",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYZFpxVXNnd1d6dzBNR29Na3M3TkNhb3JOcjB0U1RRRWFneVo1a2RJbUxCTkxtWFB1ZFZLRGRwU0ZoQVU4NFF1WENONzdBQmpSXzQ2YnF2dHFRNFU?oc=5",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "싸이커스, 내년 1월 20일 일본 새 싱글 'JOY!' 발매",
+     "summary": "보이그룹 싸이커스가 내년 1월 20일 일본에서 컴백하며 신곡을 발매한다. 이번에 선보이는 곡은 일본 세 번째 싱글인 'JOY!(조이!)'다. 싸이커스가 일본에서 신곡을 발표하는 것은 1년 6개월 만이다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "싸이커스, 내년 1월 20일 일본 컴백…새 싱글 'JOY!' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tYnZHc3NrajY3TFBfLXliUmV3UWZnMmVpbU9PQTVhdFpMN2JORHd2VmhoaVNCNFBMWjFtVHhzR2thMGJOQUVRcE10OHJOS1c4Y0JRZzhPUUZWd2pWU2xraHFWWGppdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "싸이커스, 내년 1월 日 신곡 발매=",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xS21jUlpPSEloenVUNU1DR3hBZ29ic3Y4bUVCSDJDMGxyZ2wyVXluUkh2a1FtbXBsZWhUdkFLNGJRWFc1eWFPN1VBZGNndG1ZalRPNE85N3QzVUdDU05LNHlzWWk?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "싸이커스, 1월 20일 日 신곡 `조이!` 발매 확정",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMnFpU0NpUzBvS2w3ZlA1R3dkbUdKckd6MFNSU1Z3ZG91Sk1LcjVPdzQtenJZWXZqTXhUSXVmbzU3OHFEWXAtbTJhTXBCanJxTWxoXzUxVm5HRXRyT0VwSVRZVFNsZw?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "싸이커스, 내년 1월 20일 日 신곡 발매…글로벌 행보 박차",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QRUNhWEN2VndnY09wRndVZ1VhTkR3UXZ2bHgwQUZGRmFZbHIyX1ZoNllkX1NSazVWc2haeGd2UlR1R3FSRUZqRUlva1BaWFlnWnJNcEgzTHB5TUU?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "싸이커스, 내년 1월 일본 세 번째 싱글 '조이!' 발매…1년 6개월 만 신곡",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PdmRjZnRVeHp6SlhSOWxEc0lJY3BQekFxVGdCblFlNG96SWpvZEhJaGFxUmNtQXJRTVU3SThoTGxnSGpTOXZDYVFseHBvUHpRNktvQVFvYW42Mk1X?oc=5",
+       "source": "뉴스핌"
+      }
+     ]
+    },
+    {
+     "title": "팝페라 가수 이사벨, 29일 구세군 자선냄비 음악회 개최",
+     "summary": "팝페라 가수 이사벨이 구세군과 함께 자선 음악회를 개최한다. 이번 공연은 오는 29일 안양 평촌아트홀에서 '2026...' 및 '자선냄비 크리스마스 콘서트' 등의 타이틀로 열린다. 이사벨은 구세군 자선냄비와 함께 19년 동안 나눔의 무대를 이어오고 있다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "팝페라 가수 이사벨, 구세군과 음악회 개최…나눔의 온기 전한다",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5sdmM3SXVTTEtLOGVFeUNZTnpQdmYxV1lYcGRmUDMwLVNsRFdWbklhS1EwY2FwVEZsRXkyRmdZdzk2VjZTV3EybF9tR0lyOTFKSWhPN3pSOA?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "[가요소식] 이사벨, 안양서 구세군 자선냄비 음악회",
+       "url": "https://www.yna.co.kr/view/AKR20261119085700005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "팝페라 가수 이사벨, 19년 이어온 나눔의 무대…구세군과 특별 자선 음악회",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBOaVczTlZPR3l1S3RwTWZiX042b2NaUklBQW5WVFpiZU5oUG9zaHYyZG53NGJUMTNXeGprbFh0ZjItTmc2MWxOeXhBTm5NQndHdllSR0Y0TnRnMHBDOUNUTEVLUXZxcmxM?oc=5",
+       "source": "Queen 이코노미퀸"
+      },
+      {
+       "title": "팝페라 가수 이사벨, 구세군 자선냄비 19년 나눔의 울림, 특별한 무대",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56SEk4eXZuajhRNVNUTDBjX2ktcUFEM3ZKeTJ1VVZHRWI0RWk4Q29VRlZGOHE5a2hfUjlXU2phVHZBMnNSQjE3YUN3RTBrX0hjN2pYcUwtWUc0TGVXbHfSAWNBVV95cUxQUzBDd2wxUE9qODhkM0U4ejUzMWpfQWVFR1RfZ0JHMFktWU9hc1hLOVJKa2RYS1ZjUmZ4VHdzRTlHeUZXcGNQSWhXWksySjRKUTkyMG9uenZiMHBYUmhUcVhHZHM?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "팝페라 가수 이사벨, 29일 '자선냄비 크리스마스 콘서트'",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wa3RoNEdlci05d25FOFFEN3A3bmY3NkZURGJvU2RNMG9lX05rNnkyYXlzR2kyMVdMRkFPakFxZnFpeG81UWNEWTMxbTB4RHdCS29mQjB6bEo5ZzVES0hTUtIBeEFVX3lxTFBxb25PQlp2WTJpLUVkRVdPOVp1T3FzeFpLWTM0NHRRdGZ1cmllN2l5ZFJraVdvc0VKUVYxeV9pd1hlVjVUdWVsUnVMcHRWbDFzVWp5RHluV2lEUEt1R0xLWEk1M0xFQUdmU05fejlHbnYtQkhqOXhNNA?oc=5",
+       "source": "뉴시스"
+      }
+     ]
+    },
+    {
+     "title": "록 밴드 넬, 새 EP ‘픽셀스 오브 마인드’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "록 밴드 넬, 새 EP ‘픽셀스 오브 마인드’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zNXlFdWJlWEM3RkJ4N2hZOUZ0bjZXaHdhYkRNbGo4ZlpJQjZiR3hHZV9zdkM1TDd6Z1pIODFuYmR5QUhUS2NGdG1obEpxRUF1dGtjNF9YMk41RGNTMTJ4NkZhRnRKaUU4aEdRREtJWWRISHM?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "밴드 넬, 새 미니앨범 '픽셀스 오브 마인드'…불안과 고립 노래",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vWmhXT3Zkdm9XcUg5UVlOSjVKbWs3MmlycTF4ZlNadE9wYk9KZDdFMGlqazM0ZktDejNFWTlIaVBTUzFlZVBoZWt5RHBYM3BhZFlwbW1MTzF2WWpwZ2o0NdIBYEFVX3lxTE5vWmhXT3Zkdm9XcUg5UVlOSjVKbWs3MmlycTF4ZlNadE9wYk9KZDdFMGlqazM0ZktDejNFWTlIaVBTUzFlZVBoZWt5RHBYM3BhZFlwbW1MTzF2WWpwZ2o0NQ?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "밴드 넬, 새 미니앨범 '픽셀스 오브 마인드'…불안과 고립 노래",
+       "url": "https://www.yna.co.kr/view/AKR20261119067500005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "넬, 새 EP '픽셀스 오브 마인드' 발매…더 깊어진 밴드 사운드 예고",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TSFYtZjBUeVozYUg4ZlJSQTh1TDdNR2FwSjJ0MVdWRmhwMkhnX1ZEY3NXWmpkMGVXaHlnOFNGSmJwT2lEOTM4OXFuT2xVYTNvaWw0Umdrdw?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "4곡 러닝타임만 18분…밴드 넬, 새 EP `픽셀스 오브 마인드` 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oVnljZ0J5TzFHMEdDMTh5MUlmNk5EQm1SZ3EwUEE3UXBRMW9Za3dycTduS0liU05yaENVaWpJQl85aFpPUVYzcHhsMExsU1F5RWdyU21NZUxYOWNfM19pS3NyUVI?oc=5",
+       "source": "디지털데일리"
+      }
+     ]
+    },
+    {
+     "title": "원호, 신곡 ‘룩 앳 유’ 티저 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "원호, 신곡 ‘룩 앳 유’ 티저 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZcmdWTG9XcXB0SG9yc05MTUJNMlgxd2MydWlyQTUtTFkwa2ZEeU9POURxZTNLYkc4Smo1NXdrZFFBTXp1NGJQY1BYM2ZxUmVxSHJaQmRJUnRaZW9vczNWTnZDSG4?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "원호, 신곡 '룩 앳 유' 티저 공개…20일 컴백 앞두고 기대감 고조",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UUlA4eFN4dWhPWUNtVGJtNlcwaXZfWVl1SUN5RmxlMFAwc3ZQQnRuYkFGMXdDYXEwX0VEYTI4THQ4ZDVwWTRGdGMtWHpKUzhodE9XTE1SWTJjb19wQTR3bDI4VGEwUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "원호, 신곡 'Look At You' 티저 영상 공개...오는 20일 정식 발매",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MbjBXNkNlZFctaF9XZFctOUNHdWRQTTFnSnR3UnpaaVo2QXhYYlhoVzB1NnBQUkJpZGp3U2JENVZRcUJoS3dCcGJtdFA0UkQ2QXQ2SjlTQXE0a2lfU0cxdQ?oc=5",
+       "source": "메트로신문"
+      },
+      {
+       "title": "원호 신곡 ‘Look At You’ 음원 일부 공개…20일 발매 : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9aY2xLdmwyOEZGZEhQc1NxY3htZjRoQV9NaFlmeEU0WFVRbHROZUVQeE05Z1JrZVNyeFhtNk9iTUFjeXhSbnZJRmR2VQ?oc=5",
+       "source": "재경일보"
+      },
+      {
+       "title": "日 보이그룹 2xfe, 신곡 MV 티저 공개…韓 진출 앞두고 기대 UP",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1fdS0tNGFUNHB2cjBIUDBHOVFDY1UwUTdFSnNfZmJGdGxCT0J3UHhLdzJrSVJaQW1SNkgtQTBabXZ4VnZvTjRlOE9zV3A1RU5CRzBjWG9sTQ?oc=5",
+       "source": "뉴스1"
+      }
+     ]
+    },
+    {
+     "title": "Spain’s High Court opens probe into Julio Iglesias over alleged sexual offences",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Spain’s High Court opens probe into Julio Iglesias over alleged sexual offences",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pQ3dZR19SR1RXeFQwd3dhVWdoNWtCNW1wSFdZaExvXzh3WjctaU9tSEJJcy1oUi1UTGFzdm1fMGotYmFROXJqY0VMRHltMjBtZVdYZHI4M0VqdEhBVHh4LUhka2RBdWdFZEtfamdYMXU4QS1oWVRLYg?oc=5",
+       "source": "Yahoo News New Zealand"
+      },
+      {
+       "title": "Singer Julio Iglesias faces Spanish High Court investigation into alleged sexual misconduct",
+       "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOSkZTVU5QY0RxN2tnS0hBYlNGNUVzb0ZhVTNXYUJCZ2YzMmlQOFAzVVVhZEVNYmdmZndUWjdKeFhEbHVxU0tXTkRoQ0xLTHlPdmo0OFl0bjFfZWxqOThpRnBjNWVOTkpwRHlzcllCT1dXeGJyY2dyTUhzYlB0cDk4Z2p4WFlGdXowejFDc1pWczVkQmtzdEt4Q1J4WDZ4S3dNWXd1ZlB1LXpyUkxiU2w5NmNYQ3ZSMDFKbVhyYk8tTkRvMzNoVElWOWU4M0JmTFBudWdEM3VYR0NJei1SWXQ2WXJOWHhHZVJiTXduWUtSd1k2T3ZxaFRnZE9ZRlNvWmxNaExlY3Z5aUluclJfeVdpMXU4SzBwNXllUGhiVW83cHVETzdC?oc=5",
+       "source": "Bozeman Daily Chronicle"
+      },
+      {
+       "title": "Singer Julio Iglesias faces Spanish High Court investigation into alleged sexual misconduct",
+       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPd1BiLTNZaDRrcVdjU0RmclNNbGlzWlhPSTRqVWZWaExFWWp0bVRuTXFnT1pxc0NnWEdXTTlNUEJteEZROEw0Ny1xMDJzTmc3MUl6U0FPT2Z3VXRORDJXdDJXSWxhbnM4SERkQmpJMlM5Q0pkbGNISXlfOThlVjAxYnRRTzF3Zkd0YlR1d1BCckNQc0pWYlZEcTlSUDlHMS12WDlmRG8xeTd3MU54SmZyUlhRTlR0dWZoVFd6U1lpYlk1dVo2VHdhVWNzYjNHc1NPTlZ4aFBuaTBqQm9ubkRsZTJzOWVwYnNnbkhtalIzT0RHRWhGdjg4Y1RjZzdQX18xTmVXRlc2ejVVejhORndCQi1rMWI?oc=5",
+       "source": "Oskaloosa Herald"
+      },
+      {
+       "title": "Singer Julio Iglesias faces Spanish High Court investigation into alleged sexual misconduct",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUFcxXzEzVnFFamxybndxbDBmUnptZTZXN0NRbldGUlFMY2hfdXVFdjAyeGpOb3RRNV9xaXpNWjBwSzlWQ2xra2JZcUNpMHdIdHBBdXA4ejltVWZMWWRPTjB4TDQ5R1VsRldxal9lanZkUktyTHlTUnNlZWhhWTFIeGdRakdmZHNjdmZJQVZuT2diRFJrUFFENVpZS1YtVzZwcGhEMjAtX2d4MWp1anZlY0lZVUHSAboBQVVfeXFMUHFKdEd3TnpTMFcxTnlzaFdlc0Q3UEIwOVc2VHFYYm5YcUR1MmVDRVdGczNtWUJiOGVwS2hlbHNuQzFHbXlNRVFpSUx2TVZpLUw2UUl5cy1xbU9FMktFMEFVbk0tZWhQZnVlWGNhWWpqdDM2eDVUekxyOFRoR3lacmhodVU0Wm1VZ3BKVkY4amNPM2VyeTRkTUxEWTc2bGJfU2Z6QWxlRnZsanFnMmw0R2lUOVExT0I3MS1R?oc=5",
+       "source": "ABC News - Breaking News, Latest News and Videos"
+      },
+      {
+       "title": "Singer Julio Iglesias, father of Enrique Iglesias, faces Spanish High Court investigation into alleged sexual misconduct",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTngyc0p4X1VQUmtwdjBYcDJ5di1YS2FLcWFiYXFWaWVsQXh0Rlh5Z29HdV83ZDNQRmFRS0p3MFZhQlJxTmZSZmpuYnRZS3oxX1VKeVNIZWNmZW9NS3lWMHdydE82cFREQlUxS3dSLWJrYktYbUx1UW5HQlZzZUZnM00zSHlaZUQxQkhzZVJOQ0JvUmNBdlpDM3NKMDBlOThkcXhQVTdpS1hBYThHYkZPRDBKQ3Mza3drRVZMQkhfM2VoN1Uza2tRNTRSWmR2SUVpbUhybG1B0gHWAUFVX3lxTE5OeDJzSnhfVVBSa3B2MFhwMnl2LVhLYUtxYWJhcVZpZWxBeHRGWHlnb0d1XzdkM1BGYVFLSncwVmFCUnFOZlJmam5idFlLejFfVUp5U0hlY2Zlb01LeVYwd3J0TzZwVERCVTFLd1ItYmtiS1htTHVRbkdCVnNlRmczTTNIeVplRDFCSHNlUk5DQm9SY0F2WkMzc0owMGU5OGRxeFBVN2lLWEFhOEdiRk9EMEpDczNrd2tFVkxCSF8zZWg3VTNra1E1NFJaZHZJRWltSHJsbUE?oc=5",
+       "source": "ABC7 New York"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
