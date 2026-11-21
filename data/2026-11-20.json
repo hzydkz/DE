@@ -1,0 +1,521 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-21T01:36:14.488550+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 9,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-hiphopheads",
+   "name": "Reddit r/hiphopheads",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/hiphopheads/top/.rss?t=day"
+  },
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 923,
+   "issues": [
+    {
+     "title": "빅뱅이 데뷔 20주년 신곡 '기립'을 깜짝 발표했다",
+     "summary": "그룹 빅뱅이 데뷔 20주년을 맞아 신곡을 깜짝 공개했다. 빅뱅은 20일 오후 2시 새 디지털 싱글 '기립'을 발표했다. 이번 신곡은 멤버 GD가 직접 작사와 작곡에 참여했다. 이번 발매는 20주년 프로젝트의 피날레를 장식하는 행보로, 빅뱅은 신곡 발표 다음 날 '마마 어워즈' 무대에 오를 예정이다.",
+     "ai": true,
+     "article_count": 63,
+     "source_count": 48,
+     "links": [
+      {
+       "title": "빅뱅, 20주년이라고 오늘(20일) 신곡 기습 발표 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GNmw4YUVNc3FRWjhicUtPOVhsREdhWUx3cnVkV2JVNGtNdmRQenhRV19mMlh2bHBRYTh4UktUYVBndlJBcXZCc0J5Z2g4V1VxTHVJV084MjlyZ2dSQnE5THBUYkhVQQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "빅뱅, 오늘 신곡 기습 발매…데뷔 20주년",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44SDNIdlBwd3RuSkJMYnVXci03R3JXNEE2ZlR4VHhuNkdEakx6ZkFzWGhDZjVkMGRWc0J6VmpUN1lnOVZ2S3JFMndSUEZsR0M2ZE5UdGd6bUxycWd2dVdZQkh6VDQ?oc=5",
+       "source": "BNT뉴스"
+      },
+      {
+       "title": "빅뱅, 오늘 오후 2시 신곡 깜짝 발매…20주년 프로젝트 피날레 장식",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wcnFlZ2xEVE0xVGpNWUNuaTVaZ0lVbmR5alBPMFF6bGxDR0szWnZEWmNpTk1GZnhZOHNNbmJVdUloT194ZUM5QzJVMWdnQTA1aUNWdHB6ZlVYTFg5d1JIaFB0ZnU?oc=5",
+       "source": "열린뉴스통신"
+      },
+      {
+       "title": "빅뱅, 오늘(20일) 깜짝 신곡 발표…데뷔 20주년 열기 잇는다",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tVGNXREIzbnBnejF0cml4RTl5TlhZQ2RMaHZaUzFYbVAtWjc3ZjQzNVVtemtFRXVyZzgxcHYtX19xZDJ2MmFZOC02VWZRSWZVamF3N2VvOVJiaFU?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "빅뱅, 오늘(20일) 신곡 깜짝 발매…데뷔 20주년 화려한 피날레",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1YZVFZbjlDSmUyck5lbkxIWUZYX21GM0VENjk3blVibHA2T1RLd2JMU2NudllwOTVvNkZrS01oaEdLek1jaS1qQk9IUDExMnlMMF9QNGpzYU8?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "방탄소년단이 해외 가수 최초로 일본 스트리밍 100억 회를 넘겼다",
+     "summary": "그룹 방탄소년단(BTS)이 일본에서 누적 스트리밍 100억 회를 돌파했다. 소속사 빅히트뮤직은 빌보드 재팬 집계를 인용해 이 같은 기록을 전했다. 해외 가수가 일본 음원 시장에서 누적 스트리밍 100억 회를 달성한 것은 이번이 처음이다. 방탄소년단은 해당 기록을 통해 해외 아티스트 최초라는 새로운 이정표를 세웠다.",
+     "ai": true,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "방탄소년단, 日 누적 스트리밍 100억 회 돌파⋯해외 가수 최초",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrMUM1Rm5mSkFEMDZWSzYzQWFfMVlaSTZUYVBuZTRSZ09oU0Z6eWFZUnVIcE54djdHLThoMFFST2hWdk5ZamFINk54WVF5RDNYYWVYcQ?oc=5",
+       "source": "이투데이"
+      },
+      {
+       "title": "BTS, 日 누적 스트리밍 100억회…해외 가수 최초 기록",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9haEhKWXhsM0FKQjlxcFJteHZrcllaVXpEOUxXT21IYVFSejVKSnZrRWRiem5uVlR6SHF0QUVWVFk2aFlmcC1KSml1bm4zenZFWUoxXzJQVEtEcC1zOEowZdIBYEFVX3lxTE9haEhKWXhsM0FKQjlxcFJteHZrcllaVXpEOUxXT21IYVFSejVKSnZrRWRiem5uVlR6SHF0QUVWVFk2aFlmcC1KSml1bm4zenZFWUoxXzJQVEtEcC1zOEowZQ?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "BTS, 日 누적 스트리밍 100억회…해외 가수 최초 기록",
+       "url": "https://www.yna.co.kr/view/AKR20261120108900005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "BTS, 일본 누적 스트리밍 100억회…해외 가수 최초 기록",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIWEx3V2NQTTlrRXpwMVp4NU5lZnU3bzFhMlBjckVEWnFpQlY0X2VZWFl2NWE2eE9HQkNobHpORXViQ1RBQlJ4YUZCZTl6aDlPeVRReGNJZVNFWkU?oc=5",
+       "source": "KBS 뉴스"
+      },
+      {
+       "title": "BTS, 일본 누적 스트리밍 100억회 돌파…해외 가수 최초",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBQzBCby04VWZjREg3d0xOSDBKMEsxRFdVTDI1NEdQaUNEY05TR2Zkdy1TVi1mTG80a1JJcWVjM29LRTd3Yk1SVzl4WFBlS2dhQm9lZ3YtNDNRbkg0a2ZlYjB5M0VSeXNoekR5SHFEREk?oc=5",
+       "source": "신아일보"
+      }
+     ]
+    },
+    {
+     "title": "노스캐롤라이나 음악가가 카니예 웨스트를 감금 혐의로 고소했다",
+     "summary": "미국 노스캐롤라이나 출신 음악가가 카니예 웨스트(예)를 고소했다. 고소장에 따르면 해당 음악가는 카니예 웨스트가 오페라를 완성하도록 자신을 코디 고등학교(Cody High School) 밴드 연습실에 감금했다고 주장했다. 피해를 주장한 음악가는 작업을 마무리 짓기 위해 강제로 공간에 갇혔다고 호소했다. 현지 매체들은 고소장 내용을 인용해 관련 혐의 사실을 잇달아 보도했다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "North Carolina musician accuses Kanye West of locking him in Cody High School band room to finish opera",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdmhTbHF4M0xSSWYyX090ZjFKd05yaTlmNG9uVHc3MWQ2UzFpRGt6QUwxNUFMbVM3MUpUNmluRTlvdHBMYmFySXM4RzhWVFRsZEo5bmd1RGV3M1lIa1dWRVliSV9wN2swSUk3RW1VZHluQWJNN1pVdjBYenVDVGg1Y1dkb3BuR0VMWjk0a3ROZXhuZ1hRUVVJZjJCSGNtQQ?oc=5",
+       "source": "Gillette News Record"
+      },
+      {
+       "title": "Complaint: Ye locked musician in Cody High band room to finish opera",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVF8yWUxWUlltdktuSE1KQTctcTU5a3FIYjdoSWZpRXR1dFl5WndpNnQ4SkdhRmdVNjBCYW4yM2hNQzRTY29oUjdEWUZVUVJLTkxRU0hSekFqdF83a291X1Z6dU4yMkFOaHQ5Z1B0dEpjTGFBTC13UnJFWWZLR2N6aDgyZ09xM3M?oc=5",
+       "source": "News Letter Journal"
+      },
+      {
+       "title": "Complaint: Ye locked musician in Cody High band room to finish opera",
+       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNMGdURlBIb1VyZjVNS2oxYVZoSjF5Ylo3YTlkM1JMUXpJN2hYSDdCUUJFejZLc0NqbnQ4a3ZIeExsZ2pDeGw1cTNPY2VXMVBwUkh5Zm1wRDlMVHgtaE9yVE1VUlpOUmlTUDI4VzBnVnpPalluQWJzdENQU3YyMUptUndnLVpVUkJnQnlRZzl5T1Nna3RIb29tTFBxbm1VSmhrVU1sUDdjWWVvVTNoc0t2OWdOd0lHWm5BSTU2cVhUSjlaM1hxbGVJOVh2Q2ZEcVB0YzEtd1pIbEJIVDIydEJoQjdKLVhIeE8xckw4di1GNmhla25IckVIaUFQdENSZmdHMzI4eFZIT3VFTWNfTDBZNWlaT1Y?oc=5",
+       "source": "JHNewsAndGuide.com"
+      }
+     ]
+    },
+    {
+     "title": "씨엘이 5년 만에 새 싱글 '아이코닉'으로 솔로 컴백했다",
+     "summary": "가수 씨엘(CL)이 5년 만에 솔로 활동을 재개했다. 씨엘은 20일 새 디지털 싱글 '아이코닉'을 발매했다. 이번 신곡은 씨엘이 새로운 소속사인 더블랙에 합류한 이후 처음으로 발표하는 음원이다. 신곡을 선보인 씨엘은 향후 '2026 마마 어워즈(MAMA 어워즈)'에 출연해 무대를 선보일 예정이다.",
+     "ai": true,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "CL, 5년 만에 솔로 컴백…오늘 신곡 발표",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZNTVlNzM0eEpxNjVuMmUxd2xadG1FTkhjV29EM3hfMTNKOGY0WDZ2blVvbnRTUVhHZVNRUXRhUjlHOFVMZGpBb3RzNDlpR2tlamowaFYzMVQ1cjhLQk5lZE9oM28?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "CL, 5년 만에 솔로 컴백…'아이코닉', 대체 불가 매력",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Wcnd5Z1ptc3VMWE1naEs0dlBGdER4ZzJTTHQ5TEhOYmdJb1hOeUNuUHE0cVRxTmdpeFhOOFVldEw0bUplUG1mQ0pB?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "씨엘, 5년 만에 솔로 컴백…오늘 새 싱글 '아이코닉' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nd0pqNzBHamJ2emJTUjVCUXcxbjNDSEdjREplYUhMZ0VLTkhKWW1jMDNOckZMbTI3TEpYbmthUHEyaXpLN0I5WV9PTXBMUjVwa3pQZWFjaWw2SnN1ZmhuY9IBeEFVX3lxTE1iXzVEQzJjNVg1NFFfbE9jejZXU0JESmNxOVRKLWVZNU9BMGVoVGN2XzNBSTlVYUlBWGd5VUhyWlVsUXJBYmJyWXNDa3hoY1ZJS0pPeVBjdzVObUV2OF8zYXFVTlY2VHAyTU9LZk1nZTR3WEpfUUpUTw?oc=5",
+       "source": "뉴시스"
+      },
+      {
+       "title": "CL, 오늘(20일) 신곡 발매→'2026 마마 어워즈' 출격",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhd05TSEJraDg1LW5weE9PVFNPZ0plOG1jaW5UQzM2ZHdWRGhGUE5fYXlzc1NBcjg5VjZ4dWRteGxFSk5RSXAycmd1WTkycDBNVTV5d2UxNUJ0d2dhMlhwYWFBYTQwZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "씨엘, 오늘(20일) 신곡 ‘아이코닉’ 컴백 →‘2026 MAMA 어워즈’ 출연",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80ai0yaUJ2OUUzZzVuUHRPZi0tQmtLc1VHUlVuN3RZQmNOY3hNUzRPSW5WdFJkUFY0Q2UwZVZEOUZLRDBYSzhtaXdFS0VuQjZFbzh3OU9tcjBrenM?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "트와이스 나연, 당당한 콘셉트로 솔로 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "[오늘컴백] 트와이스 나연, MAMA서 솔로 귀환 \"당당+앙큼한 나연다움 선사\"",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Wc21tekh6bElnV0hrR3Z6TlhSN21HMEFQRGlUempvcVg3RUkwVGFLQ3B1RTQ1WU42TTVqOEdidTRUU2lSTUlSSU1zcnZSOUk?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "`컴백` 트와이스 나연 \"당당하고 앙큼한 모습 보여줄 것\" [일문일답]",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43VFZXbXJIbmNaekdwZHdaaGx3SnZMcDFNNXgzY1hKbXJXNVZnOFp0dnZNTmdvRnlVMjFScDNtSWVubndNNVdYZkFVdVVLLXBJNndrWUFrWFZocmxRTWg2NnhOd2x2dw?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "나연, 솔로 컴백 D-day \"당당하면서도 앙큼한 '나연다움'\"",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EeFo4eXJUVjBhNGFlRmN2bFRqMGt1V1hfdFhoMDZvQ1lpdWROeEtxaDZ2STUzVmJPTVVVWFhmQk43VmV1eUVXdVo2V1g0NDNNSlVkZzlR?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "싱글 컴백 나연 “당당하고 자신있고 앙큼한…‘나연다움’ 보여드릴게요”",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNM1VBaUc4NnROcHA3M3Bmb05nNzBQRm5MREVKLTR5OTNEYUdUZ2ZxRFNFT1VrOGluY1E1TVR5TDhEcnRaeG5BZElFV2RFMzA4aUNjYTc2R2rSAVRBVV95cUxNR2RjRFB4d1Y5MzczdC0wUktMcmprckdtWURwblhhYzJvSDZqV196ak9sTUx1enk0UXJJZF8tM2dvdUVkOHp4ajR1VVJKNy00YVFjbEU?oc=5",
+       "source": "세계일보"
+      },
+      {
+       "title": "CGV, 삼성동 'K-POP LIVE'서 나연 신곡 MV 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wRTNJbTUzeW9BQVlYRF9kM2gxYy1ZMkZKQld3dHpWS0QwaEhGUS04a2lOQy1PeWV3cUIyd0N5a19kNUxUNnp6Y0g5ckw2N1NFS0J0MkFEdEJpYTFw?oc=5",
+       "source": "뉴스핌"
+      }
+     ]
+    },
+    {
+     "title": "엔하이픈, 3개월 만에 신보로 올해 세 번째 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "엔하이픈, 1년 3컴백 ‘열일’⋯“로맨틱까지, 모든 콘셉트 잘하는 팀”[일문일답]",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XYUprTGZmc2d0LU9xSjN6dE95SGxOb3Y3NUlqcFRNM1V0ay1uaDhnWWZYdkJaNVcxRDYyb0RQM3VQMkxuYWZmd2lQY0dfNFdEaWxlMg?oc=5",
+       "source": "이투데이"
+      },
+      {
+       "title": "엔하이픈, 오늘 컴백…“어떤 콘셉트든 잘하는 팀 되고파”",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1YndnclJobkZNdExXam1pSHF1aE91N013ZHVQQWhZdkk5NW9jWE5MWkJIUVBrRmQwei1VUEt2ellxejlFRUFiNFVIUTVMSVlUdW02N2xB?oc=5",
+       "source": "미주한국일보"
+      },
+      {
+       "title": "엔하이픈, 오늘 컴백…\"어떤 콘셉트든 잘하는 팀 되고파\"",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9saTlfb2VvaUpZY01qWVYzTWt1VFhiSnd2eFdfUDVDQWR2bGVCajRzbkNrUUYzODd6TlZCb0h5QlBFekpNUHA0RTJKSThUSHUyaS1XUXZwZjdZQUnSAWBBVV95cUxPUGljTGx1WnJaNlRZam8ya0g5SG5BQnNiREdyRWl6dnlmQWhRdGM0V2lfcmZVMktrbzV5SlVKX2k0YkhydHR3M0hKN0MtMkhhVldJSm9aWG1fREtJak9QcjE?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "엔하이픈, 오늘 컴백…\"어떤 콘셉트든 잘하는 팀 되고파\"",
+       "url": "https://www.yna.co.kr/view/AKR20261120122300005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "엔하이픈, 3개월 만의 컴백…제이 “1년에 세 번은 처음” (‘THE SIN : PARALLEL WORLD’)",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XeklTMXlHSllJZHVrbEZFdDBvRmwtTFBkYl9ZbUdraDAzTUJKYkN5Y3lXTGZTTmxpMDdqUDVKbnJLWjdGbUpDcld5V3JmMS02ZkgtZWtIMF9EMWZ2T1Atd2pzSQ?oc=5",
+       "source": "MHN스포츠"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 MO3 살해 사건 공범, 유죄 인정 플리바겐 합의",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Third defendant connected to murder of Dallas rapper MO3 takes plea deal, sentenced to 10 years in prison",
+       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWDkwUWhqdjd3RU1hbTlzZ3ZCeWJfa20wUzZQRzctY0hia0RLVVNQd1hobi1hN3FDT2Nwb21hZTR1ZUNwX1NHTVFkNXYzZ2ptMXJSYTNYTWZPM0tQdVdBWFBzXzdta2xZeDdQRTVjSTc0RGtYY3lObkc1dGNHSVRhUkRGOGJDaXNQSFR2b2kwMEJsM0Jhc3dUSlRBaXV5cUltUGF6X29xWXFPbmlVSGpXQlhrTjQ5QzVNSGpiNEJkTk5DU1RXTHZoSjVVdEdjYUxCWDlhSFU0Qm96WkZkeDFJNNIB6AFBVV95cUxORkwyUVhDcjRpOVN5NVVDN1pnWk5RTTJEUWdua21DSVpIM0YyUE1IdWRWVkxaVVNvV3JQcTNFMHI5d0RCdFU1UkZRZE5yaDNxQTJGZ0ZJMlBwUGVBRWxtdnBVTVYzSVdfRHgzdDN6TjJ6c0hqZ3RJbkJvQmlYZWgxWVJ4X3dRNTg3MDBkQkNoS0F5XzBhUkxRZzREekVVNHBsVkVtWGotVUZ1bmk2UlllMjhPRW56andZXzFlMmtyRWFQbkJkUjl1c0tiVkhUZHdRZks5ZW5KWWFLTGhzNld6d0lWOGJ3OHNX?oc=5",
+       "source": "NBC 5 Dallas-Fort Worth"
+      },
+      {
+       "title": "Co-defendant charged with murder of rapper Mo3 takes plea deal, week after Yella Beezy was sentenced to life",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbXl1TG9NaDJuOFZhNUliaTBPVXJfQ3ZJUWZKQVQ1SUd4U0h4aldMV1o0X0gtMk1QcF9pUVJ2Mmh0U0o2QmkyTWd6OXA4Rm9NTDNqbzRZTGp6cmlXMGpwLTl2Ums0ZTdrTFRJUDhOLWNlaW9KcHlOdzFrd0Y0X3RhSVZna3RIUWxlV0x1V2JDWUM1SjFWcGp1UTFUX0xjbFp1LWV6VkVvamNWdnVBMTE0VFlBNA?oc=5",
+       "source": "WFAA"
+      },
+      {
+       "title": "Man takes plea deal in murder trial tied to 2020 killing of Dallas rapper Mo3",
+       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR1FHb21HclBZNjFtVk9WNkZVa0Z2eGpENGhZRmxQSUpIZDFISjN5TzFEUldxQW5fR2ZUMjlteE52X3NhOEFJRkE1SkF1aVRxaElZalNpM2gtMUVPVTBiZS1yTlcyLWxVemR0eUJWZk54Q2VCclVWSnRHWHJYR0FSbXJrc25oZkZtVGxYMVhfclNYMUlzM0ZrM1BJRGFGYTg?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "Plea hearing in murder trial tied to 2020 killing of Dallas rapper Mo3",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU2V6bVJlN1drazY3aWJLRlNLa0NDSndCN1JmcXFiX095TmotSHo4d21fVGNSLVN4T2NqdzBwdHBKTXdjWkVTbzlnT2F4WC1hbHcwV1FWaFp4SDJNOXQzTUpqaVVwY2R2aG53MUt1SEljNGF6amlITE1rWThQS21TcmlPeWdKUjlYU1hrcUFyYXdTTlpFNXRPaHNkZnRnaFZJX3dSTkZQOHNna2M?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "Yella Beezy's co-defendant pleads guilty in Dallas rapper Mo3's murder",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ2ZYb2ZBQ01pMXlBRFN1ZHBzZXFjajFfNy1tQWhOeXEzZC10a1NlYTVMbzZCeHFKZ2ZiQU0wdEJRZWhjRGpjSFhKSzRPcFJWT0g4Tm9BdENkM2ZFSDQ1ZFdtWlYtTU1BVjhnUVBBNlZiRks2dlhrek5uYThQWFFFU1ZtLTg5UHZzakgyQ2U4UzB4Z3RnR2R2UVJGTXdwOVNOLTl3Yzc4eWc?oc=5",
+       "source": "CBS News"
+      }
+     ]
+    },
+    {
+     "title": "그라임스, 전 연인 일론 머스크의 AI 발언 공개 저격",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Grimes calls out Elon Musk over AI “sex slave” and urges him to “step up”, “do better” and be “the king he used to be”",
+       "url": "https://www.nme.com/news/music/grimes-calls-out-elon-musk-over-ai-sex-slave-and-urges-him-to-step-up-do-better-and-be-the-king-he-used-to-be-3976419",
+       "source": "NME"
+      },
+      {
+       "title": "Grimes & Elon Musk Feud Over AI ‘Sex Slave,’ Singer Urges Ex to ‘Step Up’ and Be ‘the King He Used to Be’",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM1FnQ2FTeUFpM054QWZjanhwNWRiQWZadHlUN1FfM2RtdXJ2dkdpZEYzeFFpazFlckhYeGtvYm1QQWR4d3VDU1V4TGxfZGNDUUowLUdjSkdja0owdWczcjlUVmZRaGpKbEpJeGdyZFJNRlNNa2hEZm5ia0FzdHpTMHZmSlBWZ3RobzM2YXduMlV0anB2ZE4wWnRLZUVuSFBoVmViZndWTHZlMzQ?oc=5",
+       "source": "Billboard"
+      },
+      {
+       "title": "Grimes Shares AI-Assisted Billy Corgan Collab From AI-Inspired Album, Calls Out Elon Musk Over AI “Sex Slave”",
+       "url": "https://stereogum.com/2518789/grimes-shares-ai-assisted-song-from-ai-inspired-album-calls-out-elon-musk-over-ai-sex-slave/music/",
+       "source": "Stereogum"
+      }
+     ]
+    },
+    {
+     "title": "권은비, 그래미 수상 프로듀서 이만벡과 협업 신곡 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 12,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "권은비, 그래미 수상 프로듀서 이만벡과 글로벌 싱글 발매",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBiV0hVQkNGTnlldVY1QllrejlUUGwtQWNLQWJGYXZCRnROVWpGcks1SnFKb0RacFVFWjdVU0xKc1JwbnFaQWotdXVXd0t1NmZVOGltOGFFaTl5ZUtKbHN0Qzh2V3FkZFZmRWtIXzNpNFQwUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "권은비, '그래미 수상 프로듀서' 이만벡 협업 신곡 오늘(20일) 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55ck03bWxpQXJyTG9hSWU2NHNUU0I2MERuTmJYWjlEYkd0U3paZ2N2VG5DVGVJX1R3cHQyWlR0N0QyVWc5VjdLa0ZBTzNxODRLSUZGeDd2aU9kVHZoSmx4cjBCcy1XZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "권은비, 그래미 수상 이만벡과 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HTUJXMlo0WFZVcm5TTE8yQjN4LUV0SldsQmdWN1pMeDFTMU9rZEpJZy1Lc0VHRTFTSHRQWDFnZXBLOW81UVpKbTBpTFcwQXk5RXpYcFRKdE1acWx6Tm41VDZjQVo?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "[문화 이슈] 권은비, 그래미 수상 프로듀서 이만벡과 글로벌 컬래버…오늘(20일) ‘파티 이즈 낫 오버' 발매",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9LUjRQOF95V2lTRm9XMDdBc2FBRkZ3ODl2bHAwZndjLTQwbHhCVlhYTFBJblNPYW03SkxDckxKSnNzVmJ2SVc0djY0c3FNcGQxekM1MnFhZ3ZMNkdJU0dWNTRNZnhoVzZZRldad1V4Nm5TSFh5N2d1MzJDZUM?oc=5",
+       "source": "비욘드포스트"
+      },
+      {
+       "title": "메가 히트곡 필요한 권은비, 그래미 프로듀서 손 잡았다",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwb19walpjSGtTUjVMREt6dmNpMS1qVHFtRXY4UDMtYk94eGhUa3BCRExDVnloUGZJZkprU3pScGtZYUhxLTVXVUZLdjZTeTBmUFFpUmRyX2U1aFNvZTBaU3plakpNUQ?oc=5",
+       "source": "마이데일리"
+      }
+     ]
+    },
+    {
+     "title": "가수 션, 취약계층 6·25 참전용사 위해 1억 원 기부",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "가수 션, 6·25 참전용사 위해 1억 원 기부…굿피플 통해 생계·의료비 지원",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBuVEh5dzNDZHoyMHk3a05HVkFCVUlQU0stRHBKZUlSejdVQjhkdldzdjM3c3Nja3pRTXZpNWd3bFc2T3RMSm04Vm9WeWpwUDlGNGRPSHhQM1R6Sk5QWXpPTkpXcE5UM00?oc=5",
+       "source": "더쎈뉴스"
+      },
+      {
+       "title": "가수 션, 굿피플에 취약계층 6·25 참전용사를 위한 생계비 1억 원 후원",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2Y2MyQ2tiXzl5VURSX0pwbUtNeHFVSVZMN0lNdjdiMVpvLU5BN1o4aVJ6WEtGTUZ2LVVpeGpmcHdFd3JzZXlQa2lBMDFTX0Jfd0NLM2xHWVF3UkJoN3VYNg?oc=5",
+       "source": "아시아경제"
+      },
+      {
+       "title": "가수 션, 굿피플에 1억원 기부…취약계층 6·25 참전용사 100명 지원",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MZkVzeUZ3ODhSaEdpNFc3TEU5b0lpY1NuM3VpcE9adVc1NTRTSDRvSmtSVlV2Y0N5dHBaVzRsS2xHSmxjc2xFSDhNRVN0R0R2cFliUVlRNGlaMUk?oc=5",
+       "source": "일간스포츠"
+      },
+      {
+       "title": "굿피플·가수 션, 6·25 참전용사 100명에 1억 원 지원",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qeUltVjNyVVd5VlFRRmpsSENjS3p0NWF6bURHUTlUQUtJUXVQLWF2Nk5aeDNjaU0xTXhFeElNeDljaUJ6TWs2ZF96VWtvYkFhUFZVdzkwSmJXMi1BV0twNEREVmJhTHJIeHJ3cE1fRjlfQ2PSAXNBVV95cUxNanlJbVYzclVXeVZRUUZqbEhDY0t6dDVhem1ER1E5VEFLSVF1UC1hdjZOWngzY2lNMU14RXhJTXg5Y2lCek1rNmRfelVrb2JBYVBWVXc5MEpiVzItQVdLcDRERFZiYUxySHhyd3BNX0Y5X0Nj?oc=5",
+       "source": "한국일보"
+      },
+      {
+       "title": "가수 션, 굿피플에 취약계층 및 6·25 참전용사 생계비 1억원 후원",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6R0tvNFBldWRaNnR0LVhNRVRwOXh0cEpxeHFOLVJUSzBmcWFieVpuMVIyRUdNNHIzamZ3Y2NRc3FkWUx6cmk4bmtzUGJVbS1MdUo1TXRSR3hUVjVFSU04eWlYeE5ra2IybHE5RDRn?oc=5",
+       "source": "아시아투데이"
+      }
+     ]
+    },
+    {
+     "title": "위엔터, 6년 만에 7인조 신인 보이그룹 '티네이저' 론칭",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "위엔터, 6년 만에 신인 보이그룹 론칭…7인조 티네이저 데뷔 예고",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UUDVpMDlpbExGQ0gwaHlMXzNORnhUUExTLVFDb2NfcnNLLWg1NkJtTHRqVDNOcHJRYlNFYkllRFdnTktFcENJdC1fS2xyd1VrQmluZFFLWjhYeS1xbU5qb0QxcEd3QQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "위엔터, 위아이 이후 6년 만에 보이그룹 론칭…7인조 티네이저 팀명 공개",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5RnBLS3VBUkJFelJlSk1Hak92TDExbXVfSkdZYkFVdjBWSnl1MUtYWnY3eFltU2dxaERXOHNLQUFvdnJRal94RHVSekdmcmxmaHRaaDM3NzFnYVIz?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "티네이저, 7인조 다국적 보이그룹 팀명 공개…막바지 데뷔 준비",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5TNXZES2k0NGZzSFVfNEExZEViTjVJNHJOSHFKQ1MzcnhsYmpWRDdYQS1TWVdYNTVVdV9iNkJUUzRMbG1LNFlzTTBweGxzRmZJY0hRMFJqNWlSYTJDRnY4UjB4Zw?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "위엔터, 6년만 신인 '티네이저' 론칭…7인조 다국적 보이그룹",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UNHdjOXBWcUowdHdoOUxTbTlxTkgteHQwY09mYk1nZy00OVVEelRzVE01MU52Z3h4N19HRlUzSEFUVlUtd2duNWRnTFRIZHc?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "위엔터, 6년 만 신인 보이그룹 론칭…다국적 7인조 ‘티네이저’",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DbVFLMVVRLUZQTGFfNEc2WDltVlRHc3NudFJrWHJ0bklRT1M5WS1fazFvODdqRV9iVXNHOFZxWFdQSDB4T21xWDNXRjdSb0RzR0NJ?oc=5",
+       "source": "매일경제"
+      }
+     ]
+    },
+    {
+     "title": "비바두비, 깜짝 새 앨범 발표 예고와 함께 신곡 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Beabadoobee announces surprise new album ‘Bananas 4 Cats’ with sweet single ‘No Punctuation’",
+       "url": "https://www.nme.com/news/music/beabadoobee-announces-surprise-new-album-bananas-4-cats-with-single-no-punctuation-listen-3976453",
+       "source": "NME"
+      },
+      {
+       "title": "beabadoobee Announces New Album Bananas 4 Cats, Reveals New Song “No Punctuation”: Stream",
+       "url": "https://consequence.net/2026/11/beabadoobee-bananas-4-cats-new-album-no-punctuation-stream/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Beabadoobee Goes Bananas 4 Cats on New Album and Song",
+       "url": "https://pitchfork.com/story/beabadoobee-goes-bananas-4-cats-on-new-album-and-song/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Beabadoobee Announces New Album Bananas 4 Cats: Hear “No Punctuation”",
+       "url": "https://stereogum.com/2518721/beabadoobee-announces-new-album-bananas-4-cats-hear-no-punctuation/music/",
+       "source": "Stereogum"
+      }
+     ]
+    },
+    {
+     "title": "판타지보이즈, 4인 체제로 재정비해 내년 1월 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "판타지보이즈, 4인조로 내년 1월 ‘굿파트너’ 발매…한·일 동시 컴백",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95dVBqcXlMWVdPaE1ydFczWGhVVC1kbVFVWU5kRGw2a1VQVXE5ZjcxMVdWSFpBalQxNU1ndnFkV0FIUjZDWG1ZMkM1aXVVdklGdDd4YTBKZkxLUUt3TFpCbWplcm1zTGFudWVv?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "판타지보이즈, 4인 체제로 내년 1월 한·일 동시 컴백…진솔 메시지",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5VXltNkxNT3JoSDJ2dWxmWWhoenMzdTdFcDh6S2VXR3VyYnpuUmlTS0E1eE8xckhuUFBmX2w0dDdnMEVTMVUwWklwUUFSaHdoRW1oZVpneFNtZngzQno1elRkUFQ?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "판타지보이즈, 4인 체제로 1월 컴백…한일 활동 끝으로 잠정 휴식",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tTW9PVDhFeW5xV1kyOEJraGU0WGJPdXdZMEZvLUlrQnNKU2pxMFJxbDNFRjFWRXJKeUVid1NEMkF0bDZSR3dxZmNzaWdJTUtmUmZLZHYxckRBQVFpMG8xOGh1OXd1cFgzRW5R0gFuQVVfeXFMUGpZVVo2VXE1bURCa2dFWXdGS256TXQ3VWo5UVQ0SWdud19Pd3REa1QwcWwyUlM1LWE3blYtS2hTbkhxR0FOSFRHVXd6bkNPWmVHZjBnQ1I2X09sd1dGR1dVVG1paW02Q0huUmpWUXc?oc=5",
+       "source": "앳스타일"
+      },
+      {
+       "title": "판타지보이즈, 4인 체제로 내년 1월 한일 동시 컴백…팀 활동 잠정 중단",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTm5kbGx0XzlVOGViNjVPY09YTkloOHc3X2hKWERXMEw0TXFldkktdlplYnhUcmlBZFhaM2VSZXE1LWRoY1B5OGEtQlVIMW5ic0RFUmVubVJIcUVhdmt0WG5rLXJQR1pjT2JzbkdDSXA4NTNtbXEyalUyczBwalN2OU9meVQ5STQyenc?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "판타지보이즈, 4인 체제로 내년 1월 한일 동시 컴백…팀 활동 잠정 중단",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkaUNQQ1dxMUFtTzZhcGJXX1Z6aDRxVDlydmVsTE1wamhUZy14NkcwLUE2S29Ld3kxQ0s2c1Y4VkwyTGJsTFRob3EtUmh1dWxIRHlZRQ?oc=5",
+       "source": "OSEN"
+      }
+     ]
+    },
+    {
+     "title": "러블리즈 케이, 솔로 발라드 신곡 '뻔한 이별' 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "러블리즈 케이, 오늘(20일) 발라드 신곡 ‘뻔한 이별’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SOTJVczE1RjNWaDZJQXNxMVZuTW9EUlRZWXhVYkhkd0Z4OUliV1Z5eWdCN1k2b2IxbV9KVmVlUVU3MGJQQ0tvR3E4QVhjOVJnSzJUeHhqNXFLMVJRRy10UzlEak9tZkgyUTNJV3J3?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      },
+      {
+       "title": "러블리즈 케이 20일 솔로 신곡 '뻔한 이별' 공개",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fazdraGlEZURmTXZBXzBWN3dMTHZlaTFVbGo5dUVvWXlGS1c0LVAxbzgxZFI0Zmd6NkZwMkpwQTV6Nkd0WWNVV1BISFlaZGVWNERid0xDbzJjZ3c?oc=5",
+       "source": "선데이뉴스신문"
+      },
+      {
+       "title": "러블리즈 케이, 솔로 신곡 ‘뻔한 이별’ 20일 공개…빅스 켄 뮤비 출연",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5GdzFxZkRlTlR2SDFSMkFibk8yQUp1Y1RZenZZZV9PQnFFLUp2NW0yUDhkQ2NZV3UxbDAxOF9EWE56LUZQQ3J0a3ZfVTV6LURpUzZrYUdKZTRtaHRs?oc=5",
+       "source": "아시아뉴스통신"
+      },
+      {
+       "title": "러블리즈 출신 케이, 신곡 '뻔한 이별' 20일 발표…뮤직비디오에 빅스 켄 출연",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5VGRMTjhMTTVEMEYtUTlETXpXaTFDeDM5OGFFOGJZOEVxV2k3TkQxZWM4czlLeGhBX2FWRHdyNEZBa1JqS05zMzlaT29FLXhpOXhzTVN0bl9ZVlM0NHFUVEc3V0FDZU1QVVJ3SWEyR0wyMzQ?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "러블리즈 케이, 솔로 신곡 ‘뻔한 이별’ 오늘(20일) 공개…빅스 켄 뮤비 출연",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DWVotZldJN25fNTlQX3haeUtiZFN2X0J0YjhXVFJ2bFNoQ21fdjVWVDhBUnBTNml0MjQwNFFERVJCamlwQnMwVXRfVHBscGRYWk9KcFZQWkdKcGVGMmZGT1MycDdZUmJUV3gw?oc=5",
+       "source": "뉴스인"
+      }
+     ]
+    },
+    {
+     "title": "김다현, 자작곡 '딸기' 발표하며 싱어송라이터 변신",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "김다현, 신곡 ‘딸기’ 20일 발매…작사·작곡 참여로 싱어송라이터 역량 선보여",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pakszVVhnTWg1b1IzOG8yWDA4dldOUllMdlNVSlczcC1kZ2hHNkhtWDgxajByQlotb0pGZE5sRWt2YVNzY0VBcHVxaUNvYkJEbTdMc2NrOFNmMG00VGhzNTc5NzlrNVVlb29PN3I5aVlwaFBh?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "김다현, 신곡 `딸기` 오늘(20일) 발매…작사·작곡 직접 참여",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zYWxYZ2xPbmt4dndWQV9ORVNkNGdlVkNneEVlbDZrd0RKdVl4RGdLNkxYMmhiRkMyWXk5dk00LUFaSThEdmhFY3BhdHJUUzZia0JVZ1JwdWxDb2huMlJsTzZFMVFfZw?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "김다현, 신곡 ‘딸기’ 20일 발매..작사·작곡 참여 ‘싱어송라이터 변신’",
+       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HTUs3LUE5N0pTdnQ4RlkxUjRPVG95VUlOYjNVT2V3UVRXdFdSQjlQbGNOQ0lTTlVWTnIwbjdDdlpGdWN6dXFyRQ?oc=5",
+       "source": "브레이크뉴스"
+      },
+      {
+       "title": "김다현, 직접 작사·작곡한 신곡 ‘딸기’ 발매…싱어송라이터 역량 입증",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByWHljOWQ0aXQ5Z0huWnJzYTVDZ05lbkNBTllNako3WE8yY2JuRl9zX3pFZjZUME43YkNHMy15ZFpMUFh0aWJONXVHd2hkVWh5ak5CUlBnOFE?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "김다현, 오늘(20일) 신곡 ‘딸기’ 발매…새콤달콤 매력 담은 싱어송라이터 변신",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1neS1NWEJCLWl2M0VkU295YXdhalhtUmI1Vk94WUZoeFg0LTNxeHE5ejh6S0hmNS1iM1hONlQ5SjVJbmVrWnA5SThnQ2RDcW9YcEd6eUE2dFQ2N1gxWGZQYXBKUQ?oc=5",
+       "source": "MHN스포츠"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
