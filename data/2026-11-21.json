@@ -1,0 +1,325 @@
+{
+ "date": "2026-11-21",
+ "generated_at": "2026-11-22T00:34:18.762003+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 8,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c9 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c8~c9 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-hiphopheads",
+   "name": "Reddit r/hiphopheads",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/hiphopheads/top/.rss?t=day"
+  },
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 654,
+   "issues": [
+    {
+     "title": "덴마크, 우크라이나 래퍼 암살 모의한 러시아 외교관 추방",
+     "summary": null,
+     "ai": false,
+     "article_count": 32,
+     "source_count": 30,
+     "links": [
+      {
+       "title": "Denmark says it thwarted Russian plot to assassinate US-Ukrainian rapper",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTEN2TTJ4ejYzaE85ZktzVzBrRVFDSVZoc3pYWlpWQjdmYmExNDVyTjAxZmU3NjU5UkZpYnd2MjlfM0VHeDhVb3V4VDhJdTVaT1J4RjlJZGVKZGlqVXVoQ21zcWJuVmsyTXJSeU9fbFBYUWVOSW1ZcV9kWkVZSkQ4bHZCSldGXzVJeWpDVjlVQ3Y?oc=5",
+       "source": "CNN"
+      },
+      {
+       "title": "Denmark Says Russia Orchestrated Plot to Assassinate Rapper",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTnQwRjZPNzA3T1lmMmdYUWU3OVlGd3o3dEwtdnlIdHRNUGlxYWJyUl85OWNoakw3TUQ2aHBXTm1vd2JuVGxtemhFZS1NQmJZeWZwdEJCVlFGYk96UzdZaExabWtoNHhMX2x5SFppNllmXzlzb0RCQWZzQUQ3WTBTYjZIRHBHVVpOU0xuOUVXWmFWVXY1Ty05ZmdmblBBOHJveWZIMnNNcnNnQTFBRVBweUtn?oc=5",
+       "source": "Bloomberg.com"
+      },
+      {
+       "title": "Russian plot to assassinate US-Ukrainian rapper stopped, Denmark says",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVEZUMDNLS1RVTWZDY1ppMjFTRTVBNDVnSWxjZGNYbXg2TU5ma2pjYUxGdnozOElEWXhkUlBfV19IQ2YwcGRMX3B0aldGdUY3OTE1emFVY2EwOW1kNmRUdnRsM3BhamlZZlc0VHZJLUZ3UTJXYkpvRm8tc0ZwXzhWbk5JUTRMS29NTzBHWU51RnlrN0JrTmIyVWl3UUxmM1lTdEp4Rlh1ZmpUVkN3WFFQXzlEc3cwQdIBuwFBVV95cUxOOVgycnpMdW5zZVNlcU5TRFByaGZ2a08wcDdSUlBiR09oR0JwVzlDY2ZhZjZMd0pNQnZ4eGdudGxhb21zWUliTUlRbS1McXlBeG9ZekRaRzNjTVNOTHNLU1YtWERMWVJKOWpJOGlmR3NqQTIwT0c0UjVkb0h3VGZCdThGRVk3MGs5Tk9vNzEzVnF2NlZ3U1BmNFNYUTJjXzZMS19aWENDSzh2V1RhOFNyX3JhUEl3UEJYSUsw?oc=5",
+       "source": "NewsNation"
+      },
+      {
+       "title": "Denmark says it thwarted Russian plot to assassinate US-Ukrainian rapper",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa3pnR2JQcmdEOFhWYVNRZDdPVG1jRktuenpJdThGbUV6Z3BQV3ZUTHo3Y2ZyY3ZwZ0UzblB0RkZzdExxeV9KaUZFZmEzNlZDSGxhOXFoeXVaSllkQ3ZFZTUzMU9IUGppQjhuSXBMQTlITEJfWTdlN3RCTU82dHNndGFQdGhCZWU1akZ0T2ljWUNTVmtWMmk5SDZHeE1feTZ1aUtTZFNGZU1OLUFFYXBRX2loR0dGZw?oc=5",
+       "source": "Reuters"
+      },
+      {
+       "title": "Russia plotted to assassinate Ukrainian rapper in Denmark",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcjRsRmMzZU9zSEVvbDZ3aFF2a3JKLTRGUlc0TnhXZVo2VldXX2NZQ2t0Q2c0cUlZZTFKd2tNWFNfYUNvbmwzZ3UtUFhCOUZXc1pNNWVkUnV1OU1NcFI0V2hHNUFxSTFUQi01bGU4UmczbTY1cGZ0a2pyZVVHNTQ2d1JsUktBZGtiU0QzZnI2bWIyaktlQjhEc3AtSEsyZWJvQkZiQw?oc=5",
+       "source": "The Telegraph"
+      }
+     ]
+    },
+    {
+     "title": "BTS '2026 MAMA' 대상 수상…빅뱅 신곡 무대 최초 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 15,
+     "source_count": 12,
+     "links": [
+      {
+       "title": "MAMA Awards 2026 Winners Day 1: BTS Takes Home 80th Daesang, Artist Of The Year; ENHYPEN, BIGBANG Shine",
+       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPSWN5Ml9TUDM5dTlPX3V4YV9CLTZ5RVY4dm9VZDdYUTdVQW90SS1fNmMySVlNWGxnWmU3bUVEZDNhRTF2MG9PaGYtQm94aXJ1SnExWWY2Ty03REZuWXppb0ZtcElfV3Bxc1ZRcWpjRG5sRndSTldKN2dhZlpvOWxkcDkzU1ViYjdGaXFBV1BiM3JOTTNuZmN0dUQ3OXNVZWZCYjJ4SGtEVy1kbDRuVWppdUNOQlVUeU4ySHRLS2R6X2E5Y3VWTkNpczlSV1ppWExTMVJjTUs2MWtQZ2JOTUJhN1Q0VWFOOGlyV1NKcEFzc0pOTDI3OFo4enBNdG03ajdNaXfSAYcCQVVfeXFMTVBsX0pjMmtXekhadkdLV3hSTzRzcHJuQnhySGJNQkVlVGtJUXZodGZSS2pOVGoxTnV1N1FfSUJ0Vmw2dHJlQ0hRQURnWWdtb3p0dmctWFVLaS1kN3JicVJPZlA5dGZrMVE0dmp3Ymw1SjhBOV9ONHg2SVVyT2R4NUNZRGpxdUc2aENZWGxQZG5WR1NmZ2Zrd2xuSDRtWk5zMHVqUGFVTExNYmZzVDBfRXVzVWRzb0ZuSFpNVk5vOUQ4bXhoeWpZSFVsaGtlRWtabzdtMkV4VHlHNFRLMHlsS2FqclpCMzdIcXE5aXFsd2hnbVhoYUtmZVkydW1ZSUxVcE1vVXFGN00?oc=5",
+       "source": "Times Now"
+      },
+      {
+       "title": "BTS, ENHYPEN, BIGBANG & CORTIS Are Big Winners of 2026 MAMA Awards",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNalFZZHhSSXltQ21IZUVFSkNMQTZZYmtqVXotOXBnbXhYSFEtTjNQT3I3TFcyYXduNnpTcTlvZy1qZzE4WV90dkVTMUJTNlZHVURWLU9sMHNMVDRJSnBGVEMyNTFNSDFFdmpVcV9kdkd4X1lWX1JVaGdVSlhsTTZuTmg0M2tENXM?oc=5",
+       "source": "Billboard"
+      },
+      {
+       "title": "BTS wins 5 MAMA awards as Enhypen takes Fans' Choice of the Year",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YeGtPekRqYlROQlZ6V1NKRDNlVlY4bmxiS2s5MnBXM0tkNF9DODYyLXZLUEppSVAtdi1iOXU0RHRqb25mWGh2Um90OFlyZ1htcXRhM3p4eWFWUQ?oc=5",
+       "source": "Yonhap News Agency"
+      },
+      {
+       "title": "BTS wins 5 MAMA awards as Cortis takes Song of the Year",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNElUbzlMbVFiQ1pzWGVNcUlsV25RZFd0dGhMZjl4cmZHUHg5VDY4NkRlUkcyY1RIanl0Qkx0U09TMHhncFh5eW16NWsyRl9Ecld0Q0VxNE9pME1WNlFvMktiWnNUaHFqcVhvd0Y1anZhMFBOUjd0Mm9Ha1EyeGxrVTFLMDlIc2JOXzlZaTE3TnplcTlZODEzSUZGYU5wWkZCRTYybGs5T1hpV2PSAbABQVVfeXFMTXFCTEdIUElLNEx3ZjJKTl9YSzR4a3FlZlJVUFg5TE14UmJPWWJhWTdTdkhzeXZtMHkxc2tDaVBodE1uZXk3LTc1dVdoekJ2QVBydzJ2NVNZUGxyLXZOdTNobVdMLVZqSmxlMTVOYnRtMlpQWVJUM2hGUHlPaW5iMzN1Z1lVNUJtUjNVNklUek9UTjh4Q1oyMjBHOW5YLXRoSk1FWVg4QURWMlIyMDBvNkw?oc=5",
+       "source": "The Korea Times"
+      },
+      {
+       "title": "MAMA Awards 2026 Winners: BTS, Cortis take top honour; Bigbang, Hwasa win big",
+       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMnRCNDM3RFBidFIzaGVLVjJ5bVJ1UHJfdVRaZ3J0SnpVU3U4QW9pQV9fQXNEUGVNRllEbDZmOWxobndDTFFnT1pxVk1mMVRiN09PcjU3S0dVUzk2THJtWTZlM2tfVzZhY0VtSHhBUWFBUVREcS1sd0JmaGg4OVdlWGwta2hhNXA3QmVDdUMxTXVIT0xEdjRYV2szS0ZOekQtd3JtQ1pZWF9YZW1nRC1EOXhFLVVVVzltRl9vTXpONzVFcWRJWG1XRjdJTWZMMGFXM0FucUlyNWdjaHdPVWfSAeQBQVVfeXFMTkNtOEU5aUlBa0NVTDZlSzlzbi13cGlocVp0bzhJUC1JZkhWSzNBdmRvTlFKRVFsVmx4WXBxcFBNUmlNQUd5dkliUE84aVNNSVRPZURDaFRDVmMxVGFxY1JUX05NQkVYcnFpajBYT2RwdUJYWnMyeHFpQmlQejBwMWNldW91NVRPZU40YUJhWTNJNWhGMXJ0MFBiSG96OF8wV2lvSHpzd0VFc2NZR3BGV1o5cXFxNFZGV3pjYjV5dDVmVXAxb1Z2amVIOGI4UkdmZEtEc2FLeDZfSTNMR0lzWXhIM3VM?oc=5",
+       "source": "The Indian Express"
+      }
+     ]
+    },
+    {
+     "title": "여자친구 출신 비비지 3인, 전속계약 분쟁 1심 승소",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "걸그룹 여자친구 출신 3명, 차가원 회사와 전속계약 분쟁 1심 승소",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TaUQ0aE9VOUlVcXhrN1EwZ2U0QlJJdVpPaHdmX0JXZ0hMbWF0WHpwOUJKOVkxOExyYmktS3ZQT0JKYnRHQmIwUHFNMmxQMkx2ZmwwaXF3WDdsRFnSAWBBVV95cUxPNnBGRUN3VEFvTDlHeG5PUDVBQ3E2Vm5RR1g1UUgzWlc4UmxwUTZ1UjBMZkVpVmoxcDkzMEVZSGlDSUNBQlF4SDFzUWprN3ozZDZMNHB5czhWeVVWdmYzWVY?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "걸그룹 여자친구 출신 3명, 차가원 회사와 전속계약 분쟁 1심 승소",
+       "url": "https://www.yna.co.kr/view/AKR20261120163000004",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "걸그룹 비비지, 차가원 회사 상대 전속계약 소송 승소",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YSHd1NzRnTVEtbkJ6bDdSY1VHTkw5UHZ0WURxNHRyWERDREU0alFlckRudW80VTM3N1E0MXU4bmJNUFlwRHZIaGRlRmlqeU5jWEFfRFBB?oc=5",
+       "source": "헤럴드경제"
+      },
+      {
+       "title": "걸그룹 ‘비비지’ 3명, 차가원 회사와 전속계약 무효 소송서 이겼다",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rNFlNekNUODhKY2I1d1hXRk1IQXJpV1dzeUY0eTVreTg0VHNyb0RfNVZZbks5REVBY3YyYXYteXJIaWhraXlYVlhXNHpWNVVhVHl3VGhzSEFUUdIBX0FVX3lxTFBqS0RVbjlxWXUzX2JwMFlwSENCbjQ2ZURQS05pS0RMdXRySDhqbklPS3FXWEc3R1RNQUhZVWtUY1dGZWZQRGNwcDZHSjJxdk5rc04zNTRiWloyMVVrNmtF?oc=5",
+       "source": "경향신문"
+      },
+      {
+       "title": "걸그룹 여자친구 출신 3명, 차가원 회사와 전속계약 분쟁 1심 승소",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wNC1zeWtJZzVUUlNxM1RnUUlfSzlyNnRmQXdrdGl2QU5uRHdIN2RKWHRxaFZ1bWM4eUZ0ZER4WVp4LWZBVkpWSEc5VW0ycm12Y0xqQlh3?oc=5",
+       "source": "미주한국일보"
+      }
+     ]
+    },
+    {
+     "title": "플라이 투 더 스카이, 8년 만에 신곡 발표하며 완전체 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "플라이 투 더 스카이, 8년 만에 완전체 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zWEVzNXgzSXkzM0l4VUFDZnpCZUdQWHp5am5OTnlwNUdYbnc3M0RVbVFRQVZXMWpRM3I3YmdfUlJ0ZlJIRC1sLV9VR2ZTMGg4eE5QTkJTNUtLdU9ZVnMyakRtTXQ?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "플라이 투 더 스카이, 8년 만에 완전체 컴백…오늘(21일) 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfaC1xVjB3N2k4Y3h3eVhzQktmYk5DZTFyZkRGRGFncDFxSFBnNGJJOTEwWWhMX3MzSGUwTFhJOFJLX2NGTUxMYUJqcXVheFllVm94OV9Nal9FRjNkN3lEX2cxU0dYSWQzUk1sSjNn?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "플라이 투 더 스카이, 7년 공백 깨고 돌아온다…오늘 신곡 발표",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNHZEYjhqY3RpMXktdHI1Z3JZVm5qVXFFUV9tSHVsRkc3aUhQYUx0N2NzVGNhZGI5M2JFTlZGS0dCV2w1Vml1ZGdnNTdKZk8wZFVQY0F0dmFySXV4OXRzekNGY2hWcmJNUmFjQ3FxaXdGajZ3RWdrTGNxZV9GekRiRw?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "플라이 투 더 스카이, 8년 만의 완전체 컴백…새 싱글 ‘SOLITUDE’ 오늘(21일) 발매",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oUFZidnVtRWVkOWJ1c2xFTnVUTlQ5Q3JfUHBXRS1ha2xZRm5YYm02OGRzN1hmUE16V05NdzVqMEN2Uk1CbU5uRGlQLTFQMjlIdWs0WWdUbW9VZTZMaUt6MnRHR0FJbm1k?oc=5",
+       "source": "CBC뉴스"
+      },
+      {
+       "title": "\"8년 만에 다시 뭉쳤다\"... 플라이 투 더 스카이, 환희·브라이언 완전체 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xTTJ3X2d2a2lOX1VBYzk3VkprUEZlQlc5bXRoV2FLUkw4ZTdIVTBoV3BGb1EzcG5wb2xHUHFFR0VCMElTMUVJS1B2RnZrdw?oc=5",
+       "source": "인사이트"
+      }
+     ]
+    },
+    {
+     "title": "브루노 마스의 부친 피터 에르난데스 별세",
+     "summary": "팝가수 브루노 마스(Bruno Mars)의 아버지이자 음악가인 피터 에르난데스(Peter Hernandez)가 세상을 떠났다. 현지 매체들은 고인이 음악가로 활동하며 아들 브루노 마스에게 영향을 준 인물이라고 전했다. 구체적인 사망 원인이나 장소, 일시 등 세부 정보는 전해지지 않았다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Peter Hernandez, musician and father of Bruno Mars, dies",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVmRvUWMzTk1ETVVSWFNCX01BQlhMQm5FY2tIX29xMEJBeW52WHB6OFVoU3dWWS1nYlh4ZWphclNmMVZEZ2dmcFJOaUpCWGpZdC00UE9SRVdjakJCOW1nY09USU5mdko4Qy1FV3lsRkgtZW9jbUNhWEVYMTBKYzRWUm55dEVXVk1FRmlaRGMzYnJEc3hQbnJTN0VPbkF3dHRGYmJXZ015VE3SAbwBQVVfeXFMTUhKd29yczdHVl9TM0lvUHV6cWNXcURxaG4wMDdiRkxSYUQ3LWpSMGVBRFhLZlpMcG9ZZmV0S3NObGY4SHJ0OG5LdEROMERvMEhPajJaZmQyaURKMmd1djZfNzRUS3hMRU1DbGp1Qk5wY0xWZTFRa292Um55MDQ1UFFfSkcyYW0wU21fbXlZOTVsRmlucW5YbDVUYkMyb1ZmM3lBVmFMZkZYR1ZQR2FEejJzT1ZRdE9QMHFuSlM?oc=5",
+       "source": "95.5 WSB"
+      },
+      {
+       "title": "Peter Hernandez, musician and father of Bruno Mars, dies",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdHF3NWduUDhOZGNVMVppRlZVT20wYmp4XzhKaVhDVmZlN3VDSTZHWEVTUE9iMHFKc1hLZXVIMXdqM0o5aXN1RHJhZGFOLTNlSVlfSXg3VU13a2p1MDFOQlhxNzMwUlA5R0NoNU1qS0xqWFRnWXdoRHU1eWdSR05VM1JlYlhnNlJkLS1tOHdVY2JjRFJCME01SmxXaDR0eWlBbGNYWNIBuAFBVV95cUxQVktSRmRKVU1STXc2VnR0RWFmR3dEZmVCUXl6TDlMOE5oNXB0XzVTQ1pVaFZFX3dwcFNPZ2duYUE4VTFKbDY4SzVUQjRjUE96bDB5aUViLWxOV3VuYXQ0LThLUDdtSzJJWV96WTZYQ0hoZXpoQ3RpY3ZfSWU1VDFKV2dfVjNzc21hLXhDakJVY0VvUjRPaFZSX0o2aF9qNnNIcWFjcWZMTnl1R0FweENzYVh6c2lXTkQ1?oc=5",
+       "source": "WSB-TV"
+      },
+      {
+       "title": "Peter Hernandez, musician and father of Bruno Mars, dies",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ2N5WDBHM2ZSdFF1MG9uSkxHbVdwNWY2VEFHWlRNU1J2QUxmdUhWN1VIT1phMkFpdU50YTc5TnIxWFBBd2FCQkhDeGlEeUhGOVJBcnJfRENRYjBOMmVoN0tsVEx4aTgxSEhGNXFEc1Y4anR1QVp6bmx2OHhLRTJPSGdJd3BVdlhsemR6aVZQRUEzTlExRHRjcDdOS3A0NEsxQ3pFaQ?oc=5",
+       "source": "KIRO 7 News Seattle"
+      },
+      {
+       "title": "Peter Hernandez, musician and father of Bruno Mars, dies",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbTBvOEJ2eGJOYkJEVExDcUFtSllWQ0JYSTZDX3BBZ29xWVVXTkhWUDFveTFHRmZETktyWGJHdmJGTl9IZXBicFptcW84cmdXZ20wdTlYVWxMNmN1WWhNNDZiWWU0dGloYldGTm0zTXhqbjMwekItVWVMVVZQTU1naW94U1pqREdLVW9HSTFsNXVnMHRBY0xIdk5qYWRwYkhRRmhwblFB0gG6AUFVX3lxTE0tN0dSRk1vQ2RzQ3dVZDJETVMwTWx5b1dEWlN0TzFwclp5U2JsYXJYR3BIZlFBbGNhLUQ5S01tLTFob3FwNUhYQTBBRjVSQ2NkaExTSlVCeEJ0VEtfUjItYnJPdGVRclJscWVuQ0tQUGp1WTFPQlhZdnc4ZDZQZHA5UzFKRlVnM0M3bkZ6MXN4cmJCdFNHTlp4Rmp5aEp6anNweEVmQnJPb0lieWFwNmlDZDdfWXRwdVI5Zw?oc=5",
+       "source": "WSOC TV"
+      }
+     ]
+    },
+    {
+     "title": "CL, 테디와 협업한 'ICONIC'으로 5년 만에 컴백",
+     "summary": "가수 CL이 5년 만에 솔로 가수로 가요계에 컴백한다. CL은 이번 컴백에서 프로듀서 테디(Teddy)와 손을 잡고 신곡 'ICONIC'을 발매한다. CL은 이번 활동을 통해 독보적인 아우라를 선보일 예정이다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "CL, 5년 만에 솔로 컴백…테디와 손잡고 ‘ICONIC’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlSFB1ZzF4OHRMYlFHQXBSZEFuOENUVHkyRGcwOEE5aFN3UU1LMDNyN3RsQ19adGRXQ3RoeTN6dXlGbWVEcGNSaEZKbVQxV2REVmZJSnAyNXVyN1pmR0l2MDZyMm9WTGdtYjRFbEdR?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "CL, 5년 만 솔로 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LbzFncUZTNVRfTjc3NEJKb1dYN2ExVlY0ZU9LN3Y1QUFEVldoVkJNeF9qVG5fWjlaUlpnZlRSV0FvRS1Ncm1HaVd5Rkl4V0pVcjUycE5oSFZOTU5XekUxNTFlS2s?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "CL, 5년 만의 솔로 컴백 ‘범접불가 아우라’",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fY0l4MUdiOWFGZlhXQURtckxSbTh3ejVFQ3pNSDQxbnBjR1JhSkZWbkpaS05yUG45UUpCalZ3QkZwT3FCRWE4RnFXZHFRVGpWVFdTOENfSUZpQUNnU3RuTG9Yaw?oc=5",
+       "source": "MBC"
+      }
+     ]
+    },
+    {
+     "title": "아일릿, 일본 레코드 대상서 K팝 그룹 최초 3년 연속 수상",
+     "summary": "그룹 아일릿(ILLIT)과 코르티스 등 K팝 아이돌 그룹들이 '일본 레코드 대상'에서 수상의 영예를 안았다. 아일릿은 일본 레코드 대상 우수작품상을 수상했다. 이로써 아일릿은 K팝 그룹 최초로 3년 연속 일본 레코드 대상을 받는 기록을 세웠다. 그룹 코르티스는 해당 시상식에서 최단기간으로 특별국제음악상을 받았다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "ILLIT Secures Third Consecutive Japan Record Awards Excellence Win",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSDNXVTFqYmFaYjc5MTVDcGM1bzNzS1VPMU5LT1IwSmp2bTg0NWlUYjZlaFQ5YjIwR3RyZVBfSzVRcWVnWV8tT2RXTDlzVjlVcDNjd0xCcV81TkNLa3BIN09wUXEyV2pfU0VhYmh5UU55S1pVcWJUd0pBNzVBT2pmUnV5VzJCWm1HUkI4dXV3?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "ILLIT becomes first K-pop group to win Japan Record Awards 3 years in a row",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWmRJVndJZnZLV2Q4eC1nQXZNTS1hNUVwbFVfbnp4N1ZWZUpTZ3NmWVZhQXpaY25faFFQWWZmazJRa3BFNF9ZZXZpalo3UUNCQk1ramhRcmFJMlZkNnY1ajVnamxFZWVYQmpsaFZ5a0d0eXRqYllPSmdWY3FIYXVhcnMwN0VlTEhV0gGcAUFVX3lxTE11OVBhMXBxRGRuLUExX2dqUG5wMGRscFRKXzRueEFOeHE4X1V5T2s0RnphdDhPeUlQeGlOaFpETUExb3FiVFA3blFLd3lRN3ZhZzdZYm5Lazl5TXU1Ty11N1FpLVhha3hIZFhmXzhhMHdXcVV6Y2hlZlJsaE1mbzhEWG01eE1YUTdjWWVaZEFMend1VWpabUo0VzFUUg?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "ILLIT Wins Japan Record Award... \"Three Years in a Row, First K-pop Group\"",
+       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE45WUVpYmlBWnZwcnpIZlBlLUFkRWFmNUgtRFhINWZCVEl5YkdyUGplWlhPaDZud3llRUlwZENWcDA3eDRN?oc=5",
+       "source": "DIPE.CO.KR"
+      },
+      {
+       "title": "아일릿, 일본 레코드 대상 우수작품상…코르티스 특별국제음악상",
+       "url": "https://www.yna.co.kr/view/AKR20261121027900005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "코르티스, 일본 레코드 대상 특별국제음악상…최단기간 수상",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9IWVptVHc5OTBFeWNQVmF5dVhoRE90dndFbTViRlBsMmFpcFRXaTNMNFB0ZGtIOS1ILWdCM3FuYkhaMVhBZW5ZbTdyaWFFTnRfajktVHc2R2NWWUU1bFB6T1ZvTl92c3BWWm15Yg?oc=5",
+       "source": "메디컬투데이"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 오사마손 뉴욕 콘서트서 군중 밀집 사고로 최소 4명 부상",
+     "summary": "래퍼 오사마손(OsamaSon)의 미국 뉴욕 콘서트 도중 군중 밀집 사고가 발생해 관객들이 다쳤다. 사고는 뉴욕의 공연장 '터미널 5(Terminal 5)'에서 열린 쇼 도중 일어났다. 관람객들이 MD 상품을 얻기 위해 한꺼번에 몰려들면서 압사 위험 상황이 벌어졌다. 이 사고로 인해 공연장에 있던 관객 가운데 최소 4명이 부상을 입었다.",
+     "ai": true,
+     "article_count": 2,
+     "source_count": 2,
+     "links": [
+      {
+       "title": "NYC concertgoers injured in crowd crush during rapper OsamaSon’s Terminal 5 show",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYTRNTGNNMTFSNjZuR1pPVWdYc21Vd2R3eFJPSGx1Zk4xZG10aklmMU52c0JTOXQ1NVVMM0Jaek12NVZVS0F3RmsxcHhFemE2VGdjYVMzcXN2X0xTYUw1VVY5RUZfSU1OZWpkdmVVQUh2dk5JS3VUTTVGZUxCbHEtUzAtbXJBYkpjUGVoSlNQeHV5Rm14MEFzMS1ucEtSdHRQdGR1dDRRLWtmM0RUcjhQbDk2VmJqdGkzdXc?oc=5",
+       "source": "New York Post"
+      },
+      {
+       "title": "At Least 4 Injured in Crush at Rapper OsamaSon’s N.Y.C. Concert After Crowd Stampeded for Merchandise",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVm5taTV3aDZjZ3lVVnFjeDFFNlZLbkJGTFA0U3JIelRiZGJZOXl0X1lUSVJCUDJOQWZqdXFWRFdlMFRtankzOEVxNGc0WjBsQmpjY2VFNzFNQ05tSm1CaDIwdk1qcmc5MHA4aHM5aHkzUFQ3THJ2cVJSNHc0MGwxazl0bjQ2NGVKcHhMUjFxNjhVTFNYTUpBaG1sMW9ORnFGenlNV3RRNUM3Z28zdkE3bURXdGM2WHdpMHBvME13U01QX09V?oc=5",
+       "source": "People.com"
+      }
+     ]
+    },
+    {
+     "title": "트와이스 나연, 차기 솔로 앨범 앞두고 신곡 3곡 깜짝 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "TWICE’s Nayeon Gets Flirty in 3 New Pop Tracks Introducing Her Upcoming 2027 Solo Album NA-stier (Exclusive)",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPU05rLVJDdWZYVWZVR0FCTlZ3WER1MU5MdzBaQ0U3cXRFbEJhN2RhdUdIenhHa0J1aUhTTHFvWHlaZjhjOVdUbXVPbzh1akgteV9NeVRTcXRXdFNSQzVKWXV4aGxNVDVBdFVyblBCZEdwNGI2X3AtdVpZMFRFOG5QZGotU3E2N0tWX0dXc1lqa2lsZmhvek04?oc=5",
+       "source": "People.com"
+      },
+      {
+       "title": "NAYEON Announces 2027 Solo Album ‘NA-stier’",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4OGN3SzRuVGpUbVVrdUN2VU5XVXYyTV90TmlJc2R1U0ZYVEs1OU9oUjh5eERMd1hQaHZrSDRkOHU2Nkx0dXNhdE0tcV9VNFBSd1VJSnpHck1uTmEyX1NVMWxEX3FpQkZBMmY4?oc=5",
+       "source": "uDiscoverMusic"
+      },
+      {
+       "title": "NAYEON of TWICE Previews 'NA-stier' Album With 3 New Songs",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfTndYTmpSblpHSTNRVXBaMnpHUC0ycFduanVWTXBwU2FXbDEwZkloNmlSRHRqcE9kbWt5dldNcFVoMjhiTDV3VGo2SHQ0bDd5alVZdFJ5S2pRcENhLVlneGNCMzFhNVZDRy1v?oc=5",
+       "source": "Mama's Geeky"
+      }
+     ]
+    },
+    {
+     "title": "에미넴의 아이 낳았다고 주장하며 스토킹한 여성 기소",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Woman Accused of Stalking Eminem Believes Rapper Is Her Child’s Father",
+       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaEhXVTBWaktIbURweHV4X0lXMDR2TENoZ3BJYWcxNnNEQm9iRHM5S1RHQzgza3BGLVFqNkpFV1RIMUZZeDNqdGJXci1BSHloNjcwTmZHNVZhbi1vVHF6NXNON3NzU0hvN0ZYTDdaa0ZPdWlXeklEZmVjSXdvc3BxOGs0RHQ2Nmp4VjJwTEg1UFVNMjFfb1NVWFM4UHhiUk5VM0E?oc=5",
+       "source": "foxy99.com"
+      },
+      {
+       "title": "Woman Accused of Stalking Eminem Believed She Had Family With Rapper",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUEw0Ui1EQWw1WUtSbDR2WHNSQVplZlNPZ1JSdXJERjAySFdiUFltM2dCUzBJUnluUVhTYkNOLW8wN1Jwa205eHBOay1rOXRndVc4dkxKdVREQ2wtTVctRDZiQzM3TXZ5d3VhcmQxcC1vWm9HX05uRW00cEl3UTNCaG9GNVlXNFVNMjF0bWx1dkhMT1p0VExvOEdPZ191bl80Rl8wMXNtOEdQamNlb3BmV3F6Z1hnMTdNdnN5RlUwV21UUFhWbFFlbnZGX2g?oc=5",
+       "source": "Detroit Free Press"
+      },
+      {
+       "title": "Woman Accused of Stalking Eminem Allegedly Believed She Had a Family With the Rapper",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSE8wYTIzZDNzNHhvcUFRSmxmV0FUeEVmTzdsM2ppbGpyUTJnQVZ3dk1tVEJSZFhqUy00Y2pCcDNQT0FVRS1tMUdodDlWdVFRTVF0bm9VZi1kcVY0RUl0NTQzN21yUVZuWktHLWVHM0x1aVNMTnpCZ1Iza3QwaFZDVVFjYU45QVEwUHl1NVZqaWx2RWwxQTVRcUdRSGZoZ3ZTc1NVOEFwSmRlUU9PYTVKWF9VcjB0ckJDdkZhY2lodWhmSVdLblJ0a1d6bENSVHM?oc=5",
+       "source": "DancehallMag"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
