@@ -1,0 +1,464 @@
+{
+ "date": "2026-11-22",
+ "generated_at": "2026-11-23T01:06:33.417188+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c0~c3 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-hiphopheads",
+   "name": "Reddit r/hiphopheads",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/hiphopheads/top/.rss?t=day"
+  },
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 491,
+   "issues": [
+    {
+     "title": "Miley Cyrus’ Stepsister Shares Glimpse Inside Singer and Maxx Morando’s Wedding Rehearsal Dinner",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "Miley Cyrus’ Stepsister Shares Glimpse Inside Singer and Maxx Morando’s Wedding Rehearsal Dinner",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNzVrRkFyYnJsV3NWUGVOWjdxdDNCSG9seUZnd3NUdzYySnpGdG4wazlSM0tGZXZYT1pwdkFaQ0NjQ0ZGblpMZkM4a3ozeF9lX3MycVlaclZaNk1VOW5OSE1aTmprV2tsUDVYaFloUGNaS1VyVm1PQWtZSjE4bFVQMmJNekhFZXlFajBVbFdOQXltcmJOZi1rN21sNjB5Y2VLSGJaYmUwOFdXZ2M?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "Miley Cyrus’ stepsister shares sneak peek into singer’s wedding rehearsal dinner with Maxx Morando",
+       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOUFl2c1dfQ0tob1NhUDM5dHU5SHlJczZoOU9WbWZPNUJlcXZLM3NES0I4LXRCNTZTanMwaS00RjFOUEZmeDZHNWlPeGN6VTJqMFUzUFNiZ2trcXZlWE1PM0o3YXU2dS11ckRzMlBFVW9nU08wSVRvUmhMMG9jZXRnUEU1RE5iVzJ6VWdCVmFJYUMyVHRxc1hoTEozNUhDSkRSc290bC14aW9WdV94cW1STXo2RE5QWlpZNEt4YktzZEt6RWdmZXZheG1pOGtDUXdfUHBMczZiWDVOVXl5cW9SUGh6ZnFmR3YyVHVZV2JObUt6TGlocG9RdF8wbEsyRU1yU21iOVI1X2dWYk16OHQ5UC1mQVZ5ZGo1eUQ00gGgAkFVX3lxTE9Wc0tpMlBxX3B6R3d1c05mV2ZzOU9qZ2RQeUpyeFRiMHdDdjlVOTJJTnU3eENxNUhmVHRfMkxBTllMLVhtbUU2bm5PakVkRlR4WkVMN25qSmZFaDIzQ3pFMlpWR2lWXzRLQlZHa2xDNGY4aEJKalV4c1FUT25ZNGFuODFHcnRRRDVzODNWemJwWk5GaDE1Q0pfdVQ2WEQ3VWs1alBsUWt0bU5xaUt1M3hSOFpPWS1QaGdZZEtfZ1JKX3FuNmx3QWNOcDJRTlZBU2xTX1BCSVdhZGNKYjNFUjNsRkxab1psZHJfenA2eEJMSjJXOExVd0ZyUUdpYUFKV01PY0ktLXFfV1NjU2xfRUo1ZTZUak9ZVzRyWkc0UHFMbA?oc=5",
+       "source": "News24"
+      },
+      {
+       "title": "Miley Cyrus marries Maxx Morando: inside the singer's intimate and emotional Palm Springs wedding",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTkVnaUllczNTbkpqY1pfakJCUUxZSm9zb3RrWXJmTEdZM2h1VXl0bDVEeWxUWmx6YlF2a3ZJMWlJb1lEUmcySjhuVDhKVjhsOXNYM1VpaUk3N3NqVkJSNDA2TlBQc2R5a1BOZzZPZFptZ1FGaENWbDNRQXZIVmRxcTJoRTJsSU9LdW5meV81eVIzTkdGeG9wYTRxMl8wYS1hV2RQcDNfSlFBT004NGU4?oc=5",
+       "source": "HELLO!"
+      },
+      {
+       "title": "Miley Cyrus Reportedly Marries Musician Maxx Morando in Private Palm Springs Ceremony",
+       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPLXR1R3A4MDRObF84TjBzWHZhWDVEdU9sU0NRZUs5bVRQbzZVbDZwNUpBOUItTGlON2xZZWg1aldDVmNhMGQxb0FfZEdEWDV5TnJGMDFpV1F6c0tNLXE2Zko3UlVlQXFXWmwxZVdJVjRPSXFDdWRSUHI5WDY5a3NCbDd0d00zMDdjMFNmQUxYQkxOU0ZjWmxqcXd5VUZDODdZV3dUTm5zSTlGRTFLMmVycTFHSE0tWHFVSjFqMkhHamxyVGVsbmp5SEdGeTBuV1JXR1VGZVdjb1A4Vk9aOEJDSQ?oc=5",
+       "source": "NBC Palm Springs"
+      },
+      {
+       "title": "Miley Cyrus marries musician Maxx Morando in intimate California ceremony",
+       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdnZiRUNQU0hjM1BRLVpWTmZxMmxweVd2T1N3bmwzbDR5SlFpSS1KSWdpTVNDVEpfRXhudVBlY0xRcVo0ekJITjVhSW54NVVUUVZPaVM1VXR5V3ZMaXdoTjQ2MWN0SnFLczRJRGxXMW1NRVlwVkhkMXhUZFkzZUJHSkROYVFTUEtwSUdDQS00dmg4UDJjWXdwNmNmZWVvQm9xX0d6ODMzdkNSNzMyblE3eGtPMmpDUWlMMkpKb2NldWlXQlF4TkZKRmlCN29KTnp1dW9jblZQVjBlUnhFMEJvTzI3WF81d2Qw0gH2AUFVX3lxTE1jYjh6VFJtczFlUDdOelJQT1VQRVdRR00zQjZXVDd5dEVuOXgzZ0NzMm1jM09oaWVoTUZIYi1pdjViR056VE5nTjBuMmQxY3A4WnJxT2tjVjNQYlpYTHlzeVRkU2tCSzNpaXFEbmZYSlpoMlZrTjJVWTB6S3YtTzZybmI3V0piTVdjc1JHQmJIcFVueUJiN3c0eXhoSFJ5bWxnLWhIdG1MTm81S3I1NUNzWVhKSERwZUVub1owNGRKaHhsWS02Qk9WVlVqZmhyajlmZFFvcjc0TVJwRlJLRGR6MzlhMU1ud04yWFBPaHdlTmVqQXZ2QQ?oc=5",
+       "source": "The New Indian Express"
+      }
+     ]
+    },
+    {
+     "title": "BTS Wins Album of the Year at 2026 MAMA Awards: Full Winners List, CORTIS Song of the Year",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "BTS Wins Album of the Year at 2026 MAMA Awards: Full Winners List, CORTIS Song of the Year",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNnRTRGpWcjZJRk9HMzRfbXotVUttenU1R3YydnRuWkZ3NzFmQWxIeTd0WEFabmp2RTdPTi1EYTkwYjIydkFBZmstbGFkLWlRNjc2RmZNN0JqdzlTdkozVTc5Vk1jc1RKRk1iQlFhc0R6TlpMb3FDRGo5eUNnVHRucHhJNVlYR2cxS2xqVThUTGFJR3hLUGpjLWhnanBHUkctQ09ocHlBUE82VlpwLU1EN083em41eFczRjhPNw?oc=5",
+       "source": "stupidDOPE"
+      },
+      {
+       "title": "BTS, CORTIS and BIGBANG Win at the 2026 MAMA Awards",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pMVlpeW1hMjhsTUlvaTJJelVCZGtwOXEybFdFTzlqVnlMWlFGR0RfN3ZXOVRSS1dXWFJiTGJlR1FRNnpnX3ZTek5EVm9PVnlydi0xc1FnamxodjA3em9VekFqR1RvZw?oc=5",
+       "source": "Hit Channel"
+      },
+      {
+       "title": "BIGBANG — Sweeps 4 Awards and Unveils New Song at 2026 MAMA",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1X3lIbU9UOGdEWUwtcWV4d0ZjRVhiaXZHbUNOSGhucHdmSUdJLUNkbGE3YngwdUFtay1lazBObndvWm1pN3Bha3d3Mk54b0tzX3oyMll0ZUc5SE96TkRXeg?oc=5",
+       "source": "The Korea Daily"
+      },
+      {
+       "title": "The K-pop group BTS won big at the 2026 MAMA Awards.",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbEdXQVB5YU1aejBhZDFJYV9wc2Z1Z2JXZktsc05iZjZhUjdIYl9BS0R2Q3lJLWwwd0JDMnVFSUdaTmh0Zy13VGU4YndGNzJTc2xCNlAtWW44UGlaUkxvSmxOZFlPNEJRSmZocDZvWjY4aG1RNG9yU2NVLUdTb2dpekRR?oc=5",
+       "source": "Vietnam.vn"
+      },
+      {
+       "title": "BTS and CORTIS win top prizes at 2026 MAMA Awards",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb2xVcEgydGlfS0ViQTdfUG5uTWNBSGFHWXp3MV9hWFBmczZkWGFoaXMtUWJHdDlpWG9sdzhaS2gyVjVUaUg1T0xJREQ3SkJYX0djQ0t1anh2N1hmS0tzUkt4WjdsMFlWcWF4ZmdtN3dxRDdmNTV1SnNvZHdmTThpb1prelBGYzd5Z05uR2pZLUh6QlNHNHlXU3Y2UGhCNlFSRThXdGsyT3NGUQ?oc=5",
+       "source": "Kursiv Media Узбекистан"
+      }
+     ]
+    },
+    {
+     "title": "리센느, 11월 가수 브랜드평판 1위!",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "리센느, 11월 가수 브랜드평판 1위!",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12S2Jqc0xhSVg2M3pMX0hONEduVElqWDVoc2I3engxc1NFbUJ0V0Nza0xUMTNfQTNWSm1FOHFGT05jTHl5MUVLRE0zOEh2dG5aUmN6WmYxVlJQLUlsTE9fOUZJcTUzZEI0MVlWd05BSW9CdEx0?oc=5",
+       "source": "아시아뉴스통신"
+      },
+      {
+       "title": "트로트가수 브랜드평판 2026년 11월 랭킹",
+       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE0wMWI0RjFEUmt5S0dYazRIU21YdW9pOHp4Tlo5eWxxd2ZWOXZvM2tkeW9TRU5mSmtWalQyS0pIQ0NQSFlzOGlZ?oc=5",
+       "source": "한국기업평판연구소 브랜드평판지수"
+      },
+      {
+       "title": "성리, 트로트 가수 11월 브랜드평판 3위...임영웅·강혜연 順",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4RXgzN3NvbEdDRUtlQVpwdUotUmNZQkpNODU0V3Ixc0lKcDFaRk5aNWVaLTkzNUk4M0dsaDZJS19oMWxaX3dUTWszd3B1cHM1dlhXY2RDM3c3S3lwdU1JTy13LXdFUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "임영웅이 임영웅 했다…강혜연·성리 제치고 트로트 가수 브랜드평판 1위",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1POFdOd0tfSkdBTGQ2aEp4ZzhhelFUQnBiRTBWU3R3NHlRQWZJOHVYdENBSmJhUElOdUhJSjR0ZG4zRGFlbHRRWHVTeXplSkxaVXo3eA?oc=5",
+       "source": "엑스포츠뉴스"
+      },
+      {
+       "title": "71개월 연속 'No.1' 임영웅, 11월 트로트 가수 브랜드평판 1위",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zN1dIUDVyWnQzUUdxNGI5V0djM2RwNGViY0lvc0dvd3hzak5EOTJDV0FZNnNWTkszcURycEJ6ajRyNExNSWRySElhS0s3WmRDaGpSRFVTWHoyQm1aR0tVNC1rZGxiR2hleERXLUh4TVBUUWE4?oc=5",
+       "source": "스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "BIG Moochie Grape, Memphis rapper, arrested on his birthday",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "BIG Moochie Grape, Memphis rapper, arrested on his birthday",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYXNTU3VqYjF0NlpCQVNodDhRc3FBQVBxV1RMclY1bllKNlZjZU9XbTVyMDBkay1TNWQ1ZW1iXzA3ajFmbjdzX29TU2t5eEZOLUxVU2JoWHJLbzVMSXFob2tERWpmZS1SOU5xVG4tYTIwdHBTMktVZ0J2YlN4VHBrd3RLZnBUOEFMdzFsNVg4bEZhV2wyV19uM29B?oc=5",
+       "source": "Action News 5"
+      },
+      {
+       "title": "Memphis rapper arrested at airport on his birthday: MPD",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVVR1ZTBzUEFIWlNoZ1o0N3F1a25ZUjFPN3RmLXRZeHc0SlpVU00wZ0dISFNUVnpVeG9KVmxCcndpeUhCbmgtY3pIN1BKRDRQOTZSakNRLTdERXg3ZWRGUTJTdFU4ZXBXNnlObk5pbDNnTndCR3lnZE9iMlVGVG44OV9ackFlN0JVcjRF0gGQAUFVX3lxTE51ZDAwNlEzRU9LRXNYZVEtOWQ5MjdRVE9xX1dKRFg2dWZ4UllIb2J3cGJLZnpGS3YzR0ZxS2ZfMGoyT01ON1NMNjE0R2lpLUYycFYyUVpyQ1A4d1lGTU5mY2RRLUtLWU01M0xVdlhvdUJ6RmljUHdEemFmakd1ZklCLUxMSTR0eXE3dFVQZS1QWg?oc=5",
+       "source": "WREG.com"
+      },
+      {
+       "title": "Memphis rapper Big Moochie Grape arrested on drug possession charges",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRS1zVkNubnFTd18weXk3RGVwclhLSk5BVERaLVI2RmRzckRBSUI0cEhTU1VzemRiTjdWYXpoUFVOdzhZVmJDcWdrOW8yNU5DUTBKb0IycmM3TFhBcWltYUh6VjY5bVVWN2JUTmdVWEprVUNmelh2XzNOYklTMVRTSGd4N2xJSGN0S2prRVJyeWxmSkFNcEVRMHE3UTUySXloRW9JSDhsc25IV292MExpc1gxb0poMmc?oc=5",
+       "source": "The Commercial Appeal"
+      },
+      {
+       "title": "BIG Moochie Grape, Memphis rapper, arrested on his birthday",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU0E5WWdZRzNMLWdNTnJqR05zMmFqZzB0WEZHYlBFeDhQLXVNbVdVdW1laF96OG1rRDlOSDFTS0wwQ2RpSlBpbUlPSnppQjJsLVVKNUJuUWxzUktJRy1mN3g4bzFZS0tyODN1b3N5UGxEcnNQNzJxSk5rV0F2ZEg5RnJOLVQzVTBkSkhMaERGMm8zcHBrZS1Wag?oc=5",
+       "source": "WSMV"
+      },
+      {
+       "title": "Memphis rapper Big Moochie Grape arrested on birthday",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa202eUs5b3RiU0czdFcwYzhKOTZSQ25xQjgzaURvUUtIZWtUdXAxWDNyeWtjZGxmQUdZM3FXOGVpM3hxM2w3X3RvVEVCYjZRZUN1UzZuN0RPM3ZKTmNUT0NhaFJna0RzT1FiZXBDdVdMVGhwaGtpYldZS2twRmlxZF9lN0o1RTdK?oc=5",
+       "source": "Yahoo"
+      }
+     ]
+    },
+    {
+     "title": "‘무안의 밤, 청춘의 열기'…제6회 무안YD페스티벌 성황",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "‘무안의 밤, 청춘의 열기'…제6회 무안YD페스티벌 성황",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96R0pIVWQzNWY4Q0lfYW54Q0dEM2tCYVRfSC1QSWdXRG5rcHpXY0l4QVdaSXNfQXowWVd6T2pISjZDd1JVZ05XWmhQVlkyRklHM09WdmFBblZ1TGh3MTVpQ05CNDhNNWxmT29n0gFvQVVfeXFMUDBFdDB2c09IVWtTeXoyTUt6aU9SSVYwSDFndXhSMkpDVTFUOUVlQjhQWGhaNl9GLTdUcW1nUGplRHRGZ1ppTVZXWEpWbkUzbW1jSFBWZjU3eEExOGtBbnVfc0tzQm5ibkcwbndnWmEw?oc=5",
+       "source": "한스경제"
+      },
+      {
+       "title": "무안의 밤, '제6회 YD페스티벌'... '청춘의 열기로 물들다'",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94UERyLXpHODFXV2RkRGVGWC1iUFZWdE9SU0dyaGxZX0lrSm4zYkxoYVdQcVR5SWliYUt3VTE0dmhnazkyZ0NJZ3JyRG1hempCR1hWaExZTEtyMWZMU3B5QzRra0EwX1BQNy1MNWJRY3nSAXRBVV95cUxQOUVKT3BEM2t3V1hwOHpmYjBlbE1nX3dzUTR1UGQ2RHpHcG95ZGZDdzhUSkFBVTF2RWNDUUwzeWNwSnY4dUZyN2tmSExZUUJQeUpIbXpVcjF2M1RwWFdiMjhiak1mMnNSTFlyWklCX2tLOUVWdA?oc=5",
+       "source": "뉴스워커"
+      },
+      {
+       "title": "무안YD페스티벌 개막…청년이 주인공인 문화축제 ‘열기 후끈’",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QM1Y1VUlWLTc3MkE4UXhFUGhGYkRVdFluQVBYUF9KRXZ4SWhKRE1rZ1hEZ0NIS1ZQNFlnVFA3OFdpRWJUR2R1cFhTcm5XZ3BYMzVKa05Ucmw0TUk3SllNNVhXUkhXS2p2dE9WQ0Z3?oc=5",
+       "source": "아시아투데이"
+      },
+      {
+       "title": "추위도 녹인 청춘의 열기…제6회 무안 YD페스티벌, 뜨거운 여운 남기고 폐막",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56V2ZqZ1FyTG1Jend2dW8tQ1JseHpta3FUWWZiLS1ScGZ4VDNfblJrWF8yX3lUREM0dU1aY2ltUjctbHBIYnNLN1BmWF9SWnFOYVVsUkZPekhsZ9IBWEFVX3lxTE0tU0FqakRCWkEzOWRudUpCby1ZQnB3RWFfbklYYUxQVVRTNTJXd2d4dHVPanZ3NzdKSW1Nc190ZlA1WlVrQWtmVUxHX043M1QtZFFXZ29ZQVA?oc=5",
+       "source": "아주경제"
+      }
+     ]
+    },
+    {
+     "title": "앰퍼샌드원, 정규 1집 컴백 맞아 자체 예능 콘텐츠 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "앰퍼샌드원, 정규 1집 컴백 맞아 자체 예능 콘텐츠 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rVThTakRtTGxIb0N3V3hMeHhWNU9Ha3RScnNxOFZIcFVnS2NJREk5SjZ2RklXRWJjNXg4ZlQxaFdJMXdJNDhCQ1R6b3FuNVlFSU1meG90YTBKYmNHdTlWd1pjQkxTY3NfbDZyRnV5cEZBUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, 정규 1집 컴백 기념 자체 콘텐츠 공개...예능왕 가린다",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LQXc0WHRuNTZadldiZkdZN3d5c1NuZ2FXMktsZ0QxdVRLRklMUG10a2RuZkdUM2JZWUhJbXZMNWdpVU9VbTVCTU5CanNmLThpX183QXpMUDd2eFZDYXpHMUtIbkk5QQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "앰퍼샌드원, 컴백 기념 자체 콘텐츠 공개…‘7인 7색’ 예능감 발산",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uR294RzFRRXJ6aGFibTNNMWpRZWtWQ2dQQ2dwckRSR3otVlJEWXAwbE5uNE1zTjlpZ0drMThKSklldXpDbU9TNmlPeUd2U1pmRE5HNGxaQjhfODlLTndZNE9JNlM1YzBf?oc=5",
+       "source": "CBC뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, 정규 1집 컴백 기념 자체 콘텐트 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42M1Zza2NpdUF5NWhLSmU5Rkc5alpzVFNHemlrd2YycGF2TjBEa19JNEQzN0RTR1Z6dWZtaC1rSE96YlVRdmQ4WVFMQ1V3YWY1cEJYaw?oc=5",
+       "source": "JTBC"
+      }
+     ]
+    },
+    {
+     "title": "제로베이스원, 내년 1월 18일 컴백…MAMA서 발표",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "제로베이스원, 내년 1월 18일 컴백…MAMA서 발표",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5dG9FaWpWSzFTNGRWNGlFRGZ0dEg3dHJLaEZTM1R2OWNUd3hFekZDUTNqRVBqRFVoSUFqNE1lZllhNjlDQkpPaWZkVW5saXc?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "제로베이스원, ‘2026 MAMA’서 내년 1월 컴백 깜짝 발표",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KRC0tSzMtQWl2dWlzYXgyd0JFTm0waVFZT0RJNVctR3Jibl9CUmpEcDUwX0UyV1NkOS1XeWNjd3lkVWpYblU4eHg4TjNTcXRGQmVfNw?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "제로베이스원, '마마' 2관왕 오르더니 깜짝 소식…내년 1월 18일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lUTRNb1dXUE1uWWRFdWotWkZOS1d5bWwwdXpZLURGZ3JtVVJxZTNBeDRYRVV3OUlYYTRVWXBqVVBBbENPdGpfdk9NbEpjbjJWdmRVamZnUXNBVzA?oc=5",
+       "source": "텐아시아"
+      },
+      {
+       "title": "제로베이스원, ‘2026 MAMA 어워즈’서 내년 1월 컴백 깜짝 발표",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBjOGc0YXY5TjBlOGlranBXNzVQbjRmWk5QOVRJd2I5SzhZU0N0RG5fZ1ZDczRLakJDOWdpMzFJUTU5VVRyVXJKbDhXb3dJQ1o0S3pxTQ?oc=5",
+       "source": "엑스포츠뉴스"
+      }
+     ]
+    },
+    {
+     "title": "빅뱅, 신곡 ‘기립’ 최초 공개..‘2026 MAMA’ 빛낸 ‘레전드’의 위엄",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "빅뱅, 신곡 ‘기립’ 최초 공개..‘2026 MAMA’ 빛낸 ‘레전드’의 위엄",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVpiblBadHZvXzliWkdJVWxPNmV0RmVzWmZLVXlqUUp5VTdQUEVnX1hmWVZsRWhYWWQ1UEhqRmFiQnV1NWVLbHpEeWZDZ09zRXRiUG4wZFF2MFhOUHFSSHMyaXU0bnZSNlhCaENEbHhsOWFGMTQ1S0o4MDdselRfOG9qNDB1dUJlWGhoTFRIOE1JMDjSAacBQVVfeXFMT0xaQXlVTFRSOFVxemxHMUd4akhjdzBMNGRjUkVTc1NPRUZFN1RtT2o1dmhJMW9qN1dMY3NXb1IwZWhkd0RlQjU1aWoweGRaS2NudjFYMDQ1ZzNuMmVMY0ZKUG82NUN4aUoya3BQQjhuckRBOG9NZC1BQURnX0FhMl9RZ2ZwRjdOOVdoak90S1NaeHBWUUFlOVdxRnBFS0NEaGNMdmpkYUE?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "빅뱅, 신곡 ‘기립’ 최초 공개..‘2026 MAMA’ 빛낸 ‘레전드’의 위엄",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuVGQ4VFZtNGhwZHBVOVdPQ1pKYm9aVGdBU1FOM1c4dFFNUFQ4WDZ4NGhuVHRQczNLTk1VNVAyRHhiRnZraTVNNk0yS0hZTnhTUDZuYg?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "빅뱅, ‘2026 MAMA’ 4관왕…신곡 ‘기립’ 무대 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4Z2N0NTdOcG1taWd0Y3BDbUhMZTNpNFZPWE4tZFlxcUlVSkZ4RC14ZFhBMVppbXc5bV9EdWh4SU1FeHBxZ08tWmZDckFpbnRIUEJBaGZPZkVIYVNacTJZTk5XM1EwN2hVU29OYXpmVDFlUmR2?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "빅뱅, 데뷔 20년에도 ‘마마’ 휩쓸었다… 4관왕→신곡 ‘기립’ 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pa0h4eUtLOXZDZGM1SHBjM1B2MmxKX2VGZHhsSHJNLUgxTG9CZUhfbk5NVTdycksteXFkRzhwUTZkY1lza2JPSENUWHhwcDZWSFJnWlRpcnZLUkxkM2NUZU9R?oc=5",
+       "source": "스포츠월드"
+      }
+     ]
+    },
+    {
+     "title": "플라이 투 더 스카이, 오랜 공백 깨고 완전체 컴백, 새 싱글 ‘SOLITUDE’ 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "플라이 투 더 스카이, 오랜 공백 깨고 완전체 컴백, 새 싱글 ‘SOLITUDE’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44UU1YQ2swMUYzS1haTlMtNWtKeENIM1pnTEZ0YlhIZUtGUnBZYndrNUtISnpEZ190aWhPcnlYUk9oRC12SWZQdEVPOGwtN2x3QVppWklndXNzVUZPYUNKZU83enMxaWt4N2VTT0l3?oc=5",
+       "source": "https://www.frame-less.co.kr/"
+      },
+      {
+       "title": "[일문일답] ‘8년 만의 완전체 컴백’ 플라이 투 더 스카이 “기다려 주셔서 정말 감사”···새 싱글 앨범 ‘S...",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiOGQxWGVGak8xX3l1UEpSWlRGb2hCakV2OERVOW53anpLMGlaR3dIbzJDWGxlZVBwODdfMzZ4eUVRc2htVE5mUXJ4anNtWXlDd0R6MUtZSWxFY1o5eFRDZ0FUZ9IBY0FVX3lxTFBiOGQxWGVGak8xX3l1UEpSWlRGb2hCakV2OERVOW53anpLMGlaR3dIbzJDWGxlZVBwODdfMzZ4eUVRc2htVE5mUXJ4anNtWXlDd0R6MUtZSWxFY1o5eFRDZ0FUZw?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "플라이 투 더 스카이 신보 발매…8년 만에 완전체 컴백 : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9EbW5DRU1nU21aNEdvUS1HT19jOUtlTWVGVFJCakNxc3RuZEFtOEs3bGgtMGNLQ21PWjFmMzBJZE1RWWJIZE1WRmc0bw?oc=5",
+       "source": "재경일보"
+      },
+      {
+       "title": "플라이 투 더 스카이 8년 만에 컴백…은지원 “무대의 도파민 잊을 수 없어” : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wa0xtY1Z4dlBWOURxclhnVmpQZ21UN2hVMFQxNmRHczh5RmdMZThlOXdLdnFkME82MkN2UW8zNGQ0YkJVOWdXallNNA?oc=5",
+       "source": "재경일보"
+      }
+     ]
+    },
+    {
+     "title": "환희, ‘살림남’에서 8년 만의 플라이 투 더 스카이 컴백 비하인드 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "환희, ‘살림남’에서 8년 만의 플라이 투 더 스카이 컴백 비하인드 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05bV92Wjg2bHdwZUxfZ3ViaXc5cGpOSU5QdkYyVkZFR1pJamtRV1ozVS1XejNwVUtnMkhzalYzMXZxOWg5dG9GcTlqOHkwZ184bTF2MnB4SjExOG5oWFZ2TS1sblJBMUlXWHRjb3YxQk03QQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "‘살림남’ 환희, 플라이 투 더 스카이 8년 만의 컴백 비화 공개… 브라이언 “처음엔 거절하려 했다”",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16WjZzOWtJUVB0SGp1Ul9IWVhZNGlOdmxrWGZFeTFJQmhSTnlsWkZzNjY0U1FBNDMyTVdGMGFieUFFVmtlU0dSV1loTVN4Ull5bURXYmRYaHd3UHRiOXJGTVMyRkVtZVAwUlE?oc=5",
+       "source": "천지일보"
+      },
+      {
+       "title": "환희, 살림남 출연 '플라이 투 더 스카이' 완전체 컴백 비화 공개",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDbWlLZzJoUVJyOE0wWEcwWWF0ZDFOUTc2ME5HblVnalNKSjV1dzRMelBxZG00dWpzeGZfOFV6U3hDMVhTTGRiS1hmWjJnX1NUd3NyaTZCd0YyQTNYNFd2ZWR1NGVNZVhDVEHSAW5BVV95cUxNVzVMT3oxRFJJdnpZWVFONGtkbjg1MnpVcDJNSjdwbE13MTB6ZmtXWHFHenQ0akpLRVpjY1hMZy1laVZ1MWxXRzNpWVVYYjNYQ05STzN4UUJSUmhXeXNnUmJ6WE00MTJ1LUVBMXhBQQ?oc=5",
+       "source": "지피코리아"
+      }
+     ]
+    },
+    {
+     "title": "Poway High marching band students and alumni to perform in Macy's Thanksgiving Day Parade",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Poway High marching band students and alumni to perform in Macy's Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM2RtZzEycFQ3X29Zb3dzZ0MweFVTWGlmYUtZVTF5UVFwUl9wc3o1cFZpN3p0ODJ0ODRxN1dobGtfN1U4OTJFTWtKcGxIV2Nuemt0aE5oT3RvUVVid1hYRUxFUVBYeURBMGkyaGJiX1JHOHNPNFV4aF9NY0hQQVZ4QXdZWG1taVB0cGhUeUc4TEFTeEVQVG03ekJ0Vk1lSzAwT0JlLWtJZVFwdVg1NHp5YXNGV1BZY0x1N0dZRC1sQXlTNGRNWmF3Zk90Y2I4UlpNakxwWg?oc=5",
+       "source": "Times of San Diego"
+      },
+      {
+       "title": "Hawai‘i marching band students head to NYC to perform in 100th Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdEVHdWRsOGZ2MUlNVEtYaDBfSjlmOUZIRF9yWVBMbElsWHZoS0Rub3o4eU5mam9pSEpjRXJvbzhvem5EaWFrZ2RmZWNRb2JnY0tZbkpkQjVsTkNWTlNGZ0tzdTdEaG9uRGFsNFhYNG84eWx3Mktla2tMclpjNTdFOTQ2dk5lV0Q4MkhPVmlxUlM3ZW9COVJkMk1sRk9HS01xS0E4a05PU1d1OUhLQzlIdUpwS25maGl6NUJ4TDBsUHQ?oc=5",
+       "source": "Maui Now"
+      },
+      {
+       "title": "Concord marching band prepares for eighth appearance in Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQlpIdWJqeFlub1dhSnVCUmxXX3lGaEp0VmphYklhMTFfMjFmSmdsOWpZb2VKZnh0X1NSeURQSTVpQjdkSllfTFNWTzRTLTZvRFV0NzBsTVRLUUY5cXZSYVlpOFY5ZlBWXzk4c0tob2JSNG5tdXpxekd6TWEtRDFOTkN4VVpPa2pPSVpPV0lXRnRxa1U5UlhIeHNrNTdlMUxQdERrb0ZVa1BvSXM3ZEMwMTNGRWVzT2xt?oc=5",
+       "source": "WNDU"
+      }
+     ]
+    },
+    {
+     "title": "브라이언 \"환희가 얘기 안 했다면\"....플라이투더스카이 12년만 컴백 비화 (살림남)[전일야화]",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "브라이언 \"환희가 얘기 안 했다면\"....플라이투더스카이 12년만 컴백 비화 (살림남)[전일야화]",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xbm1PYlViM3lXUWFZamdaTkpZTGlLSVlLRHRVMXlQeUQ5cFUxeFdFNWo2aDR3YW1EOGhBTTdYRFhfbGlMUXA0V0JIb2ZfV2x1MUtvTw?oc=5",
+       "source": "www.xportsnews.com"
+      },
+      {
+       "title": "브라이언, 8년 만의 컴백 비화…“환희가 용기 줬다” (살림남)",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kdFJqa1Y2d1pIQzZweDFuRXZvRnltSy1jbkFDemg5Z1dUSm45TVNTOExZZy1pQktmaElRQTAySEtJOUJPSVRLVzNObHBTeDRPMEhMVVh1N05KVUVmRGVYclBjUHBnTTd1cE5BdHJn?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "플라이투더스카이, 8년 만에 완전체 컴백…환희·브라이언 다시 뭉쳤다",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yR1VjeGJ1Vk1FR08xaEsxZ0ZGREw0QzRBb2FyUVo4UV9RNDJWVGxLZm1WX3lNaXdPSkpiZ0dpbWpOOWtIeGhPNUFiSGZDVVFPT3lwcXZtRkNnNkZmQ0VnekU3WWJNMEpsZUNySFNRaEF3QQ?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "At least four injured after rapper OsamaSon’s New York show",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "At least four injured after rapper OsamaSon’s New York show",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZlVib1JSNUJVS0tHREhlNVZ6R0dpc3EtUzJJWllNR05uUlV2VnVVcERhN3VGZlh5ZW9QX0hHUXI4OUppYng0a2YyM2FsSzJ2NUwza2JrUlVpOHFRazdJV2hXUi1kaVhDVTlZQXVpYi1pSFgwMFFRbHJiSGhRZ2dIcjdMY0xFd2R1WUFFTENlMGVNZTBnanR4NEVheWFQUQ?oc=5",
+       "source": "NBC News"
+      },
+      {
+       "title": "At least four injured after rapper OsamaSon’s New York show",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaTJFU0Z3QzBnZjhSTi1TUU9GX2dBRjJoTFlzZ0RRRjJDSWxkQm5RZXNJdE1TUGprckViREttUDl2MWtIX1g2SVRoREhMTEpSM1Fnd05tWTVpMm0yeVJMbXhURF84WUNXcUxSVlZQdkZHeTIxTzJaTTRTNjFLRWtEdUZRcmlkMHpTWnRyVmFOM18xdw?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "At least four injured after rapper OsamaSon's New York show",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkZyc1RPVndPYl9WQmcyNWVsWDJtbzNrQU45Nmt5X1JGTmNlcXBtT0tybnVhU013eTQ2Z3VsTU5yNXFSMjJCTHlJZk1TNDhSRlozTDRBQ2g5ZFVpVXZsSWNIbVRyWmRza0hrcUpkbEZUMjVoazJGcFpacWtBcEYwVmdyVS1sV2dTZjhTSXRqZk8zN1NTTDVhN1ROYXpJSXRULWdua0dPaGlrQdIBsgFBVV95cUxQWVNLa0VkZlRRbGRhUGljUFpLWXpvMkNTSDMyZ2FnLWdzWjRrR3R6VUt2T0NYZEpYbnhLTVJaZzl5LVo4QUQwV0VSYzQ3bDNzSl8wUkpoTl8yX3NrZERJV1ZBSjBGamVkUGd6RFNMY01SZVFwT2FMbVc5cFg0WHFhRWVhZGZCQ2ROZGx4NFFiamxPN2xxNF92RVdUOU1xcXM5Y0dxZHQxYlM0bUs5WGRhVHFR?oc=5",
+       "source": "NBC 7 San Diego"
+      }
+     ]
+    },
+    {
+     "title": "Chaeryeong says she felt guilty after sister Chaeyeon left JYP",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Chaeryeong says she felt guilty after sister Chaeyeon left JYP",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWHV6T0lPYnVvaW5pUms1OU9vMDRHSmJBeE5ISkExMVZlSkhqc3F3NU1qYzM1RDRBN3BmbWhXQUJCTlprWXBxYkpVNGpsY3NJU2QzTjhEMXZSX1Z4QXRpTlZ0M25EdU1fcmU4U3lqWF8tZlp5MTRheDdKN1l5RWdGeUZoNnl5dUt40gGcAUFVX3lxTE9oQk5qckhQV2NaVm5KOHkyVUJGc2YzTlNFV1VmNDVvSjNqY0wzR3B1dkpnX0lFRUYwd2VkLUlfdUljZFFDbGpTT0RNcmwxYVJfeFh6N3NoYnA5TS0tLVQxUHlZeTBRZHp5TDdHX1BRUHZvNTN1emJrcFJoYWhjM3NWb0lmWWpwLWZCTVBRWnBvX1BuV191VExDOXllQQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "Chaeryeong Guilty Over Sister's JYP Departure",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdmdnaGpLeWM0ZFV4d1ZmcmxGZ1JjbVVSNmhKY1VDcWhIZlhwYllkbVV5RGJVVmNjVVZMa25OY1M2azg1X1lfQzQ3MFVGZnFRaWxOZ0V0OUc4MVVvRG9YUUdPY19pX3N3Qm83QkQ0SmVGUkYyeDBMdmU1emxMbjc4M2g0ajAxOHB2alRHYUdB?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "ITZY Chaeryeong — Guilt Over Sister Chaeyeon Leaving JYP",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xNnZ1ODVySkxHNVNSRVBTZ1g3OHdhZ2ZKWjF6ckZ1N3N5NG9wOUV0MDgyYS04Ymt6anB1SkxxZnk2dDlQMUlLR1BnOVEwbGFiZTNaRUJ3QUhBay0yNndVSkp2RVlrRG1lelNOVEJyNA?oc=5",
+       "source": "The Korea Daily"
+      }
+     ]
+    },
+    {
+     "title": "은지원, 플투 컴백에 묵직한 한 마디 “멤버에 의지하는 기분 알아”(살림남2)",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "은지원, 플투 컴백에 묵직한 한 마디 “멤버에 의지하는 기분 알아”(살림남2)",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04SGdVV3JUaDh4V3JpWUZwQmhFUWhwNVFRR285XzMtMVBfcW5fcHhFaFBlVE5aclY3STYza0FOWXc4bDhWOTdjQnNfUW5nTU1TM2pDLQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "은지원, 플투 컴백에 묵직한 한 마디 “멤버에 의지하는 기분 알아”(살림남2)",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUEgtLTRZQm5jWE92SVhWbHFjT2FJcTFSTmxvOS1fTUlwQk1fUGJkOFNvVGZWVnRNRUlOUUhMeGs5WEo1TjQ0OXRRWERzUlRMSXNibk5La1BGallQeklHSWNjRTRMOTN4M05tLTM5RzVELUx4MVhtU1NyQnRrVWN2RXd1dXJUZUpadlJsTWZGNnZGQURVcG9za1pqSTVwUmkwYlNQMGcxd9IBpwFBVV95cUxQUEgtLTRZQm5jWE92SVhWbHFjT2FJcTFSTmxvOS1fTUlwQk1fUGJkOFNvVGZWVnRNRUlOUUhMeGs5WEo1TjQ0OXRRWERzUlRMSXNibk5La1BGallQeklHSWNjRTRMOTN4M05tLTM5RzVELUx4MVhtU1NyQnRrVWN2RXd1dXJUZUpadlJsTWZGNnZGQURVcG9za1pqSTVwUmkwYlNQMGcxdw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "은지원, 플투 컴백에 묵직한 한 마디 \"멤버에 의지하는 기분 알아\"(살림남2)",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdHdfMEc1S2hyNWxxdVN1TVVZSzM5dWJmUWxVSW9zS3M1NGJXMzFVQURVRXh4OG5xclpCN19jc3FxWlotcURSRXNKUkNjWWlkQXZ6dE13ZnU5YmhXbzFfV3BndFVhMkctVS1Ga3U2RktmVDVuTUhGUnAxV0NYVXhORjBvWEVCZzMwWjhqTjg0VQ?oc=5",
+       "source": "조선일보"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
