@@ -1,0 +1,549 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-24T04:59:01.185810+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 10,
+ "llm_errors": [
+  "선별 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c12~c14 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c12~c14 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-hiphopheads",
+   "name": "Reddit r/hiphopheads",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/hiphopheads/top/.rss?t=day"
+  },
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 852,
+   "issues": [
+    {
+     "title": "제로베이스원, 내년 1월 18일 컴백…'2026 MAMA'서 깜짝 발표",
+     "summary": null,
+     "ai": false,
+     "article_count": 18,
+     "source_count": 17,
+     "links": [
+      {
+       "title": "제로베이스원, 내년 1월 18일 컴백…'2026 MAMA'서 깜짝 발표",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SbUV4dGxuU2dmQ3VJeG9zMzhySm9QYTNoNllFZWJIQmI0VGZtanVlQXV5VzRBa0RRVnhlZzEyM2VzZ3VQMUFaajBOb2p3V0hTWm9oa3FHM19fejJ0eXZkNkNwZi1XQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "제로베이스원, 내년 1월 18일 컴백 확정",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWLUNQX3phaEI1a1RSOVB5LVNEWVN6djlNYVJzYUpheXZiUURKNEtleW45RHlfalFBQmdpNHc4eVF0dFBMOXVwMnhLNFJvN25LelBtLUVPZHg1Q2lFaG1DdzRvTVg?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "제로베이스원, 1월 18일 완전체 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUTlZwMDFRN0JnZDZQRU1xY0pDTjVuMjRXNkE0V1BBT2h3ZEhNVnlqQ1NWUmpwWURYc3Jwc2Y4N0xUb2lQbGJGVjllRlZtUHVuVUwtOWJmZGJoeW5VTkVEdnAwQzBTWVVkY1gxY0xJOW41dw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "제로베이스원, ‘MAMA’서 알린 내년 1월 18일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSSm5jMHNBbW9Dc3M3aTdoNUxNeUExVS1RbG1CdU1GZk1wS2hURFBsOEdreXdRSDVlSG9UT05URWZOOFh4SURqSDMxdjBTZVl4RU91cw?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "제로베이스원, 내년 1월 18일 컴백…완전체로 여는 2027년",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1tYnFwTko0eERBQlVRLXc3eUJ5ZnlYZ1lZUjlMbUlCbk5STDBfbXU4YldyVEJLV0wxTDVabFdmelVOaHRpZTJ1VnY3TjhNQ2JUWlQxSXZPNHNjdlF1TnR0dDVn?oc=5",
+       "source": "스포츠월드"
+      }
+     ]
+    },
+    {
+     "title": "펄어비스, 런던 K-뮤직 페스티벌서 ‘아침의 나라’ OST 5곡 선보여",
+     "summary": null,
+     "ai": false,
+     "article_count": 17,
+     "source_count": 17,
+     "links": [
+      {
+       "title": "펄어비스, 런던 K-뮤직 페스티벌서 ‘아침의 나라’ OST 5곡 선보여",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96UTVlWTZiazhmb0JzaXlrZHVfYVpSRFBqd0dkOHNWdHByTWFuRzZ4cVEyQWtLcHV3bGRHNU9oU3ltU09ab2R0cEVEWGtmZWFsLVM3NWlDYzVmZUlKZUlxaFRRVzl5dGFlVTBqQ0txQQ?oc=5",
+       "source": "뉴스퀘스트"
+      },
+      {
+       "title": "펄어비스, 영국 'K-뮤직 페스티벌 2026' 참가... 국립국악원과 '검은사막 아침의 나라' OST 연주",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUVGhYQkdzc2ppbUh4RktaZkYtM29BT1V3MXBjN0FRZC1lcUdSdmp0b2tJSGdKME5pZGxHZmhyczlidVIxWWJ5VktWNmVaUWlneVZrRFhRbVJ3U20tbHVEUw?oc=5",
+       "source": "게임포커스"
+      },
+      {
+       "title": "'검은사막' 아침의 나라 OST, 런던 K-뮤직 페스티벌서 국악으로 울린",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XVTI1bDdHWTY4Nnctd3M2MXVrRmd1NFJ2UGZ6eDBPVW5kNnM1WDJ1UXdIaDhPU040alJCSF96WS1MZUJXMWpabjZGX0dJMWFIRm02UQ?oc=5",
+       "source": "디스이즈게임"
+      },
+      {
+       "title": "펄어비스, 런던 K-뮤직 페스티벌서 '검은사막' OST 5곡 공연",
+       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBQbVhqLXY3WGJickFvdFIzRkpQRVZEcGVYVDI5X0RyQXppX01aUU8tdlZfN3NCT3J4dTdXcWVYa2EzMmdtcmc?oc=5",
+       "source": "아이뉴스24"
+      },
+      {
+       "title": "펄어비스 검은사막 ‘아침의 나라’ OST, 런던 K-뮤직 페스티벌서 국악 협연으로 울렸다",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaM3pxd2ZCT3JlQ0RPeTNoWmZxQWFQWkpNcmRUc1FPekVLaHZURmg3ZFZWWF9vWENjbzlOd2xMN0ZBTWlqTENJMEx6RHE4MW96ZmZpZFJiY0kyUnZPdW5oN00wRnVKVkR6?oc=5",
+       "source": "창업일보"
+      }
+     ]
+    },
+    {
+     "title": "Miley Cyrus marries musician Maxx Morando in private Palm Springs ceremony",
+     "summary": null,
+     "ai": false,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "Miley Cyrus marries musician Maxx Morando in private Palm Springs ceremony",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd2NWV2s3Zm5FVFlzMmJMbDZRdGt0SjBwdHFSblNPSVowaVZqYjVTNEkwMlcybHlMZVVIZ2l1QWUyZXp3bWY3S3BRX1ZVMXE5UjdUQkFLRDBocVo5b2hYNlVvaFd4ODRoTHE2anRrQ21RWXAtMGxQeGYtMXJudFlrNWlBVkVlV2VDNXN2VTBHUHczZHo5MDctc2sxRTRlbFg4d3RMQWxxLVltODdYQTY5SjJQYjMxazQ3aUpj0gHAAUFVX3lxTFBkczVyaHpPMGJPanE2UHQtVWo0blNUTVdlRmEzR003QkE3UzcxWElOcmVmZ2xRcDIxNzdlOGZCcXFxbmRscGZFLW1pdGlCSGNzMGZmbENLR2V0cXgxM0RhRndaUjI3ZGdFUE4zVk05WGx5LXJTelUyMXhKbXF0Wm9lMG42SGFTS1NHRC13Nm1FWmgxclhyZzl3eEtRTS1tcVhQVGE3YldFTmtWclpHeVhZTFVKeUpPZnAzX1UwWl9qeA?oc=5",
+       "source": "A News"
+      },
+      {
+       "title": "Miley Cyrus marries musician Maxx Morando in California",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNGNvejctbmdzVzhGNUNNRlg4NE9FM2RaR25WWjVsTGlYb01SYW5scGxJTUxWaHphUzYyRWktb2JTQ3hFVm5NWmlVMmlNMTg1Q0xhaTBKQVRjaXJyN2VEeTg0R2tLYUIybk83UDBpVWRhSFN6V3d6T0doVzQ3dFU4R2tOVklLc2twa1dJUDRhWEh5X1hhQnc?oc=5",
+       "source": "1News"
+      },
+      {
+       "title": "Maxx Morando: Who be drummer wey Miley Cyrus marry for California?",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9odVhpNVZXWi0tWmdXMElySVZEOTlNY2s2NlZRVnhrV0FmOWRJOVBiZXRkVlB2dElDR09GY0hKakFIOVN0M3pXVGoxY3MwUkdfODRya2kxdXA3MTRBNlHSAWNBVV95cUxNSjZaaXVPTHV5MWlOX1JVMlg0OTREOEFEUm5FaWRuM25aTmFKaGhJdVJYRE9adlJPd19IdGt1QjNEdk9xT0c4RVJXZ296eGxWR3NidkNGR3MxR3RJbW9HTlNGRTQ?oc=5",
+       "source": "BBC"
+      },
+      {
+       "title": "Miley Cyrus and Maxx Morando wedding: Musician couple share first look at their Palm Springs nuptials",
+       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVG5BdEZzeF8xQnh0c0wwVlFmR2RkRFlEM1RPNV9oMlF0VF9XYml3WldEYUF5RmVULUpjbUdMczNMZTNWdC05blIxX3FPenBtNjN2UlF1VUFWQlZieEZjM1RHRWNTR3J3bVE0RWFwM0dkQUs0WlZZenVlazVtcEdwVnd6UVlyaTM4dlBPbGFvdzY0c2VQdmMxMUtHTWxVUk5mMERKUGU3QUlhSTZHdTZoU2VSQ2s2cUQ1dUdjNVFiYzB3U3ZDYTF6V3ZDN2FnMVNuVVZZY2RuZG1hSS1vXzdN0gHkAUFVX3lxTE9NV29obENydDgwWFVRRDJjdk9qZ2RSQVpWb0Y5bG5PM0hnRV9jc2xrMEZEOHFrSEZBNXBxT0ptNmRhNF9ybTBxOG9iUHVQRGkybnZEOGhhR05XaGNpZFZhLURhbEdQUFVsb2RoRm5ETVpvVGl4VEI4cW5vMTBuSGJDbXpVVzMxYzJZc1lQLVNzbDJMQjF5VGhCbXdCUjlRa3RjNjUzX0JEUjQyQUFNaWlFMC1RUTFkMkF5R1lRT2hGeFduTlhZY0pQUDBVX0RhNzJCbjVFeTlLc3V1NTlpMFdlLWRRZw?oc=5",
+       "source": "7NEWS"
+      },
+      {
+       "title": "Miley Cyrus marries rock drummer Maxx Morando",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa0VBVk5JdExCNEs1b2ViRFhKak5wdFlFSGRIUlVKVHJXczBiSmwyRkRldzNfVm0wLWhnR0RNNVk5dlN6WFB5OHllM3NyTTNrNHVXSW5jajh4NFdaM2s1TkQ3czBxZ2lDb2FpQkFEMTQ1OGF5QXl0R2NnZlIxNEszRmlNZFV1MktnT3UyUg?oc=5",
+       "source": "WIBW"
+      }
+     ]
+    },
+    {
+     "title": "Poland says Russia allegedly twice tried to kill a Ukrainian American rapper",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "Poland says Russia allegedly twice tried to kill a Ukrainian American rapper",
+       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNVVFjX0JVbzBudnBYR0ppOTBBT3R3bEMtc1NZbTBfX2dNaEljT0l0aEtJaXowRXNrRy1zREFUVS1sQWRXNlZjMnJlWWxmSkhXYjhoSlZXaWhfVTE0dHlOR2gxelhfOTU1YUhaX3FlRkM5cGZBa1pySmNLZlhjeUVJMWZxOXFCdnVVdlhhejBaXzY1Umd0cGFpRnBWdHI3NGxpV20tTHBad3Ewc1NlX3ZDclgwQVNTZ2tXcFhGdjlCWGs4cl9hZ01lRS02VC1WN191M2JjNmhwZDZIckZzZklmNk1hcFZaUzFaRWdFeng2RWppYVZSSGhpR1d3ZTdwVnFjZHlDbWh5aw?oc=5",
+       "source": "Ottumwa Courier"
+      },
+      {
+       "title": "Poland says Russia allegedly twice tried to kill a Ukrainian American rapper",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY3p4aTdVd0o1Zm9XYW1lbzM1UFlEdGhjUUZxZUdJdTNubFY2VmlRTHRnU3FzVmw2algtNFJyNzE1MjA0d01OUENEQUJocGc1V21wV3Zpb01UcWJabDQzZ2dMR21zWjc4bldWclJDM0pHcUJaS3JfQ3VnTU9JbnJoN1dTMVZiT3hXc1VDUUhJYmZaUUNpOUE?oc=5",
+       "source": "Temple Daily Telegram"
+      },
+      {
+       "title": "Poland says Russia allegedly twice tried to kill a Ukrainian American rapper",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaW55T3hxa1dBUHE2Y3hSNFJDQTVrZmxLYmt5RS1mMXF4VWxSeUc3VUhFZ1Bqb2RLaVhTRUY5R0xKYjFtUjhhQ0hTck94S0ZmYzlYVDN5WFVOV1VzTG5XSmxxV2FPU0lqdWY4Y1VIUFNDU1F4UE5DTmVpMnJ1dTZJYkFPcW52b05uc0VhV2xnNTlJSGpVQmVVZHA3MEhob0pwWUwtWmZpWF9aSmx6YUpaUlBhYXRmQ29JZHF0bW9rQW1OZm8?oc=5",
+       "source": "The Seattle Times"
+      },
+      {
+       "title": "Poland says Russia allegedly twice tried to kill a Ukrainian American rapper",
+       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaEV5YzZ0ZzExdlpLYzkyZC1ZdmhyLVp5WVBZTXF3RTU1V1E4UllaMUVNb2Z3NGFvRXhla2lxR1RGdV92ZEpWMXk3M1g2WFBLRW1kMDBxTGlsUm8tc2dmV1dfb0tCQ3dhcy1ZNGlVZzlkWGNGZUY4WUxELU5CMjdLVzFuUGZHRG9NMHhTODQ4bVlaaWQzUjlpZGhrUkU3YVl6VTkxNm1FYjBrcF80LVlMdG40RGVqRzlhZEMtSTduZ1JBOUkyT2RUdndZbkpQOGRxbHZ2M084S2RqMjFFZ0x4RXh1Q0EzM1V6T0FHVEhhZG1GVmp3SzN6QW9tQVE?oc=5",
+       "source": "Toronto Star"
+      },
+      {
+       "title": "Poland says Russia allegedly twice tried to kill a Ukrainian American rapper",
+       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdG95Vlhkd3RZeWFUdHdTN3N0TVhqYS1SOUhzQWlIaEVJVG9yV2tmMEdBV29TQU9JbDNONXg0dHVWVmlpbWp5b3VHMjNQakxZeWptQlJENEtyY0tqemRoeUlMcjBVSm5LNUhBdU4xc24xRk53U1NjOVhTUlMyRjNLUmY3Nl84dVhwZ0hITzBCb25GMXBxRk93NXhlLUFrSUxRcllHMFJ4NXpMb1NOVHVwYUFVbEdhUnNNa2hBVks2ZzlkQmRTZnBDTlF5TmYta3RuSXZLMHQ3eTN1djZjb21DZ21Pcks1alBVVldSZTRJMXVJMFMwTXp1SlRpbHlxSkZNcnBhdW5B?oc=5",
+       "source": "Herald Bulletin"
+      }
+     ]
+    },
+    {
+     "title": "마크, 12월 4일 컴백…신곡 12곡 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 10,
+     "links": [
+      {
+       "title": "마크, 12월 4일 컴백…신곡 12곡 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tLWtsMjJHUzVBWm15SnlOczN2OFR5dFRUdUVWLWR5X1Zmc3JIT2JIeUgzZHRVRXNGQVdHZXM5V0xHSVRQaWIzdzBNNFJTNTFRZ25NRDlDNjVQaE9RalQzbDIwU1g?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "마크(Mark Lee), 12월 4일 정규 앨범 'WINDMILL' 발매…타이틀곡 포함 12곡 수록",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nX1hILTJKc1FwU0hWbmxodElQZnByZUFKMjgySXJtS0tjb2stUk5BaEpqMEJhX2J5YnNoRVd1VGY1NHYteXFuQWYwUTZwYWxfOV8ySXFNRUljZ1ZsT0g1Sg?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "김종현, 전역 후 첫 신곡 '행복지수' 발표…12월 4일 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zbFFOdUd2dHBfVkRIUjNqVVY0UW4yQU9jVkw4Z3ZJWGpaN2czR1hfY2FOZERfRWFTclJYR25YbkhjYjhFZEVacWp0NnZEd1R5Z1hEYVg2eTZ0aWN0ZmpXaVdieHFZQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "김종현, 12월 4일 새 싱글 ‘행복지수’ 컴백",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5vR2sxRUFwRzhMeVJBdDRjTVdWRHhDczVmRGVNdnpqOFpqWkZwcHZCbFB6TF8yUzZUaTEwTFNITkFBRGo3VTF2YjZYMkxxOGVCMGdZUGFqcG0wcTRYX3pzRy0xemhGWnBsaV8wTEVlYVl2UQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "마크, 내달 새 정규앨범 '윈드밀'…총 12곡 수록",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UeXlVRzVYSml4VW12ZUJjZjJxaFNTYmlMTFJVVExVQ2dlUm5oUkNqNUVOODlXU1luRGhqTW9tR21zZWZmSzhFQ3lWNzZWZzAwVEltSFFXa0ZTV0XSAWBBVV95cUxPVVRxTUhlT1RxOUxLNW9xdTJjakJ4ekNSTzFEZGRhX3Z0VFZBMGtvRlV0WEg3RUw4TmRmX3hMbWc1ZnRCWml1bllQYjhqXzVuTjNwZnhSMmhtdHg1dmN4ZlM?oc=5",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "미 래퍼 영국서 공연중 정체불명 물질 퍼져…1만2천명 대피",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "미 래퍼 영국서 공연중 정체불명 물질 퍼져…1만2천명 대피",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YbEVub3ZHNFFCdXlqdEc4ZHhGcUVxVFFVZXVKWEpLVV9BMzhtQ2tOcHJPd3NpczZsQ2NjeHFORC1VaHBoZzEwNkZtbjNqbnBmZ2hDZUxPcVdiZVnSAWBBVV95cUxQU2dfZzZHV0E4M0pDOXNwVTdURmxCUFlSV194NVZJZnRubUdsRVl1MlV3dlFlcXFQMkZfN3RkNjdfNHpFWld6aVJwRWY3V1NsSjZrS3gwMk9iakdYSFpMbkg?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "美 래퍼 공연 중 '정체불명 물질' 확산...관객 1만 2천 명 긴급 대피",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yQjVVQUdOaW1nVFVwY0JXZWw5d2xwSEZBdnc3TXo2NU5WWl9CSFpVTm90Z042OGRwVE1VXzVmaVBYeTBwcUM0bmlua1h1RFlFOHFpRUVEVzlUYS1ERThvUA?oc=5",
+       "source": "KBC광주방송"
+      },
+      {
+       "title": "美 래퍼 공연 중 의문의 물질 확산‥관객 1만 2천 명 대피",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aakZIS1c3LXRDMnhGVFlLcGFPeWdzcW42a1RLdm8tVkVGTVVFeWY0Tlo0VjhJektJWWF4cDZRTVZUUjkzSHRhSU12OHpmUDhLdU5nY0duUjJGWGoyazdwUWFMak9FRUVHYi1NRDd3WVYtX1Zp0gF0QVVfeXFMT3VudjhtQkk4dkQtXy1jaWtwSllPeWpiMURQQ1ZCb2ZvZUFRSGRMUkI4aHRFci1iVlMweUxTYnpKZFREajcwems3UDBoRFZRUzFSMTBjcjVHRENsM0pYVjVlMjFieTczQXpnYzE3bzhINkZsUkY?oc=5",
+       "source": "MBC 뉴스"
+      },
+      {
+       "title": "영국서 미 래퍼 공연 도중 정체불명 물질 확산…1만 2천명 대피",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDZzhUcktaTHBmbTJRcTdDTzMyZmYwSUo1dURHSmZyS0NFblNDcDZ0eURiMDJIZ05EOHM4RnNDV2d3WFpvNVowR0p4TTJMeHM4V3ZQR194dUJsSGFvUDNZUU1jajRxWUE?oc=5",
+       "source": "연합뉴스TV"
+      },
+      {
+       "title": "미 래퍼 영국 공연장에 정체불명 물질 퍼져…1만 2천 명 대피",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOTVXWnIwTHd0QW1GemM1SlhFcWR5T3dBRmFuS3E2NkVlUU0wclp1YkF6N3BwVTYtWEJCRDVaemRXSGlkSWlvUGp0a3RQaHZlVVo3ZDBKQTl6S2JaQ2F4VFN4M3BQNTBiWVNtOWsxX0Q2UTlyQjM3ZmZGZ2hIQjN0d0lGR0dzMDg?oc=5",
+       "source": "news.sbs.co.kr"
+      }
+     ]
+    },
+    {
+     "title": "신인 버추얼 걸그룹 핑크라이즈, 오늘(23일) 프리 데뷔곡 '작은 우주' 발매…가요계 출사표",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "신인 버추얼 걸그룹 핑크라이즈, 오늘(23일) 프리 데뷔곡 '작은 우주' 발매…가요계 출사표",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTXF5VlV2Y2V2RzA4MWZQVzV0RHpfbmtxV01zdXJlQ1pGMmtNQmgweXUta3RXclRZNmFSVF9GVVZHd2hPWUtSU1p1bmNTbGNWOXVRaA?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "버추얼 걸그룹 핑크라이즈 출격…프리 데뷔곡 ‘작은 우주’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9oTEVVOHpnaWR0M1VyMXg0QkxmVTk1WUF6OTVpbE13ZlJDOHh3VWNpWThEQUE0SWlTdXctSUZweWd0X080eGFWQ0lBTGh5emIyc3h6eVg3Z2pKcmthSFVNX0Nn?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "'핑크라이즈', 프리 데뷔곡 발표…러블리 버추얼 걸그룹 온다",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9KRVhSYl9LczBqR21NZU45SnFGZmluaTRtNnVJVnN0UE1iWmZwQ09FSDdQM1BxNkRGclFmZmo3LUN3NkUzZ3dBaWxn?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "‘버려진 서버에서 깨어났다’…버추얼 걸그룹 핑크라이즈, 오늘 프리 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1WVTNNVVVpZ2dhQzBuU1NxelFaYXFUUzEtSTc1RkRjY0ROTG1ocDBiVHNpSHdyeWtNU3ZZVlRPTVVKSzVQRUFnaGx2UlFHcUh4MHVlc3VvaE8?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "버추얼 걸그룹 핑크라이즈, 23일 프리 데뷔곡 공개",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LYkRfbXF0cUg1c2JQVEtPWkJheHZ0QWw1M2RUamFkdERsMHZicWZ5azNubENwQXR0RC1qSWZHdHY5VG5lVk8yWmhjZ29XSWk3YS1sblFmS3ZITko5TkhhdTBkOEtWNi1HN293?oc=5",
+       "source": "한국사회복지저널"
+      }
+     ]
+    },
+    {
+     "title": "지드래곤, 2년만 '굿데이2' 컴백⋯'지팍' 박명수 합류",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "지드래곤, 2년만 '굿데이2' 컴백⋯'지팍' 박명수 합류",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Sd0dYc195VjNWVEV2a0ZUUU9zRDNHWWxJMUczdFBGMFltb3c2UWZabnZfcDQxOGxFNTlkNEw5Mkd0c1VGNElpblRDSHZzcGs?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "지드래곤, 박명수 재회→역대급 음악 프로젝트 예고…‘굿데이2’ 제작 확정",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15QUNOVW5QaDhDWkZhdlExOVJCSC1TNUtWUUxUd1ZBRGJKYzFydjQ2YU5MWUxQV0lPVlFmQ01mOVBic0pQMERsQ1hOY1F4SzhyaXVxUmhfZlBhSkNHZjVabDV4a2F3Qk0tR3N3S1l3?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "지드래곤 ‘굿데이2’ 총괄 프로듀서 확정",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80YU9JQWdmQVZodG9UNUFkQ2MwT2R4VXlMNXZLWkNFZWlTLThfUFRyS1lxemhsRGs1RjdiYzYwTDVwa0NtX2E1cEZTb19pZlZ2RkdvLVdOUEFZeGNjMUxYeXRnMW43MGV0elRkck1PQWViUQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "김태호 PD・지드래곤 ‘굿데이’ 시즌2 컴백…잔나비→박명수・한로로 합류 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yRjk4MVdNWW05Y25YWlFQNk4yRUZqU3lZYWM3RTF5X05oOVJtakd0a3JzaHhJMllpcW5GTUlpNzJ2SW1vQVV2SE10VW1nZTZkWUVZNVZMR1M?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "지드래곤X김태호 PD '굿데이2' 온다...초호화 프로듀서+아티스트 '드림팀'",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYblllT2JMVjZkSjVMT1Y5OE1HRU12ZDdHSEY1cVJkQmtab21sWDgweEhPMy1hUm05SVBJRjdFbENQdEo1dTB4bkVEcDFiaFZmNUFjMU5EOWMtUEo5MEw5c2dhMWJvQQ?oc=5",
+       "source": "뉴스컬처"
+      }
+     ]
+    },
+    {
+     "title": "한해·문세윤, 리센느 제나와 신곡 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "한해·문세윤, 리센느 제나와 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oUWVVaEJ6TU1qRkFWcXYzdFdKRGhDTi1XdEZjSnQwRUpveVprZXdqT0tjdEw5cnFmTFJRTGZBTVN1TEdZcWgxSjd2WG1TT0VuZjF4WGhjdGM0clk0eTA0V28zY0U?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "한해·문세윤, 리센느 제나와 함께한 신곡 ‘Love Again’(러브어게인) 발매",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE03R2Qxa2JIY2ZwZVE2VFJ6Y19QUElzZFNIZUdka1c5bmo5NEptZzRGd1ItOV85anQ3dG1ndmJ2SF85THJpNkwweHAwNnF0RUw3UVM4SllqbHpLZ2lHQ0HSAWNBVV95cUxQZzlnLVd1Y2JjUTB0a3I1RFduX0lNWGNySkx3ck9paExfOEI0ODhrdUJWSUo1U0dVRnZFUl94cUJ0cm9sVkhYdlI2d0paRGtWTjI3YXlGM2tDa2JQNE1nRS10eXM?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "한해·문세윤, 오늘(23일) 신곡 ‘Love Again’ 발매…리센느 제나 피처링",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84TjJMUHNReXh1TGJRbm9wVnFialNvbk44RnVlSkxDNUFUZ1BQNEFBaEktU2hkd3h2T2l2QWg1dkxTLXZVNFBnTkxxT2p3UFNCUkJseHItYnRwdw?oc=5",
+       "source": "브릿지경제"
+      },
+      {
+       "title": "한해-문세윤, '대세' 리센느 제나와 함께한 신곡 '러브 어게인' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wZlZ3clVtbW4xOUtGUHFpSEhueE8xOFU3elU0NUlNaXFVTkRwX25xckVpXy1USmlHVHlYV296MF9INFJ5R042cjIxRWJqZjdwTGc?oc=5",
+       "source": "노컷뉴스"
+      },
+      {
+       "title": "[가요소식] 한해·문세윤, 리센느 제나와 신곡 '러브 어게인'",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QeTQtWE5OUGVoeXZHb3VMRGhhVWdGMVdsVDlSUElBWFo1UzBWbUc4bk5jTzN1ZUlmRWUxMEZJUE1xRld6Yjk2LUc1RVVlZGtON2hoemc2NllmbGtHWjRSMdIBYEFVX3lxTE5QeTQtWE5OUGVoeXZHb3VMRGhhVWdGMVdsVDlSUElBWFo1UzBWbUc4bk5jTzN1ZUlmRWUxMEZJUE1xRld6Yjk2LUc1RVVlZGtON2hoemc2NllmbGtHWjRSMQ?oc=5",
+       "source": "연합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "日 4인조 보이그룹 2xFE(투 에프 이), 오늘(23일) 새 싱글 '2시 7분' 발매…본격 한국 진출",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "日 4인조 보이그룹 2xFE(투 에프 이), 오늘(23일) 새 싱글 '2시 7분' 발매…본격 한국 진출",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MTWlneXBHN0JfZkpDVzNqQzFjTE03OGptRXB4cXI3TEtDYTlULU5uV0JoSkFxa0J6X3lSWnNYNXhrR2xOdG5aeWtXOEc0ZmR6Q2czMHZzWmppUXh2bjkxbmVhZWswZDQ?oc=5",
+       "source": "CBC뉴스"
+      },
+      {
+       "title": "日 4인조 2xFE, 오늘(23일) 한국 활동 본격화…신곡 ‘2시 7분’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE50X1BXVFhmSEw3QTNGd0Z3cndDTGVPMHhGLXZZM0pJRWg4eUdVSUV0VXlOMHhERjhIRUJKNTJ6djE2VGNxOGMwbHhhcm5nZllldlFPRHZwMA?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "[포토] 2xFE 4인조 일본 보이그룹 한국 활동 시작",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CNFJUaGhKaW16Q0hBYzhPbGx5SGJmWWhKUnljTlNHSWRCZEpfOUFXUlZscmM2OHpieTdqNFp2Q3ZpSzIxaWZnNWZnVkdYZC1GRGxjNkRjMFpjV213RzVMQg?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "일 4인조 보이그룹 2xFE 한국 상륙…\"한국에 대한 동경 있었다\"",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FcEZWdTEyRThnai1uNTI3WVlZcFA4UE5ZS01oVW1DdTZQUW8tYUZ4VXZQaG5JQmtsaHJIaEpFUDMwOWdibWVtYzU4eXptTzVPZGxLakRKenlaVFdWTmVtQm9MRkFMbUJV?oc=5",
+       "source": "https://www.2news.co.kr/"
+      },
+      {
+       "title": "일본 보이그룹 2xFE, 신곡 ‘2시 7분’ 발매…한국 음악시장 본격 진출",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wNzZDakZRWDZ6UkpNbmJTYWtuLUZEeVJlbUwyaFBvdkJrTm1OTllUY1QwbWhSSXE3d1dla0U2b0tiQ2VUR1ZnV291S2hqY3JEUUJ6S3JwYjJSTm01cHRqOTd0YThmNTNxazhfbA?oc=5",
+       "source": "뉴스플릭스"
+      }
+     ]
+    },
+    {
+     "title": "삼성 TV 플러스, 29일 다이나믹 듀오 연말콘서트 무료 생중계",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "삼성 TV 플러스, 29일 다이나믹 듀오 연말콘서트 무료 생중계",
+       "url": "https://www.yna.co.kr/view/AKR20261123022100003",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "“다이나믹 힙합듀오 연말콘서트 쓱” 삼성 TV플러스, 무료 독점생중계",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE00cmNqRWtmLVlabkhPVkdiU2tVTVBZY0JSVl8xSWo3VlNzM21qTmVuNVNQZkx6ZUhtZC1RWjQ2RHhSNEExczhISVlIeEpxbVJ6QlNVcEJmVUZYeWRDVUZTaEFLdF9laTJ6RkRB0gFvQVVfeXFMTjBwNFM4RzlCY1BXdE1ha19taGc2U1p6ajZUT1NXZEwyWXp6bWg0LS1uckNPZnZLbU5jbGl6c0JnWHljc0szd2lZcFRwNkF5bEFjbklIQm1rSUZKLTZQcUV6bVQ3VE4wZWdnUWEzNE9z?oc=5",
+       "source": "CatchNews"
+      },
+      {
+       "title": "안방서 즐기는 힙합 공연…삼성 TV 플러스, 다이나믹 듀오 연말 콘서트 독점 생중계",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84MHhnTHZRV0VSQ3cwbTJSemJ3dU5rZEFoeDRqcFhhME1yTXhyYjhPaHFkd0ZWa0JIQ1dIdDFZYWRQNzdhcDNwV0hIZVB4YVFWaG9udVE0ZEhEVHA1NHJIUkU5eHA?oc=5",
+       "source": "디지털데일리"
+      },
+      {
+       "title": "삼성 TV 플러스, 힙합 아티스트 ‘다이나믹 듀오’ 콘서트 무료 독점 생중계",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12c2Jpc1dPaEhFa05yMWZNVndzSmdkLW42dGlwb09nZ0RPaTVPT0ZoZ25NRU9idUkyZ1lSdlhZLTVFUHpmN0dFeFhmRjZ3TTdLR3F5NERpYVQ2elZiT1pLZXJLbzJzWmRwSWFGVA?oc=5",
+       "source": "ER 이코노믹리뷰"
+      },
+      {
+       "title": "삼성 TV 플러스, 안방 콘서트 넓힌다…이번엔 힙합 생중계",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TMjRCOVZ2cDlOTV80MFdfWnUwMXk3RzlQZy1nUWNsdlFBVG90akRER0U1LXp0YXhaQXFmOTVqOWFsaVUwOWp4aWh4Rkp2cFhxck1xblpTZExKSDVQVjk0TVlsTVc?oc=5",
+       "source": "매일일보"
+      }
+     ]
+    },
+    {
+     "title": "강서구,배우 정보석·가수 나영 홍보대사로 위촉",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "강서구,배우 정보석·가수 나영 홍보대사로 위촉",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CT3lRM0M1amZCalBlaGRkWUhRZ0FsQjNPeUxqcjk4bTBjZDE2WFBCUVBWbUhFNVMyTTNRV3pIT0I1QmtzdC0wcldMYlZvX0VBQzRpbXVB?oc=5",
+       "source": "뉴스21 통신"
+      },
+      {
+       "title": "서울 강서구, 배우 정보석·가수 나영 홍보대사 위촉",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qWTRPLThxLWhoN1Jvd3hCRFJ2eXpaTVYyVUdmQjhVT1NhOGVIaFlxb1VmQ1V0Y0JvaEFHNHJWbDl3V1VldGg1bm1MU1RNa0xSVm14NzBPU0JJcndpY1VkMFZGelpXNTZwY1E?oc=5",
+       "source": "한국시사경제"
+      },
+      {
+       "title": "배우 정보석·트로트 가수 나영 서울 강서구 홍보대사 위촉…2년간 구정 홍보",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OV2t3U0I3QS1zOUtzZVEwMzdjV0tid2RMR0FLdVdZMDg3LXY5ZjhFMzZ6QzBmeGgxa2ZaLUpzeXFteG1WYzNBNjlYMGdZdl9oN25zU2NB?oc=5",
+       "source": "헤럴드경제"
+      },
+      {
+       "title": "서울 강서구, 배우 정보석ㆍ가수 나영 홍보대사 위촉",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UcFg0VS1lZUJMancwNXB4VEFVR3U3ejNOdlVkYzBoY0E2a3R4TU9IQTRDMTJEaVpLb3VCeHBiaU5hYnFCdXFmSHY5WWNhb0xhVHpiMTFVQWJmWHF3R2NZenFGV3lUV0JFTXFhV1NJWdIBb0FVX3lxTE5UcFg0VS1lZUJMancwNXB4VEFVR3U3ejNOdlVkYzBoY0E2a3R4TU9IQTRDMTJEaVpLb3VCeHBiaU5hYnFCdXFmSHY5WWNhb0xhVHpiMTFVQWJmWHF3R2NZenFGV3lUV0JFTXFhV1NJWQ?oc=5",
+       "source": "서울일보"
+      },
+      {
+       "title": "서울 강서구, 배우 정보석·트로트 가수 나영 홍보대사 위촉…2년간 구정 홍보",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kYjhlYldVcnpxb2NUV08yRXphdUE0ZGh6d0pXeWdIY1R4cmNkSnVzVGEya2RpNDJEMmtjQ0VHbEl1c191Z2lwN052MlgtTkJzUHlTLVhuZk56b3BPM3FNby1HcmtSbHE4ZUNuZWJoSQ?oc=5",
+       "source": "여성종합뉴스"
+      }
+     ]
+    },
+    {
+     "title": "빅뱅, 신곡 '기립 (GiiiRIP)' 개인 비주얼 포토 공개…흑백 콘셉트",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "빅뱅, 신곡 '기립 (GiiiRIP)' 개인 비주얼 포토 공개…흑백 콘셉트",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0c05CazI1MDZEejNVaXFfazF3cFJENlBwRnBteG0yRDM0QnZrZ3NCOEZKVVVjVFF6ZkpBQm1vekc3WEFJV1g0VjhuSGFocTFoYTI0cGdRUDQ5S0tSRVoyTjNZa2Q5dw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "\"지드래곤 파격 장발\" 빅뱅, 신곡 '기립' 압도적 비주얼 포토 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPUm8xSWZIYjg5TXRrREIwZFl5a2x4cnIxaGNvMTRpMnNkdWloV0tjTzhwRWFxRC1yVkhIdWVIVW1yMVBkUGwzMHM1emlwaDlfenBmUA?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "빅뱅, 신곡 '기립' 개인 비주얼 포토 공개",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfVkRCUm92WXQ1SEVzZEdBY09rQU9oN2g3YWpBOUthNVhvY1A3V0pTNWs1dWYzWEhkaWZ4VnAyMmJTMGtHZGl3UTMwOTU4S2FmWHpRMlc0Qjczd3RvLW8ycDBuTXpmQ1FJeHA0RkxwaGsxQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "지드래곤 파격 장발..빅뱅, 신곡 '기립' 개인 비주얼 포토 공개",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxTnFoa3NJZmd4QlV5QTNIdl9pWFowcjBxSVRyNWliT2ptWjZaQl9QdHNWbTBxeDI5R0FuRDNDcDNMcE9CUVFWcFlUbXhmRUN2cmZLNS1iVDFPOXdKTC1VeFpjWjF4SFNwdXRTRDdmcHY2MUNC?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "빅뱅, 신곡 ‘기립’ 비주얼 포토 첫 공개…3인 3색 카리스마",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBrWGExQzRLUjZYdGZiM0pGalJCeFhZZ0h1UlotSGtZNFJZOXRtbk8wSW5NY2VMa3J2M2RGV3FBMEs1WURiQ1ptSUFCbEJKcVBFYUpGLTJLbzJUV09vcFp0bVh3?oc=5",
+       "source": "스포츠월드"
+      }
+     ]
+    },
+    {
+     "title": "SM, 청소년 음악축제 ‘스마일 뮤직 페스티벌’ 성료",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "SM, 청소년 음악축제 ‘스마일 뮤직 페스티벌’ 성료",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43WmtwYnJ3cWRsM2U5VEt2SzhGOVliQmVrSjlqS2pJMzl1SFQ1Vy1MZkJsdWs3akE0WTVaaEE0dlpYbF9TcHU1Z2VYWHEzbjZwQ3ZhODNBZ1BEVGJ1Wi1ybHl5cGNGQjRtaVd6VXYxdmpPQQ?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "SM, 청소년 음악 꿈나무 지원…청소년 10팀과 함께한 ‘2026 스마일 뮤직 페스티벌’",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03ZGN3Z1E1cm1zUnVsdU9IQzZGLTA5Tzc5Q01aVkNqY2ZXbHkwUl8yY1JOLVRFZVJSckdmVzJnMmlkazQtS3k2bW9EYlh5NjdpYnFnMzhWdDB5cDNpd05maEFR?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "SM, '2026 스마일 뮤직 페스티벌' 성료…청소년 10팀 꿈의 무대",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81TG9MckdmSG9EYkM2T0tLRjJPaDc1TVZYN0l4ejhIRDRlWlM5S1F1bWJDTW9CWjhPTVNmcWlxaVNzQmVTLXJxcFkxa0Y2bGNEeEpkc3FEWllxNktPQ2RDODFaTzROdw?oc=5",
+       "source": "뉴스컬처"
+      },
+      {
+       "title": "[스톡 브리핑] SM엔터, 청소년 예술 인재 지원…'스마일 뮤직 페스티벌' 성료",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBYmtiQ2VnYm5sVlBybG5kTHAyWndpS2Q1dVFzZnlZTDJCeHdYeUExQlhMT1NOZFJ4OF9MNHJQcUt3dF8yWHRrTV83bF8wV1ctUHdjVTh3?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "SM엔터, 청소년 음악지원 성료…'2026 스마일 뮤직 페스티벌'",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14dEdqY0hKTW9XcHd3TjVQM1diSnhwQU41UnVTRkZwXzZsSHdQWU5GN25ONTAxMXN5NUdZQzF4aTBHU1Fpcm9WakVEdVJKMjhZdUM1d19Rb0NlOUZyZVduWdIBeEFVX3lxTE1XRHVGSjNPeTA3SmZpQUEyeUx1TE82OE1DMHpmWDN5T2k3NXpLNkNuUXVvU1MxZGU3U0dEdVNWQkRGalhmei1yUTlzcmZ5SWVmemY0S2FQODAzTzBtak1meVJvM3lVcjhRbmpFVmttbGVhWXRQOElDUw?oc=5",
+       "source": "뉴시스"
+      }
+     ]
+    },
+    {
+     "title": "ATEEZ Make Billboard History as “GOLDEN HOUR : Part.6” Opens at No. 1",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "ATEEZ Make Billboard History as “GOLDEN HOUR : Part.6” Opens at No. 1",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaHRPWVZsT2pxRndUaFZIclBrdEtoeEJIcFJhZ2xZa3pPalA2Qk5UcmdUQjNNazFDd2JZUG04VUpNOXFsb3RLZjBZZ0tGeFZFMzY0OENFRnUtN3pTNmp3UFVfRFdMdEJ5SjFibzdTdExVVnh1Y2wyc0oxVTU1Q0t5V1Zyem1Cdw?oc=5",
+       "source": "InMusic Blog"
+      },
+      {
+       "title": "Ateez scores 4th No. 1 on Billboard 200 with 'Golden Hour: Part. 6'",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1dTFvTmZUcEE5NkFsYXNIanAwejVuUXV5NUFSWmhuOVJpck1zNVV1OHdFS19CYmhNR2MwQkhPa0NEQTROLUgwdzJmODNxcEpWdlBqamU5N0xLdw?oc=5",
+       "source": "Yonhap News Agency"
+      },
+      {
+       "title": "ATEEZ Billboard 200 — K-Pop Boy Group Lands 4th No.1 Album",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4OHdGc3U3T2N3akVPb2ctRm9pbHgxU1NleXItbkY0NTRzTEtCa0dyYUM0Q2toajYyeDlIeVJQVWQwQ2VOb1VHSkhFcWlNdC1JRjdBdUc5bWhVb1Y1X2lzZExfZ3N0QQ?oc=5",
+       "source": "The Korea Daily"
+      },
+      {
+       "title": "ATEEZ top Billboard 200 for fourth time with 'GOLDEN HOUR : Part.6'",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2h0b1d3STIzNVR0WnVCMnk4Q0d2VG1qY2JxYUxXNjVlRkVVclUzbEJJNW1fUF9UVnp5NHdPcDBpMlhCZTBqLUhnN0NCQTA3X2EzclR1MG1hRFZ6Z1FFQlJUZkd4bmxZNW5oQUFVTk9vX3VkRUpQQ3lBemhvdlllSTN2YWg2dGZJWUxiNkdLakd1R1FNM0RxOEk3UkM2TmhEZG5ZQQ?oc=5",
+       "source": "allkpop"
+      },
+      {
+       "title": "Ateez scores 4th No. 1 on Billboard 200 with 'Golden Hour: Part. 6'",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVml1bEJuSDVkaVRLRURubnBOUWJHZHlFbTFkTGk4R05BenVZeDVPd1N0cTVXbjYtSDRZSWdSN0dTaWE3RlFPOUtGMTUxYTRla2RDTTlyWXJHS25YQ2Y5ajNqTmFJdmg4NHVka0p2cXhDMUFIVER2VGFWSjlWck95N2VZd28xMll6c2RJSDlxUjZlcGRzVG5HSEkybDl1NWlUV1ZLWWNoTHBqMS05d2Q0M1FfQzXSAboBQVVfeXFMUHgyOXBuSFJRcGVwb2FBMEVPVlA5c2hidTBYbzRpU1Rfbzd2WUsxSy1ucGpsSVZIczlfVlgxQ1BzcEw5NVFUQXRvNG94QjMzbTdZcGlvZUNJQ25mSUswU2tFdHRrR01VbGd6ZVZ5OEF1b0xia2xDaEhvS0U1dEVfYmJkcUk3b3lpdjJid2RlNDFTcW9ibHQxWHBDbmNwcTNmcnVNSG9OQ2s1QlZZMXFseWc5dkc1T3BueVJ3?oc=5",
+       "source": "The Korea Times"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
