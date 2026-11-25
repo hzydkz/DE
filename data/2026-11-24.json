@@ -1,0 +1,547 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "2026-11-25T03:38:34.785596+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 9,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-hiphopheads",
+   "name": "Reddit r/hiphopheads",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/hiphopheads/top/.rss?t=day"
+  },
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 887,
+   "issues": [
+    {
+     "title": "이란서 히잡 안 쓰고 공연한 가수 태형 74대",
+     "summary": null,
+     "ai": false,
+     "article_count": 19,
+     "source_count": 19,
+     "links": [
+      {
+       "title": "이란서 히잡 안 쓰고 공연한 가수 태형 74대",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vVEJyOWltWUVGaXNwYjFhLTFRTG9OTWVzTkFwbTNfVUowNDlSdG5DaXg0MzM5NDdaMF9fc3BPVG1jaG1qRnRUbGdPQkdwbnVTZXA2aDY0WGFSd3ZaYmtwU3NRMTRBNW14MHdLQkkzVdIBc0FVX3lxTE10dGt1ZFItRnNUYU15c3RNQkdHVE9qaXZDRDBteWVvMUxrUkRISmRTWVBYRFA1NWF1QzR4N3l1LXVPWVJic0lqNU9ta1hrQU1aanZaX0dmNzU5aW11NmFnUHkwZndGUVlhMkNiU2xzTEoxME0?oc=5",
+       "source": "뉴스웍스"
+      },
+      {
+       "title": "'태형 74대' 결국 집행…히잡 벗고 노래 부른 이란 女가수[이런일이]",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EMENidXhIQURXRThXeG9vRS1MN3NvS0VHbWU4bVA4dzVWS1hiYzVKcWVJMW03Mm5aZnBGN3ZRZnBJYTZXZkdSdWFXeXgtVHBJWkE?oc=5",
+       "source": "노컷뉴스"
+      },
+      {
+       "title": "女가수 히잡 없이 노래했다고... 이란, 태형 74대 집행",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcGFFX3ZuVWVULXJ5bTRXS0FvMXNQZ2JZQnMxNmo1WmJfeHloY3lfUnl2Vk53VU5qalpIRTVoNFRNQ2lFRnE5dEZCVlRBbEU5WkU4TjVIZ2Z3M05wRmVwZDN3Z19PdmlwTVBUY25PNmppX29yak9BbEMyWUdKSGRGdTZxenlIXzdvOWtUMFJOSXhFbjYtV2tpQlVvRHgtZw?oc=5",
+       "source": "조선일보"
+      },
+      {
+       "title": "이란, 히잡 없이 공연한 여성 가수에 태형 74대",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QbEdTWWRUbjBGQk05eER4SG5ZMFY4ZVV6Z2pvTmhMUDdzSDJza19ua2hfUEFIX2E2UGtsZUdBUE9ZR1NEb3RqVHRlYTFNbkdfRXlKQjJEVmxXNmPSAWBBVV95cUxPVUYzeUp4RWFkbXhlejlPd3JoWGQ0UWNLU3JXbUc0WkZ1Y0l5WmpaVXNSbjdrTDNUSVp4RHN2Z1FwSHg4bG9vdFVYR0lWaFd3UlhqaGY0RFhvdmNndEdPZHU?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "영상 퍼지자 \"히잡을 안 썼어?\"…여성 가수 '태형 74대'",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CUENkcjU5amVuQVRzOUxRZkxPUmVfMlU1NWRlbDNUSDVLWmhpM0paY0MwaUJzeWx6OXVzR2lCVENQcW9WLWNZTzhsVXJ5MmFQeS11SEhmNjVUNUZEb3VXNWY3ZWlWeFF3Rmc?oc=5",
+       "source": "SBS 뉴스"
+      }
+     ]
+    },
+    {
+     "title": "Watch: K-Pop: The Debut official trailer",
+     "summary": null,
+     "ai": false,
+     "article_count": 20,
+     "source_count": 15,
+     "links": [
+      {
+       "title": "Watch: K-Pop: The Debut official trailer",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaWkhIOEoyRXpkd2U3TjJycEI2ZENRblFVLVNOU3piNHE3UW5HUXVtZm9takFRem4za1RQanpIelRoUG9IbTQ4T3ZHMmQwUGZfS3o4aHFFSmtlV09rMzBRaGNtWDlUaW5yXzd0eTFNMEY?oc=5",
+       "source": "Metro.co.uk"
+      },
+      {
+       "title": "K-Pop: The Debut: Trailer",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcUxDUVUzc3FNNW9oUk5yMjloM1Y0RmViZnVTamZKNFhTYzBVRUpGelUybGFYOFJiN2JkUzQ0UXdYVFM0eVJkQ0taV0ZUMkJYTDBvVDVKODBSRXpDVWdPanMtNDMwUlJ1cFBZdHRpeUM4NndDOERHNEFqOWhmc2FzdzZiTQ?oc=5",
+       "source": "Yahoo"
+      },
+      {
+       "title": "K-Pop: The Debut (2027)",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWVEtckFsM1ljenFoYnJPYVI0LUhWVEI4SWdHTmktYXZSUjlDdlZCQlY4Rnc5WjRWbGYzcVJXSU9iVlJlT1FYcHZxNlhyTHQ4N2ZKWS1PTDdlVlFtWUJsN3FOdXF3aWtoNlZtQXFVRWJfcHNnd1lGQ0RCZTYtWnIyWg?oc=5",
+       "source": "IMDb"
+      },
+      {
+       "title": "K-POP: THE DEBUT - Official Trailer",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HT0o2MFhVc2hsdlhFV0F3LW1iQ1ZQNndYNGVLZVFkZF9BbTYweWZFVm9QakQ2ZHZ3cVFjVTNmN2VPVFhfLVBSR002OUFxa0RTcWMzTWNONzMyaVQxcnBNS1draFRyTWl6T2RMRzlXNjgyQQ?oc=5",
+       "source": "IGN India"
+      },
+      {
+       "title": "K-Pop: The Debut",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UOTNRQmhTcGhIV21CNmJJakNFQVBaTmNJMk5aS3ZJY3FFbTVwSnBnWjRSeUIta3laT1NDWkFXeGl0VVRxaEZONVNJZnFvcm9ieXM5dA?oc=5",
+       "source": "IGN"
+      }
+     ]
+    },
+    {
+     "title": "공항서 아이돌 접근 여성 밀친 '과잉경호 논란' 남성 고발돼",
+     "summary": null,
+     "ai": false,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "공항서 아이돌 접근 여성 밀친 '과잉경호 논란' 남성 고발돼",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QQjYxVUxndXlNQzlIRXlseGppcjBfUXdJNEdOOUZiU3piY2lZaTJ5aHZ2ZW1Hd3kyMG5oN2xFalJhalNrX2JlQ1NuNWVkM3ZYb2x4UXBIVFZPSWfSAWBBVV95cUxOU0xBVXNnZG1LbkRGa3dEbzl2N1oxdFhwbkFFZWh5Zzdqb1JOdWdlSGJIZXFtcC10dmktZDlwWnlCUUFYU1lJMW9lUWh1ZndYVjRQYU1XN2UwSER4UWVuOW8?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "\"이 정도면 폭력\"…'아이돌 과잉경호 논란' 남성 고발",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN2dRWkNjc29Da1ZJQjVGc0l4U2sxM05QaDZSZ3lEMGtfZ1FjaEpkTGw5QTZ1MmRwa0xuZHdURHpCNzRPOTlxc1piU3ROWDlCQ2RocElhTHZmYnMwMkZOZ21aYlptanJQYlliREp5NENHTEJBZHZKZHZlcXZHZjFoV2FPdnM4Vnl6eVZKV3pnNA?oc=5",
+       "source": "news.sbs.co.kr"
+      },
+      {
+       "title": "“나오라고”… 공항서 아이돌 ‘과잉 경호’ 남성, 경찰에 고발돼",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcDktVXFZcmtsbXdIZEhoNmx3YkNZWkJrUWprVGMtTGhoanU0ZlFnSW5uWC1xS3ZMV2JqNjlVeFJMWnFxQloyUFA1UjNBT0JtQi1FVkZiUXFJS3BYdnJGcTBBWkJrQy0xQ0hyaTc0TGJwRUxsMkJPUVpoaTNUSHpzcVc0VjRKWEZ6M0HSAZ4BQVVfeXFMUHM0cWVpdFNtRFNqYTd5MWxpVnladVFlczAycnZncEFJbG81bFZoalZWOW04cW1kdW5nbWtoOGpFemU0NGVJRmVGN0VZOFFqalhNWFhoVmZBNnRnNWpOckMtYnk0Zl9yVTZIWVJNbTZmOVBKWTRERW8yWUlNSmJYTDFDYkNRcVhIRXAtZkstU055N0Nnd3lObUhQYTE1UGc?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "아이돌에 여성 접근하자 '퍽!'...과잉경호 논란 남성 경찰 고발",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2RjhEc25DVnVuXzRsSHY4djZEanVoS1EwRFFzX3NoSVlhUFZ6YUFtSEN6MkQxaUZfcG85aVh2amRQWUZtWnZoZFN6b0IxZ19mZmMzNXhjZWc5bllHcHc?oc=5",
+       "source": "YTN"
+      },
+      {
+       "title": "인천공항서 아이돌 팬 밀친 '과잉 경호 논란' 남성 경찰 고발",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9UdzVLbUJnY2pVTVJvWnBYM2dXY0M1OUR0UUY2TEJqMzRMZUFlUm9iUGZDSE9BU2RuMXQyLUJtVlJnY1V3dzlRelhITUh0bE0zVU1ZblFzOTIxV0xRX2VJRDhGZ1NkU2l1ZUNZQlB1b3daV2NEbFI40gF3QVVfeXFMTzJJQXhOTkQyQ18yemJjclJfekwwZDZwODFtRFY0ZXZDRWl3UDBmblNxY3kxYUZaOEpxQ2wwdXJ2NGp3RWdjT1RDSjV4UFNOVURpaHFmR3htUXdHWjJOUzdZVGdVd2xVX0lheXI1REI2UXNIOUtnQ0k?oc=5",
+       "source": "MBC 뉴스"
+      }
+     ]
+    },
+    {
+     "title": "Pearland High School band to perform in 2026 Macy’s Thanksgiving Day Parade",
+     "summary": null,
+     "ai": false,
+     "article_count": 10,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "Pearland High School band to perform in 2026 Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQT0NLVXNTRTh5REFFSWZ2WVg1RFVjV1BjTUkxMGdjQVpCajA5WXNJSWF3ZHFrVXJodm82LXIwRVlwWkloUWF5ZFNKd0hnc3pHdERGRG1nWEhnQmdnanRLdFYyZ2JIY09qTWhjYlZXX3Q2Z2x6TDRSdnEwU1RQUGM5MTdxeVRLYmVuVkJBSUw3T2IxQkNlLXdGY2F3dElKWG91NDVuY0NVanhIcTBJWlNjdFpkZTNpZ0FQZk9icGZTZ0VuT3hGMTFVbFRpaHNIMDQ1TjNYSDdZQU41dw?oc=5",
+       "source": "Community Impact Newspaper"
+      },
+      {
+       "title": "Pearland High School Band to Perform in 100th Macy’s Thanksgiving Parade",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOODQ4ZVpvVVE5ZDRGcVBsNnlBcXVNMXNjS3RLWXdRVmFLMVVSLURqNTd6MS1wcW1FY3l0VUZCSkZKVkkwRVh6MlZkNklQWGNDYjAyV2djRmZlQ2dJMFNBbEJLaWZ6UzB1bzVnSjNtQi04OXpoQmhDMWRNb0k4U0c4TTI4RzFGd2FkazlNM3VjbHF5VFFWcmNyMUdmTml0QjZnSnphY0VTTQ?oc=5",
+       "source": "CW39 Houston"
+      },
+      {
+       "title": "UConn marching band set to perform in 100th Macy's Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbHlsTjE0UzY4aTd2UGZUMDk4aVB5OHlWbXRVTTdheVVYQ25haHBwX3JNb0dmREdXZE1TZlVQbk5qQVRTMmJpSncwSVluZ1VROXZFQWVEV25zMXlacVhtV1hnVVJaN1hqbG5hUkI0UVRhdWU3dEp0amNYdXl6YWZpd0hmRC13N1p2LUl5ZnZ2b2ppZV9VZWQ4MHI1M0dvVkVFcm15X3JQcWp2Nm14NUNydDc3M0huV3B1UEZpNXZxZ1VYZ9IBygFBVV95cUxOSFluTWF6S0xxZGdteTU0ODZ5RU5aUXN0RkpYM3dKeWt6MWNWVGZtWEExaG1GX2hGRlJXNmJZaGYtS1NQcFMxVHdFTC03dzFpTmV0bHJnTmhDYVlVZW1CdDRvWjFJYWphZnFLVy1yRkw0R09jQ01TVWtNbzRVWE9FZFhSYVB5RTRYek1iOWNGU0lyVW9YMG4wZjZXcEN4a3FJbzAzX204cWpUMjZDUFIyd3pORkl6Q1IzUnlfQnBIZkdGSkhQc3NiYXZn?oc=5",
+       "source": "NBC Connecticut"
+      },
+      {
+       "title": "Marching Illini headed to New York for 100th Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNWxnekNaNE5BeDdQY2xzWTVYVU9OeExqdGQ5SHdjXzl3NHFfZHlFellobG0zNFgteUVNTGczaV9tWkw1MmJqNHYtVTdCNzQ5dGgwQXdKMDZ0N3VtSTZhWWFBT3pJZHpuNFJvM0taVnF1MGpzdlZPdXd0Rm1Ba0M4UUV1OURVdS1Qdy1mdEpGdHdoaWdVcEloTG0wTVR5SF9jckhKQ9IBuAFBVV95cUxPUHloNkl3bGRwLXZJa0xBeXNmTHM4cDBYY1kwMGpzNGNNT2VLNTZuWGNveWZ1QXd6emtfQ0RCWGxmSWE1dUQ1NTZHX1Uzc3FMcE5QemJ0U3AyVmlkbEduSE1DRkpfLXFSNFBCbUVnRnZYbk0wS3BGcDhTS195SHNzdm5weWw3aTRGWmozV2hocmY1RHM5dnkyUEprbm9KS2FYaTBJQnhjbUROdjVEcndzRHZlcDhCcHZz?oc=5",
+       "source": "WAND"
+      },
+      {
+       "title": "The Million Dollar Band takes off to New York for the Macy's Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPMW13TlF3U2lUblJqakt0b0pFUnJKLW14YW9OM3ZMQTc5b1oydEFmcG9wcENZdERaRTVKQ01LaDdCellLVV9TUkVobjRMVHVfNHlRN2pRdVNMNjBJd004TGJrWVIyM3NKczhFQng3Z2cwUlo5N3cyX2FEWk5fTUZnMUw1cTZPSmJ1TE5HVHZKTHRpeEt1ZXFwOWk3cWlxV1VqOGlxWWVFWHl1SnN2VTZnQnM0RFNNVXJnMnJraWUtMFBkRG9OVzBKMGQ3ZGktRUZScnJmdms1SVpVVEJxbWo1WTRLS0tQbVhwb281M1hlMXozQmQwbk1WME1EcDI0bXh4YkxOUWVJRmZoM04zM1MyZWxjdw?oc=5",
+       "source": "WVUA 23"
+      }
+     ]
+    },
+    {
+     "title": "파라마운트, 영화 '케이팝: 더 데뷔' 예고편 공개",
+     "summary": "파라마운트 픽처스가 유지영(Ji-Young Yoo)과 에릭남(Eric Nam)이 주연을 맡은 영화 '케이팝: 더 데뷔(K-Pop: The Debut)'의 첫 공식 예고편을 공개했다. 이 뮤지컬 드라마는 글로벌 걸그룹 경쟁에 뛰어든 지망생의 압박감, 혹독한 훈련 과정, 화려함을 다룬다. 작품에는 산다라박(Sandara Park/Dara), 화사(Hwasa), 세븐틴 조슈아(SEVENTEEN Joshua) 등 K팝 스타들이 출연하며 방탄소년단(BTS)과 트와이스(TWICE)의 음악도 등장한다. 파라마운트는 본 작품의 개봉 시기를 2027년 2월로 정했다.",
+     "ai": true,
+     "article_count": 9,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "Ji-Young Yoo and Eric Nam Chase Global Stardom in the First Trailer for K-Pop: The Debut",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tMGdRM1Q0V0pIcFZLRVB3ZVlZb2tJRmdrOVYzN3MzSVRGT2lDOVZ0RnFZYVdva3pacEQwV1VEZ2c1MXg4MmdzZm5RT1JfRGRWLUZfVnN2NXE0eDF4MVIwcWZRWGFNalRQWk9B?oc=5",
+       "source": "Mama's Geeky"
+      },
+      {
+       "title": "K-Pop The Debut trailer out: Ji Young Yoo and Eric Nam explore the pressure, rigorous training and glamour of becoming idols | Hollywood",
+       "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQTWVJUl9iSElwX0hHZFJJVUpDeW1qcGM0SzByYmhaTnhCeVJfTUtGbEhSWG1vbEMwUmY2VnBDZXJOWS1zZElYajJ6V2E0bjVXOG5maE93ekplN0lSUndNMXp5NVNTLVFScnRYN3dCRjNSNEt2UXFCdTZFUExHM2k3LUhaLXJ5bW0xV1FfVnduN1NBT0hfVE9VMS1ZYU9LNnh0eWJzSFhJbHN0S1pQWnFrVXgzV2tCVHMtZHZxVzN2MXBRNjNqS2JIeHlKVjlhNkl4UzBob0dfWnllU18zWGVScnBfTWZhS0p3QkMtbE5UYk4wMXp0eU8xTmJRZTNBU2lLSEw2aDhCVDJFelh6WDVOTTFoRjBNdTdlLXBGV0UwdXpLSnlRZmhNR0poTGhHcGt1WGN3RzhUdzFsN2E5c2fSAcMCQVVfeXFMUHhsVzZyYnRFT2hBdFB5N0J2YmVyZGpsNWo3Z1lQYzhlaWV5ejZaTDBMS3V2ZEpJWXp5ZWJ3S0J2cW5MRnZkSmdjNi1rU2R6eVFxUHAteU5aUkRzYmpObHZXWG5SR2hUd09DYTRDc05TbHNyQ1NHSHZqa1FQWFhyQVpMRlIxbU5adnRwY0hrYlpWRDE4T1BXZ0JfZFVmMC11di1fUjRnd3daTG4xQTdxYm8zSHpIeThaRTZhbTdRRTBHamcta3ZCZldHWXB0MGVRQ3JjY2oxeldKS25rOXh0T2x6QjFNMTFuVnRVRFdxNDR3RERNTlM4SVBZM1NDMWtUNVNYSlRpYmhILXF2VUF4aWVGLW9zeEpGUFZSZk93cTFKbU05clRTUGRPMkdCZEZEbEg1NjhQSVk4MzU0QU5xLU12NGs?oc=5",
+       "source": "Hindustan Times"
+      },
+      {
+       "title": "Paramount Pictures Unveils Trailer for K-Pop: The Debut Starring Ji Young Yoo and Eric Nam",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTRIWXZyVm5wZGNwV215ZS1UaWRZdmlLQ2daZHFWS1dmelpoVkdJRXg0U21yN3VjcWROR0xLMG1VWWFCakZsZjJST253aDFzWnpRZGVVNlZUUzBZRG5oNEJQRC1pLUFKUnN2VzVHMVVnUTlhMERrMUV4UmtvMXVwcXpoOVVxWUgwLVJhcmVmcGZIeTNXYTBRYm50QTBiZDRuYU4zbkNiSl83dXFrQWZhTkp1Vm8?oc=5",
+       "source": "www.zoomtventertainment.com"
+      },
+      {
+       "title": "K-POP: The Debut trailer sends Ji-young Yoo into a global girl-group competition",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWFsU0Z1LXA5ZTF6azUtcHl1d3lIVkxJVGE0anpBX0NHb0lFbV9xOUxsck9uUVNOQjdpRDllMkFMLVVlVkZycjRJcTI2UVh2R19tWktLcmJoN05WdlJCT243VUF3VHZNSnBQQmxwMHZyd0FlejFrOTlGWC1kQ3BlTzZIVUdPM0NFaFpkMVNkaUtYU1R5Ykd4d3MwempHdw?oc=5",
+       "source": "TV Central"
+      },
+      {
+       "title": "READY TO BE A STAR? 🌟 Paramount Pictures releases the official trailer for \"K-Pop: The Debut,\" starring Ji-young Yoo and Eric Nam, with appearances from K-pop stars including Dara, Hwasa, and more. Th",
+       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUGNXaGhCd0FlWmNmbWttbkdodm55Um43ejEtSGVtMElpTWJQeEM0WVp3U3o2YTRqSnFzX3JzcERxQUdfSWk1QkZfckJNcTVLLVpqOWFQNEZIUnRjcnRVTUl0clROajlia195empVeEZhdmV5NVMzcnNXMVd2WnNoVHktcW41REFIWWZzUHhiaTJCUlRiQS14Q0E1VkpOVzJTa3hTc3RGWHBGc09SeFhYMDA5S0tHZ2lfV3FaUGZJekNEb0UyaDI3RXFQbTNCWUdmclFkZG0xTQ?oc=5",
+       "source": "Facebook"
+      }
+     ]
+    },
+    {
+     "title": "이란 여성 가수, 히잡 미착용 온라인 콘서트로 채찍질형 집행",
+     "summary": "이란 여성 가수와 밴드 멤버들이 유튜브 라이브 스트리밍 콘서트에서 히잡을 착용하지 않고 공연한 혐의로 채찍질형을 받았다. 해당 여성 가수는 히잡 미착용 공연으로 '공중도덕 모욕' 유죄 판결을 받았으며, 총 74대의 채찍질형을 처벌받았다. 이란 당국은 히잡 없이 진행된 해당 가수의 바이럴 유튜브 및 온라인 콘서트 공연을 문제 삼아 형을 집행했다. 이번 처벌에는 가수뿐만 아니라 밴드 팀 구성원들도 함께 채찍질형을 받은 것으로 전해졌다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "Iranian singer and band members lashed for YouTube concert",
+       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTlsWjhNcFdidFRiYlR2OXB5ODg5NjdPc1pIbDFuYU82RklfcmdlSWRMcmVLTXIxMHVjVktXcWxoTjl3SnRlUWx6WWRkaUNBSVh1aFZYRE43cms4c09xdlcyTi00cGsxSzhLTTNaUENmRzJ5bjZvbWhoa3dCNHJYc0l4Q1JjWENkSENHSldVVW56WVJPRllsdnB3N29fS19PYUHSAacBQVVfeXFMUFZOanVOMDhGUHl3bHFMdG40SzJsSUxHY08teG9GbFNJaHlCUFQ1dVMwMFRZMmdLWC1TbFotQ2JPdVJvUVFNV1dvc1dQYlcwaGk0WWhLbHdVZV9NY0RSQUliOGhZYjFpR2hyRmJFYmJYdW91LXJ4MkpqLWQ5RDZOVXJNQ3pldmFBZG5EMUk5ajdXZ3BDNV9KVFAwVW9GWUdKSzRXbTRFY1E?oc=5",
+       "source": "A News"
+      },
+      {
+       "title": "Iranian singer lashed 74 times for performing without a hijab",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUmpEOTBlZU9xSFowTkM2cExQSmZCdDE4ZWFYanB2bFVKZHdlOTkwejNDdWZuektleWVzVE9Qa2JDWG0xaVpsa1JLbEZWbFJtczNRazB5VFpMeDNmaURXX2xiLW1nLWZRSUVGdkZwQ21sMFBxRUR4QXJpSndPM3hDVzNTRjVXTHhVQ2huTTF6cTdJNTk1RUw2V3dCYW5OYUoxSVdVZDhpa01oLTBwMEV3?oc=5",
+       "source": "The Telegraph"
+      },
+      {
+       "title": "Iranian singer lashed 74 times over online concert without hijab",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOejlGYXlKX0ZhUTUwbmxuSXVnN0QtbzRZR3A3dWUzNDVhcHpTeEJYYV8xakx0RnZxOENaMFJuVGdFamdPMHc5c19vVk8zOVIwb1lNazVtZFR0Uk90RFBhMVpiUnNsYVBiRHZfNVdDV3ZTMEJad1J4WXBhRUk3WnVDQ0l3S0I5MF9oM1hGaEhBVFlSV3pkMjZOSktMMNIBoAFBVV95cUxQc1ZZVVpKNmtIajdKbzV3ZnB6Vy1OVWppaXlKY281M0xFRzNnMXJyZzFHb0U5WFNhVkpwQm0yZnBuVVZ0WXpzYWFqeGlBdjZoQVhDUGZBZTFYLWw1ek9hbDJxd3BGaVJTWU53QlEzY2duMDlfNjJJQlVHSXJ2Q2pGN1M3R0Nfc0VDZEh6QjNNZzVuYzAtbVV5eWRGNWFyNUtt?oc=5",
+       "source": "The Times of Israel"
+      },
+      {
+       "title": "Iranian singer lashed 74 times for performing without hijab after conviction for ‘outraging public decency’",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUUhyb19UVW1odktwenBoRXN4UzlsSXRuNHJSWXRUbXRaWmF6bkNsR1ZkWGpUaG5WWDBlalhrbDNPejlja3hzd0dGYU1aS3BMMVlXSjV1cTV5eUdFeHZvczVrcF94eTdtTzNmTUJTd1J1WHlxSnI4a0NLNGotZ05pUnBfVWtHQklqV3JITnoydEZfSW1XaVc4SldiME1oM2ltTFU2YXNDUF8xNV9BWkZETTJXZkZKdW5HV0dpV2RPdGRoUHUwaFA0dzhoX3JuX25pNUhtdzFn?oc=5",
+       "source": "New York Post"
+      },
+      {
+       "title": "Iranian Singer Receives 74 Lashes for Performing Without Hijab During Livestreamed Concert",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU3VjQXF2M2dvTTJWVUxOUVk0M2FqbGh2ME1jMlc1U1JWUl9wbDVNS0NEQXVDQlVBdm91b3lYSTNPZGhZUDZpZ0cwajNxbjktdUZxdGJnS1o0U0hyeDM5Z05vcnV2YXdfc3J2bDV6NzVoMFAxREtuMFQ0VTJ4M0ZFaXlOZjVDVnRjMVZOaUdKc3YwV2h1?oc=5",
+       "source": "Yahoo"
+      }
+     ]
+    },
+    {
+     "title": "5인조 AI 보이그룹 히어러스, 데뷔 싱글 'CRUSH' 발매",
+     "summary": "인공지능 기술로 제작된 5인조 보이그룹 히어러스가 가요계에 정식 데뷔했다. 히어러스는 데뷔 싱글 'CRUSH'를 공개하고 K팝 시장에 첫발을 내디뎠다. 이들은 5인조로 구성된 AI 기반 보이그룹이다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "AI 보이그룹 히어러스 데뷔",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwZTlnaklKREpLeldaRnNWa2JWd2hOY3dsRjVDZ2hjSVhRQWRfNno3ZUlhbTZJZmlKOGs0dFEwRTMtRUt5bnZuYUswangyMTdIeEdLcHdOWkN0RGg2VktUY3A1MDM?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "진짜 사람인 줄…5인조 AI 보이그룹 히어러스 '데뷔'",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DSDhWUUV1SVZ5X1cxUUdsMG9qdGJ6WTE3S0xTbG9CODJWa2gtYUhsUS1XLV9lYm5iclE1ODNkUUtLaDRDYUYzUEhyZnFIdE1wdm5aVDIyZ3pTZw?oc=5",
+       "source": "한국경제"
+      },
+      {
+       "title": "인공지능 기술로 탄생한 5인조 보이그룹 히어러스, 데뷔 싱글 공개",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBucGhKWlBGd3N6RllUNjdobW00SFhTbXU1NU9nb0xXTWtRdTlQcS1wZU9vWGFpMUQzTjh4bl92b2lrOGhqTllKZm1KcGprUXVoQmNMV2wycWVGbnlaYTR5UTItSjlYYWZ0UU0w?oc=5",
+       "source": "한국사회복지저널"
+      },
+      {
+       "title": "AI 보이그룹 히어러스, 'CRUSH'로 K팝 시장에 첫발",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oVDcxTEVvSkFIY0NUdnVIY1NYeWtwNmd0YlpwWmlqX1pIdFNUNEdlTF93UnljRmxOdXFQNXJzN2FNTlplTmFTN0ZxNHRvUlF5VVZiLQ?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "'AI 보이그룹' 히어러스, 가요계 데뷔..첫 싱글 'CRUSH' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1oRkxoS0tSU1dyYnlDeFU3SHhWYWhYVTFacjlIWktfWlQ2MGEwVk5xNUtQU3NNY280UzFfTG82cFI3djZPbTNFd3VfejZ1YzloWUsxYQ?oc=5",
+       "source": "OSEN"
+      }
+     ]
+    },
+    {
+     "title": "아이유, 한국 여성 솔로 최초 일본 도쿄돔 입성",
+     "summary": "가수 겸 배우 아이유가 한국 여성 솔로 가수 최초로 일본 도쿄돔에서 단독 콘서트를 개최한다. 도쿄돔 공연은 내년 4월 7일과 8일 이틀 동안 진행된다. 이번 공연에 앞서 아이유는 내년 1월 새로운 월드투어의 포문을 열 예정이다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "[잇슈 컬처] 아이유, 한국 여자 솔로 가수 최초 ‘도쿄돔’ 공연",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RZWx1WmJEaGhNRGNDREtrWDRFSlczc1FmTmNCZnRWckxidWRnZlpzSU9Mc0lKZVJsM2ZjQWFnM3pmU2F6TFZoY0Y1dWlLM3hkSWNGRDdzZmQwc2tZS2VFcTNzbDJlQQ?oc=5",
+       "source": "KBS 뉴스"
+      },
+      {
+       "title": "[문화연예 플러스] 아이유, K팝 여성 솔로 가수 최초 '도쿄돔' 입성",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4ycWxIOVZSTnBHVmozYkU0TTBFUXpfTzBqMURCWDE5bEZEZ0VKbE1IUWQ5bVhmT2F1MzlBTkowcmM0cy1QODd5QklKeWNrZGE4bGhWUm81UVdaMVh6RmFNOEpLdThEMDFMNWplcUlXeEMtZXBmOEdtSktn?oc=5",
+       "source": "MBC 뉴스"
+      },
+      {
+       "title": "아이유, 韓 여성 솔로 최초 도쿄돔 입성…내년 4월 이틀간 단독 공연",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FbERKTnpuX2xLY0xFNDlqUFRvaFVKd3cwVWdVbDhvZlRPWDRTZVBMdTJDckdtdVF0ZEhEMHlycVZOTU1VVjctU2c0d2lMWlBqcVk1YVFJUVR0b2tvczU2ZFFyb1ViWVJ1dkRCQ0QtM1RqTGprNVVPZ9IBeEFVX3lxTE9FbERKTnpuX2xLY0xFNDlqUFRvaFVKd3cwVWdVbDhvZlRPWDRTZVBMdTJDckdtdVF0ZEhEMHlycVZOTU1VVjctU2c0d2lMWlBqcVk1YVFJUVR0b2tvczU2ZFFyb1ViWVJ1dkRCQ0QtM1RqTGprNVVPZw?oc=5",
+       "source": "뉴시스"
+      },
+      {
+       "title": "아이유, 한국 여성 솔로 최초 日 도쿄돔 입성‥내년 1월 새 월드투어 포문",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2UXFFS3BTMlRiMDRMUk1TOHRBMmpuLTQyVTZVR0puQWF1aGdRaGhoQjRvaHJWUmhWR25kSXJqdEM5emFDRUJCVmx3N3dRX016RThuY1YyaTNUOG5ibmFiNzVpdFJOS1VpVE5Jbk1TNV9zWF9qSkwweE1pUQ?oc=5",
+       "source": "뉴스엔"
+      },
+      {
+       "title": "아이유, 케이팝 여성 솔로 가수 최초 도쿄돔 선다…4월7~8일 이틀간",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0yRVBRRlJ5X3V1LWVtdUg1cWdHUUcxUUpyeW92WjdRbUltaThPSWg2MngzMnI4UzF4WVhzY3VJZGdkTi1rTGloRjlnT1BXaVBBUzNFeEkwQXVDbHV3eVJ6SkdoaDE?oc=5",
+       "source": "한겨레"
+      }
+     ]
+    },
+    {
+     "title": "래퍼 양홍원·원현주 결혼 한달만에 파경 \"원만하게 합의 이혼\"",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "래퍼 양홍원·원현주 결혼 한달만에 파경 \"원만하게 합의 이혼\"",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54OFc5SldfU3Q5MVhMbEhIQnFyY3d1YTZ0cC01TXM5alE5MGlhUENFaWMxdjQwdnFHNEVtOExWVFR2N2VPRTR2NVpyYS1FZlA5V3prNWhiLThPRmFYSnJsYXVpa3E?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "‘불륜 의혹’ 래퍼 양홍원, 결혼식 1달 만에 파경…원현주 “이혼 절차 마쳐”",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqM24xZkQ3NW1SMlN6ckZTRDBPR3IwOGVUaG5Sam9Bb2dSbXdLNzg4bC00X1FSa3dROVdkX2ZGRHVvaS1DeUpNVDR6MnpSVnprc1ZDV0NB?oc=5",
+       "source": "헤럴드경제"
+      },
+      {
+       "title": "결혼 닷새 만에 ‘모텔 불륜’ 폭로… 래퍼 양홍원, 끝내 파경",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV2ZYQXUxb0Q3c1ZtVnJKQ29BRDFSMmhsaHhmM09kR1JaM1BZMkFEVUJjQnhibzlOTDdrdVFuRFl6ZFg4SE9HS0pxMGRYcEYyVjlxc1lEaU9jVlBSaXJUTW44YnJ3dDF6NTJ6cFFXNGFlZkIzb2NTWXhFVUREZE9OeHp5NXlqNkZZbnFwNGdZZm43b0nSAacBQVVfeXFMT0M2NEZZV2RLM0FLQzZHZ1ZKRmRPeTJxZ1oybm5FLVZiZDBUbTBYdm93Q05hdGxsNEt5Yk1KcmhvaUFzdmZrWHROVk9mVU82ZWk1OEtaUmhCNHVUMXlDMFp3N08zbElLZXlfVlZ5UkF4ZC1TMW5OX3RfQUxfT18yTnJQdDI1RjdyVDVVMktEWGYtZ2RENUp5dkg3enF6dE1MZS1kTmU4aEE?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "‘불륜 의혹’ 휩싸였던 래퍼 양홍원, 결혼 한 달 만 합의 이혼",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTSTRURy00VHBvTG9QenI0SWNKaklzQmd4V0IwTWRkdi02Y1Y4TllrQWk1a1dWdGhBRWwwZ2lMMm82U2pkVHBsYjBfelRVOHdPeVF3OFFMa1N4YU5HRDMzdkdR?oc=5",
+       "source": "미주중앙일보"
+      },
+      {
+       "title": "‘불륜 의혹’ 래퍼 양홍원 결국 이혼…결혼 한달만에 파경",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56YW0ta2FZMHRFeGMtVndXcVdnWWhTSTdTbFllTk5xYTNNZERYUnVfREZlUGtHajYxeHVxdE1RSk1ZUUUtRW93bnNrdkMxeFZIUUpnZTdn?oc=5",
+       "source": "중앙일보"
+      }
+     ]
+    },
+    {
+     "title": "Silver Bullet Band bassist Chris Campbell dies. What friends are saying",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "Silver Bullet Band bassist Chris Campbell dies. What friends are saying",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPd3UtN184RDhFQXJnR0M3RVF0ZEVaMlktWXFNRTZ5WXk4TGQ0dWkyU3Z3WGk1VFJPM2VVYzYyWVNpNEhmQUNKTF93bFQ1SURrTHdDYnhlRlk4a0dxVm9YT0p2SVpFakY0VjVJaGFRY0ljdG9FNGw4blJqRFFGdzNpUll3NUtveFhRb3pGcG5vMHVJRWFZTUlVQ1RXWlRhNHhveEt3YmlsTloycTJ2V0JfYVRXV3NGMURJM3VZ?oc=5",
+       "source": "Detroit Free Press"
+      },
+      {
+       "title": "Chris Campbell, Bassist for Bob Seger's Silver Bullet Band, Has Died",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOUlPT0JDM0pxQzIyaUNmbmZybzdVYy1NTHgzbmJib25yYm9KM3pkZ3Z0LXFuMVBnOFJqclVzNUtLZU92eE5QaUZCTHZscGNJNFhDbjN1RWlhYU1rOVljY2VCaWNaQjRQalRJRW5hNnBuRzFKa1pzSXhnYXZCT2RrZkRaQ2dKcGhk?oc=5",
+       "source": "Ultimate Classic Rock"
+      },
+      {
+       "title": "Chris Campbell, Longtime Bob Seger Silver Bullet Band Bassist, Has Died",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Lc2tOX0p0cWRTV0dWVUZBbzRZN3pZUnZFcS1XQkdDWGpGYjl4R3IyN1c3eHFTcHBfYTNkdjl2allNWndEN0RBUE9zX0ppQkc4MkJ2ZzlYRUdqRmVHb2hwYlpBN1pwZ1hHdUdudjkyRXE5SEQ0VDZGdXpVTQ?oc=5",
+       "source": "Noise11"
+      },
+      {
+       "title": "Chris Campbell, Silver Bullet Band Bassist, Has Died",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcnlMbTZXMkd3OW01ZHFCUmtjdmdUSWpIVm5adGF4aTVJZk1nU2x5WWQ1MjVSNjQ4MmVGSXRXc2N4b0FDUE9ELWloT0YzS1BpNDRhTzJxdllQV1RXOUZJV1dlRnhCWlhQMm1iWEZQWHVTSE9uS0Y2aEh3U21mczk3MXlOQmJLenF0UGc?oc=5",
+       "source": "DRGNews"
+      },
+      {
+       "title": "Bob Seger and the Silver Bullet Band Bassist Chris Campbell Dead at 78",
+       "url": "https://www.rollingstone.com/music/music-news/bob-seger-silver-bullet-band-bassist-chris-campbell-dead-1235662929/",
+       "source": "Rolling Stone"
+      }
+     ]
+    },
+    {
+     "title": "세븐틴 정한·야마다 료스케 특급 협업… 내달 신곡 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "세븐틴 정한·야마다 료스케 특급 협업… 내달 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CR3JSc1kwZENvNFVqUk1PUTdaSDBJeEJxajBZX0FvblhJeF9nZDBsa2NZV1FFdEtycTZObGJnWjVQcnhyNUctTXExRjRlZloxSjJqMlc5MU4zVU51N2JvWHRES2E?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "세븐틴 정한, 日 톱스타 야마다 료스케와 협업…내달 신곡 발매",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbHJtM2k3SS1zdDNiTzdDZFRKcFdxS2ZnenVmTnB3RC1rcHVMRW9VUzVZMVNBYWNnTGxyQzFGczhzSF9mMlEyWkg3cXYyNWdQTERXZDQ0N3JIZE9nd3ZrR3pRUHl2RGJ4RUtzblRTUDhZYUFHdzRpeUFYZklzX0RBNjBXRHVtajBVQV9Eb3hUaGx3YmtmTWlpUjQ0Y0V4N0xXVEdtSFZORdIBpwFBVV95cUxPbHJtM2k3SS1zdDNiTzdDZFRKcFdxS2ZnenVmTnB3RC1rcHVMRW9VUzVZMVNBYWNnTGxyQzFGczhzSF9mMlEyWkg3cXYyNWdQTERXZDQ0N3JIZE9nd3ZrR3pRUHl2RGJ4RUtzblRTUDhZYUFHdzRpeUFYZklzX0RBNjBXRHVtajBVQV9Eb3hUaGx3YmtmTWlpUjQ0Y0V4N0xXVEdtSFZORQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "세븐틴 정한, 日 톱스타 야마다 료스케와 듀엣…내달 신곡 ‘애프터글로우’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UVHJBLS03LXYxZGRFbExqLTlrXzMzaDZTSHVIWUdpcHJzQzBaeUFVYXBRX083dkU1cEpkeHg1S3A1QnN0UXhxTVFNWkdVeGxoQmRoR0w4a18xQ01UZUtVQWx5MEFPakRncFlF0gFrQVVfeXFMTlRUckEtLTctdjFkZEVsTGotOWtfMzNoNlNIdUhZR2lwcnNDMFp5QVVhcFFfTzd2RTVwSmR4eDVLcDVCc3RReHFNUU1aR1V4bGhCZGhHTDhrXzFDTVRlS1VBbHkwQU9qRGdwWUU?oc=5",
+       "source": "SWTV"
+      },
+      {
+       "title": "[가요소식] 세븐틴 정한, 日 야마다 료스케와 듀엣…내달 14일 '애프터글로'",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MbjBqNWZNekl5UmhqcUVYYmRnTTV2MlBuQWZsdXJvaXY5cV9KcjNON1hnR0k3cERGa3FHOTFQZl9TZWFGQ0JUUUNxVWJ4QWg0NExJUG1kSXRLRWpLaW1mdtIBYEFVX3lxTE5MbjBqNWZNekl5UmhqcUVYYmRnTTV2MlBuQWZsdXJvaXY5cV9KcjNON1hnR0k3cERGa3FHOTFQZl9TZWFGQ0JUUUNxVWJ4QWg0NExJUG1kSXRLRWpLaW1mdg?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "[가요소식] 세븐틴 정한, 日 야마다 료스케와 듀엣…내달 14일 '애프터글로'",
+       "url": "https://www.yna.co.kr/view/AKR20261124075600005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "브로디, 신곡 'Faded Love' 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "브로디, 신곡 'Faded Love' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mR0Q0NGVGOHM0RTRRNzlBbGRHc3JOQWNMM3FJNlZKZEFlZ2FhTzViRjExMXprY1VUTHRmWFVNLVEtdWM1eTQ4S0pQUVdIMHozQjNvU2hyakNBemliUkdwWXVhTUM?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "브로디, 신곡 ‘Faded Love’ 발매… “질투는 꽉 묶어”",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5OFJTa3VGdTNXanQ4dUIxX29kVDQ1b3Q5X3YzVmk3STdpMzRhRDZxS0xPeTVsUUE5OWZ0YjJrOWVrUXB4NVo5THNEMzFnRTFiUjJFM1VKNXMxTm5IdF9hZ1NHRQ?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "브로디, 칠룹 피처링 신곡 ‘Faded Love’ 발매",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52UzVFcG5IMHdhTUpMcGdvS1ZKRGl4ZjZWMW56bHc2V0l1TXh1RHFTMnF4clROOEswdkc3cVBNLURvTjZFQmh4d1JxajNYeG1JaUpMSWFubEJObnRTNnfSAWNBVV95cUxPN19Va2Vuc0E0TkVxQkw4T19pLWR3NHp5MllDbHVRaFRzaWV1WmtrakJQbWEwWXExN0lrTHZBQXdiaDB5MlNhZThQVWQzUThwQml6QXpPT2hVelNtTFlZei05cTQ?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "[가요소식] 브로디, 신곡 '페이디드 러브' 발매…칠룹 피처링",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93aUJ1aVpBSGEyOXYyOFBlM3Z1WE9SaWFUT0xRMHpGSG1hY2VwdjBXTG1NZ3pFbXo0c3dvbXlscDJrNkV2ZFB4NS1GY25nM2NFRk5XYVdWeTY2YmczZTM5WtIBYEFVX3lxTE93aUJ1aVpBSGEyOXYyOFBlM3Z1WE9SaWFUT0xRMHpGSG1hY2VwdjBXTG1NZ3pFbXo0c3dvbXlscDJrNkV2ZFB4NS1GY25nM2NFRk5XYVdWeTY2YmczZTM5Wg?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "[가요소식] 브로디, 신곡 ′페이디드 러브′ 발매…칠룹 피처링",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hX2l3Mk1Cc09tVUM4bThhZW1UM3FPWnVhOFlKTkdnZ0ZZM2lXazdtZGhNcW0tRGhRV2lxeGZWdU9vaDhxWGJQZ0ZsQnc4U2lNNFBjbWtB0gFWQVVfeXFMT2FfaXcyTUJzT21VQzhtOGFlbVQzcU9adWE4WUpOR2dnRlkzaVdrN21kaE1xbS1EaFFXaXF4ZlZ1T29oOHFYYlBnRmxCdzhTaU00UGNta0E?oc=5",
+       "source": "K-VIBE"
+      }
+     ]
+    },
+    {
+     "title": "유스피어, '서울석세스대상' 신인가수대상 수상",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "유스피어, '서울석세스대상' 신인가수대상 수상",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tZlZmcWVSS3c2bEF3bDRpUFk3a2h1UDJTRndpbmpvSWFPWjA0UHBxMUM0Tlg0WDBkRDB4dWQtRm85UFJjeXNrYW0tdnpfVjNzZnVsbw?oc=5",
+       "source": "iMBC 연예"
+      },
+      {
+       "title": "유스피어, ‘제18회 2026 서울석세스대상’ 신인가수대상 수상…올해 2관왕",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10bTFkenRJeHVCcVAta3VSUEFZLU5kUTlLMzlWUU5pb1ZPVngwM1cxaDZYckd1MVZ1N3BtSndOSWVsdWU5d2dhQ0MzbVE3bURrS1MzOENhX2U?oc=5",
+       "source": "스포츠서울"
+      },
+      {
+       "title": "유스피어, '서울석세스대상' 신인가수대상 수상…올해 2관왕 영예",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xemE3RGpSSUt4NTZVbGxtOWVPREZQT1dqZXFBZ3lQcVlJV0hoRXhkR3hqRkJBU2xWUUZoZjJTZEphTGd0TG1QRWROT0NrNzduWXdaX0d6Zw?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "걸그룹 유스피어, '서울석세스대상' 신인가수대상 수상…올해 2관왕",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwRHRlX05vQzMzTmxiUWdXcHpKZTJtM0xXa2dRaUVXOV9NVG5WeE5na0FlTW8tNG43TkQtWUY0MTcxY1c2RFJJdVZJeXZ1Vk5DazczekNORGpSZkZQSldyZjFZVF9ZOXJvU2hWSFFEcUdXczA?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "유스피어, 서울석세스대상 신인가수대상⋯꾸준한 우상향",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDWndOQm1EMzNKNkdPTmlmR3BXcWxyRnA0anZHMUpYVHRvTURCTTFPQ1NwOXhsWmNHdzlfN25kTEdTempuM0l2NmtiQkEzYk0?oc=5",
+       "source": "조이뉴스24"
+      }
+     ]
+    },
+    {
+     "title": "앰퍼샌드원, 첫 정규 앨범 ‘PATHFINDER’로 초동 18만장 돌파",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범 ‘PATHFINDER’로 초동 18만장 돌파",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1XSzBzY3NxSjkycWh3NkJtSXJyeFFTZGJpYTluLTdfT0JXVGZaeG1QeU01bkxSRWtIeFlnVU5mTk1YdHJyeGlEclJvbEJDQWcxTXk5STdkR0FuT0drSU9Tc2lIWWx2OGZwYmtvV0pzVQ?oc=5",
+       "source": "서프라이즈뉴스"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범 ‘PATHFINDER’로 초동 18만장 돌파",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PNzBoV2lPRHJOOWd1R1gycHFrU0h1NWE4Y3ZGWHJ6S19GeUsyTVZ2ZHBYbVFOaFJlTGVya0J1bUVEZXBhUEhlVGdmM1BSTW40VVpuRXBFRmJBWmpZTTBkaXdNTW9vTjY1NEE?oc=5",
+       "source": "도민연합뉴스"
+      },
+      {
+       "title": "앰퍼샌드원 첫 정규앨범, 초동 판매량 18만장 돌파 ′자체 최고 기록′",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40QkRrVmJacVp0azJEeWlNUW1RSGZVZkZCTHBMc21OSnU2czRPN3Z3WFNvTGRzLVR1aXYyOHpCdGlmazJwdzNVaXRuNGQ2MlB2TTdGYnJMREdsUVRodnR2NDh6RjJ6U3RYRzBR0gFrQVVfeXFMTjRCRGtWYlpxWnRrMkR5aU1RbVFIZlVmRkJMcExzbU5KdTZzNE83dndYU29MZHMtVHVpdjI4ekJ0aWZrMnB3M1VpdG40ZDYyUHZNN0ZickxER2xRVGh2dHY0OHpGMnpTdFhHMFE?oc=5",
+       "source": "SWTV"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범으로 커리어 하이…초동 18만 장 돌파",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLRnJyeE9SWXhGVkg5QTV3b0hvT1hfYzAzeVZDSUtyNTJVX2JfWWp1RThvN1BzUXdDc1N3VGxoVFlvZVZEQV9TdEVLc3RDN1dGbTlQUDZoVXdGRTFO?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "앰퍼샌드원, 첫 정규 앨범으로 커리어 하이",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zYXBrWHZxeTVNcDc2U1hGNE5EOEItT2xqUFRibklwdlVVR1FVT1ZLX0FldlRuSWZzWkhldldaUWpwenVJcUZoWkxRSlpCc0xyN3d2M3FjR0N1d1RkcWNGOER2Y0c?oc=5",
+       "source": "www.bntnews.co.kr"
+      }
+     ]
+    },
+    {
+     "title": "캣츠아이, 아시아·오세아니아 투어 5회 추가…매진 행렬에 16회로 확대",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "캣츠아이, 아시아·오세아니아 투어 5회 추가…매진 행렬에 16회로 확대",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KcnBORTRaeEVVbUJaRHJFa3ZJeThKRlk1QXhCY3lMVkhzRU92OVE4VTlmVXU3NzhhRHBSTnd5NFVvSGY4NkZoWXY4ZnB4TXhOc09tMnhWdjVTcWdsa2VxYlFLQ1k5dw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "캣츠아이, 아시아·오세아니아 투어 11회→16회로 확대",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQTkpINDhrdEp1QlhiOS1CWXNBNDk1VkRSUXh5bU5UUllUc1B2eUtjVUY2WFZaZnN6Mm5XMzhhd0k5a0w0YkpaTHVYWGxhR3Q5UUZwUmlHaFdPc3NvZ1BiMndLTdIBY0FVX3lxTFBQTkpINDhrdEp1QlhiOS1CWXNBNDk1VkRSUXh5bU5UUllUc1B2eUtjVUY2WFZaZnN6Mm5XMzhhd0k5a0w0YkpaTHVYWGxhR3Q5UUZwUmlHaFdPc3NvZ1BiMndLTQ?oc=5",
+       "source": "스포츠경향"
+      },
+      {
+       "title": "캣츠아이, 아시아·오세아니아 투어 16회로 확대",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5DMkstcERkcHI2UWtNSzA2alFRakVCUGFFeWxFZy1KUXdJbzN2OHo4NG85TzdndXdaTnlhVXRucHROSTloRFFoaE50eF9LWlhxMFJiSk9ERVFqZThZcFIyYldsZ0xjcHZCZXNqdlM3YmJYdw?oc=5",
+       "source": "톱스타뉴스"
+      },
+      {
+       "title": "캣츠아이, 투어 티켓 전석 매진에 5회 공연 추가…아시아·오세아니아 16회로 확대",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qX1hDQ1YyY0oxSVlEajBLZzZXRFg2RkgwcUtxb05sd04xaDZzYVl4MncyS0RwVmNxVENpMGhGNHNldXY1a2FZdHlLLWZJYTdVWks5X2FmaFpOUFp4S1dTVUNEZl9qQV9hZUZyUGswQ0NqQkk?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "캣츠아이, 아시아·오세아니아 투어 16회로 확대…글로벌 인기 입증",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sUTBhZUo0enFRM0hrQXNGWUxQMS1nM3Y2bjBMak5wSjVocEF3VEQ4elc5YzByY24tZ2VnX2taWFRrYVdIYmhxeFdQQ1Nya1hzRmdJNmJVUFVkS0c1VGpPQmZJWHhwN29jNmEwX0FjU2pkY3JpT0lxb05xTG8?oc=5",
+       "source": "비욘드포스트"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
