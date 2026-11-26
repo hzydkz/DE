@@ -1,0 +1,453 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-26T02:55:14.879701+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 9,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c4~c7 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c12 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c12 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-hiphopheads",
+   "name": "Reddit r/hiphopheads",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/hiphopheads/top/.rss?t=day"
+  },
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 900,
+   "issues": [
+    {
+     "title": "이란 여성 가수 아흐마디, 히잡 없이 공연해 태형 74대 처벌",
+     "summary": "이란 여성 가수 파라스투 아흐마디(Parastoo Ahmadi)가 히잡 없이 무대에 올랐다는 이유로 태형 74대 처벌을 받았다. 아흐마디는 히잡을 쓰지 않고 유튜브 콘서트 공연을 진행했다가 처벌 대상이 됐다. 현지 당국은 이에 대해 74대의 채찍형을 집행했다.",
+     "ai": true,
+     "article_count": 14,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "“히잡 안쓰고 노래해? 태형 74대” 이란 여성 가수가 받은 처벌",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzYTU1T25feHBXREdoQ3VwSVMwUGFJVDh2MHUzR0EwMG1YQ0RKZEh2YkhzRUVwWXF0X2lYRUp3TlN0al9PeEdNNEV1M2UwRWJo?oc=5",
+       "source": "문화일보"
+      },
+      {
+       "title": "히잡 벗고 노래했다고…이란, 여성 가수에 태형 74대 집행",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QbzlPdUxlU2p5NUh1U3FEYkZjRmJjbS11UXhMYlNXVnFoVmJkdVFsWXR3R1dSMEVoQlgxaU1neXl4OFhDT1oyZlZtSnNiRzItN21hMnFvcVV5VlBDYXVJZzMzSVRiUGlVWlV4VUpMSnFKSVXSAXNBVV95cUxOUG85T3VMZVNqeTVIdVNxRGJGY0ZiY20tdVF4TGJTV1ZxaFZiZHVRbFl0d0dXUjBFaEJYMWlNZ3l5eDhYQ09aMmZWbUpzYkcyLTdtYTJxb3FVeVZQQ2F1SWczM0lUYlBpVVpVeFVKTEpxSklV?oc=5",
+       "source": "한국일보"
+      },
+      {
+       "title": "21세기 맞나…히잡 벗고 노래했다고 '태형 74대'",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52YVdJWGxPMDN0YVZOMWlQdVJaVEFlZklVUl93RDhaR0ZyYThVeVhBR25ha1VMcUFUc2lZWERIYU50WjJyWTJkbUxOWkRTdVRKWFcyM3AtdzN5QQ?oc=5",
+       "source": "한국경제"
+      },
+      {
+       "title": "히잡 없이 공연했다가 '채찍 74대'…끔찍한 처벌 받은 이란 가수 [지금이뉴스]",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BcFc1QXVRb2I3SWlBMFRrek5QazJDZlhpRFlSa2JFZ0RYRUhDWXV5NXVoal9YbTZVaEJ0S2FhUmp0VXhQT3dWd1FreFhHcEpMTlJPeFRyQ3QyMU1tTHlLV3dsTTctenFzMm1Ibkc0NkdYQ2tvS1E?oc=5",
+       "source": "YTN"
+      },
+      {
+       "title": "히잡 없이 무대 오른 女가수...이란, 태형 74대 집행",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuRFJmbmk2eTR4cEcxR3VPTU93c1MyUWxGOWpIMDFoRkRXUUU5UHFQV3FXcnpmYWlKa1M4THhfamFIUG1kN1JrQkc0ZEt3Z0N5a1JWNVFmRHFWTThabGdBRA?oc=5",
+       "source": "KBC광주방송"
+      }
+     ]
+    },
+    {
+     "title": "'대마 소지·흡연' 시나위 출신 김바다, 1심 징역형 집행유예",
+     "summary": "록 밴드 시나위 출신 가수 김바다가 대마 소지 및 흡연 혐의로 1심에서 징역형 집행유예를 선고받았다. 이번 1심 선고는 당일 오후 2시에 진행됐다. 김바다는 앞서 이번 혐의와 관련해 뼈저린 반성을 하고 있다고 밝혔다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "‘대마 혐의’ 가수 김바다 오늘 1심 선고…“뼈저린 반성”",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94TmtWUi1JQjVubENRUk9pbExxLS1lbzZub05pVUlRMGhRLTFsMW9yMktPYkFWYnZmbVdXOW5RakJBaHJYVFpIQ3BMZkNZN0p1UXUwVlpB?oc=5",
+       "source": "헤럴드경제"
+      },
+      {
+       "title": "'대마 소지·흡연 혐의 기소' 시나위 출신 가수 김바다 1심 오늘 오후 2시 선고",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yRFRTQ3BHMFZ3RWI1WWhHR3RvdWFta09veU1ldG1ZXzFrY0V2bGZJSlh5b2FPdzBuZ284TldxbDUtYTQwT0Y2WmNMUW9ybEJzTml0ZVpiQ0p0ak0wSDN4SW1GUEFTejhi?oc=5",
+       "source": "한국NGO신문"
+      },
+      {
+       "title": "‘대마 소지·흡연 혐의’ 가수 김바다 1심서 징역형 집행유예",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tdjU4d2I3RTk4VXhFZjNqb1dhRHlPLWVzVWtfZ1hHYWhkNlJ0N2RRUnNVTHNvcEUzT3hpMjlxZWhYV2sxREFUZFo3OXBuRWZF?oc=5",
+       "source": "문화일보"
+      },
+      {
+       "title": "‘대마 흡연·소지’ 시나위 출신 가수 김바다, 1심서 징역형 집행유예",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kMmphYndYcXViRldEVXNXYlhfSWFUbkZoM1lFaFpQSnR6OGZEcWswYWFQbmZ0am9fS2JxNE8xbU9TdVFDT2FQRHhTZVJiZldUNFFQQ3p3N1c4dkhGRFhYc3Bvb2lCd9IBZkFVX3lxTE9kMmphYndYcXViRldEVXNXYlhfSWFUbkZoM1lFaFpQSnR6OGZEcWswYWFQbmZ0am9fS2JxNE8xbU9TdVFDT2FQRHhTZVJiZldUNFFQQ3p3N1c4dkhGRFhYc3Bvb2lCdw?oc=5",
+       "source": "동아일보"
+      },
+      {
+       "title": "'대마 소지·흡연 혐의' 시나위 출신 가수 김바다, 1심 징역형 집행유예 선고",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkN2xabnNIZlBwUnQ5YlJueUtJQXR2dGFhMS0zY2pjaURHRVExOU45OS1Va01PR0ZnV3hKOFZ5WDNrMzRnVE53U0pDRlpQVEZYRlpxUFI3QnNTUUNDd05oOGxZOEl2QlBl?oc=5",
+       "source": "한국NGO신문"
+      }
+     ]
+    },
+    {
+     "title": "빅뱅 신곡 '기립', 욕설·비속어 가사로 KBS 방송 부적격 판정",
+     "summary": "그룹 빅뱅의 신곡 '기립 (GiiiRIP)'이 KBS 가요 심의에서 방송 부적격 판정을 받았다. KBS 측은 신곡 가사에 욕설과 비속어가 사용되었다는 점을 부적격 사유로 제시했다. 한편 빅뱅은 검은 복면과 철근 구조물이 등장하는 신곡 '기립'의 필름 티저를 최초 공개했다.",
+     "ai": true,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "빅뱅, 신곡 방송 부적격…KBS \"욕설·비속어 가사 포함\"",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9wY1JRaUZMSVIzU2RvVk9LWklMX204SHRCU3hmODYwV0prZzNaU1ZTSVBOaVkySUxhMlczeklaci1ycE42TEpkTVFB?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "빅뱅 신곡 ‘기립’, KBS 가요 심의 부적격...“욕설·비속어 사용”",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZMTZLRWZjSVpEQ1N2aVotd1ROcnJnVUhkcG9meGluajdhSmRRSEFUdE0zaWlxYXdWOWlQc1ZlZXJzV01adUtiU2Njd2hvTkZpeEc2aHNtTF8?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "KBS, 빅뱅 신곡 가요 심의 부적격 판정… 이유는?",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1VzFFdGFBLWJWY3l5QnRmdUdIOWdJUlc1M3dtRHpPRFNqaHNPdHJxTHphWWlRcDdhcFdSQWo2NlpyelJ3Q1NteEdMUlNJNTg4NUlXdmpWd043Q1ktRVNwR3dCMUg0R0lXU0lKNW5n?oc=5",
+       "source": "한국일보"
+      },
+      {
+       "title": "빅뱅 신곡 '기립', 방송 부적격 판정..KBS \"욕설·비속어 사용돼\"",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YTnFMU21WUzVRTzNCRWhCWjktOWVrVHJONmZYMXBlVkE3d3JscGFiTU9iblQzQjRNc2FBY2VOUm1NRHFoS2x5NHdnQ1pmV1p6MWhod1BPZmVWMHNZTkxnV3JHd1Zrd3BnNEZ6RVZNcDJkdzl5?oc=5",
+       "source": "스타뉴스"
+      },
+      {
+       "title": "빅뱅 신곡 '기립', KBS 방송 부적격 판정⋯가사 속 욕설 뭐길래",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nbldLcUZJR3FBME1ja29ob25FRTdpUU0xSUZZbkdXNkxoQklJR2tlZmFPYWIwX0d4UHBXNkNwLU1aeWc0MTVHWFlDOWh3cmZmTTVrdQ?oc=5",
+       "source": "이투데이"
+      }
+     ]
+    },
+    {
+     "title": "밥 시거 밴드 베이시스트 크리스 캠벨, 향년 78세로 별세",
+     "summary": "'밥 시거 & 더 실버 불릿 밴드(Bob Seger & The Silver Bullet Band)'의 베이시스트 크리스 캠벨(Chris Campbell)이 세상을 떠났다. 고인은 향년 78세의 나이로 사망했다. 크리스 캠벨은 밥 시거의 실버 불릿 밴드에서 베이스 연주자로 활동해 왔다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Bob Seger & The Silver Bullet Band bassist Chris Campbell dies at 78",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS0hxVmdTaFcwT1IzYTZzNGM5ZHV4YldUeGtLR1JNY0pTREdyUmRMZ2lNRVdfLS1jaFUtcHdSZUJ1WGduT0p0LUpxWUdzU0pVNDJjZzlkVjZhZHEwcFY5YXRZSFN3eENtYV9OUGRzSmVvUFNnODBTdFBfTFNNdDFzMWxhOTNvd2Z4bXNlMmNhMDBrSVUwbG1falRtLVZ6QlJLbzFja1dRbw?oc=5",
+       "source": "Paste Magazine"
+      },
+      {
+       "title": "Chris Campbell, bass player of Bob Seger’s Silver Bullet Band, dies at 78",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSVNldUF4Um5hZXFVV2NYTklwTFk2cDNEVXlrd0xOWWdLMkJTZFN2NXBHS3M1bjQ5TWRuWkhrcnRiUUxPX1hKTWppNFRDUU1pQ05yblFEVXBQVkp5NmU0VmszUUdodXhTY2gtUDhrU1lJdEwxanJjaUxhbEpaeTRsTWIzVnFFOXVHcTlETjRsN0lVX3d2SHVvRkNNbHFzTl9GSmpVTjIxNFp2NVh4NVllUdIBsAFBVV95cUxPSVNldUF4Um5hZXFVV2NYTklwTFk2cDNEVXlrd0xOWWdLMkJTZFN2NXBHS3M1bjQ5TWRuWkhrcnRiUUxPX1hKTWppNFRDUU1pQ05yblFEVXBQVkp5NmU0VmszUUdodXhTY2gtUDhrU1lJdEwxanJjaUxhbEpaeTRsTWIzVnFFOXVHcTlETjRsN0lVX3d2SHVvRkNNbHFzTl9GSmpVTjIxNFp2NVh4NVllUQ?oc=5",
+       "source": "WRIC ABC 8News"
+      },
+      {
+       "title": "Chris Campbell, bass player in Bob Seger’s Silver Bullet Band, dead at 78",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUTFucDd4U1lQUWhkOW5rcFRadkd1T3NYZ1FIdmF1TmtzTTViN0hQYlR3NkdFUGFCWXp5akdkN2xLaXZBMC0xa1MyVkpLNS1JWFlwQ2hnWFQ3eDRLUklrdVZZZWRPc0NMX0pxdmYzck5Hc3AtYXY0Um5VVWE1NkgwSVFtdGgxRE9KVk9waUJUa0VYV2NRazdZNTNZV21xOEhV0gGgAUFVX3lxTFBRMW5wN3hTWVBRaGQ5bmtwVFp2R3VPc1hnUUh2YXVOa3NNNWI3SFBiVHc2R0VQYUJZenlqR2Q3bEtpdkEwLTFrUzJWSks1LUlYWXBDaGdYVDd4NEtSSWt1VlllZE9zQ0xfSnF2ZjNyTkdzcC1hdjRSblVVYTU2SDBJUW10aDFET0pWT3BpQlRrRVhXY1FrN1k1M1lXbXE4SFU?oc=5",
+       "source": "FOX8 WGHP"
+      }
+     ]
+    },
+    {
+     "title": "미국 래퍼 투체인즈, 애틀랜타서 차량 정면충돌 사고로 부상",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Atlanta rapper 2Chainz hurt in head-on crash",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa2tfWi1aY21JdE5zZ0JremU1MXAwSVpYMHFaamZsMGFnYkU5bkV0dl9HQnBjZmxycjQzZFlLeEhWMXRGNXFtMU9mNThvSEctbHFDUFhBbXV0NElmUTh0bXIwU1lBMG5XV0RPWDNNdEdhZ0MxN0dRYnVFclBHUXAwV0FydTEtYkdoSE01NGlJTQ?oc=5",
+       "source": "Atlanta News First"
+      },
+      {
+       "title": "Rapper 2Chainz injured in head-on crash in Atlanta",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUHM2YXg3RHc1aERyaVhibE4waWVGNUkyeVY5X0ppbjl2ZG5tdHN6WXNmdURzdjVlN1FMVHA4aUpYTjBqUkZFMWxjWWRvdDVmQmNyWDBoM2dhS0JZUE1HalVtd0o4NnRWaFFQUnNHLTdCNHNLWmk4X09WdmVPSGVrNnFVVQ?oc=5",
+       "source": "WWBT"
+      },
+      {
+       "title": "Atlanta rapper 2Chainz hurt in head-on crash",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd1lfOVhCc19JOEhVZ0R2VkpfcTRmZHVDOGRpdmdUQUFjS3FtRUxTc3FGWVFCMjUxRThyY3gzOWZpQzRFc0lpNmN6bmx2aVNoRzFvbmxrVks2bmdPN1UyOVJiZjFyV3I4WElyVV94Vk5QUjF2ZWxod2xGby0zcTI4QmczUzFvZUU?oc=5",
+       "source": "WALB.com"
+      },
+      {
+       "title": "Grammy-winning rapper involved in head-on car crash",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ2liUmJzamhNUUphck45eWc0RGZRcEQ3TWw3eFNJcDJOV1NPbG9iT01jYXJ0aUpHOUU5VmNTcUU1ZmZSdnpXaWJLVVNNaEQtWXBRczU5S3I3ZnpsazlMaEdTMUdPSG1fRUZxQ3Zndi1idmszbkZpa25KSzh1SEN6bWl0Z29DV2xrXzZEb0I4WTBUb1l1MkZOSS1DXzZVeTlmZ0lkemhR0gG6AUFVX3lxTFBEUk9TdkwxSEdhX242MXFZaWpCMi1pei0yNU9jNEZ5N21GSTc3aWM0OGpfTVhqTEl0VGRqOVZpRFhTZ3hZUUpFeGhicnFOdnpkY3F5T1NYN3NGQm1QbDdFdW9odjVJSDVMVVpfZWZoR3JWcHVFbUU1RjlLV3BIZmYwUDhRSHFheEFXYlFldnJhRkplbnV4cjdKRGpzS3VKQ3lrTTJHZjZFRzZPUnQ2UVFneDl5aG52TExVUQ?oc=5",
+       "source": "Syracuse.com"
+      }
+     ]
+    },
+    {
+     "title": "제41회 골든디스크어워즈, 디지털 음원·음반 본상 후보 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "‘제41회 골든디스크어워즈’ 디지털 음원·음반 본상, 신인상 후보 공개",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5lVXVSN0JUSk43NUYxU3dya1R1aVRPN1V6Q0VRNWs2MTdfQ3lvYVpudk8tZERpX3pWUVZoZTBjVXM1OEQ0LWF4c1RLTG5MNU1RNUR0TA?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "성시경·문가영 MC→방탄소년단·아이브·에스파·코르티스, 음원·음반 본상 동시 후보 (‘제41회 골든디스크어워즈",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxV3QzcEJDeUxaUGNDeGNGT0NFZ2NxTUN6WTBtbG53dkJ5bXBDQ0gzcUtqWTl2TkJtNDgtOUtHeURHd3RialNfTU9oVlhGaTQ4YS1kWA?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "성시경·문가영 MC→방탄소년단·아이브·에스파·코르티스, 음원·음반 본상 동시 후보 (‘제41회 골든디스크어워즈')",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYnhZT1JidmVreF9xOWhWZ3pmNXg3eldrUlRRX2s3VWh1MTQxV2dVWUhzd1V2QTlrZjI0cEdTaFFBbGlzVGR6bVNQcDlqdU5IcUNfSTVnenVRYk5lc29oVW4xTFh3VnZjendHdWRfMDRFdWdQOFh4R3FpQi1iaUxGTldVQXc4YXVpQlNsRmxUSjZUa1F5bXNVZVd0NFBsV2plLWNTcTZ3UdIBpwFBVV95cUxNYnhZT1JidmVreF9xOWhWZ3pmNXg3eldrUlRRX2s3VWh1MTQxV2dVWUhzd1V2QTlrZjI0cEdTaFFBbGlzVGR6bVNQcDlqdU5IcUNfSTVnenVRYk5lc29oVW4xTFh3VnZjendHdWRfMDRFdWdQOFh4R3FpQi1iaUxGTldVQXc4YXVpQlNsRmxUSjZUa1F5bXNVZVd0NFBsV2plLWNTcTZ3UQ?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "'제41회 골든디스크어워즈' 디지털 음원·음반 후보는?",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05cF9vRUdwVklxRjFTRGJtZk5WcGZ2NG9KVHRYNi1LbXVqaEdvWGZGT0pJX1B4cVdSZmxJekxKZGRHbUFPZExHTFE2bHRaM09ZTjMzVkhMRnFsZ9IBY0FVX3lxTFA5THNmQmlzMHNXYVN5NWFxY3ZPWWJWSVRidVQzLXI5d1ZucEdVdEFkZDVjRnhJWkhhU2xHc3hBb2xxSGhGNEpvQUNwWnZRallJTThhYlBsNk1INFFGWjlvYzF3RQ?oc=5",
+       "source": "파이낸셜뉴스"
+      },
+      {
+       "title": "하노이 향하는 골든디스크…본상·신인상 후보 베일 벗었다",
+       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiMnZkZ0ZtNDFKS08xNU45OF9zMGtBR2F0bWRiWFN1d1Q2cVFtekU4aTBVaUwyN0h2NjBPeFFqa0NkaXpPNDlaY3c0bDdkZw?oc=5",
+       "source": "전자신문"
+      }
+     ]
+    },
+    {
+     "title": "밴드 혁오, 6년 만의 정규 앨범 '33' 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "혁오, 6년 만의 정규 앨범 ‘33’ 발매…14곡에 담은 지난 시간",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QSGpORDlwei1JN1luR2UzcDlsVko5VFFfeWItTy12OFVPOVFieDhBNi1TU1FYYVNQQTIxMWVjSkkwX3U0V1dyRU1MeWJfSG9tSjF2bzd0dTVuUEJjSl9SRlZYWnVLekhXRUHSAW5BVV95cUxORVRqUmZRcE5YYkx1Q1VUQVg0MkhJQ0ljU3A4MTBUazhMTHpDeHl5NlNtTXg2Z0E5dThsMDk1blM0dnBRdF96N2t5cWYtMEVKdmVQU0dVMFpTMTZCNERXbVFUQkxIcDAxWDNzWF93QQ?oc=5",
+       "source": "지피코리아"
+      },
+      {
+       "title": "혁오, 6년 만에 정규 앨범 '33' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JZHlrbDdlOThkdHJoQzdORDIweVg4ZzlKSDlLNUV0MmdIR3Y5NWZHTjhBVnVuRUR5cng0VVJoc2FfTnRteC13dXlxMUlETnV2V2JYNzg0ZkNQdmJHVkFIb2EzMTg?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "혁오, 6년 만 정규앨범 ‘33’ 발매...타이틀 '아님의 무게'",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGc095dGNDMUFEVElpWWI1SURRNGV5LWljNFliU2dvRTRMSGdOR285dTk1UVFhYk00cjRWZi14aWc4XzhMcDJNbGFScVJlbUYyM09OQWJ2QksxM3dSMXpHYzNwanBIUQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "혁오, 오늘 6년 만의 정규앨범 '33'…사랑 향한 시선 담아",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qTjhqVm9JZnZORC1uLTNNVFp0dzdLSGtLcWxtSlNfRzlmUnZjSHFRVEdtNVN5NEJxOW9CZGFjVDF0WnZYTzlBRkRZSkRiVWxvNFc5U1U0NnQwcVHSAWBBVV95cUxNLUdvbDVOcnV1Z05jYmVIRU0ybkw3OVlYLVVFaTdjbS1Xc2NacWtWWXZMSmNLTTlQRTNKR2xxeXk3ZjlHdDBxUW9vM3NUbFJqUXpvSWd2VndZbEF5TTZ0Y3o?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "혁오, 오늘 6년 만의 정규앨범 '33'…사랑 향한 시선 담아",
+       "url": "https://www.yna.co.kr/view/AKR20261125096500005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "스트레이 키즈, 내년 1월 고척돔서 스페셜 콘서트 개최",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "‘빌보드 9연속 1위’ 스트레이 키즈, 새해 첫 일정은 고척돔",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1SV9RRlJSWmxaN3Q4Q0hLeEVULXd2YUZvSzVJaVR1ZmJxSzg0OXdEZzU0VHVjVGN2MDVCU2VtcWJZMGcxLUhQNldocndmMmtIcWRuVGttNjhnQXlaYklNdmJjTEdOYVU2d0toUGpB?oc=5",
+       "source": "스포츠동아"
+      },
+      {
+       "title": "스트레이 키즈, 새해 첫 무대는 고척돔…1월 1~2일 스페셜 콘서트",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PQzBSWTQ1b3JKM1BUdS1aaGlWems4U0w3aFB5bktBOWE2WndKMzRucVczVGJhUmNNa054bjc1eGlyTkZxOWdPd0xCZzZrLTlpVXl6aEhrc0F6bnZnbnNkLTdHWkJ6RnVJc1dBMQ?oc=5",
+       "source": "메디컬투데이"
+      },
+      {
+       "title": "스트레이 키즈, 내년 1월 고척돔서 '런 잇' 스페셜 공연",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNjN4Wkg5NmNISW5Wdmw3MENqX1VSbXFtVXhHcFhka0R3dHpiMWs4eUtDcUlXYXI4YU9xNHJfOFZ0UzBERHNOSzdFWThfenVCNVpBMUF2LTdQNmhoSy1WT3pINXJyb196ckgwQ3BSX2VQNENsVkx1SWI0YUloYS13SA?oc=5",
+       "source": "www.edaily.co.kr"
+      },
+      {
+       "title": "[가요소식] 스트레이 키즈, 내년 1월 고척돔서 콘서트",
+       "url": "https://www.yna.co.kr/view/AKR20261125094500005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "스트레이 키즈 1월 고척돔 콘서트…스페셜 공연 : 연예",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBlZHJsRmxRTTZfeklRd1g4QXAtZlVBcjdScGxmSGczZHc5UnhEQXd3cHdwcFVlTURDeWdvNmVFWHE1NWxNWWo1LVZQNA?oc=5",
+       "source": "재경일보"
+      }
+     ]
+    },
+    {
+     "title": "라이즈, 멕시코 대형 축제 '테카테 팔 노르테' 유일 초청",
+     "summary": null,
+     "ai": false,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "라이즈, 멕시코 최대 음악축제 간다…K팝 아티스트 유일 러브콜",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE93UWNYcGJmMUxQaEZCaHFnUkpzWEdTWkd6Zmd4Y2wtVUlkV3B4bmFfeUV4ZGw2WW5iblNIVkpWZXN0SlIwaDBQSG9n?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "라이즈, 멕시코 최대 음악 축제 ‘테카테 팔 노르테 2027’ 출격…K-팝 유일",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05Q012R1lMS2tEcWc1SDFGOGkwZ1RvN3VYMDBCTjlSVkRXeW53MW5DZlBjZUt4M2MxUHlKV2tkTHFJUTUtU0ZhV0ZhQmRyUWpSdDZ1NFNKWG03WmlQaEJGZ1VB?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "라이즈, 멕시코 최대 음악축제 ‘테카테 팔 노르테’ 출격⋯K팝 유일",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLRGtRWlN3VGhsRko0enAyMVFlQ25hd2YwSm9oTzVrSldhZURLTlE0bmloN2NfeTFibm5lZHp5anVkR2JueUwwS0lUbzJ3LVpReTk3Mg?oc=5",
+       "source": "이투데이"
+      },
+      {
+       "title": "라이즈, 멕시코 최대 음악 축제 뜬다…K팝 유일 초청",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Jc3lxOWk1Z3ZQWFVCYjJNb1hzNVIzZWp4eldoTGw5WnJrMjcwTm1fZVVmUkRHUFBXbXhQTmFhUU5DSHk3OUhGREhnNEVHMkxCZ1Jxcm0xZHI?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "라이즈, 하루 10만명 찾는 멕시코 '테카테 팔 노르테 2027' 섭외…K팝 아티스트 중 유일",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5saXJUenJJa2VXZHlSTHk0ZUU3ZGZDOGNtOXg5WTcwdUNia21NcXRFc3pvYWZBV0o1OFNBLWhHMDlPbFk3bEJ2V2M5eUk0c0ZKLVBTbGFUblh3T1AyZGREQU1XMkVPbFltc2xQR3BmT2Z6aFk?oc=5",
+       "source": "스페셜타임스"
+      }
+     ]
+    },
+    {
+     "title": "아일릿, 미니 5집으로 美 빌보드 200 3주 연속 차트인",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "아일릿, 미니 5집 '빌보드 200' 3주 연속 진입...케이팝 걸그룹 '유일'",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1UzF6X0pqb0U0eWRPSEJjWEZMMnV3U3VUc1dHbWtqTF96a1R1b2dxYmNuVTR5VnBNRTl6amFCZjlUM05VSFg2VFc5c1FyTzhndUJkMmZMNU1maXJnY3dKdDdVTDFvZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "아일릿, K팝 걸그룹 유일 美 '빌보드 200' 3주 연속 차트인…'체포하겠어' 역주행 뒷심",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdWVMck5FZWZua2VOaEpTWVo0TFdCdGMyWUM3R2tJVzRxNmZ0MzJTU1c3eXdHX3VPZDdSWF9iUG5xdGM2aGZYbXl3Qy1ZaFcxVGZvVHJ5VHBFSmFsSEQzaUI1QjRsU1BQdXZnYVktMHZLQ0ZyYjJTRzJKcndiNkpKblA2SDdNTGRtMk5pd0tmTXJ6TjI1bmZLZUh2NnItc285aXpYUXEzc9IBpwFBVV95cUxPdWVMck5FZWZua2VOaEpTWVo0TFdCdGMyWUM3R2tJVzRxNmZ0MzJTU1c3eXdHX3VPZDdSWF9iUG5xdGM2aGZYbXl3Qy1ZaFcxVGZvVHJ5VHBFSmFsSEQzaUI1QjRsU1BQdXZnYVktMHZLQ0ZyYjJTRzJKcndiNkpKblA2SDdNTGRtMk5pd0tmTXJ6TjI1bmZLZUh2NnItc285aXpYUXEzcw?oc=5",
+       "source": "Chosunbiz"
+      },
+      {
+       "title": "아일릿, K팝 걸그룹 유일 美 '빌보드 200' 3주 연속 차트인…'체포하겠어' 역주행 뒷심",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NTGR2SDNPaXgxNHd1dGhZSF9LQ2pjNk93NnBqSXpHVEF5dXU4dlVMVnNZSHZFMUdfQVkwMUFVSmNOOU93T1BzQXRkMjlfenAzSno4?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "아일릿, 美 `빌보드 200` 3주 연속 진입…K-팝 걸그룹 중 유일",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1jQ3NaeF9wSWZ2dENhX0JMeWI3b3NYNzFGWWN3VzdtM3ppVzNBMndmcUZKX2UtU0tfVkVmS1Nnb1VUc3FiQW05QnI1dkN0WlQ0OHdrZGU2Z2xWNnB2V3lEQ2lsd1lJUQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "아일릿, 미니 5집 美 ‘빌보드 200’ 3주 연속 차트인…K팝 걸그룹 유일",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pV0hfcG9tbkw2dG5JN29qYXF5bkhWZUJwSmF2M0xVRlJYSnhRZjBWTTlTVDFsSDlkOElTM2ttOWU4ajY3RG9uM1hYS0lfSjlEb1dvVUd4LTJEYl8tYTc4bGpPSUpTaUhhdXZLOG5QY2txcW5vYlNCWTJQUEhxQdIBZkFVX3lxTE0tSXk2SGpmMHRManBFYmVxQUxYZWlMU0h2S2o1OGhOYlFlRFBYa2dWeXV3Zmw3QXUxSUdHTG5ZNlVibVZWV09OY2ZPdEtzamRsSmhXYUVBWkx2U2xtRm1QU1hHOVo2dw?oc=5",
+       "source": "동아일보"
+      }
+     ]
+    },
+    {
+     "title": "키스오브라이프, 겨울 시즌 겨냥한 신곡 '그리디' 발표",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "[오늘컴백] 키스오브라이프, 첫 윈터퀸 도전…'Greedy' 발표",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfSUtsc2JmVUNTRUhJd29SUy10dElJWkM5MFBUOWtsdnp2cXBOd2l6V0FOdE1NX3NpeFRJaVg4M2xJdnVmYVVzVnlSN1RlSzA?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "키스오브라이프, 신곡 발표…\"크리스마스 설렘, 노래한다\"",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9PcnlnUTB5ZDJWRHp1bHE3M0k5d0RnM0RxeWJrWV82alZHRTNZbGpXTmdQSmREdk9tWFBXdEgxX0JXWmFLdXMybVpB?oc=5",
+       "source": "디스패치"
+      },
+      {
+       "title": "키스오브라이프, 오늘 신곡 ‘Greedy’ 발매…‘서머퀸’ 이어 ‘윈터퀸’ 도전",
+       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9MYldjQWZEYkNXaHhXVHloeDBOazg3azRWR3RyUlBoY1hHblc5cnNLSGotZ1NHNVQ0UzFKMmh0U2VoWFRzZzVwSXpSRXNlOGhBeUJr?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "[가요소식] 키스오브라이프, 겨울 시즌송 '그리디' 발표",
+       "url": "https://www.yna.co.kr/view/AKR20261125097100005",
+       "source": "연합뉴스 연예"
+      }
+     ]
+    },
+    {
+     "title": "음원 플랫폼 타이달, 순수 AI 생성 음악 전면 금지 및 삭제",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "Tidal Bans AI-Generated Music",
+       "url": "https://stereogum.com/2521184/tidal-bans-ai-generated-music/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Tidal to Ban and Remove “Wholly AI-Generated Music”",
+       "url": "https://consequence.net/2026/11/tidal-bans-fully-ai-generated-music/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Tidal Bans AI Songs",
+       "url": "https://pitchfork.com/story/tidal-bans-ai-songs/",
+       "source": "Pitchfork"
+      },
+      {
+       "title": "Tidal Is the First Streaming Service to Ban AI Music",
+       "url": "https://www.rollingstone.com/music/music-news/tidal-bans-ai-music-1235663794/",
+       "source": "Rolling Stone"
+      }
+     ]
+    },
+    {
+     "title": "크래프톤 배틀그라운드, 아이브와 협업 신곡 프로젝트 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 9,
+     "source_count": 9,
+     "links": [
+      {
+       "title": "“배틀그라운드 전장에 아이브 신곡 울린다”…크래프톤, 음악 프로젝트 ‘더 스쿼드’ 공개",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zanEzNHNkMHJlaU9UdVE2U3dQbmxPWXk1MGFsa1VfTGpzME1VcEZyRTVsUzE4ZDZ6TUpPLVN1QWxjOTR0V09GWTJINW1sc2VrTkljdnhDRnlENWNXd1RoWTZFbzFvVkh60gFsQVVfeXFMUGdTa0cwakhBQnVzVTR1QW16WVJjWW9oVlNYWm1fOWZlQ3dEUWtTUC10cWEzOGoyUWJrQlQ3d0tOZnBjWE1qaExHNjNxTUp2RXN0SFhjYURhMUFJMnRrMTBVMnRtWncteWdPU2My?oc=5",
+       "source": "더게이트"
+      },
+      {
+       "title": "크래프톤 '배틀그라운드', 아이브와 신곡 낸다…음악 프로젝트 '더 스쿼드' 공개 - 머니투데이",
+       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCaE5KV1NaVG4tdjBRNXpoeGZaTThwaXB6QmhrWEJ3VU1pdzJMMXFhWHJTU21SbHpxSEpPeFhscmp1WTVRd1dRQmJUQUJiUmFpOW9WbGp2cl9LMHg3cFFJVTVNbXhlY03SAWxBVV95cUxNV1g2ZlljRllNbnJXRHZpeHE5NFFzYUpiaGpWTWFHb2MxRnlZOE1RV3BCYzdsV2hzTG5pQkZEaXRjMHcyRVZEV0hRRUhvUTY3S2FZaVBPSjVWNGlqUWtQVlYwYUtBNUNUMTN0QUs?oc=5",
+       "source": "머니투데이"
+      },
+      {
+       "title": "배틀그라운드 첫 시즌형 음악 프로젝트에 아이브 참여",
+       "url": "https://www.yna.co.kr/view/AKR20261125051500017",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "'배틀그라운드', 아이브와 음악 프로젝트 '더 스쿼드' 출범…신곡·뮤직비디오 공개",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQU9xb1c0bDRaWEJHekZhdzZyZ3dYdUxoSlRXRVhnc0VmV0pZVWtqenpUMTdBYWxna21vLU5PY0dIVjlVWXBZOXVoMnlCTWRheHBtdXpWejVjZkxwZnd1SUNCdkF6d3hNd1ZOVk9iSFhBTHhpaVpuSjBtVlhlM1NURjV4TFM?oc=5",
+       "source": "스포츠조선"
+      },
+      {
+       "title": "배틀그라운드 '더 스쿼드'란? 아이브 신곡 'Renegade' 12월 2일 공개",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLenNSY04tc05HVllrQmtpZ2k0Ti1KSGlpM1FQT1lzak4wZmRScjJIY3Z2bTc1TWpoYm85eFpWQXg4bThHbkt1MktPZlpBYXlnRVBrcTB2VDZqVGFyLUNxVGRicnF2LUR6?oc=5",
+       "source": "창업일보"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
