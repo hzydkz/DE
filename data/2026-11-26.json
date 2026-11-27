@@ -1,0 +1,547 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-27T02:58:15.796130+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 9,
+ "llm_errors": [
+  "선별 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "선별 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c0~c3 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(2회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c12~c14 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-hiphopheads",
+   "name": "Reddit r/hiphopheads",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/hiphopheads/top/.rss?t=day"
+  },
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 850,
+   "issues": [
+    {
+     "title": "How to watch Alabama’s Million Dollar Band in the 2026 Macy’s Thanksgiving Day Parade",
+     "summary": null,
+     "ai": false,
+     "article_count": 20,
+     "source_count": 18,
+     "links": [
+      {
+       "title": "How to watch Alabama’s Million Dollar Band in the 2026 Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLTRFVjZldlRkNXhBaXp0TW80cU56cHd1SG43WjJLaEhubGc1UFYxM1Y4dXNZTjlUVTRTVUkxYktrRFBJYkxWd3h6T3JZcjNSc1ZaeHRONkMzY29mLTBEa2FmYldqbmJsRzVNVElEbTZGanh2QzFEUzdMSkd1OXdjblIwcXVjYmZGNEZIbGZhMnlobGtYS3lRWWdaZDNVS2JqOGpkd2gtV1ZKTTN0bjhZQ1NTSkc3cmNmc25RNdIB0AFBVV95cUxOYzBmWUdfVUNGaldPRXotYUxraEFNU3AzRk5fWERub2xMSndYWGJ5TlhkaGVoQzZhcFJpMzJYWGk1MHc5ekVpYjBVcFpQNXlGQU5nbXBMYkx3N0pyRnZLRjBFemRTLVlHdDAwdE44VFZmQnBKMHExNFZETkxOUzBfTFBwTXhSWmpzMGFubU5GNFNaTkplTTViT0lhcEs3OXI0UkRMaHhKU1F0US1pYTVsaFRNU3BSUmJHTlQtcDBINDcxTWJ0X3RWeG5iQnBvemJu?oc=5",
+       "source": "AL.com"
+      },
+      {
+       "title": "RIIZE and EJAE at Macy's Parade 2026: Time, How to Watch : CONCERTS",
+       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc0VldGY0NXJHVDFXQm1IV0FOZkZkakZmT0N4Z3dhbUVDcUtMNDREZ2VIaWpTZUdYTEFQRk1sX29hZGVaeXF5cm56VEdZWTR3X2Jncms5VXF2bFJTSzJBeUQ4c2lPMzRuVDRINXUtS1JRa0JiMFhHeHFtdXRYTjRDdmNjUXNEX25uc0ZrMmVxVmpOWTNINkdRb1hOd25Cek0?oc=5",
+       "source": "en.koreaportal.com"
+      },
+      {
+       "title": "University of Alabama’s Million-Dollar Band marching in 100th Macy’s Parade",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdF9iUGJmWGREVUR2WTRkZ3lUNUZFTTlCSHJXQ2hoZFFPQkF1SVVVNC1TQTJ0ZkhlakxkQTdrVFp5NzA5ek1jRlBwVHMwcGRKSUpVdG1XM0RMc21OQWY2ank2d3hZNWdRSE5LMHJvRTBrY3Buai0xc0xKeEJsR05TRXpIS2hVUG8ySmVKSDREMHcwazVCRzdwMkN4OHNYeUVVZHdhWUExSzBSMWQ0Vk9vVzdtUGhFMTdFYU5tRXRpWXQteE9sLUxSZk1OQUE?oc=5",
+       "source": "Spectrum News"
+      },
+      {
+       "title": "Million Dollar Band to miss Macy’s Thanksgiving Day Parade, return for Iron Bowl",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUhWYUgxRUJCM090anVjY1BNcGZLZlo5M3JxVExpd1dXb010TEVkTmx0YmZTUUZ1MEE3bzBGN0lCV015Q2g1T0FaV19PdDdDV2FyRm5JWlVyZXp6bHZ2UG5Cbkt4VlM4dEdYTTg3UXVEWF94VXRJMEFZaUpfX3g2a3lKb3pwUkp2NDRkTWtwMzJvbmVuYUMyY3NRS1BiTUNzMGo4MlZvQnVlQk1aUFE?oc=5",
+       "source": "WBMA"
+      },
+      {
+       "title": "University of Alabama's Million Dollar Band to return to Tuscaloosa after postponement of Macy's Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxObzZKTjM0SHJnV1lNc3FKYnpFYkM2Rk9mc0RfU0ZWY3lhUEhzU2xsSVVkU2tISG4tMDFRNFNFUWpIeThRd1RkTHlYUXNQRExuLWc0aHRwRG5va1pLcDk5TmFmRGVKcHBCd0xwSW9Da05pcmp2cHNSTW04Zms4cVFIVFRJWEhnNWtGVG9zWDV5ME5pMXFXbldqdHRiZlFCUmFoa0hGbkNzaXVpTS1lNjhaZkNoOFBWRXB2aTRhdkNMQ1V3Z3F0QXp4X3cyUkxNYmU1Mi1IVmRZSGM3MWhkV2Rrekw1aW92YlQ2ekZvMkljb0NVNmpkUFBvMWZESTRjQnE4YmZaMmVKa01YNHljT28xX1FLVQ?oc=5",
+       "source": "WVUA 23"
+      }
+     ]
+    },
+    {
+     "title": "Andy Taylor, Duran Duran Guitarist, Dies at 65",
+     "summary": null,
+     "ai": false,
+     "article_count": 16,
+     "source_count": 16,
+     "links": [
+      {
+       "title": "Andy Taylor, Duran Duran Guitarist, Dies at 65",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVoY2U5WDduQ3FReGY4VnBkaS1DQk9sU0ZwZUdpU1hSbkt3QkN0eWNYbmswTWY4MWdtVm9nbjE2b1B1VlYyOXAwbmNOTUtKdXhPaXBqSVN6TTFyY3BiZHBCTG42V1NQek1nNWw3cVFpcEk3WnZKdDhlY3hLSzZkekIzdFlIWDhxdFR3THd1OA?oc=5",
+       "source": "Variety"
+      },
+      {
+       "title": "Duran Duran Guitarist Andy Taylor Dead at 65",
+       "url": "https://www.rollingstone.com/music/music-news/duran-duran-guitarist-andy-taylor-dead-obituary-1234634531/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "Andy Taylor, guitarist in Duran Duran, dies aged 65",
+       "url": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead",
+       "source": "The Guardian"
+      },
+      {
+       "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WekJNZ1dkTGpVZUdoNmFOV1BKbFl0WVVKNkJhYnJFejJHbEQ1R2ZyYU9Mc1JFMnJDRmlQN1hobUFYVlhRS0xRQkljWDRYb09MRk94Ui1rdE1WZFU?oc=5",
+       "source": "BBC"
+      },
+      {
+       "title": "Duran Duran’s Andy Taylor Dead At 65",
+       "url": "https://stereogum.com/2521680/duran-durans-andy-taylor-dead-at-65/news/",
+       "source": "Stereogum"
+      }
+     ]
+    },
+    {
+     "title": "USC marching band no longer playing rivalry game after members vandalized UCLA campus",
+     "summary": null,
+     "ai": false,
+     "article_count": 17,
+     "source_count": 14,
+     "links": [
+      {
+       "title": "USC marching band no longer playing rivalry game after members vandalized UCLA campus",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbFJoMFVWUG5Ielpfd29tTGRFMllVcW03cnpUYkxQUlhtM3N5aVp6eWZfX1FFdUt0NEI5Tms4NTRnQjFCMEl6YUNpSUgtSVh5Y29uSVFXcEhhZDgwUjMyblNDVWFoYlJIeG5majFJZ256X1U4UU1tbENaTEJZVEp5dE92Tzh4WXgxXzA1SW1CdDNSUmhZbFEzT3ViQ3pMVmJwbkVJUHl3MWpPSHZ0MjVTWk1Ody1ZVGFlSXhV?oc=5",
+       "source": "Daily Bruin"
+      },
+      {
+       "title": "Trojan Marching Band members vandalized UCLA campus, USC president says",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR2tWYzhsdmctYV9OMERXQUdfMnRLV2E4RkE2THRFUFJEVUdpZVUzOHFBS0ZZakJ4VnJoVmpSNHBXTWxJNkRUY0ZHeng2dHB4anBNbU9KMTVoTmpuR1hPeGJOdllVZDRFTlptdl82aEpfb19wTl9tanFKNy16UFdhV2ppUTMzTFVHcnJpdmJ0V29tZEx4NmNkYnNuYVRDMVlveFZ2ZTd6Q3JNdkVmNlY4Nm1JdXh6TEE?oc=5",
+       "source": "Annenberg Media"
+      },
+      {
+       "title": "USC marching band pays price for UCLA vandalism ahead of rivalry game",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWmJQbmh6WWoxb1FYX0wxQUYxQnI3WXRzd0dHM2xjRGV0RmpONUlzLTV6NGxra0g1dnhCUnY3ZmpYWERMOUhwZGNySXAxenkwR1dhTkdXTDlIOEZ0dXY0ZFdKWi1tNmM2OV9VRHhfUjl3SFZDaTRLeTRySEpJSmJIZU9NcFpDMV84MGxv?oc=5",
+       "source": "New York Post"
+      },
+      {
+       "title": "USC marching band members investigated for alleged vandalism at UCLA campus",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb0pfcDFwLUREbGZ4NnhRdzRQa1lyTUc0ODZOREQ1X1hCbFdZZE9uUVhLTFd0SnhhbFVnVDlDNUNHSWt2VXFKckZFYzFxVkJIYWZEc0xpWEJseUw4ZERuNHBYQ3JuRmpkbm1OMS1rSVJLU21GOUlYRWhyLTlUcW1ubEpjcTNtN2JhbWVPWnBkb3dFWWV6WFZ2WENMaWFFZ2VmTlNsRnJCTnViN2xweHc4QlU0OVBjOTg?oc=5",
+       "source": "CBS News"
+      },
+      {
+       "title": "USC’s marching band barred from UCLA rivalry game after campus vandalism",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU2FINnJvaHJEeTdvZ2hHYzB2QmRocWFzYVdnUWlpb1RfbUo1R052R3BRQVE3THBIcWVESjlCc3Y3VXJSZzY4WEhWRy1FbWhCaHRMa3k2SVBvZl9RajJjWXlFZ09ZOV92NllJdmlhV2h3d0ZZX0YwQWE2SnBCZURXM0pNVHNtZ3BJbTVlMFpmUXFEX1hwUUJOOF91MA?oc=5",
+       "source": "Yahoo Sports"
+      }
+     ]
+    },
+    {
+     "title": "SF9 휘영, 솔로 신곡 'Sunset' 컴백…타이틀 포스터 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "SF9 휘영, 솔로 신곡 'Sunset' 컴백…타이틀 포스터 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NVXRKbThrLTZ1TXBlZG1iZDhMY1J3UU43c0s3d3ZOQk1RR2JONjJ3cjVMdDRoSEhJbFdKNVFXUVBBR0t2bE52NkxGN2lhNThlQl91VGZrY2ZMelphX0MtU2FGWmdGdw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "SF9 휘영, 신곡 'Sunset' 예고",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuTnRZYXBocjhCejF6anRvc2RUQm5TbjBaMjJuTXRHdFJGWkQ0bUNBRVZmWkV0ajFYOE5pQTl0WEhvd3hpbjF5aVZoUWlDRWJfVjVQLUNBVEE4ZkJUcUpweXRYc3U?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "휘영, 솔로 신곡 ‘Sunset’ 포스터 공개… “EVERY SUNSET HAS ITS STORY”",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mcEZBOWVrVVlIejdMTUhYYTY1R3NRMU9MVmZkc2Rnb0c3cFlud3NKXzVNVS1hbnl6RHVvUzFxVFA1S2NhWV9ac2FveHN6OXdsX21BNnd2bXIwVHZyVGd5a3E1Zw?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "SF9 휘영, 솔로 아티스트로 컴백…독보적 감성 담은 신곡 ‘Sunset’ 예고",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pVEtHQUdWbjljWmVxX3JldXBuWXQ2R1JscTB6RklmTXJzQ2MweXMyN0hFRmZDcnZ3eFBqdWhldDFvZERfSzZzRHJ0YnBqdWxzcllfblBNR2NZS1Y3Sm51LXZxcng2ODVHLUFZ0gFrQVVfeXFMTmlUS0dBR1ZuOWNaZXFfcmV1cG5ZdDZHUmxxMHpGSWZNcnNDYzB5czI3SEVGZkNydnd4UGp1aGV0MW9kRF9LNnNEcnRicGp1bHNyWV9uUE1HY1lLVjdKbnUtdnFyeDY4NUctQVk?oc=5",
+       "source": "SWTV"
+      },
+      {
+       "title": "SF9 휘영, 솔로 컴백 시동…신곡 선셋 타이틀 포스터 공개",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00b3A2MDB1cHluRlF5ZGxiVlFhRXM1TklINFZOSS10VWE2aGVPTjh5TVdkQmJVVlFkVkxCQ3BPMWd6eGVEUzFVNnN5VEJfVl9rWUFrU0s4WHpMQdIBWEFVX3lxTE9uVVU1OVBNa050NVlqVnVCYXB3dzg3dGkxUHgyY0psWnBKRm1RSDRXUlhuSTdaaU5ldUR4TExPLS11OFRhTC00U0FraDFtVkRXam1zdUk3SlM?oc=5",
+       "source": "아주경제"
+      }
+     ]
+    },
+    {
+     "title": "호서대 게임소프트웨어학과, 충청권 인디게임 공모전서 3개 상 수상",
+     "summary": "호서대학교 게임소프트웨어학과가 충청권 인디게임 공모전에서 주요 상을 수상했다. 해당 학과는 이번 대회에서 대상과 최우수상을 석권했다. 세부적으로는 대학 부문에서 대상, 최우수상, 장려상을 받아 총 3개 상을 차지했다. 다수 매체는 호서대 게임소프트웨어학과가 이번 공모전에서 두각을 나타내며 상을 휩쓸었다고 전했다.",
+     "ai": true,
+     "article_count": 11,
+     "source_count": 11,
+     "links": [
+      {
+       "title": "호서대학교 게임소프트웨어학과 충청권 인디게임 공모전 대상/최우수상 휩쓸어",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lejJyUXEwY0h3VjNvRk5ZNUN0a2hfdmxYX2R6T29GX2VOSVEtV1ZZemNuWTVmVFUwQlJpUkY0UVQxS09TT0Q0d3lJZTFiX3ZjQmM4V1JUMl9JU29nWHVYbjhZVVhheWJBenRyVQ?oc=5",
+       "source": "베리타스알파"
+      },
+      {
+       "title": "호서대 게임소프트웨어학과, 인디게임 공모전 대상·최우수상 석권",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TUG1oS2taTkd5MXN3YTFvcF9nb2Q0dUpKWFdDNzBheU1lUHB4YnJoQmtOSFI2MVVVRk1tTnlOOHc3VW5wRGp1WUlBSlRZRkVNVDJnRXRBa1RtdGFOUjdLdUdGMkc1ZmZ6aTJZ?oc=5",
+       "source": "아산데스크"
+      },
+      {
+       "title": "호서대 게임소프트웨어학과, 인디게임 공모전 대상·최우수상 석권",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKVGxhZkxMNTRERWNJV1pZVm1RcTlta05iT1V6bFBCRUFrOTZ1cFJKZ0pwTnpSUGl4c25sWi0zUnN6S2VoeGdBbmhwRV9aOHFsdmVlcTRycUVCZnpMMmxBcUwydnJlRUp0V25JVVpwMkI?oc=5",
+       "source": "로컬투데이"
+      },
+      {
+       "title": "호서대 게임소프트웨어학과, 인디게임 공모전 대상·최우수상 석권",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zTXg5MGh1WlNndXd2OTRwcWsyNUMyTDFxZ1laUUR2bjcyRGdlaVViWHpzYjYzSFlCNGk4NmRNU29DOVZVc3RQMkk0SEhIT2lHeDFER2x5VlA2R1ltb2JFWTctTmJ5bmNxQThB?oc=5",
+       "source": "디트NEWS24"
+      },
+      {
+       "title": "호서대 게임소프트웨어학과, 충청권 인디게임 공모전 대학 부문 대상·최우수상·장려상 수상",
+       "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYnZIWEJjNFBmWUFuc3djWXJDX0h5dFo5ZFoyR2Y5Q3gyUjFmVnptNnJUYmJqVGtjN05rcEFYaXBoUW5MYzVXbVozeXNMR042dFBYSGw1RHVxeFhhWnR1MGtJUTRwZXlDVFJlbm1OS2xnc1hoLTlmX0NwRGY3OV8tSTRadjFRU3pBeTVkRDZMYUoyU3FScnlaLXZXZzktbmZRMlFkelVFbUhhbEdrWTIta1hySTd4VGk2QXpsaW5FaDV6eW03ZTlNck9ycUdUN1F6NW5RSVdGdXBLbzM1THVpTEppVG1HX1JDUjJpeUdJc3l4MUFOVWFwSHlWanRmYktfSVZtTUdURmVKSGJRYnVWa2Qxd18wSDFPUkxKbHpGb1BCZnZRRU1tMEt2blNfQ2dBY0x0ZFREYzJDNzBlZHp0NlZCZ1BfREE?oc=5",
+       "source": "스포트라이트유"
+      }
+     ]
+    },
+    {
+     "title": "강남페스티벌, 행사 마무리 후 강평회 열고 향후 발전 방향 점검",
+     "summary": "강남페스티벌이 행사를 마무리하며 관련 강평회를 열었다. 이번 행사에서는 축제의 흥행 실적과 함께 냉철하고 꼼꼼한 평가가 진행되었다. 매체들은 강남페스티벌이 의미 있는 마침표를 찍으며 향후 글로벌 축제로의 도약을 준비하고 있다고 보도했다. 관련 평가를 바탕으로 향후 축제 운영에 대한 다각적인 점검이 이루어졌다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "흥행은 ‘대박’, 평가는 ‘송곳’…강남페스티벌의 의미 있는 마침표",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xR3hCbFFrV1ZSR2tZeEY2X2NzaXVnd2dJemtXV0RDcDZBNlpRTW5RTkNyTEJKekVybm52aGNYZDUwbXhpeXoyTlR6cGhvZ3JpZjVGakRhVUlsY04zbXNYRERHVkt6czJzcktqOW9n?oc=5",
+       "source": "서프라이즈뉴스"
+      },
+      {
+       "title": "흥행은 '대박', 평가는 '송곳'…강남페스티벌의 의미 있는 마침표",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OZkVLbjhvbXFRNUktdlNjUHlGdnhTX2FmUG9tSkRFSzcwSGlYWVB1WGppaDZ6M1pURXdBR05XaGdUYWxrYTAtZDh2VTB4SUxaY2JjU2xVSXotQ3dwbFc4NHZDMA?oc=5",
+       "source": "경기뉴스원"
+      },
+      {
+       "title": "흥행은 `대박`, 평가는 `송곳`…강남페스티벌의 의미 있는 마침표",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQY3FLUmdlT0hZbHJBT056TUtKV1NkaWJxQ1BhcVlWT0c4Sk1WQU5mZkhEZzdrTXRXS0Y2bzhtdnVQY3BWajZ2OE43NnRDUWxXR1ZTdnlSNVBSTXduRlkwOTBVX0JVbWpZSi1ockxDVXBvZFh5SkFPdl8xS0pJZERodnU0cTZ3WldJeHI5VjQ4R28?oc=5",
+       "source": "인디포커스"
+      },
+      {
+       "title": "[포토] 강남페스티벌 강평회-흥행은 '대박', 평가는 '송곳'",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQay1LX2FpR3ZYQ1B0dXFhd2R4RHFqeWR1TFpLTEhpNmVPa0hJeXVqZUt0WXlHMm1XQlBMRlRNRXVJYWNMOWhoSTA4YnE2d1hkaFdwV3JSbXY1MHZJWFZKX0N4cVZzRmVyeVVIQThzc0lkM3hKQUtKclZSMER2a3ozRw?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "흥행은 '대박', 평가는 '송곳'…강남페스티벌의 의미 있는 마침표",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Xd2FFV2REVC15eVZnR2pEN0ZRV0Q0Sk1ZVE80MHBBZVNtTHFjdVh5VkI2Yms4YjVGeElINF9vQlpka0VDVFl1cDV5dmd0dkI1Rzk3Tnl5dGZESHFtcXFUSTVnbDA2NDN0WFk3NDNwUEVhUQ?oc=5",
+       "source": "웹이코노미"
+      }
+     ]
+    },
+    {
+     "title": "코드 쿤스트, BTS 정국·DPR 이안 참여한 정규앨범 12월 3일 발매",
+     "summary": "코드 쿤스트가 3년 만에 새로운 정규앨범을 발매한다. 이번 정규앨범의 발매일은 12월 3일로 예정되어 있다. 이번 앨범에는 방탄소년단(BTS) 정국이 지원사격으로 참여해 호흡을 맞췄다. 이와 함께 DPR 이안(DPR IAN), 영케이 등 다채로운 아티스트들도 앨범에 함께 참여했다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "코드 쿤스트, 3년 만의 정규앨범⋯DPR 이안ㆍ정국ㆍ영케이 등 참여",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FYmFXcnlDajZJUk5OeUlPdDFscnZBM2FFc2lxdHd3eHhQMkNEWVY3M0lfVUg0ZGlPSTIzbDBQaE9KQmhjOTY2cUNmVDdOVHdTYk9OQg?oc=5",
+       "source": "이투데이"
+      },
+      {
+       "title": "[공식] 3년 만의 코드 쿤스트 정규앨범, 방탄소년단 정국 참여",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aeFdIREdBeHZtdmJkcVNnRXVLWGtudUpOQm1xem1uOWlFMjBUb3VPUm5LVk5DaG9zYk1xNFZOVElxMDFIZlZYTU1FYXpOalpnMHFfcnNDanlTc2ZkMW1xM3h1ZXhZZw?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "코드 쿤스트, BTS 정국과 손잡았다…12월 3일 정규앨범 발매",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uNzhPbGpTdW53bmNvblM2MlRUTWJIZkpVaGE2aU9VMTJwTFV6azUxbUNGTGZDNWxITUZfMjc3eUtJRkJwbklhQzZCNk40cmY1XzY0NEJKNW8?oc=5",
+       "source": "매일경제"
+      },
+      {
+       "title": "코드 쿤스트, BTS 정국과 손잡았다…3년 만에 정규앨범 발표[공식]",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BRURoZ0JVd3FnR2ZtZnZoeGstVnFSUTRpcjRvaVgwc21NTmktN2ZaaDdjRDZJa3pDY2thT25GLTltZDMtMjJPaVExckFpN1luZjRQTk1qOF80VXcxdy13TjlIakJOcjdhQXJLZmM1LUg?oc=5",
+       "source": "SPOTV NEWS"
+      },
+      {
+       "title": "코드 쿤스트 새 앨범에 '글로벌 아이돌' BTS 정국 참여",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaXRyWXFqdXc4SWZfaS13ZExSc0xKVUNxUEswNVYwNk9CbHpXR3Y0RlpXXzFuc3BiZ20zRjg4Mnl5Q1lvNGdJYzI2ZTZNZmhTbEtlWlJXaXI4Y2dRSk5UMzY2Ty1acGc3UGVKWGRJNXZIWVI3WHJhMkJoYWpBQU1ENA?oc=5",
+       "source": "이데일리"
+      }
+     ]
+    },
+    {
+     "title": "음실련·대한가수협회, 12월 1일 용산서 제2회 힐링콘서트 개최",
+     "summary": "음실련과 대한가수협회가 12월 1일 '제2회 힐링콘서트'를 공동으로 개최한다. 이번 공연은 용산에 위치한 용산랜드홀에서 진행된다. 무대에는 가수 박상철, 신유, 금잔디 등이 총출동해 공연을 펼친다. 양 기관은 연말을 맞아 출연진들과 함께 관객들을 위한 콘서트 자리를 마련했다.",
+     "ai": true,
+     "article_count": 8,
+     "source_count": 8,
+     "links": [
+      {
+       "title": "박상철·신유·금잔디 한자리에…12월 1일 '힐링콘서트' 개최",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VZGgzYmZhd3paSlkwVzRCalFvQjA2ZGRaMjhOcTZqZVN2bFFScGNzSnpra3R6ZE9XNThTR3BNWloyeDlITjNFaHNtLU45eEpQc25EWmJVOVJtcThld3VKS2twQlg4dmdaS0HSAW5BVV95cUxPLUVfd2kyNGVTUjNqdHpPOUlMR1Z2LVQ0cy05d2dubmlkTEJkOW9oWllEc3JvZnZQcUxLaVFPWWtMZ2NZSjhQMnRtdTR3alNqUzFjeFRobzlaYjFkdGRrQ0M4VjRSVy1pVEhRV1BPdw?oc=5",
+       "source": "지피코리아"
+      },
+      {
+       "title": "음실련·대한가수협회, '힐링콘서트' 개최…박상철·신유·금잔디 등 총출동",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE50aHVBTmx2ZEE4MURhU0ZOQ1hxRFN0NUNNU3Y3bWlQNXdUemxzcXUzWEVEZ0lLY1VSVjYtWVZ3WHFXSW14Q0pSRGpmeXpabVdvN3FjR25wYw?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "음실련·대한가수협회, 12월 '힐링콘서트'…박상철·신유 등 출연",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81YXpxWE4xZHpJVU5GbXowdE5NTmJsYTRNVHpaY2RFRG5oX1N6VkJva0tzbUUtZFhXejlwYjR0ZnhobUVrRTExOFJVVmNfcjlmeDB0a2ZTcjN1RGZMLW5CRw?oc=5",
+       "source": "아시아경제"
+      },
+      {
+       "title": "음실련·대한가수협회, 12월 1일 용산서 ‘제2회 힐링콘서트’",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LTUQzX0ZSclNEODEyYVo3anMxdzNtRzZfV1M0OVVjSEU0VTlEWmQtUzhZQXNpNXJKLTEzRkZYaWh1Z3JkVVJ4THlYNkZYaXdWU1R1TmZScFk5bVRFQ21NeHhtcFpiaXRkaXNzTXFNNGNOSEh4eHc?oc=5",
+       "source": "파이낸셜리뷰"
+      },
+      {
+       "title": "제2회 힐링콘서트, 12월 1일 용산랜드홀",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0S3lLa2dhOGpZWjM0RlIySmQ3SGo5WTJPOS1QN0ozLUpJYnRuMEIzX05zZUxoR2kweV9XOTI1allpLVpCRGlVd2JjMXJEWTBXWVFVMlpvYXV0aFcwZVFVVllDRXhpMXRhV1lTN29n?oc=5",
+       "source": "더리포트"
+      }
+     ]
+    },
+    {
+     "title": "립스티커즈, 오늘 '비비드' 컴백",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "립스티커즈, 오늘 '비비드' 컴백",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qZGk4SEhCSE5GSDZmcExTOGtHejdUd2pRTFdadWoyRFdSb3Mta0VUZUJ2blI1MGdOWmVFNXdNaXN3M3laNXM1OUp6MzJBSzRNUVpfQVhvd0dMaHJTb21GUUpKNms?oc=5",
+       "source": "www.bntnews.co.kr"
+      },
+      {
+       "title": "립스티커즈, 오늘 신곡 ‘VIVID’로 컴백 ‘희망 에너지 선사’",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RUE4zT21vN1lKVXdNeXZqeUk2aUltUWw1RnVlbTN6c0pJa09mLThjaWxuOW9tdU5XZEFMWDBrY2l6M001NDlOMVBkVGpwYi1TYTh0VlhpZWw4UGhnX0JfUUM5LVViVXA5MVE?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "립스티커즈, 어둠 벗고 희망 노래…신곡 '비비드' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxcTg3dHhQa3U2MFJZM3VNOEtRVWxmc0F5Xzlma0VmWlU2Z3NDaFpoaHE2UUliZmFkUTVoanZwMTRpUjhvNG1kR28yYUR6cy1VbnY5QUZOdUbSAVhBVV95cUxQMXE4N3R4UGt1NjBSWTN1TThLUVVsZnNBeV85ZmtFZlpVNmdzQ2haaGhxNlFJYmZhZFE1aGp2cDE0aVI4bzRtZEdvMmFEenMtVW52OUFGTnVG?oc=5",
+       "source": "미디어펜"
+      },
+      {
+       "title": "립스티커즈, 신곡 ‘VIVID’ 발매..무한한 가능성 노래한다 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1MNzFYMk5BOTVjaTdPTUJxOEtzSjFFUXFSbjhlN1djMkMtdFBSYlNLSDFNcTBOUGYzeVlvSHZkb2VtbVM0ZkYyQ09XamlGZnRtV1dmOQ?oc=5",
+       "source": "OSEN"
+      },
+      {
+       "title": "립스티커즈, 신곡 ‘VIVID’ 발매..무한한 가능성 노래한다 [공식]",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQTVneExZajQzaU5waXZReGQwZVNuS1RsWTZRbkE4cWtkRGozc0dZb2JqYUo5LS1DNW0tMUNZRk1wZkZhSms3SmhPdS00VmhRcmdYcXpGT0R5Y2MtckZCWTU0WVhERWU3ZGl2RW5UVlF6c0xjYkhoUHRqS3RTRXpXNEJWRXd6cjNoVlVHRlFfdXpQelNXUWxraG03NVFjMWZkQzZOUHBsd9IBpwFBVV95cUxPQTVneExZajQzaU5waXZReGQwZVNuS1RsWTZRbkE4cWtkRGozc0dZb2JqYUo5LS1DNW0tMUNZRk1wZkZhSms3SmhPdS00VmhRcmdYcXpGT0R5Y2MtckZCWTU0WVhERWU3ZGl2RW5UVlF6c0xjYkhoUHRqS3RTRXpXNEJWRXd6cjNoVlVHRlFfdXpQelNXUWxraG03NVFjMWZkQzZOUHBsdw?oc=5",
+       "source": "Chosunbiz"
+      }
+     ]
+    },
+    {
+     "title": "Concord marching band will perform in rescheduled Macy’s Thanksgiving Day Parade",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "Concord marching band will perform in rescheduled Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb2tpVUoxY2dSbjZMLXk4Z1FjRjIxejNtMUl0U2RhTWZ5NFJJZEYtNmVHd3RDNzk4MC1pNENERjBnQlFHaXF0cVlxR09QVHJNQ0NzMnMxbVRZeGNnaFRSaFJxa0M1Y3JhdUFzWFR6NEVyN25UVFdfLUIxTktKZktlXzhnOU0tRThxWG1CS1Y5ME5wWVV0Tm1ob19sUWk0Mkt5dmNwZnN1RUNZRGJQWVNEbnpyRXVkOEFJcUNKa9IB0AFBVV95cUxOdG0xUm1QTkloQ1FDaUFGV1MxcFFOS3BmazM2Nmlzbzlpb0pZMDRkNHhraW9QNDNrU3BRMHFzRzRReGlOZy1fQS1QaEZ4bjZXY2RPNFJPTWRRa3hlU0M3QWFSMWlnZFFhX0VqTzBrNGpvd2RjQXczelNSLW54dGJBZFpOMmtPZ2JRNlN5N2VBMXZLVkh5cHdfblZUSDJtZG5ESXdrU1lMa1FWdDNYdExia0Q1ZXBZSzBMdmJLOTVlR2pTeEt4dUVXZUdxY2stYTk4?oc=5",
+       "source": "WNDU"
+      },
+      {
+       "title": "UConn Marching Band to perform in postponed Macy's Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQU0swMG1vYW1nTGJkdzFpMFYzbjVTUGVLaUFzT0FlTE1QUWxtS056RUdpaUJpemJVVTRoT0ozZ0FkR2RMUy1XdUJSTzBNNzBLNVdkTG9FZm42RFJBODdkSnpSczhQOHNfRThJa21GQWNFVTRnU180SGthZmtvODF6SXdxbm5qbjZkWWd1YlBXNS1ZcXdNU2hEZmZrZVVyQ0QybVFPc3hmMEZvVnFmdHdNQWloQi1QNmtFb1A2OVJYWVA0eksyNDdncTJ5WUxaRWpfa0haYzYtTEU5M2NPbmdQQ2dwMzBGOXo2Z1h3b1NoVQ?oc=5",
+       "source": "fox61.com"
+      },
+      {
+       "title": "East TN high school band adjusts New York plans to perform in postponed Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQm9hSlVXSlhBNW5xN29pUkRKWEtETHhzdGgxRUVXV0IydFkybElDTktVU3VDNzV2R0hoeDQxV2EtSUYxX1gtb28zbEFDejRUT1pxc24zUHF1OGFJVXJIXzB4d21EdkZjUTBuRDFCMk9Uajdrd2gxaEF6UzJvdGVOclR3a25pS2dKLVdrQ2ZxRjh2eW9KZjJQRUVJUnhNVmNsaUx4SHVHSjg0YlJBemRYZ1g0ZzdETXNfZ0tpYm5aOVNGN1BnaFE?oc=5",
+       "source": "WVLT"
+      },
+      {
+       "title": "UConn marching band still participating in delayed Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWXltU2RvMG1HNzBkNGR3R3IzdVBibG84TGpGV2pZSnVRbVg5ekJHaGdKYmM3NzZPdG1LRHpjRHE1RmhyRlp4OFYxbmQxbkRVUmt2b0JCTUl4Vjg5TTJGMEduQTRocThYUm8xWDhCRF9QcHZ5Tk1oZFhMZEVJYm03Rm5rV190b2tJdDR5aUhidVlHbE1wRkhlNl9HUlNOb252dXlVVDVWMGJMY09IVUkydHpwMFdUM29P?oc=5",
+       "source": "WTNH.com"
+      },
+      {
+       "title": "UConn marching band will still perform in rescheduled Macy's Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQmlEVUZoa0RDWXRBLTI2Y3JOUlgzTEVPd21aam1jcGNDME00MUlHYVFfZVNVV0ZPTTZtMkZ4Q18yeC1WRGJxb3VsdWVMMUE2OEFzcGZXMmlFUm11RnVLNzd6Q3lnQk9VQVdZSkdwdzZEOTY3X19qdzlIRlNoT0UzUU4tZW41dDRWdDJfeVN6VXZzeHV3YVJPSFRCbk1pYUlGTzA3ak03cDZyMkhyYXdLbE1NOTRsdTFtLXVaOEJrNWphYTBCc0FzQkRIbHlJcUQyZExCZm4xd9IB3wFBVV95cUxPa2dqTEJoZ0w4Wm5ndzh2Q1VBbjlLZVIyYVg1OUlKU0JLellqZU1MakhuNE44bm5NN0VsLTlaanRxeERMNWJ6TkE5ZVc5d3k1bERCS1RTMEd0YnBFTFlBUHNsM1hGVEItRWkxbmhsLWdTMlRxLVl5SnpDbUFYdmtJci1TNUd1ZmgwWWJKakhYTjBNMW4zdFVkcUdIc0t0SloxeGRRTlRhT0hZZFJkOGFseGVZTDhaQjFuaHl6dDBMMzFhM0JmUjg2d2t6Rmxkdk5mSWdZRFZsY25QVm5vU0lN?oc=5",
+       "source": "NBC Connecticut"
+      }
+     ]
+    },
+    {
+     "title": "South Carolina high school band prepares for Macy’s Thanksgiving Day Parade",
+     "summary": null,
+     "ai": false,
+     "article_count": 7,
+     "source_count": 7,
+     "links": [
+      {
+       "title": "South Carolina high school band prepares for Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTm1VWTNhb3JpLXY3ZGRqbEFLNFB5S2NTbHRCc2hmZEZDNlZKMjR6b1dWT0lvZE5WSjNrTjdXS19wR1laSU1NdFlma1VzOWRhZ1kzV1hWQ3NzNURNWEhEMUpXZVR1c0pjQWkwaTFFMjltVlVmYW9Yd2x5S2NmWHIyeEF2X3BCMkhhTTJldnkxdzJxQksyMlRfUGpFQkU0dzFNM2I4bkttdHI1QXR0NW9ZY3dncmptbGk4NldhYU1RUQ?oc=5",
+       "source": "Queen City News"
+      },
+      {
+       "title": "South Carolina high school band ‘committed’ to performing in now-postponed Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZEZOUk96VjZmVVUzbHZVOGlXeEtVeXYyV2M4S3hQeno5UDlpb3RSaTB4aWxiR0gwWmNpaWRQQlowY1lfUzZWRXhibS1kc0c1Z1JkWlNxWlZFVDkyRGt4YXhoLW9WX2VTZFUxYWJIX0d4YVNZMDNvb2xnVWVoR0QwanZVamlEWjU2X1VHWG5INlpsOWxTazZZSGoyU0RwUjExZnNnVWpFODJxczVZTUwtUUotQk9VTi1oQjhsOTc0MWpnZ1c5TmFMTNIB3AFBVV95cUxQRkRBSW16bnhkMXRPS3FVOWRUS0RxV1pDNkpjQk9NREcwNEtaWlprX1djQ3hickRnTFQ3NE1xMUc2a3BtMHJsdl9fQUtpWldMa3FzNmlrcEVveGVJQkRFUzJiZldYTTRNU3lNSndrRzdZd3QySTdrcXVqS3FXMHV2VDF0NW1hQzg0N1FqNjhkTGlSSjc2cEI0Wlh0cW9oTlZIQzcteU9KOHYyUHBud3I5TF9lZ29HOHcwU3l6NWdqZXdyeElRaF9EZGwzd2dBVlNuaUROZzN6dXZqeE5m?oc=5",
+       "source": "WBTV"
+      },
+      {
+       "title": "Byrnes High School band committed to performing in postponed Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaXA5dkpOQ3h6WGdZZ2Q2WDEwOEdtVHo3OXR0LVhSNHUxNmZFb205STZQVGdwTGJyZ2RlWi1CbHZORjEyajZOeEYxdVJHVXdvQS1BTmRnWkE3bmhjR3lUWkhPd0E2Q3J3REFIXzZsMjZ3Q0hpWFp0YVZTS0dwX1dpYXRyNjB2ZHpCN3FnbWVVUXdySm1uT2RYdUdWclN3eG5FRGhfaDBFOVRjbVBLRVdpcGlMQXdJZDd1SHk2SzU3dC04TExtM0pRZ1pn?oc=5",
+       "source": "FOX Carolina News"
+      },
+      {
+       "title": "Byrnes High School band committed to performing in postponed Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTVSbzJHNWhIX1hrU0hoNFh3QkJaQzhQb0NTSzdsUWNPdFVmbUt2Z2V5RGwxUFQ0ekZQOUp1M3lmamlHY2pRd3FPWUprY0RNX3FvakJQYTdaUXdDQ24xcnFISWZTbm5FSTlCU3RyWmd0SW1BTEM2ZHB6QjRWMDhKNWNpaV83NnluOHRWQURhNTZhMUE3b2RXTUN5OGpKTnNoSlRrREdZOXN1cXMyRndSV0xfNkRGOXZLZnhNSTlDc08?oc=5",
+       "source": "WSMV"
+      },
+      {
+       "title": "Byrnes High School band committed to performing in postponed Macy’s Thanksgiving Day Parade",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRzJGeUNwUHpqZ2xWVTVYLUs3Y3BEby1TaWFkOWdkSDY0aXRXU2NEWWlUb2pJT3MxZVNCdy12Nlo1dEZGZ2pmVFFaMmxjcFp3SjVOZFhMWEhaTVBMN3RyQmtsWThYUF9zTjNJNHk1VUw0VGlCX1lyWEV5YXk4YUduVnlCMGxYT2daRTgxbExET3owQWhYaGpEWVhwUmhYcHUyMDJPdjhLT0Q1RDhQZ19qOXhzNlFxTUpFeEkzcEo0Y2Q?oc=5",
+       "source": "WCAX"
+      }
+     ]
+    },
+    {
+     "title": "파리바게뜨, 마크리 신곡 담은 ‘PLAY 윈터팝’ 광고 본편 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "파리바게뜨, 마크리 신곡 담은 ‘PLAY 윈터팝’ 광고 본편 공개",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9laGlhRGZhSWpCY0k1NjNlWHVab3pFS3VvLWZRaTNxU2t5bGFWNFNCd0JtU05jZkhObTA5amt6dkNyeThrTHF1cDlGc0UwWWxneTVyWjYxbVFMTlBUNnpNeWl1Vmltb01menNF?oc=5",
+       "source": "맥스무비"
+      },
+      {
+       "title": "파리바게뜨, 홀리데이 캠페인 ‘PLAY 윈터팝’ 광고 공개...마크리 신곡과 케이크 라인업 선봬",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Jd3FqYUJhM2RkeFFJU295d2VYU3RRdzktM24zazdvczRIbF9oT1pOemFXTXlFN05qNW1kVU1Pb3U3a2MyN0ZrSEFZeWdHYjV0aEh6cmRtQUlMZ25nLWtsWWFBMF84QmRsN3dwLWVKONIBckFVX3lxTE95SzFnYVNKdVo5M1NCRFdlLVgxSlBraGFTRExIdWpLSGtKTGg1ckNVczliZnBXVTNIeHQzVUd3NjBDekg1UW9MNnRCTjFFOUVhWEJDTnlvT21LbHNfS3hUTVFpenZSdWt3WnVVSXhFR0o5Zw?oc=5",
+       "source": "팝콘뉴스"
+      },
+      {
+       "title": "파리바게뜨 홀리데이 케이크 사전예약, 마크리 신곡과 연말 정조준",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9UYTFTLUNFZldyRHR3R2FoT1Z0UDZRZmVIbVRVSHA3WkNlZVdVQk5ETXlEbEljUmhpek0tYUw5SFhXUENoamFncjljemc?oc=5",
+       "source": "테넌트뉴스"
+      },
+      {
+       "title": "파리바게뜨, 'PLAY 윈터팝' 광고 본편 공개…마크리 신곡 삽입",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKVVVFZ3dmOGQ0WmxKUUs4MDhPdjhRWWY0NlBYUGNuSWJaUm9lSXdsTHVKdHotbVhqelBvTmllNmp1SFFKUWp0bVNOcURSRjFkcEFKNms0YzQ5QkpIVjRCQTRIV0VMVEVZZDRxSzhR?oc=5",
+       "source": "국제뉴스"
+      },
+      {
+       "title": "파리바게뜨, 'PLAY 윈터팝' 광고 영상 본편 공개…마크리 신곡 담아",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12ZlJNc2tvQk0td01fNENzQ1FNbDh5NUdfQU9qYTVlV2syaEVFN1V2SGJjOVIwcHJqaWlIdG1Mb0tPSlRKU2wzNExDSW14dXQxQnFsakJob2ZBWExlRXFUN3l6TWgxdkJ5V0p4SkZHOU41c0XSAXdBVV95cUxOd2o4RVcyU0FlWkFyd2FJZVZweElvRzN0a1J2Zm4zX3c3eFlOOVRsWGFQd3g1V29waHFhMktSQ3FXa0tiU0hReU8tM2ZkdXhRV0NwSTJmQm0xeHBnU1czMEp1ckdpcFB6ZjMyUXlsWW9JR29oallfNA?oc=5",
+       "source": "핀포인트뉴스"
+      }
+     ]
+    },
+    {
+     "title": "Michael Giles, King Crimson’s Founding Drummer, Dead at 84",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "Michael Giles, King Crimson’s Founding Drummer, Dead at 84",
+       "url": "https://consequence.net/2026/11/michael-giles-king-crimson-founding-drummer-dead/",
+       "source": "Consequence"
+      },
+      {
+       "title": "Founding Member of Legendary 60s Rock Band Dead at 84: Remembering King Crimson’s Michael Giles, Once Hailed as One of the Genre’s “Most Exciting and Original” Drummers",
+       "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOTGFvSGNEaVNmUl9ZeVJ0MnVESzN2cW1kMWg0RV9UY3NnQTEyTEcyZTFNamlURjByOS15R25rZ2ZqanpacjVpRkRPeG5oeEc2bGRYdk9sSnZGdDVOcXpyYjNUMUZnbnV6ZXFoY0pGZUNjRDNKLXhEdWJKTTd2OXZMQVRqbmdtaFctb2xDcG5aV0VzSjZBclpyZFVjSmQ2ZUFicWI3MVhfRzl1dmIzejlHUC10LVF6YVVfQlZSakhNMnctdzhJb1lUU09paVdfTFN2Mlp1SlB1Yk9uQTNnYkZENzNERkczQVE0UjRWeER6eFpORndYYkJKbFQ3VTNYcVYtdjFHN2ZQM2UxcmdESmZzSUNxQWJqdllYNVlmUl9RMA?oc=5",
+       "source": "American Songwriter"
+      },
+      {
+       "title": "Original King Crimson Drummer Michael Giles Dead At 84",
+       "url": "https://stereogum.com/2521598/original-king-crimson-drummer-michael-giles-dead-at-84/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "King Crimson Co-Founder Michael Giles Dead at 84",
+       "url": "https://www.rollingstone.com/music/music-news/king-crimson-michael-giles-dead-obituary-1235664328/",
+       "source": "Rolling Stone"
+      },
+      {
+       "title": "King Crimson Co-Founder Michael Giles Dies at 84",
+       "url": "https://pitchfork.com/story/king-crimson-co-founder-michael-giles-dies-at-84/",
+       "source": "Pitchfork"
+      }
+     ]
+    },
+    {
+     "title": "사운드리퍼블리카, 멜론 1위 AI곡 유튜브 무단 등록 막았다",
+     "summary": null,
+     "ai": false,
+     "article_count": 6,
+     "source_count": 6,
+     "links": [
+      {
+       "title": "사운드리퍼블리카, 멜론 1위 AI곡 유튜브 무단 등록 막았다",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sUE9vbDhuVEI5QkNIVEdaWXJMaWE3TFhpQXVQS281VGhZRHgzYUhOX1l5UVo3SVNtTEttVVMzVnVhTWtCdTJfZFRnQ3FFUDhVQXhUT1lHTXQzMHRIOF82UDNVaVJzYzNTTF9rQw?oc=5",
+       "source": "ER 이코노믹리뷰"
+      },
+      {
+       "title": "사운드리퍼블리카, 멜론 1위곡 유튜브 무단 등록 삭제…“권리자 수익 정산 길 열었다”",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsOUxObnI5TW1WVmh0WTBvcURLWlZBN2hMZmN0SGc1UTg5aFFZbVk3SV8zdXhjMHV4U2xJZFB5ZEpRZmM0MlpQQnFOLWJVcG5FeVd2dHEwMGphRVVWNHpHbUx5SzUzNmhxR1HSAW5BVV95cUxPd1FUaTZlWVNJNnJVQXNqWnhKM2EwSUxmYm1EemNZMFBzNHp1eTR0ZkhtUzBrYWE5NkNZeU9oMXNWMjFqd2dnUlhieE9keFlhUEFFRUVnakxEblhZLUFBbnUzUGxrVkZNR2d6NjdJZw?oc=5",
+       "source": "퍼블릭타임스"
+      },
+      {
+       "title": "사운드리퍼블리카, 머무르 AI 음원 무단 등록 권리 소명으로 수익 보호",
+       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnaUl5WnhLSzNpbGdwODZxem51aHN3aXlNNmNWOGVtbkN3bUQ3ZF9jN1A0RUdpWjhQOG1WLWZtbHJQWVdxdHFYZEhjbGlLaXlWUHhRaGQ0ckRoUHYzeURR?oc=5",
+       "source": "헬로티"
+      },
+      {
+       "title": "사운드리퍼블리카, 멜론 1위 머무르 ‘꿈꾸던 어른이 되었나요?’ 유튜브 무단 등록 위기 넘겼다",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UeVF6WXluTlZWTV84WXRtM1J6UV81dkNYeVJldzFTN2V3TnBrZV9uZ2UwZnZYSlZyS3JBWTB4MGVKa2x2ekR6NFdhNlRQbVluZVlobWdaUVhhUVA3QzEtd0wwVQ?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "사운드리퍼블리카, 음원 무단등록 해결",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0NkRFYndfVFlvZjhoblRkcjJtMFRlYl9MNnBieTJmdWRqLXpDR3YzcXpfckZWdFRpN2VqN1FBU3luUUVZWmhnRXh2MUxLSWVlRHA0VmZxalVGLWc4REZuYmlGZWZxWjNLWTdv?oc=5",
+       "source": "한스경제"
+      }
+     ]
+    },
+    {
+     "title": "英밴드 듀란듀란 기타리스트 앤디 테일러 별세…향년 65세",
+     "summary": null,
+     "ai": false,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "英밴드 듀란듀란 기타리스트 앤디 테일러 별세…향년 65세",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95YW95TXpmSVNReU1ZZHZPdlV6RjF3WlZJUXQ5cExEZEg2VEFuZGJmUmU1cjI1cDJSTkJqeWk0LVlVZ1VNQkNjRlZKejU1amMyODBISWVDOFUwVFXSAWBBVV95cUxOTFJoTEZSZm10OXZlMEtqeWU5TmhCalAzM2s1ZTBHYUtEUUNuUlNscHhIRXdKSHZ3MDJmdG9TS1IxNk52djhobmNiZmluSVlpYWpmbUdaTEMxUzkxUGRKcXo?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "英밴드 듀란듀란 기타리스트 앤디 테일러 별세…향년 65세",
+       "url": "https://www.yna.co.kr/view/AKR20261126015200075",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "영국 전설적 밴드 듀란듀란 원년 기타리스트 앤디 테일러 별세…향년 65세",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LdUxDWUc1TmE0aUppNFNzZ19CcEQzc1hCUmNCX0d4OFlMSkczRmo4aS0zVGExck51UTJJSmFlNGFGWmRrZTBMalhuR1lxYVNZUGZhWF8wYjU4Z9IBWEFVX3lxTE9vZVphbVhGdUxpUDhPQmNkWnNGcXFMM3dmOXRfY3NNYzdCUVdLeEZ5VENPMWZ1X1hwZG01RkNyUWppU2NVdWJYYllhM3doME1Sa182Sldvb1U?oc=5",
+       "source": "아주경제"
+      },
+      {
+       "title": "英밴드 듀란듀란 출신 앤디 테일러, 전립선암 투병 끝 사망",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82azVDQjJWOG05Sy0tYWxxYllVTnpPeW1CUnAzOWpFOFN2Q3RtVlhKSmhGVFp2R2JWOXZZeklQZU5qUWlBeUY2OUlSSHVVb2s?oc=5",
+       "source": "조이뉴스24"
+      },
+      {
+       "title": "英밴드 듀란듀란의 앤디 테일러 별세",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1TcEYxOEozS25zYzBtTU9zb0VoMjJDVUpDYno2MEhtTVI2eDg4VGFuWFFleVItRVBkUFZrWS03QUhGYUZfbmtUQmNxekRZYWo0UGpmcS16Smg0QQ?oc=5",
+       "source": "파이낸셜뉴스"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
