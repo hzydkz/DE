@@ -1,0 +1,453 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-28T02:48:58.716030+00:00",
+ "model": "gemini:gemini-flash-latest",
+ "llm_calls": 8,
+ "llm_errors": [
+  "요약 c4~c7 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c8~c11 실패(1회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "요약 c12~c14 실패(1회차): ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)",
+  "요약 c12~c14 실패(2회차): HTTPError: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+ ],
+ "failed_sources": [
+  {
+   "id": "reddit-hiphopheads",
+   "name": "Reddit r/hiphopheads",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/hiphopheads/top/.rss?t=day"
+  },
+  {
+   "id": "reddit-kpop",
+   "name": "Reddit r/kpop",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/kpop/top/.rss?t=day"
+  }
+ ],
+ "categories": [
+  {
+   "key": "music",
+   "name": "음악",
+   "collected": 857,
+   "issues": [
+    {
+     "title": "듀란 듀란 기타리스트 앤디 테일러 65세로 사망",
+     "summary": "뉴웨이브 밴드 듀란 듀란(Duran Duran)의 기타리스트 앤디 테일러(Andy Taylor)가 65세의 나이로 사망했다. 그는 듀란 듀란의 멤버로서 '라이브 와이어(Live-Wire)' 기타리스트로 활동했다. 복수의 매체는 그의 부고를 전하며 밴드에서의 활약을 조명했다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTlhDRGF3UTdoWVZscm5PSnNfRG1WQVNQeUdSMjdua2pyMEpxY0swMDNYTExWX2Z1SjlNNWVrcTlwZjA0LVdkQjJ1MEpWLTFPc1NDdktpb0cyVWhiU0RJSTB2SHlSR3diRlhmb2t1RGFsYUduMWJFLVQ0NXE3TFNabkVuQnZvM0dlcXpqX1ZLcGxFODBmNWFJaHdxb3rSAaIBQVVfeXFMTl9ZUEpDNHM4YVRNdVZYZGw4QjdUdVVuT3BtMVJCdnluMkIyWWg2N3ZBdXAxcWk0NzczaS1tVndUNXRQbEt0QmRhSWExRVk4c2ZUaUV4dE9lbnJ6RXI0VmR1UXE2VFkzQm41SXF5WGVsWUZnT0l0N2JKSlhqbmRNV25YbXVXT3E2MU1lWlNNcUw3bE9jM3VKWUpZOEMydndRR2VB?oc=5",
+       "source": "PBS"
+      },
+      {
+       "title": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcVg0M1E0cFY2T29Ca0EtWkdTZ2VDRjVBdERVOVlVVXVvQUcwLXlFWEdjWjMybEViLTY5Wk5Bak9JVkZTeGZrTlpxajM2OEZ6aW1PcE9jcF9nY2pYY3FoQzNtSi1BM1pTYTd0RnI4Vm5CaUszQUxzUDN2TDZXM3dxbV84T1RNUQ?oc=5",
+       "source": "The New York Times"
+      },
+      {
+       "title": "Duran Duran band member dies at 65",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWDYwSUx3elJZYkdyVTVlSExhSDdDQnZYZ19XZFdjd1ZjZHVjdzA1UDZITGFJWWc0LWV5Ymk2UUNhRHEybWhoSGZKSEZIVHhCZHE5YlZCRF8tS0JsSFBfTkgzTFpsbUQwdHN1TC0tdkZzd29yRnY5QmtPRlhudTRuUG9VSDc1RWpiLWVV?oc=5",
+       "source": "The Arkansas Democrat-Gazette"
+      }
+     ]
+    },
+    {
+     "title": "킹 크림슨 공동 창립자 드러머 마이클 자일스 84세로 별세",
+     "summary": "프로그레시브 록 밴드 킹 크림슨(King Crimson)의 공동 창립자이자 원년 드러머인 마이클 자일스(Michael Giles)가 84세의 나이로 사망했다. 그는 1960년대 전설적인 밴드를 결성해 활동했다. 밴드의 음반 레이블 측은 프로그레시브 음악의 진화에 미친 그의 독보적인 공헌은 결코 잊히지 않을 것이라며 고인을 추모했다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Original drummer and co-founder of legendary ’60s rock band dead at 84",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ0JEMVJ5M2hFZVlKVUlOYlMySVhGWldYRHZ6REtNTG1CZ25QY184Z1ozT0VkY1RWODExYWU5SGV1RDd4akl3TXF6cENSRFIxeEYyNFdUTmFxWDRLQmZUbzB1SHRzbjRENkplVlhmS0xfOE4wSkY5cWNzamNoR3p1R1Z2bWdOQnR0bDhzNFdmbzIxeS0zVDJUSVhsYldZVW5nY2JtZnJxcDRoeWhGd2ppSHRSWTdOd2N3MkE?oc=5",
+       "source": "Page Six"
+      },
+      {
+       "title": "Michael Giles, King Crimson Co-Founder and Original Drummer, Dies at 84",
+       "url": "https://www.billboard.com/music/music-news/king-crimson-michael-giles-death-obituary-1236390176/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Co-founder of progressive rock band King Crimson dies at 84",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU1luVDBKSFRxOFIwSUVCMDcwMm5zRmUxaU5TV2gteWQ1c1V6NFZyX2drM09rMjN3RVJQX3U1bDhnQVpIaHBTVkVHcWZXRWJkRUNtckU2ZjVvREVWRFMyX0ZCVFNfZWI1Wi1sZWVWTlVxNkstelJGRHFUQXp3RjEtTjFlRmNGOGM?oc=5",
+       "source": "WBAL News Radio"
+      }
+     ]
+    },
+    {
+     "title": "토론토 기타리스트 마이클 에커트 자택 침입 총격으로 사망",
+     "summary": "캐나다 토론토의 뮤지션이자 기타리스트인 마이클 에커트(Michael Eckert)가 자택 침입 사건으로 총에 맞아 39세의 나이로 사망했다. 사건은 토론토 미드타운의 자택에서 발생했다. 비보가 전해지자 블루 로데오(Blue Rodeo)는 그를 '위대한 토론토 뮤지션'이라 칭하며 추모했다. 빌리앤(Billianne)을 비롯한 캐나다의 여러 음악인들도 그를 기리는 애도의 뜻을 전했다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "Toronto Musician Michael Eckert Killed in Home Invasion: Blue Rodeo, Billianne & More Pay Tribute",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uVm1BVFZDWktYMnpCdFFhazVDUlBhR3VxVXh5cm1pVWlLa2pSek5jMzJWYjJVbm0tSE1hREJLZzFSWkt2bGJLdzBLX0lMRDl1c3V1VFhaU3hoOGZmNG1HWmplZjNmaVJTWGswT3oybHpjMkU?oc=5",
+       "source": "Billboard"
+      },
+      {
+       "title": "Toronto Musician Michael Eckert Killed In Home Invasion",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQXzhwa1o1cWpDa004MTFmSm52THFWMk1YbjNxdEhkUHphdHhLQWgtVkFEUHZCQnVhbUs3YmUzaE1VT0FzTVVZYnowTnlTWTFBb0NELV9DazJiNl91WGxQaEdJay10b0JzMVBLUVZoX203Q1dJNDNoeExyejZRZm9KdXZMcWlQZGEyVmxIRmRKdzEwYjBE?oc=5",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Blue Rodeo honours ‘great Toronto musician’ killed in midtown home invasion",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXTHhHRWdvWjBwUGpvdFNaajlVUVB1LVJFLWhVbGhLQlUyUXAxT2R3OUdMc2hYbkd1SzY2ZnloZm43VVhkWkV6YlpJc2FZMWM2YjV3c3NxR0p6U2RrYVhjOWdJcDlBSWRYRklRUG8wV1hzRXN2QThHQUpB?oc=5",
+       "source": "Global News"
+      },
+      {
+       "title": "Musician Michael Eckert, 39, shot dead in tragic home invasion",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYTIwX1pXRUd2WEswVnNLWVJWaDEwZ3NfUXM3eFdPWmpoQkZUdmIteEhCbXRZWkJGakxSb0MzN19RdHNER0NaNlZoS1lKcWtRZVBmYU9jTHhGbHNQVDgtNlJPazZYdklwX2czTWVZNmZrVzU2MXJ0anFiQU05QkhmLUVmV2tMVEdfZ1Y5NS1ScTd0dWhYWXphZ2pUZWlUOWFEbTRXeUkxdDctUmVXc3lkV0ZJa2U0WVQxZkphcmpnM1VhTnZZMVFKVDlhbw?oc=5",
+       "source": "Nine.com.au"
+      },
+      {
+       "title": "Blue Rodeo, other Canadian musicians pay tribute to Toronto guitarist killed in home invasion",
+       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMzk2cFhpWmZwbUVUTklKUVBteS1LYVAzdmF1Rkw4ZS1HUnA5V2ttdDBxcE9EVEdveDYtMDgwMHAwQUFOSUFjeUVHSEFkaDVmcGpmQzhpYWRJZUlESVNwZ2J5Q1hjZnpFYXpsVjVMWU1sVWhZMThLeDhyWnJaQUlPQkFBdmFtTjVucllFdXB1OHRNVkdYVU9wNU9jSW5GVkdTTFN5cTVNSGRpMW9SY2dZOENVSmcyblQ0Ql80QWtjWS15ejhvaXkxM25JSUdmWWctR08tVEJrVjV1NUxJOVpxN1JzMlo?oc=5",
+       "source": "Toronto Star"
+      }
+     ]
+    },
+    {
+     "title": "아일릿 모카 5개월간의 건강상 공백 깨고 활동 복귀 발표",
+     "summary": "그룹 아일릿(ILLIT)의 멤버 모카(Moka)가 그룹 활동 복귀를 발표했다. 모카는 건강상의 이유로 5개월 동안 활동을 중단하고 휴식기를 가졌다. 이번 발표를 통해 그는 5개월간의 공백을 마무리하고 팀 활동에 다시 합류한다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "ILLIT's Moka announces return from hiatus? Here's what we know",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTjZnU0hxb2N6SExXOWhzR21yRWZvcWthWkRsUmR4LUpJMzJIdDdpS1k0QUFtaDgwcWx1OUhNNEJGOW02YTlCbERBNzJvVHhfcjBTdEI1aHlJTUpHTkZrVC12NmxuUmQ0UWU1RzdLQ0NLWUdKVnR5VlBzeWpEYzRTakpZRmNiaG5HZ2NfZHRtUUNUUFQ0NkxtYkNjOTBXUEFpYkE3X1UxVzIydjRCeVA2aXc3LVo0ME1HVDVMWQ?oc=5",
+       "source": "Business Upturn"
+      },
+      {
+       "title": "Illit's Moka announces return after 5-month health hiatus",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQTktWXh0YlYwZGg4QnNaWi1mMUJOVk9pUFVvNFhPSkwtbHZlZXl1OC0zVHg2VVdDYUl2NE81QWNYUVBVYy1HcWcxMC03U3dzNEIxYnpqQnB2bzVQa2lEcG5TWEc2SzZRMWViS25OY2U3cGlLRWdnWl9fNDhxTWxOUlBXZjFMMXdQb1lCeDktUkRhZmNhYWFRaWE4Z3RLRnYtZTVVWm9leDItNUpRWWRDOTk0WmvSAboBQVVfeXFMUEhXWkptdURqNlE4Z0ZXSEktOHBlMHhPUWxyTDgxN1g5Z01vcmxIajFTWVdTaWN6N0F5QUlRMllsR2ZjZm5iakZKN09CbEtMazZuUDVrVXRBV0daNmljR3BtVXRMYVc0ckRETVJEdHlCVnBGMmhjdWtQM0RVS2NMM1I5UWI5MHJhNFpHb2Rick9VVHE2b2V1cXRJNnI5TndFWDRCMTEwZ1JMZldsY20wcmRkcDk5Sl81NEx3?oc=5",
+       "source": "The Korea Times"
+      },
+      {
+       "title": "ILLIT’s MOKA Announces Return to Group Activities After Five-Month Hiatus",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CM05BekZMOEM1VGgwTjRxZmRFZU1Mek5aS3BxbmV1NktaaVcxXzZkUlJkbV9odUktcW9lTDlIVkpwLVNrQkFLVVlYYlFZOHRvdXN4Y0dXZnR4UGFEb1pKS3NYZER3NXZ6Skw3UmszbU9YLXNxZzJQcnRkRFY?oc=5",
+       "source": "InMusic Blog"
+      }
+     ]
+    },
+    {
+     "title": "투모로우바이투게더 신곡 엔젤 바이트 차트 및 리스너 급증",
+     "summary": "투모로우바이투게더의 신곡이 음원 차트에서 역주행하며 상승세를 보이고 있다. 신곡 '엔젤 바이트(Angel Bite)'는 멜론 리스너 수가 60% 급증했다. 이에 따라 청취자 수와 차트 순위가 동반 상승했다. 해당 곡은 여러 지표에서 뚜렷한 리스너 증가세를 나타내고 있다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "투모로우바이투게더, 신곡 역주행",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kVkdxNmVaTHVXSHJORjVGb3lnNDUzNGpOTGx3Rl9zUkxjaDJkRF91QkZHamFScVJITW9XakpJMUpGV2dtU216LWhyYkkzOVRENGdCUGlRbzRoUVNjTUJyQW54SmE?oc=5",
+       "source": "bnt뉴스"
+      },
+      {
+       "title": "투모로우바이투게더, 신곡 리스너 증가…청취자·차트 동반 상승",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oTFYtbEZ1OWV5Vk1JNWlDbU1lbTl0Sy1HWmg5aHJMdzNjUlZvdXl0aEpHVi1lTTNUR3FiV2FfTGMzUEFmNGNFXzhQbHQyQXNGRk1Sdl9wSQ?oc=5",
+       "source": "뉴스1"
+      },
+      {
+       "title": "투모로우바이투게더, 신곡 '엔젤 바이트' 멜론 리스너 60% 급증…차트 순위도 동반 상승",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03UngzTTFCMjE0SGd3akJrT3ZOUUg4OXNPMjNlOVhTb01ZUVFuZ2pBM2hZN3VDWDFNMFNNWUNUMjJKQ3JlSjJRWC0tUFBsRFhtdTlkcDlaSV8yZm8zMms3RjhGNVR3N3RVLXhJOGM3NmtOdw?oc=5",
+       "source": "스페셜타임스"
+      },
+      {
+       "title": "투모로우바이투게더 'Angel Bite', 음원 차트 상승세",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GN2FCUGRodXZWRFlOUUxwU2NWYWRBZFJRMEtSUU1Kd0x0N3ZqbFpMYXJCeTduYm5tRmN1RHdwbmNTbGdWbjg0NktjOGwtaUlzU0pRcHBGSTRlcXVrX2ctZndZalhjTHRRU3d2VTdPdTY5QQ?oc=5",
+       "source": "톱스타뉴스"
+      }
+     ]
+    },
+    {
+     "title": "라나 델 레이 추수감사절 맞아 새 앨범 작업 근황 공개",
+     "summary": "싱어송라이터 라나 델 레이가 추수감사절을 맞아 신보 작업 근황을 전했다. 그는 새 앨범 '스토브(Stove)'와 자매 앨범인 '스파이다(Spyda)'의 완성이 가까워지고 있으며 결과물에 만족한다고 밝혔다. 또한 수년에 걸쳐 예상치 못한 변화가 많았지만 마무리에 가까워졌다고 설명했다. 아울러 운명처럼 느껴지며 이 작업 이후 어디로 나아가야 할지 모르겠다는 소감과 함께 가사 일부를 암시했다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "Lana Del Rey Shares Thanksgiving Update On New Albums",
+       "url": "https://stereogum.com/2522030/lana-del-rey-shares-thanksgiving-update-on-new-albums/news/",
+       "source": "Stereogum"
+      },
+      {
+       "title": "Lana Del Rey Says New Albums Are ‘Getting Close’ to Completion: ‘I’m Happy With Them’",
+       "url": "https://www.billboard.com/music/music-news/lana-del-rey-new-albums-stove-spyda-update-1236390186/",
+       "source": "Billboard"
+      },
+      {
+       "title": "Lana Del Rey shares Thanksgiving update on incoming new albums: “It feels meant to be – it makes me wonder where I would even go after this”",
+       "url": "https://www.nme.com/news/music/lana-del-rey-shares-thanksgiving-update-on-incoming-new-albums-it-feels-meant-to-be-it-makes-me-wonder-where-i-would-even-go-after-this-3977104",
+       "source": "NME"
+      }
+     ]
+    },
+    {
+     "title": "배틀그라운드와 배틀그라운드 모바일 아이브와 음악 프로젝트 출시",
+     "summary": "PUBG: 배틀그라운드와 PUBG 모바일이 K팝 그룹 아이브(IVE)와 함께 공동 음악 프로젝트를 선보인다. 이번 프로젝트의 공식 명칭은 '더 스쿼드(THE SQUAD)'로 공개됐다. 양 게임 플랫폼은 아이브와 협력해 신규 음악 및 관련 이벤트를 전개한다. 주요 외신들은 이번 협업 소식을 전하며 공식 음악 프로젝트의 출범을 알렸다.",
+     "ai": true,
+     "article_count": 5,
+     "source_count": 5,
+     "links": [
+      {
+       "title": "PUBG: Battlegrounds and PUBG Mobile launch joint music project THE SQUAD with K-pop group IVE",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFVIaTZxcEEtZ3E2R3F3VERGM1M2aUx3c2htekZ3ay0zbDhFenpyLVRsWl95Z2lsYXMtclJXR1E2dlZ3dlJ1MzNIY2RmeEowbkEyTWdMQ1Vpc0FJa0VTRmx5bHBabDhMT1J0RTQ0LW9Zdmc2dXdDdC15ZWRvbGIxOU1zbjFNMDZpQ0UzRGtPYkxNRnNVeWM4X01HTUdnRXEtaFUxci1RS3MtZGY2LUdUMGNNM3lUOXBRek9jQUNNMWhsVmVqWlRPRlZMR2tvMTFG?oc=5",
+       "source": "Inven Global"
+      },
+      {
+       "title": "‘PUBG’, ‘PUBG MOBILE’ Launch New Music Project with K-pop Group IVE",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTV82VlNGRWVUSjJWRXJHT2k5ODJmckJGbk5iUm5ZdlVjS3owcWFzTFUzZFJnQWsyZjFrMlhMMDBGaTdmUE41cmV1dHRzWElzZ0w3MVZhOEFZbEJoVEVjTlk3U2xKamRWSWlTQnVQUGpScWpvMk1JNlhQa09zajNOMWNvd3E4cWxHOVdQS25YZEJVUUQxM3VBSWJB?oc=5",
+       "source": "PlayDayOne"
+      },
+      {
+       "title": "PUBG: Battlegrounds & Mobile Reveals New Event With K-Pop Group IVE",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb2xzSVM3TUNaTWRibk9OZ29rbjJYbi14M2VwNHR2VnExWHRPaG9fcjIxbnhxZlRSYmQwVGtpTkIzQ0Ryc0ZlMDZWU3BYZ19OVkY1YmZHZWRJcU1IWnBaSjE3NHhNcUtPVzE4dU1HblhUTF80cnZxa3V2U2pxN05fV01YYWhUQThBNV9QQjJmbXBHMnUxdUJfdXVQWGY?oc=5",
+       "source": "Bleeding Cool News"
+      },
+      {
+       "title": "K/DA Gets New Rival With Official PUBG K-Pop Project",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IamF1dW0tZEVfNWp1ZzhhbU9nNDdLOGxaOVlCblVJOWwwV1IycVoxRmdWZm1DVzIwZVhSVlRYYnhXd0hhU0ZZaU96N0xtNFFDVWdIYk15ZkZ0Yl80U25GXzBucXRfNlJKLVlaOF9B?oc=5",
+       "source": "ScreenRant"
+      },
+      {
+       "title": "PUBG Mobile announces The Squad music project, with K-pop group IVE leading the way",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaUhQLUwzR3NydWRVSEtIVzd5RDhURFNUUXV3LWR3c1JUVFF6TzE4R2RfeTZrY1BmQTZ6VnBkTzR6Ym4zcjJTUUJwaDRwQjJEcWphWlk4MXRKTHpOMV9NWnZJR1hUZkk0QzFlSFJsZC15dW9MZmxLX3RlUnIzMFM0SmNPQVgwSFE3TUU5eVUyNWpEMnN3bnVVXzFraXVua1FNTnR0aEdWazVVSUl1NE1iWm1BWVI?oc=5",
+       "source": "GamingonPhone"
+      }
+     ]
+    },
+    {
+     "title": "엠넷 반다이 남코와 협력해 버추얼 보이그룹 서바이벌 제작",
+     "summary": "엠넷(Mnet)이 일본 반다이 남코와 손잡고 버추얼 보이그룹 서바이벌 프로그램을 제작한다. 엠넷은 최초로 버추얼 아이돌 서바이벌을 론칭하며 2028년 방송을 목표로 준비 중이라고 공식 입장을 밝혔다. 이번 프로젝트는 한일 양사의 협업을 통해 버추얼 아이돌 그룹을 선보이는 프로그램이다. 방송사는 새로운 형태의 서바이벌 프로그램을 목표 시점에 맞춰 순차적으로 준비해 나갈 예정이다.",
+     "ai": true,
+     "article_count": 24,
+     "source_count": 24,
+     "links": [
+      {
+       "title": "엠넷, 日 반다이 남코와 손잡고 버추얼 보이그룹 서바이벌 제작",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41aFBMV3FQa0lhb1VhemE0dWRiRVlUazVGaExON1pxWXRTWWQ1R2Z1WXRNWTg4bEVrMURuNnRmaVc0VVFBYlNkRlJxcjF1LThiNkRqd0huOXdwLWR0N1Zoa1ZGN0xYQQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "Mnet, 최초로 버추얼 아이돌 서바이벌 만든다…日 반다이 남코와 협업",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kOXhEVXkwaGFvSzRDeFFyN2tsTEZIUktIZy1KeG02SERtQmJic0laaW9LZzhJcVdnRURVY1BPV1FiTUFzZkEtczBxNG1ZdjhYaHoxb09QUVhqRnBZcDRUYVlB?oc=5",
+       "source": "스포츠월드"
+      },
+      {
+       "title": "엠넷, 반다이 남코와 손잡고 버추얼 아이돌 서바이벌 제작…2028년 방송 목표",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sOXV4ZWkzR3BaOU9OYW80QWFFaEtPZnJyWEN4NC1ka1RCTHlBTWtFYm5tVjk5aDRicE9Zd19KRjlHTnpTWjJuQ3dCRjdGSllnbkwwS3U0bEdjbk5F?oc=5",
+       "source": "뉴스핌"
+      },
+      {
+       "title": "Mnet, 日 반다이 남코와 손잡고 버추얼 아이돌 서바이벌 론칭",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV0U0aXNoejVubWVrckk5RXYtdVduMnNaNmR3cmstMUd2SnBWU2U3Ulo4UllGSDgtd1Jza3RmSm9xV2wzRTNKelZ4MmRZQW92Z19aVE9vck9id3prektVMUhzNFNVaGpmT3cxaUZBcUlqUm54dk9qeGlzZG14OEYtaA?oc=5",
+       "source": "이데일리"
+      },
+      {
+       "title": "Mnet, 이번엔 버추얼 아이돌이다… 2028년 새 서바이벌 론칭 목표",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zTG8yTGtEaTVvTlc4cmk1U0FMRTFVUUptSUtpSVR6dzFSWUtFTTFmZ01jUDB5bjRmb1VETmlaQTVfeVA0Vk9PYWJDTXV6Ml8tLTROSnBvTmxtS28?oc=5",
+       "source": "일간스포츠"
+      }
+     ]
+    },
+    {
+     "title": "서혜진 사단 한일 밴드 오디션 '밴드왕', 1월 첫 방송",
+     "summary": "서혜진 사단이 제작하는 SBS 한일 밴드 오디션 프로그램 '밴드왕'이 첫 방송 일정을 확정했다. '밴드왕'은 2027년 1월 22일 첫 방송되며 한일 양국에서 동시 출격한다. 제작진은 앞서 송가인과 임영웅을 배출한 바 있다. 이번 프로그램은 한일 합작 오디션으로 꾸려져 시청자들을 찾을 예정이다.",
+     "ai": true,
+     "article_count": 13,
+     "source_count": 13,
+     "links": [
+      {
+       "title": "밴드왕, 1월 22일 첫방",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80Y3FBSGFtaTBjNFQxaGkyU0NlZUZQUUhpYzVobjF6QkswSTFvS3lFaWFIeEpkRm1Za1NMdTFWeTc4Rkc1M2FMbzFDcjN4UUxlVXRUc2Q5eU96ZWYtYkZia016aVM?oc=5",
+       "source": "bnt뉴스"
+      },
+      {
+       "title": "SBS 한일 밴드 오디션 '밴드왕', 2027년 1월 22일 첫 방송",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1RUXhQRG5PVFFwdWZqVGduVUphN0xtS1g4QWhtcF9Wbk81bUhMak5HYjFJU1kyZTU1YmRNTG00eXJHVVllUDg5aTJYck9POUNWeDk3Tk96Q0FVZDZMNGQ0dTE3YjlSWWVicF9uWC1PZmc5X3hm?oc=5",
+       "source": "스타데일리뉴스"
+      },
+      {
+       "title": "'밴드왕', 2027년 1월 첫 방송 확정…한일 동시 출격",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96Q05HbWxWd1ZxT0JjRXFnR0Jnck5Da3o2dVB2Q2NFSzJPc1VZSW14bVE0RnB0SFVGUFhFYVdURUxqcWE5YzRxMUVsRHpQcFgybDhObDFBSWw2amVtMHBpazNMTy1SNi1EZUdGSUstRF8?oc=5",
+       "source": "티브이데일리"
+      },
+      {
+       "title": "송가인·임영웅 배출한 서혜진 사단, 이번엔 밴드다…`밴드왕` 1월 22일 첫방",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05cWdIM0llS2hKRzdvamI3RzhObnBfcjRfMUxSVGpXR0N2QkFwQ1RRX2VZaU4yb1BJa2duQ1FtYk1KeXFzS1BRdTJMSEQ0QmEzN2FzLUFTX0hGSzNWYjBjajl0M0c3QQ?oc=5",
+       "source": "마이데일리"
+      },
+      {
+       "title": "한일 합작 '밴드왕', 1월22일 첫방송⋯\"심장 울리는 전율\"",
+       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05dDA2ejlmV2ZfR040VmNrNS1KNV9OQVRpZkNYVHk2VlVDNzhBc2tMSTBGTjlubE5ZU1M4WGlKSDRHWU5wandkNExpNEZCUzQ?oc=5",
+       "source": "조이뉴스24"
+      }
+     ]
+    },
+    {
+     "title": "이창섭과 마마무 솔라, 12월 1일 듀엣곡 발매",
+     "summary": "가수 이창섭과 마마무 솔라가 듀엣 신곡을 발표한다. 두 사람이 함께한 신곡의 제목은 '아침에 혼자 눈을 뜨더라도'이다. 이번 신곡은 이별 발라드 곡으로 완성됐다. 해당 음원은 오는 12월 1일에 정식 발매될 예정이다.",
+     "ai": true,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "이창섭X솔라, 12월 1일 신곡",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56MVVEZDRGS21GNWxQRWRIZWZRV1RNN3FDV3JxUy04VTg1SmxXWjFSTldEcXpoZ2Mwb25xT09EeS1fZ0owMW44Nk84dzd6dWNFMzFmUXBRd1A2UGNwRHBhNm1wVG8?oc=5",
+       "source": "bnt뉴스"
+      },
+      {
+       "title": "이창섭·솔라, 이별 발라드로 듀엣 성사…12월 1일 음원 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1TU2NFNzVfVS1yc1NBUVg5Q2d2TjBQRHQxWFlUY2Zid3N6cDZzYW82WTA3Y25xa0padUlqSnFIajJzV3VRVzBDUzdEbVZQOE1vVG91bTZUWnh0Rm1xYmJvaHhSR3h3QQ?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "‘감성 듀엣’ 이창섭·마마무 솔라, 12월 1일 신곡 발표",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01NVZGZ1Z2WmgwQUxEZktmamtxRkZEc1FFZVQtQzlGMHhuajF3MlN6UElhNVV1OWJ4ZDJLc2V3NXBpOEhhN2c2VUZPcGNSUTM4MUU2Nw?oc=5",
+       "source": "JTBC"
+      },
+      {
+       "title": "이창섭X솔라, 12월 1일 신곡 `아침에 혼자 눈을 뜨더라도` 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRbjVBbjBUX1dtUGZqSlhFRUh1Z01LeHNsM0E0SjNfQVp1NS1ta01JT0M0eFRLdmsxcGlTVVBlUDB6WHpEaFk3c01xU2VLcXlzOTUtTkZTeFdQdlpiVjBSOEotRWE2Zw?oc=5",
+       "source": "마이데일리"
+      }
+     ]
+    },
+    {
+     "title": "김종국, 박원과 협업 신곡 28일 성남 콘서트서 최초 공개",
+     "summary": "가수 김종국이 싱어송라이터 박원과 협업한 신곡을 선보인다. 김종국은 앞서 협업한 로이킴에 이어 박원과 새롭게 호흡을 맞췄다. 이번 신곡은 오는 28일 열리는 성남 콘서트 무대에서 최초로 공개된다. 김종국은 콘서트 현장에서 관객들에게 신곡을 첫 선을 보일 예정이다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "김종국, 로이킴 이어 박원과 협업…28일 성남 콘서트서 신곡 최초 공개",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UN0xnckdaLXNtbmlhZTkzRnJtMTNLTl9ncml3UG94YmdrM3VCZUJxMFdkaGRwUGtYanlNbWU5V2Ntcmk4TUd1eS1HaEpPanp6cGRLbkVpcE8zdEVsVnlyMVBaTnphZw?oc=5",
+       "source": "싱글리스트"
+      },
+      {
+       "title": "김종국, 박원과 신곡 협업",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02ZUtfMkV0RU9oMHVFMFhZY2ZhUmtKNEFyeTZwdnFROWtOdkZrdnJMZUZ1Qk11WTNGYm0tMF8xNUsyWUprMTUxS1FpWFlzRFFZc2pERUVESlpGVVQtbDRYaEVHQlo?oc=5",
+       "source": "bnt뉴스"
+      },
+      {
+       "title": "김종국, 박원과 협업 신곡… 28일 성남 콘서트서 첫 선",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzU3E5SUxGTU9Nb2ZZOXFvSmdNQ3dLVzl4R2gtZEpCUDhnNU1CajgySGEyWTJNaUxEbnZFVWw4T1prTDJyNERzLWJURTZjQTBPVUl1UVdVYVNSQQ?oc=5",
+       "source": "브릿지경제"
+      }
+     ]
+    },
+    {
+     "title": "폴킴, 27일 캐럴 신곡 '마이 온리 원' 발매",
+     "summary": "가수 폴킴이 겨울 캐럴 신곡을 발표했다. 폴킴은 27일 오후 2시 새 싱글 '마이 온리 원'(My Only One)을 공개했다. 이번 신곡은 겨울 음원 차트를 겨냥해 발매됐다.",
+     "ai": true,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "[가요소식] 폴킴, 오늘 캐럴 '마이 온리 원' 발표",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FU3FTVmRfcExSaGZncmlUcC1TYUJYdUw1Z0hzOHE4VHFUTkN4YV9wd005Q29xakFkaGFKN3QxZkxldWZyM0VFcDhTX21kLS1oc2owNmN6N1BWcVXSAWBBVV95cUxNVVVFSlQtMTJuR0ZsVWdkWWNDaFZxMGhjRzFEZE4zN0tRaHhxUXVTdENFeFQ0QzVXdE1MU0hqRjNaSGs4eDdMcmp6R0dQZ1RxUnhCb3J3WTN1dnotTXFlLVA?oc=5",
+       "source": "연합뉴스"
+      },
+      {
+       "title": "[가요소식] 폴킴, 오늘 캐럴 '마이 온리 원' 발표",
+       "url": "https://www.yna.co.kr/view/AKR20261127041000005",
+       "source": "연합뉴스 연예"
+      },
+      {
+       "title": "폴킴, 겨울 차트 겨냥 신곡 '마이 온리 원' 발매",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaW54RVN1ZFNfcmtFVDJLYTVTSk5ud1JvOEdyQmk2dXRCMDFidF8xcHhuMGRUakhQaWFqeGFNbnFqMDBnenFBYU1OS3R6U2Flb0pSX051U2kybW5BM09ubkprTzJDZ2VEbTFMaTdURm9NSC1zZFcxU3JpNGZpSE5Kag?oc=5",
+       "source": "이데일리"
+      }
+     ]
+    },
+    {
+     "title": "SF9 휘영, 아날로그 감성 담은 솔로 신곡 '선셋' 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 3,
+     "source_count": 3,
+     "links": [
+      {
+       "title": "SF9휘영, 신곡 ‘Sunset’ 오늘 발매",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zQXdYRGtHM0xZM0hObVJTamljbElKM0M1VzNtRHE2bkp1bmYyZnJacGFDanhqcEhWSmkxbzhTTUtySk4xYkMyS2RJdGllRFc2SFhjTERKeFpLbTI2NEhLNnY1bFhyVEhEZnp6VmIyUQ?oc=5",
+       "source": "뉴스파이어"
+      },
+      {
+       "title": "SF9휘영, 신곡 ‘Sunset’ 오늘 발매",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SMm1kUmRCdEJyNzRkRVF1SnJNYjFuODlTTFB0QTBscnpjV1FFRlNaSzhBWUZGa2lBNXRTRG1rM3NBcHlPNDBTb2oyQWI0elRhRkZvVEJ4MmhSd05WempjWElVRG8yOEl1LVE?oc=5",
+       "source": "전북제일신문"
+      },
+      {
+       "title": "SF9 휘영, 오늘(27일) 신곡 ‘Sunset’ 발매…아날로그 감성",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GQnFfWXViNzQ2bUtlTjA3WWNHLUhNR2R0Z0djVFU5eDRhOEhaZXJPajlvNkRicFZVa2hMT1VFOV9TcGtOZ1VBVXVpcUZzdGhyTmhZUXk0QzJ5U1JUYVVGNVZ3WFFuQk95?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    },
+    {
+     "title": "싱어송라이터 오존, 데뷔 10년 만에 첫 정규앨범 발매",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "오존, 첫 정규앨범 ‘Qualia’ 발매…프라이빗 청음회 개최",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sZkVpOGY3MXlWc3ZDM2lacEl1NTdNZHVqRy1yaVpMV0xoZ0Uwb2R3bjF6bllXQTNTMWpnRVV4R01GZzVsQmRvU05rRjZLcW9VRkpsdmZn?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "오존, ‘데뷔 10년 만’ 첫 정규앨범 Qualia…총 8곡 수록",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rU2lEcXRtZnpxYl8zWUhJREc5WXhMWm1uS0lVVDRTbE4tekxHLVZzZDlRaDVldVE4Wkhyc29zYTVLdXZPR0ZuQVhUTlZ0Qi1PUlIwbzV6UWoyaWRuUGZzdXRGaw?oc=5",
+       "source": "MHN스포츠"
+      },
+      {
+       "title": "오존, 데뷔 10년 만에 첫 정규앨범 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PeE9CNF9EOEFtQkl6SHU4bWIzOElMWXZnd1VTVjJYaUFKSFdPZUI1SGN2SWJkMkxTZDl6ZGNMQWZCVVdaUHhlWjUxd00tSlIwdFNxWk9YSVFDbEF5Z2FtTlR6SE8?oc=5",
+       "source": "bnt뉴스"
+      },
+      {
+       "title": "오존, 데뷔 10년 만에 첫 정규앨범 ‘Qualia’ 발매…한층 넓어진 음악 세계",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaTXBwN3doaWlBeFlzMzRNYmFyWkxpMi11VldyWkFmUUZHRXRTbUNDMkNQVkM0TjJOam53MHdyMlNDZzRKaUE2b3puOEc5Z2NxbEpuTVkyYjdzZThtbGwtR1hGaS1ndHhq?oc=5",
+       "source": "CBC뉴스"
+      }
+     ]
+    },
+    {
+     "title": "밴드 하이파이유니콘, 새 싱글 '크랙' 공개",
+     "summary": null,
+     "ai": false,
+     "article_count": 4,
+     "source_count": 4,
+     "links": [
+      {
+       "title": "하이파이유니콘, 오늘(27일) 새 디지털 싱글 ‘Crack’ 발매…밝고 힘찬 밴드 사운드 담아",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43ZnVHbHlfWDNqSTR0NEtzUk14cUVzTUVLZk5nOFlGcnRndVlTZ2Nmc1ZzZUI4dFRiOTJCN01jZGpYZUNBbFZwTzVya1Vjb1ZHR0N4bkk1aDY5REpMRWh1eFZB?oc=5",
+       "source": "RNX뉴스"
+      },
+      {
+       "title": "하이파이유니콘, 오늘 신곡 '크랙' 발매",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sdVNUSlBjTUlKdHJXeENwdGo1VGlETklWa2pSeW5uZ3k2YklzU2hTcmdaaHlqNHdqcHBsamREQzZUSTNqT2lRNTNEalg2QXlDenRZTFVMRUFXOG1yME5lUnZicE0?oc=5",
+       "source": "bnt뉴스"
+      },
+      {
+       "title": "하이파이유니콘, ‘Crack’ 공개…밝고 힘찬 밴드 사운드",
+       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UUG5sd1oxeUxuZnZDLVFVSVhKN0VGSVduRFZHU1JodjhfeWxSSU4ycGxtbHBhbUh4S3RySE1lUU5JQ0Q4YUZMN1BrU1A1WG5Qb0l3Q3p3?oc=5",
+       "source": "비즈엔터"
+      },
+      {
+       "title": "하이파이유니콘, 오늘(27일) 신곡 ‘Crack’ 발표…콘서트 앞두고 예열",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DYXpZTkU0V053UUNZcUFxbXhpNGt1NDAtSFJzbVpPRkFlUUpLeFlwMmpUQ1JWRHVZTmhsUDJqaXFKbDBINENZSkZTekZ3a1g3cFZLajJKMnFZdXNydDRpQ3RaNmlObHhR?oc=5",
+       "source": "뉴스엔"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
